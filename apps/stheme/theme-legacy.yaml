@@ -768,11 +768,11 @@ legacy/_header_right.html:
                           #themes a { color: black; padding: 7px; }
                           #themes a:hover { background-color: whitesmoke; }
                         div
-                          a href=?theme=legacy style=color:black | Legacy eRacks theme (Default)
+                          a href=?theme=tshop style=color:black | Tshop eRacks theme (default)
                         div
-                          a href=?theme=assan style=color:black;:hover{color:blue} | Assan theme - BETA
+                          a href=?theme=legacy style=color:black | Legacy eRacks theme
                         div
-                          a href=?theme=tshop style=color:black | Tshop theme - BETA
+                          a href=?theme=assan style=color:black;:hover{color:blue} | Assan eRacks theme - BETA
                         ::comment
                           a href=?theme=unify | Unify theme - BETA
         .row

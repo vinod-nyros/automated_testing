@@ -27,7 +27,7 @@ from orders.models import OrderForm, ImportedOrder, PaymentForm
 from customers.models import UserForm, Customer,CustomerForm, Address,AddressForm, BillingAddressForm
 
 
-#### globals
+#### Globals
 
 trace = 0
 trace_grid = 0
@@ -35,6 +35,18 @@ trace_order = 1
 
 
 #### Utility functions
+
+def add_to_cart (request):  # called from here (deprecating) and from product view with redirect to /cart/, here
+  ses = request.session
+  post = request.POST #.dict()
+  seshelp = SessionHelper (request.session)
+
+  prod = ses.get ('prod', None)
+
+  if prod:
+      seshelp.update (request, called_from_cart=True)
+      ses ['cart'] = ses.get ('cart', []) + [prod]
+      ses ['prod'] = {}
 
 
 #### utility classes
@@ -44,7 +56,7 @@ class Container (object):  # Q & D dict-to-attr converter
     self.__dict__ = dict (data)
 
 
-#### utility / admin views:
+#### Utility / admin views:
 
 #@user_passes_test(lambda u: u.is_staff)
 @login_required
@@ -82,43 +94,6 @@ Email {{ email }}
 
 ''')
 
-## Quote email template
-
-quote_email_template = '''
-{s.HOST_NAME} Quote Request:
-
-Dear {u} (eMail: {u.email}),
-
-You have requested a quote - a summary of your quote request is attached.
-
-An eRacks representative will get back to you shortly with your private online quote.
-
-Best regards,
-eRacks Systems
-
-'''
-
-def send_quote_email (req, post, seshelp):
-  user = req.user
-  if not user.is_authenticated:
-    if post.get ('email'):
-      user, pw = create_new_user (EmailForm(post), req)
-    else:
-      return "You must enter an email address"
-
-  text = quote_email_template.format (u=user, s=settings)
-  #html = '<html><body>%s</body></html>' % render_to_string ('_final_cart.html', context_instance=ctx)
-  html = seshelp.cart_details()   # ('email_order.html', context_instance=Context (ctx))
-
-  quote_email_list = [user.email] + settings.ORDER_EMAIL
-  msg = EmailMultiAlternatives ('Your %s eracks quote request' % settings.HNN[0],
-      text,  # nope: '',  # let's try attaching the text,
-      settings.ORDER_FROM_EMAIL,
-      quote_email_list
-  )
-
-  msg.attach_alternative (html, "text/html")
-  msg.send()
 
 
 #### Customer views
@@ -130,23 +105,10 @@ def cart (request):
 
     if post:
         if post.get ('add', None):          # check if we have smth to add to ses.cart
-            prod = ses.get ('prod', None)
-
-            if prod:
-                seshelp.update (request, called_from_cart=True)
-                ses ['cart'] = ses.get ('cart', []) + [prod]
-                ses ['prod'] = {}
+            add_to_cart (request)
 
         elif post.get ('delete', None):     # delete entire cart
             ses ['cart'] = []
-
-        elif post.get ('quote', None):     # send quote request to admin & user both, save in quotes
-            errmsg = send_quote_email (request, post, seshelp)
-            if errmsg:
-              raise Exception (errmsg)
-
-        elif post.get ('wishlist', None):     # Add reference to this product in user's wishlist
-            raise Exception ('Implement Wishlist!')
 
         elif post.get ('update', None):     # update quantities in shopping cart
             cart = ses ['cart']

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 {#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
-{#  GENERATED FROM: theme-assan.yaml at line 196 on 2015-11-09 at 19:41:46 PST(GMT-0800)  #}
+{#  GENERATED FROM: theme-assan.yaml at line 196 on 2015-11-12 at 19:50:19 PST(GMT-0800)  #}
 
 <html lang="en"><head>
         <meta charset="utf-8">
@@ -74,7 +74,7 @@
 
 
 <noscript>
-  <style type="text/css" rel="stylesheet">
+  <style>
     .jsonly {
         display: none!important;
     }
@@ -217,6 +217,21 @@ body {
 ￼  font-size: small;
   font-family: Helvetica, Arial, sans-serif;
   font-stretch: condensed;
+}
+.dropdown-menu li.megamenu-content a.cat-title {
+  margin: 5px -10px;
+  padding: 10px 5px;
+  display: inline-block;
+  background-color: antiquewhite;  /* lightgray, lavender, gold, khaki, salmon, lightsalmon, darksalmon, moccasin, thistle, wheat, springgreen is pretty close to the tshop theme green */
+  border-radius: 5px;
+}
+.dropdown-menu li.megamenu-content a.cat-title:hover {
+  background-color: gray;
+  color: white;
+}
+.dropdown-menu li.megamenu-content a.cat-title img {
+  width:40px;
+  height:auto;
 }
 .product {
   text-align: left;
@@ -517,13 +532,13 @@ body {
       </span>
     </a>
     <ul style="margin-left:-75px" class="dropdown-menu"><li>
-        <a href="?theme=legacy">Legacy eRacks theme (Default)</a>
+        <a href="?theme=tshop">Tshop eRacks theme (Default)</a>
       </li>
       <li>
-        <a href="?theme=assan">Assan theme - BETA</a>
+        <a href="?theme=legacy">Legacy eRacks theme</a>
       </li>
       <li>
-        <a href="?theme=tshop">Tshop theme - BETA</a>
+        <a href="?theme=assan">Assan eRacks theme - BETA</a>
       </li>
     </ul></li>
 </ul></div></div>
@@ -554,8 +569,12 @@ body {
       <li class="megamenu-content">
         <div class="row">
           <div class="col-md-2 col-sm-3 col-xs-4 category">
+            <a href="/products/" title="eRacks Product Showroom - Featured Categories" class="cat-title">
+              <strong>eRacks Product Showroom</strong>
+            </a>
             {% for cat in Categories_objects.published %}
-                <a href="{{ cat.url }}" title="{{ cat.title }}">
+                <a href="{{ cat.url }}" title="{{ cat.title }}" class="cat-title">
+                  <div class="pull-right">{{ cat.image|safe }}</div>
                   <strong>{{ cat.name }}</strong>
                 </a>
                 {% for prod in cat.product_set.published %}

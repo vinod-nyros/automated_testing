@@ -64,5 +64,41 @@ _bloglet_list.html:
 
       ul.owl-carousel.eracks-news-carousel.nojs-inline
         %for post in Post_objects.published
-          li
+          li title="{{ post.pub_date|date:'M j Y' }}: {{ post.title }}"
             =post.body|safe
+
+
+quickpages/base.html:
+  minaml: |
+    %extends "base.html"
+    %load render_as_template
+
+    %block content
+      ::comment
+        don't want prepended h1
+        really should obdjectify category sidebar w/assets
+        =block.super
+
+      .content.row
+        .col-md-9.col-md-push-3
+          ::comment
+            h1 title="{{category.title}}"
+              =category.name
+
+          %render_as_template content
+
+        .col-md-3.col-md-pull-9
+          %include "_category_sidebar.html"
+
+    % block js
+      script VERBATIM
+        /* Scripts for Category sidebar accordion arrows */
+
+        $('.collapseWill').on('click',function(e) {
+          $(this).toggleClass("pressed");
+          e.preventDefault();
+        });
+
+        $(".dropdown-tree-a").click(function() {
+          $(this).parent('.dropdown-tree').toggleClass("open-tree active");
+        });

@@ -1,90 +1,48 @@
 {% extends "base.html" %}
 
 {#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
-{#  GENERATED FROM: $apps_path/products/templets.yaml at line 174 on 2015-11-09 at 19:41:48 PST(GMT-0800)  #}
+{#  GENERATED FROM: $apps_path/products/templets.yaml at line 174 on 2015-11-12 at 19:50:21 PST(GMT-0800)  #}
 
 
 {% load render_as_template %}
 
 {% block extra_head %}
   <style>
-    .cat-summary {
-      min-height: 200px;
-      border: 1px solid lightgray;
-      margin: 10px 0;
-      padding: 10px;
-      /* overflow: auto; */
-      position: relative;
+    .cat .image {
+      height: 200px;
     }
-    .cat-summary .primary-image img {
-      float:right;
-      width: 40%;
-      height: auto;
-      padding: 0 0 10px 10px;
+    .cat .image img {
+      margin: auto;
     }
-    .cat-summary .cat-blurb {
-      width: 68%;
-    }
-    .cat-summary .addl-img {
-      margin-right: 10px;
-    }
-    .cat-summary .cat-price-line {
-      /* border: 1px solid purple; */
-      /* border-radius: 3px; */
-      padding: 10px;
-      margin: 10px;
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      width: 25%;
-      text-transform: none;
-      font-size: larger;
-      letter-spacing: initial;
-    }
-    .cat-summary .cat-price {
-      font-weight: bold;
-      font-size: initial;
-      /* color: purple; */
+    .cat .description {
+      text-align: center;
+      height: 160px;
     }
   </style>
 {% endblock %}
 
 {% block content %}
 
+  <h1>
+    eRacks Categories
+  </h1>
 
-  <div class="content row">
-    <div class="col-md-9 col-md-push-3">
-      <h1 title="{{category.title}}">
-          {{ category.name }}
-      </h1>
-
-      {% render_as_template category.description %}
-
-      <hr>
-
-
-      <div class="product-list">
-        {{ category.prods_as_list_divs }}
-      </div>
+  {% for category in categories %}
+    <div class="item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+      <a href="{{ category.url }}" class="product cat">
+        <div class="image">
+          <img src="/{{ category.image.image }}" alt="{{ category.title }}" class="img-responsive">
+        </div>
+        <hr>
+        <div class="description">
+          <h3>
+            {{ category.name }}
+          </h3>
+          <p>
+            {{ category.blurb|safe }}
+          </p>
+        </div>
+      </a>
     </div>
-
-    <div class="col-md-3 col-md-pull-9">
-      {% include "_category_sidebar.html" %}
-    </div>
-  </div>
-{% endblock %}
-
-{% block js %}
-  <script>
-    /* Scripts for Category sidebar accordion arrows */
-
-    $('.collapseWill').on('click',function(e) {
-      $(this).toggleClass("pressed");
-      e.preventDefault();
-    });
-
-    $(".dropdown-tree-a").click(function() {
-      $(this).parent('.dropdown-tree').toggleClass("open-tree active");
-    });
-  </script>
+  {% endfor %}
 {% endblock %}

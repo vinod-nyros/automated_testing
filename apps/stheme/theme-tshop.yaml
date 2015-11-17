@@ -234,10 +234,10 @@ tshop-home-prepare:
   .parallax-content h1:
     #attr:
     #  style: text-transform:none
-    innerHtml: Finest rackmounts and hosting since 1999
+    innerHtml: Finest rackmounts, hosting and services since 1999
 
   h5.parallaxSubtitle:
-    innerHtml: Private / Hybrid Cloud Hosting, Dev Hosting, Open Source, OpenStack, DevOps / Provisioning, Security Architecture services
+    innerHtml: Private / Hybrid Cloud Hosting, Dev Hosting, Professional services, DevOps / System / Network / Security Architecture
 
   .parallax-section:
     save_template_once: src/_parallax_section.minaml

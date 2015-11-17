@@ -105,6 +105,14 @@
       max-width: 100%;
       height: auto;
     }
+    ul.errorlist {
+      color:red;
+      font-weight:bold;
+    }
+    .alert {
+      font-size:x-large;
+      font-weight:bold;
+    }
     /*
     .panel-body #current-config-summary ul {
       list-style-type: circle;
@@ -265,7 +273,7 @@
             We will get back to you shortly with a private online for your requested configuration,
             as well as our recommendations.
 
-      form.configform action="/cart/" method=POST
+      form.configform method=POST actionNOT="/cart/"
         > input type=hidden name=sku id=sku value="{{ product.sku }}"
         table.configgrid.table.table-hover.col-md-12
           thead
@@ -283,15 +291,21 @@
               td | &nbsp;
 
         .col-md-6
-          > input.btn.btn-lg.btn-primary#add_to_cart type=submit name=add value="Add to Cart"
+          > input.btn.btn-lg.btn-primary.w100#add_to_cart type=submit name=add value="Add to Cart"
           ::comment
             % if user.is_staff
-          > input.btn.btn-lg.btn-primary#get_quote type=submit name=quote value="Get a Quote" title='Get a quote on this configuration. Choose the options you want, click "Request a Quote", and your desired selections will be added to your cart, and a quote request will be sent to us (and a copy to you). We will get back to you shortly with a private online for your requested configuration, as well as our recommendations.'
-          > input type=email name=email placeholder="eMail address for quote" style="width:12em"
+            > input.btn.btn-lg.btn-primary#get_quote type=submit name=quote value="Get a Quote" title='Get a quote on this configuration. Choose the options you want, click "Request a Quote", and your desired selections will be added to your cart, and a quote request will be sent to us (and a copy to you). We will get back to you shortly with a private online for your requested configuration, as well as our recommendations.'
+            > input type=email name=email placeholder="eMail address for quote" style="width:12em"
 
-        p.col-md-6
-          Choose the desired options and click "Add to Cart". You may also request a quote, please add additional requests and information in the "Notes" field.
-          Your quote request will be sent to your profile's eMail if you are logged in, otherwise enter the email address below (required only if not logged in).
+        .col-md-6
+            ::comment
+              form method=POST
+                > input type=hidden name=sku id=sku value="{{ product.sku }}"
+          =emailform
+          > input.btn.btn-lg.btn-primary#get_quote type=submit name=quote value="Get a Quote" title='Get a quote on this configuration. Choose the options you want, click "Request a Quote", and your desired selections will be added to your cart, and a quote request will be sent to us (and a copy to you). We will get back to you shortly with a private online for your requested configuration, as well as our recommendations.'
+          p
+            To request a quote, please add additional requests and information in the "Notes" field.
+            Your quote request will be sent to your profile's eMail if you are logged in, otherwise enter the email address below (required only if not logged in).
 
     ::comment
       noscript

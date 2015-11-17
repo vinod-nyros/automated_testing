@@ -143,7 +143,7 @@ head-noscript:
   head:
     append: |
       <noscript>
-        <style type="text/css" rel="stylesheet">
+        <style>
           .jsonly {
               display: none!important;
           }
@@ -342,11 +342,11 @@ top-bar-right:
             Theme
         ul.dropdown-menu style="margin-left:-75px"
           li
-            a href=?theme=legacy | Legacy eRacks theme (Default)
+            a href=?theme=tshop | Tshop eRacks theme (Default)
           li
-            a href=?theme=assan | Assan theme - BETA
+            a href=?theme=legacy | Legacy eRacks theme
           li
-            a href=?theme=tshop | Tshop theme - BETA
+            a href=?theme=assan | Assan eRacks theme - BETA
           ::comment
             li
               a href=?theme=unify | Unify theme - BETA
@@ -467,6 +467,21 @@ main-nav-megamenus:
       font-family: Helvetica, Arial, sans-serif;
       font-stretch: condensed;
     }
+    .dropdown-menu li.megamenu-content a.cat-title {
+      margin: 5px -10px;
+      padding: 10px 5px;
+      display: inline-block;
+      background-color: antiquewhite;  /* lightgray, lavender, gold, khaki, salmon, lightsalmon, darksalmon, moccasin, thistle, wheat, springgreen is pretty close to the tshop theme green */
+      border-radius: 5px;
+    }
+    .dropdown-menu li.megamenu-content a.cat-title:hover {
+      background-color: gray;
+      color: white;
+    }
+    .dropdown-menu li.megamenu-content a.cat-title img {
+      width:40px;
+      height:auto;
+    }
     .product {
       text-align: left;
       padding: 0 6px;
@@ -485,8 +500,11 @@ main-nav-megamenus:
           li.megamenu-content
             .row
               .col-md-2.col-sm-3.col-xs-4.category
+                a.cat-title href="/products/" title="eRacks Product Showroom - Featured Categories"
+                  strong | eRacks Product Showroom
                 %for cat in Categories_objects.published
-                    a href="{{ cat.url }}" title="{{ cat.title }}"
+                    a.cat-title href="{{ cat.url }}" title="{{ cat.title }}"
+                      .pull-right |= cat.image|safe
                       strong |= cat.name
                     %for prod in cat.product_set.published
                       .product
@@ -573,7 +591,7 @@ tagline-well:
     .well.well-sm#tagline
       h2
         em
-          eRacks Open Source Systems - embracing Open Source since 1999
+          eRacks Systems - Open Source experts since 1999
 
 
 ### GENERIC DECLARATIONS - main content with messages ###
@@ -1007,10 +1025,13 @@ footer-copyright:
 
 epilog:
   head:
+    #- prepend: |
+    #    {% load compress %}
     - append: '{{ quick_styles|safe }}'
     - append_styles
 
   head link[rel=stylesheet], head style:
+    #wrap_command: compress css
     wrap_command: block compress_css
     #show_attr: href
 

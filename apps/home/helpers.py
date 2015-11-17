@@ -321,3 +321,58 @@ class SessionHelper (object):
             d='cart', width='100%')
         return table
 
+
+#### Product / Session dict helpers - originally in quickie show_order_cart script
+
+class Prod (): # dict):
+    def __init__ (self, prod):
+        self.__dict__.update (prod)
+        self.option_list = [Opt (k,v) for k,v in self.opts.items()]
+        self.options_by_id = dict ([(o.id, o) for o in self.option_list])
+
+    def options (self):
+        return self.opts.items()
+        #for k,v in self.opts.items():
+        #    selectedchoiceid = v ['selectedchoiceid']
+        #    print '%s: %s' % (v ['name'], v ['choices'] [selectedchoiceid])
+
+    def all_choices (self):
+        rslt = []
+        for o in self.option_list:
+            selectedchoice = o.choices_by_id [o.selectedchoiceid]
+            if o.choiceqty > 0:
+              if o.choiceqty > 1:
+                rslt += ['%s: %sx %s' % (o.name, o.choiceqty, selectedchoice.name)]
+              else:
+                rslt += ['%s: %s' % (o.name, selectedchoice.name)]
+        return rslt
+    @property
+    def options_choices_as_txt (self):
+      return '\n'.join (self.all_choices())
+
+    @property
+    def options_choices_as_br (self):
+      return '<br>'.join (self.all_choices())
+
+class Id_dict():
+    def __init__ (self, id, dct):
+        self.__dict__.update (dct)
+        assert self.id == int(id), (self.id, id)
+
+class Opt (Id_dict):
+    def __init__ (self, theid, dct):
+        theid = theid.split ('_') [0]
+        #super(Opt, self).__init__ (theid, dct)
+        Id_dict.__init__ (self, theid, dct)
+        self.choiceqty = dct.get ('choiceqty', 1)
+        self.selectedchoice = dct.get ('selectedchoice', 0)
+
+        self.choice_list = [Choice (k,v) for k,v in self.choices.items()]
+        self.choices_by_id = dict ([(c.id, c) for c in self.choice_list])
+
+        self.selectedchoiceid = dct.get ('selectedchoiceid', dct.get('defaultchoice_id'))
+        self.selectedchoice = self.choices_by_id [self.selectedchoiceid]
+
+class Choice (Id_dict):
+    pass
+

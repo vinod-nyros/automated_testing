@@ -7,23 +7,26 @@ try:
 except ImportError:
     import simplejson as json
 
+from django import forms
 #from django.http import HttpResponse
 from django.shortcuts import render_to_response
 from django.http import HttpResponse, HttpResponseRedirect, Http404
 from django.template import RequestContext  # Template, Context,
 from django.utils.safestring import mark_safe
 from django.template.defaultfilters import slugify
+from django.conf import settings
+from django.contrib.sitemaps import Sitemap
+from django.contrib import messages
+from django.core.mail import EmailMultiAlternatives
+from django.contrib.auth.models import User
 
 from utils import minitags as tags
 from utils import Breadcrumb
-
-from home.helpers import SessionHelper
-
+from home.helpers import SessionHelper, Prod
+from home.views import create_new_user
+from orders.views import add_to_cart
 from products.models import Product, Categories
 
-from django.conf import settings
-
-from django.contrib.sitemaps import Sitemap
 
 class ProductSitemap(Sitemap):
     changefreq = "daily"
@@ -35,7 +38,8 @@ class ProductSitemap(Sitemap):
     def lastmod(self, obj):
         return obj.updated
 
-#### globals and functions
+
+#### Globals and utility functions
 
 product_breadcrumb = Breadcrumb ('Products', 'eRacks Products', '/products/')
 
@@ -56,6 +60,113 @@ def product_photos (product):
     except Exception, e:
         print e
         return []
+
+
+#### Quote email template
+
+quote_cart_request_email_template = '''
+{s.HOST_NAME} Quote Request:
+
+Dear {u} (eMail: {u.email}),
+
+You have requested a quote - a summary of your quote request is attached.
+
+An eRacks representative will get back to you shortly with your private online quote.
+
+Best regards,
+eRacks Systems
+
+'''
+
+quote_product_request_email_template = '''
+{s.HOST_NAME} Quote Request:
+
+Dear {u} (eMail: {u.email}),
+
+You have requested a product quote for: {p.name}
+
+Options and Choices:
+
+{p.options_choices_as_txt}
+
+Notes: {p.notes}
+
+Base price: ${p.baseprice:.2f}
+Price with requested configuration: ${p.totprice:.2f}
+Shipping Weight: {p.weight} lbs
+
+An eRacks representative will get back to you shortly with your private online quote.
+
+Best Regards,
+eRacks Systems
+
+'''
+
+
+
+#### Get-a-Quote related
+
+def send_quote_email(req, user):
+  print 'send_quote_email'
+  ses = req.session
+  seshelp = SessionHelper (ses)
+  seshelp.update (req, called_from_cart=True)
+  prod = ses.get ('prod', None)
+
+  text = quote_product_request_email_template.format (u=user, s=settings, p=Prod(prod))
+
+  # these lines add to cart before sending it - use with other template above, call from cart page:
+  #html = '<html><body>%s</body></html>' % render_to_string ('_final_cart.html', context_instance=ctx)
+  #ses ['cart'] = ses.get ('cart', []) + [prod]
+  #ses ['prod'] = {}
+  #html = seshelp.cart_details()
+  #print 'SESHELP', seshelp.cart_summary(), seshelp.cart_details()
+
+  quote_email_list = [user.email] + settings.ORDER_EMAIL
+  msg = EmailMultiAlternatives ('Your %s eracks quote request' % settings.HNN[0],
+      text,  # nope: '',  # let's try attaching the text,
+      settings.ORDER_FROM_EMAIL,
+      quote_email_list
+  )
+
+  #msg.attach_alternative (html, "text/html")
+  print 'send_quote_email'
+  print 'haijaisjaisjak'
+  print '****************settings.ORDER_FROM_EMAIL,'
+  print user.email
+  msg.send()
+
+
+def emailForm (req):  # inner form to access request
+  class EmailForm(forms.Form):
+    email = forms.EmailField(max_length=128, required=False)
+    print '****************test_1'
+    def clean(self):
+      cleaned_data = super(EmailForm, self).clean()
+      email = cleaned_data.get("email")
+      print 'emailentered'
+      print '************'
+      print email
+      if email:
+        users = User.objects.filter (email__iexact=email)
+        print 'users********************'
+        print users
+        if users:
+          user=users [0]
+        else:
+          user, pw = create_new_user (self, req)
+      else:
+        user = req.user
+
+        if not user.is_authenticated():
+          #self.add_error ('email',
+          raise forms.ValidationError ("You must either be logged in, or enter an email address to receive your quote")
+
+      print 'USER', user, user.is_authenticated()
+      send_quote_email (req, user)
+
+  return EmailForm
+
 
 #### View functions
 
@@ -143,6 +254,24 @@ def product (request, category, sku):
     else:
         assert request.session.get ('prod', None)
 
+    post = request.POST #.copy()  # make it mutable to add sku
+
+    if post:  # only for small subform(s) like email quote and future wishlist
+        if post.get ('quote', None):     # send quote request to admin & user both, save in quotes
+          print 'POST', post
+          emailform=emailForm(request)(post)
+          if emailform.is_valid():
+            messages.success (request, 'Your quote request has been sent')
+
+        elif post.get ('wishlist', None):     # Add reference to this product in user's wishlist
+            raise Exception ('Implement Wishlist!')
+        else:
+          add_to_cart (request)
+          return HttpResponseRedirect('/cart/')
+
+    else:
+      emailform = emailForm(request)()
+
     breadcrumbs = (
         product_breadcrumb,
         product.category,
@@ -161,6 +290,7 @@ def product (request, category, sku):
             meta_description=product.meta_description,
             photos=photos,
             photos_list=photos_list,
+            emailform=emailform,
             js_bottom=mark_safe (tags.script (config_grid_js, type='text/javascript')),
         ), context_instance=RequestContext(request))
 

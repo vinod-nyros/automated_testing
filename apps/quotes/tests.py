@@ -7,7 +7,12 @@ Replace these with more appropriate tests for your application.
 
 from django.test import TestCase
 from quotes.models import *
-
+from django.conf import settings
+from selenium import webdriver
+from django.test import Client
+from utils.tests import find_first
+import time
+from products.views import send_quote_email
 
 class SimpleTest(TestCase):
 
@@ -65,3 +70,88 @@ class QuoteTest(TestCase):
     def test_header_items(self):
         quote1 = Quote.objects.get(quote_number='022222-LAPI')
         self.assertTrue(quote1.header_items)
+
+
+breakpoint = 0
+
+driver = None
+
+if settings.SELENIUM_DRIVER=='Firefox':
+    if settings.FIREFOXPRESENT:
+        driver = True #webdriver.Firefox()
+elif settings.SELENIUM_DRIVER=='Chrome':
+    if settings.CHROMEPRESENT:
+        driver = webdriver.Chrome(executable_path=settings.CHROME_DRIVER_PATH)
+
+if driver:
+    from django.test import LiveServerTestCase
+    # changed in django 1.7 to load staticfiles
+    from django.contrib.staticfiles.testing import StaticLiveServerTestCase
+    # from selenium.webdriver.firefox.webdriver import WebDriver
+    from selenium.webdriver.support.select import Select
+    import functools
+    def test_drivers(driver_pool='drivers'):
+        def wrapped(test_func):
+            @functools.wraps(test_func)
+            def decorated(test_case, *args, **kwargs):
+                test_class = test_case.__class__
+                web_driver_pool = getattr(test_class, driver_pool)
+                for web_driver in web_driver_pool:
+                    setattr(test_case, 'selenium', web_driver)
+                    test_func(test_case, *args, **kwargs)
+            return decorated
+        return wrapped
+
+    class MySeleniumTests(StaticLiveServerTestCase):
+        selenium = None
+        fixtures = ['catax.yaml', 'products.yaml', 'quickpages.yaml']
+        csrf_client = Client(enforce_csrf_checks=True)
+
+        def setUp(self):
+            user1 = User.objects.create_user(
+                username="test1_eracks@yopmail.com", email="test1_eracks@yopmail.com", password="testuser1")
+
+        @classmethod
+        def setUpClass(cls):
+            cls.drivers = WebDriverList(webdriver.Firefox())
+            super(MySeleniumTests, cls).setUpClass()
+
+        @classmethod
+        def tearDownClass(cls):
+            cls.drivers.quit()
+            super(MySeleniumTests, cls).tearDownClass()
+
+        @test_drivers()
+        def login_with_email(self):
+            self.selenium.get('%s%s' % (self.live_server_url, '/accounts/login/'))
+
+            ## Select the visible ones, not the modal(hidden) one - fill in user & pw, submit
+            username_input = find_first (self.selenium, '#content_row input#id_identification', '#content input#id_identification')
+            username_input.send_keys('test1_eracks@yopmail.com')
+            password_input = find_first (self.selenium, '#content_row input#id_password', '#content input#id_password')
+            password_input.send_keys('testuser1')
+            find_first (self.selenium, '#content_row input[type=submit][value=Signin]', '#content input[type=submit][value=Signin]').click()
+            time.sleep(2)
+            self.selenium.get('%s%s' % (self.live_server_url, '/products/firewall-servers/DMZ/'))
+            time.sleep(5)
+            click_getquote = self.selenium.find_element_by_id('get_quote').click()
+            email = 
+            getquote_with_email = self.selenium.find_element_by_id('get_quote').click()
+            time.sleep(200)
+
+            
+            ## grab screens
+            if self.selenium.name=='chrome':
+                self.selenium.get_screenshot_as_file('media/test_results_screens/chrome/test_login.png')
+            if self.selenium.name=='firefox':
+                self.selenium.get_screenshot_as_file('media/test_results_screens/firefox/test_login.png')
+            self.assertIn("Your quote request has been sent", self.selenium.page_source)
+            
+
+    class WebDriverList(list):
+        def __init__(self, *drivers):
+            super(WebDriverList, self).__init__(drivers)
+
+        def quit(self):
+            for driver in self:
+                driver.quit()

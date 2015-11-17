@@ -24,5 +24,5 @@ def find_first(selenium, *selector_list):
             elm = selenium.find_element_by_css_selector (sel)
             return elm
         except Exception,e:
-            if e: print e
+            if e: pass
     raise Exception ("No selector matches")

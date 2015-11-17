@@ -179,43 +179,15 @@ categories.html:
 
     %block extra_head
       style VERBATIM
-        .cat-summary {
-          min-height: 200px;
-          border: 1px solid lightgray;
-          margin: 10px 0;
-          padding: 10px;
-          /* overflow: auto; */
-          position: relative;
+        .cat .image {
+          height: 200px;
         }
-        .cat-summary .primary-image img {
-          float:right;
-          width: 40%;
-          height: auto;
-          padding: 0 0 10px 10px;
+        .cat .image img {
+          margin: auto;
         }
-        .cat-summary .cat-blurb {
-          width: 68%;
-        }
-        .cat-summary .addl-img {
-          margin-right: 10px;
-        }
-        .cat-summary .cat-price-line {
-          /* border: 1px solid purple; */
-          /* border-radius: 3px; */
-          padding: 10px;
-          margin: 10px;
-          position: absolute;
-          right: 0;
-          bottom: 0;
-          width: 25%;
-          text-transform: none;
-          font-size: larger;
-          letter-spacing: initial;
-        }
-        .cat-summary .cat-price {
-          font-weight: bold;
-          font-size: initial;
-          /* color: purple; */
+        .cat .description {
+          text-align: center;
+          height: 160px;
         }
 
     %block content
@@ -223,70 +195,55 @@ categories.html:
         don't want prepended title:
         =block.super
 
-        HERE - do we want 3x boxes, or cat sidebard (redundant)?
+        4/3/2 boxes
+        %for c in '12345678901234567890'
+        Categories.objects.published
+              =category.image|safe
+
+      h1
+        eRacks Categories
+
+      %for category in categories
+        .item.col-lg-3.col-md-3.col-sm-4.col-xs-6
+          a.product.cat href="{{ category.url }}"
+            .image
+              > img src="/{{ category.image.image }}" alt="{{ category.title }}" class="img-responsive"
+            > hr
+            .description
+              h3
+                =category.name
+              p
+                =category.blurb|safe
 
 
-      .content.row
-        .col-md-9.col-md-push-3
-          h1 title="{{category.title}}"
-              =category.name
+comment:
+  products.html:  # not used - replaced by categories, above
+    minaml: |
+      %extends "base_onecolumn.html"
 
-          %render_as_template category.description
+      %block content
+          =block.super
 
-          > hr
+          .content
+              h1
+                  Products
 
-          ::comment
-            h2
-              Products in this category
+              dl.nice.tabs#products_tabs
+                  dd
+                      a.active href="#bycat" | By Category
+                  dd
+                      a href="#byapp" | By Application
 
-          .product-list
-            =category.prods_as_list_divs
-
-        .col-md-3.col-md-pull-9
-          %include "_category_sidebar.html"
-
-    % block js
-      script VERBATIM
-        /* Scripts for Category sidebar accordion arrows */
-
-        $('.collapseWill').on('click',function(e) {
-          $(this).toggleClass("pressed");
-          e.preventDefault();
-        });
-
-        $(".dropdown-tree-a").click(function() {
-          $(this).parent('.dropdown-tree').toggleClass("open-tree active");
-        });
-
-
-
-products.html:  # TODO: Finish this for new themes
-  minaml: |
-    %extends "base_onecolumn.html"
-
-    %block content
-        =block.super
-
-        .content
-            h1
-                Products
-
-            dl.nice.tabs#products_tabs
-                dd
-                    a.active href="#bycat" | By Category
-                dd
-                    a href="#byapp" | By Application
-
-            ul.nice.tabs-content
-                li.active#bycatTab
-                    ul.block-grid.three-up
-                        %for cat in categories
-                            li.panel
-                                =cat.blurb|safe
-                                a href="{{ cat.url }}" title="{{ cat.title }}"
-                                    =cat.name
-                li#byappTab
-                    #idea Implement b's tags idea here
+              ul.nice.tabs-content
+                  li.active#bycatTab
+                      ul.block-grid.three-up
+                          %for cat in categories
+                              li.panel
+                                  =cat.blurb|safe
+                                  a href="{{ cat.url }}" title="{{ cat.title }}"
+                                      =cat.name
+                  li#byappTab
+                      #idea Implement b's tags idea here
 
 
 legacy/category.html:
