@@ -1,7 +1,6 @@
 dependencies:
   override:
     - pip install -r conf/requirements.txt
-    - .conf/salt-requirements.sh
 test:
   override:
     - python manage.py test
