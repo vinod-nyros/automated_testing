@@ -13,7 +13,7 @@ from django.test import Client
 from utils.tests import find_first
 import time
 from products.views import send_quote_email
-
+from utils.tests import find_first
 class SimpleTest(TestCase):
 
     def test_basic_addition(self):
@@ -104,28 +104,33 @@ if driver:
 
     class MySeleniumTests(StaticLiveServerTestCase):
         selenium = None
-        fixtures = ['catax.yaml', 'products.yaml', 'quickpages.yaml']
+        fixtures = ['quickpages.yaml','users.yaml','bloglets.yaml', 'products_all.yaml', 'home.yaml']
         csrf_client = Client(enforce_csrf_checks=True)
+        #fixtures = ['user-data.json']
 
         def setUp(self):
             user1 = User.objects.create_user(
                 username="test1_eracks@yopmail.com", email="test1_eracks@yopmail.com", password="testuser1")
+            my_admin = User.objects.create_superuser('myuser', 'myemail@test.com', 'myuser')
 
         @classmethod
         def setUpClass(cls):
+            #cls.drivers = WebDriverList(webdriver.Chrome(executable_path=settings.CHROME_DRIVER_PATH),webdriver.Firefox())
             cls.drivers = WebDriverList(webdriver.Firefox())
+            #cls.selenium = webdriver.Firefox()  #driver
             super(MySeleniumTests, cls).setUpClass()
 
         @classmethod
         def tearDownClass(cls):
+            # cls.selenium.quit()
             cls.drivers.quit()
             super(MySeleniumTests, cls).tearDownClass()
+        from django.test.utils import override_settings
 
+        #user login without filling email field
         @test_drivers()
-        def login_with_email(self):
+        def test_login_without_email(self):
             self.selenium.get('%s%s' % (self.live_server_url, '/accounts/login/'))
-
-            ## Select the visible ones, not the modal(hidden) one - fill in user & pw, submit
             username_input = find_first (self.selenium, '#content_row input#id_identification', '#content input#id_identification')
             username_input.send_keys('test1_eracks@yopmail.com')
             password_input = find_first (self.selenium, '#content_row input#id_password', '#content input#id_password')
@@ -133,20 +138,85 @@ if driver:
             find_first (self.selenium, '#content_row input[type=submit][value=Signin]', '#content input[type=submit][value=Signin]').click()
             time.sleep(2)
             self.selenium.get('%s%s' % (self.live_server_url, '/products/firewall-servers/DMZ/'))
-            time.sleep(5)
+            time.sleep(2)
             click_getquote = self.selenium.find_element_by_id('get_quote').click()
-            email = 
-            getquote_with_email = self.selenium.find_element_by_id('get_quote').click()
-            time.sleep(200)
+            sentemail = self.selenium.find_element_by_css_selector('#content div.alert.alert-success.alert-dismissible').text
+            if self.selenium.name=='chrome':
+                self.selenium.get_screenshot_as_file('media/test_results_screens/chrome/test_login.png')
+            if self.selenium.name=='firefox':
+                self.selenium.get_screenshot_as_file('media/test_results_screens/firefox/test_login.png')
+            self.assertIn("Your quote request has been sent to test1_eracks@yopmail.com", 
+                sentemail)
 
-            
+        #user login with filling email field
+        @test_drivers()
+        def test_login_with_email(self):
+            before_get_quote = User.objects.all().count()
+            self.selenium.get('%s%s' % (self.live_server_url, '/accounts/login/'))
+            ## Select the visible ones, not the modal(hidden) one - fill in user & pw, submit
+            username_input = find_first (self.selenium, '#content_row input#id_identification', '#content input#id_identification')
+            username_input.send_keys('test1_eracks@yopmail.com')
+            password_input = find_first (self.selenium, '#content_row input#id_password', '#content input#id_password')
+            password_input.send_keys('testuser1')
+            find_first (self.selenium, '#content_row input[type=submit][value=Signin]', '#content input[type=submit][value=Signin]').click()
+            time.sleep(1)
+            self.selenium.get('%s%s' % (self.live_server_url, '/products/firewall-servers/DMZ/'))
+            time.sleep(1)
+            email = self.selenium.find_element_by_css_selector('form.configform #id_email')
+            time.sleep(1)
+            email.send_keys("test_withemail_eracks@yopmail.com")
+            time.sleep(2)
+            override_email = User.objects.filter(email ="test1_eracks@yopmail.com").update(email="test_withemail_eracks@yopmail.com")
+            click_getquote = self.selenium.find_element_by_id('get_quote').click()
+            after_get_quote =User.objects.all().count()
+            sentemail = self.selenium.find_element_by_css_selector('#content div.alert.alert-success.alert-dismissible').text
             ## grab screens
             if self.selenium.name=='chrome':
                 self.selenium.get_screenshot_as_file('media/test_results_screens/chrome/test_login.png')
             if self.selenium.name=='firefox':
                 self.selenium.get_screenshot_as_file('media/test_results_screens/firefox/test_login.png')
-            self.assertIn("Your quote request has been sent", self.selenium.page_source)
-            
+            # self.assertIn("Your quote request has been sent to testemail@yopmail.com", 
+            #     sentemail)
+
+            self.assertEqual(before_get_quote, after_get_quote)
+        
+        #user not logged in and filling email field
+        @test_drivers()
+        def test_logout_with_email(self):
+            before_get_quote = User.objects.all().count()
+            self.selenium.get('%s%s' % (self.live_server_url, '/products/firewall-servers/DMZ/'))
+            email = self.selenium.find_element_by_css_selector('form.configform #id_email')
+            email.send_keys("testemail_eracks@yopmail.com")
+            create_user = User.objects.create(email ="testemail_eracks@yopmail.com")
+            time.sleep(5)
+            click_getquote = self.selenium.find_element_by_id('get_quote').click()
+
+            time.sleep(5)
+            after_get_quote = User.objects.all().count()
+
+            ## grab screens
+            if self.selenium.name=='chrome':
+                self.selenium.get_screenshot_as_file('media/test_results_screens/chrome/test_login.png')
+            if self.selenium.name=='firefox':
+                self.selenium.get_screenshot_as_file('media/test_results_screens/firefox/test_login.png')
+            self.assertEqual(after_get_quote, before_get_quote+1)
+
+        #user not logged in and without filling email field
+        @test_drivers()
+        def test_logout_without_email(self):
+            self.selenium.get('%s%s' % (self.live_server_url, '/products/firewall-servers/DMZ/'))
+            click_getquote = self.selenium.find_element_by_id('get_quote').click()
+            time.sleep(5)
+            error = self.selenium.find_element_by_css_selector('ul.errorlist li:nth-child(1)').text
+            ## grab screens
+            if self.selenium.name=='chrome':
+                self.selenium.get_screenshot_as_file('media/test_results_screens/chrome/test_login.png')
+            if self.selenium.name=='firefox':
+                self.selenium.get_screenshot_as_file('media/test_results_screens/firefox/test_login.png')
+
+            self.assertIn("You must either be logged in, or enter an email address to receive your quote", 
+                error)
+
 
     class WebDriverList(list):
         def __init__(self, *drivers):
