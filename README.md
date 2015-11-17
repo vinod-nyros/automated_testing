@@ -1,0 +1,1 @@
+This is about Automated test cases to run daily by using cicle CI
