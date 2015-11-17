@@ -1,0 +1,62 @@
+% extends "base.html"
+
+% block css
+  style VERBATIM
+    #customers h1 {
+      font-weight: bold;
+    }
+    #customers ul {
+      -webkit-column-count: 4;
+      -moz-column-count: 4;
+      -khtml-column-count: 4;
+      -ms-column-count: 4;
+      -o-column-count: 4;
+      column-count: 4;
+      -webkit-column-gap: 18px;
+      -moz-column-gap: 18px;
+      -khtml-column-gap: 18px;
+      -ms-column-gap: 18px;
+      -o-column-gap: 18px;
+      column-gap: 18px;
+    }
+    #customers li {
+      display: inline-block;
+      padding: 20px;
+    }
+    #customers li a img, #customers li {
+      max-width: 100%;
+    }
+    #testimonials h2 {
+      font-weight: bold;
+    }
+    #testimonials li a {
+      color: #A35CFF;   // blue;
+    }
+    #testimonials li a:hover {
+      color: #6F76FF;
+    }
+
+% block content
+  .col-lg-9.col-md-9.col-sm-9.col-xs-8#customers
+    h1.title-big.text-center.section-title.style2
+      span | Customers
+    ul
+      % for cust in customers
+        li
+          a href="{{ cust.link }}" title="{{ cust.title }}"
+            > img src="/{{ cust.image }}" alt="{{ cust.title }}"
+          > br
+          strong |= cust.caption
+          > br
+          =cust.location
+  .col-lg-3.col-md-3.col-sm-3.col-xs-4#testimonials
+    h2 | Testimonials
+    ul
+      % for testim in testimonials
+        li
+          i |= testim.quote|safe
+          > br
+          > br
+          = testim.attribution|safe
+          > hr
+

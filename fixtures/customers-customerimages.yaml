@@ -1,0 +1,261 @@
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_list.html
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_config_summary.html
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_config_tab.html
+compiling /home/joe/django_eracks/apps/products/templets.py to product.html
+compiling /home/joe/django_eracks/apps/products/templets.py to products.html
+compiling /home/joe/django_eracks/apps/products/templets.py to category.html
+compiling /home/joe/django_eracks/apps/bloglets/templets.py to _bloglet_list.html
+- fields: {caption: National Public Radio, created: !!timestamp '2012-03-26 14:19:47.956012',
+    customer: null, image: images/customers/npr.gif, link: 'http://www.npr.org/',
+    location: 'Washington, DC', published: true, sortorder: 100, title: NPR, updated: !!timestamp '2012-05-27
+      17:14:02.834913'}
+  model: customers.customerimage
+  pk: 53336
+- fields: {caption: 'University of California, San Francisco', created: !!timestamp '2012-03-26
+      14:19:48.486847', customer: null, image: images/customers/ucsf.gif, link: 'http://ucsf.edu/',
+    location: 'San Francisco, CA', published: true, sortorder: 110, title: UCSF, updated: !!timestamp '2012-05-27
+      17:56:06.772312'}
+  model: customers.customerimage
+  pk: 53337
+- fields: {caption: FOX Broadcasting Company, created: !!timestamp '2012-03-26 14:19:48.960433',
+    customer: null, image: images/customers/fox.png, link: 'http://www.fox.com', location: 'Hollywood,
+      CA', published: true, sortorder: 120, title: FOX Broadcasting Company, updated: !!timestamp '2012-05-27
+      17:56:16.263189'}
+  model: customers.customerimage
+  pk: 53338
+- fields: {caption: Motorola, created: !!timestamp '2012-03-26 14:21:31.392139', customer: null,
+    image: images/customers/motorola.gif, link: 'http://www.motorola.com/', location: 'Schaumburg,
+      Illinois', published: true, sortorder: 130, title: '', updated: !!timestamp '2012-05-27
+      17:56:16.435110'}
+  model: customers.customerimage
+  pk: 53341
+- fields: {caption: National Institutes of Health, created: !!timestamp '2012-03-26
+      14:21:31.833047', customer: null, image: images/customers/nih.gif, link: 'http://nih.gov',
+    location: 'Bethesda, MD', published: true, sortorder: 140, title: National Institutes
+      of Health, updated: !!timestamp '2012-05-27 17:56:16.585113'}
+  model: customers.customerimage
+  pk: 53342
+- fields: {caption: MySpace, created: !!timestamp '2012-03-26 14:21:32.263836', customer: null,
+    image: images/customers/myspace.png, link: 'http://www.myspace.com/', location: 'Hollywood,
+      CA', published: true, sortorder: 150, title: myspace.com, updated: !!timestamp '2012-05-27
+      17:56:16.741068'}
+  model: customers.customerimage
+  pk: 53343
+- fields: {caption: WNYU 89.1FM, created: !!timestamp '2012-03-26 14:21:32.673216',
+    customer: null, image: images/customers/wnyu.gif, link: 'http://wnyu.org/', location: 'New
+      York, NY', published: true, sortorder: 160, title: WNYU Radio of NYU, updated: !!timestamp '2012-05-27
+      17:56:16.896214'}
+  model: customers.customerimage
+  pk: 53344
+- fields: {caption: University of Delaware, created: !!timestamp '2012-03-26 14:21:33.083325',
+    customer: null, image: images/customers/udel.jpeg, link: 'http://www.udel.edu',
+    location: 'Newark, DE', published: true, sortorder: 170, title: University of
+      Delaware, updated: !!timestamp '2012-05-27 17:56:17.052990'}
+  model: customers.customerimage
+  pk: 53345
+- fields: {caption: Associated Press, created: !!timestamp '2012-03-26 14:21:33.512793',
+    customer: null, image: images/customers/associatedpress.jpeg, link: 'http://ap.org',
+    location: 'New York, NY', published: true, sortorder: 180, title: ap.org, updated: !!timestamp '2012-05-27
+      17:56:17.203305'}
+  model: customers.customerimage
+  pk: 53346
+- fields: {caption: The Church of Jesus Christ of Latter Day Saints, created: !!timestamp '2012-03-26
+      14:21:33.923986', customer: null, image: images/customers/lds.gif, link: 'http://www.ldschurch.org/',
+    location: 'Salt Lake City, UT', published: true, sortorder: 190, title: The Church
+      of Jesus Christ of Latter Day Saints, updated: !!timestamp '2012-05-27 17:56:17.359024'}
+  model: customers.customerimage
+  pk: 53347
+- fields: {caption: Argonne National Laboratory, created: !!timestamp '2012-03-26
+      14:21:34.386883', customer: null, image: images/customers/argonne.jpeg, link: 'http://www.anl.gov/',
+    location: 'Argonne, IL', published: true, sortorder: 200, title: Argonne National
+      Laboratory, updated: !!timestamp '2012-05-27 17:56:17.511935'}
+  model: customers.customerimage
+  pk: 53348
+- fields: {caption: Google, created: !!timestamp '2012-03-26 14:21:34.797809', customer: null,
+    image: images/customers/google.gif, link: 'http://www.google.com/', location: 'Mountain
+      View, CA', published: true, sortorder: 210, title: Google, updated: !!timestamp '2012-05-27
+      17:56:17.665986'}
+  model: customers.customerimage
+  pk: 53349
+- fields: {caption: Robert Morris University, created: !!timestamp '2012-03-26 14:21:35.263661',
+    customer: null, image: images/customers/rmu.jpeg, link: 'http://www.rmu.edu/',
+    location: 'Moon Township, PA', published: true, sortorder: 220, title: Robert
+      Morris University, updated: !!timestamp '2012-05-27 17:56:17.817879'}
+  model: customers.customerimage
+  pk: 53350
+- fields: {caption: Alaska Pacific University, created: !!timestamp '2012-03-26 14:21:35.940711',
+    customer: null, image: images/customers/alaskapacific.gif, link: 'http://www.alaskapacific.edu/',
+    location: 'Anchorage, AK', published: true, sortorder: 230, title: Alaska Pacific
+      University, updated: !!timestamp '2012-05-27 17:56:17.973034'}
+  model: customers.customerimage
+  pk: 53351
+- fields: {caption: Caltech Astromony, created: !!timestamp '2012-03-26 14:21:37.177798',
+    customer: null, image: images/customers/caltechastro.jpeg, link: 'http://www.astro.caltech.com/',
+    location: 'Palomar Mountain, CA', published: true, sortorder: 240, title: Caltech
+      Astronomy, updated: !!timestamp '2012-05-27 17:56:18.179175'}
+  model: customers.customerimage
+  pk: 53352
+- fields: {caption: Industrial Light & Magic, created: !!timestamp '2012-03-26 14:21:37.613015',
+    customer: null, image: images/customers/ilmlogo.gif, link: 'http://www.ilm.com/',
+    location: 'San Rafael, CA', published: true, sortorder: 250, title: Industrial
+      Light & Magic, updated: !!timestamp '2012-05-27 17:56:18.339132'}
+  model: customers.customerimage
+  pk: 53353
+- fields: {caption: Procter and Gamble Company, created: !!timestamp '2012-03-26 14:21:38.034853',
+    customer: null, image: images/customers/pandg.gif, link: 'http://www.pandg.com/',
+    location: 'Cincinnati, OH', published: true, sortorder: 260, title: Procter and
+      Gamble Company, updated: !!timestamp '2012-05-27 17:56:18.492321'}
+  model: customers.customerimage
+  pk: 53354
+- fields: {caption: Harvard School of Public Health, created: !!timestamp '2012-03-26
+      14:21:38.446048', customer: null, image: images/customers/hsph_logo.gif, link: 'http://www.hsph.harvard.edu/',
+    location: 'Boston, MA', published: true, sortorder: 270, title: Harvard School
+      of Public Health, updated: !!timestamp '2012-05-27 17:56:18.642103'}
+  model: customers.customerimage
+  pk: 53355
+- fields: {caption: 'University of California, Los Angeles', created: !!timestamp '2012-03-26
+      14:21:38.878349', customer: null, image: images/customers/ucla.gif, link: 'http://www.ucla.edu/',
+    location: 'Los Angeles, CA', published: true, sortorder: 280, title: www.ucla.edu,
+    updated: !!timestamp '2012-05-27 17:56:18.791407'}
+  model: customers.customerimage
+  pk: 53356
+- fields: {caption: 'University of California, Berkeley', created: !!timestamp '2012-03-26
+      14:21:39.307899', customer: null, image: images/customers/berkeley.gif, link: 'http://www.berkeley.edu',
+    location: 'Berkeley, CA', published: true, sortorder: 290, title: www.berkeley.edu,
+    updated: !!timestamp '2012-05-27 17:56:18.944211'}
+  model: customers.customerimage
+  pk: 53357
+- fields: {caption: Michigan State University, created: !!timestamp '2012-03-26 14:21:39.727045',
+    customer: null, image: images/customers/msu.gif, link: 'http://www.msu.edu/',
+    location: 'East Lansing, MI', published: true, sortorder: 300, title: www.msu.edu,
+    updated: !!timestamp '2012-05-27 17:56:19.094308'}
+  model: customers.customerimage
+  pk: 53358
+- fields: {caption: Northwestern University, created: !!timestamp '2012-03-26 14:21:40.169864',
+    customer: null, image: images/customers/nwu.gif, link: 'http://www.nwu.edu', location: 'Evanston,
+      IL', published: true, sortorder: 310, title: Northwestern University, updated: !!timestamp '2012-05-27
+      17:56:19.256115'}
+  model: customers.customerimage
+  pk: 53359
+- fields: {caption: SANS Institute, created: !!timestamp '2012-03-26 14:21:40.584785',
+    customer: null, image: images/customers/SANSinst.gif, link: 'http://www.sans.org/',
+    location: 'Bethesda, MD', published: true, sortorder: 320, title: www.sans.org,
+    updated: !!timestamp '2012-05-27 17:56:19.409055'}
+  model: customers.customerimage
+  pk: 53360
+- fields: {caption: Dana Farber Cancer Institute, created: !!timestamp '2012-03-26
+      14:21:40.995014', customer: null, image: images/customers/danafarber.gif, link: 'http://www.dana-farber.org',
+    location: 'Boston, MA', published: true, sortorder: 330, title: www.dana-farber.org,
+    updated: !!timestamp '2012-05-27 17:56:19.582552'}
+  model: customers.customerimage
+  pk: 53361
+- fields: {caption: 'University of California, San Diego', created: !!timestamp '2012-03-26
+      14:21:41.416246', customer: null, image: images/customers/ucsd.gif, link: 'http://www.ucsd.edu/',
+    location: 'San Diego, California', published: true, sortorder: 340, title: 'University
+      of California, San Diego', updated: !!timestamp '2012-05-27 17:56:19.741022'}
+  model: customers.customerimage
+  pk: 53362
+- fields: {caption: Purdue University, created: !!timestamp '2012-03-26 14:21:41.847980',
+    customer: null, image: images/customers/purdue.gif, link: 'http://www.purdue.edu',
+    location: 'West Lafayette, Indiana', published: true, sortorder: 350, title: Purdue
+      University, updated: !!timestamp '2012-05-27 17:56:19.933808'}
+  model: customers.customerimage
+  pk: 53363
+- fields: {caption: Cornell University, created: !!timestamp '2012-03-26 14:21:42.275866',
+    customer: null, image: images/customers/cornell.gif, link: 'http://www.cornell.edu/',
+    location: 'Ithaca, New York', published: true, sortorder: 360, title: Cornell
+      University, updated: !!timestamp '2012-05-27 17:56:20.104353'}
+  model: customers.customerimage
+  pk: 53364
+- fields: {caption: Ingenta, created: !!timestamp '2012-03-26 14:21:42.687834', customer: null,
+    image: images/customers/ingenta.gif, link: 'http://www.ingenta.com', location: 'Cambridge,
+      Massachusetts', published: true, sortorder: 370, title: Ingenta, updated: !!timestamp '2012-05-27
+      17:56:20.260125'}
+  model: customers.customerimage
+  pk: 53365
+- fields: {caption: Massachusetts Institute of Technology, created: !!timestamp '2012-03-26
+      14:21:43.111977', customer: null, image: images/customers/mit.gif, link: 'http://www.mit.edu/',
+    location: 'Cambridge, Massachusetts', published: true, sortorder: 380, title: Massachusetts
+      Institute of Technology, updated: !!timestamp '2012-05-27 17:56:20.413054'}
+  model: customers.customerimage
+  pk: 53366
+- fields: {caption: University of Michigan, created: !!timestamp '2012-03-26 14:21:43.525918',
+    customer: null, image: images/customers/umich.gif, link: 'http://www.umich.edu',
+    location: 'Ann Arbor, Michigan', published: true, sortorder: 390, title: University
+      of Michigan, updated: !!timestamp '2012-05-27 17:56:20.566234'}
+  model: customers.customerimage
+  pk: 53367
+- fields: {caption: Columbia University in the City of New York, created: !!timestamp '2012-03-26
+      14:21:43.957974', customer: null, image: images/customers/columbia_seal.gif,
+    link: 'http://www.columbia.edu', location: 'New York, New York', published: true,
+    sortorder: 400, title: Columbia University, updated: !!timestamp '2012-05-27 17:56:20.731166'}
+  model: customers.customerimage
+  pk: 53368
+- fields: {caption: Johns Hopkins University, created: !!timestamp '2012-03-26 14:21:44.373824',
+    customer: null, image: images/customers/jhu_seal.gif, link: 'http://www.jhu.edu/',
+    location: 'Baltimore, Maryland', published: true, sortorder: 410, title: Johns
+      Hopkins University, updated: !!timestamp '2012-05-27 17:56:20.883304'}
+  model: customers.customerimage
+  pk: 53369
+- fields: {caption: SETI Institute, created: !!timestamp '2012-03-26 14:21:44.798006',
+    customer: null, image: images/customers/seti.gif, link: 'http://www.seti.org/',
+    location: 'Mountain View, CA', published: true, sortorder: 420, title: www.seti.org,
+    updated: !!timestamp '2012-05-27 17:56:21.032040'}
+  model: customers.customerimage
+  pk: 53370
+- fields: {caption: California Institute of Technology, created: !!timestamp '2012-03-26
+      14:21:45.221877', customer: null, image: images/customers/caltech.gif, link: 'http://www.caltech.edu',
+    location: 'Pasadena, CA', published: true, sortorder: 430, title: www.caltech.edu,
+    updated: !!timestamp '2012-05-27 17:56:21.181929'}
+  model: customers.customerimage
+  pk: 53371
+- fields: {caption: Federal Aviation Administration, created: !!timestamp '2012-03-26
+      14:21:45.654066', customer: null, image: images/customers/WJHughesTechCenter_logo.jpeg,
+    link: 'http://www.tc.faa.gov/', location: 'William J. Hughes Technical Center
+      Atlantic City International Airport, NJ', published: true, sortorder: 440, title: W
+      J Hughes Tech Center, updated: !!timestamp '2012-05-27 17:56:21.334111'}
+  model: customers.customerimage
+  pk: 53372
+- fields: {caption: NetRational Corp., created: !!timestamp '2012-03-26 14:21:46.065992',
+    customer: null, image: images/customers/NetRational_logo.jpeg, link: 'http://netrational.com/',
+    location: 'Information Technology Management and Consultancy Triple-3 House, Kanagawa
+      259-0132, Japan', published: true, sortorder: 450, title: NetRational, updated: !!timestamp '2012-05-27
+      17:56:21.488103'}
+  model: customers.customerimage
+  pk: 53373
+- fields: {caption: The College of St. Catherine, created: !!timestamp '2012-03-26
+      14:21:46.488040', customer: null, image: images/customers/stkate_logo.gif, link: 'http://www.stkate.edu/',
+    location: 'St. Paul and Minneapolis, MN', published: true, sortorder: 460, title: The
+      College of St. Catherine, updated: !!timestamp '2012-05-27 17:56:21.641126'}
+  model: customers.customerimage
+  pk: 53374
+- fields: {caption: United States Navy, created: !!timestamp '2012-03-26 14:21:46.906870',
+    customer: null, image: images/customers/navy_seal.gif, link: 'http://www.navy.mil/',
+    location: 'Amherst, Massachusetts', published: true, sortorder: 470, title: US
+      Navy, updated: !!timestamp '2012-05-27 17:56:21.796005'}
+  model: customers.customerimage
+  pk: 53375
+- fields: {caption: Frontier Science & Technology Research Foundation, created: !!timestamp '2012-03-26
+      14:21:47.315873', customer: null, image: images/customers/frontierscience.gif,
+    link: 'http://www.fstrf.org/', location: 'Chestnut Hill, Massachusetts', published: true,
+    sortorder: 480, title: Frontier Science, updated: !!timestamp '2012-05-27 17:56:21.950031'}
+  model: customers.customerimage
+  pk: 53376
+- fields: {caption: Brigham and Women's Hospital, created: !!timestamp '2012-03-26
+      14:21:47.724867', customer: null, image: images/customers/bwh_shield.gif, link: 'http://www.brighamandwomens.org/',
+    location: 'Boston, Massachusetts', published: true, sortorder: 490, title: Brigham
+      & Women's Hospital, updated: !!timestamp '2012-05-27 17:56:22.109225'}
+  model: customers.customerimage
+  pk: 53377
+- fields: {caption: KDS Internet, created: !!timestamp '2012-03-26 14:21:48.168122',
+    customer: null, image: images/customers/kdsi.gif, link: 'http://www.kdsi.net',
+    location: 'Grand Island, NE', published: true, sortorder: 500, title: KDs Internet,
+    updated: !!timestamp '2012-05-27 17:56:22.263162'}
+  model: customers.customerimage
+  pk: 53378
+- fields: {caption: Eyebeam Art & Technology Center, created: !!timestamp '2012-03-26
+      14:21:48.595034', customer: null, image: images/customers/eyebeam.jpeg, link: 'http://www.eyebeam.org/',
+    location: 'New York, NY', published: true, sortorder: 510, title: Eyebeam Art
+      & Technology Center, updated: !!timestamp '2012-05-27 17:56:22.414131'}
+  model: customers.customerimage
+  pk: 53379

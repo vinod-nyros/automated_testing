@@ -1,0 +1,45 @@
+{% extends "admin/change_form.html" %}
+{# % load i18n admin_modify adminmedia % #}
+
+
+{% block after_field_sets %}
+
+<fieldset class="module aligned wide">
+  <h2>Product Options by Product</h2>
+  <br>
+  <h3>
+    <a href="/admin/legacy/prodopt/?product__sku={{ original }}">
+      Go to Product Option details and Default Choice(s) for <b>{{ original }}</b>
+    </a>
+  </h3>
+  <br>
+</fieldset>
+
+<fieldset class="module aligned wide">
+  <h2>Product Option Choices by Product</h2>
+  <br>
+  <h3>
+    <a href="/admin/legacy/prodoptchoice/?productoption__product__id__exact={{ original.id }}">
+      Go to Product Option Choice list details for <b>{{ original }}</b>
+    </a>
+  </h3>
+  <br>
+</fieldset>
+
+<fieldset class="module aligned wide">
+  <h2>Product Option Choices by Product-Option</h2>
+  <br>
+
+  {% for po in original.prodopt_set.all %}
+
+  <h3>
+    <a href="/admin/legacy/prodoptchoice/?productoption__id__exact={{ po.id }}">
+      Go to Product Option Choice details for <b>{{ po }}</b>
+    </a>
+  </h3>
+
+  {% endfor %}
+
+</fieldset>
+
+{% endblock %}

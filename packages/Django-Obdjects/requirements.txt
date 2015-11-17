@@ -1,0 +1,3 @@
+to brewpub, too: libcompass-ruby
+
+sudo npm install stylus -g

@@ -1,0 +1,1976 @@
+- fields: {algorithm: '', baseoptions: '', baseprice: 300.0, blurb: '', category: 44304,
+    cost: 200.0, created: !!timestamp '2011-07-08 16:31:30.268120', description: '',
+    image: '', link: '', multiplier: null, name: eRacks/1Test, published: true, sku: 1Test,
+    sortorder: null, title: '', updated: !!timestamp '2011-07-09 13:20:39.841084',
+    weight: 25}
+  model: legacy.product
+  pk: 46311
+- fields: {algorithm: null, baseoptions: null, baseprice: 4000.0, blurb: null, category: 9531,
+    cost: 838.0, created: !!timestamp '2011-07-08 16:31:30.281026', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/2AMD, published: false,
+    sku: 2AMD, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:39.852825',
+    weight: 40}
+  model: legacy.product
+  pk: 11806
+- fields: {algorithm: null, baseoptions: null, baseprice: 0.0, blurb: null, category: 18787,
+    cost: 0.0, created: !!timestamp '2011-07-08 16:31:30.290902', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/Accessories, published: true,
+    sku: Accessories, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:39.862035', weight: 15}
+  model: legacy.product
+  pk: 38828
+- fields: {algorithm: null, baseoptions: null, baseprice: 2500.0, blurb: null, category: 3763,
+    cost: 1161.0, created: !!timestamp '2011-07-08 16:31:30.300696', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/alva.3u, published: false,
+    sku: alva.3u, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:39.871318',
+    weight: 40}
+  model: legacy.product
+  pk: 9021
+- fields: {algorithm: null, baseoptions: null, baseprice: 1650.0, blurb: null, category: 3763,
+    cost: 1350.0, created: !!timestamp '2011-07-08 16:31:30.310947', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/alva.lcdkbd, published: false,
+    sku: alva.lcdkbd, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:39.879994', weight: 40}
+  model: legacy.product
+  pk: 9134
+- fields: {algorithm: null, baseoptions: null, baseprice: 395.0, blurb: null, category: 12480,
+    cost: 284.0, created: !!timestamp '2011-07-08 16:31:30.324913', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/AMDESK, published: true,
+    sku: AMDESK, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:39.888755',
+    weight: 40}
+  model: legacy.product
+  pk: 44754
+- fields: {algorithm: null, baseoptions: null, baseprice: 3749.0, blurb: null, category: 3763,
+    cost: 2083.0, created: !!timestamp '2011-07-08 16:31:30.334400', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/amelcuk.1uswap, published: false,
+    sku: amelcuk.1uswap, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:39.900542', weight: 40}
+  model: legacy.product
+  pk: 4727
+- fields: {algorithm: null, baseoptions: null, baseprice: 3585.0, blurb: null, category: 3763,
+    cost: 1995.0, created: !!timestamp '2011-07-08 16:31:30.343665', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/amelcuk.2u, published: false,
+    sku: amelcuk.2u, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:39.910240', weight: 40}
+  model: legacy.product
+  pk: 4571
+- fields: {algorithm: null, baseoptions: null, baseprice: 4429.0, blurb: null, category: 3763,
+    cost: 2461.0, created: !!timestamp '2011-07-08 16:31:30.357356', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/amelcuk.4RHD, published: false,
+    sku: amelcuk.4RHD, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:39.919519', weight: 40}
+  model: legacy.product
+  pk: 4893
+- fields: {algorithm: null, baseoptions: null, baseprice: 4895.0, blurb: null, category: 3763,
+    cost: 2664.0, created: !!timestamp '2011-07-08 16:31:30.366862', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/amelcuk.6RHD, published: false,
+    sku: amelcuk.6RHD, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:39.928534', weight: 40}
+  model: legacy.product
+  pk: 4994
+- fields: {algorithm: null, baseoptions: null, baseprice: 895.0, blurb: null, category: 9531,
+    cost: 521.0, created: !!timestamp '2011-07-08 16:31:30.376091', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/ATH2-DDR, published: false,
+    sku: ATH2-DDR, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:39.937726', weight: 40}
+  model: legacy.product
+  pk: 9701
+- fields: {algorithm: null, baseoptions: null, baseprice: 2195.0, blurb: 'lockable
+      backup server with inbuilt DAT drive, configured to take daily and weekly backups.',
+    category: 32556, cost: 1306.0, created: !!timestamp '2011-07-08 16:31:30.385106',
+    description: null, image: null, link: null, multiplier: null, name: eRacks/BACK,
+    published: false, sku: BACK, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:39.946721', weight: 40}
+  model: legacy.product
+  pk: 12
+- fields: {algorithm: null, baseoptions: null, baseprice: 495.0, blurb: null, category: 12480,
+    cost: 270.0, created: !!timestamp '2011-07-08 16:31:30.394105', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/BOOQ, published: true,
+    sku: BOOQ, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:39.955968',
+    weight: 25}
+  model: legacy.product
+  pk: 12983
+- fields: {algorithm: null, baseoptions: null, baseprice: 495.0, blurb: null, category: 12480,
+    cost: 270.0, created: !!timestamp '2011-07-08 16:31:30.403645', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/BOOQ.zonbu, published: false,
+    sku: BOOQ.zonbu, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:39.964955', weight: 25}
+  model: legacy.product
+  pk: 37832
+- fields: {algorithm: null, baseoptions: null, baseprice: 2983.0, blurb: null, category: 3763,
+    cost: 1839.0, created: !!timestamp '2011-07-08 16:31:30.412603', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/bristols.nas6, published: false,
+    sku: bristols.nas6, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:39.973689', weight: 40}
+  model: legacy.product
+  pk: 27704
+- fields: {algorithm: null, baseoptions: null, baseprice: 2560.0, blurb: null, category: 3763,
+    cost: 1596.0, created: !!timestamp '2011-07-08 16:31:30.421689', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/bristols.premium, published: false,
+    sku: bristols.premium, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:39.982687', weight: 40}
+  model: legacy.product
+  pk: 27847
+- fields: {algorithm: null, baseoptions: null, baseprice: 3162.0, blurb: null, category: 14821,
+    cost: 2155.0, created: !!timestamp '2011-07-08 16:31:30.431669', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/bstanton.p4, published: false,
+    sku: bstanton.p4, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:39.991950', weight: 40}
+  model: legacy.product
+  pk: 28235
+- fields: {algorithm: null, baseoptions: null, baseprice: 1487.0, blurb: null, category: 3763,
+    cost: 996.0, created: !!timestamp '2011-07-08 16:31:30.440836', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/burdge.1, published: false,
+    sku: burdge.1, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.010190', weight: 40}
+  model: legacy.product
+  pk: 7780
+- fields: {algorithm: null, baseoptions: null, baseprice: 1699.0, blurb: null, category: 32556,
+    cost: 1201.0, created: !!timestamp '2011-07-08 16:31:30.449825', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/CENTRINO, published: false,
+    sku: CENTRINO, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.019481', weight: 40}
+  model: legacy.product
+  pk: 25759
+- fields: {algorithm: null, baseoptions: null, baseprice: 250.0, blurb: null, category: 3763,
+    cost: 150.0, created: !!timestamp '2011-07-08 16:31:30.459062', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/chassis, published: false,
+    sku: chassis, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.028160',
+    weight: 40}
+  model: legacy.product
+  pk: 6744
+- fields: {algorithm: null, baseoptions: null, baseprice: 315.0, blurb: null, category: 41479,
+    cost: 292.0, created: !!timestamp '2011-07-08 16:31:30.468593', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/CIRRUS, published: true,
+    sku: CIRRUS, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.036918',
+    weight: 30}
+  model: legacy.product
+  pk: 41364
+- fields: {algorithm: null, baseoptions: null, baseprice: 350.0, blurb: null, category: 1226,
+    cost: 205.0, created: !!timestamp '2011-07-08 16:31:30.477816', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/CLIENT, published: false,
+    sku: CLIENT, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.045663',
+    weight: 15}
+  model: legacy.product
+  pk: 34607
+- fields: {algorithm: null, baseoptions: null, baseprice: 4950.0, blurb: null, category: 16225,
+    cost: 3385.0, created: !!timestamp '2011-07-08 16:31:30.487513', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/collins.TDX-SCSI, published: false,
+    sku: collins.TDX-SCSI, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.054661', weight: 40}
+  model: legacy.product
+  pk: 21545
+- fields: {algorithm: null, baseoptions: null, baseprice: 1195.0, blurb: 'lockable
+      colocation server with WEB, Firewall, Database, and e-Commerce functionality.',
+    category: 4, cost: 553.0, created: !!timestamp '2011-07-08 16:31:30.496800', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/COLO, published: false,
+    sku: COLO, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.063907',
+    weight: 40}
+  model: legacy.product
+  pk: 7
+- fields: {algorithm: '', baseoptions: '', baseprice: 49995.0, blurb: test, category: 6,
+    cost: 20000.0, created: !!timestamp '2011-07-08 16:31:30.505789', description: '',
+    image: '', link: '', multiplier: null, name: eRacks/CONTAINER, published: true,
+    sku: CONTAINER, sortorder: null, title: '', updated: !!timestamp '2011-07-09 13:20:40.073176',
+    weight: 3000}
+  model: legacy.product
+  pk: 44539
+- fields: {algorithm: null, baseoptions: null, baseprice: 485.0, blurb: null, category: 41479,
+    cost: 430.0, created: !!timestamp '2011-07-08 16:31:30.515828', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/CUMULUS, published: true,
+    sku: CUMULUS, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.082393',
+    weight: 30}
+  model: legacy.product
+  pk: 41415
+- fields: {algorithm: null, baseoptions: null, baseprice: 795.0, blurb: null, category: 3763,
+    cost: 441.0, created: !!timestamp '2011-07-08 16:31:30.524786', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/CUSTOM, published: false,
+    sku: CUSTOM, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.091641',
+    weight: 40}
+  model: legacy.product
+  pk: 3762
+- fields: {algorithm: null, baseoptions: null, baseprice: 2799.0, blurb: null, category: 3763,
+    cost: 1910.0, created: !!timestamp '2011-07-08 16:31:30.533779', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/dalbera.2uLOCK, published: false,
+    sku: dalbera.2uLOCK, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.105975', weight: 40}
+  model: legacy.product
+  pk: 5430
+- fields: {algorithm: null, baseoptions: null, baseprice: 2999.0, blurb: null, category: 3763,
+    cost: 2035.0, created: !!timestamp '2011-07-08 16:31:30.543586', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/dalbera.3SWOOSH, published: false,
+    sku: dalbera.3SWOOSH, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.115130', weight: 40}
+  model: legacy.product
+  pk: 5565
+- fields: {algorithm: null, baseoptions: null, baseprice: 4429.0, blurb: null, category: 3763,
+    cost: 2461.0, created: !!timestamp '2011-07-08 16:31:30.556153', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/dalbera.4RHD, published: false,
+    sku: dalbera.4RHD, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.124405', weight: 40}
+  model: legacy.product
+  pk: 5311
+- fields: {algorithm: null, baseoptions: null, baseprice: 3295.0, blurb: null, category: 9531,
+    cost: 2502.0, created: !!timestamp '2011-07-08 16:31:30.565491', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/DATH1, published: false,
+    sku: DATH1, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.133915',
+    weight: 40}
+  model: legacy.product
+  pk: 9456
+- fields: {algorithm: null, baseoptions: null, baseprice: 3495.0, blurb: null, category: 9531,
+    cost: 2519.0, created: !!timestamp '2011-07-08 16:31:30.574748', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/DATH1-SCSI, published: false,
+    sku: DATH1-SCSI, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.143102', weight: 40}
+  model: legacy.product
+  pk: 9629
+- fields: {algorithm: null, baseoptions: null, baseprice: 1795.0, blurb: null, category: 9531,
+    cost: 1042.0, created: !!timestamp '2011-07-08 16:31:30.584010', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/DATH2, published: false,
+    sku: DATH2, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.152359',
+    weight: 40}
+  model: legacy.product
+  pk: 9383
+- fields: {algorithm: null, baseoptions: null, baseprice: 2295.0, blurb: null, category: 9531,
+    cost: 1322.0, created: !!timestamp '2011-07-08 16:31:30.593003', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/DATH2-SCSI, published: false,
+    sku: DATH2-SCSI, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.161084', weight: 40}
+  model: legacy.product
+  pk: 9790
+- fields: {algorithm: null, baseoptions: null, baseprice: 895.0, blurb: null, category: 2,
+    cost: 596.0, created: !!timestamp '2011-07-08 16:31:30.601984', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/DB, published: false,
+    sku: DB, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.169845',
+    weight: 40}
+  model: legacy.product
+  pk: 13674
+- fields: {algorithm: null, baseoptions: null, baseprice: 795.0, blurb: null, category: 2,
+    cost: 450.0, created: !!timestamp '2011-07-08 16:31:30.611786', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/DB.mySQL, published: false,
+    sku: DB.mySQL, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.179070', weight: 40}
+  model: legacy.product
+  pk: 2297
+- fields: {algorithm: null, baseoptions: null, baseprice: 1500.0, blurb: null, category: 2,
+    cost: 876.0, created: !!timestamp '2011-07-08 16:31:30.620996', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/DB.Oracle, published: false,
+    sku: DB.Oracle, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.188120', weight: 40}
+  model: legacy.product
+  pk: 1237
+- fields: {algorithm: null, baseoptions: null, baseprice: 795.0, blurb: Tailored fault-tolerant
+      Database server with choice of Database, category: 2, cost: 450.0, created: !!timestamp '2011-07-08
+      16:31:30.629972', description: null, image: null, link: null, multiplier: null,
+    name: eRacks/DB.pgSQL, published: false, sku: DB.pgSQL, sortorder: null, title: null,
+    updated: !!timestamp '2011-07-09 13:20:40.197341', weight: 40}
+  model: legacy.product
+  pk: 10
+- fields: {algorithm: null, baseoptions: null, baseprice: 1895.0, blurb: null, category: 22006,
+    cost: 1296.0, created: !!timestamp '2011-07-08 16:31:30.639580', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/DEAL1UDP3, published: false,
+    sku: DEAL1UDP3, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.207283', weight: 40}
+  model: legacy.product
+  pk: 22040
+- fields: {algorithm: null, baseoptions: null, baseprice: 675.0, blurb: null, category: 22006,
+    cost: 470.0, created: !!timestamp '2011-07-08 16:31:30.648732', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/DEAL2UAMD, published: false,
+    sku: DEAL2UAMD, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.216338', weight: 40}
+  model: legacy.product
+  pk: 22007
+- fields: {algorithm: null, baseoptions: null, baseprice: 695.0, blurb: null, category: 9531,
+    cost: 463.0, created: !!timestamp '2011-07-08 16:31:30.657727', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/DEALAMDXP, published: false,
+    sku: DEALAMDXP, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.225333', weight: 40}
+  model: legacy.product
+  pk: 25606
+- fields: {algorithm: null, baseoptions: null, baseprice: 1620.0, blurb: null, category: 22006,
+    cost: 1080.0, created: !!timestamp '2011-07-08 16:31:30.666715', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/DEALATH2DDR, published: false,
+    sku: DEALATH2DDR, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.234074', weight: 40}
+  model: legacy.product
+  pk: 22204
+- fields: {algorithm: null, baseoptions: null, baseprice: 495.0, blurb: null, category: 22006,
+    cost: 464.0, created: !!timestamp '2011-07-08 16:31:30.675949', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/DEALSERVECEL, published: false,
+    sku: DEALSERVECEL, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.243365', weight: 40}
+  model: legacy.product
+  pk: 24784
+- fields: {algorithm: null, baseoptions: null, baseprice: 495.0, blurb: null, category: 22006,
+    cost: 464.0, created: !!timestamp '2011-07-08 16:31:30.684943', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/DEALSERVEP3, published: false,
+    sku: DEALSERVEP3, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.252565', weight: 40}
+  model: legacy.product
+  pk: 24743
+- fields: {algorithm: null, baseoptions: null, baseprice: 675.0, blurb: null, category: 22006,
+    cost: 460.0, created: !!timestamp '2011-07-08 16:31:30.693958', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/DEALVALUE3, published: false,
+    sku: DEALVALUE3, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.261564', weight: 40}
+  model: legacy.product
+  pk: 22155
+- fields: {algorithm: null, baseoptions: null, baseprice: 450.0, blurb: null, category: 3763,
+    cost: 419.0, created: !!timestamp '2011-07-08 16:31:30.703644', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/demo, published: false,
+    sku: demo, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.271045',
+    weight: 40}
+  model: legacy.product
+  pk: 7736
+- fields: {algorithm: null, baseoptions: null, baseprice: 395.0, blurb: null, category: 12480,
+    cost: 284.0, created: !!timestamp '2011-07-08 16:31:30.712700', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/DESQ, published: true,
+    sku: DESQ, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.280301',
+    weight: 30}
+  model: legacy.product
+  pk: 12819
+- fields: {algorithm: null, baseoptions: null, baseprice: 395.0, blurb: null, category: 12480,
+    cost: 284.0, created: !!timestamp '2011-07-08 16:31:30.721695', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/DESQ.zonbu, published: false,
+    sku: DESQ.zonbu, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.289026', weight: 30}
+  model: legacy.product
+  pk: 37357
+- fields: {algorithm: null, baseoptions: null, baseprice: 1395.0, blurb: Includes
+      features of eRacks/NAT plus 3 to 5 ports for DeMilitarized Zones (DMZ). Custom
+      design your own eRacks/DMZ server., category: 1, cost: 839.0, created: !!timestamp '2011-07-08
+      16:31:30.730740', description: null, image: null, link: null, multiplier: null,
+    name: eRacks/DMZ, published: true, sku: DMZ, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.301478', weight: 30}
+  model: legacy.product
+  pk: 2
+- fields: {algorithm: null, baseoptions: null, baseprice: 745.0, blurb: Ready-to-run
+      secure Internet and Intranet Domain Name Server., category: 1227, cost: 553.0,
+    created: !!timestamp '2011-07-08 16:31:30.740180', description: null, image: null,
+    link: null, multiplier: null, name: eRacks/DNS, published: true, sku: DNS, sortorder: null,
+    title: null, updated: !!timestamp '2011-07-09 13:20:40.311334', weight: 30}
+  model: legacy.product
+  pk: 5
+- fields: {algorithm: null, baseoptions: null, baseprice: 650.0, blurb: null, category: 3,
+    cost: 436.0, created: !!timestamp '2011-07-08 16:31:30.752169', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/dowdey.value1PCI, published: false,
+    sku: dowdey.value1PCI, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.320521', weight: 40}
+  model: legacy.product
+  pk: 20974
+- fields: {algorithm: null, baseoptions: null, baseprice: 1050.0, blurb: null, category: 3,
+    cost: 679.0, created: !!timestamp '2011-07-08 16:31:30.761891', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/dowdey.value2PCI, published: false,
+    sku: dowdey.value2PCI, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.329811', weight: 40}
+  model: legacy.product
+  pk: 21083
+- fields: {algorithm: null, baseoptions: null, baseprice: 1795.0, blurb: null, category: 3,
+    cost: 1011.0, created: !!timestamp '2011-07-08 16:31:30.771149', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/DUAL, published: false,
+    sku: DUAL, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.339004',
+    weight: 40}
+  model: legacy.product
+  pk: 1235
+- fields: {algorithm: null, baseoptions: null, baseprice: 2695.0, blurb: null, category: 3,
+    cost: 1497.0, created: !!timestamp '2011-07-08 16:31:30.780772', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/DUAL-SCSI, published: false,
+    sku: DUAL-SCSI, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.348286', weight: 40}
+  model: legacy.product
+  pk: 11170
+- fields: {algorithm: null, baseoptions: null, baseprice: 2095.0, blurb: null, category: 16225,
+    cost: 2995.0, created: !!timestamp '2011-07-08 16:31:30.789886', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/DXN, published: false,
+    sku: DXN, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.357222',
+    weight: 40}
+  model: legacy.product
+  pk: 28830
+- fields: {algorithm: null, baseoptions: null, baseprice: 295.0, blurb: null, category: 22006,
+    cost: 200.0, created: !!timestamp '2011-07-08 16:31:30.799696', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/e101, published: false,
+    sku: e101, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.366231',
+    weight: 40}
+  model: legacy.product
+  pk: 33765
+- fields: {algorithm: null, baseoptions: null, baseprice: 395.0, blurb: null, category: 22006,
+    cost: 295.0, created: !!timestamp '2011-07-08 16:31:30.808894', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/e102, published: false,
+    sku: e102, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.375522',
+    weight: 40}
+  model: legacy.product
+  pk: 33767
+- fields: {algorithm: null, baseoptions: null, baseprice: 300.0, blurb: null, category: 22006,
+    cost: 300.0, created: !!timestamp '2011-07-08 16:31:30.817883', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/e104, published: false,
+    sku: e104, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.384464',
+    weight: 40}
+  model: legacy.product
+  pk: 33766
+- fields: {algorithm: null, baseoptions: null, baseprice: 750.0, blurb: null, category: 3763,
+    cost: 632.78999999999996, created: !!timestamp '2011-07-08 16:31:30.829868', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/easton.1, published: false,
+    sku: easton.1, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.393508', weight: 40}
+  model: legacy.product
+  pk: 6695
+- fields: {algorithm: null, baseoptions: null, baseprice: 49.0, blurb: null, category: 3763,
+    cost: 45.0, created: !!timestamp '2011-07-08 16:31:30.839705', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/easton.2, published: false,
+    sku: easton.2, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.402752', weight: 40}
+  model: legacy.product
+  pk: 9356
+- fields: {algorithm: null, baseoptions: null, baseprice: 1795.0, blurb: null, category: 3763,
+    cost: 1233.0, created: !!timestamp '2011-07-08 16:31:30.848856', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/ebayDualP3, published: false,
+    sku: ebayDualP3, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.412045', weight: 40}
+  model: legacy.product
+  pk: 17809
+- fields: {algorithm: null, baseoptions: null, baseprice: 340.0, blurb: null, category: 3763,
+    cost: 400.0, created: !!timestamp '2011-07-08 16:31:30.857855', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/ebayDuron, published: false,
+    sku: ebayDuron, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.421210', weight: 40}
+  model: legacy.product
+  pk: 12355
+- fields: {algorithm: null, baseoptions: null, baseprice: 350.0, blurb: null, category: 3763,
+    cost: 451.0, created: !!timestamp '2011-07-08 16:31:30.867898', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/ebayP3, published: false,
+    sku: ebayP3, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.430248',
+    weight: 40}
+  model: legacy.product
+  pk: 6882
+- fields: {algorithm: null, baseoptions: null, baseprice: 250.0, blurb: null, category: 41479,
+    cost: 235.0, created: !!timestamp '2011-07-08 16:31:30.876846', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/Eee, published: true,
+    sku: Eee, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.440387',
+    weight: 20}
+  model: legacy.product
+  pk: 38284
+- fields: {algorithm: null, baseoptions: null, baseprice: 1120.0, blurb: null, category: 9531,
+    cost: 618.0, created: !!timestamp '2011-07-08 16:31:30.885963', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/EFFECTS, published: true,
+    sku: EFFECTS, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.449493',
+    weight: 45}
+  model: legacy.product
+  pk: 33526
+- fields: {algorithm: null, baseoptions: null, baseprice: 130.0, blurb: null, category: 22006,
+    cost: 125.0, created: !!timestamp '2011-07-08 16:31:30.895649', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/eK6, published: false,
+    sku: eK6, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.458700',
+    weight: 40}
+  model: legacy.product
+  pk: 37036
+- fields: {algorithm: null, baseoptions: null, baseprice: 895.0, blurb: null, category: 1226,
+    cost: 555.0, created: !!timestamp '2011-07-08 16:31:30.904574', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/ENHYDRA, published: false,
+    sku: ENHYDRA, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.467983',
+    weight: 40}
+  model: legacy.product
+  pk: 1232
+- fields: {algorithm: null, baseoptions: null, baseprice: 1859.0, blurb: null, category: 14821,
+    cost: 1099.0, created: !!timestamp '2011-07-08 16:31:30.913563', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/ENTERPRISE, published: true,
+    sku: ENTERPRISE, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.477192', weight: 40}
+  model: legacy.product
+  pk: 33272
+- fields: {algorithm: null, baseoptions: null, baseprice: 175.0, blurb: null, category: 22006,
+    cost: 125.0, created: !!timestamp '2011-07-08 16:31:30.922585', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/eP3, published: false,
+    sku: eP3, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.486180',
+    weight: 40}
+  model: legacy.product
+  pk: 37035
+- fields: {algorithm: null, baseoptions: null, baseprice: 1795.0, blurb: null, category: 15984,
+    cost: 1332.0, created: !!timestamp '2011-07-08 16:31:30.931810', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/erickson.shortP4, published: false,
+    sku: erickson.shortP4, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.495481', weight: 40}
+  model: legacy.product
+  pk: 30505
+- fields: {algorithm: null, baseoptions: null, baseprice: 1395.0, blurb: null, category: 18787,
+    cost: 905.0, created: !!timestamp '2011-07-08 16:31:30.940817', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/EXPRESS, published: false,
+    sku: EXPRESS, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.507595',
+    weight: 20}
+  model: legacy.product
+  pk: 36302
+- fields: {algorithm: null, baseoptions: null, baseprice: 2149.0, blurb: null, category: 3763,
+    cost: 1380.0, created: !!timestamp '2011-07-08 16:31:30.954776', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/faa.DualAMD, published: false,
+    sku: faa.DualAMD, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.516660', weight: 40}
+  model: legacy.product
+  pk: 16689
+- fields: {algorithm: null, baseoptions: null, baseprice: 1521.0, blurb: null, category: 12480,
+    cost: 741.0, created: !!timestamp '2011-07-08 16:31:30.964579', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/FLAGSHIP, published: true,
+    sku: FLAGSHIP, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.525716', weight: 40}
+  model: legacy.product
+  pk: 47928
+- fields: {algorithm: null, baseoptions: null, baseprice: 1521.0, blurb: null, category: 12480,
+    cost: 741.0, created: !!timestamp '2011-07-08 16:31:30.973537', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/FLAGSHIP_old, published: false,
+    sku: FLAGSHIP_old, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.535731', weight: 40}
+  model: legacy.product
+  pk: 40694
+- fields: {algorithm: null, baseoptions: null, baseprice: 695.0, blurb: null, category: 15984,
+    cost: 454.0, created: !!timestamp '2011-07-08 16:31:30.983014', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/FLAT, published: true,
+    sku: FLAT, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.544645',
+    weight: 40}
+  model: legacy.product
+  pk: 47739
+- fields: {algorithm: null, baseoptions: null, baseprice: 1995.0, blurb: null, category: 32556,
+    cost: 1018.0, created: !!timestamp '2011-07-08 16:31:30.992304', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/FOCUS, published: true,
+    sku: FOCUS, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.553385',
+    weight: 40}
+  model: legacy.product
+  pk: 32570
+- fields: {algorithm: null, baseoptions: null, baseprice: 845.0, blurb: null, category: 3,
+    cost: 630.0, created: !!timestamp '2011-07-08 16:31:31.001287', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/FRONT, published: false,
+    sku: FRONT, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.562118',
+    weight: 40}
+  model: legacy.product
+  pk: 13771
+- fields: {algorithm: null, baseoptions: null, baseprice: 2399.0, blurb: null, category: 18787,
+    cost: 2140.0, created: !!timestamp '2011-07-08 16:31:31.010298', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/GAMER, published: true,
+    sku: GAMER, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.571417',
+    weight: 40}
+  model: legacy.product
+  pk: 24408
+- fields: {algorithm: null, baseoptions: null, baseprice: 1345.0, blurb: null, category: 12480,
+    cost: 899.0, created: !!timestamp '2011-07-08 16:31:31.020699', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/GBOX, published: false,
+    sku: GBOX, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.581633',
+    weight: 40}
+  model: legacy.product
+  pk: 22409
+- fields: {algorithm: null, baseoptions: null, baseprice: 1132.0, blurb: null, category: 3763,
+    cost: 566.0, created: !!timestamp '2011-07-08 16:31:31.030018', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/GGamerman.1uLOCK, published: false,
+    sku: GGamerman.1uLOCK, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.591449', weight: 40}
+  model: legacy.product
+  pk: 4088
+- fields: {algorithm: null, baseoptions: null, baseprice: 2280.0, blurb: null, category: 3763,
+    cost: 1140.0, created: !!timestamp '2011-07-08 16:31:31.041010', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/GGamerman.1uSWAP, published: false,
+    sku: GGamerman.1uSWAP, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.600612', weight: 40}
+  model: legacy.product
+  pk: 4089
+- fields: {algorithm: null, baseoptions: null, baseprice: 2465.0, blurb: null, category: 9531,
+    cost: 1593.0, created: !!timestamp '2011-07-08 16:31:31.050006', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/gillespie.DATH2-IDE, published: false,
+    sku: gillespie.DATH2-IDE, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.617874', weight: 40}
+  model: legacy.product
+  pk: 18053
+- fields: {algorithm: null, baseoptions: null, baseprice: 5070.0, blurb: null, category: 9531,
+    cost: 3406.0, created: !!timestamp '2011-07-08 16:31:31.059687', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/gillespie.DATH2-SCSI,
+    published: false, sku: gillespie.DATH2-SCSI, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.627087', weight: 40}
+  model: legacy.product
+  pk: 18200
+- fields: {algorithm: null, baseoptions: '2x3ware7850, 2x raid5', baseprice: 9450.0,
+    blurb: null, category: 3763, cost: 7910.0, created: !!timestamp '2011-07-08 16:31:31.068728',
+    description: null, image: null, link: null, multiplier: null, name: eRacks/gsutter.NAS16,
+    published: false, sku: gsutter.NAS16, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.636654', weight: 40}
+  model: legacy.product
+  pk: 15382
+- fields: {algorithm: null, baseoptions: null, baseprice: 1995.0, blurb: null, category: 2,
+    cost: 1038.0, created: !!timestamp '2011-07-08 16:31:31.077737', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/H2O2U, published: true,
+    sku: H2O2U, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.646071',
+    weight: 60}
+  model: legacy.product
+  pk: 33512
+- fields: {algorithm: null, baseoptions: null, baseprice: 11875.0, blurb: null, category: 3763,
+    cost: 7397.0, created: !!timestamp '2011-07-08 16:31:31.086974', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/haig.2u4SCA, published: false,
+    sku: haig.2u4SCA, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.655507', weight: 40}
+  model: legacy.product
+  pk: 7200
+- fields: {algorithm: null, baseoptions: null, baseprice: 995.0, blurb: null, category: 3763,
+    cost: 750.0, created: !!timestamp '2011-07-08 16:31:31.096220', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/haig.chassis, published: false,
+    sku: haig.chassis, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.664610', weight: 40}
+  model: legacy.product
+  pk: 7727
+- fields: {algorithm: null, baseoptions: null, baseprice: 7900.0, blurb: null, category: 3763,
+    cost: 4477.0, created: !!timestamp '2011-07-08 16:31:31.105615', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/homer.1, published: false,
+    sku: homer.1, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.677323',
+    weight: 40}
+  model: legacy.product
+  pk: 6311
+- fields: {algorithm: null, baseoptions: null, baseprice: 3924.0, blurb: null, category: 3763,
+    cost: 2224.0, created: !!timestamp '2011-07-08 16:31:31.114705', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/homer.2, published: false,
+    sku: homer.2, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.686303',
+    weight: 40}
+  model: legacy.product
+  pk: 6419
+- fields: {algorithm: null, baseoptions: null, baseprice: 2850.0, blurb: null, category: 3763,
+    cost: 1638.0, created: !!timestamp '2011-07-08 16:31:31.124205', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/homer.3, published: false,
+    sku: homer.3, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.700255',
+    weight: 40}
+  model: legacy.product
+  pk: 6522
+- fields: {algorithm: null, baseoptions: null, baseprice: 2600.0, blurb: null, category: 3763,
+    cost: 1536.0, created: !!timestamp '2011-07-08 16:31:31.133677', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/homer.4, published: false,
+    sku: homer.4, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.710849',
+    weight: 40}
+  model: legacy.product
+  pk: 6602
+- fields: {algorithm: null, baseoptions: null, baseprice: 2736.0, blurb: null, category: 3763,
+    cost: 1520.0, created: !!timestamp '2011-07-08 16:31:31.142690', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/howell.2uLOCK, published: false,
+    sku: howell.2uLOCK, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.720064', weight: 40}
+  model: legacy.product
+  pk: 5820
+- fields: {algorithm: null, baseoptions: null, baseprice: 4941.0, blurb: null, category: 3763,
+    cost: 3840.0, created: !!timestamp '2011-07-08 16:31:31.154554', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/HPTI.1uSWAP3, published: false,
+    sku: HPTI.1uSWAP3, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.729306', weight: 40}
+  model: legacy.product
+  pk: 5766
+- fields: {algorithm: null, baseoptions: null, baseprice: 2451.0, blurb: null, category: 3763,
+    cost: 1550.0, created: !!timestamp '2011-07-08 16:31:31.164465', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/HPTI.3SWOOSH, published: false,
+    sku: HPTI.3SWOOSH, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.738268', weight: 40}
+  model: legacy.product
+  pk: 5677
+- fields: {algorithm: null, baseoptions: null, baseprice: 20395.0, blurb: null, category: 3763,
+    cost: 16051.0, created: !!timestamp '2011-07-08 16:31:31.173695', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/HPTI.4uA, published: false,
+    sku: HPTI.4uA, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.747531', weight: 40}
+  model: legacy.product
+  pk: 7631
+- fields: {algorithm: null, baseoptions: null, baseprice: 2195.0, blurb: null, category: 14821,
+    cost: 1158.0, created: !!timestamp '2011-07-08 16:31:31.183181', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/i7CORE, published: true,
+    sku: i7CORE, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.756505',
+    weight: 40}
+  model: legacy.product
+  pk: 41524
+- fields: {algorithm: null, baseoptions: null, baseprice: 1825.0, blurb: null, category: 12480,
+    cost: 1158.0, created: !!timestamp '2011-07-08 16:31:31.192680', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/i7DESK, published: true,
+    sku: i7DESK, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.765236',
+    weight: 40}
+  model: legacy.product
+  pk: 41003
+- fields: {algorithm: null, baseoptions: null, baseprice: 1795.0, blurb: null, category: 14821,
+    cost: 1158.0, created: !!timestamp '2011-07-08 16:31:31.201681', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/i7SHORT, published: true,
+    sku: i7SHORT, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.774257',
+    weight: 40}
+  model: legacy.product
+  pk: 43463
+- fields: {algorithm: null, baseoptions: null, baseprice: 0.0, blurb: null, category: 3763,
+    cost: 0.0, created: !!timestamp '2011-07-08 16:31:31.210656', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/internal, published: false,
+    sku: internal, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.783528', weight: 40}
+  model: legacy.product
+  pk: 24858
+- fields: {algorithm: null, baseoptions: null, baseprice: 1425.0, blurb: null, category: 14821,
+    cost: 924.0, created: !!timestamp '2011-07-08 16:31:31.220402', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/isr.quietp4, published: false,
+    sku: isr.quietp4, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.792765', weight: 40}
+  model: legacy.product
+  pk: 24281
+- fields: {algorithm: null, baseoptions: null, baseprice: 6450.0, blurb: null, category: 3763,
+    cost: 3971.0, created: !!timestamp '2011-07-08 16:31:31.233048', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/jahrar.dualxeon, published: false,
+    sku: jahrar.dualxeon, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.805819', weight: 40}
+  model: legacy.product
+  pk: 21388
+- fields: {algorithm: null, baseoptions: null, baseprice: 1080.0, blurb: null, category: 3763,
+    cost: 848.0, created: !!timestamp '2011-07-08 16:31:31.242135', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/johnson.1, published: false,
+    sku: johnson.1, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.814985', weight: 40}
+  model: legacy.product
+  pk: 7023
+- fields: {algorithm: null, baseoptions: null, baseprice: 1360.0, blurb: null, category: 3763,
+    cost: 1071.0, created: !!timestamp '2011-07-08 16:31:31.251707', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/johnson.2, published: false,
+    sku: johnson.2, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.824277', weight: 40}
+  model: legacy.product
+  pk: 7115
+- fields: {algorithm: null, baseoptions: null, baseprice: 2970.0, blurb: null, category: 3763,
+    cost: 2428.0, created: !!timestamp '2011-07-08 16:31:31.260620', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/johnson.3, published: false,
+    sku: johnson.3, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.833479', weight: 40}
+  model: legacy.product
+  pk: 8104
+- fields: {algorithm: null, baseoptions: null, baseprice: 1840.0, blurb: null, category: 3763,
+    cost: 1282.0, created: !!timestamp '2011-07-08 16:31:31.269623', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/johnson.4, published: false,
+    sku: johnson.4, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.842712', weight: 40}
+  model: legacy.product
+  pk: 8178
+- fields: {algorithm: null, baseoptions: null, baseprice: 2418.0, blurb: null, category: 3763,
+    cost: 1894.0, created: !!timestamp '2011-07-08 16:31:31.278622', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/jones.quietp4, published: false,
+    sku: jones.quietp4, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.854453', weight: 40}
+  model: legacy.product
+  pk: 19653
+- fields: {algorithm: null, baseoptions: null, baseprice: 895.0, blurb: null, category: 1226,
+    cost: 523.0, created: !!timestamp '2011-07-08 16:31:31.288124', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/JSP, published: false,
+    sku: JSP, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.865222',
+    weight: 40}
+  model: legacy.product
+  pk: 1233
+- fields: {algorithm: null, baseoptions: null, baseprice: 3100.0, blurb: null, category: 3763,
+    cost: 2184.0, created: !!timestamp '2011-07-08 16:31:31.297369', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/katherman.1, published: false,
+    sku: katherman.1, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.874212', weight: 40}
+  model: legacy.product
+  pk: 7359
+- fields: {algorithm: null, baseoptions: null, baseprice: 3900.0, blurb: null, category: 3763,
+    cost: 2734.0, created: !!timestamp '2011-07-08 16:31:31.306347', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/katherman.2, published: false,
+    sku: katherman.2, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.883497', weight: 40}
+  model: legacy.product
+  pk: 7461
+- fields: {algorithm: null, baseoptions: null, baseprice: 2300.0, blurb: null, category: 3763,
+    cost: 1299.0, created: !!timestamp '2011-07-08 16:31:31.315839', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/katherman.3, published: false,
+    sku: katherman.3, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.892410', weight: 40}
+  model: legacy.product
+  pk: 7543
+- fields: {algorithm: null, baseoptions: null, baseprice: 5195.0, blurb: null, category: 3763,
+    cost: 2859.0, created: !!timestamp '2011-07-08 16:31:31.324843', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/kdsi.nas-t, published: false,
+    sku: kdsi.nas-t, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.908792', weight: 40}
+  model: legacy.product
+  pk: 19485
+- fields: {algorithm: null, baseoptions: null, baseprice: 1220.0, blurb: null, category: 3763,
+    cost: 788.0, created: !!timestamp '2011-07-08 16:31:31.334571', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/kdsi.pfour1, published: false,
+    sku: kdsi.pfour1, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.918169', weight: 40}
+  model: legacy.product
+  pk: 19376
+- fields: {algorithm: null, baseoptions: null, baseprice: 55.0, blurb: null, category: 3763,
+    cost: 39.0, created: !!timestamp '2011-07-08 16:31:31.344078', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/kdsi.railkits, published: false,
+    sku: kdsi.railkits, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.927729', weight: 10}
+  model: legacy.product
+  pk: 19643
+- fields: {algorithm: null, baseoptions: null, baseprice: 1850.0, blurb: null, category: 3763,
+    cost: 1225.0, created: !!timestamp '2011-07-08 16:31:31.357273', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/kevin, published: false,
+    sku: kevin, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:40.936914',
+    weight: 40}
+  model: legacy.product
+  pk: 6968
+- fields: {algorithm: null, baseoptions: null, baseprice: 18230.0, blurb: null, category: 16225,
+    cost: 13062.0, created: !!timestamp '2011-07-08 16:31:31.366330', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/khan.MTC, published: false,
+    sku: khan.MTC, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.945663', weight: 40}
+  model: legacy.product
+  pk: 20271
+- fields: {algorithm: null, baseoptions: null, baseprice: 2195.0, blurb: null, category: 16225,
+    cost: 1427.0, created: !!timestamp '2011-07-08 16:31:31.375643', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/khan.MTC_console, published: false,
+    sku: khan.MTC_console, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.954629', weight: 40}
+  model: legacy.product
+  pk: 20537
+- fields: {algorithm: null, baseoptions: null, baseprice: 21950.0, blurb: null, category: 16225,
+    cost: 15873.0, created: !!timestamp '2011-07-08 16:31:31.384912', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/khan.NAST-Tdb, published: false,
+    sku: khan.NAST-Tdb, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.963675', weight: 40}
+  model: legacy.product
+  pk: 20138
+- fields: {algorithm: null, baseoptions: null, baseprice: 2195.0, blurb: null, category: 16225,
+    cost: 3077.0, created: !!timestamp '2011-07-08 16:31:31.394064', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/khan.STK_console, published: false,
+    sku: khan.STK_console, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.972897', weight: 40}
+  model: legacy.product
+  pk: 20650
+- fields: {algorithm: null, baseoptions: null, baseprice: 7995.0, blurb: null, category: 16225,
+    cost: 4045.0, created: !!timestamp '2011-07-08 16:31:31.403653', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/khan.TELGO, published: false,
+    sku: khan.TELGO, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.981619', weight: 40}
+  model: legacy.product
+  pk: 20404
+- fields: {algorithm: null, baseoptions: null, baseprice: 2395.0, blurb: null, category: 9531,
+    cost: 1750.0, created: !!timestamp '2011-07-08 16:31:31.412806', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/laponte.tda, published: false,
+    sku: laponte.tda, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:40.990873', weight: 40}
+  model: legacy.product
+  pk: 15015
+- fields: {algorithm: null, baseoptions: null, baseprice: 2990.0, blurb: null, category: 18787,
+    cost: 1920.0, created: !!timestamp '2011-07-08 16:31:31.421796', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/LAPSTUDIO, published: true,
+    sku: LAPSTUDIO, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.000142', weight: 20}
+  model: legacy.product
+  pk: 38585
+- fields: {algorithm: null, baseoptions: null, baseprice: 1695.0, blurb: null, category: 18787,
+    cost: 970.0, created: !!timestamp '2011-07-08 16:31:31.431492', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/LAPTOP, published: true,
+    sku: LAPTOP, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.009142',
+    weight: 20}
+  model: legacy.product
+  pk: 18788
+- fields: {algorithm: null, baseoptions: null, baseprice: 5179.5, blurb: null, category: 3763,
+    cost: 2859.0, created: !!timestamp '2011-07-08 16:31:31.440794', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/laufer.nas-t, published: false,
+    sku: laufer.nas-t, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.018105', weight: 40}
+  model: legacy.product
+  pk: 19739
+- fields: {algorithm: null, baseoptions: null, baseprice: 1026.0, blurb: null, category: 3763,
+    cost: 721.0, created: !!timestamp '2011-07-08 16:31:31.449777', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/laufer.premium, published: false,
+    sku: laufer.premium, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.027100', weight: 40}
+  model: legacy.product
+  pk: 19897
+- fields: {algorithm: null, baseoptions: null, baseprice: 723.0, blurb: null, category: 1022,
+    cost: 684.0, created: !!timestamp '2011-07-08 16:31:31.459022', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/LCD4U, published: true,
+    sku: LCD4U, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.036146',
+    weight: 30}
+  model: legacy.product
+  pk: 33054
+- fields: {algorithm: null, baseoptions: null, baseprice: 629.0, blurb: null, category: 1022,
+    cost: 550.0, created: !!timestamp '2011-07-08 16:31:31.468537', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/LCD6U, published: true,
+    sku: LCD6U, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.045338',
+    weight: 30}
+  model: legacy.product
+  pk: 33055
+- fields: {algorithm: null, baseoptions: null, baseprice: 1340.0, blurb: null, category: 1022,
+    cost: 1033.0, created: !!timestamp '2011-07-08 16:31:31.477525', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/LCDKBD, published: true,
+    sku: LCDKBD, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.054111',
+    weight: 30}
+  model: legacy.product
+  pk: 11162
+- fields: {algorithm: null, baseoptions: null, baseprice: 295.0, blurb: null, category: 12480,
+    cost: 236.0, created: !!timestamp '2011-07-08 16:31:31.486497', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/LEAF, published: true,
+    sku: LEAF, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.063417',
+    weight: 20}
+  model: legacy.product
+  pk: 40243
+- fields: {algorithm: null, baseoptions: null, baseprice: 980.0, blurb: null, category: 15984,
+    cost: 681.0, created: !!timestamp '2011-07-08 16:31:31.495980', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/LITE, published: true,
+    sku: LITE, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.072591',
+    weight: 30}
+  model: legacy.product
+  pk: 32486
+- fields: {algorithm: null, baseoptions: null, baseprice: 860.0, blurb: null, category: 3763,
+    cost: 430.0, created: !!timestamp '2011-07-08 16:31:31.504976', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/love.1uBAY, published: false,
+    sku: love.1uBAY, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.081323', weight: 40}
+  model: legacy.product
+  pk: 5952
+- fields: {algorithm: null, baseoptions: null, baseprice: 1595.0, blurb: null, category: 12480,
+    cost: 916.0, created: !!timestamp '2011-07-08 16:31:31.513999', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/LTSERVE, published: false,
+    sku: LTSERVE, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.090326',
+    weight: 40}
+  model: legacy.product
+  pk: 34608
+- fields: {algorithm: null, baseoptions: null, baseprice: 795.0, blurb: null, category: 1227,
+    cost: 555.0, created: !!timestamp '2011-07-08 16:31:31.523579', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/MAIL, published: true,
+    sku: MAIL, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.102172',
+    weight: 30}
+  model: legacy.product
+  pk: 1231
+- fields: {algorithm: null, baseoptions: null, baseprice: 849.0, blurb: null, category: 1226,
+    cost: 585.0, created: !!timestamp '2011-07-08 16:31:31.532730', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/MINI, published: false,
+    sku: MINI, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.112322',
+    weight: 20}
+  model: legacy.product
+  pk: 40088
+- fields: {algorithm: null, baseoptions: null, baseprice: 2350.0, blurb: null, category: 3763,
+    cost: 1983.0, created: !!timestamp '2011-07-08 16:31:31.541966', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/mkaplan.1, published: false,
+    sku: mkaplan.1, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.121589', weight: 40}
+  model: legacy.product
+  pk: 6762
+- fields: {algorithm: null, baseoptions: null, baseprice: 3150.0, blurb: null, category: 3763,
+    cost: 2787.0, created: !!timestamp '2011-07-08 16:31:31.553902', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/mkaplan.2, published: false,
+    sku: mkaplan.2, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.153459', weight: 40}
+  model: legacy.product
+  pk: 7965
+- fields: {algorithm: null, baseoptions: null, baseprice: 1034.0, blurb: null, category: 42556,
+    cost: 549.0, created: !!timestamp '2011-07-08 16:31:31.563576', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/MN4Lplus, published: true,
+    sku: MN4Lplus, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.163308', weight: 40}
+  model: legacy.product
+  pk: 42675
+- fields: {algorithm: null, baseoptions: null, baseprice: 690.0, blurb: null, category: 3763,
+    cost: 411.0, created: !!timestamp '2011-07-08 16:31:31.572688', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/moon.1, published: false,
+    sku: moon.1, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.172567',
+    weight: 40}
+  model: legacy.product
+  pk: 7909
+- fields: {algorithm: null, baseoptions: null, baseprice: 785.0, blurb: null, category: 3763,
+    cost: 452.0, created: !!timestamp '2011-07-08 16:31:31.581685', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/moon.2, published: false,
+    sku: moon.2, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.183569',
+    weight: 40}
+  model: legacy.product
+  pk: 10392
+- fields: {algorithm: null, baseoptions: null, baseprice: 695.0, blurb: null, category: 32556,
+    cost: 453.0, created: !!timestamp '2011-07-08 16:31:31.590701', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/MP3, published: false,
+    sku: MP3, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.192808',
+    weight: 40}
+  model: legacy.product
+  pk: 1727
+- fields: {algorithm: null, baseoptions: null, baseprice: 179.0, blurb: null, category: 42556,
+    cost: 89.0, created: !!timestamp '2011-07-08 16:31:31.599972', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/MS1CT, published: true,
+    sku: MS1CT, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.202533',
+    weight: 20}
+  model: legacy.product
+  pk: 42557
+- fields: {algorithm: null, baseoptions: null, baseprice: 315.0, blurb: null, category: 42556,
+    cost: 140.0, created: !!timestamp '2011-07-08 16:31:31.609204', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/MS2UT, published: true,
+    sku: MS2UT, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.212293',
+    weight: 20}
+  model: legacy.product
+  pk: 42599
+- fields: {algorithm: null, baseoptions: null, baseprice: 1295.0, blurb: null, category: 32556,
+    cost: 750.0, created: !!timestamp '2011-07-08 16:31:31.618190', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/NAS, published: false,
+    sku: NAS, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.222006',
+    weight: 40}
+  model: legacy.product
+  pk: 8934
+- fields: {algorithm: null, baseoptions: null, baseprice: 4955.0, blurb: null, category: 9529,
+    cost: 2736.0, created: !!timestamp '2011-07-08 16:31:31.627685', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/NAS12, published: true,
+    sku: NAS12, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.232549',
+    weight: 55}
+  model: legacy.product
+  pk: 29579
+- fields: {algorithm: null, baseoptions: null, baseprice: 5295.0, blurb: null, category: 9529,
+    cost: 2578.0, created: !!timestamp '2011-07-08 16:31:31.636699', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/NAS16, published: true,
+    sku: NAS16, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.242492',
+    weight: 55}
+  model: legacy.product
+  pk: 29689
+- fields: {algorithm: null, baseoptions: null, baseprice: 25360.0, blurb: null, category: 9529,
+    cost: 14088.0, created: !!timestamp '2011-07-08 16:31:31.645660', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/NAS16X, published: true,
+    sku: NAS16X, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.252291',
+    weight: 40}
+  model: legacy.product
+  pk: 49010
+- fields: {algorithm: null, baseoptions: null, baseprice: 6995.0, blurb: null, category: 9529,
+    cost: 4022.0, created: !!timestamp '2011-07-08 16:31:31.654684', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/NAS24, published: true,
+    sku: NAS24, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.262048',
+    weight: 70}
+  model: legacy.product
+  pk: 26571
+- fields: {algorithm: null, baseoptions: null, baseprice: 7430.0, blurb: null, category: 9529,
+    cost: 4683.0, created: !!timestamp '2011-07-08 16:31:31.663901', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/NAS24-32, published: true,
+    sku: NAS24-32, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.271513', weight: 75}
+  model: legacy.product
+  pk: 46807
+- fields: {algorithm: null, baseoptions: null, baseprice: 1695.0, blurb: null, category: 9529,
+    cost: 1077.0, created: !!timestamp '2011-07-08 16:31:31.672895', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/NAS3, published: true,
+    sku: NAS3, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.281012',
+    weight: 35}
+  model: legacy.product
+  pk: 30386
+- fields: {algorithm: null, baseoptions: null, baseprice: 7995.0, blurb: null, category: 9529,
+    cost: 4350.0, created: !!timestamp '2011-07-08 16:31:31.681878', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/NAS32, published: true,
+    sku: NAS32, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.290226',
+    weight: 85}
+  model: legacy.product
+  pk: 37332
+- fields: {algorithm: null, baseoptions: null, baseprice: 2295.0, blurb: null, category: 9529,
+    cost: 1352.0, created: !!timestamp '2011-07-08 16:31:31.691147', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/NAS4, published: true,
+    sku: NAS4, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.302276',
+    weight: 35}
+  model: legacy.product
+  pk: 30264
+- fields: {algorithm: null, baseoptions: null, baseprice: 22500.0, blurb: Windows-client
+      compatible Network Attached Storage file server., category: 9529, cost: 589.0,
+    created: !!timestamp '2011-07-08 16:31:31.700377', description: null, image: null,
+    link: null, multiplier: null, name: eRacks/NAS40, published: false, sku: NAS40,
+    sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.312275',
+    weight: 100}
+  model: legacy.product
+  pk: 4
+- fields: {algorithm: null, baseoptions: null, baseprice: 10195.0, blurb: null, category: 9529,
+    cost: 5692.0, created: !!timestamp '2011-07-08 16:31:31.709375', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/NAS50, published: true,
+    sku: NAS50, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.321482',
+    weight: 200}
+  model: legacy.product
+  pk: 42120
+- fields: {algorithm: null, baseoptions: null, baseprice: 2395.0, blurb: null, category: 9529,
+    cost: 1307.0, created: !!timestamp '2011-07-08 16:31:31.718370', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/NAS6, published: true,
+    sku: NAS6, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.330739',
+    weight: 55}
+  model: legacy.product
+  pk: 15208
+- fields: {algorithm: null, baseoptions: null, baseprice: 8165.0, blurb: null, category: 9529,
+    cost: 4536.0, created: !!timestamp '2011-07-08 16:31:31.727863', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/NAS6X, published: true,
+    sku: NAS6X, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.340459',
+    weight: 40}
+  model: legacy.product
+  pk: 48861
+- fields: {algorithm: null, baseoptions: null, baseprice: 3695.0, blurb: null, category: 9529,
+    cost: 2107.0, created: !!timestamp '2011-07-08 16:31:31.737642', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/NAS8, published: true,
+    sku: NAS8, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.350248',
+    weight: 50}
+  model: legacy.product
+  pk: 40532
+- fields: {algorithm: null, baseoptions: null, baseprice: 5095.0, blurb: null, category: 9529,
+    cost: 2951.0, created: !!timestamp '2011-07-08 16:31:31.746861', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/NAS-OPT, published: false,
+    sku: NAS-OPT, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.360732',
+    weight: 40}
+  model: legacy.product
+  pk: 23017
+- fields: {algorithm: null, baseoptions: null, baseprice: 4995.0, blurb: null, category: 9529,
+    cost: 2874.0, created: !!timestamp '2011-07-08 16:31:31.759935', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/NAS-T, published: false,
+    sku: NAS-T, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.370714',
+    weight: 40}
+  model: legacy.product
+  pk: 22857
+- fields: {algorithm: null, baseoptions: Tyan Trinity GC-SL 4DIMM 2NIC IDE motherboard,
+    baseprice: 6495.0, blurb: null, category: 9529, cost: 3793.0, created: !!timestamp '2011-07-08
+      16:31:31.769070', description: null, image: null, link: null, multiplier: null,
+    name: eRacks/NAS-T2, published: false, sku: NAS-T2, sortorder: null, title: null,
+    updated: !!timestamp '2011-07-09 13:20:41.380688', weight: 98}
+  model: legacy.product
+  pk: 15808
+- fields: {algorithm: null, baseoptions: null, baseprice: 4095.0, blurb: null, category: 9529,
+    cost: 2227.0, created: !!timestamp '2011-07-08 16:31:31.778594', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/NAS-Told, published: false,
+    sku: NAS-Told, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.390442', weight: 75}
+  model: legacy.product
+  pk: 11632
+- fields: {algorithm: null, baseoptions: 'Intel PIII 733, 10 GB HD, Floppy, CD drive,
+      64 MB RAM, single Network card, OpenBSD, standard 1U chassis, no remote management
+      card.', baseprice: 845.0, blurb: eRacks/NAT is our standard 2 port 1U rackmount
+      OpenBSD-based firewall with Network Address Translation. Includes web-based
+      remote administration. Optional remote management card with 2U height case.,
+    category: 1, cost: 481.0, created: !!timestamp '2011-07-08 16:31:31.787847', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/NAT, published: true,
+    sku: NAT, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.400166',
+    weight: 35}
+  model: legacy.product
+  pk: 1
+- fields: {algorithm: null, baseoptions: null, baseprice: 8995.0, blurb: null, category: 9529,
+    cost: 2478.0, created: !!timestamp '2011-07-08 16:31:31.797095', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/newstar.search12, published: false,
+    sku: newstar.search12, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.409930', weight: 40}
+  model: legacy.product
+  pk: 30146
+- fields: {algorithm: null, baseoptions: null, baseprice: 3995.0, blurb: null, category: 3,
+    cost: 940.0, created: !!timestamp '2011-07-08 16:31:31.806089', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/newstar.search2, published: false,
+    sku: newstar.search2, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.419514', weight: 40}
+  model: legacy.product
+  pk: 29872
+- fields: {algorithm: null, baseoptions: null, baseprice: 5595.0, blurb: null, category: 9529,
+    cost: 1740.0, created: !!timestamp '2011-07-08 16:31:31.815826', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/newstar.search4, published: false,
+    sku: newstar.search4, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.428879', weight: 40}
+  model: legacy.product
+  pk: 29994
+- fields: {algorithm: null, baseoptions: null, baseprice: 540.0, blurb: null, category: 41479,
+    cost: 490.0, created: !!timestamp '2011-07-08 16:31:31.824817', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/NIMBUS, published: true,
+    sku: NIMBUS, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.437613',
+    weight: 30}
+  model: legacy.product
+  pk: 43933
+- fields: {algorithm: null, baseoptions: null, baseprice: 1690.0, blurb: null, category: 14821,
+    cost: 1173.0, created: !!timestamp '2011-07-08 16:31:31.833933', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/NKMS, published: false,
+    sku: NKMS, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.446863',
+    weight: 40}
+  model: legacy.product
+  pk: 32767
+- fields: {algorithm: null, baseoptions: null, baseprice: 2995.0, blurb: null, category: 14821,
+    cost: 1896.0, created: !!timestamp '2011-07-08 16:31:31.843517', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/NOCONA, published: false,
+    sku: NOCONA, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.456113',
+    weight: 35}
+  model: legacy.product
+  pk: 26952
+- fields: {algorithm: null, baseoptions: null, baseprice: 1499.0, blurb: null, category: 18787,
+    cost: 800.0, created: !!timestamp '2011-07-08 16:31:31.852560', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/NOTEBOOK, published: false,
+    sku: NOTEBOOK, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.465145', weight: 20}
+  model: legacy.product
+  pk: 22253
+- fields: {algorithm: null, baseoptions: null, baseprice: 2025.0, blurb: null, category: 14821,
+    cost: 1158.0, created: !!timestamp '2011-07-08 16:31:31.861810', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/NSERVE, published: true,
+    sku: NSERVE, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.474352',
+    weight: 60}
+  model: legacy.product
+  pk: 42339
+- fields: {algorithm: null, baseoptions: null, baseprice: 1195.0, blurb: null, category: 18787,
+    cost: 910.0, created: !!timestamp '2011-07-08 16:31:31.871502', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/OPEN, published: false,
+    sku: 'OPEN ', sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.483591',
+    weight: 40}
+  model: legacy.product
+  pk: 36363
+- fields: {algorithm: null, baseoptions: null, baseprice: 1695.0, blurb: null, category: 9531,
+    cost: 1333.0, created: !!timestamp '2011-07-08 16:31:31.880787', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/OPT10BAY, published: true,
+    sku: OPT10BAY, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.492585', weight: 65}
+  model: legacy.product
+  pk: 23456
+- fields: {algorithm: null, baseoptions: null, baseprice: 1945.0, blurb: null, category: 9531,
+    cost: 1288.0, created: !!timestamp '2011-07-08 16:31:31.889792', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/OPT3, published: false,
+    sku: OPT3, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.504674',
+    weight: 35}
+  model: legacy.product
+  pk: 22609
+- fields: {algorithm: null, baseoptions: null, baseprice: 2195.0, blurb: null, category: 9531,
+    cost: 1970.0, created: !!timestamp '2011-07-08 16:31:31.899040', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/OPT4, published: true,
+    sku: OPT4, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.513828',
+    weight: 35}
+  model: legacy.product
+  pk: 31324
+- fields: {algorithm: null, baseoptions: null, baseprice: 1229.0, blurb: null, category: 9531,
+    cost: 683.0, created: !!timestamp '2011-07-08 16:31:31.908521', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/OPT4100, published: true,
+    sku: OPT4100, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.523069',
+    weight: 40}
+  model: legacy.product
+  pk: 47170
+- fields: {algorithm: null, baseoptions: null, baseprice: 2595.0, blurb: null, category: 9531,
+    cost: 2008.0, created: !!timestamp '2011-07-08 16:31:31.917518', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/OPT6, published: true,
+    sku: OPT6, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.532310',
+    weight: 55}
+  model: legacy.product
+  pk: 22724
+- fields: {algorithm: null, baseoptions: null, baseprice: 2695.0, blurb: null, category: 9531,
+    cost: 2218.0, created: !!timestamp '2011-07-08 16:31:31.926499', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/OPT9, published: false,
+    sku: OPT9, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.541358',
+    weight: 55}
+  model: legacy.product
+  pk: 23272
+- fields: {algorithm: null, baseoptions: null, baseprice: 3184.0, blurb: null, category: 9531,
+    cost: 1873.0, created: !!timestamp '2011-07-08 16:31:31.935989', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/OPTDESKTOP, published: true,
+    sku: OPTDESKTOP, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.550542', weight: 35}
+  model: legacy.product
+  pk: 26702
+- fields: {algorithm: null, baseoptions: null, baseprice: 3795.0, blurb: null, category: 9531,
+    cost: 2071.0, created: !!timestamp '2011-07-08 16:31:31.944990', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/OPTERNATOR16, published: true,
+    sku: OPTERNATOR16, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.560543', weight: 65}
+  model: legacy.product
+  pk: 46441
+- fields: {algorithm: null, baseoptions: null, baseprice: 5595.0, blurb: null, category: 9531,
+    cost: 3091.0, created: !!timestamp '2011-07-08 16:31:31.957070', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/OPTERNATOR32, published: true,
+    sku: OPTERNATOR32, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.569539', weight: 75}
+  model: legacy.product
+  pk: 46576
+- fields: {algorithm: null, baseoptions: null, baseprice: 12795.0, blurb: null, category: 9531,
+    cost: 7511.0, created: !!timestamp '2011-07-08 16:31:31.966749', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/OPTERNATOR48, published: true,
+    sku: OPTERNATOR48, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.578542', weight: 80}
+  model: legacy.product
+  pk: 46676
+- fields: {algorithm: null, baseoptions: null, baseprice: 1195.0, blurb: null, category: 32556,
+    cost: 853.0, created: !!timestamp '2011-07-08 16:31:31.976210', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/P4BOX, published: false,
+    sku: P4BOX, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.587529',
+    weight: 40}
+  model: legacy.product
+  pk: 28573
+- fields: {algorithm: null, baseoptions: null, baseprice: 1995.0, blurb: null, category: 3763,
+    cost: 1017.0, created: !!timestamp '2011-07-08 16:31:31.985228', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/parker, published: false,
+    sku: parker, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.596523',
+    weight: 40}
+  model: legacy.product
+  pk: 11094
+- fields: {algorithm: null, baseoptions: null, baseprice: 2495.0, blurb: null, category: 3763,
+    cost: 1518.0, created: !!timestamp '2011-07-08 16:31:31.994263', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/parker.2, published: false,
+    sku: parker.2, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.605553', weight: 40}
+  model: legacy.product
+  pk: 12390
+- fields: {algorithm: null, baseoptions: null, baseprice: 725.0, blurb: null, category: 32556,
+    cost: 461.0, created: !!timestamp '2011-07-08 16:31:32.003718', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/PFOUR, published: true,
+    sku: PFOUR, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.614604',
+    weight: 30}
+  model: legacy.product
+  pk: 14558
+- fields: {algorithm: null, baseoptions: null, baseprice: 925.0, blurb: null, category: 32556,
+    cost: 569.0, created: !!timestamp '2011-07-08 16:31:32.012744', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/PFOUR2, published: false,
+    sku: PFOUR2, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.623970',
+    weight: 30}
+  model: legacy.product
+  pk: 14822
+- fields: {algorithm: null, baseoptions: null, baseprice: 1695.0, blurb: null, category: 3763,
+    cost: 1125.0, created: !!timestamp '2011-07-08 16:31:32.022015', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/plunkett.dualmini, published: false,
+    sku: plunkett.dualmini, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.633260', weight: 40}
+  model: legacy.product
+  pk: 30890
+- fields: {algorithm: null, baseoptions: null, baseprice: 735.0, blurb: null, category: 12480,
+    cost: 468.0, created: !!timestamp '2011-07-08 16:31:32.031548', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/plunkett.singlemini, published: false,
+    sku: plunkett.singlemini, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.642513', weight: 40}
+  model: legacy.product
+  pk: 31021
+- fields: {algorithm: null, baseoptions: null, baseprice: 1295.0, blurb: null, category: 3,
+    cost: 968.0, created: !!timestamp '2011-07-08 16:31:32.040716', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/PREMIUM, published: true,
+    sku: PREMIUM, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.651753',
+    weight: 35}
+  model: legacy.product
+  pk: 10929
+- fields: {algorithm: null, baseoptions: null, baseprice: 1495.0, blurb: null, category: 14821,
+    cost: 1463.0, created: !!timestamp '2011-07-08 16:31:32.049686', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/PREMIUM2, published: true,
+    sku: PREMIUM2, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.660747', weight: 55}
+  model: legacy.product
+  pk: 27107
+- fields: {algorithm: null, baseoptions: null, baseprice: 1145.0, blurb: null, category: 12480,
+    cost: 618.0, created: !!timestamp '2011-07-08 16:31:32.058680', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/QBOX, published: false,
+    sku: QBOX, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.669747',
+    weight: 40}
+  model: legacy.product
+  pk: 17864
+- fields: {algorithm: null, baseoptions: null, baseprice: 1500.0, blurb: null, category: 12480,
+    cost: 802.0, created: !!timestamp '2011-07-08 16:31:32.067926', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/QBOX2, published: false,
+    sku: QBOX2, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.678722',
+    weight: 40}
+  model: legacy.product
+  pk: 23628
+- fields: {algorithm: null, baseoptions: null, baseprice: 1245.0, blurb: null, category: 12480,
+    cost: 705.0, created: !!timestamp '2011-07-08 16:31:32.076933', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/QFX, published: true,
+    sku: QFX, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.687792',
+    weight: 30}
+  model: legacy.product
+  pk: 35034
+- fields: {algorithm: null, baseoptions: null, baseprice: 9995.0, blurb: null, category: 9531,
+    cost: 5902.0, created: !!timestamp '2011-07-08 16:31:32.085912', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/QUADOPT, published: false,
+    sku: QUADOPT, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.700704',
+    weight: 40}
+  model: legacy.product
+  pk: 28106
+- fields: {algorithm: null, baseoptions: null, baseprice: 7995.0, blurb: null, category: 14821,
+    cost: 4128.0, created: !!timestamp '2011-07-08 16:31:32.095518', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/QUADX-SCSI, published: false,
+    sku: QUADX-SCSI, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.710221', weight: 60}
+  model: legacy.product
+  pk: 17574
+- fields: {algorithm: null, baseoptions: null, baseprice: 795.0, blurb: null, category: 12480,
+    cost: 455.0, created: !!timestamp '2011-07-08 16:31:32.104670', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/QUBE, published: true,
+    sku: QUBE, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.719481',
+    weight: 25}
+  model: legacy.product
+  pk: 12482
+- fields: {algorithm: null, baseoptions: null, baseprice: 795.0, blurb: null, category: 12480,
+    cost: 455.0, created: !!timestamp '2011-07-08 16:31:32.113656', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/QUBE.zonbu, published: false,
+    sku: QUBE.zonbu, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.728475', weight: 25}
+  model: legacy.product
+  pk: 37833
+- fields: {algorithm: null, baseoptions: null, baseprice: 795.0, blurb: null, category: 2,
+    cost: 448.0, created: !!timestamp '2011-07-08 16:31:32.122672', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/QUIET, published: true,
+    sku: QUIET, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.737203',
+    weight: 30}
+  model: legacy.product
+  pk: 13507
+- fields: {algorithm: null, baseoptions: null, baseprice: 1395.0, blurb: null, category: 2,
+    cost: 757.0, created: !!timestamp '2011-07-08 16:31:32.131891', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/QUIET2, published: true,
+    sku: QUIET2, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.746193',
+    weight: 55}
+  model: legacy.product
+  pk: 34517
+- fields: {algorithm: null, baseoptions: null, baseprice: 5.0, blurb: null, category: 3763,
+    cost: 5.0, created: !!timestamp '2011-07-08 16:31:32.140897', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/QUOTE, published: true,
+    sku: QUOTE, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.755487',
+    weight: 35}
+  model: legacy.product
+  pk: 28817
+- fields: {algorithm: null, baseoptions: null, baseprice: 895.0, blurb: null, category: 6,
+    cost: 678.25, created: !!timestamp '2011-07-08 16:31:32.152073', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/rackcabinet, published: true,
+    sku: rackcabinet, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.764906', weight: 40}
+  model: legacy.product
+  pk: 33880
+- fields: {algorithm: null, baseoptions: null, baseprice: 720.0, blurb: null, category: 6,
+    cost: 503.0, created: !!timestamp '2011-07-08 16:31:32.161651', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/racksystem, published: false,
+    sku: racksystem, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.773912', weight: 100}
+  model: legacy.product
+  pk: 9360
+- fields: {algorithm: null, baseoptions: null, baseprice: 55.0, blurb: null, category: 6,
+    cost: 32.0, created: !!timestamp '2011-07-08 16:31:32.173838', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/railkits, published: true,
+    sku: railkits, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.786464', weight: 10}
+  model: legacy.product
+  pk: 8090
+- fields: {algorithm: null, baseoptions: null, baseprice: 4185.0, blurb: null, category: 3763,
+    cost: 2586.0, created: !!timestamp '2011-07-08 16:31:32.183563', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/razmus.nas6, published: false,
+    sku: razmus.nas6, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.795708', weight: 40}
+  model: legacy.product
+  pk: 27506
+- fields: {algorithm: null, baseoptions: null, baseprice: 2495.0, blurb: null, category: 3763,
+    cost: 1224.0, created: !!timestamp '2011-07-08 16:31:32.192633', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/rioux.AUDIO, published: false,
+    sku: rioux.AUDIO, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.804918', weight: 40}
+  model: legacy.product
+  pk: 8427
+- fields: {algorithm: null, baseoptions: null, baseprice: 4595.0, blurb: null, category: 3763,
+    cost: 2373.0, created: !!timestamp '2011-07-08 16:31:32.201606', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/rioux.AUDIOPHILE, published: false,
+    sku: rioux.AUDIOPHILE, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.813902', weight: 40}
+  model: legacy.product
+  pk: 32667
+- fields: {algorithm: null, baseoptions: null, baseprice: 1300.0, blurb: null, category: 3,
+    cost: 722.0, created: !!timestamp '2011-07-08 16:31:32.210736', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/rioux.nas, published: false,
+    sku: rioux.nas, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.823163', weight: 40}
+  model: legacy.product
+  pk: 8508
+- fields: {algorithm: null, baseoptions: null, baseprice: 1050.0, blurb: null, category: 7,
+    cost: 579.0, created: !!timestamp '2011-07-08 16:31:32.220352', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/rioux.web_dev, published: false,
+    sku: rioux.web_dev, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.832424', weight: 40}
+  model: legacy.product
+  pk: 8346
+- fields: {algorithm: null, baseoptions: null, baseprice: 1050.0, blurb: null, category: 7,
+    cost: 579.0, created: !!timestamp '2011-07-08 16:31:32.229591', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/rioux.web_prod, published: false,
+    sku: rioux.web_prod, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.841402', weight: 40}
+  model: legacy.product
+  pk: 8691
+- fields: {algorithm: null, baseoptions: null, baseprice: 2233.0, blurb: null, category: 3763,
+    cost: 1646.72, created: !!timestamp '2011-07-08 16:31:32.238844', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/rnelson.premium, published: false,
+    sku: rnelson.premium, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.850632', weight: 40}
+  model: legacy.product
+  pk: 27967
+- fields: {algorithm: null, baseoptions: null, baseprice: 848.0, blurb: null, category: 14821,
+    cost: 618.0, created: !!timestamp '2011-07-08 16:31:32.248336', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/sabari.p4, published: false,
+    sku: sabari.p4, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.859902', weight: 40}
+  model: legacy.product
+  pk: 18573
+- fields: {algorithm: null, baseoptions: null, baseprice: 1495.0, blurb: null, category: 14821,
+    cost: 822.0, created: !!timestamp '2011-07-08 16:31:32.257337', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/SANDYCORE, published: true,
+    sku: SANDYCORE, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.869135', weight: 40}
+  model: legacy.product
+  pk: 47780
+- fields: {algorithm: null, baseoptions: null, baseprice: 6826.0, blurb: null, category: 3763,
+    cost: 3413.0, created: !!timestamp '2011-07-08 16:31:32.266328', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/seidl.1, published: false,
+    sku: seidl.1, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.878118',
+    weight: 40}
+  model: legacy.product
+  pk: 6130
+- fields: {algorithm: null, baseoptions: null, baseprice: 4106.0, blurb: null, category: 3763,
+    cost: 2453.0, created: !!timestamp '2011-07-08 16:31:32.275806', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/seidl.2, published: false,
+    sku: seidl.2, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.887425',
+    weight: 40}
+  model: legacy.product
+  pk: 6047
+- fields: {algorithm: null, baseoptions: null, baseprice: 3474.0, blurb: null, category: 3763,
+    cost: 1737.0, created: !!timestamp '2011-07-08 16:31:32.284817', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/seidl.3, published: false,
+    sku: seidl.3, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.900407',
+    weight: 40}
+  model: legacy.product
+  pk: 6195
+- fields: {algorithm: null, baseoptions: null, baseprice: 645.0, blurb: null, category: 9531,
+    cost: 348.0, created: !!timestamp '2011-07-08 16:31:32.293871', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/SEMPRON, published: false,
+    sku: SEMPRON, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.909872',
+    weight: 35}
+  model: legacy.product
+  pk: 16032
+- fields: {algorithm: null, baseoptions: null, baseprice: 795.0, blurb: null, category: 3,
+    cost: 486.0, created: !!timestamp '2011-07-08 16:31:32.303758', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/SERVE, published: true,
+    sku: SERVE, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.919152',
+    weight: 35}
+  model: legacy.product
+  pk: 1234
+- fields: {algorithm: null, baseoptions: null, baseprice: 5237.0, blurb: null, category: 3763,
+    cost: 4654.0, created: !!timestamp '2011-07-08 16:31:32.312807', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/setlur.tdx-scsi, published: false,
+    sku: setlur.tdx-scsi, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.928376', weight: 40}
+  model: legacy.product
+  pk: 19133
+- fields: {algorithm: null, baseoptions: null, baseprice: 1575.0, blurb: null, category: 14821,
+    cost: 1071.0, created: !!timestamp '2011-07-08 16:31:32.322043', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/shafae.pfour, published: false,
+    sku: shafae.pfour, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.937601', weight: 40}
+  model: legacy.product
+  pk: 21240
+- fields: {algorithm: null, baseoptions: null, baseprice: 6110.0, blurb: null, category: 3763,
+    cost: 3898.0, created: !!timestamp '2011-07-08 16:31:32.331767', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/shender.nas9, published: false,
+    sku: shender.nas9, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.946578', weight: 40}
+  model: legacy.product
+  pk: 11445
+- fields: {algorithm: null, baseoptions: null, baseprice: 2308.0, blurb: null, category: 3763,
+    cost: 2343.0, created: !!timestamp '2011-07-08 16:31:32.340807', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/shields.20bay, published: false,
+    sku: shields.20bay, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.955837', weight: 40}
+  model: legacy.product
+  pk: 20015
+- fields: {algorithm: null, baseoptions: null, baseprice: 5229.0, blurb: null, category: 3763,
+    cost: 3250.0, created: !!timestamp '2011-07-08 16:31:32.352911', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/shields.nast2, published: false,
+    sku: shields.nast2, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.964565', weight: 40}
+  model: legacy.product
+  pk: 20016
+- fields: {algorithm: null, baseoptions: null, baseprice: 515.0, blurb: null, category: 15984,
+    cost: 302.0, created: !!timestamp '2011-07-08 16:31:32.362797', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/SHORT, published: true,
+    sku: SHORT, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.973310',
+    weight: 30}
+  model: legacy.product
+  pk: 20854
+- fields: {algorithm: null, baseoptions: null, baseprice: 1375.0, blurb: null, category: 12480,
+    cost: 626.0, created: !!timestamp '2011-07-08 16:31:32.372240', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/SILENCE, published: true,
+    sku: SILENCE, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:41.982056',
+    weight: 40}
+  model: legacy.product
+  pk: 24515
+- fields: {algorithm: null, baseoptions: null, baseprice: 1375.0, blurb: null, category: 12480,
+    cost: 626.0, created: !!timestamp '2011-07-08 16:31:32.381249', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/SILENCE.zonbu, published: false,
+    sku: SILENCE.zonbu, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:41.991364', weight: 40}
+  model: legacy.product
+  pk: 37588
+- fields: {algorithm: null, baseoptions: null, baseprice: 2295.0, blurb: null, category: 9531,
+    cost: 1158.0, created: !!timestamp '2011-07-08 16:31:32.390300', description: 'AMD
+      Six-Core Opteron series 2000 processors, DDR2, 2U-height rackmount server. Preconfigured
+      with Linux, OpenBSD, or other Open Source Operating System.', image: 'http://eracks.com/products/AMD%20Systems/SIXPACK_photos/sixpack_400',
+    link: 'http://eracks.com/products/config?sku=SIXPACK', multiplier: null, name: eRacks/SIXPACK,
+    published: true, sku: SIXPACK, sortorder: null, title: Six-Core Opteron series
+      2000 Istanbul rackmount server, updated: !!timestamp '2011-07-09 13:20:42.000569',
+    weight: 40}
+  model: legacy.product
+  pk: 43210
+- fields: {algorithm: null, baseoptions: null, baseprice: 1890.0, blurb: null, category: 18787,
+    cost: 1200.0, created: !!timestamp '2011-07-08 16:31:32.400520', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/SMALLFRY, published: false,
+    sku: SMALLFRY, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.010063', weight: 20}
+  model: legacy.product
+  pk: 38634
+- fields: {algorithm: null, baseoptions: null, baseprice: 1565.0, blurb: null, category: 1227,
+    cost: 961.0, created: !!timestamp '2011-07-08 16:31:32.409479', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/SNORT, published: true,
+    sku: SNORT, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.019357',
+    weight: 35}
+  model: legacy.product
+  pk: 14366
+- fields: {algorithm: null, baseoptions: null, baseprice: 1195.0, blurb: all-in-one
+      small-office or home office server with WEB / DHCP / Firewall capabilities.,
+    category: 4, cost: 568.0, created: !!timestamp '2011-07-08 16:31:32.418498', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/SOHO, published: false,
+    sku: SOHO, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.028577',
+    weight: 40}
+  model: legacy.product
+  pk: 6
+- fields: {algorithm: null, baseoptions: null, baseprice: 2495.0, blurb: null, category: 4,
+    cost: 1775.0, created: !!timestamp '2011-07-08 16:31:32.427982', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/SOLO, published: true,
+    sku: SOLO, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.037801',
+    weight: 55}
+  model: legacy.product
+  pk: 36116
+- fields: {algorithm: null, baseoptions: null, baseprice: 745.0, blurb: null, category: 9531,
+    cost: 487.0, created: !!timestamp '2011-07-08 16:31:32.437004', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/SP2, published: false,
+    sku: SP2, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.047022',
+    weight: 55}
+  model: legacy.product
+  pk: 9536
+- fields: {algorithm: null, baseoptions: null, baseprice: 4110.0, blurb: null, category: 16225,
+    cost: 2683.0, created: !!timestamp '2011-07-08 16:31:32.445969', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/sprenkle.tdxscsi, published: false,
+    sku: sprenkle.tdxscsi, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.056277', weight: 40}
+  model: legacy.product
+  pk: 25237
+- fields: {algorithm: null, baseoptions: null, baseprice: 3195.0, blurb: null, category: 16225,
+    cost: 2723.0, created: !!timestamp '2011-07-08 16:31:32.455723', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/sprenkle.tdxscsi2, published: false,
+    sku: sprenkle.tdxscsi2, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.066315', weight: 40}
+  model: legacy.product
+  pk: 25478
+- fields: {algorithm: null, baseoptions: null, baseprice: 715.0, blurb: null, category: 7,
+    cost: 383.0, created: !!timestamp '2011-07-08 16:31:32.464723', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/SSLW, published: true,
+    sku: SSLW, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.075532',
+    weight: 35}
+  model: legacy.product
+  pk: 1229
+- fields: {algorithm: null, baseoptions: null, baseprice: 695.0, blurb: null, category: 3,
+    cost: 417.0, created: !!timestamp '2011-07-08 16:31:32.474655', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/STANDARD, published: false,
+    sku: STANDARD, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.084511', weight: 40}
+  model: legacy.product
+  pk: 10815
+- fields: {algorithm: null, baseoptions: null, baseprice: 3610.0, blurb: null, category: 16225,
+    cost: 2500.0, created: !!timestamp '2011-07-08 16:31:32.484201', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/stein.TDX, published: false,
+    sku: stein.TDX, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.093508', weight: 40}
+  model: legacy.product
+  pk: 18859
+- fields: {algorithm: null, baseoptions: null, baseprice: 795.0, blurb: Ready-to-run
+      e-Commerce server integrated with eRacks/WEB server., category: 7, cost: 413.0,
+    created: !!timestamp '2011-07-08 16:31:32.493204', description: null, image: null,
+    link: null, multiplier: null, name: eRacks/STORE, published: false, sku: STORE,
+    sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.105314',
+    weight: 40}
+  model: legacy.product
+  pk: 8
+- fields: {algorithm: null, baseoptions: null, baseprice: 320.0, blurb: null, category: 41479,
+    cost: 315.0, created: !!timestamp '2011-07-08 16:31:32.503807', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/STRATUS, published: true,
+    sku: STRATUS, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.114496',
+    weight: 30}
+  model: legacy.product
+  pk: 41447
+- fields: {algorithm: null, baseoptions: null, baseprice: 3875.0, blurb: null, category: 23454,
+    cost: 3633.0, created: !!timestamp '2011-07-08 16:31:32.513443', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/strauss.opt2, published: false,
+    sku: strauss.opt2, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.123905', weight: 40}
+  model: legacy.product
+  pk: 25895
+- fields: {algorithm: null, baseoptions: null, baseprice: 525.0, blurb: null, category: 15984,
+    cost: 306.0, created: !!timestamp '2011-07-08 16:31:32.522429', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/STUBBY, published: true,
+    sku: STUBBY, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.133241',
+    weight: 40}
+  model: legacy.product
+  pk: 23829
+- fields: {algorithm: null, baseoptions: null, baseprice: 1215.0, blurb: null, category: 2,
+    cost: 772.0, created: !!timestamp '2011-07-08 16:31:32.531920', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/STUDIO, published: false,
+    sku: STUDIO, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.142594',
+    weight: 45}
+  model: legacy.product
+  pk: 36785
+- fields: {algorithm: null, baseoptions: null, baseprice: 1200.0, blurb: null, category: 44304,
+    cost: 655.0, created: !!timestamp '2011-07-08 16:31:32.540914', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/STUDIO3, published: true,
+    sku: STUDIO3, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.153229',
+    weight: 40}
+  model: legacy.product
+  pk: 44040
+- fields: {algorithm: null, baseoptions: null, baseprice: 1500.0, blurb: null, category: 44304,
+    cost: 796.0, created: !!timestamp '2011-07-08 16:31:32.552210', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/STUDIO5, published: true,
+    sku: STUDIO5, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.161963',
+    weight: 40}
+  model: legacy.product
+  pk: 44173
+- fields: {algorithm: null, baseoptions: null, baseprice: 2200.0, blurb: null, category: 44304,
+    cost: 1188.0, created: !!timestamp '2011-07-08 16:31:32.561965', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/STUDIO7, published: true,
+    sku: STUDIO7, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.171256',
+    weight: 40}
+  model: legacy.product
+  pk: 44305
+- fields: {algorithm: null, baseoptions: null, baseprice: 995.0, blurb: null, category: 32556,
+    cost: 710.0, created: !!timestamp '2011-07-08 16:31:32.571629', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/SUBNOTE, published: false,
+    sku: SUBNOTE, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.180238',
+    weight: 15}
+  model: legacy.product
+  pk: 22331
+- fields: {algorithm: null, baseoptions: null, baseprice: 4335.0, blurb: null, category: 4,
+    cost: 2547.0, created: !!timestamp '2011-07-08 16:31:32.580682', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/SUITE, published: false,
+    sku: SUITE, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.189183',
+    weight: 55}
+  model: legacy.product
+  pk: 35237
+- fields: {algorithm: null, baseoptions: null, baseprice: 3300.0, blurb: null, category: 3763,
+    cost: 1414.0, created: !!timestamp '2011-07-08 16:31:32.589907', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/SWOOSH, published: false,
+    sku: SWOOSH, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.198447',
+    weight: 40}
+  model: legacy.product
+  pk: 5182
+- fields: {algorithm: null, baseoptions: null, baseprice: 2440.0, blurb: null, category: 18787,
+    cost: 1933.0, created: !!timestamp '2011-07-08 16:31:32.599133', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/TABLET, published: true,
+    sku: TABLET, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.207697',
+    weight: 20}
+  model: legacy.product
+  pk: 35463
+- fields: {algorithm: null, baseoptions: null, baseprice: 1895.0, blurb: null, category: 32556,
+    cost: 1192.0, created: !!timestamp '2011-07-08 16:31:32.608368', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/TDA, published: false,
+    sku: TDA, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.216945',
+    weight: 40}
+  model: legacy.product
+  pk: 11988
+- fields: {algorithm: null, baseoptions: null, baseprice: 2395.0, blurb: null, category: 9531,
+    cost: 1320.0, created: !!timestamp '2011-07-08 16:31:32.617638', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/TDA-SCSI, published: false,
+    sku: TDA-SCSI, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.225968', weight: 40}
+  model: legacy.product
+  pk: 12623
+- fields: {algorithm: null, baseoptions: null, baseprice: 2095.0, blurb: null, category: 32556,
+    cost: 1469.0, created: !!timestamp '2011-07-08 16:31:32.626630', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/TDX, published: false,
+    sku: TDX, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.235259',
+    weight: 35}
+  model: legacy.product
+  pk: 16227
+- fields: {algorithm: null, baseoptions: null, baseprice: 1895.0, blurb: null, category: 32556,
+    cost: 1462.0, created: !!timestamp '2011-07-08 16:31:32.636127', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/TDX-SALE, published: false,
+    sku: TDX-SALE, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.244411', weight: 40}
+  model: legacy.product
+  pk: 26839
+- fields: {algorithm: null, baseoptions: null, baseprice: 2495.0, blurb: null, category: 32556,
+    cost: 1680.0, created: !!timestamp '2011-07-08 16:31:32.645118', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/TDX-SCSI, published: false,
+    sku: TDX-SCSI, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.253155', weight: 35}
+  model: legacy.product
+  pk: 16387
+- fields: {algorithm: null, baseoptions: null, baseprice: 879.0, blurb: null, category: 18787,
+    cost: 829.0, created: !!timestamp '2011-07-08 16:31:32.654095', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/THINKPAL, published: true,
+    sku: THINKPAL, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.262175', weight: 20}
+  model: legacy.product
+  pk: 36364
+- fields: {algorithm: null, baseoptions: null, baseprice: 590.0, blurb: null, category: 42556,
+    cost: 150.0, created: !!timestamp '2011-07-08 16:31:32.663646', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/TR4X, published: true,
+    sku: TR4X, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.271463',
+    weight: 40}
+  model: legacy.product
+  pk: 42623
+- fields: {algorithm: null, baseoptions: null, baseprice: 785.0, blurb: null, category: 42556,
+    cost: 205.0, created: !!timestamp '2011-07-08 16:31:32.672866', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/TR5M, published: true,
+    sku: TR5M, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.280654',
+    weight: 40}
+  model: legacy.product
+  pk: 42720
+- fields: {algorithm: null, baseoptions: null, baseprice: 830.0, blurb: null, category: 42556,
+    cost: 420.0, created: !!timestamp '2011-07-08 16:31:32.681825', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/TR8X, published: true,
+    sku: TR8X, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.289640',
+    weight: 40}
+  model: legacy.product
+  pk: 42765
+- fields: {algorithm: null, baseoptions: null, baseprice: 1695.0, blurb: null, category: 1,
+    cost: 990.0, created: !!timestamp '2011-07-08 16:31:32.691103', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/TWINGUARD, published: true,
+    sku: TWINGUARD, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.300986', weight: 35}
+  model: legacy.product
+  pk: 31205
+- fields: {algorithm: null, baseoptions: null, baseprice: 2995.0, blurb: null, category: 14821,
+    cost: 2055.0, created: !!timestamp '2011-07-08 16:31:32.700312', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/TWINSERVE, published: true,
+    sku: TWINSERVE, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.310654', weight: 35}
+  model: legacy.product
+  pk: 35710
+- fields: {algorithm: null, baseoptions: null, baseprice: 1305.0, blurb: null, category: 14821,
+    cost: 868.0, created: !!timestamp '2011-07-08 16:31:32.709399', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/uci_ics.p4HT, published: false,
+    sku: uci_ics.p4HT, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.319937', weight: 40}
+  model: legacy.product
+  pk: 26125
+- fields: {algorithm: null, baseoptions: null, baseprice: 1330.0, blurb: null, category: 14821,
+    cost: 957.0, created: !!timestamp '2011-07-08 16:31:32.718565', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/uci_ics.p4HTtower, published: false,
+    sku: uci_ics.p4HTtower, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.329155', weight: 40}
+  model: legacy.product
+  pk: 26251
+- fields: {algorithm: null, baseoptions: 'AMD 500 MHz, 10 GB HD, Floppy, CD drive,
+      64 MB RAM, OpenBSD, standard 1U chassis, no remote management card.', baseprice: 595.0,
+    blurb: null, category: 3, cost: 402.0, created: !!timestamp '2011-07-08 16:31:32.728062',
+    description: null, image: null, link: null, multiplier: null, name: eRacks/VALUE,
+    published: true, sku: VALUE, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.337870', weight: 30}
+  model: legacy.product
+  pk: 1228
+- fields: {algorithm: null, baseoptions: null, baseprice: 695.0, blurb: null, category: 3,
+    cost: 417.0, created: !!timestamp '2011-07-08 16:31:32.737315', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/VALUE.AMD, published: false,
+    sku: VALUE.AMD, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.347127', weight: 40}
+  model: legacy.product
+  pk: 10587
+- fields: {algorithm: null, baseoptions: null, baseprice: 695.0, blurb: null, category: 3,
+    cost: 417.0, created: !!timestamp '2011-07-08 16:31:32.746304', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/VALUE.INTEL, published: false,
+    sku: VALUE.INTEL, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.356343', weight: 40}
+  model: legacy.product
+  pk: 10701
+- fields: {algorithm: null, baseoptions: null, baseprice: 845.0, blurb: Ready-to-run
+      IPSec protocol based Virtual Private Network configuration is also available
+      with a matched pair of eRacks/VPN servers., category: 1, cost: 573.0, created: !!timestamp '2011-07-08
+      16:31:32.758626', description: null, image: null, link: null, multiplier: null,
+    name: eRacks/VPN, published: true, sku: VPN, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.365140', weight: 35}
+  model: legacy.product
+  pk: 3
+- fields: {algorithm: null, baseoptions: null, baseprice: 355.0, blurb: null, category: 1226,
+    cost: 236.0, created: !!timestamp '2011-07-08 16:31:32.768038', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/VROOM, published: false,
+    sku: VROOM, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.374391',
+    weight: 40}
+  model: legacy.product
+  pk: 40402
+- fields: {algorithm: null, baseoptions: null, baseprice: 795.0, blurb: Apache web
+      server with remote administration and auditable usage statistics, category: 7,
+    cost: 413.0, created: !!timestamp '2011-07-08 16:31:32.777026', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/WEB, published: true,
+    sku: WEB, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.383556',
+    weight: 35}
+  model: legacy.product
+  pk: 9
+- fields: {algorithm: null, baseoptions: null, baseprice: 3036.0, blurb: null, category: 3763,
+    cost: 1905.0, created: !!timestamp '2011-07-08 16:31:32.786023', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/wooley.custom2u, published: false,
+    sku: wooley.custom2u, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.392605', weight: 40}
+  model: legacy.product
+  pk: 30591
+- fields: {algorithm: null, baseoptions: null, baseprice: 795.0, blurb: null, category: 32556,
+    cost: 388.0, created: !!timestamp '2011-07-08 16:31:32.795611', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/WORK, published: false,
+    sku: WORK, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.401332',
+    weight: 35}
+  model: legacy.product
+  pk: 1236
+- fields: {algorithm: null, baseoptions: null, baseprice: 995.0, blurb: null, category: 15984,
+    cost: 569.0, created: !!timestamp '2011-07-08 16:31:32.805054', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/WORK2, published: false,
+    sku: WORK2, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.410563',
+    weight: 55}
+  model: legacy.product
+  pk: 8601
+- fields: {algorithm: null, baseoptions: null, baseprice: 1390.0, blurb: null, category: 18787,
+    cost: 690.0, created: !!timestamp '2011-07-08 16:31:32.814024', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/WORKHORSE, published: false,
+    sku: WORKHORSE, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.420103', weight: 20}
+  model: legacy.product
+  pk: 38635
+- fields: {algorithm: null, baseoptions: null, baseprice: 9095.0, blurb: null, category: 4,
+    cost: 5708.0, created: !!timestamp '2011-07-08 16:31:32.824533', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/X4X4, published: true,
+    sku: X4X4, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.429330',
+    weight: 35}
+  model: legacy.product
+  pk: 35725
+- fields: {algorithm: null, baseoptions: null, baseprice: 4995.0, blurb: null, category: 4,
+    cost: 3036.0, created: !!timestamp '2011-07-08 16:31:32.833502', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/XEON2Q, published: false,
+    sku: XEON2Q, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.438319',
+    weight: 40}
+  model: legacy.product
+  pk: 36294
+- fields: {algorithm: null, baseoptions: null, baseprice: 1475.0, blurb: null, category: 12480,
+    cost: 953.0, created: !!timestamp '2011-07-08 16:31:32.842745', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/XPC, published: false,
+    sku: XPC, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.447563',
+    weight: 40}
+  model: legacy.product
+  pk: 33913
+- fields: {algorithm: null, baseoptions: null, baseprice: 4995.0, blurb: null, category: 3763,
+    cost: 3354.0, created: !!timestamp '2011-07-08 16:31:32.852233', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/yeun.6RHD, published: false,
+    sku: yeun.6RHD, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.456302', weight: 40}
+  model: legacy.product
+  pk: 13914
+- fields: {algorithm: null, baseoptions: null, baseprice: 5955.0, blurb: null, category: 3,
+    cost: 3971.0, created: !!timestamp '2011-07-08 16:31:32.861252', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/yeun.nas, published: false,
+    sku: yeun.nas, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.465600', weight: 40}
+  model: legacy.product
+  pk: 8776
+- fields: {algorithm: null, baseoptions: null, baseprice: 8095.0, blurb: null, category: 3,
+    cost: 5006.0, created: !!timestamp '2011-07-08 16:31:32.870243', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/yeun.nas1, published: false,
+    sku: yeun.nas1, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.474781', weight: 40}
+  model: legacy.product
+  pk: 12171
+- fields: {algorithm: null, baseoptions: null, baseprice: 999.0, blurb: null, category: 3,
+    cost: 721.0, created: !!timestamp '2011-07-08 16:31:32.879727', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/yeun.premium, published: false,
+    sku: yeun.premium, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.483799', weight: 40}
+  model: legacy.product
+  pk: 19019
+- fields: {algorithm: null, baseoptions: null, baseprice: 459.0, blurb: null, category: 21720,
+    cost: 410.0, created: !!timestamp '2011-07-08 16:31:32.888753', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/ZAURUS5600, published: false,
+    sku: ZAURUS5600, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.492775', weight: 15}
+  model: legacy.product
+  pk: 21721
+- fields: {algorithm: null, baseoptions: null, baseprice: 0.0, blurb: null, category: 21720,
+    cost: 0.0, created: !!timestamp '2011-07-08 16:31:32.897709', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/ZAURUSacc, published: false,
+    sku: ZAURUSacc, sortorder: null, title: null, updated: !!timestamp '2011-07-09
+      13:20:42.505623', weight: 40}
+  model: legacy.product
+  pk: 22120
+- fields: {algorithm: null, baseoptions: null, baseprice: 1795.0, blurb: null, category: 1227,
+    cost: 1007.0, created: !!timestamp '2011-07-08 16:31:32.906951', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/ZIMBRA, published: true,
+    sku: ZIMBRA, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.514772',
+    weight: 35}
+  model: legacy.product
+  pk: 33081
+- fields: {algorithm: null, baseoptions: null, baseprice: 1195.0, blurb: null, category: 7,
+    cost: 568.0, created: !!timestamp '2011-07-08 16:31:32.916202', description: null,
+    image: null, link: null, multiplier: null, name: eRacks/ZOPE, published: false,
+    sku: ZOPE, sortorder: null, title: null, updated: !!timestamp '2011-07-09 13:20:42.524015',
+    weight: 35}
+  model: legacy.product
+  pk: 1230

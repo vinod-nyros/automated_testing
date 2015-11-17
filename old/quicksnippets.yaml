@@ -1,0 +1,42 @@
+- fields: {body: "<p>eRacks Open Source Systems provides high-performance competitively-priced
+      open source Rackmount Servers, \r\nDesktop Computers, as well as a wide array
+      of services including Open Source enterprise migration, \r\nsecurity, and network
+      architecture design. \r\n</p>\r\n\r\n<p>eRacks saves you both time and money
+      by combining quality open source enterprise-level software and \r\neasily-upgradeable
+      industry-standard components in its rackmount servers. \r\n</p>\r\n", created: ! '2012-10-28
+      14:50:42.749047', name: new_home_page_text_1, published: true, title: High Performance,
+    updated: ! '2015-11-06 12:01:25.794019'}
+  model: obdjects.snippet
+  pk: 11
+- fields: {body: "<a class=\"twitter-timeline\" href=\"https://twitter.com/eRacks\"
+      data-widget-id=\"662158681019019264\">Tweets by @eRacks</a>\r\n<script>!function(d,s,id){var
+      js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+\"://platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");</script>\r\n",
+    created: ! '2015-11-04 22:47:38.014725', name: twitter_widget, published: true,
+    title: eRacks Twitter Feed Widget, updated: ! '2015-11-04 22:47:38.014774'}
+  model: obdjects.snippet
+  pk: 21
+- fields: {body: "<p>eRacks' specialty is in preconfigured custom Linux rackmount
+      servers, FreeBSD, OpenBSD, and NetBSD rackmount servers. \r\n</p>\r\n\r\n<p>eRacks'
+      wide choice of operating systems also include Ubuntu, Debian, openSUSE, Fedora
+      Linux and other rackmount server configurations. \r\neRacks also provides onsite
+      installation, open source migration services, including network consulting and
+      software development services. \r\n</p>\r\n\r\n<script type=\"text/javascript\">\r\n\r\n
+      \ var _gaq = _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-37665012-1']);\r\n
+      \ _gaq.push(['_setDomainName', 'eracks.com']);\r\n  _gaq.push(['_trackPageview']);\r\n\r\n
+      \ (function() {\r\n    var ga = document.createElement('script'); ga.type =
+      'text/javascript'; ga.async = true;\r\n    ga.src = ('https:' == document.location.protocol
+      ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\r\n    var
+      s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
+      s);\r\n  })();\r\n\r\n</script>", created: ! '2015-11-05 15:20:32.344318', name: new_home_page_text_2,
+    published: true, title: Pre-provisioned OSS, updated: ! '2015-11-05 15:20:32.344354'}
+  model: obdjects.snippet
+  pk: 23
+- fields: {body: "<p>eRacks also has extensive experience building quiet rackmount
+      and desktop computers, \r\nas well as customizing Linux and other Open Source
+      OSes. Please call or email us to \r\ndiscuss your computational needs.\r\n</p>\r\n\r\n<p>eRacks
+      offers more flexibility in rackmount server configuration at a better price!</p>",
+    created: ! '2015-11-05 15:22:35.229554', name: new_home_page_text_3, published: true,
+    title: 'Experience, Custom design, Open Source, Quiet rackmounts', updated: ! '2015-11-06
+      12:01:02.790656'}
+  model: obdjects.snippet
+  pk: 24

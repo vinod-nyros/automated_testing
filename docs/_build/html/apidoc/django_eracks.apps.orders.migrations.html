@@ -1,0 +1,254 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>migrations Package &mdash; eRacks Django website 10.0alpha documentation</title>
+    
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '10.0alpha',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="eRacks Django website 10.0alpha documentation" href="../index.html" />
+    <link rel="up" title="orders Package" href="django_eracks.apps.orders.html" />
+    <link rel="next" title="products Package" href="django_eracks.apps.products.html" />
+    <link rel="prev" title="orders Package" href="django_eracks.apps.orders.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="django_eracks.apps.products.html" title="products Package"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="django_eracks.apps.orders.html" title="orders Package"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../index.html">eRacks Django website 10.0alpha documentation</a> &raquo;</li>
+          <li><a href="modules.html" >&lt;no title&gt;</a> &raquo;</li>
+          <li><a href="django_eracks.html" >django_eracks Package</a> &raquo;</li>
+          <li><a href="django_eracks.apps.html" >apps Package</a> &raquo;</li>
+          <li><a href="django_eracks.apps.orders.html" accesskey="U">orders Package</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="migrations-package">
+<h1>migrations Package<a class="headerlink" href="#migrations-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-django_eracks.apps.orders.migrations.0001_initial">
+<span id="initial-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">0001_initial</span></tt> Module<a class="headerlink" href="#module-django_eracks.apps.orders.migrations.0001_initial" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="django_eracks.apps.orders.migrations.0001_initial.Migration">
+<em class="property">class </em><tt class="descclassname">django_eracks.apps.orders.migrations.0001_initial.</tt><tt class="descname">Migration</tt><a class="headerlink" href="#django_eracks.apps.orders.migrations.0001_initial.Migration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">south.v2.SchemaMigration</span></tt></p>
+<dl class="method">
+<dt id="django_eracks.apps.orders.migrations.0001_initial.Migration.backwards">
+<tt class="descname">backwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.orders.migrations.0001_initial.Migration.backwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.orders.migrations.0001_initial.Migration.complete_apps">
+<tt class="descname">complete_apps</tt><em class="property"> = ['orders']</em><a class="headerlink" href="#django_eracks.apps.orders.migrations.0001_initial.Migration.complete_apps" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="django_eracks.apps.orders.migrations.0001_initial.Migration.forwards">
+<tt class="descname">forwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.orders.migrations.0001_initial.Migration.forwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.orders.migrations.0001_initial.Migration.models">
+<tt class="descname">models</tt><em class="property"> = {'customers.customer': {'comment': ('django.db.models.fields.TextField', [], {}), 'billing_address': ('django.db.models.fields.TextField', [], {'blank': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '80'}), 'primarycreditcard': ('django.db.models.fields.IntegerField', [], {}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'phone2': ('django.db.models.fields.CharField', [], {'max_length': '40', 'blank': 'True'}), 'primaryshipping': ('django.db.models.fields.IntegerField', [], {}), 'maillist': ('django.db.models.fields.IntegerField', [], {}), 'phone': ('django.db.models.fields.CharField', [], {'max_length': '40'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'dept': ('django.db.models.fields.CharField', [], {'max_length': '80', 'blank': 'True'}), 'Meta': {'object_name': 'Customer', 'db_table': &quot;u'customers'&quot;}, 'primarybilling': ('django.db.models.fields.IntegerField', [], {}), 'modified': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'shipping_address': ('django.db.models.fields.TextField', [], {}), 'title': ('django.db.models.fields.CharField', [], {'max_length': '80', 'blank': 'True'}), 'email2': ('django.db.models.fields.CharField', [], {'max_length': '160', 'blank': 'True'}), 'email': ('django.db.models.fields.CharField', [], {'max_length': '160'})}, 'orders.orders': {'comment': ('django.db.models.fields.TextField', [], {}), 'customer': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['customers.Customer']&quot;}), 'updated': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'shipping_method': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'referral_source': ('django.db.models.fields.CharField', [], {'max_length': '80'}), 'shipping': ('django.db.models.fields.DecimalField', [], {'max_digits': '10', 'decimal_places': '2'}), 'reference_number': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'shipping_payment': ('django.db.models.fields.CharField', [], {'max_length': '80'}), 'Meta': {'object_name': 'Orders', 'db_table': &quot;u'orders'&quot;}, 'status': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'processed': ('django.db.models.fields.DateTimeField', [], {}), 'published': ('django.db.models.fields.BooleanField', [], {'default': 'True'}), 'preferred_shipper': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'special_instructions': ('django.db.models.fields.TextField', [], {}), 'referral_type': ('django.db.models.fields.CharField', [], {'max_length': '80'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'})}}</em><a class="headerlink" href="#django_eracks.apps.orders.migrations.0001_initial.Migration.models" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-django_eracks.apps.orders.migrations.0002_auto__del_field_orders_reference_number">
+<span id="auto-del-field-orders-reference-number-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">0002_auto__del_field_orders_reference_number</span></tt> Module<a class="headerlink" href="#module-django_eracks.apps.orders.migrations.0002_auto__del_field_orders_reference_number" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="django_eracks.apps.orders.migrations.0002_auto__del_field_orders_reference_number.Migration">
+<em class="property">class </em><tt class="descclassname">django_eracks.apps.orders.migrations.0002_auto__del_field_orders_reference_number.</tt><tt class="descname">Migration</tt><a class="headerlink" href="#django_eracks.apps.orders.migrations.0002_auto__del_field_orders_reference_number.Migration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">south.v2.SchemaMigration</span></tt></p>
+<dl class="method">
+<dt id="django_eracks.apps.orders.migrations.0002_auto__del_field_orders_reference_number.Migration.backwards">
+<tt class="descname">backwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.orders.migrations.0002_auto__del_field_orders_reference_number.Migration.backwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.orders.migrations.0002_auto__del_field_orders_reference_number.Migration.complete_apps">
+<tt class="descname">complete_apps</tt><em class="property"> = ['orders']</em><a class="headerlink" href="#django_eracks.apps.orders.migrations.0002_auto__del_field_orders_reference_number.Migration.complete_apps" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="django_eracks.apps.orders.migrations.0002_auto__del_field_orders_reference_number.Migration.forwards">
+<tt class="descname">forwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.orders.migrations.0002_auto__del_field_orders_reference_number.Migration.forwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.orders.migrations.0002_auto__del_field_orders_reference_number.Migration.models">
+<tt class="descname">models</tt><em class="property"> = {'customers.customer': {'comment': ('django.db.models.fields.TextField', [], {}), 'billing_address': ('django.db.models.fields.TextField', [], {'blank': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '80'}), 'primarycreditcard': ('django.db.models.fields.IntegerField', [], {}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'phone2': ('django.db.models.fields.CharField', [], {'max_length': '40', 'blank': 'True'}), 'primaryshipping': ('django.db.models.fields.IntegerField', [], {}), 'maillist': ('django.db.models.fields.IntegerField', [], {}), 'phone': ('django.db.models.fields.CharField', [], {'max_length': '40'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'dept': ('django.db.models.fields.CharField', [], {'max_length': '80', 'blank': 'True'}), 'Meta': {'object_name': 'Customer', 'db_table': &quot;u'customers'&quot;}, 'primarybilling': ('django.db.models.fields.IntegerField', [], {}), 'modified': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'shipping_address': ('django.db.models.fields.TextField', [], {}), 'title': ('django.db.models.fields.CharField', [], {'max_length': '80', 'blank': 'True'}), 'email2': ('django.db.models.fields.CharField', [], {'max_length': '160', 'blank': 'True'}), 'email': ('django.db.models.fields.CharField', [], {'max_length': '160'})}, 'orders.orders': {'comment': ('django.db.models.fields.TextField', [], {}), 'customer': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['customers.Customer']&quot;}), 'updated': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'shipping_method': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'referral_source': ('django.db.models.fields.CharField', [], {'max_length': '80'}), 'shipping': ('django.db.models.fields.DecimalField', [], {'max_digits': '10', 'decimal_places': '2'}), 'shipping_payment': ('django.db.models.fields.CharField', [], {'max_length': '80'}), 'Meta': {'object_name': 'Orders', 'db_table': &quot;u'orders'&quot;}, 'status': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'processed': ('django.db.models.fields.DateTimeField', [], {}), 'published': ('django.db.models.fields.BooleanField', [], {'default': 'True'}), 'preferred_shipper': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'special_instructions': ('django.db.models.fields.TextField', [], {}), 'referral_type': ('django.db.models.fields.CharField', [], {'max_length': '80'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'})}}</em><a class="headerlink" href="#django_eracks.apps.orders.migrations.0002_auto__del_field_orders_reference_number.Migration.models" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-django_eracks.apps.orders.migrations.0003_auto__del_field_orders_published__add_field_orders_reference_number">
+<span id="auto-del-field-orders-published-add-field-orders-reference-number-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">0003_auto__del_field_orders_published__add_field_orders_reference_number</span></tt> Module<a class="headerlink" href="#module-django_eracks.apps.orders.migrations.0003_auto__del_field_orders_published__add_field_orders_reference_number" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="django_eracks.apps.orders.migrations.0003_auto__del_field_orders_published__add_field_orders_reference_number.Migration">
+<em class="property">class </em><tt class="descclassname">django_eracks.apps.orders.migrations.0003_auto__del_field_orders_published__add_field_orders_reference_number.</tt><tt class="descname">Migration</tt><a class="headerlink" href="#django_eracks.apps.orders.migrations.0003_auto__del_field_orders_published__add_field_orders_reference_number.Migration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">south.v2.SchemaMigration</span></tt></p>
+<dl class="method">
+<dt id="django_eracks.apps.orders.migrations.0003_auto__del_field_orders_published__add_field_orders_reference_number.Migration.backwards">
+<tt class="descname">backwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.orders.migrations.0003_auto__del_field_orders_published__add_field_orders_reference_number.Migration.backwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.orders.migrations.0003_auto__del_field_orders_published__add_field_orders_reference_number.Migration.complete_apps">
+<tt class="descname">complete_apps</tt><em class="property"> = ['orders']</em><a class="headerlink" href="#django_eracks.apps.orders.migrations.0003_auto__del_field_orders_published__add_field_orders_reference_number.Migration.complete_apps" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="django_eracks.apps.orders.migrations.0003_auto__del_field_orders_published__add_field_orders_reference_number.Migration.forwards">
+<tt class="descname">forwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.orders.migrations.0003_auto__del_field_orders_published__add_field_orders_reference_number.Migration.forwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.orders.migrations.0003_auto__del_field_orders_published__add_field_orders_reference_number.Migration.models">
+<tt class="descname">models</tt><em class="property"> = {'customers.customer': {'comment': ('django.db.models.fields.TextField', [], {}), 'billing_address': ('django.db.models.fields.TextField', [], {'blank': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '80'}), 'primarycreditcard': ('django.db.models.fields.IntegerField', [], {}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'phone2': ('django.db.models.fields.CharField', [], {'max_length': '40', 'blank': 'True'}), 'primaryshipping': ('django.db.models.fields.IntegerField', [], {}), 'maillist': ('django.db.models.fields.IntegerField', [], {}), 'phone': ('django.db.models.fields.CharField', [], {'max_length': '40'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'dept': ('django.db.models.fields.CharField', [], {'max_length': '80', 'blank': 'True'}), 'Meta': {'object_name': 'Customer', 'db_table': &quot;u'customers'&quot;}, 'primarybilling': ('django.db.models.fields.IntegerField', [], {}), 'modified': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'shipping_address': ('django.db.models.fields.TextField', [], {}), 'title': ('django.db.models.fields.CharField', [], {'max_length': '80', 'blank': 'True'}), 'email2': ('django.db.models.fields.CharField', [], {'max_length': '160', 'blank': 'True'}), 'email': ('django.db.models.fields.CharField', [], {'max_length': '160'})}, 'orders.orders': {'comment': ('django.db.models.fields.TextField', [], {'blank': 'True'}), 'customer': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['customers.Customer']&quot;}), 'updated': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'shipping_method': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'referral_source': ('django.db.models.fields.CharField', [], {'max_length': '80', 'blank': 'True'}), 'shipping': ('django.db.models.fields.DecimalField', [], {'default': '0', 'max_digits': '10', 'decimal_places': '2'}), 'reference_number': ('django.db.models.fields.CharField', [], {'max_length': '50', 'blank': 'True'}), 'shipping_payment': ('django.db.models.fields.CharField', [], {'max_length': '80'}), 'Meta': {'object_name': 'Orders', 'db_table': &quot;u'orders'&quot;}, 'status': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'processed': ('django.db.models.fields.DateTimeField', [], {}), 'preferred_shipper': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'special_instructions': ('django.db.models.fields.TextField', [], {'blank': 'True'}), 'referral_type': ('django.db.models.fields.CharField', [], {'max_length': '80'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'})}}</em><a class="headerlink" href="#django_eracks.apps.orders.migrations.0003_auto__del_field_orders_published__add_field_orders_reference_number.Migration.models" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-django_eracks.apps.orders.migrations.0004_auto__del_orders__add_order">
+<span id="auto-del-orders-add-order-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">0004_auto__del_orders__add_order</span></tt> Module<a class="headerlink" href="#module-django_eracks.apps.orders.migrations.0004_auto__del_orders__add_order" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="django_eracks.apps.orders.migrations.0004_auto__del_orders__add_order.Migration">
+<em class="property">class </em><tt class="descclassname">django_eracks.apps.orders.migrations.0004_auto__del_orders__add_order.</tt><tt class="descname">Migration</tt><a class="headerlink" href="#django_eracks.apps.orders.migrations.0004_auto__del_orders__add_order.Migration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">south.v2.SchemaMigration</span></tt></p>
+<dl class="method">
+<dt id="django_eracks.apps.orders.migrations.0004_auto__del_orders__add_order.Migration.backwards">
+<tt class="descname">backwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.orders.migrations.0004_auto__del_orders__add_order.Migration.backwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.orders.migrations.0004_auto__del_orders__add_order.Migration.complete_apps">
+<tt class="descname">complete_apps</tt><em class="property"> = ['orders']</em><a class="headerlink" href="#django_eracks.apps.orders.migrations.0004_auto__del_orders__add_order.Migration.complete_apps" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="django_eracks.apps.orders.migrations.0004_auto__del_orders__add_order.Migration.forwards">
+<tt class="descname">forwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.orders.migrations.0004_auto__del_orders__add_order.Migration.forwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.orders.migrations.0004_auto__del_orders__add_order.Migration.models">
+<tt class="descname">models</tt><em class="property"> = {'customers.customer': {'comment': ('django.db.models.fields.TextField', [], {}), 'billing_address': ('django.db.models.fields.TextField', [], {'blank': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '80'}), 'primarycreditcard': ('django.db.models.fields.IntegerField', [], {}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'phone2': ('django.db.models.fields.CharField', [], {'max_length': '40', 'blank': 'True'}), 'primaryshipping': ('django.db.models.fields.IntegerField', [], {}), 'maillist': ('django.db.models.fields.IntegerField', [], {}), 'phone': ('django.db.models.fields.CharField', [], {'max_length': '40'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'dept': ('django.db.models.fields.CharField', [], {'max_length': '80', 'blank': 'True'}), 'Meta': {'object_name': 'Customer', 'db_table': &quot;u'customers'&quot;}, 'primarybilling': ('django.db.models.fields.IntegerField', [], {}), 'modified': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'shipping_address': ('django.db.models.fields.TextField', [], {}), 'title': ('django.db.models.fields.CharField', [], {'max_length': '80', 'blank': 'True'}), 'email2': ('django.db.models.fields.CharField', [], {'max_length': '160', 'blank': 'True'}), 'email': ('django.db.models.fields.CharField', [], {'max_length': '160'})}, 'orders.order': {'comment': ('django.db.models.fields.TextField', [], {'blank': 'True'}), 'customer': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['customers.Customer']&quot;}), 'updated': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'shipping_method': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'referral_source': ('django.db.models.fields.CharField', [], {'max_length': '80', 'blank': 'True'}), 'shipping': ('django.db.models.fields.DecimalField', [], {'default': '0', 'max_digits': '10', 'decimal_places': '2'}), 'reference_number': ('django.db.models.fields.CharField', [], {'max_length': '50', 'blank': 'True'}), 'shipping_payment': ('django.db.models.fields.CharField', [], {'max_length': '80'}), 'Meta': {'object_name': 'Order', 'db_table': &quot;u'orders'&quot;}, 'status': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'processed': ('django.db.models.fields.DateTimeField', [], {}), 'preferred_shipper': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'special_instructions': ('django.db.models.fields.TextField', [], {'blank': 'True'}), 'referral_type': ('django.db.models.fields.CharField', [], {'max_length': '80'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'})}}</em><a class="headerlink" href="#django_eracks.apps.orders.migrations.0004_auto__del_orders__add_order.Migration.models" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">migrations Package</a><ul>
+<li><a class="reference internal" href="#module-django_eracks.apps.orders.migrations.0001_initial"><tt class="docutils literal"><span class="pre">0001_initial</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-django_eracks.apps.orders.migrations.0002_auto__del_field_orders_reference_number"><tt class="docutils literal"><span class="pre">0002_auto__del_field_orders_reference_number</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-django_eracks.apps.orders.migrations.0003_auto__del_field_orders_published__add_field_orders_reference_number"><tt class="docutils literal"><span class="pre">0003_auto__del_field_orders_published__add_field_orders_reference_number</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-django_eracks.apps.orders.migrations.0004_auto__del_orders__add_order"><tt class="docutils literal"><span class="pre">0004_auto__del_orders__add_order</span></tt> Module</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="django_eracks.apps.orders.html"
+                        title="previous chapter">orders Package</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="django_eracks.apps.products.html"
+                        title="next chapter">products Package</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../_sources/apidoc/django_eracks.apps.orders.migrations.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="django_eracks.apps.products.html" title="products Package"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="django_eracks.apps.orders.html" title="orders Package"
+             >previous</a> |</li>
+        <li><a href="../index.html">eRacks Django website 10.0alpha documentation</a> &raquo;</li>
+          <li><a href="modules.html" >&lt;no title&gt;</a> &raquo;</li>
+          <li><a href="django_eracks.html" >django_eracks Package</a> &raquo;</li>
+          <li><a href="django_eracks.apps.html" >apps Package</a> &raquo;</li>
+          <li><a href="django_eracks.apps.orders.html" >orders Package</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, JJW.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

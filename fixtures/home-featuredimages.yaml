@@ -1,0 +1,54 @@
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_list.html
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_config_summary.html
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_config_tab.html
+compiling /home/joe/django_eracks/apps/products/templets.py to product.html
+compiling /home/joe/django_eracks/apps/products/templets.py to products.html
+compiling /home/joe/django_eracks/apps/products/templets.py to category.html
+compiling /home/joe/django_eracks/apps/bloglets/templets.py to _bloglet_list.html
+- fields: {caption: '', created: !!timestamp '2012-04-22 00:33:16.281949', image: images/slideshow/front_nas50.jpeg,
+    link: /products/storage-servers-nas/NAS50/, published: true, sortorder: 100, title: The
+      leading Big Data server building-block, updated: !!timestamp '2013-01-29 13:15:46.711740'}
+  model: home.featuredimage
+  pk: 53684
+- fields: {caption: '', created: !!timestamp '2013-01-29 12:47:23.061372', image: images/slideshow/laptops.jpeg,
+    link: /products/laptops/, published: true, sortorder: 101, title: Mobile Performance
+      Laptops, updated: !!timestamp '2013-01-29 13:14:44.688203'}
+  model: home.featuredimage
+  pk: 54909
+- fields: {caption: '', created: !!timestamp '2012-10-31 19:18:21.526404', image: home/images/slideshow/front_quiet.jpeg,
+    link: /products/quiet-systems, published: true, sortorder: 102, title: eRacks
+      leads in Quiet Rackmount Servers, updated: !!timestamp '2013-01-29 12:48:07.695151'}
+  model: home.featuredimage
+  pk: 54706
+- fields: {caption: '', created: !!timestamp '2012-10-31 20:12:38.111919', image: home/images/slideshow/front_lite.jpeg,
+    link: /products/shallow-depth/LITE, published: true, sortorder: 103, title: 'Small,
+      thin, and shallow-depth for short rack installations', updated: !!timestamp '2013-01-29
+      12:49:27.785494'}
+  model: home.featuredimage
+  pk: 54710
+- fields: {caption: '', created: !!timestamp '2012-04-22 00:42:46.262811', image: home/images/slideshow/front_NAS16X.jpeg,
+    link: /products/storage-servers-nas/NAS16/, published: false, sortorder: 110,
+    title: The perfect SMB storage server, updated: !!timestamp '2013-01-29 12:48:31.779715'}
+  model: home.featuredimage
+  pk: 53686
+- fields: {caption: '', created: !!timestamp '2012-10-31 20:11:55.350417', image: home/images/slideshow/front_twinguard.jpeg,
+    link: /products/firewall-servers/TWINGUARD, published: false, sortorder: 110,
+    title: Two firewalls in a 1U rackmount, updated: !!timestamp '2013-01-29 12:48:31.837866'}
+  model: home.featuredimage
+  pk: 54709
+- fields: {caption: '', created: !!timestamp '2012-04-22 00:41:54.050158', image: home/images/slideshow/front_blades.jpeg,
+    link: /products/blade-servers/, published: false, sortorder: 110, title: The finest
+      blade servers in existence!, updated: !!timestamp '2013-01-29 12:48:31.721381'}
+  model: home.featuredimage
+  pk: 53685
+- fields: {caption: '', created: !!timestamp '2012-10-31 20:06:45.327589', image: home/images/slideshow/front_studio.jpeg,
+    link: /products/studio, published: false, sortorder: 110, title: 'LInux-based
+      DAW, broadcast, audio/video studio systems', updated: !!timestamp '2013-01-29
+      12:48:31.810138'}
+  model: home.featuredimage
+  pk: 54708
+- fields: {caption: '', created: !!timestamp '2012-10-31 19:24:37.270575', image: home/images/slideshow/front_i7desk.jpeg,
+    link: /products/desktops/iDESQ7, published: false, sortorder: 110, title: Intel-based
+      Workstation-class Linux Desktop, updated: !!timestamp '2013-01-29 12:48:31.929563'}
+  model: home.featuredimage
+  pk: 54707

@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: theme-tshop.yaml at line 318 on 2015-11-09 at 19:41:46 PST(GMT-0800)  #}
+
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+ 
+ 
+<meta name="robots" content="noodp,noydir">
+<meta name="ICBM" content="37.235808, -121.962375">
+<meta name="geo.position" content="37.235808;-121.962375">
+<meta name="geo.placename" content="Los Gatos">
+<meta name="geo.region" content="US-CA">
+<meta name="DC.title" content="Line server, AMD opteron rack server, Storage servers, NAS server, Open source systems, Cloud server">
+<meta name="msvalidate.01" content="E830B9E86F26F425F9F7800DA21086EC">
+<meta name="google-site-verification" content="4QorVb8Z51YbHLZ5hPfk3TQJjblIY43ByE6qFw2-dLU">
+<meta name="keywords" content='{% firstof meta_keywords keywords "rackmount, rack mount, cloud server, private cloud, hybrid cloud, Open Source, Red Hat, Ubuntu, Linux Mint, Debian" %}
+'>
+<meta name="author" content='{% firstof meta_author author "eRacks" %}'>
+<meta name="title" content='{% firstof meta_title title "eRacks" %}'>
+<meta name="description" content='{% firstof meta_description description "eRacks Open Source Systems - Premium open source rackmounts, desktops, laptops, ultrabooks, consulting, and service since 1999" %}
+'>
+<link href="/tshop/assets/ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+<link href="/tshop/assets/ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+<link href="/tshop/assets/ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+<link href="/tshop/assets/ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
+<link href="/tshop/assets/ico/favicon.png" rel="shortcut icon">
+<title>{% firstof page_title title "eRacks Open Source Systems" %}</title>
+{% block compress_css %}
+<link href="/tshop/assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+ 
+<link href="/tshop/assets/css/skin.css" type="text/css" id="pagestyle" rel="stylesheet">
+ 
+<link href="/tshop/assets/css/styles.css" rel="stylesheet">
+  
+<link href="/css/gallery.theme.css" type="text/css" rel="stylesheet">
+<link href="/css/gallery.prefixed.css" type="text/css" rel="stylesheet">
+<link href="/css/vendor/normalize.css" type="text/css" rel="stylesheet">
+<link href="/tshop/assets/plugins/magnific/magnific-popup.css" type="text/css" rel="stylesheet">
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+ 
+ 
+ 
+ 
+   
+
+{{ css|default:'<!-- empty css variable-->' }}
+{% block css %} <!-- block css --> {% endblock %}
+{{ javascript|default:'<!-- empty javascript variable-->' }}
+{% block javascripts %} <!-- block javascripts --> {% endblock %}
+{% block extra_head %} <!-- block extra_head--> {% endblock %}
+
+
+<noscript>
+  <style type="text/css" rel="stylesheet">
+    .jsonly {
+        display: none!important;
+    }
+    .nojs-inline {
+      display: inline;
+    }
+    .nojs-inline li {
+      padding: 10px;
+      display: inline-block;
+      max-width: 180px;
+    }
+  </style>
+</noscript>
+
+
+{{ quick_styles|safe }}
+<!-- Appended styles --><style>
+
+/* .top-bar hover dropdowns, also does assan main menu hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+  z-index:10000;
+  margin-top:-10px;
+}
+.userMenu li {
+  font-weight: normal;
+  text-transform: none;
+}
+.userMenu li a {
+  padding-right:7px;
+}
+.userMenu .dropdown-menu li a {
+  color: black;
+  padding: 0 20px;
+  line-height: calc(10/7);
+  font-size: inherit;
+}
+.userMenu .dropdown-menu li {
+  clear: both;
+}
+.userMenu i.glyphicon {
+  padding: 0 3px;
+}
+
+.dropdown-menu li.megamenu-content a {
+  padding: 0;
+￼  font-size: small;
+  font-family: Helvetica, Arial, sans-serif;
+  font-stretch: condensed;
+}
+.product {
+  text-align: left;
+  padding: 0 6px;
+  overflow: hidden;
+  /* font-stretch: extra-condensed; */
+  /* font-size: xx-small; */
+}
+
+/* tweak input forms - don't hug the label, btn alignment, tab-panel, etc */
+.modal-content input[!btn] {
+  margin-left: 15px;
+}
+.tab-content {
+  padding: 0;
+  margin-top: -0;
+}
+/* Make tabs more obvious & unambiguous - this is really global, could move there, or to product */
+/* inspired by http://jsfiddle.net/KyleMit/2VmmW/ */
+
+/* Tab Navigation */
+.nav-tabs {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.nav-tabs > li {
+  margin-botton: -2px;
+}
+.nav-tabs > li > a {
+    background: #6f76ff;  /* #DADADA; */
+    color: white;
+    border-radius: 7px 7px 0 0;
+    /* border-bottom: 2px solid gray; */
+    /* box-shadow: inset 0 -8px 7px -9px rgba(0,0,0,.4),-2px -2px 5px -2px rgba(0,0,0,.4); */
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus  {
+    background: #F5F5F5;
+    color: inherit !important;
+    border-radius: 10px 10px 0 0;
+    border-width: 1px 1px 0 1px;
+    border-color: lightgray;
+    border-style: solid;
+}
+/* .nav-tabs > li.active > a:hover { */
+.nav-tabs > li > a:hover {
+    background: #66de97;  /* #F5F5F5; */
+    color: white;
+    border-radius: 7px 7px 0 0;
+    border-width: 1px 1px 0 1px;
+    border-color: lightgray;
+    border-style: solid;
+    /* box-shadow: inset 0 0 0 0 rgba(0,0,0,.4),-2px -3px 5px -2px rgba(0,0,0,.4); */
+}
+
+/* Tab Content */
+.tab-pane {
+    background: #F5F5F5;
+    border: 1px solid lightgray;
+    /* box-shadow: 0 0 4px rgba(0,0,0,.4); */
+    /* border-radius: 0; */
+    text-align: center;
+    padding: 10px;
+    margin-top: -1px;
+}
+
+/* Footer fixup for Tshop & themes that SHOUT :-/ */
+.footer-col h3 {
+  text-transform: none;
+  margin-bottom: 12px;
+}
+/* nope - nfg, too many tags intervening
+.footer-col h3:nth-of-type(2) {
+  padding-top: 12px;
+}
+*/
+.footer-col h3.second {
+  padding-top: 12px;
+}
+
+/* Social icons & colors obdject using font-awesome - currently in Footer fixups  */
+.social-1 {
+  margin: 0;
+  padding: 0;
+}
+.social-1 li {
+  padding: 0px;
+}
+.social-1 li a i {
+  width:32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color:#fff;
+  font-size: 16px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -webkit-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+.social-1 li a i:hover {
+  opacity: 0.8;
+}
+.social-1 li a i.fa-facebook {
+  background-color: #3b5998;
+}
+.social-1 li a i.fa-twitter {
+  background-color: #0084b4;
+}
+.social-1 li a i.fa-google-plus {
+  background-color: #C63D2D;
+}
+.social-1 li a i.fa-pinterest {
+  background-color: #cb2027;
+}
+.social-1 li a i.fa-dribbble {
+  background-color: #ea4c89;
+}
+.social-1 li a i.fa-youtube {
+  background-color: #FF3333;
+}
+.social-1 li a i.fa-linkedin {
+  background-color: #4875B4;
+}
+.social-1 li a i.fa-github {
+  background-color: lightgray;
+}
+.social-1 li a i.fa-instagram {
+  background-color: #4E433C;
+}
+.social-1 li a i.fa-tumblr {
+  background-color: #2B4964;
+}
+.social-1 li a i.fa-flickr {
+  background-color: #FE0883;
+}
+
+h5.parallaxSubtitle {
+  font-weight: initial;
+  background-color: rgba(0,0,0,0.2);
+}
+.parallax-section h1.xlarge {
+  text-transform:none;
+  background-color: rgba(0,0,0,0.2);
+}
+
+/* tagline well */
+#tagline {
+  margin-top: 10px;
+}
+#tagline h2 {
+  padding-bottom: 0;
+  margin: 0;
+  font-size: 1.8em;
+  line-height: inherit;
+}
+
+{% block head_styles %} /* block head-styles */ {% endblock %}
+
+/* Partner page only - fix until Quickpage edited and/or replaced with app */
+.partner-div {
+  width:30%;
+}
+.partner-logo-div img {
+  max-width: 95%;
+  height: auto;
+}
+/* For products megamenu (until bin-packing ported from eRAccs )
+.columns5 {
+  -webkit-column-count: 5;
+  -webkit-column-gap: 10px;
+  -webkit-column-fill: auto;
+  -moz-column-count: 5;
+  -moz-column-gap: 10px;
+  -moz-column-fill: auto;
+  column-count: 5;
+  column-gap: 15px;
+  column-fill: auto;
+}
+*/
+/* See http://getbootstrap.com.vn/examples/equal-height-columns/  */
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+{# /* This comment style works - you can't use the // comment style in inline styles (!) */ #}
+/* media fixups for TShop on sm or md */
+@media (max-width: 991px) {
+  .navbar-top {
+    font-size: smaller;  # 9px;
+  }
+  .search-box input, .search-box button {
+    font-size: smaller;
+  }
+  .navbar-top li {
+    padding-right: 0;
+  }
+}
+@media (max-width: 1199px) {
+  .nav.navbar-nav li a {
+    text-transform: none;
+  }
+}
+/* Navbar fixups for Tshop */
+.navbar-tshop .navbar-top {
+  background: linear-gradient(#5f7cd9,#5971bf);
+}
+.navbar-tshop.navbar-fixed-top {
+  /* background: linear-gradient(#8895f4,#606edc); */
+  /* background: linear-gradient(#9499e0,#6f75c5); */
+  background: linear-gradient(#ccf,#99f); /* JJW 10/29/15 */
+}
+.nav-tabs li a {
+  text-transform: none;
+  font-family: inherit;
+  font-weight: bold;
+}
+/* let's try leaving it white for now
+.nav.navbar-nav li a {
+  color: rgb(52,73,94);  what you get on 3 of 5 from: inherit;
+}
+*/
+.navbar-nav > li > a {    /* only the first level */
+  /*
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  */
+  font-family: Helvetica, Arial, sans-serif;
+  font-stretch: condensed;
+}
+
+/* eRacks news sidebar
+.eracks-news {
+  padding: 2px;
+  line-height: initial;
+  text-align: center;
+}
+.eracks-news li {
+  list-style-type: none;
+  height: 100%;
+}
+.eracks-news ul {
+  padding: 0;
+}
+@media (max-width: 991px) {
+  .eracks-news ul li {
+    display: inline-block;
+    width:200px;
+  }
+}
+*/
+
+/* Home page slider - good obdject candidate
+Is this first one used?  I think not - JJW 10/29/15
+#productShowCase .product-title {
+  font-family: oswald;
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: 0.25px;
+  line-height: 36px;
+  margin-bottom: 0;
+}
+*/
+.product-slide h2 {
+  font-size: xx-large;
+  font-weight: normal;
+  text-transform: none;
+}
+.product-slide h3 {
+  font-size: x-large;
+  font-weight: normal;
+}
+.details-description {
+  font-size: large;
+}
+.product-price {
+  font-size:x-large;
+  margin-bottom:10px;
+}
+.ps-nav {
+  display: block;
+  font-size: 68px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  top: 38%;
+  width: auto;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+#ps-next {
+  right:0;
+}
+#ps-prev {
+  left:0;
+}
+
+</style>
+{% endblock %}
+
+{% block head_bottom %} <!-- block head_bottom (after compress) -->  {% endblock head_bottom %}
+</head>
+<body> 
+ 
+<div tabindex="-1" role="dialog" class="modal signUpContent fade" id="ModalLogin"><div class="modal-dialog" id="signin_signup_modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button data-dismiss="modal" type="button" aria-hidden="true" class="close">×</button>
+      <img src="/images/logos/logo-cropped-45.png" alt="eracks-logo" style="height:45px;margin:7px 0" class="pull-left"><h3 style="margin: 21px 0 0 300px">
+        Login to eRacks
+      </h3>
+    </div>
+    <div role="tabpanel" class="modal-body">
+      <ul role="tablist" class="nav nav-tabs"><li role="presentation" class="active">
+          <a href="#signin" role="tab" data-toggle="tab" aria-controls="signin">Signin</a>
+        </li>
+        <li role="presentation">
+          <a href="#signup" role="tab" data-toggle="tab" aria-controls="signup">... Or Signup</a>
+        </li>
+      </ul><div class="tab-content">
+        <div class="tab-pane active" id="signin">
+          <form method="post" action="{% url 'userena_signin' %}">
+            {% csrf_token %}
+            <table>
+              {{ signin_form.as_table }}
+            </table><input type="submit" name="submit" value="Signin" class="btn btn-block btn-lg btn-primary"></form>
+          <div class="forgot-password">
+            <a href="{% url 'userena_password_reset' %}" title="Forgot your password?">
+              Forgot your password?
+            </a>
+          </div>
+        </div>
+        <div class="tab-pane" id="signup">
+          <form action="{% url 'userena_signup' %}" method="post">
+            {% csrf_token %}
+            <table>{{ signup_form }}</table><input type="submit" name="submit" value="Signup" class="btn btn-block btn-lg btn-primary"></form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div><div role="navigation" class="navbar navbar-tshop navbar-fixed-top megamenu">
+<div class="navbar-top">
+<div class="container">
+<div class="row">
+<div class="col-xs-4 col-sm-5 col-lg-5 col-md-5">
+<div class="pull-left ">
+<ul class="userMenu ">
+<li>
+  <a href="mailto:info@eracks.com" title="eRacks email">
+    <i class="glyphicon glyphicon-envelope">   </i>
+    <span class="hidden-xs">
+      info@eracks.com
+    </span>
+  </a>
+</li>
+<li>
+  <a href="callto:1-408-455-0010" title="eRacks phone">
+    <i class="glyphicon glyphicon-phone-alt">   </i>
+    <span class="hidden-xs">
+      +1 408-455-0010
+    </span>
+  </a>
+</li>
+</ul></div>
+</div>
+<div class="no-margin no-padding col-xs-8 col-sm-7 col-lg-7 col-md-7">
+<div class="pull-right"><ul style="margin:0" class="userMenu list-inline">
+  {% if user.is_authenticated %}
+    <li>
+      <a href="{% url 'userena_profile_detail' user.username %}">
+        <i class="glyphicon glyphicon-user"></i>
+        <span class="hidden-xs">
+          {{ user.username }}'s Account
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="{% url 'userena_signout' %}">
+        <i class="glyphicon glyphicon-log-out"></i>
+        <span class="hidden-xs">
+          Logout
+        </span>
+      </a>
+    </li>
+    {% if request.user.is_staff %}
+      <li class="dropdown">
+        <a href="#">
+          <i class="glyphicon glyphicon-lock"></i>
+          <span class="hidden-xs">
+            Admin
+          </span>
+        </a>
+        <ul class="dropdown-menu"><li>
+            <a href="/admin/">eRacks Admin</a>
+          </li>
+          <li>
+            <a href="/djide/">Django IDE</a>
+          </li>
+          <li>
+            <a href="/admin/home/featuredimage/">Featured Images</a>
+          </li>
+          <li>
+            <a href="?/admin/auth/user/{%7B" request.user.id>User: {{ request.user }}</a>
+          </li>
+          {% if product %}
+            <li>
+              <a href="/admin/products/product/{{ product.id }}/">Edit Product: {{ product }}</a>
+            </li>
+          {% endif %}
+          {% if category %}
+            <li>
+              <a href="/admin/products/categories/{{ category.id }}/">Edit Category: {{ category }}</a>
+            </li>
+          {% endif %}
+          {% if settings.ALOHA %}
+            <li>
+              <a href="?edit=1">Edit in place</a>
+            </li>
+          {% endif %}
+          {% if settings.DEBUG %}
+            <li>
+              <a href="/packages/">Packages directory</a>
+            </li>
+          {% endif %}
+          <li>
+            <a href="/utils/clearcache/">Clear cache</a>
+          </li>
+          <li>
+            <a href="/utils/collect_static/">Collect static files</a>
+          </li>
+          <li>
+            <a href="/utils/compile_themes/">Compile themes</a>
+          </li>
+          <li>
+            <a href="/utils/urls/">Show URL map</a>
+          </li>
+          <li>
+            <a href="/session/">Show Session</a>
+          </li>
+        </ul></li>
+    {% endif %}
+    {% else %}
+    <li>
+      <a href="/accounts/signin/">
+        <i class="glyphicon glyphicon-user"></i>
+        <span class="hidden-xs">
+          Account
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="#" id="show-login-dialog" data-reveal-id="signin_signup_modal" data-toggle="modal" data-target="#ModalLogin">
+        <i class="glyphicon glyphicon-log-in"></i>
+        <span class="hidden-xs">
+          Login / Register
+        </span>
+      </a>
+    </li>
+  {% endif %}
+  <li>
+    <a href="/cart/" title="Your Cart">
+      <i class="glyphicon glyphicon-shopping-cart"></i>
+      <span class="hidden-xs">
+        {% if cart_totqty %}
+          {{ cart_totqty }}
+          items ${{ cart_grandtot|floatformat:2 }}
+          {% else %}
+          (Empty)
+        {% endif %}
+      </span>
+    </a>
+  </li>
+  <li class="dropdown">
+    <a href="#">
+      <i class="glyphicon glyphicon-music"></i>
+      <span class="hidden-xs">
+        Theme
+      </span>
+    </a>
+    <ul style="margin-left:-75px" class="dropdown-menu"><li>
+        <a href="?theme=legacy">Legacy eRacks theme (Default)</a>
+      </li>
+      <li>
+        <a href="?theme=assan">Assan theme - BETA</a>
+      </li>
+      <li>
+        <a href="?theme=tshop">Tshop theme - BETA</a>
+      </li>
+    </ul></li>
+</ul></div></div>
+</div>
+</div>
+</div>
+ 
+<div class="container">
+<div class="navbar-header">
+<button data-toggle="collapse" type="button" data-target=".navbar-collapse" class="navbar-toggle"> <span class="sr-only"> Toggle navigation </span> <span class="icon-bar"> </span> <span class="icon-bar"> </span> <span class="icon-bar"> </span> </button>
+ 
+<a href="/" class="navbar-brand " title="eRacks Open Source Systems"><img src="/images/logos/logo-cropped-45.png" alt="eRacks-Logo" style="height:45px;width:225px;margin-top:-7px;margin-left:7px;"></a> 
+</div>
+ 
+ 
+ 
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav navbar-right">
+{% load cache %}
+{% cache 36000 product_list %}
+  <li class="dropdown megamenu-80width">
+    <a data-toggle="dropdown" href="/products/" title="eRacks Product Showroom" class="dropdown-toggle">
+      Products
+      <div class="caret"></div>
+    </a>
+    <ul class="dropdown-menu">
+      <li class="megamenu-content">
+        <div class="row">
+          <div class="col-md-2 col-sm-3 col-xs-4 category">
+            {% for cat in Categories_objects.published %}
+                <a href="{{ cat.url }}" title="{{ cat.title }}">
+                  <strong>{{ cat.name }}</strong>
+                </a>
+                {% for prod in cat.product_set.published %}
+                  <div class="product">
+                    <a href="{{ prod.url }}" title="{{ prod.title_or_name }}">
+                      {{ prod.name }}
+                    </a>
+                  </div>
+                {% endfor %}
+              {% if forloop.counter|divisibleby:"3" %}
+                </div><div class="col-md-2 col-sm-3 col-xs-4 category">
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </li>
+
+    </ul>
+  </li>
+  <li>
+      <a href="/services/" title="eRacks Services" class="main">Services</a>
+  </li>
+  <li>
+      <a href="/partners/" title="eRacks Partners" class="main">Partners</a>
+  </li>
+  <li>
+      <a href="/customers/" title="eRacks Customers and Testimonials" class="main">Customers</a>
+  </li>
+  <li>
+      <a href="http://blog.eracks.com/" title="eRacks Tech News and Blog" class="main">Blog</a>
+  </li>
+  <li class="dropdown">
+    <a href="/corporate/" title="About eRacks" data-toggle="dropdown" class="main dropdown-toggle">
+      About Us
+      <b class="caret"> </b>
+    </a>
+    <ul class="dropdown-menu" style="right:initial;margin-left:-20px;">
+      <li>
+        <a href="/corporate/" title="eRacks Corporate" class="main">Corporate</a>
+      </li>
+      <li>
+        <a href="/press/" title="News about eRacks, Press Releases" class="main">Press</a>
+      </li>
+      <li>
+        <a href="{% url 'contact' %}" title="Contact eRacks" class="main">Contact Us</a>
+      </li>
+    </ul>
+  </li>
+  {% include "_search_menu_entry.html" %}
+
+{% endcache %}
+</ul></div>
+ 
+</div>
+ 
+<div class="search-full text-right"> <a class="pull-right search-close"> <i class=" fa fa-times-circle"> </i> </a>
+<div class="searchInputBox pull-right">
+<input placeholder="start typing and hit enter to search" type="search" class="search-input" data-searchurl="search?=" name="q">
+<button type="submit" class="btn-nobg search-btn"> <i class="fa fa-search"> </i> </button>
+</div>
+</div>
+ 
+</div>
+ 
+<div class="headerOffset container" style="padding-top:95px">
+ 
+<div class="row">
+<div class="col-lg-12 text-center">
+<div class="well well-sm" id="tagline">
+  <h2>
+    <em>
+      eRacks Open Source Systems - embracing Open Source since 1999
+    </em>
+  </h2>
+</div>
+</div></div>
+<div style="clear:both"></div>
+<div class="" id="content">
+{% include "_toast_messages.html" %}
+{% block content %}
+  {% include "_featured_images.html" %}
+  {% if home2 %}
+    <div class="row row-eq-height">
+      {% for snip in home2 %}
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 row-eq-height">
+          <div class="panel panel-info">
+            <div class="panel-body">
+              <h2>{{ snip.title }}</h2>
+              {{ snip.body|safe }}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+  {% if home3 %}
+    <div class="row row-eq-height">
+      {% for snip in home3 %}
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 row-eq-height">
+          <div class="panel panel-info">
+            <div class="panel-body">
+              <h2>{{ snip.title }}</h2>
+              {{ snip.body|safe }}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+  {% if home3 %}
+    <div class="row row-eq-height">
+      {% for snip in home4 %}
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 row-eq-height">
+          <div class="panel panel-info">
+            <div class="panel-body">
+              <h2>{{ snip.title }}</h2>
+              {{ snip.body|safe }}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+  {% include "_bloglet_list.html" %}
+{% endblock %}
+
+
+</div></div>
+ 
+ 
+ 
+<div class="container">
+ 
+ 
+ 
+ 
+ 
+ 
+<div class="width100 section-block" id="brand-carousel">
+<h3 class="section-title"><span style="text-transform:none;">
+  Our Brands, Partners, and Supported Organizations
+</span>
+<a class="link pull-right carousel-nav" id="nextBrand">
+  <i class="fa fa-angle-right"></i>
+</a>
+<a class="link pull-right carousel-nav" id="prevBrand">
+  <i class="fa fa-angle-left"></i>
+</a>
+</h3><div class="row">
+<div class="col-lg-12">
+<ul class="no-margin brand-carousel owl-carousel owl-theme nojs-inline"><li>
+  <a href="http://www.ubuntu.com" target="new">
+    <img src="/images/logos/ubuntu.gif" height="46" width="40" alt="Ubuntu" title="Ubuntu"></a>
+</li>
+<li>
+  <a href="http://www.gentoo.org" target="new">
+    <img src="/images/logos/gentoo.jpg" alt="Gentoo" title="Gentoo" height="46" width="45"></a>
+</li>
+<li>
+  <a href="http://www.debian.org" target="new">
+    <img src="/images/logos/debian.gif" height="46" width="50" alt="Debian Linux"></a>
+</li>
+<li>
+  <a href="http://www.centos.org" target="new">
+    <img src="/images/logos/centos.gif" height="46" width="48" alt="CentOS Linux"></a>
+</li>
+<li>
+  <a href="http://www.netbsd.org" target="new">
+    <img src="/images/logos/netbsd_small.gif" height="46" width="46" alt="NetBSD"></a>
+</li>
+<li>
+  <a href="http://www.freebsd.org" target="new">
+    <img src="/images/logos/freebsd_small.gif" height="46" width="45" alt="FreeBSD"></a>
+</li>
+<li>
+  <a href="http://www.linux.org" target="new">
+    <img src="/images/logos/linux_small.gif" height="46" width="45" alt="Linux"></a>
+</li>
+<li>
+  <a href="http://www.openbsd.org" target="new">
+    <img src="/images/logos/openbsd_small.gif" height="46" width="55" alt="OpenBSD"></a>
+</li>
+<li>
+  <a href="/components-we-use/">
+    <img src="/images/logos/brands/46height/openstack-46.png" alt="OpenStack"></a>
+</li>
+<li>
+  <a href="/components-we-use/">
+    <img src="/images/logos/brands/46height/cloudstack-46.png" alt="CloudStack"></a>
+</li>
+<li>
+  <a href="/components-we-use/">
+    <img src="/images/logos/brands/46height/WD-46.png" alt="Western Digital"></a>
+</li>
+<li>
+  <a href="/components-we-use/">
+    <img src="/images/logos/brands/46height/HGST-46.png" alt="HGST"></a>
+</li>
+<li>
+  <a href="/components-we-use/">
+    <img src="/images/logos/brands/46height/intel-46.png" alt="Intel"></a>
+</li>
+<li>
+  <a href="/components-we-use/">
+    <img src="/images/logos/brands/46height/AMD-46.png" alt="AMD (Advanced Micro Devices)"></a>
+</li>
+<li>
+  <a href="/components-we-use/">
+    <img src="/images/logos/brands/46height/supermicro-46.png" alt="Supermicro"></a>
+</li>
+<li>
+  <a href="/components-we-use/">
+    <img src="/images/logos/brands/46height/ASUS-46.png" alt="ASUS"></a>
+</li>
+<li>
+  <a href="/components-we-use/">
+    <img src="/images/logos/brands/46height/chenbro-46.png" alt="Chenbro"></a>
+</li>
+<li>
+  <a href="/components-we-use/">
+    <img src="/images/logos/brands/46height/FreeNAS-46.png" alt="FreeNAS"></a>
+</li>
+<li>
+  <a href="/components-we-use/">
+    <img src="/images/logos/brands/46height/Kingston-46.png" alt="Kingston"></a>
+</li>
+<li>
+  <a href="/components-we-use/">
+    <img src="/images/logos/brands/46height/LSI-46.png" alt="LSI / Agavo"></a>
+</li>
+<li>
+  <a href="/components-we-use/">
+    <img src="/images/logos/brands/46height/3ware-46.png" alt="3Ware / Avago"></a>
+</li>
+<li>
+  <a href="/components-we-use/">
+    <img src="/images/logos/brands/46height/Samsung-46.png" alt="Samsung"></a>
+</li>
+<li>
+  <a href="/components-we-use/">
+    <img src="/images/logos/brands/46height/SanDisk-46.png" alt="SanDisk"></a>
+</li>
+<li>
+  <a href="/components-we-use/">
+    <img src="/images/logos/brands/46height/SansDigital-46.png" alt="SansDigital"></a>
+</li>
+<li>
+  <a href="/components-we-use/">
+    <img src="/images/logos/brands/46height/seagate-46.png" alt="Seagate"></a>
+</li>
+</ul></div>
+</div>
+ 
+</div>
+ 
+</div>
+ 
+<div class="parallax-section parallax-image-2">
+<div class="w100 parallax-section-overley">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<div class="parallax-content clearfix">
+<h1 class="xlarge">Finest rackmounts and hosting since 1999</h1><h5 class="parallaxSubtitle">Private / Hybrid Cloud Hosting, Dev Hosting, Open Source, OpenStack, DevOps / Provisioning, Security Architecture services</h5></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+ 
+ 
+<div id="product-details-modal" aria-hidden="true" role="dialog" class="modal fade" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<button data-dismiss="modal" type="button" class="close" aria-hidden="true"> × </button>
+<div class="col-lg-5 col-md-5 col-sm-5  col-xs-12">
+ 
+<div class="main-image  col-lg-12 no-padding style3">
+<a href="product-details.html" class="product-largeimg-link"><img src="/tshop/images/zoom/zoom1.jpg" alt="img" class="img-responsive product-largeimg">
+</a>
+</div>
+ 
+<div class="modal-product-thumb">
+<a class="thumbLink selected"><img src="/tshop/images/zoom/zoom1.jpg" alt="img" data-large="images/zoom/zoom1.jpg" class="img-responsive">
+</a>
+<a class="thumbLink"><img src="/tshop/images/zoom/zoom2.jpg" alt="img" data-large="images/zoom/zoom2.jpg" class="img-responsive">
+</a>
+<a class="thumbLink"><img src="/tshop/images/zoom/zoom3.jpg" alt="img" data-large="images/zoom/zoom3.jpg" class="img-responsive">
+</a>
+</div>  
+</div>  
+<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 modal-details no-padding">
+<div class="modal-details-inner">
+<h1 class="product-title"> Lorem ipsum dolor sit amet</h1>
+<h3 class="product-code">Product Code : DEN1098</h3>
+<div class="product-price"> <span class="price-sales"> $70</span> <span class="price-standard">$95</span> </div>
+<div class="details-description">
+<p>In scelerisque libero ut elit porttitor commodo Suspendisse laoreet magna. </p>
+</div>
+<div class="color-details"> <span class="selected-color"><strong>COLOR</strong></span>
+<ul class="swatches Color">
+<li class="selected">
+<a style="background-color:#f1f40e"> </a>
+</li>
+<li>
+<a style="background-color:#adadad"> </a>
+</li>
+<li>
+<a style="background-color:#4EC67F"> </a>
+</li>
+</ul>
+</div>
+ 
+<div class="productFilter productFilterLook2">
+<div class="filterBox">
+<select>
+<option selected value="strawberries">Quantity</option>
+<option value="mango">1</option>
+<option value="bananas">2</option>
+<option value="watermelon">3</option>
+<option value="grapes">4</option>
+<option value="oranges">5</option>
+<option value="pineapple">6</option>
+<option value="peaches">7</option>
+<option value="cherries">8</option>
+</select>
+</div>
+<div class="filterBox">
+<select>
+<option selected value="strawberries">Size</option>
+<option value="mango">XL</option>
+<option value="bananas">XXL</option>
+<option value="watermelon">M</option>
+<option value="apples">L</option>
+<option value="apples">S</option>
+</select>
+</div>
+</div>
+ 
+<div class="cart-actions">
+<div class="addto">
+<button type="button" class="button btn-cart cart first" onclick="productAddToCartForm.submit(this);" title="Add to Cart">Add to Cart</button>
+<a class="link-wishlist wishlist">Add to Wishlist</a> </div>
+</div>
+ 
+<div class="product-share clearfix">
+<p> SHARE </p>
+<div class="socialIcon">
+<a href="index4.html#"> <i class="fa fa-facebook"></i>
+</a>
+<a href="index4.html#"> <i class="fa fa-twitter"></i>
+</a>
+<a href="index4.html#"> <i class="fa fa-google-plus"></i>
+</a>
+<a href="index4.html#"> <i class="fa fa-pinterest"></i>
+</a>
+</div>
+</div>
+ 
+</div> 
+</div>
+ 
+<div class="clear"></div>
+</div> 
+</div> 
+</div>
+ 
+<footer>
+<div class="footer"><div class="container">
+  <div class="row:">
+    <div class="col-md-3 col-sm-6 margin30">
+      <div class="footer-col">
+        <h3 title="eRacks - About">eRacks - About</h3>
+        <ul class="list-unstyled"><li>
+            <p>
+              eRacks Systems has been providing Open Source expertise, quality hardware with standard COTS components, no vendor-lock-in, and provisioning, DevOps, network, &amp; architecture services since 1999.
+            </p>
+          </li>
+          <li>
+            <h3 title="eRacks Newsletter" class="second">eRacks Newsletter</h3>
+            <form action="/customers/save_email/" method="POST">
+              <div class="input-append newsLetterBox text-center">
+                <input type="email" name="email" placeholder="Your eMail address" class="full text-center"><button type="submit" class="btn bg-gray">
+                  Subscribe <i class="fa fa-long-arrow-right"> </i>
+                </button>
+              </div>
+            </form>
+            <p style="padding-top: 10px">
+              Join our newsletter today to keep up on the latest news, trends, and products from eRacks.
+            </p>
+          </li>
+        </ul></div>
+    </div>
+    <div class="col-md-3 col-sm-6 margin30">
+      <div class="footer-col">
+        <h3 title="eRacks Information">eRacks Info</h3>
+        <ul class="list-unstyled"><li><a href="/rackmount-servers">Rackmount Server Basics</a></li>
+          <li><a href="/open-source-links/">Open source Links</a></li>
+          <li>
+              <a href="/corporate/" title="About eRacks" class="main">About Us</a>
+          </li>
+          <li>
+              <a href="/contact-us/" title="Contact eRacks" class="main">Contact Us</a>
+          </li>
+          <li>
+              <a href="/jobs/" title="Positions at eRacks" class="main">Gigs / Jobs</a>
+          </li>
+          <li>
+            <h3 title="eRacks Miscellaneous" class="second">eRacks Misc</h3>
+          </li>
+          <li>
+              <a href="http://blog.eracks.com/" title="eRacks Tech News and Blog" class="main">Blog</a>
+          </li>
+          <li>
+              <a href="http://accessories.eracks.com/" title="eRacks Computer parts and Accessories, notebooks, tablets, etc" class="main">Accessories</a>
+          </li>
+          <li>
+              <a href="http://studio.eracks.com/" title="eRacks Studio and Music-related Blog" class="main">Studio / Music Blog</a>
+          </li>
+          <li>
+              <a href="/policies/privacy-and-legal" class="main">Privacy, Legal Policies</a>
+          </li>
+          <li>
+              <a href="/policies/warranty-and-order" class="main">Warranty &amp; Order Policies</a>
+          </li>
+        </ul></div>
+    </div>
+    <div class="col-md-3 col-sm-6 margin30">
+      <div class="footer-col">
+        <h3 title="eRacks Business">eRacks Business</h3>
+        <ul class="list-unstyled"><li>
+              <a href="/showroom/" title="eRacks Product Showroom" class="main">Products</a>
+          </li>
+          <li>
+              <a href="/services/" title="eRacks Services" class="main">Services</a>
+          </li>
+          <li>
+              <a href="/partners/" title="eRacks Partners" class="main">Partners</a>
+          </li>
+          <li>
+              <a href="/customers/" title="eRacks Customers and Testimonials" class="main">Customers</a>
+          </li>
+          <li>
+              <a href="/press/" title="News about eRacks, Press Releases" class="main">Press</a>
+          </li>
+          <li>
+            <h3 title="eRacks Technology" class="second">eRacks Technology</h3>
+          </li>
+          <li>
+            <a href="#" title="eRacks Components" class="main">Components we use</a>
+          </li>
+          <li>
+            <a href="#" title="Software RAID" class="main">BIOS vs Linux RAID</a>
+          </li>
+          <li>
+            <a href="#" title="RAID - Inexpensive or Independent?" class="main">RAID Disk types</a>
+          </li>
+          <li>
+            <a href="#" title="Flash storage vs caching controller" class="main">"Flash" storage myths</a>
+          </li>
+          <li>
+            <a href="#" title="Latest memory types" class="main">NVMe, M.2, RAM Flash</a>
+          </li>
+        </ul></div>
+    </div>
+    <div class="col-md-3 col-sm-6 margin30">
+      <div class="footer-col">
+        <h3 title="eRacks Accreditations">
+          eRacks Accreditations
+        </h3>
+        <ul class="list-unstyled"><li>
+            {{ bbb_horizontal }}
+            {{ trustwave_siteseal }}
+            {{ geotrust_seal }}
+          </li>
+          <li>
+            <h3 title="eRacks Social Media" class="second">
+              eRacks Social
+            </h3>
+          </li>
+          <li id="list-inline-social">
+<ul class="list-inline social-1">
+  <li>
+    <a href="blank.html#">
+      <i class="fa fa-facebook"></i>
+    </a>
+  </li>
+  <li>
+    <a href="blank.html#">
+      <i class="fa fa-twitter"></i>
+    </a>
+  </li>
+  <li>
+    <a href="blank.html#">
+      <i class="fa fa-google-plus"></i>
+    </a>
+  </li>
+  <li>
+    <a href="blank.html#">
+      <i class="fa fa-pinterest"></i>
+    </a>
+  </li>
+  <li>
+    <a href="blank.html#">
+      <i class="fa fa-dribbble"></i>
+    </a>
+  </li>
+  <li>
+    <a href="blank.html#">
+      <i class="fa fa-youtube"></i>
+    </a>
+  </li>
+  <li>
+    <a href="blank.html#">
+      <i class="fa fa-linkedin"></i>
+    </a>
+  </li>
+  <li>
+    <a href="blank.html#">
+      <i class="fa fa-github"></i>
+    </a>
+  </li>
+  <li>
+    <a href="blank.html#">
+      <i class="fa fa-instagram"></i>
+    </a>
+  </li>
+  <li>
+    <a href="blank.html#">
+      <i class="fa fa-tumblr"></i>
+    </a>
+  </li>
+  <li>
+    <a href="blank.html#">
+      <i class="fa fa-flickr"></i>
+    </a>
+  </li>
+</ul>
+
+</li></ul></div>
+    </div>
+  </div>
+</div>
+</div><div class="footer-bottom">
+<div class="container">
+<p class="pull-left"><span class="footer-copyright">
+  <a href="http://eracks.com" title="Top-quality rackmount servers">
+    <img src="/images/logos/smalle.gif" alt="small-e">
+    eRacks Open Source Systems
+  </a>
+  © 1999-2016 all rights reserved.
+  Powered by <a href="http://eracks.com" title="The best rackmount servers">eRacks</a>
+</span>
+</p><div class="pull-right paymentMethodImg"> <img src="/tshop/images/site/payment/master_card.png" alt="img" class="pull-right" height="30"> <img src="/tshop/images/site/payment/visa_card.png" alt="img" class="pull-right" height="30"><img src="/tshop/images/site/payment/paypal.png" alt="img" class="pull-right" height="30"> <img src="/tshop/images/site/payment/american_express_card.png" alt="img" class="pull-right" height="30"> <img src="/tshop/images/site/payment/discover_network_card.png" alt="img" class="pull-right" height="30">  
+</div>
+</div>
+</div>
+ 
+</footer>
+ 
+ 
+
+{% block compress_js_bottom %}
+<script src="/tshop/assets/js/jquery/jquery-1.10.1.min.js" type="text/javascript"></script>
+<script src="/tshop/assets/bootstrap/js/bootstrap.min.js"></script>
+ 
+ 
+ 
+<script src="/tshop/assets/js/jquery.cycle2.min.js"></script>
+ 
+<script src="/tshop/assets/js/jquery.easing.1.3.js"></script>
+ 
+<script src="/tshop/assets/js/jquery.parallax-1.1.js" type="text/javascript"></script>
+ 
+<script src="/tshop/assets/js/helper-plugins/jquery.mousewheel.min.js" type="text/javascript"></script>
+ 
+<script src="/tshop/assets/js/jquery.mCustomScrollbar.js" type="text/javascript"></script>
+ 
+<script src="/tshop/assets/js/ion-checkRadio/ion.checkRadio.min.js" type="text/javascript"></script>
+ 
+<script src="/tshop/assets/js/grids.js"></script>
+  <script src="/tshop/assets/js/owl.carousel.min.js"></script>
+ 
+<script src="/tshop/assets/js/jquery.minimalect.min.js"></script>
+ 
+<script src="/tshop/assets/js/bootstrap.touchspin.js"></script>
+ 
+<script src="/tshop/assets/js/home.js"></script>
+ 
+ 
+ 
+
+
+<script src="/tshop/assets/plugins/magnific/jquery.magnific-popup.min.js"></script>
+
+{{ js|default:'<!-- empty js variable-->' }}
+{{ quick_scripts|safe }}
+{% block js %} <!-- block js --> {% endblock %}
+
+
+
+<!-- Appended scripts -->
+
+
+<script>
+
+// Brand carousel owl scripts
+$(document).ready(function () {
+  var owl = $(".brand-carousel");
+  owl.owlCarousel ({
+      navigation:false,
+      pagination:false,
+      items:8,
+      itemsTablet:[768,6],
+      itemsMobile:[400,4]
+  });
+
+  $("#nextBrand").click(function(){owl.trigger('owl.next');})
+  $("#prevBrand").click(function(){owl.trigger('owl.prev');})
+});
+
+// Home page slider - featured images
+$(document).ready(function () {
+  var pshowcase = $("#productShowCase");
+  pshowcase.owlCarousel({
+      autoPlay : 4000,
+      stopOnHover: true,
+      navigation: false,
+      paginationSpeed: 1000,
+      goToFirstSpeed: 2000,
+      singleItem: true,
+      //autoHeight: true
+  });
+
+  // Custom Navigation Events
+  $("#ps-next").click(function() {
+      pshowcase.trigger('owl.next');
+  })
+  $("#ps-prev").click(function() {
+      pshowcase.trigger('owl.prev');
+  })
+});
+
+// eRacks News carousel owl scripts
+$(document).ready(function () {
+  var news = $(".eracks-news-carousel");
+  news.owlCarousel ({
+      navigation:false,
+      pagination:false,
+      items:6,
+      itemsTablet:[768,4],
+      itemsMobile:[400,3]
+  });
+
+  $("#nextNews").click(function(){news.trigger('owl.next');})
+  $("#prevNews").click(function(){news.trigger('owl.prev');})
+});
+
+</script>
+{% endblock %}
+
+{% block js_bottom %} <!-- block js_bottom (after compress) --> {% endblock js_bottom %}
+</body></html>

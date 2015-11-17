@@ -1,0 +1,102 @@
+{% load expr %}
+<div id="final_cart">
+    {% if order.id %}
+        <table border="0" cellpading="5" cellspacing="0">
+            <tr>
+                <th align="left">Order Number</th>
+                <td>{{ order.id }}</td>
+            </tr>
+            <tr>
+                <th align="left">Order Date</th>
+                <td>{{ order.created }}</td>
+            </tr>
+        </table>
+    {% endif %}
+    <table width="100%" border="1" style="border:0; margin:0; padding:0;">
+        <tr>
+            <td style="padding:0">
+                <table width="100%">
+                    <thead><tr><th>Ship To</th></tr></thead>
+                    <tbody>
+                        {% with addr=ses.shipping_address %}
+                            {% include "_addr.html" %}
+                        {% endwith %}
+                    </tbody>
+                </table>
+            </td>
+            <td style="padding:0">
+                <table width="100%">
+                    <thead><tr><th>Bill To</th></tr></thead>
+                    <tbody>
+                        {% with addr=ses.billing_address %}
+                            {% include "_addr.html" %}
+                        {% endwith %}
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <table width="100%" border="0">
+        <thead>
+            <tr>
+                <th>Reference / PO Number</th>
+                <th>Payment Meth</th>
+                <th>Payment Terms</th>
+                <th>Special Instructions</th>
+            </tr>
+        </thead>
+        <tr>
+            <td style="text-align:center">{{ order.reference_number }}</td>
+            <td style="text-align:center">{{ payment.get_payment_method_display }}</td>
+            <td style="text-align:center">
+                {% firstof payment.get_payment_terms_display 'TBD' %}
+                {{ payment.last_4 }}
+            </td>
+            <td style="text-align:center">{{ order.special_instructions }}</td>
+        </tr>
+    </table>
+    <table border="0">
+        <thead>
+            <tr>
+                <th>Line</th>
+                <th>Sku</th>
+                <th>Summary</th>
+                <th>Notes</th>
+                <th>Qty</th>
+                <th>Price</th>
+                <th>Ext</th>
+            </tr>
+        </thead>
+        {% for line in ses.cart %}
+            <tr>
+                <td>{{ forloop.counter }}</td>
+                <td>{{ line.sku }}</td>
+                <td>{{ line.summary|safe }}</td>
+                <td>{{ line.notes }}</td>
+                <td>{{ line.qty }}</td>
+                <td>${{ line.totprice|floatformat:2 }}</td>
+                <td>{% expr line['totprice']*line['qty'] as extprice %}${{ extprice|floatformat:2 }}</td>
+            </tr>
+        {% endfor %}
+        <tr>
+            <td colspan="6"><strong>Subtotal for {{ totqty }} item{{ totqty|pluralize }}:</strong></td>
+            <td><strong>${{ grandtot|floatformat:2 }}</strong></td>
+        </tr>
+        {% if ses.order.california_tax %}
+            <tr>
+                <td colspan="6">Sales Tax ({{ ses.order.california_tax }}, {{ ses.order.california_tax.tax }})</td>
+                <td>${{ tax|floatformat:2 }}</td>
+            </tr>
+        {% endif %}
+        {% if ses.order.shipping_payment == "included" %}
+            <tr>
+                <td colspan="6">Shipping & Handling ({{ ses.order.shipping_method }}, {{ ses.order.preferred_shipper }})</td>
+                <td>${{ ses.order.shipping|floatformat:2 }}</td>
+            </tr>
+        {% endif %}
+        <tr>
+            <td colspan="6"><strong>Grand Total for {{ totqty }} item{{ totqty|pluralize }} with tax & shipping:</strong></td>
+            <td><strong>${{ gtts|floatformat:2 }}</strong></td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,128 @@
+    1  ewxit
+    2  exit
+    3  wget -O install_salt.sh https://bootstrap.saltstack.com
+    4  sudo sh install_salt.sh 
+    5  apt-get install mc
+    6  sudo apt-get install mc
+    7  sudo mc
+    8  date
+    9  ps ax |grep salt
+   10  /etc/init.d/salt-minion restart
+   11  sudo /etc/init.d/salt-minion restart
+   12  sudo ps
+   13  mc
+   14  ls -l
+   15  ls -la
+   16  ls -la .config/
+   17  sudo chown -R joe:joe .
+   18  ls -la .config/
+   19  mc
+   20  sudo mc
+   21  salt-call grains.ls
+   22  sudo su
+   23  dpkg -l |grep django
+   24  dpkg -l |greppost
+   25  dpkg -l |grep post
+   26  mc
+   27  history 
+   28  uname -a
+   29  hostname
+   30  hostname -f
+   31  sudo mc
+   32  sudo su
+   33  lsb_release -a
+   34  mc
+   35  sudo mc
+   36  apt-get update && apt-get -y dist-upgrade
+   37  sudo apt-get update && sudo apt-get -y dist-upgrade
+   38  uptime 
+   39  mc
+   40  ps ax
+   41  servicer salt
+   42  service salt
+   43  service salt-minion 
+   44  service salt-minion status
+   45  vigr
+   46  sudo vigr
+   47  man groups
+   48  groups joe
+   49  groups joec >groups-pre-salt
+   50  groups joe >groups-pre-salt
+   51  pwd
+   52  cd
+   53  groups joe >groups-pre-salt
+   54  cat groups-pre-salt 
+   55  df -h
+   56  ping dev.eracks.com
+   57  ps
+   58  ps ax
+   59  hostname
+   60  hostname -a
+   61  hostname -fqdn
+   62  hostname -f
+   63  ping eracks11.librehost.com
+   64  mc
+   65  env x='() { :;}; echo vulnerable' bash -c "echo this is a test"
+   66  sudo apt-get update && sudo apt-get dist-upgrade
+   67  env x='() { :;}; echo vulnerable' bash -c "echo this is a test"
+   68  mc
+   69  sudo mc
+   70  sudo apt-get update && sudo apt-get dist-upgrade
+   71  sudo apt-get autoremove --purge
+   72  df -h
+   73  history 
+   74  service salt-minion status
+   75  cat groups-pre-salt 
+   76  groups joe
+   77  uptime 
+   78  sudo mc
+   79  netstat -antp
+   80  sudo netstat -antp
+   81  ps ax
+   82  psql 
+   83  psql eracksdb
+   84  sudo su postgres
+   85  sudo su postgres -
+   86  sudo su - postgres 
+   87  vi Dockerfile
+   88  touch requirements.txt]
+   89  mv requirements.txt] requirements.txt
+   90  cp Dockerfile Dockerfile-org
+   91  touch minion.conf
+   92  sudo docker build .
+   93  sudo docker ps -a
+   94  touch relay.sh
+   95  sudo docker help build .
+   96  sudo docker build .
+   97  sudo docker help commit
+   98  sudo docker commit -a joe@eracks.com -m salty-fusion-base 380cb85ea5f0
+   99  sudo docker images
+  100  sudo docker run -it 
+  101  sudo docker run -it 380cb85ea5f0
+  102  sudo docker run -it 380cb85ea5f0 /bin/bash
+  103  sudo docker images
+  104  sudo docker ps -a
+  105  sudo docker commit -a joe@eracks.com -m "successful salty eracks install" c525621fc069
+  106  sudo docker images
+  107  sudo docker ps -a
+  108  sudo docker run -it 49a3d4b1fc6a -p 80:80 /bin/bash
+  109  docker help run
+  110  sudo docker run -it -p 80:80 -p 22:22 49a3d4b1fc6a /bin/bash 
+  111  sudo docker run -it -p 80:80 -p 22:22 -h dev.eracks.com 49a3d4b1fc6a /bin/bash 
+  112  netstat  -antp
+  113  dpkg -l |grep postgres
+  114  sudo docker run -it -p 80:80 -p 8080:8080 -p 2222:22 -h dev.eracks.com 49a3d4b1fc6a /bin/bash 
+  115  sudo docker ps -a
+  116  sudo docker run -it -p 80:80 -p 8080:8080 -p 2222:22 -h dev.eracks.com 49a3d4b1fc6a /bin/bash 
+  117  sudo docker ps -a
+  118  sudo docker run -it -p 80:80 -p 8080:8080 -p 2222:22 -h dev.eracks.com 676e253441d3 /bin/bash 
+  119  sudo docker run -it -p 80:80 -p 8080:8080 -p 2222:22 -h dev.eracks.com 676e253441d3
+  120  sudo docker run -it -p 80:80 -p 8080:8080 -p 2222:22 -h dev.eracks.com 49a3d4b1fc6a 
+  121  host
+  122  apt cache search host
+  123  apt-cache search host
+  124  apt-cache search host |grep host
+  125  apt-cache show host 
+  126  apt-cache show whois
+  127  sudo docker run -it -p 80:80 -p 8080:8080 -p 2222:22 -h dev.eracks.com 49a3d4b1fc6a 
+  128  history >more-useful-history

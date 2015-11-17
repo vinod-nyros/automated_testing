@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+
+  <title>Tests results screens</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style type="text/css">
+  .center{
+    text-align: center;
+  }
+  </style>
+  
+</head>
+<body>
+    <div class="container">
+            <h1 class="center"> These are test result screens </h1>
+            {% if chrome_images %}
+              <h2 class="center"> Tested Images using Chrome Browser </h2>
+              <div>
+                {% for image in chrome_images %}
+                  <a href="{{hostname}}media/test_results_screens/chrome/{{image}}" title="{{ image|slice:":-4"  }} test case result screen">
+                  <img src="{{hostname}}media/test_results_screens/chrome/{{image}}"  height="300" width="300" alt="tested_screens{{image}}"/>
+                  </a>
+                {% endfor %}
+              </div>
+              {% endif %}
+              <div>
+              {% if firefox_images %}
+              <h2 class="center"> Tested Images using Firefox Browser </h2>
+                {% for image in firefox_images %}
+                  <a href="{{hostname}}media/test_results_screens/firefox/{{image}}" title="{{ image|slice:":-4"  }} test case result screen">
+                  <img src="{{hostname}}media/test_results_screens/firefox/{{image}}"  height="300" width="300" alt="tested_screens{{image}}"/>
+                  </a>
+                {% endfor %}
+              </div>
+              {% endif %}
+    </div>
+</body>
+</html>

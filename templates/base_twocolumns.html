@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+
+{% block content_row %} <!-- BLOCK CONTENT_ROW --> {{ content_row }}
+
+<div class="row" id="content_row">
+    <div class="three columns">
+        {% block sidebar_one %} <!-- BLOCK SIDEBAR ONE --> {% firstof sidebar_one block.super %} {% endblock sidebar_one %}
+    </div>
+
+    <div class="eight columns">
+        {% block content_title %} <!-- BLOCK CONTENT_TITLE --> {% endblock content_title %}
+        {% block content %} <!-- BLOCK CONTENT -->
+            {# % block breadcrumbs %} <!-- BLOCK BREADCRUMBS --> {{ breadcrumbs }} {% endblock breadcrumbs % #}
+            {{ content }}
+        {% endblock content %}
+    </div>
+
+    <div class="one column">
+    </div>
+</div>
+
+{% endblock content_row %}

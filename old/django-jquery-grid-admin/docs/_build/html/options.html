@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Available options &mdash; Django jQuery Grid Admin v0.1 documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '#',
+        VERSION:     '0.1',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Django jQuery Grid Admin v0.1 documentation" href="index.html" />
+    <link rel="next" title="Javascript" href="javascript.html" />
+    <link rel="prev" title="What is Django jQuery Grid Admin?" href="overview.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="javascript.html" title="Javascript"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="overview.html" title="What is Django jQuery Grid Admin?"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Django jQuery Grid Admin v0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="available-options">
+<span id="plugin"></span><h1>Available options<a class="headerlink" href="#available-options" title="Permalink to this headline">¶</a></h1>
+<p>Inspired by django-tastypie (<a class="reference external" href="http://django-tastypie.readthedocs.org/en/latest/index.html">http://django-tastypie.readthedocs.org/en/latest/index.html</a>), Django jQuery Grid Admin
+uses similiar resource definition. To enable grid admin you should inherit GridResource class, located in
+<cite>resources.py</cite> file. You can override default options in <cite>class Meta</cite></p>
+<div class="section" id="required-options">
+<h2>Required options<a class="headerlink" href="#required-options" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><strong>register</strong> - this is a list of [app label, model name] you want to add in grid admin. If you want one of your models to display in grid admin - just include it in this list. See example below.</li>
+</ul>
+</div>
+<div class="section" id="custom-options">
+<h2>Custom options<a class="headerlink" href="#custom-options" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><strong>prefix</strong> - because you can define several grid resources this option is for different urls to them.</li>
+<li><strong>description</strong> - one of the most important options. It allows you to define fields for model, to exclude fields of model,to turn on plugin support, to choose fields with &#8220;safe&#8221; unescaped html.</li>
+<li><strong>readonly</strong> - if set to <cite>True</cite> then grid will be without edit and delete actions column (DEFAULT <cite>FALSE</cite>)</li>
+<li><strong>inline</strong> if set to <cite>False</cite> then grid will be without inline editing (DEFAULT <cite>True</cite>)</li>
+<li><strong>datetime_format</strong> - string that defines datetime format (DEFAULT <cite>&#8220;%d.%m.%Y %H:%M&#8221;</cite>)</li>
+<li><strong>date_format</strong> - string that defines date format (DEFAULT <cite>&#8220;%d.%m.%Y&#8221;</cite>)</li>
+<li><strong>time_format</strong> - string that defines time format (DEFAULT <cite>&#8220;%H:%M&#8221;</cite>)</li>
+<li><strong>grid_rownum</strong> - jQuery Grid number of rows (DEFAULT <cite>20</cite>)</li>
+<li><strong>datepicker_format</strong> -  jQuery UI date format (DEFAULT <cite>&#8220;dd.mm.yy&#8221;</cite>)</li>
+<li><strong>timepicker_format</strong> -  jQuery UI datetimepicker time format (DEFAULT <cite>&#8220;hh:mm&#8221;</cite>)</li>
+<li><strong>dialog_width</strong> -  jQuery UI dialog width (DEFAULT <cite>&#8216;70%&#8217;</cite>)</li>
+<li><strong>dialog_max_height</strong> -  jQuery UI dialog max height (DEFAULT <cite>500</cite>)</li>
+<li><strong>wysiwyg_height</strong> -  height of textareas (DEFAULT <cite>400</cite>)</li>
+<li><strong>save_on_top</strong> -  display <cite>Save</cite> button on top of dialog (DEFAULT <cite>False</cite>)</li>
+<li><strong>navigation</strong> - show navigation tabs (DEFAULT <cite>True</cite>)</li>
+</ul>
+</div>
+<div class="section" id="description-directives">
+<h2>Description directives<a class="headerlink" href="#description-directives" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><strong>fields</strong> - list of fields for model to display on grid (if omitted then we use all model fields)</li>
+<li><strong>exclude</strong> -  list of excluded fields for model (if omitted then we do not exclude any field)</li>
+<li><strong>plugins</strong> - list of fields for which you want to use widget/plugin or magic word &#8216;ALL&#8217; (if omitted then we do not use any plugin)</li>
+<li><strong>safe</strong> - list of fields for which you do not want to escape html (if omitted then we escape all column values)</li>
+</ul>
+</div>
+<div class="section" id="example-with-all-options-overrided">
+<h2>Example with all options overrided<a class="headerlink" href="#example-with-all-options-overrided" title="Permalink to this headline">¶</a></h2>
+<p>In this code snippet we override all available options to customize behaviour of grid admin:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="kn">from</span> <span class="nn">djgrid.resources</span> <span class="kn">import</span> <span class="n">GridResource</span>
+
+<span class="k">class</span> <span class="nc">Resource</span><span class="p">(</span><span class="n">GridResource</span><span class="p">):</span>
+    <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
+        <span class="n">register</span> <span class="o">=</span> <span class="p">[[</span><span class="s">&#39;blog&#39;</span><span class="p">,</span><span class="s">&#39;post&#39;</span><span class="p">],[</span><span class="s">&#39;blog&#39;</span><span class="p">,</span><span class="s">&#39;comment&#39;</span><span class="p">],[</span><span class="s">&#39;auth&#39;</span><span class="p">,</span><span class="s">&#39;user&#39;</span><span class="p">]]</span>
+        <span class="n">description</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s">&#39;post&#39;</span><span class="p">:{</span>
+                <span class="s">&#39;fields&#39;</span><span class="p">:[</span><span class="s">&#39;title&#39;</span><span class="p">,</span><span class="s">&#39;teaser&#39;</span><span class="p">,</span><span class="s">&#39;author&#39;</span><span class="p">,</span><span class="s">&#39;published_at&#39;</span><span class="p">,</span><span class="s">&#39;updated_at&#39;</span><span class="p">],</span>
+                <span class="s">&#39;plugins&#39;</span><span class="p">:</span><span class="s">&#39;ALL&#39;</span><span class="p">,</span>
+                <span class="s">&#39;safe&#39;</span><span class="p">:[</span><span class="s">&#39;author&#39;</span><span class="p">]</span>
+            <span class="p">},</span>
+            <span class="s">&#39;comment&#39;</span><span class="p">:{</span>
+
+            <span class="p">},</span>
+            <span class="s">&#39;user&#39;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s">&#39;exclude&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s">&#39;password&#39;</span><span class="p">],</span>
+                <span class="s">&#39;plugins&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s">&#39;permissions&#39;</span><span class="p">,</span><span class="s">&#39;groups&#39;</span><span class="p">]</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+        <span class="n">prefix</span> <span class="o">=</span> <span class="s">&#39;custom_admin&#39;</span>
+        <span class="n">readonly</span> <span class="o">=</span> <span class="bp">False</span>
+        <span class="n">inline</span> <span class="o">=</span> <span class="bp">True</span>
+        <span class="n">datetime_format</span> <span class="o">=</span> <span class="s">&quot;</span><span class="si">%d</span><span class="s">/%m/%Y %H-%M&quot;</span>
+        <span class="n">date_format</span> <span class="o">=</span> <span class="s">&quot;</span><span class="si">%d</span><span class="s">/%m/%Y&quot;</span>
+        <span class="n">time_format</span> <span class="o">=</span> <span class="s">&quot;%H-%M&quot;</span>
+        <span class="n">grid_rownum</span> <span class="o">=</span> <span class="mi">30</span>
+        <span class="n">datepicker_format</span> <span class="o">=</span> <span class="s">&quot;dd/mm/yy&quot;</span>
+        <span class="n">timepicker_format</span> <span class="o">=</span> <span class="s">&quot;hh-mm&quot;</span>
+        <span class="n">dialog_width</span> <span class="o">=</span> <span class="s">&#39;60%&#39;</span>
+        <span class="n">dialog_max_height</span> <span class="o">=</span> <span class="mi">400</span>
+        <span class="n">wysiwyg_height</span> <span class="o">=</span> <span class="mi">200</span>
+        <span class="n">save_on_top</span> <span class="o">=</span> <span class="bp">True</span>
+        <span class="n">navigation</span> <span class="o">=</span> <span class="bp">False</span>
+</pre></div>
+</div>
+<p>Next you need to create instance of Resource and add resource&#8217;s urls in urlpatterns:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">resource</span> <span class="o">=</span> <span class="n">Resource</span><span class="p">()</span>
+<span class="n">urlpatterns</span> <span class="o">=</span> <span class="n">patterns</span><span class="p">(</span><span class="s">&#39;&#39;</span><span class="p">,</span>
+    <span class="n">url</span><span class="p">(</span><span class="s">r&#39;^$&#39;</span><span class="p">,</span> <span class="n">include</span><span class="p">(</span><span class="n">resource</span><span class="o">.</span><span class="n">urls</span><span class="p">)),</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="index.html">Table Of Contents</a></h3>
+            <ul>
+<li><a class="reference external" href="#">Available options</a><ul>
+<li><a class="reference external" href="#required-options">Required options</a></li>
+<li><a class="reference external" href="#custom-options">Custom options</a></li>
+<li><a class="reference external" href="#description-directives">Description directives</a></li>
+<li><a class="reference external" href="#example-with-all-options-overrided">Example with all options overrided</a></li>
+</ul>
+</li>
+</ul>
+
+            <h4>Previous topic</h4>
+            <p class="topless"><a href="overview.html"
+                                  title="previous chapter">What is Django jQuery Grid Admin?</a></p>
+            <h4>Next topic</h4>
+            <p class="topless"><a href="javascript.html"
+                                  title="next chapter">Javascript</a></p>
+            <h3>This Page</h3>
+            <ul class="this-page-menu">
+              <li><a href="_sources/options.txt"
+                     rel="nofollow">Show Source</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Quick search</h3>
+              <form class="search" action="search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Go" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Enter search terms or a module, class or function name.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="javascript.html" title="Javascript"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="overview.html" title="What is Django jQuery Grid Admin?"
+             >previous</a> |</li>
+        <li><a href="index.html">Django jQuery Grid Admin v0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2012, Alexandr Emelin.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.4.
+    </div>
+  </body>
+</html>

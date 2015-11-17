@@ -1,0 +1,29 @@
+{% extends "base-aloha.html" %}
+{% load aloha_tags %}
+
+
+{% block content %}
+
+    <h1>Customers</h1>
+    <ul>
+        {% for cust in customers %}
+            <li>{{ cust.caption }}</li>
+        {% endfor %}
+    </ul>
+
+{% endblock content %}
+
+
+{% block sidebar_one %}
+
+    <h2>Testimonials</h2>
+    <ul>
+        {% for testim in testimonials %}
+            <li>
+              <i>"{% aloha testim 'quote' %}{{ testim.quote|safe }}{% endaloha %}</i>"<br>
+              {% aloha testim 'attribution' %}{{ testim.attribution|safe }}{% endaloha %}
+            </li>
+        {% endfor %}
+    </ul>
+
+{% endblock sidebar_one %}

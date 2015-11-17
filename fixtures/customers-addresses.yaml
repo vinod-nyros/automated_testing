@@ -1,0 +1,189 @@
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_list.html
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_config_summary.html
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_config_tab.html
+compiling /home/joe/django_eracks/apps/products/templets.py to product.html
+compiling /home/joe/django_eracks/apps/products/templets.py to products.html
+compiling /home/joe/django_eracks/apps/products/templets.py to category.html
+compiling /home/joe/django_eracks/apps/bloglets/templets.py to _bloglet_list.html
+- fields: {address1: 641 Dowd Avenue, address2: '', city: Elizabeth, country: US,
+    created: !!timestamp '2012-12-01 06:38:32.539522', customer: 54730, email: '',
+    name: Sergey Koval Derdevich, nickname: '', phone: '', published: true, state: NJ,
+    type: shipping, updated: !!timestamp '2012-12-01 06:38:32.539565', zip: '07201'}
+  model: customers.address
+  pk: 54731
+- fields: {address1: 18 lee st apt 6-b, address2: '', city: edison, country: US, created: !!timestamp '2012-12-01
+      06:38:32.649076', customer: 54730, email: '', name: 'Sergey Koval ', nickname: '',
+    phone: '', published: true, state: NJ, type: billing, updated: !!timestamp '2012-12-01
+      06:38:32.649119', zip: 08817}
+  model: customers.address
+  pk: 54732
+- fields: {address1: 2910 E. Geer Street, address2: '', city: Durham, country: US,
+    created: !!timestamp '2013-03-16 02:12:22.366729', customer: 54939, email: '',
+    name: Phung Nguyen, nickname: '', phone: '', published: true, state: NC, type: shipping,
+    updated: !!timestamp '2013-03-16 02:15:09.818854', zip: '27704'}
+  model: customers.address
+  pk: 54940
+- fields: {address1: 3217 sherry ct, address2: '', city: falls church, country: US,
+    created: !!timestamp '2013-03-16 02:12:22.425112', customer: 54939, email: '',
+    name: Phung Nguyen, nickname: '', phone: '', published: true, state: '', type: billing,
+    updated: !!timestamp '2013-03-16 02:15:09.839082', zip: '22042'}
+  model: customers.address
+  pk: 54941
+- fields: {address1: 54 Parkman st, address2: '', city: Dorchester, country: US, created: !!timestamp '2013-03-16
+      10:31:17.801504', customer: 54944, email: '', name: Huy Nguyen, nickname: '',
+    phone: '', published: true, state: MA, type: shipping, updated: !!timestamp '2013-03-16
+      10:31:17.801559', zip: '02122'}
+  model: customers.address
+  pk: 54945
+- fields: {address1: 495 Timberline Ct., address2: '', city: Taylorsville, country: US,
+    created: !!timestamp '2013-03-16 10:31:17.935422', customer: 54944, email: '',
+    name: Huy Nguyen, nickname: '', phone: '', published: true, state: KY, type: billing,
+    updated: !!timestamp '2013-03-16 10:31:17.935474', zip: '40071'}
+  model: customers.address
+  pk: 54946
+- fields: {address1: 3560 E Gas Rd, address2: '', city: Tucson, country: US, created: !!timestamp '2013-01-07
+      23:41:06.616353', customer: 54882, email: '', name: Pat ernst, nickname: '',
+    phone: '', published: true, state: AZ, type: both, updated: !!timestamp '2013-01-07
+      23:41:06.616398', zip: '85714'}
+  model: customers.address
+  pk: 54883
+- fields: {address1: 1742 w katella, address2: '', city: orange, country: US, created: !!timestamp '2013-01-08
+      09:55:41.322516', customer: 54878, email: '', name: James, nickname: '', phone: '',
+    published: true, state: CA, type: shipping, updated: !!timestamp '2013-01-08 09:55:41.322574',
+    zip: '92867'}
+  model: customers.address
+  pk: 54886
+- fields: {address1: 1742 w katella, address2: '', city: orange, country: US, created: !!timestamp '2013-01-08
+      09:55:41.425464', customer: 54878, email: '', name: james, nickname: '', phone: '',
+    published: true, state: CA, type: billing, updated: !!timestamp '2013-01-08 09:55:41.425522',
+    zip: '92867'}
+  model: customers.address
+  pk: 54887
+- fields: {address1: 54 parkman st, address2: '', city: dorchester, country: US, created: !!timestamp '2013-01-10
+      08:26:26.485392', customer: 54891, email: '', name: Huy Nguyen, nickname: '',
+    phone: '', published: true, state: MA, type: both, updated: !!timestamp '2013-01-10
+      08:26:26.485448', zip: '02122'}
+  model: customers.address
+  pk: 54892
+- fields: {address1: 2455 Hayward St., address2: '', city: Ann Arbor, country: US,
+    created: !!timestamp '2013-02-15 07:52:09.241664', customer: 54915, email: '',
+    name: Bruce Block, nickname: '', phone: '', published: true, state: MI, type: shipping,
+    updated: !!timestamp '2013-02-15 07:52:09.241719', zip: 48109-2143}
+  model: customers.address
+  pk: 54916
+- fields: {address1: 2455 Hayward St., address2: '', city: Ann Arbor, country: US,
+    created: !!timestamp '2013-02-15 07:52:09.386655', customer: 54915, email: '',
+    name: Jan L Beltran, nickname: '', phone: '', published: true, state: MI, type: billing,
+    updated: !!timestamp '2013-02-15 07:52:09.386708', zip: 48109-2143}
+  model: customers.address
+  pk: 54917
+- fields: {address1: 411 Hyten, address2: '', city: Benton, country: US, created: !!timestamp '2012-12-20
+      21:35:28.634531', customer: 54774, email: '', name: Jeremy DiCicco, nickname: '',
+    phone: '', published: true, state: AR, type: shipping, updated: !!timestamp '2012-12-22
+      07:43:42.663269', zip: '72015'}
+  model: customers.address
+  pk: 54775
+- fields: {address1: 411 Hyten, address2: '', city: Benton, country: US, created: !!timestamp '2012-12-20
+      21:35:28.709092', customer: 54774, email: '', name: Jeremy DiCicco, nickname: '',
+    phone: '', published: true, state: AR, type: billing, updated: !!timestamp '2012-12-22
+      07:43:42.750693', zip: '72015'}
+  model: customers.address
+  pk: 54776
+- fields: {address1: Balboastraat 42-2, address2: '', city: Amsterdam, country: NL,
+    created: !!timestamp '2013-04-24 05:08:28.034779', customer: 55003, email: '',
+    name: B. Chin Fo Sieeuw, nickname: '', phone: '', published: true, state: AE,
+    type: both, updated: !!timestamp '2013-04-24 05:08:28.034833', zip: 1057 VX}
+  model: customers.address
+  pk: 55004
+- fields: {address1: 'BR 101 km 94 - Centro Administrativo, s/n - Lagoa Nova', address2: '',
+    city: Natal/RN, country: BR, created: !!timestamp '2013-05-27 09:57:03.495974',
+    customer: 55021, email: '', name: FAPERN/Sidarta Tollendal Gomes Ribeiro, nickname: '',
+    phone: '', published: true, state: '', type: billing, updated: !!timestamp '2013-05-27
+      09:57:03.496034', zip: 59064-901}
+  model: customers.address
+  pk: 55023
+- fields: {address1: 10687 Kipling Way, address2: '', city: Westminster, country: US,
+    created: !!timestamp '2013-06-18 20:00:21.595983', customer: 55027, email: '',
+    name: Lisa Denison, nickname: '', phone: '', published: true, state: CO, type: both,
+    updated: !!timestamp '2013-06-18 20:00:21.596035', zip: '80021'}
+  model: customers.address
+  pk: 55028
+- fields: {address1: 3560 E Gas Rd, address2: '', city: Tucson, country: US, created: !!timestamp '2013-06-24
+      15:31:52.413231', customer: 54729, email: '', name: Independent Mining Consultants,
+    nickname: '', phone: '', published: true, state: AZ, type: both, updated: !!timestamp '2013-06-24
+      15:31:52.413284', zip: '85714'}
+  model: customers.address
+  pk: 55032
+- fields: {address1: 19114 Center Avenue, address2: '', city: Homewwod, country: US,
+    created: !!timestamp '2013-08-07 13:58:22.245456', customer: 55038, email: '',
+    name: John Freberg, nickname: '', phone: '', published: true, state: IL, type: both,
+    updated: !!timestamp '2013-08-07 13:58:22.245509', zip: '60430'}
+  model: customers.address
+  pk: 55039
+- fields: {address1: 7218 3rd st, address2: '', city: Alexandria, country: US, created: !!timestamp '2013-03-22
+      06:17:34.189448', customer: 54961, email: '', name: Paul Barnes, nickname: '',
+    phone: '', published: true, state: LA, type: both, updated: !!timestamp '2013-03-22
+      06:17:34.189501', zip: '71302'}
+  model: customers.address
+  pk: 54962
+- fields: {address1: 197 University Ave, address2: '', city: Newark, country: US,
+    created: !!timestamp '2013-03-19 07:09:00.435512', customer: 54950, email: '',
+    name: Hjalmar Turesson, nickname: '', phone: '', published: true, state: NJ, type: shipping,
+    updated: !!timestamp '2013-03-26 04:22:27.921591', zip: '07102'}
+  model: customers.address
+  pk: 54951
+- fields: {address1: "Br 101 km 94 - Centro Administrativo, s/n\xB0, Lagoa Nova",
+    address2: '', city: Natal, country: BR, created: !!timestamp '2013-03-19 07:09:00.755406',
+    customer: 54950, email: '', name: FAPERN/Sidarta T.G. Ribeiro, nickname: '', phone: '',
+    published: true, state: '', type: billing, updated: !!timestamp '2013-03-26 04:22:27.937486',
+    zip: 59064-901}
+  model: customers.address
+  pk: 54952
+- fields: {address1: 03 rue tarafa ben al abd, address2: '', city: hammam chatt, country: TN,
+    created: !!timestamp '2013-03-31 10:19:46.265996', customer: 54972, email: '',
+    name: jaafer dabbabi, nickname: '', phone: '', published: true, state: TN, type: shipping,
+    updated: !!timestamp '2013-03-31 10:19:46.266046', zip: '1164'}
+  model: customers.address
+  pk: 54973
+- fields: {address1: 5315 NW 1122 th Terrace, address2: '', city: Coral Springs, country: US,
+    created: !!timestamp '2013-03-31 10:19:46.350732', customer: 54972, email: '',
+    name: mikael larson, nickname: '', phone: '', published: true, state: FL, type: billing,
+    updated: !!timestamp '2013-03-31 10:19:46.350784', zip: '33076'}
+  model: customers.address
+  pk: 54974
+- fields: {address1: 4955 E. Yale Ave, address2: '', city: Fresno, country: US, created: !!timestamp '2013-04-09
+      15:41:19.464561', customer: 54987, email: '', name: '', nickname: '', phone: '',
+    published: true, state: CA, type: both, updated: !!timestamp '2013-04-09 15:41:19.464611',
+    zip: '93727'}
+  model: customers.address
+  pk: 54988
+- fields: {address1: 3560 E Gas Rd, address2: '', city: Tucson, country: US, created: !!timestamp '2012-12-03
+      00:17:24.854081', customer: 2, email: '', name: Pat ernst, nickname: '', phone: '',
+    published: true, state: AZ, type: shipping, updated: !!timestamp '2013-05-24 12:14:16.709580',
+    zip: '85714'}
+  model: customers.address
+  pk: 54748
+- fields: {address1: 16861 Shledon, address2: '', city: Los gatos, country: US, created: !!timestamp '2012-07-19
+      14:32:32.412314', customer: 2, email: '', name: Joseph Wolff, nickname: '',
+    phone: '', published: true, state: CA, type: billing, updated: !!timestamp '2013-05-24
+      12:14:16.730771', zip: '95030'}
+  model: customers.address
+  pk: 54276
+- fields: {address1: 123 Easy St, address2: '', city: Anytown, country: US, created: !!timestamp '2013-05-25
+      11:01:54.714140', customer: 55012, email: '', name: Joe Dawson, nickname: '',
+    phone: '', published: true, state: AL, type: shipping, updated: !!timestamp '2013-05-25
+      11:01:54.714185', zip: '95030'}
+  model: customers.address
+  pk: 55018
+- fields: {address1: 123 Easy St, address2: '', city: Anytown, country: US, created: !!timestamp '2013-05-25
+      10:54:12.899535', customer: 55012, email: '', name: Joe Dawson, nickname: '',
+    phone: '', published: true, state: AL, type: billing, updated: !!timestamp '2013-05-25
+      11:01:54.798185', zip: '95030'}
+  model: customers.address
+  pk: 55013
+- fields: {address1: 197 University Ave, address2: '', city: Newark, country: US,
+    created: !!timestamp '2013-05-27 09:57:03.302389', customer: 55021, email: '',
+    name: Hjalmar Turesson, nickname: '', phone: '', published: true, state: NJ, type: shipping,
+    updated: !!timestamp '2013-05-27 09:57:03.302442', zip: '07102'}
+  model: customers.address
+  pk: 55022

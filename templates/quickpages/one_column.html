@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+
+{% block extra-head %}  {# Satchmo calls it 'extra-head', other projects call it 'header_extras' - customize accordingly #}
+
+{{ css|safe }}
+{{ javascript|safe }}
+
+{% endblock extra-head %}
+
+
+{% block breadcrumbs %}
+  {% if breadcrumbs %}
+    <ul class="breadcrumbs">
+      <li><a href="/">Home</a></li>
+      <li class="current">
+        <a href="#" title="{{ title }}">{{ name|capfirst }}</a>
+      </li>
+    </ul>
+  {% endif %}
+{% endblock %}
+
+
+{% block content_row %}
+
+    <div class="row" id="content_row">
+        <div class="one column"> &nbsp; </div>
+
+        <div class="ten columns">
+            {% block content_title %} <!-- BLOCK CONTENT_TITLE --> {% endblock content_title %}
+            {% block content %} <!-- BLOCK CONTENT -->
+                {{ content|safe }}
+            {% endblock content %}
+        </div>
+
+        <div class="one column"> &nbsp; </div>
+    </div>
+
+{% endblock content_row %}

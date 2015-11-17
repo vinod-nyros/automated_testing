@@ -1,0 +1,469 @@
+8/22/3
+delete sessions, orders, logs
+permissions
+p,get ips! * IP filtering!
+chg 'Default configuration' to full config list
+d rm org sendorder
+remove reloads or refactor
+refactor ginv & checkout9/admin.py
+staging server
+apache default
+switchover:
+ - domain list
+ - staging - eraqs.org, or staging.eracks.com?  also chg .start
+ - chg 2 places: myconfig.py and apache httpd.conf
+
+old code:  mycodes.py?
+
+8/16/03
+qual async Zope emailer, d replace sendorder; or fix quoting issue
+d test varpath & 'me' in sendorder - add to myconfig.py as needed.
+d qual checkout9 w/sendorder2 or new zope async mailer
+
+8/10/03
+d reconcile sendorder & sendorder2
+p d cleanup mymodule & reloads
+d cert & 'secure' ssl support!
+
+find & fix the ZODB upd on every page hit (!)
+
+d cvv code
+d intl shipping
+d shipping weight
+
+
+3/18/01 sun fm sendorder:
+ps aux
+...
+root   48884  0.0  0.7  3724 3472  ??  Ss   10:35PM   0:00.01 python /usr/local/Zope-2.2.5/z2.py -P :6000 -p -F -m -f
+root       0  0.0  0.0     0    0  ??  DLs  26Jan01   0:03.19  (swapper)
+root   48886  0.0  0.0   468  232  p6  R+   10:35PM   0:00.00 ps aux
+root       1  0.0  0.0   440   88  ??  SLs  26Jan01   0:00.16 /sbin/init --
+su-2.04#
+su-2.04# Traceback (innermost last):
+  File "/usr/local/Zope-2.2.5/Extensions/sendorder.py", line 107, in ?
+    sendorder (args [1], args [2], args [3], args [4], args [5])
+  File "/usr/local/Zope-2.2.5/Extensions/sendorder.py", line 81, in sendorder
+    sys.stderr = sys.stdout = open (log, 'a', 1)
+IOError: [Errno 13] Permission denied: 'Optiquest'
+And: not found
+: not found
+Price:: not found
+Total: not found
+Syntax error: word unexpected (expecting ")")
+
+su-2.04# Traceback (innermost last):
+  File "/usr/local/Zope-2.2.5/Extensions/sendorder.py", line 107, in ?
+    sendorder (args [1], args [2], args [3], args [4], args [5])
+  File "/usr/local/Zope-2.2.5/Extensions/sendorder.py", line 81, in sendorder
+    sys.stderr = sys.stdout = open (log, 'a', 1)
+IOError: [Errno 13] Permission denied: 'Optiquest'
+Price:: not found
+Total: not found
+Syntax error: "(" unexpected
+
+su-2.04#
+
+
+3/14
+order date shorter
+email template(s)
+ensure logged in before showing request or session
+finish/fix the blurbs on checkout p1
+fix l&f on checkout p1
+
+fix std error msg - zope 3?
+
+setvirtualhost and setserverurl?
+
+dual sendorder problem.
+
+3/11
+ZPattern required in dev otherwize ZCongigurator objects come up w/ broken product!
+
+3/8-9-10
+fix notes field to be more persistent - use separate session var!
+deploy
+d email order
+ d billto, shipto, paymeth, invoice - 1 line at a time, in the sendorder func
+email bugs!
+test zope error
+d zope realm ==> eracks
+d zope realm ==> eracksdev
+d t empty cart on completed order!
+
+b: 
+ d hrefs/sesurl
+ blurb for 'day phone' goes here, etc - test in netscape, may need <a name='#day%20phone'>
+ step 3 / thanks page
+ standard checkout btn
+ why no img tag in step 1, 2, 3?
+
+blurbs at top of cart page for explanation
+edit mode
+
+j:
+ page2&3 checkout l&f for p1
+ edits: 
+  ccard date > today
+  state of CA and sales tax together
+ order email should send the session url, and mention that your shipping info is there.
+ dtw/netscape hrefs/sesurl
+ dt secure host switching / redirects
+ links: whatsnew, news, products, services, drivers, support, opensource, investor info, accessories, 
+        resources, f&p?, reseller info, distributors, 
+        (referenceable) customers, eRacks history, what's new, 'portal'-style entry page, 
+ blurbs at bottom of checkout
+ zcheckout obj, which calls faq?
+ dt 2 emails, 2 save formats - .html, .pkl (pickle) (no .txt any more)
+
+ newsletter checkbox
+ textarea for special instructions
+
+ order date in emails
+
+tld? .net, .com?
+
+after running 3/9: 
+1) Walk the zope tree & unroll everything w/o a z to eracks.com, and 
+have the z-prefix go to eracks.net - and leave the eracks.net site intact, too, as straight zope!
+2) zope templating for site factory..
+3) python webdav client for posting to zope, along w/jython editor
+
+after running 3/8:  really need to have the obejcts render themselves, 
+perhaps with a renderer object - that way you can put it in the session 
+tree, and just call it.  The fundamental difference thought through 
+yesterday, is the dict-tree object rendering select tags, and the objects 
+being isa or hasa UserDict. V3.
+
+
+3/4 sun
+'bookmark this url' on cart page
+edge of box on netscape
+eugene's problems
+dev object!
+
+3/1 thu eracks.net launched!  release-candidate quality.
+uuasc meeting, flyers.
+
+2/28 wed
+launch tomorrow, etronix today
+dollars-and-cents
+thousands-commas
+
+treo - pass in state & even/odd rows, select - use 3-tuple?
+
+2/25 sun
+checkout - secure / standard
+redirect? dtml-var checkout.url?
+look & feel - cleaner, fewer
+d buttons
+
+2/23 fri
+fonts in config line
+britta - spaces in urls
+https switching - absolute to get in, redirect to get out
+redo checkout, buttons, etc
+verbiage
+
+d checkbox - requires a hidden field, afaican see.
+
+fm britta:
+d b 1.   On the zconfig page: get rid of "proceed to checkout" button and
+replace with the new "add to cart" button.
+(Images are all ready there, no name changes.)
+
+d bj 2.   Within the blue stripe, under the "My <<sku>> configuration:", the
+whole configuration description should be in font size 2, not 3.  The price
+could be bold if you like.
+
+3. I would like to change "review order" to "confirm order".  To me, the
+word review sounds like a back button, not a forward-type action.  I'll make
+a confirm order button with an arrow, I think, in case you agree.
+
+
+2/19 mon
+d redirect sdtout & stderr to file for sendorder.py
+d  also need for win32: 1) pythonpath, 2) message cutoff ('We') problem
+
+after running:
+ table obj, which keep orig vs rendered stuff separate until render 
+	call, which allows rearrangement after being built
+d sendorder.py called fm wdos, unx procs in checkout6
+ form.renderwhite or renderfinal or renderpres method
+d dan: orders, support@eracks.net (note the .net)
+ zeus tools to build sql procs @exodus
+
+
+2/18 sun
+edit mode, graphic
+comments / checkbox configs for hw/sw
+dev box - view/clear session, show session/req checkboxes in footer
+factor out coming soon, products pages
+
+p render step 2 - invoice-style, step 3 - order #, session link, print this page
+d getnextid
+p async sendmail
+
+
+2/17 sat
+re! crr!
+med: box bottom border should be 2, not 1
+lo: do box for header
+lo: unroll site
+
+2/15-16 thu-fri
+fonts/graphics gothcha: gd, gdmodule, pil, gfont, tetex, gimp, etc
+
+Update Prices
+Update Configuration
+Reset Choices
+Reset to Defaults
+Reset Configuration
+Return to View Cart
+View Cart
+Empty Cart
+Checkout
+Continue to Checkout
+Continue to Review Order
+Review Order
+Review Your Order
+Place Order
+Place Your Order
+Confirm Order
+Confirm Your Order
+Submit Order
+Submit Your Order
+
+
+2/14 wed
+
+d shoppppping
+d upd qty
+d price ext
+d Empty Cart = Checkout
+d empty cart on cart page
+2 dec points
+? buttons
+? <== buttons
+d small fonts in 3rd column of config
+
+
+  # todo 1/24:
+  # 1) editing mode should be reflected on config page
+  # d 2) all 4 config links should be form submits with redirects as needed, to not lose any info
+  # 3) grand total on cart page
+  # d 4) cart box in header
+  # 4a) with wishlist box, in header
+  # 5) reset to defaults should use the existing prod record, so the cart will pick it up - this will need
+  #		to loop thru in update
+  # d 6) cellpadding & cellspacing 0 in cart grid
+  # 7) get rid of hardcoded tags everywhere, and do better internal code layers
+  # 8) roll up duplicate cart items, in both summary (dup sku only), and grid (dup summary)
+  # 9) make view/clear session links dependent on user admin permissions
+  # d 10) implement upd qty
+  # 11) DB updates, html cleanup, new models:
+  # 12) eRacks/SSL - dedicated SSL server, ftend to Zope, other apache, etc
+  #            PyWX, PSP, etc? AOLServer? Quixote?
+  # p 13) use getimages, not string
+  # dn td rowspan 2 for cartbox
+  # blurb at top of config page, plus 'step 1 - configure your system'
+  # blurb at top of cart page, plus 'step 2 - review your order' or 'review your cart'
+  # place order page, step 3
+  # confirmation page, step 4
+  # User config - partitions, software, network cfg options, hostname
+  # support - 6 emails, 1yr, optional 2yr, full maint w/phone support avail
+  # warranty - return-to-depot, vs onsite, 1-2-3 yrs
+  #
+  # more oo items - render method? for list items passes to box? grid? MVC?
+  # d 2/2 renumber cart on removal
+  # 2/6:
+  # d states
+  # n later coutries
+  # d CACounties
+  # d taxes
+
+
+
+2/12 mon
+
+edits todo:
+ radio buts - one of 4 reqd, iff ccard then ccard reqd, if po then ref reqd
+ ccard - date must be > today
+ billaddr reqs if same unchecked
+ state/country requirements?
+
+radio button for us/intl state/coutry?  state/zip/country?
+ 
+[2] review page should reshow cart w/ship/tax added, addr at top
+
+sessionid in form!
+
+confirmation page, with order number - create order record, get id?
+
+
+states & scenarios:
+
+1) user surfs to form anew
+        fromuser = 0
+        ok = 0
+        render for input, put nothing in session
+
+2) user sends form 
+        fromuser = 1
+        ok = 0 on way in, ok = 1 on way out iff no errors
+        render for output iff ok, else render for input with errors hilited
+
+3) user returns to form anew after surfing away, (has valid session data)
+        fromuser = 0
+        ok = 0/1 on way in, recheck edits, ok = 1 on way out iff no errors
+        render same as 2
+
+4) user sends form, with some completed sections (ok=1)
+        fromuser = 1
+        ok same as 2/3, master ok on way out, iff all forms ok
+        render same as 2/3, inc step iff master ok
+
+issue: valid fields that don't appear in request - i.e., checkbox.
+
+fmuser  req     ses    res
+  1      1       1      1
+  1   (blank)    1      0    turn off manually
+  1      1       0      1
+  1   (blank)    0      0    turn off manually
+  0      1       1     inv
+  0   (blank)    1      1
+  0      1       0     inv
+  0   (blank)    0      0
+
+
+
+2/11 sun
+ added frm member to fields - not quite a parent obj, but close - 
+        and not the same as the frm's dict membership - 
+        the dict membership is for field / session storage, the frm is for rendering
+
+ how about renderleft, rendermiddle, renderright?  
+  missing left or right colspans the 2
+  - can use for form title
+  - nested fields just override
+  render usually renders row (all3), override in subfields
+  what about in/out, though?  
+  kind of need a location for the meat of the info, or a description 
+  - a renderer class, or object, with in/out, visible when, location of info, tag(s), etc
+
+2p v3,4,5 done! great stuff! separate form list/dict, kids/parent struct, intheform flag
+
+todo:
+form heading, error msgs
+link
+
+edits: 
+ billing reqd iff cbox cleared
+ state optional iff country
+ tax required iff ca
+ phone reqd iff 2day or 1day
+ later: zip matches city, city determines tax, compute shipping
+
+exception handling - 
+ 1) std zope err message, email copy 
+ 2) especially with the external method - return useful, graceful text
+
+7p after running:
+OK, britta wants one button for the whole page - 
+ page class
+ reword
+ move cbox to shipping info
+ no buttons
+ central control, somehow
+
+can fix cbox not updating with an action() method! 
+ - 10p update: need OnFormReceived and OnRecieved or even OnClick to distinguish
+
+hit url of er733 after successful compile - done!
+integrate w/zope for debugging?
+
+
+2/10 sat 
+after running:
+ rgroup class w/children using 'data' as parent ptr
+ heir impl model instead of 2-level flat container/item model? but the req/ses is flat 
+ nextrow method in form obj, call fm render in fields
+ just do the ccard items in the row? no
+ just create the exceptional objects manually?
+ use the fieldlist method and creation engine as the basis for a factory object?
+ button at upper right, in frame?
+
+10p: 
+ need a 'renderer' class heirarchy to render the fields - either hasa, or mult inh
+ important: form class should mostly iterate and call field methods - most of get() 
+	should be in the field method, for example!
+ also, need to 'register' subforms' fields - requires parent/child heirarchy to be established - 
+	maybe pass in at init, in engine?
+ idea: use 'group' classes to group the next n classes in the list, by some criteria - same type, 
+	starts with cc, etc. who registers?
+ get() is the only one that really needs to be moved into the field.
+
+12m sat/sun 2/10-2/11/01
+ really trying to reimplement swi explorer/nav(i)gator - repr heir struc in html table
+ 
+ a better oo impl would have a list to register into for the (flat) html form interactions, and 
+ a 'contents' method to override for nested representations
+
+
+2/9 fri after running:
+ step object - 
+  step [ 1 ] (table w/border around the number) - configure your eRacks system
+  step [ 2 ] eRacks secure checkout pages - enter your information
+  step [ 3 ] - Review and place your eRacks order
+  step [ 4 ] - print your eRacks order receipt
+ 
+ 1) d allow black form fields
+ 2) fix nested forms 
+ 3) put fields in session when pass edits, put formname=1 when all edits passed
+ 4) form objects should have name, descr also
+ 5) allow session return, maybe force login again after 30 minutes?
+ 6) how to generate order id? Britta?
+
+ use both styles and fonts and hlink/vlink
+
+- - -
+
+1/9/01
+ 
+  addresses  
+  categories  
+  components  
+  creditcard  
+  customers  
+  email  
+  issues  
+  item  
+  itemcomponents  
+  orders  
+  products  
+
+http://eracks733:8080/test/sql/sqlTestMethod/dump :
+
+sqlTestMethod <extension class Acquisition.ImplicitAcquirerWrapper at 00A15110> <SQL instance at 08B7A5F8>
+sqlTestMethod's dictionary:  <dictionary at 0x8b7a620>
+  __ac_local_roles__: <dictionary at 0x183ea90>
+    joe: <list at 0x189b8a0> ['Owner']
+  _arg: <Args instance at 0x8d6a1b0> 
+    _data: <dictionary at 0x17fda60> {}
+    _keys: <list at 0x8edc290> []
+  _col: <list at 0x8e8afc8>
+    0: <dictionary at 0x8eccc58> {'name': 'NAME', 'type': 's', 'null': None, 'width': None}
+    1: <dictionary at 0x8d13e18> {'name': 'DESCRIPTION', 'type': 's', 'null': None, 'width': None}
+    2: <dictionary at 0x8d3af18> {'name': 'LOCATION', 'type': 's', 'null': None, 'width': None}
+    3: <dictionary at 0x8cad158> {'name': 'DATE', 'type': 's', 'null': None, 'width': None}
+  _owner: <tuple at 0x17f9d88>
+    0: <list at 0x8d7b888> ['acl_users']
+    1: 'joe'
+  _v_brain: <class App.Extensions.NoBrains at c26d28>
+  arguments_src: ''
+  connection_id: 'Gadfly_database_connection'
+  id: 'sqlTestMethod'
+  src: 'select *\012from elvis_sightings'
+  template: <extension class Shared.DC.ZRDB.DA.SQL at 00D00EE0> <SQL instance at 08CD51E0>
+  title: ''

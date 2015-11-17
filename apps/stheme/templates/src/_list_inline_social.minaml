@@ -1,0 +1,54 @@
+ul.list-inline.social-1
+    li
+        a href=blank.html#
+            i.fa.fa-facebook ||
+    li
+        a href=blank.html#
+            i.fa.fa-twitter ||
+    li
+        a href=blank.html#
+            i.fa.fa-google-plus ||
+    li
+        a href=blank.html#
+            i.fa.fa-pinterest ||
+    li
+        a href=blank.html#
+            i.fa.fa-dribbble ||
+    li
+        a href=blank.html#
+            i.fa.fa-youtube ||
+    li
+        a href=blank.html#
+            i.fa.fa-linkedin ||
+    li
+        a href=blank.html#
+            i.fa.fa-github ||
+    li
+        a href=blank.html#
+            i.fa.fa-instagram ||
+    li
+        a href=blank.html#
+            i.fa.fa-tumblr ||
+    li
+        a href=blank.html#
+            i.fa.fa-flickr ||
+
+::comment
+  li
+      a href=blank.html#
+          i.fa.fa-cc-visa ||
+  li
+      a href=blank.html#
+          i.fa.fa-cc-mastercard ||
+  li
+      a href=blank.html#
+          i.fa.fa-cc-discover ||
+  li
+      a href=blank.html#
+          i.fa.fa-cc-amex ||
+  li
+      a href=blank.html#
+          i.fa.fa-linux ||
+  li
+      a href=blank.html#
+          i.fa.fa-soundcloud ||

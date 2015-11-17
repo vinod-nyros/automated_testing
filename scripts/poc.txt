@@ -1,0 +1,5204 @@
+OPTION: eRacks Custom Quote :
+  CHOICES: [u'Enter Quote Number in Notes Field']
+  PRODUCTS: [u'QUOTE']
+OPTION: Base System :
+  CHOICES: [u'Asus Eee PC 1215N 12.1in Netbook ']
+  PRODUCTS: [u'NIMBUS']
+  CHOICES: [u'eRacks/STRATUS Netbook 10in 1024x600 WSVGA WHITE']
+  PRODUCTS: [u'STRATUS']
+  CHOICES: [u'Asus Eee PC 1005HA 10in Atom Netbook Black']
+  PRODUCTS: [u'CIRRUS']
+  CHOICES: [u'GAMER Sager NP9280 17in Core i7 laptop base ']
+  PRODUCTS: [u'GAMER']
+  CHOICES: [u'eRacks/CUMULUS Netbook 12.1in 1366x768 WXGA BLACK']
+  PRODUCTS: [u'CUMULUS']
+  CHOICES: [   u'Asus Eee PC 2G Surf 7inch 800MHz BLACK',
+    u'Asus Eee PC 2G Surf 7inch 800MHz BLUE',
+    u'Asus Eee PC 2G Surf 7inch 800MHz GREEN',
+    u'Asus Eee PC 2G Surf 7inch 800MHz PEARLWHITE',
+    u'Asus Eee PC 2G Surf 7inch 800MHz PINK',
+    u'Asus Eee PC 4G Surf 7inch 900MHz GALAXY BLACK',
+    u'Asus Eee PC 4G Surf 7inch 900MHz PEARL WHITE']
+  PRODUCTS: [u'Eee']
+  CHOICES: [u'Sans Digital TowerRAID TR5M USB']
+  PRODUCTS: [u'TR5M']
+  CHOICES: [u'LAPSTUDIO base system 15.4 WSXGA 6.8lbs ']
+  PRODUCTS: [u'LAPSTUDIO']
+  CHOICES: [u'Tablet Notebook Toshiba Portege M400 ']
+  PRODUCTS: [u'TABLET']
+  CHOICES: [u'Sans Digital MobileNAS MN4L+ USB']
+  PRODUCTS: [u'MN4Lplus']
+  CHOICES: [u'Sans Digital MobileSTOR MS1CT USB']
+  PRODUCTS: [u'MS1CT']
+  CHOICES: [u'FLAT mini-ITX dustproof silent base']
+  PRODUCTS: [u'FLAT']
+  CHOICES: []
+  PRODUCTS: [u'1Test', u'CONTAINER']
+  CHOICES: [u'NAS16X 5U Xeon E7-8800 30in 16HD base']
+  PRODUCTS: [u'NAS16X']
+  CHOICES: [u'Sans Digital MobileSTOR MS2UT USB']
+  PRODUCTS: [u'MS2UT']
+  CHOICES: [u'Sans Digital TowerRAID TR4X USB']
+  PRODUCTS: [u'TR4X', u'TR8X']
+OPTION: Chassis :
+  CHOICES: [   u'1U OPTERNATOR48 Chassis 4x12, 1400W PS',
+    u'2U OPTERNATOR48 Chassis 4x12, 1400W RPS']
+  PRODUCTS: [u'OPTERNATOR48']
+  CHOICES: [   u'Antec P193 24 x 8 x 21 inch case',
+    u'NZXT Phantom 26 x 9 x 22 inch case',
+    u'Silverstone Fortress 25 x 9 x 20 inch case']
+  PRODUCTS: [u'FLAGSHIP']
+  CHOICES: [u'NAS4U 24-32HD SAS 1400W 27.5in depth']
+  PRODUCTS: [u'NAS24-32']
+  CHOICES: [u'OPT4100 chassis 1U 20in depth']
+  PRODUCTS: [u'OPT4100']
+  CHOICES: [u'FOCUS chassis: Noiseless desktop ']
+  PRODUCTS: [u'FOCUS']
+  CHOICES: [   u'2HD chassis: 1U-height, 2HD Bays, not lockable.',
+    u'4HD chassis: 2U, 4 internal HDs, 2 bays',
+    u'LOCK: 1U lockable chassis, 300WPS 25.75"D']
+  PRODUCTS: [u'PFOUR']
+  CHOICES: [   u'BAY: 1U front panel chassis, 250WPS, 21.5"D ',
+    u'GRID: 1U chassis, 250W PS, 21.25"D',
+    u'LOCK: 1U lockable chassis, 300WPS 25.75"D',
+    u'LOCK: 2U lockable rackmount chassis, 2HD Bays']
+  PRODUCTS: [u'QUIET']
+  CHOICES: [   u'LOCK: 2U lockable rackmount chassis, 2HD Bays',
+    u'i7DESK PREMIUM desktop chassis 650W PS',
+    u'i7DESK PRO desktop chassis 550W PS',
+    u'i7DESK STANDARD desktop chassis 450W PS']
+  PRODUCTS: [u'i7DESK']
+  CHOICES: [u'NAS1U 4RHD 400W PS 26" depth']
+  PRODUCTS: [u'NAS4', u'OPT4']
+  CHOICES: [   u'i7CORE 1U rackmount chassis 26.1in depth',
+    u'i7CORE 2U rackmount chassis 17in depth']
+  PRODUCTS: [u'i7CORE', u'SANDYCORE']
+  CHOICES: [u'NAS2U 12RHD 1200W RPS 25.5" depth']
+  PRODUCTS: [u'NAS12']
+  CHOICES: [u'NAS9U 50RHD 1350W RPS 27.2in depth', u'NAS9U 50RHD 1600W RPS 27.2in depth']
+  PRODUCTS: [u'NAS50']
+  CHOICES: [u'1U OPTERNATOR16 Chassis, 2x8, 1400W PS']
+  PRODUCTS: [u'OPTERNATOR16']
+  CHOICES: [   u'BOOQ black chassis: 3.8"x 14.4"x 13" ',
+    u'BOOQ silver chassis: 3.94" x 16.94" x 12.99" ']
+  PRODUCTS: [u'BOOQ']
+  CHOICES: [   u'6RHD-RPS: 2U, 6 removable HDs,  redundant 460W PS',
+    u'6RHD: 2U chassis w/ 6 removable HDs, 300W PS 26.5D']
+  PRODUCTS: [u'PREMIUM2']
+  CHOICES: [u'NAS6U 32RHD 1600W RPS 26.2in depth']
+  PRODUCTS: [u'NAS32']
+  CHOICES: [   u'6RHD-RPS: 2U, 6 removable HDs,  redundant 460W PS',
+    u'6RHD-RPS: 2U, 6 removable HDs,  redundant 500W PS',
+    u'6RHD: 2U chassis w/ 6 removable HDs, 300W PS 26.5D']
+  PRODUCTS: [u'NAS6']
+  CHOICES: [u'FRIDGE chassis: Alum Tower Chassis w/ Door']
+  PRODUCTS: [u'SILENCE']
+  CHOICES: [u'DESQ chassis: black tower']
+  PRODUCTS: [u'DESQ', u'AMDESK']
+  CHOICES: [u'Dual Mini ITX 1U 15.3" depth chassis, dual 180W PS']
+  PRODUCTS: [u'TWINGUARD']
+  CHOICES: [u'STUBBY 1U chassis 8.75in depth  140WPS']
+  PRODUCTS: [u'STUBBY']
+  CHOICES: [   u'2U eRacks/SIXPACK chassis 27.1in depth 550W PSU',
+    u'2U eRacks/SIXPACK chassis 27.1in depth 650W PSU']
+  PRODUCTS: [u'SIXPACK']
+  CHOICES: [u'NAS3U 16RHD 1200W RPS 27in depth']
+  PRODUCTS: [u'NAS16']
+  CHOICES: [u'1U TWINSERVE chassis, for dual systems, 900W PS']
+  PRODUCTS: [u'TWINSERVE']
+  CHOICES: [u'NAS2U 8RHD 920W RPS 27.75in depth', u'NAS3U 8RHD +CD 510W PS 26in depth']
+  PRODUCTS: [u'NAS8']
+  CHOICES: [u'1U X4X4 chassis, Xeon 7300, 1000W PS']
+  PRODUCTS: [u'X4X4']
+  CHOICES: [   u'NAS6X 2U 828TQ 6bps backplane chassis 27.9in 3xfan',
+    u'NAS6X 2U 828TQ+ 6bps bkpln chassis 27.9in 6xfan']
+  PRODUCTS: [u'NAS6X']
+  CHOICES: [   u'i7SHORT 2U rackmount chassis 13.9in depth 450W PSU',
+    u'i7SHORT 2U rackmount chassis 13.9in depth 550W PSU',
+    u'i7SHORT 3U rackmount chassis 17.5in depth 450W PSU',
+    u'i7SHORT 3U rackmount chassis 17.5in depth 550W PSU']
+  PRODUCTS: [u'i7SHORT']
+  CHOICES: [u'QUADPREM 1U Chassis 4RHD 400W PS ']
+  PRODUCTS: [u'ENTERPRISE']
+  CHOICES: [u'NAS4U 24RHD 1200W RPS 26"depth']
+  PRODUCTS: [u'NAS24']
+  CHOICES: [u'1U eRacks/PREMIUM Chassis 4RHD 400W 20.25in Depth']
+  PRODUCTS: [u'PREMIUM']
+  CHOICES: [   u'3SWOOSH-DATH 400W dual-AMD chassis w/3 rem HDs',
+    u'COOL; 1U chassis, 350W PS, for dual CPUs']
+  PRODUCTS: [u'SNORT']
+  CHOICES: [u'OPT Pedestal Chassis wheels 400W PS']
+  PRODUCTS: [u'OPT10BAY']
+  CHOICES: [u'SOLO chassis 2U 3RHD 500W PSU', u'SOLO chassis 2U 3RHD 500W Redundant PS']
+  PRODUCTS: [u'SOLO']
+  CHOICES: [   u'2U NSERVE 3HD chassis 26in Depth 450W PSU ',
+    u'2U NSERVE 3HD chassis 26in Depth 600W PSU ',
+    u'2U NSERVE 3HD chassis 26in Depth 800W RPS ']
+  PRODUCTS: [u'NSERVE']
+  CHOICES: [   u'BAY: 1U front panel chassis, 250WPS, 21.5"D ',
+    u'LOCK: 1U lockable chassis, 300WPS 25.75"D',
+    u'LOCK: 2U lockable rackmount chassis, 2HD Bays']
+  PRODUCTS: [u'NAT', u'DMZ', u'DNS', u'MAIL', u'VPN', u'SSLW', u'WEB', u'SERVE']
+  CHOICES: [u'QUIET2 2U chassis 400W 26.5in depth']
+  PRODUCTS: [u'QUIET2']
+  CHOICES: [u'1U OPTERNATOR32 Chassis, 4x8, 1400W PS']
+  PRODUCTS: [u'OPTERNATOR32']
+  CHOICES: [u'NAS1U 3RHD chassis SATA 300W PS']
+  PRODUCTS: [u'NAS3']
+  CHOICES: [u'EFFECTS 2U Chassis 25in depth 500W PS']
+  PRODUCTS: [u'EFFECTS']
+  CHOICES: [u'LEAF case 2.36in x 9.06in x 8.07in']
+  PRODUCTS: [u'LEAF']
+  CHOICES: []
+  PRODUCTS: [u'1Test', u'CONTAINER']
+  CHOICES: [   u'FRIDGE chassis: Alum Tower Chassis w/ Door',
+    u'MEDIA chassis: BLACK/BROWN 16.7x3.8x16.9in  300W ',
+    u'MEDIA chassis: SILVER 16.7x3.8x16.9inch 300W ',
+    u'STUDIO Rackmount 3U 400W PS - Specify door color ']
+  PRODUCTS: [u'STUDIO5', u'STUDIO3']
+  CHOICES: [u'OPT 2U Chassis 6RHD 460W RPS']
+  PRODUCTS: [u'OPT6']
+  CHOICES: [u'STUDIO7 rackmount - 21in depth - Specify color']
+  PRODUCTS: [u'STUDIO7']
+  CHOICES: [   u'BAY: 1U front panel chassis, 250WPS, 21.5"D ',
+    u'GRID: 1U chassis, 250W PS, 21.25"D',
+    u'LOCK: 2U lockable rackmount chassis, 2HD Bays']
+  PRODUCTS: [u'VALUE']
+  CHOICES: [   u'FRIDGE chassis: sound-deadening door, 500W PSU',
+    u'QFX BLACK DOOR chassis: Alum Tower, 450W PSU',
+    u'QFX SILVER DOOR chassis: Alum Tower, 450W PSU']
+  PRODUCTS: [u'QFX']
+  CHOICES: [u'QUBE chassis:  10.6in(H) x 7.9in(W) x 13.2in(D)']
+  PRODUCTS: [u'QUBE']
+  CHOICES: [u'OPTDESKTOP chassis: 23.4in Height ']
+  PRODUCTS: [u'OPTDESKTOP']
+  CHOICES: [u'1U eRacks/ZIMBRA Chassis 4RHD 400W 20.25in Depth']
+  PRODUCTS: [u'ZIMBRA']
+  CHOICES: [u'H202U Chassis 530W PS 22.75in depth']
+  PRODUCTS: [u'H2O2U']
+  CHOICES: [u'SHORT 1U chassis 14in depth 250WPS', u'SHORT 1U chassis 16in depth 250W PS']
+  PRODUCTS: [u'LITE', u'SHORT']
+OPTION: Display :
+  CHOICES: [   u'THINKPAL laptop 14.1 WXGA TFT 1280x768 display',
+    u'THINKPAL laptop 14.1 WXGA+ TFT 1440x900 display']
+  PRODUCTS: [u'THINKPAL']
+OPTION: Power Supply :
+  CHOICES: [   u'Extra Laptop AC Adapter',
+    u'Extra Laptop Battery',
+    u'Laptop Car Adapter',
+    u'none']
+  PRODUCTS: [u'Accessories']
+  CHOICES: [u'eRacks/FLAGSHIP 500W Power supply', u'eRacks/FLAGSHIP 700W Power supply']
+  PRODUCTS: [u'FLAGSHIP']
+OPTION: Modifications :
+  CHOICES: [u'Overclocking Service', u'Quietize: low-noise components', u'none']
+  PRODUCTS: [u'FLAGSHIP']
+  CHOICES: [u'Quietize: low-noise components']
+  PRODUCTS: [u'LITE', u'SILENCE', u'QUIET', u'QUIET2']
+  CHOICES: [u'Quietize: low-noise components', u'none']
+  PRODUCTS: [   u'QFX',
+    u'SHORT',
+    u'i7DESK',
+    u'i7CORE',
+    u'AMDESK',
+    u'VALUE',
+    u'DESQ',
+    u'PFOUR',
+    u'BOOQ',
+    u'QUBE',
+    u'SANDYCORE']
+  CHOICES: []
+  PRODUCTS: [u'CONTAINER']
+OPTION: Additional SD Accessories :
+OPTION: CompactFlash Accessories :
+  CHOICES: []
+  PRODUCTS: [u'1Test']
+OPTION: Additional CF Accessories :
+OPTION: Processor and Motherboard :
+  CHOICES: [u'VIA EPIA C7 1.5GHz  motherboard and CPU ']
+  PRODUCTS: [u'LITE']
+  CHOICES: [   u'Intel Atom D410 1.66GHz 512K single-core',
+    u'Intel Atom D510 1.66GHz 1MB dual-core']
+  PRODUCTS: [u'QUIET']
+  CHOICES: []
+  PRODUCTS: [u'1Test']
+  CHOICES: [   u'Intel Celeron Dual Core E3300 2.5 GHz 800MHz',
+    u'Intel Core 2 Duo 2.66GHz 1066MHz']
+  PRODUCTS: [u'NAT', u'DMZ', u'DNS', u'MAIL', u'SSLW', u'VPN', u'WEB']
+OPTION: Motherboard :
+  CHOICES: [u'eRacks 1155 SATA3 1xGigabit NIC ATX Motherboard']
+  PRODUCTS: [u'NAS6', u'SNORT', u'NAS3', u'NAS4']
+  CHOICES: [   u'eRacks P5K3Deluxe Core 2 Quad DDR3-1333 -no video ',
+    u'eRacks socket775 Core 2 Quad / Core 2 Duo 1333FSB ']
+  PRODUCTS: [u'SILENCE']
+  CHOICES: [u'eRacks Socket 775 Core2 Duo 1333FSB motherboard']
+  PRODUCTS: [u'VALUE', u'BOOQ', u'QUBE']
+  CHOICES: [u'SuperMicro X7DVA-E Dual LGA771 Xeon/ Intel 5000V']
+  PRODUCTS: [u'SOLO']
+  CHOICES: [u'eRacks Dual/Quad Core Xeon motherboard']
+  PRODUCTS: [u'ENTERPRISE']
+  CHOICES: [   u'AMD Opteron 6100 H8DG6-F IPMI motherboard ',
+    u'Intel Dual Xeon X8DTN+-F IPMI motherboard']
+  PRODUCTS: [u'NAS12', u'NAS16', u'NAS24', u'NAS8', u'NAS50']
+  CHOICES: [u'Tyan Thunder Quad Series 8000 S4985-E motherboard']
+  PRODUCTS: [u'OPTDESKTOP']
+  CHOICES: [   u'Intel Core2 Quad BLKDG33FBC DDR2-800 motherboard',
+    u'Intel Core2 Quad Extreme S975XBX DDR2-800 no-video',
+    u'eRacks Socket 775 Core2 Duo 1333FSB motherboard']
+  PRODUCTS: [u'DESQ']
+  CHOICES: [u'Xeon Intel 5500 Dual LGA1366 DDR3 Motherboard ']
+  PRODUCTS: [u'NAS24-32']
+  CHOICES: [   u'eRacks AthlonX2 motherboard AM2/AM3 SATA/IDE',
+    u'eRacks Phenom X4/X2 motherboard GeForce 7050/ DDR2']
+  PRODUCTS: [u'AMDESK']
+  CHOICES: [u'Intel Little Falls Mini-ITX motherboard ']
+  PRODUCTS: [u'LEAF']
+  CHOICES: [u'X8DA3 Xeon Quad/Dual-Core 5520 Chipset motherboard']
+  PRODUCTS: [u'NSERVE']
+  CHOICES: [u'eRacks 775 Celeron DualCore / Core 2 Duo']
+  PRODUCTS: [u'SHORT']
+  CHOICES: [u'i7 Extreme EVGA Intel X58 Chipset motherboard']
+  PRODUCTS: [u'i7SHORT']
+  CHOICES: [u'eRacks Athlon64 X2 motherboard AM2/AM3 SATA 4DIMM']
+  PRODUCTS: [u'QUIET2']
+  CHOICES: [u'eRacks Core i7 Extreme Intel X58 DDR3 GbE']
+  PRODUCTS: [u'STUDIO7']
+  CHOICES: [u'X4X4 QuadCore Intel Xeon 7200/7300 motherboard ']
+  PRODUCTS: [u'X4X4']
+  CHOICES: [u'Sandy Bridge Extreme6 1155 Intel SATA3 motherboard']
+  PRODUCTS: [u'SANDYCORE', u'FLAGSHIP']
+  CHOICES: [   u'Core i7 Intel X58 DDR3 CrossFireX motherboard',
+    u'Extreme Core i7 Intel X58 DDR3 CrossFireX ']
+  PRODUCTS: [u'i7DESK', u'i7CORE']
+  CHOICES: [   u'Intel Mini-ITX 1.6GHz Atom230 CPU and motherboard',
+    u'Intel Mini-ITX 1.6GHz DualCore Atom330 motherboard']
+  PRODUCTS: [u'STUBBY']
+  CHOICES: [u'eRacks AthlonX2 motherboard AM2/AM3 SATA/IDE']
+  PRODUCTS: [u'SERVE']
+  CHOICES: [u'AMD64 motherboard NVIDIA GeForce6 GPU']
+  PRODUCTS: [u'FOCUS']
+  CHOICES: [u'OPT4100 motherboard H8SCM-F']
+  PRODUCTS: [u'OPT4100']
+  CHOICES: [u'OPTERNATOR48 4-way AMD Opt 6100 motherboard']
+  PRODUCTS: [u'OPTERNATOR48']
+  CHOICES: [   u'eRacks P5K3Deluxe Core 2 Quad DDR3-1333 -no video ',
+    u'eRacks socket775 Core 2 Quad / Core 2 Duo 1066FSB']
+  PRODUCTS: [u'QFX']
+  CHOICES: [u'TWINSERVE dual X7DBT dualCPU Intel Xeon 5300/5100']
+  PRODUCTS: [u'TWINSERVE']
+  CHOICES: [u'eRacks Core i7/i5/i3 1156 DDR3 CrossFireX GbE  ']
+  PRODUCTS: [u'STUDIO3', u'STUDIO5']
+  CHOICES: [   u'eRacks AM3/AM2+ DDR3 Motherboard',
+    u'eRacks Athon64 FX/X2 motherboard AM2 SATA2/SATA',
+    u'eRacks Socket AM3/AM2 motherboard FSB 2600 MHz']
+  PRODUCTS: [u'EFFECTS']
+  CHOICES: [u'Dual VIA-EPIA CL motherboards']
+  PRODUCTS: [u'TWINGUARD']
+  CHOICES: [u'OPTERNATOR32 4-way AMD Opt 6100 motherboard']
+  PRODUCTS: [u'OPTERNATOR32']
+  CHOICES: [u'eRacks Intel Core 2 Duo Motherboard']
+  PRODUCTS: [u'ZIMBRA', u'H2O2U', u'PREMIUM2', u'PREMIUM']
+  CHOICES: [u'OPTERNATOR16 2-way AMD Opt 6100 motherboard']
+  PRODUCTS: [u'OPTERNATOR16']
+  CHOICES: [u'2 x Six-Core / Quad-Core Opteron Motherboard']
+  PRODUCTS: [u'SIXPACK']
+  CHOICES: [u'Dual Opteron 2000 DDR2 SATA II Motherboard']
+  PRODUCTS: [u'OPT6', u'OPT10BAY', u'OPT4']
+  CHOICES: [u'eRacks Pentium4 533MHz FSB motherboard']
+  PRODUCTS: [u'PFOUR']
+  CHOICES: [u'Dual Opteron 2000 Series 1000MHz IPMI motherboard ']
+  PRODUCTS: [u'NAS32']
+  CHOICES: [u'8QB6-F 6Gbps 4w/PCI-E 4-Way Xeon 7500 ServerBoard ']
+  PRODUCTS: [u'NAS6X']
+OPTION: Processor :
+  CHOICES: [   u'Intel Core i3 2100 3.1GHz 3MB cache 1155 CPU',
+    u'Intel Core i3 2120 3.3GHz 3MB cache 1155 CPU',
+    u'Intel Core i5 2300 2.8GHz 6MB cache 1155 CPU',
+    u'Intel Core i5 2400 3.1GHz 6MB cache 1155 CPU',
+    u'Intel Core i5 2500 3.3GHz 6MB cache 1155 CPU',
+    u'Intel Core i5 2500 3.3GHz 6MB cache 1155 CPU',
+    u'Intel Core i7 2600 3.4GHz 8MB cache 1155 CPU']
+  PRODUCTS: [u'NAS4', u'NAS6', u'NAS3', u'SNORT']
+  CHOICES: [   u'Intel Pentium4 3.0GHz CPU 533MHz 1MB L2 ',
+    u'Intel Pentium4 3.2GHz CPU 533MHz']
+  PRODUCTS: [u'PFOUR']
+  CHOICES: [   u'4 x AMD Opteron 8-core 6128 2GHz 6.4GT/s CPUs',
+    u'4 x AMD Opteron 8-core 6134 2.3GHz 6.4GT/s CPUs']
+  PRODUCTS: [u'OPTERNATOR32']
+  CHOICES: [   u'Intel Core 2 Duo E7500 2.93GHz 1066MHz 3MB CPU',
+    u'Intel Core 2 Duo E7600 3.06GHz 1066MHz 3MB CPU',
+    u'Intel Core 2 Duo E8300 2.83GHz 1333MHz 6MB CPU',
+    u'Intel Core 2 Duo E8400 3.0GHz 1333MHz 6MB CPU',
+    u'Intel Core 2 Duo E8500 3.16GHz 1333MHz 6MB CPU',
+    u'Intel Core 2 Quad Q9300 2.5GHz 1333MHz 6MB CPU',
+    u'Intel Core 2 Quad Q9400 2.66GHz 1333MHz 12MB CPU']
+  PRODUCTS: [u'PREMIUM']
+  CHOICES: [   u'Intel Xeon Quad Core E5504 Nehalem 2.0GHz CPU',
+    u'Intel Xeon Quad Core E5520 Nehalem 2.26GHz CPU',
+    u'Intel Xeon Quad Core E6540 Nehalem 2.66GHz CPU',
+    u'Intel Xeon Quad Core X5482 3.20GHz CPU']
+  PRODUCTS: [u'NAS24-32']
+  CHOICES: [   u'Intel Core i5-2300 1155 Quad-core 2.8GHz 6MB CPU',
+    u'Intel Core i5-2400 1155 Quad-core 3.10GHz 6MB CPU',
+    u'Intel Core i5-2500 1155 Quad-core 3.3GHz 6MB CPU',
+    u'Intel Core i7-2600 1155 Quad-core 3.4GHz 8MB CPU']
+  PRODUCTS: [u'SANDYCORE', u'FLAGSHIP']
+  CHOICES: [   u'2 x Opteron Quad-core 2346 1.8GHz 2MB CPUs',
+    u'2 x Opteron Quad-core 2347 1.9GHz 4MB CPUs',
+    u'2 x Opteron Quad-core 2350 2.0GHz 4MB CPUs',
+    u'2 x Opteron Quad-core 2354 2.2GHz 4MB CPUs',
+    u'2 x Opteron Quad-core 2376 2.3GHz 4x512 CPUs',
+    u'2 x Opteron Quad-core 2384 2.7GHz 2MB CPUs',
+    u'4 x Opteron Quad-core 8346HE 1.8GHz CPUs',
+    u'4 x Opteron Quad-core 8347HE 1.9GHz CPUs',
+    u'4 x Opteron Quad-core 8354 2.2GHz CPUs',
+    u'4 x Opteron Quad-core 8356 2.3GHz CPUs',
+    u'4 x Opteron Quad-core 8382 2.6GHz CPUs',
+    u'4 x Opteron Quad-core 8384 2.7GHz CPUs']
+  PRODUCTS: [u'OPTDESKTOP']
+  CHOICES: [   u'Intel Celeron DualCore E3300 2.5GHz 800MHz CPU ',
+    u'Intel Core 2 Duo E7300 2.66GHz 1066MHz 3MB CPU',
+    u'Intel Core 2 Duo E7400 2.88GHz 1066MHz 3MB CPU',
+    u'Intel Core 2 Duo E7500 2.93GHz 1066MHz 3MB CPU']
+  PRODUCTS: [u'VALUE']
+  CHOICES: [   u'AMD Athlon X2 AM2 5600 2.9GHz L2 2x512 CPU',
+    u'AMD Phenom II AM3 Dual Core 555 3.2GHz 4000MHz CPU',
+    u'AMD Phenom II AM3 Quad Core 945 3.0GHz 4000MHz CPU',
+    u'AMD Phenom II AM3 Quad Core 955 3.2GHz 4000MHz CPU',
+    u'AMD Phenom II AM3 Quad Core 965 3.4GHz 4000MHz CPU',
+    u'AMD Phenom II AM3 Quad Core 970 3.5GHz 4000MHz CPU']
+  PRODUCTS: [u'EFFECTS']
+  CHOICES: [   u'Intel Core 2 Duo E8300 2.83GHz 1333MHz 6MB CPU',
+    u'Intel Core 2 Duo E8600 3.33GHz 1333MHz 6MB CPU']
+  PRODUCTS: [u'ZIMBRA', u'H2O2U']
+  CHOICES: [   u'Intel Core 2 Duo E7300 2.66GHz 1066MHz 3MB CPU',
+    u'Intel Core 2 Duo E7400 2.88GHz 1066MHz 3MB CPU',
+    u'Intel Core 2 Duo E7500 2.93GHz 1066MHz 3MB CPU',
+    u'Intel Core 2 Duo E8300 2.83GHz 1333MHz 6MB CPU',
+    u'Intel Core 2 Duo E8600 3.33GHz 1333MHz 6MB CPU',
+    u'Intel Core 2 Quad Q9550 2.83GHz 1333MHz 12MB CPU']
+  PRODUCTS: [u'QUBE']
+  CHOICES: [   u'2x Intel Xeon E7-8837 24MCache 2.66GHz 8Core CPU',
+    u'2x Intel Xeon E7-8850 24MCache 2.00GHz 10Core CPUs',
+    u'2x Intel Xeon E7-8860 24MCache 2.26GHz 10Core CPUs',
+    u'2x Intel XeonE7-8867L 30MCache 2.13GHz 10Core CPUs',
+    u'4x Intel Xeon E7-8837 24MCache 2.66GHz 8Core CPUs',
+    u'4x Intel Xeon E7-8850 24MCache 2.00GHz 10Core CPUs',
+    u'4x Intel Xeon E7-8860 24MCache 2.26GHz 10Core CPUs',
+    u'4x Intel XeonE7-8867L 30MCache 2.13GHz 10Core CPUs',
+    u'6x Intel Xeon E7-8837 24MCache 2.66GHz 8Core CPUs',
+    u'6x Intel Xeon E7-8850 24MCache 2.00GHz 10Core CPUs',
+    u'6x Intel Xeon E7-8860 24MCache 2.26GHz 10Core CPUs',
+    u'6x Intel XeonE7-8867L 30MCache 2.13GHz 10Core CPUs',
+    u'8x Intel Xeon E7-8837 24MCache 2.66GHz 8Core CPUs',
+    u'8x Intel Xeon E7-8850 24MCache 2.00GHz 10Core CPUs',
+    u'8x Intel Xeon E7-8860 24MCache 2.26GHz 10Core CPUs',
+    u'8x Intel XeonE7-8867L 30MCache 2.13GHz 10Core CPUs']
+  PRODUCTS: [u'NAS16X']
+  CHOICES: [u'Core 2 Duo T5600 1.83GHz CPU ']
+  PRODUCTS: [u'TABLET']
+  CHOICES: [u'AMD Athlon64 CPU Model 3500+, 2200Mhz, 512KB ']
+  PRODUCTS: [u'FOCUS']
+  CHOICES: [   u'1 x AMD Opteron 8-core 6128 2GHz 6.4GT/s CPU',
+    u'1 x AMD Opteron 8-core 6134 2.3GHz 6.4GT/s CPU',
+    u'2 x AMD Opteron 8-core 6128 2GHz 6.4GT/s CPUs',
+    u'2 x AMD Opteron 8-core 6134 2.3GHz 6.4GT/s CPUs']
+  PRODUCTS: [u'OPTERNATOR16']
+  CHOICES: [   u'Intel Core 2 Duo E7500 2.93GHz 1066MHz 3MB CPU',
+    u'Intel Core 2 Duo E7600 3.06GHz 1066MHz 3MB CPU',
+    u'Intel Core 2 Duo E8400 3.0GHz 1333MHz 6MB CPU',
+    u'Intel Core 2 Duo E8500 3.16GHz 1333MHz 6MB CPU',
+    u'Intel Core 2 Quad Q9300 2.5GHz 1333MHz 6MB CPU',
+    u'Intel Core 2 Quad Q9400 2.66GHz 1333MHz 12MB CPU']
+  PRODUCTS: [u'PREMIUM2']
+  CHOICES: [   u'Intel i7 Quad-core 2.93GHz 4.8GT/s 8MB i7-940 CPU',
+    u'Intel i7 Quad-core 3.06GHz 6.4GT/s 8MB i7-950 CPU',
+    u'Intel i7 Quad-core 3.33GHz 6.4GT/s 8MB i7-975 CPU',
+    u'Intel i7 Six-core 3.33GHz 6.4GT/s 12MB i7-980x CPU']
+  PRODUCTS: [u'STUDIO7', u'i7CORE', u'i7DESK', u'i7SHORT']
+  CHOICES: [   u'Intel Celeron DualCore E3300 2.5GHz 800MHz CPU ',
+    u'Intel Core 2 Duo E7300 2.66GHz 1066MHz CPU',
+    u'Intel Core 2 Duo E7400 2.88GHz 1066MHz CPU',
+    u'Intel Core 2 Duo E7500 2.93GHz 1066MHz 3MB CPU',
+    u'Intel Core 2 Duo E8300 2.83GHz 1333MHz 6MB CPU',
+    u'Intel Core 2 Duo E8600 3.33GHz 1333MHz 6MB CPU']
+  PRODUCTS: [u'SHORT']
+  CHOICES: [u'Intel Core 2 Duo Mobile T9300 2.5GHz 6MB CPU']
+  PRODUCTS: [u'LAPSTUDIO']
+  CHOICES: [   u'Opteron 4-core 4122 2.2GHz CPU',
+    u'Opteron 4-core 4130 2.6GHz CPU',
+    u'Opteron 6-core 4162 EE 1.7GHz CPU',
+    u'Opteron 6-core 4164 EE 1.8GHz CPU',
+    u'Opteron 6-core 4170 HE 2.1GHz CPU',
+    u'Opteron 6-core 4174 HE 2.3GHz CPU',
+    u'Opteron 6-core 4176 HE 2.4GHz CPU',
+    u'Opteron 6-core 4180 2.6GHz CPU',
+    u'Opteron 6-core 4184 2.8GHz CPU']
+  PRODUCTS: [u'OPT4100']
+  CHOICES: [   u'Intel Pentium Core 2 Duo M 1.5GHz L2 2MB 667FSB',
+    u'Intel Pentium Core 2 Duo M 1.66GHz L2 2MB 667FSB',
+    u'Intel Pentium Core 2 Duo M 1.83GHz L2 2MB 667FSB',
+    u'Intel Pentium Core 2 Duo M 2.0GHz L2 4MB 667FSB',
+    u'Intel Pentium Core 2 Duo M 2.0GHz L2 4MB 800FSB',
+    u'Intel Pentium Core 2 Duo M 2.16GHz L2 4MB 667FSB',
+    u'Intel Pentium Core 2 Duo M 2.2GHz L2 4MB 800FSB ',
+    u'Intel Pentium Core 2 Duo M 2.33GHz L2 4MB 667FSB']
+  PRODUCTS: [u'LAPTOP']
+  CHOICES: [   u'Intel Core i5 Dual-core 3.20GHz 2.5GT/s i5-650 CPU',
+    u'Intel Core i5 Dual-core 3.33GHz 2.5GT/s i5-660 CPU',
+    u'Intel Core i5 Dual-core 3.46GHz 2.5GT/s i5-670 CPU']
+  PRODUCTS: [u'STUDIO5']
+  CHOICES: [   u'1 x Opteron Dual-Core 2212 2.0GHz 2MB CPU',
+    u'1 x Opteron Dual-Core 2214 2.2GHz 2MB CPU',
+    u'1 x Opteron Dual-Core 2216 2.4GHz 2MB CPU',
+    u'1 x Opteron Dual-Core 2218 2.6GHz 2MB CPU',
+    u'1 x Opteron Dual-Core 2220 2.8GHz 2MB CPU',
+    u'1 x Opteron Dual-Core 2222 3.0GHz 2MB CPU',
+    u'2 x Opteron Dual-Core 2212 2.0GHz 2MB CPUs',
+    u'2 x Opteron Dual-Core 2214 2.2GHz 2MB CPUs',
+    u'2 x Opteron Dual-Core 2216 2.4GHz 2MB CPUs',
+    u'2 x Opteron Dual-Core 2218 2.6GHz 2MB CPUs',
+    u'2 x Opteron Dual-Core 2220 2.8GHz 2MB CPUs',
+    u'2 x Opteron Dual-Core 2222 3.0GHz 2MB CPUs']
+  PRODUCTS: [u'NAS32']
+  CHOICES: [   u'Intel Xeon Dual Core E3110 3.0 GHz 6MB 1333MHz CPU',
+    u'Intel Xeon Quad Core 3075 2.66GHz 12MB 1333MHz CPU',
+    u'Intel Xeon Quad Core X3330 2.66GHz 1333MHz 6MB CPU',
+    u'Intel Xeon Quad Core X3360 2.83GHz 1333M 12MB CPU']
+  PRODUCTS: [u'ENTERPRISE']
+  CHOICES: [u'Intel Core i3 370M 2.40GHz 3MB L3 1066MHz FSB CPU']
+  PRODUCTS: [u'THINKPAL']
+  CHOICES: [   u'1 x Opteron Six-core 2427 2.2GHz CPU',
+    u'1 x Opteron Six-core 2431 2.4GHz CPU',
+    u'2 x Opteron Six-core 2427 2.2GHz CPUs',
+    u'2 x Opteron Six-core 2431 2.4GHz CPUs']
+  PRODUCTS: [u'SIXPACK']
+  CHOICES: [   u'Intel Celeron DualCore E3300 2.5GHz 800MHz CPU ',
+    u'Intel Core 2 Duo E7300 2.66GHz 1066MHz CPU',
+    u'Intel Core 2 Duo E7400 2.88GHz 1066MHz CPU',
+    u'Intel Core 2 Duo E7500 2.93GHz 1066MHz 3MB CPU',
+    u'Intel Core 2 Duo E8300 2.83GHz 1333MHz 6MB CPU',
+    u'Intel Core 2 Duo E8500 3.16GHz 1333MHz 6MB CPU',
+    u'Intel Core 2 Duo E8600 3.33GHz 1333MHz 6MB CPU',
+    u'Intel Core 2 Quad Q8200 2.33GHz 1333MHz 4MB CPU',
+    u'Intel Core 2 Quad Q9300 2.5GHz 1333MHz 6MB CPU',
+    u'Intel Core 2 Quad Q9400 2.66GHz 1333MHz 12MB CPU',
+    u'Intel Core 2 Quad Q9550 2.83GHz 1333MHz 12MB CPU']
+  PRODUCTS: [u'DESQ']
+  CHOICES: [   u'AMD Athlon II X2 AM3 250 3.0GHz L2 2x1MB CPU',
+    u'AMD Athlon II X2 AM3 260 3.2GHz L2 2x1MB CPU',
+    u'AMD Athlon X2 AM2 5600 2.9GHz L2 2x512 CPU',
+    u'AMD Phenom AM3 Dual core 550 3.1GHz 4000MHz CPU',
+    u'AMD Phenom AM3 Quad core 9500 2.2GHz 4000MHz CPU',
+    u'AMD Phenom II AM3 Dual Core 555 3.2GHz 4000MHz CPU',
+    u'AMD Phenom II AM3 Quad Core 945 3.0GHz 4000MHz CPU',
+    u'AMD Phenom II AM3 Quad Core 955 3.2GHz 4000MHz CPU',
+    u'AMD Phenom II AM3 Quad Core 965 3.4GHz 4000MHz CPU']
+  PRODUCTS: [u'AMDESK']
+  CHOICES: [u'1.6 GHz Intel Atom 230 533 MHz FSB CPU']
+  PRODUCTS: [u'LEAF']
+  CHOICES: [   u'Intel Core 2 Duo E7300 2.66GHz 1066MHz 3MB CPU',
+    u'Intel Core 2 Duo E7300 2.66GHz 1066MHz CPU',
+    u'Intel Core 2 Duo E7400 2.88GHz 1066MHz 3MB CPU',
+    u'Intel Core 2 Duo E7400 2.88GHz 1066MHz CPU',
+    u'Intel Core 2 Duo E8600 3.33GHz 1333MHz 6MB CPU',
+    u'Intel Pentium Core 2 Duo M 1.66GHz L2 2MB 667FSB',
+    u'Intel Pentium Core 2 Duo M 1.83GHz L2 2MB 667FSB']
+  PRODUCTS: [u'BOOQ']
+  CHOICES: [   u'AMD Athlon II X2 AM3 240 2.9GHz L2 2x1MB CPU',
+    u'AMD Athlon II X2 AM3 250 3.0GHz L2 2x1MB CPU',
+    u'AMD Athlon II X2 AM3 260 3.2GHz L2 2x1MB CPU',
+    u'AMD Athlon X2 AM2 5600 2.9GHz L2 2x512 CPU']
+  PRODUCTS: [u'QUIET2', u'SERVE']
+  CHOICES: [   u'1 x Intel Xeon Dual-Core 5110  1.6GHz 1066FSB CPU',
+    u'1 x Intel Xeon Dual-Core 5120  1.86GHz 1066FSB CPU',
+    u'1 x Intel Xeon Dual-Core 5130  2.0GHz 1333FSB CPU',
+    u'1 x Intel Xeon Dual-Core 5150  2.66GHz 1333FSB CPU',
+    u'1 x Intel Xeon Dual-Core 5160  3.0GHz 1333FSB CPU',
+    u'1 x Intel Xeon Dual-Core E7220  2.93GHz 1066 CPU',
+    u'2 x Intel Xeon Dual-Core 5110  1.6GHz 1066FSB CPU',
+    u'2 x Intel Xeon Dual-Core 5120  1.86GHz 1066FSB CPU',
+    u'2 x Intel Xeon Dual-Core 5130  2.0GHz 1333FSB CPU',
+    u'2 x Intel Xeon Dual-Core 5150  2.66GHz 1333FSB CPU',
+    u'2 x Intel Xeon Dual-Core 5160  3.0GHz 1333FSB CPU',
+    u'2 x Intel Xeon Dual-Core E7220  2.93GHz 1066 CPU']
+  PRODUCTS: [u'SOLO']
+  CHOICES: [   u'1x Intel Xeon E7-4807 18MCache 1.86GHz 6Core CPU',
+    u'1x Intel Xeon E7-4820 18MCache 2.00GHz 8Core CPU',
+    u'1x Intel Xeon E7-4830 24MCache 2.13GHz 8Core CPU',
+    u'1x Intel Xeon E7-4850 24MCache 2.00GHz 10Core CPU',
+    u'1x Intel Xeon E7-4870 30MCache 2.40GHz 10Core CPU',
+    u'2x Intel Xeon E7-4807 18MCache 1.86GHz 6Core CPUs',
+    u'2x Intel Xeon E7-4820 18MCache 2.00GHz 8Core CPUs',
+    u'2x Intel Xeon E7-4830 24MCache 2.13GHz 8Core CPUs',
+    u'2x Intel Xeon E7-4850 24MCache 2.00GHz 10Core CPUs',
+    u'2x Intel Xeon E7-4870 30MCache 2.40GHz 10Core CPUs',
+    u'4x Intel Xeon E7-4807 18MCache 1.86GHz 6Core CPUs',
+    u'4x Intel Xeon E7-4820 18MCache 2.00GHz 8Core CPUs',
+    u'4x Intel Xeon E7-4850 24MCache 2.00GHz 10Core CPUs',
+    u'4x Intel Xeon E7-4870 30MCache 2.40GHz 10Core CPUs']
+  PRODUCTS: [u'NAS6X']
+  CHOICES: [   u'1 x AMD Opteron 12-core 6166HE 1.8GHz 6.4GT/s CPU',
+    u'1 x AMD Opteron 12-core 6172 2.1GHz 6.4GT/s CPU',
+    u'1 x AMD Opteron 12-core 6174 2.2GHz 6.4GT/s CPU',
+    u'1 x AMD Opteron 12-core 6180SE 2.5GHz 6.4GT/s CPU',
+    u'2 x AMD Opteron 12-core 6166HE 1.8GHz 6.4GT/s CPUs',
+    u'2 x AMD Opteron 12-core 6172 2.1GHz 6.4GT/s CPUs',
+    u'2 x AMD Opteron 12-core 6174 2.2GHz 6.4GT/s CPUs',
+    u'2 x AMD Opteron 12-core 6180SE 2.5GHz 6.4GT/s CPUs',
+    u'4 x AMD Opteron 12-core 6166HE 1.8GHz 6.4GT/s CPUs',
+    u'4 x AMD Opteron 12-core 6172 2.1GHz 6.4GT/s CPUs',
+    u'4 x AMD Opteron 12-core 6174 2.2GHz 6.4GT/s CPUs',
+    u'4 x AMD Opteron 12-core 6180SE 2.5GHz 6.4GT/s CPUs']
+  PRODUCTS: [u'OPTERNATOR48']
+  CHOICES: [u'Dual VIA C3 1GHz CPUs (for 2 motherboards)']
+  PRODUCTS: [u'TWINGUARD']
+  CHOICES: [   u'GAMER Core i7 Extreme 980 3.33GHz CPU',
+    u'GAMER Core i7-930 2.8GHz ',
+    u'GAMER Core i7-960 3.2GHz CPU']
+  PRODUCTS: [u'GAMER']
+  CHOICES: [   u'1 x Opteron Dual-Core 2212 2.0GHz 2MB CPU',
+    u'1 x Opteron Dual-Core 2214 2.2GHz 2MB CPU',
+    u'1 x Opteron Dual-Core 2216 2.4GHz 2MB CPU',
+    u'1 x Opteron Dual-Core 2218 2.6GHz 2MB CPU',
+    u'1 x Opteron Dual-Core 2220 2.8GHz 2MB CPU',
+    u'2 x Opteron Dual-Core 2212 2.0GHz 2MB CPUs',
+    u'2 x Opteron Dual-Core 2214 2.2GHz 2MB CPUs',
+    u'2 x Opteron Dual-Core 2216 2.4GHz 2MB CPUs',
+    u'2 x Opteron Dual-Core 2218 2.6GHz 2MB CPUs',
+    u'2 x Opteron Dual-Core 2220 2.8GHz 2MB CPUs']
+  PRODUCTS: [u'OPT10BAY', u'OPT4', u'OPT6']
+  CHOICES: [   u'Intel Core 2 Duo E7500 2.93GHz 1066MHz 3MB CPU',
+    u'Intel Core 2 Duo E8300 2.83GHz 1333MHz 6MB CPU',
+    u'Intel Core 2 Duo E8600 3.33GHz 1333MHz 6MB CPU',
+    u'Intel Core 2 Quad Q8200 2.33GHz 1333MHz 4MB CPU',
+    u'Intel Core 2 Quad Q9300 2.5GHz 1333MHz 6MB CPU',
+    u'Intel Core 2 Quad Q9400 2.66GHz 1333MHz 12MB CPU',
+    u'Intel Core 2 Quad Q9550 2.83GHz 1333MHz 12MB CPU']
+  PRODUCTS: [u'QFX']
+  CHOICES: [   u'Intel Xeon Quad Core E5504 Nehalem 2.0GHz CPU',
+    u'Intel Xeon Quad Core E5506 Nehalem 2.13GHz CPU',
+    u'Intel Xeon Quad Core E5520 Nehalem 2.26GHz CPU',
+    u'Intel Xeon Quad Core E5530 Nehalem 2.40GHz CPU',
+    u'Intel Xeon Quad Core E6540 Nehalem 2.66GHz CPU',
+    u'Intel Xeon Quad Core X5482 3.20GHz CPU',
+    u'Intel Xeon Quad Core X5492 3.40GHz CPU',
+    u'Intel Xeon Quad Core X5550 2.66GHz CPU',
+    u'Intel Xeon Quad Core X5560 2.8GHz CPU']
+  PRODUCTS: [u'NSERVE']
+  CHOICES: [   u'4 x Intel Xeon 7300 4-core 1.60G 4M 1066FSB CPUs ',
+    u'4 x Intel Xeon 7300 4-core 2.13G 4M 1066FSB CPUs ',
+    u'4 x Intel Xeon 7300 4-core 2.4G 6M 1066FSB CPUs ',
+    u'4 x Intel Xeon 7300 4-core 2.4G 8M 1066FSB CPUs ',
+    u'4 x Intel Xeon 7300 4-core 2.93G 8M 1066FSB CPUs ']
+  PRODUCTS: [u'X4X4']
+  CHOICES: [   u'Intel Core 2 Duo E7300 2.66GHz 1066MHz CPU',
+    u'Intel Core 2 Duo E7400 2.88GHz 1066MHz CPU',
+    u'Intel Core 2 Duo E7500 2.93GHz 1066MHz 3MB CPU',
+    u'Intel Core 2 Duo E7600 3.06GHz 1066MHz 3MB CPU',
+    u'Intel Core 2 Duo E8300 2.83GHz 1333MHz 6MB CPU',
+    u'Intel Core 2 Duo E8400 3.0GHz 1333MHz 6MB CPU',
+    u'Intel Core 2 Duo E8500 3.16GHz 1333MHz 6MB CPU',
+    u'Intel Core 2 Duo E8600 3.33GHz 1333MHz 6MB CPU',
+    u'Intel Core 2 Quad Q9550 2.83GHz 1333MHz 12MB CPU']
+  PRODUCTS: [u'SILENCE']
+  CHOICES: [   u'Intel Core i3 Dual-core 2.93GHz 2.5GT/s i3-530 CPU',
+    u'Intel Core i3 Dual-core 3.06GHz 2.5GT/s i3-540 CPU']
+  PRODUCTS: [u'STUDIO3']
+OPTION: Processor (node 1) :
+  CHOICES: [   u'1 x Intel Xeon Dual-Core 5120  1.86GHz 1066FSB CPU',
+    u'1 x Intel Xeon Dual-Core 5130  2.0GHz 1333FSB CPU',
+    u'1 x Intel Xeon Dual-Core 5150  2.66GHz 1333FSB CPU',
+    u'1 x Intel Xeon Dual-Core 5160  3.0GHz 1333FSB CPU',
+    u'1 x Intel Xeon Dual-Core E7220  2.93GHz 1066 CPU',
+    u'1 x Intel Xeon Quad-Core E5320 1.86GHz 1066FSB CPU',
+    u'1 x Intel Xeon Quad-Core E5335 2GHz 1333FSB CPU',
+    u'1 x Intel Xeon Quad-Core E5355 2.66GHz 1333FSB CPU',
+    u'1 x Intel Xeon Quad-Core E5440 2.83GHz 1333FSB CPU',
+    u'1 x Intel Xeon Quad-Core E5450 3.0GHz 1333FSB CPU',
+    u'2 x Intel Xeon Dual-Core 5120  1.86GHz 1066FSB CPU',
+    u'2 x Intel Xeon Dual-Core 5130  2.0GHz 1333FSB CPU',
+    u'2 x Intel Xeon Dual-Core 5150  2.66GHz 1333FSB CPU',
+    u'2 x Intel Xeon Dual-Core 5160  3.0GHz 1333FSB CPU',
+    u'2 x Intel Xeon Dual-Core E7220  2.93GHz 1066 CPU',
+    u'2 x Intel Xeon Quad-Core E5320 1.86GHz 1066FSB CPU',
+    u'2 x Intel Xeon Quad-Core E5335 2GHz 1333FSB CPU',
+    u'2 x Intel Xeon Quad-Core E5355 2.66GHz 1333FSB CPU',
+    u'2 x Intel Xeon Quad-Core E5440 2.83GHz 1333FSB CPU',
+    u'2 x Intel Xeon Quad-Core E5450 3.0GHz 1333FSB CPU']
+  PRODUCTS: [u'TWINSERVE']
+OPTION: Memory :
+  CHOICES: [u'1GB DDR2 Memory', u'2GB DDR2 Memory', u'512MB DDR2 Memory']
+  PRODUCTS: [u'MN4Lplus']
+  CHOICES: [   u'1GB DDR2 Memory',
+    u'2GB DDR2 Memory',
+    u'4GB DDR2 Memory ',
+    u'512MB DDR2 Memory']
+  PRODUCTS: [u'DMZ', u'DNS']
+  CHOICES: [u'1GB DDR2 533MHz ', u'512MB DDR2 533MHz ']
+  PRODUCTS: [u'SHORT']
+  CHOICES: [u'1GB DDR2 Memory', u'2GB DDR2 Memory']
+  PRODUCTS: [u'STUBBY']
+  CHOICES: [u'1GB DDR2 533MHz ', u'2GB DDR2 667MHz (2 x 1GB)', u'512MB DDR2 667MHz ']
+  PRODUCTS: [u'LAPTOP']
+  CHOICES: [u'1GB DDR2-533  ', u'Upgrade to 1.5GB DDR2-533 ']
+  PRODUCTS: [u'CIRRUS']
+  CHOICES: [u'1GB DDR2 Memory', u'2GB DDR2 Memory', u'4GB DDR2 Memory ']
+  PRODUCTS: [u'SSLW', u'VPN', u'NAT', u'VALUE', u'MAIL', u'WEB', u'PFOUR']
+  CHOICES: []
+  PRODUCTS: [u'1Test']
+  CHOICES: [u'2 x 1GB DDR2 Memory', u'2 x 512MB DDR2 Memory']
+  PRODUCTS: [u'TWINGUARD']
+  CHOICES: [   u'16GB (2x8GB) DDR2 ECC/REG Dual Channel 667MHz',
+    u'1GB (2x512) DDR2 ECC/REG Dual Channel 667MHz',
+    u'2GB (2x1GB) DDR2 ECC/REG Dual Channel 667MHz',
+    u'32GB (2x16GB) DDR2 ECC/REG Dual Channel 667MHz',
+    u'4GB (2x2GB) DDR2 ECC/REG Dual Channel 667MHz',
+    u'8GB (2x4GB) DDR2 ECC/REG Dual Channel 667MHz']
+  PRODUCTS: [u'OPT4', u'OPT6', u'OPT10BAY']
+  CHOICES: [   u'GAMER 12GB DDR3 1066MHz ',
+    u'GAMER 12GB DDR3 1333MHz (only w 980 XE)',
+    u'GAMER 6GB DDR3 1066MHz ']
+  PRODUCTS: [u'GAMER']
+  CHOICES: [u'1GB DDR2-667', u'Upgrade to 2GB DDR2-667']
+  PRODUCTS: [u'STRATUS']
+OPTION: Processor - AMD :
+  CHOICES: [   u'1 x AMD Opteron 12-core 6166HE 1.8GHz 6.4GT/s CPU',
+    u'1 x AMD Opteron 12-core 6172 2.1GHz 6.4GT/s CPU',
+    u'1 x AMD Opteron 12-core 6180SE 2.5GHz 6.4GT/s CPU',
+    u'1 x AMD Opteron 8-core 6128 2GHz 6.4GT/s CPU',
+    u'1 x AMD Opteron 8-core 6134 2.3GHz 6.4GT/s CPU',
+    u'2 x AMD Opteron 12-core 6166HE 1.8GHz 6.4GT/s CPUs',
+    u'2 x AMD Opteron 12-core 6172 2.1GHz 6.4GT/s CPUs',
+    u'2 x AMD Opteron 12-core 6180SE 2.5GHz 6.4GT/s CPUs',
+    u'2 x AMD Opteron 8-core 6128 2GHz 6.4GT/s CPUs',
+    u'2 x AMD Opteron 8-core 6134 2.3GHz 6.4GT/s CPUs',
+    u'none (using Intel Xeon)']
+  PRODUCTS: [u'NAS24', u'NAS16', u'NAS8', u'NAS12', u'NAS50']
+OPTION: Processor (node 2) :
+  CHOICES: [   u'1 x Intel Xeon Dual-Core 5120  1.86GHz 1066FSB CPU',
+    u'1 x Intel Xeon Dual-Core 5130  2.0GHz 1333FSB CPU',
+    u'1 x Intel Xeon Dual-Core 5150  2.66GHz 1333FSB CPU',
+    u'1 x Intel Xeon Dual-Core 5160  3.0GHz 1333FSB CPU',
+    u'1 x Intel Xeon Dual-Core E7220  2.93GHz 1066 CPU',
+    u'1 x Intel Xeon Quad-Core E5320 1.86GHz 1066FSB CPU',
+    u'1 x Intel Xeon Quad-Core E5335 2GHz 1333FSB CPU',
+    u'1 x Intel Xeon Quad-Core E5355 2.66GHz 1333FSB CPU',
+    u'1 x Intel Xeon Quad-Core E5440 2.83GHz 1333FSB CPU',
+    u'1 x Intel Xeon Quad-Core E5450 3.0GHz 1333FSB CPU',
+    u'2 x Intel Xeon Dual-Core 5120  1.86GHz 1066FSB CPU',
+    u'2 x Intel Xeon Dual-Core 5130  2.0GHz 1333FSB CPU',
+    u'2 x Intel Xeon Dual-Core 5150  2.66GHz 1333FSB CPU',
+    u'2 x Intel Xeon Dual-Core 5160  3.0GHz 1333FSB CPU',
+    u'2 x Intel Xeon Dual-Core E7220  2.93GHz 1066 CPU',
+    u'2 x Intel Xeon Quad-Core E5320 1.86GHz 1066FSB CPU',
+    u'2 x Intel Xeon Quad-Core E5335 2GHz 1333FSB CPU',
+    u'2 x Intel Xeon Quad-Core E5355 2.66GHz 1333FSB CPU',
+    u'2 x Intel Xeon Quad-Core E5440 2.83GHz 1333FSB CPU',
+    u'2 x Intel Xeon Quad-Core E5450 3.0GHz 1333FSB CPU']
+  PRODUCTS: [u'TWINSERVE']
+OPTION: Memory (2) :
+OPTION: Processor - Intel :
+  CHOICES: [   u'2 x Intel Xeon Hexa Core X5650 2.66GHz CPUs',
+    u'2 x Intel Xeon Hexa Core X5660 2.80 GHz CPUs',
+    u'2 x Intel Xeon Hexa Core X5670 2.93GHz CPUs',
+    u'2 x Intel Xeon Hexa Core X5680 3.33GHz CPU',
+    u'2 x Intel Xeon Quad Core X5550 2.66GHz CPUs',
+    u'2 x Intel Xeon Quad Core X5560 2.8GHz CPUs',
+    u'Intel Xeon Hexa Core X5650 2.66GHz CPU',
+    u'Intel Xeon Hexa Core X5660 2.80GHz CPU',
+    u'Intel Xeon Hexa Core X5670 2.93GHz CPU',
+    u'Intel Xeon Hexa Core X5680 3.33GHz CPU',
+    u'Intel Xeon Quad Core X5550 2.66GHz CPU',
+    u'Intel Xeon Quad Core X5560 2.8GHz CPU',
+    u'none (using AMD Opteron)']
+  PRODUCTS: [u'NAS12', u'NAS50', u'NAS16', u'NAS24', u'NAS8']
+OPTION: Memory DDR2 :
+  CHOICES: [   u'1GB DDR2 667MHz ',
+    u'1GB DDR2 800MHz ',
+    u'2GB DDR2 667MHz (2 x 1GB)',
+    u'2GB DDR2 800MHz (2 x 1GB)',
+    u'4GB DDR2 667MHz (2 x 2GB)',
+    u'4GB DDR2 800MHz',
+    u'512MB DDR2 667MHz ',
+    u'512MB DDR2 800MHz ']
+  PRODUCTS: [u'QUBE']
+  CHOICES: [   u'1GB DDR2 800MHz ',
+    u'2GB DDR2 800MHz (2 x 1GB)',
+    u'4GB DDR2 800MHz (4 x 1GB)',
+    u'none']
+  PRODUCTS: [u'EFFECTS']
+  CHOICES: [u'1GB DDR2 533MHz ', u'512MB DDR2 533MHz ']
+  PRODUCTS: [u'LITE']
+  CHOICES: [u'4GB (2x2GB) DDR2 667 SODIMM']
+  PRODUCTS: [u'LAPSTUDIO']
+  CHOICES: [   u'1GB DDR2 800MHz ',
+    u'2GB DDR2 800MHz (2 x 1GB)',
+    u'4GB DDR2 800MHz (4 x 1GB)',
+    u'512MB DDR2 800MHz ',
+    u'8 GB DDR2 800MHz ']
+  PRODUCTS: [u'QUIET2']
+  CHOICES: [u'1GB DDR2 667MHz ', u'2GB DDR2 667MHz (2 x 1GB)']
+  PRODUCTS: [u'TABLET']
+  CHOICES: [u'1GB DDR2 667MHz ', u'2GB DDR2 667MHz (2 x 1GB)', u'512MB DDR2 667MHz ']
+  PRODUCTS: [u'LEAF']
+  CHOICES: [   u'1GB DDR2 Memory',
+    u'2GB DDR2 Memory',
+    u'4GB DDR2 Memory ',
+    u'512MB DDR2 Memory',
+    u'8GB DDR2 Memory']
+  PRODUCTS: [u'H2O2U']
+  CHOICES: [   u'16GB (8 x 2GB) DDR2 ECC FB-DIMM',
+    u'2GB (1 x 2GB) DDR2 ECC FB-DIMM',
+    u'4GB (2 x 2GB) DDR2 ECC FB-DIMM',
+    u'8GB (4 x 2GB) DDR2 ECC FB-DIMM']
+  PRODUCTS: [u'SOLO']
+  CHOICES: [u'1GB DDR2 Memory', u'2GB DDR2 Memory', u'4GB DDR2 Memory ']
+  PRODUCTS: [u'QUIET']
+  CHOICES: [   u'1GB DDR2 Memory',
+    u'2GB DDR2 Memory',
+    u'4GB DDR2 Memory ',
+    u'8GB DDR2 Memory']
+  PRODUCTS: [u'SERVE', u'DESQ']
+  CHOICES: [   u'16GB (8 x 2GB) DDR2 ECC FB-DIMM',
+    u'2GB (1 x 2GB) DDR2 ECC FB-DIMM',
+    u'32GB (16 x 2GB) DDR2 ECC FB-DIMM',
+    u'4GB (2 x 2GB) DDR2 ECC FB-DIMM',
+    u'8GB (4 x 2GB) DDR2 ECC FB-DIMM']
+  PRODUCTS: [u'X4X4']
+  CHOICES: [   u'1GB DDR2 800MHz ',
+    u'2GB DDR2 800MHz (2 x 1GB)',
+    u'4GB DDR2 800MHz',
+    u'512MB DDR2 800MHz ']
+  PRODUCTS: [u'BOOQ']
+  CHOICES: [   u'16GB (2x8GB) DDR2 ECC/REG Dual Channel 667MHz',
+    u'1GB (2x512) DDR2 ECC/REG Dual Channel 667MHz',
+    u'2GB (2x1GB) DDR2 ECC/REG Dual Channel 667MHz',
+    u'32GB (2x16GB) DDR2 ECC/REG Dual Channel 667MHz',
+    u'4GB (2x2GB) DDR2 ECC/REG Dual Channel 667MHz',
+    u'8GB (2x4GB) DDR2 ECC/REG Dual Channel 667MHz']
+  PRODUCTS: [u'NAS32', u'OPTDESKTOP']
+  CHOICES: [   u'1GB (2x512) DDR2 Dual Channel 800MHz ',
+    u'2GB (2x1GB) DDR2 Dual Channel 800MHz',
+    u'4GB (2x2GB) DDR2 Dual Channel 800MHz',
+    u'512MB DDR2 800MHz ',
+    u'8GB (4x2GB) DDR2 Dual Channel 800MHz']
+  PRODUCTS: [u'SILENCE']
+  CHOICES: [   u'1GB DDR2 533MHz ECC/REG',
+    u'2GB DDR2 533MHz ECC/REG',
+    u'4GB DDR2 533MHz ECC/REG',
+    u'512MB DDR2 533MHz ECC/REG']
+  PRODUCTS: [u'FOCUS']
+  CHOICES: [   u'2GB (2x1GB) DDR2 Dual Channel 800MHz',
+    u'4GB (2x2GB) DDR2 Dual Channel 800MHz',
+    u'8GB (4x2GB) DDR2 Dual Channel 800MHz']
+  PRODUCTS: [u'QFX']
+  CHOICES: [   u'1GB DDR2 800MHz ',
+    u'2GB DDR2 800MHz (2 x 1GB)',
+    u'4GB DDR2 800MHz',
+    u'4GB DDR2 800MHz (4 x 1GB)',
+    u'512MB DDR2 800MHz ',
+    u'8 GB DDR2 800MHz ']
+  PRODUCTS: [u'ENTERPRISE', u'PREMIUM2']
+  CHOICES: [   u'1GB DDR2 800MHz ',
+    u'1GB DDR2 800MHz ECC/REG ',
+    u'2GB DDR2 800MHz (2 x 1GB)',
+    u'2GB DDR2 800MHz ECC/REG (2 x 1GB)',
+    u'4GB DDR2 800MHz (4 x 1GB)',
+    u'4GB DDR2 800MHz ECC/REG (4 x 1GB)',
+    u'512MB DDR2 800MHz ECC/REG']
+  PRODUCTS: [u'ZIMBRA']
+  CHOICES: [   u'16GB DDR2 800MHz ECC/REG (4 x 4GB)',
+    u'1GB DDR2 800MHz ECC/REG ',
+    u'2GB DDR2 800MHz ECC/REG (1 x 2GB)',
+    u'32GB DDR2 800MHz ECC/REG (4 x 8GB)',
+    u'4GB DDR2 800MHz ECC/REG (2 x 2GB)',
+    u'64GB DDR2 800MHz ECC/REG (8 x 8GB)',
+    u'8GB DDR2 800MHz ECC/REG (4 x 2GB)']
+  PRODUCTS: [u'SIXPACK']
+  CHOICES: [   u'1GB DDR2 800MHz ',
+    u'2GB DDR2 800MHz (2 x 1GB)',
+    u'4GB DDR2 800MHz',
+    u'4GB DDR2 800MHz (4 x 1GB)',
+    u'8 GB DDR2 800MHz ']
+  PRODUCTS: [u'PREMIUM']
+OPTION: CPU Cooler :
+  CHOICES: [   u'Performance CPU Cooler for Intel i7',
+    u'Premium CPU Cooler for Intel i7',
+    u'Standard CPU Cooler for Intel i7']
+  PRODUCTS: [u'i7DESK', u'i7CORE', u'i7SHORT', u'SANDYCORE']
+OPTION: Memory DDR2 (node 1) :
+  CHOICES: [   u'16GB (8 x 2GB) DDR2 ECC FB-DIMM',
+    u'1GB DDR2 EEC FB-DIMM',
+    u'2GB (1 x 2GB) DDR2 ECC FB-DIMM',
+    u'4GB (2 x 2GB) DDR2 ECC FB-DIMM',
+    u'8GB (4 x 2GB) DDR2 ECC FB-DIMM']
+  PRODUCTS: [u'TWINSERVE']
+OPTION: Memory DDR2 (node 2) :
+  CHOICES: [   u'16GB (8 x 2GB) DDR2 ECC FB-DIMM',
+    u'1GB DDR2 EEC FB-DIMM',
+    u'2GB (1 x 2GB) DDR2 ECC FB-DIMM',
+    u'4GB (2 x 2GB) DDR2 ECC FB-DIMM',
+    u'8GB (4 x 2GB) DDR2 ECC FB-DIMM']
+  PRODUCTS: [u'TWINSERVE']
+OPTION: Memory DDR3 :
+  CHOICES: [   u'2GB PC3-8500 DDR3 1067MHz ',
+    u'3GB PC3-8500 DDR3 1067MHz ',
+    u'4GB PC3-8500 DDR3 1067MHz ']
+  PRODUCTS: [u'THINKPAL']
+  CHOICES: [   u'128 GB DDR3 ECC/REG 1333MHz ',
+    u'16 GB DDR3 ECC/REG 1333MHz',
+    u'32 GB DDR3 ECC/REG 1333MHz ',
+    u'4 GB DDR3 ECC/REG 1333MHz',
+    u'64 GB DDR3 ECC/REG 1333MHz  ',
+    u'8 GB DDR3 ECC/REG 1333MHz']
+  PRODUCTS: [u'NAS16', u'NAS12', u'NAS24', u'NAS8', u'NAS50']
+  CHOICES: [   u'16 GB DDR3 ECC/REG 1333MHz',
+    u'16 GB DDR3 non-ECC non-REG 1333MHz',
+    u'32 GB DDR3 ECC/REG 1333MHz ',
+    u'4 GB DDR3 ECC/REG 1333MHz',
+    u'4 GB DDR3 non-ECC non-REG 1333MHz',
+    u'64 GB DDR3 ECC/REG 1333MHz  ',
+    u'8 GB DDR3 ECC/REG 1333MHz',
+    u'8 GB DDR3 non-ECC non-REG 1333MHz']
+  PRODUCTS: [u'OPT4100']
+  CHOICES: [   u'1 GB DDR3 ECC/REG 1333MHz',
+    u'128 GB DDR3 ECC/REG 1333MHz ',
+    u'16 GB DDR3 ECC/REG 1333MHz',
+    u'2 GB DDR3 ECC/REG 1333MHz',
+    u'24 GB DDR3 ECC/REG 1333MHz',
+    u'256 GB DDR3 ECC/REG 1333MHz ',
+    u'32 GB DDR3 ECC/REG 1333MHz ',
+    u'4 GB DDR3 ECC/REG 1333MHz',
+    u'64 GB DDR3 ECC/REG 1333MHz  ',
+    u'8 GB DDR3 ECC/REG 1333MHz']
+  PRODUCTS: [u'OPTERNATOR48', u'OPTERNATOR32', u'OPTERNATOR16']
+  CHOICES: [   u'1 GB DDR3 1800MHz ',
+    u'1 GB DDR3 non-ECC non-REG 1333MHz',
+    u'12 GB DDR3 1800MHz',
+    u'12 GB DDR3 non-ECC non-REG 1333MHz',
+    u'2 GB DDR3 1800MHz ',
+    u'2 GB DDR3 non-ECC non-REG 1333MHz',
+    u'4 GB DDR3 1800MHz',
+    u'4 GB DDR3 non-ECC non-REG 1333MHz',
+    u'8 GB DDR3 1800MHz',
+    u'8 GB DDR3 non-ECC non-REG 1333MHz']
+  PRODUCTS: [u'FLAGSHIP']
+  CHOICES: [   u'2 GB DDR3 1800MHz ',
+    u'2 GB DDR3 non-ECC non-REG 1333MHz',
+    u'4 GB DDR3 1800MHz',
+    u'4 GB DDR3 non-ECC non-REG 1333MHz',
+    u'8 GB DDR3 1800MHz',
+    u'8 GB DDR3 non-ECC non-REG 1333MHz']
+  PRODUCTS: [u'STUDIO5']
+  CHOICES: [   u'1 GB DDR3 1800MHz ',
+    u'1 GB DDR3 non-ECC non-REG 1333MHz',
+    u'12 GB DDR3 1800MHz',
+    u'12 GB DDR3 non-ECC non-REG 1333MHz',
+    u'2 GB DDR3 1800MHz ',
+    u'2 GB DDR3 non-ECC non-REG 1333MHz',
+    u'24 GB DDR3 1800MHz',
+    u'24 GB DDR3 non-ECC non-REG 1333MHz',
+    u'4 GB DDR3 1800MHz',
+    u'4 GB DDR3 non-ECC non-REG 1333MHz',
+    u'8 GB DDR3 1800MHz',
+    u'8 GB DDR3 non-ECC non-REG 1333MHz']
+  PRODUCTS: [u'i7DESK', u'i7CORE', u'SANDYCORE']
+  CHOICES: [   u'1 GB DDR3 1800MHz ',
+    u'1 GB DDR3 non-ECC non-REG 1333MHz',
+    u'2 GB DDR3 1800MHz ',
+    u'2 GB DDR3 non-ECC non-REG 1333MHz',
+    u'4 GB DDR3 1800MHz',
+    u'4 GB DDR3 non-ECC non-REG 1333MHz',
+    u'8 GB DDR3 1800MHz',
+    u'8 GB DDR3 non-ECC non-REG 1333MHz',
+    u'none']
+  PRODUCTS: [u'EFFECTS']
+  CHOICES: [   u'16 GB DDR3 non-ECC non-REG 1333MHz',
+    u'2 GB DDR3 non-ECC non-REG 1333MHz',
+    u'4 GB DDR3 non-ECC non-REG 1333MHz',
+    u'8 GB DDR3 non-ECC non-REG 1333MHz']
+  PRODUCTS: [u'NAS6', u'SNORT', u'NAS4', u'NAS3']
+  CHOICES: [   u'1 GB 1600MHz DDR3',
+    u'12 GB 1600MHz DDR3',
+    u'2 GB 1600MHz DDR3',
+    u'4 GB 1600MHz DDR3',
+    u'8 GB 1600MHz DDR3']
+  PRODUCTS: [u'i7SHORT']
+  CHOICES: [   u'128 GB DDR3 ECC/REG 1333MHz ',
+    u'16 GB DDR3 ECC/REG 1333MHz',
+    u'256 GB DDR3 ECC/REG 1333MHz ',
+    u'32 GB DDR3 ECC/REG 1333MHz ',
+    u'64 GB DDR3 ECC/REG 1333MHz  ']
+  PRODUCTS: [u'NAS6X', u'NAS16X']
+  CHOICES: [   u'2 GB DDR3 1800MHz ',
+    u'2 GB DDR3 non-ECC non-REG 1333MHz',
+    u'4 GB DDR3 1800MHz',
+    u'4 GB DDR3 non-ECC non-REG 1333MHz']
+  PRODUCTS: [u'STUDIO3']
+  CHOICES: [   u'16 GB DDR3 ECC/REG 1333MHz',
+    u'32 GB DDR3 ECC/REG 1333MHz ',
+    u'4 GB DDR3 ECC/REG 1333MHz',
+    u'8 GB DDR3 ECC/REG 1333MHz']
+  PRODUCTS: [u'NAS24-32', u'NSERVE']
+  CHOICES: [   u'1 GB DDR3 non-ECC non-REG 1333MHz',
+    u'12 GB DDR3 non-ECC non-REG 1333MHz',
+    u'2 GB DDR3 non-ECC non-REG 1333MHz',
+    u'24 GB DDR3 non-ECC non-REG 1333MHz',
+    u'4 GB DDR3 non-ECC non-REG 1333MHz',
+    u'8 GB DDR3 non-ECC non-REG 1333MHz']
+  PRODUCTS: [u'AMDESK']
+  CHOICES: [   u'12 GB DDR3 1800MHz',
+    u'12 GB DDR3 non-ECC non-REG 1333MHz',
+    u'2 GB DDR3 1800MHz ',
+    u'2 GB DDR3 non-ECC non-REG 1333MHz',
+    u'24 GB DDR3 1800MHz',
+    u'24 GB DDR3 non-ECC non-REG 1333MHz',
+    u'4 GB DDR3 1800MHz',
+    u'4 GB DDR3 non-ECC non-REG 1333MHz',
+    u'8 GB DDR3 1800MHz',
+    u'8 GB DDR3 non-ECC non-REG 1333MHz']
+  PRODUCTS: [u'STUDIO7']
+OPTION: Video card :
+  CHOICES: [   u'NVIDIA 580GTX 1536MB 2xDVI HDMI',
+    u'NVIDIA GTX275 1280MB 2DVI DDR3',
+    u'NVIDIA GTX285 1GB 2DVI-I/DHCP TV-out SLI']
+  PRODUCTS: [u'i7CORE', u'SANDYCORE']
+  CHOICES: [   u'NVIDIA GeForce 9400GT 1GB DVI HDMI video card',
+    u'NVIDIA GeForce 9400GT 512KB video card',
+    u'NVIDIA GeForce 9600GT 512KB video card',
+    u'NVIDIA GeForce 9800GT 1GB video card',
+    u'NVIDIA GeForce 9800GT 512KB DVI video card']
+  PRODUCTS: [u'i7SHORT']
+  CHOICES: [u'integrated on motherboard']
+  PRODUCTS: [u'STUDIO3']
+  CHOICES: [   u'2 x NVIDIA GeForce GTX275 1280MB 2DVI cards',
+    u'2 x NVIDIA GeForce GTX285 1GB 2DVI-I/DHCP cards',
+    u'NVIDIA 580GTX 1536MB 2xDVI HDMI',
+    u'NVIDIA GTX275 1280MB 2DVI DDR3',
+    u'NVIDIA GTX285 1GB 2DVI-I/DHCP TV-out SLI',
+    u'NVIDIA GTX465 PCI-E x16 1GB 2xDVI, mHDMI ',
+    u'NVIDIA GTX470 PCI-E x16 1280MB 2xDVI, HDMI',
+    u'NVIDIA GTX480 PCI-E x16 1536MB DDR5 2xDVI, mHDMI']
+  PRODUCTS: [u'i7DESK']
+  CHOICES: [   u'NVIDIA GTX260 896MB 2xDVI video card',
+    u'NVIDIA GTX275 1280MB 2DVI DDR3',
+    u'NVIDIA GTX285 1GB 2DVI-I/DHCP TV-out SLI',
+    u'NVIDIA GeForce 9400GT 1GB DVI HDMI video card',
+    u'NVIDIA GeForce 9500GT 1GB VGA/DVI/HDMI video card',
+    u'NVIDIA GeForce 9600GT 1GB Dual DVI;HDMI',
+    u'integrated on motherboard']
+  PRODUCTS: [u'STUDIO5', u'STUDIO7']
+  CHOICES: [   u'2 x NVIDIA GeForce 9500GT 1GB DVI/HDMI cards',
+    u'2 x NVIDIA GeForce GTX275 1280MB 2DVI cards',
+    u'2 x NVIDIA GeForce GTX285 1GB 2DVI-I/DHCP cards',
+    u'NVIDIA GTX275 1280MB 2DVI DDR3',
+    u'NVIDIA GTX285 1GB 2DVI-I/DHCP TV-out SLI',
+    u'NVIDIA GeForce 9500GT 1GB VGA/DVI/HDMI video card',
+    u'Quadro FX1500 256MB PCI-Express Video card',
+    u'Quadro FX3400 256MB PCI-Express Video Card']
+  PRODUCTS: [u'FLAGSHIP']
+  CHOICES: [   u'NVIDIA GTX275 1280MB 2DVI DDR3',
+    u'NVIDIA GTX285 1GB 2DVI-I/DHCP TV-out SLI',
+    u'NVIDIA GeForce 9500GT 1GB VGA/DVI/HDMI video card',
+    u'Quadro FX1500 256MB PCI-Express Video card',
+    u'Quadro FX3400 256MB PCI-Express Video Card',
+    u'integrated on motherboard']
+  PRODUCTS: [u'QFX']
+OPTION: Audio :
+  CHOICES: [   u'M-Audio 24/96 PCI Sound Card',
+    u'M-Audio Delta 1010  recording PCI/Rack',
+    u'M-Audio Delta 1010LT mobile recording PCI ',
+    u'None (use an ALSA-compatible sound card)',
+    u'RME HDSP 9632 32 ch 24 Bit/192kHz MIDI Audio Card']
+  PRODUCTS: [u'STUDIO5', u'STUDIO3', u'STUDIO7']
+OPTION: External Audio :
+  CHOICES: [   u'Behringer BCF2000 USB/MIDI controller w/8 Faders',
+    u'Behringer BCF2000-WH USB/MIDI controller  (WHITE)',
+    u'Behringer UCA 202 Ultra 2 In/2 Out USB interface',
+    u'Behringer UCG 102 Guitar interface USB',
+    u'M-Audio Mobile Pre USB interface',
+    u'M-Audio Transit mobile 24-bit/96kHz USB',
+    u'PreSonus Firepod FP10 Firewire interface',
+    u'none']
+  PRODUCTS: [u'STUDIO5', u'LAPSTUDIO', u'STUDIO7', u'STUDIO3']
+OPTION: 3.5 inch Bay :
+  CHOICES: [   u'3.5" 1.44 MB Floppy Drive',
+    u'Internal 25-in-1 Card Reader (MS,CF, SD/MMC/SM)',
+    u'Internal 5-in-1 Card Reader ',
+    u'Internal 7-in-1 Card Reader',
+    u'none']
+  PRODUCTS: [   u'NAT',
+    u'SERVE',
+    u'DNS',
+    u'MAIL',
+    u'VPN',
+    u'SSLW',
+    u'PFOUR',
+    u'EFFECTS',
+    u'OPT6',
+    u'OPTDESKTOP',
+    u'PREMIUM2']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'3.5" 1.44 MB Floppy Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'Internal 25-in-1 Card Reader (MS,CF, SD/MMC/SM)',
+    u'none']
+  PRODUCTS: [u'QUIET2']
+  CHOICES: [   u'Internal 25-in-1 Card Reader (MS,CF, SD/MMC/SM)',
+    u'Internal 5-in-1 Card Reader ',
+    u'Internal 7-in-1 Card Reader',
+    u'none']
+  PRODUCTS: [u'SNORT', u'NAS6']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'3.5" 1.44 MB Floppy Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'Internal 25-in-1 Card Reader (MS,CF, SD/MMC/SM)',
+    u'Internal 5-in-1 Card Reader ',
+    u'Internal 7-in-1 Card Reader',
+    u'none']
+  PRODUCTS: [u'H2O2U']
+  CHOICES: [u'Slim 1.44MB Floppy Drive', u'none']
+  PRODUCTS: [u'OPT4']
+  CHOICES: [   u'250 GB SATA II Hard Drive',
+    u'3.5" 1.44 MB Floppy Drive',
+    u'500 GB SATA II Hard Drive',
+    u'750 GB SATA II Hard Drive',
+    u'Internal 25-in-1 Card Reader (MS,CF, SD/MMC/SM)',
+    u'none']
+  PRODUCTS: [u'DMZ']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'3.5" 1.44 MB Floppy Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'Internal 25-in-1 Card Reader (MS,CF, SD/MMC/SM)',
+    u'Internal 5-in-1 Card Reader ',
+    u'Internal 7-in-1 Card Reader']
+  PRODUCTS: [u'WEB']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'3.5" 1.44 MB Floppy Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'Internal 25-in-1 Card Reader (MS,CF, SD/MMC/SM)',
+    u'Internal 5-in-1 Card Reader ',
+    u'Internal 7-in-1 Card Reader',
+    u'none']
+  PRODUCTS: [u'VALUE']
+  CHOICES: [   u'3.5" 1.44 MB Floppy Drive',
+    u'IDE Flash Module 1GB',
+    u'IDE Flash Module 2GB',
+    u'IDE Flash Module 4GB',
+    u'IDE Flash Module 8GB',
+    u'Internal 25-in-1 Card Reader (MS,CF, SD/MMC/SM)',
+    u'Internal 5-in-1 Card Reader ',
+    u'Internal 7-in-1 Card Reader',
+    u'Lian Li Thermal Monitor']
+  PRODUCTS: [u'BOOQ']
+  CHOICES: [   u'3.5" 1.44 MB Floppy Drive',
+    u'Internal 5-in-1 Card Reader ',
+    u'Internal 7-in-1 Card Reader',
+    u'none']
+  PRODUCTS: [u'OPT10BAY']
+  CHOICES: [   u'3.5" 1.44 MB Floppy Drive',
+    u'IDE Flash Module 1GB',
+    u'IDE Flash Module 2GB',
+    u'IDE Flash Module 4GB',
+    u'IDE Flash Module 8GB',
+    u'Internal 25-in-1 Card Reader (MS,CF, SD/MMC/SM)',
+    u'Internal 5-in-1 Card Reader ',
+    u'Internal 7-in-1 Card Reader',
+    u'Lian Li Thermal Monitor',
+    u'none']
+  PRODUCTS: [u'DESQ', u'i7DESK', u'AMDESK', u'QFX', u'SILENCE', u'FLAGSHIP']
+OPTION: Slim 3.5 inch Bay :
+  CHOICES: [u'Slim 1.44MB Floppy Drive', u'none']
+  PRODUCTS: [u'ENTERPRISE', u'NAS32']
+OPTION: 2nd 3.5 inch Bay - 2u :
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'3.5" 1.44 MB Floppy Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'Internal 25-in-1 Card Reader (MS,CF, SD/MMC/SM)',
+    u'none']
+  PRODUCTS: [u'EFFECTS']
+OPTION: 3.5 inch Bay 2 :
+  CHOICES: [   u'3.5" 1.44 MB Floppy Drive',
+    u'IDE Flash Module 1GB',
+    u'IDE Flash Module 2GB',
+    u'IDE Flash Module 4GB',
+    u'IDE Flash Module 8GB',
+    u'Internal 25-in-1 Card Reader (MS,CF, SD/MMC/SM)',
+    u'Internal 5-in-1 Card Reader ',
+    u'Internal 7-in-1 Card Reader',
+    u'Lian Li Thermal Monitor',
+    u'none']
+  PRODUCTS: [u'SILENCE', u'i7DESK', u'AMDESK', u'DESQ']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'3.5" 1.44 MB Floppy Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'Internal 25-in-1 Card Reader (MS,CF, SD/MMC/SM)',
+    u'none']
+  PRODUCTS: [u'QUIET2']
+OPTION: 5.25 inch Bay :
+  CHOICES: [   u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)',
+    u'Zalman ZM-MFC1 fan controller 4 speed & 2 toggle',
+    u'Zalman ZM-MFC2 fan controller power & temp monitor']
+  PRODUCTS: [u'FLAGSHIP']
+  CHOICES: [   u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'SATA 12x Blu-ray Burner Blu-ray/DVD/CD Writer ',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP LTO2 200/400GB ',
+    u'Tape Drive HP LTO3 400/800GB ',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)',
+    u'none']
+  PRODUCTS: [u'NAS6']
+  CHOICES: [u'DVD+/-RW for eRacks/TABLET']
+  PRODUCTS: [u'TABLET']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer']
+  PRODUCTS: [u'QUIET']
+  CHOICES: [   u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)',
+    u'none']
+  PRODUCTS: [u'OPT10BAY', u'OPTDESKTOP']
+  CHOICES: [   u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)']
+  PRODUCTS: [u'SILENCE']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)']
+  PRODUCTS: [u'WEB']
+  CHOICES: [   u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)']
+  PRODUCTS: [   u'NAT',
+    u'VPN',
+    u'QUBE',
+    u'SERVE',
+    u'QUIET2',
+    u'SOLO',
+    u'MAIL',
+    u'QFX',
+    u'H2O2U',
+    u'PREMIUM2',
+    u'DNS',
+    u'NSERVE',
+    u'PFOUR',
+    u'SSLW',
+    u'VALUE']
+  CHOICES: [   u'Blu-Ray Burner ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)']
+  PRODUCTS: [u'FOCUS']
+  CHOICES: [   u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)',
+    u'Thermaltake Ibox storage compartment',
+    u'Thermaltake X-Ray Beverage holder / Cig lighter']
+  PRODUCTS: [u'DESQ', u'AMDESK']
+  CHOICES: [   u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'CDRW/DVD',
+    u'DVDRW Dual Layer',
+    u'none']
+  PRODUCTS: [u'NAS16X']
+  CHOICES: [   u'2 TB SATA II Hard Drive',
+    u'3 TB SATA II Hard Drive',
+    u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)']
+  PRODUCTS: [u'SIXPACK']
+  CHOICES: [   u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)',
+    u'none']
+  PRODUCTS: [u'EFFECTS']
+  CHOICES: [   u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)',
+    u'Thermaltake Ibox storage compartment',
+    u'Thermaltake X-Ray Beverage holder / Cig lighter',
+    u'Zalman ZM-MFC1 fan controller 4 speed & 2 toggle',
+    u'Zalman ZM-MFC2 fan controller power & temp monitor']
+  PRODUCTS: [u'i7DESK']
+  CHOICES: [   u'500 GB SATA II Hard Drive',
+    u'750 GB SATA II Hard Drive',
+    u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)']
+  PRODUCTS: [u'DMZ']
+  CHOICES: [u'Blu-Ray Burner ', u'Blu-Ray Reader 4x SATA 2MB ', u'DVDRW Dual Layer']
+  PRODUCTS: [u'STUDIO5', u'STUDIO7', u'STUDIO3', u'i7SHORT']
+OPTION: 5.25 inch Bay 2 :
+  CHOICES: [   u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)',
+    u'Thermaltake Ibox storage compartment',
+    u'Thermaltake X-Ray Beverage holder / Cig lighter',
+    u'none']
+  PRODUCTS: [u'AMDESK', u'DESQ']
+  CHOICES: [   u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)',
+    u'Zalman ZM-MFC1 fan controller 4 speed & 2 toggle',
+    u'Zalman ZM-MFC2 fan controller power & temp monitor',
+    u'none']
+  PRODUCTS: [u'FLAGSHIP']
+  CHOICES: [   u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)',
+    u'none']
+  PRODUCTS: [u'SILENCE', u'OPTDESKTOP', u'EFFECTS', u'QFX']
+  CHOICES: [   u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)',
+    u'none']
+  PRODUCTS: [u'QUIET2']
+  CHOICES: [   u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)',
+    u'Thermaltake Ibox storage compartment',
+    u'Thermaltake X-Ray Beverage holder / Cig lighter',
+    u'Zalman ZM-MFC1 fan controller 4 speed & 2 toggle',
+    u'Zalman ZM-MFC2 fan controller power & temp monitor',
+    u'none']
+  PRODUCTS: [u'i7DESK']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)',
+    u'none']
+  PRODUCTS: [u'OPT10BAY']
+OPTION: 5.25 inch Bay 3 :
+  CHOICES: [   u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)',
+    u'Thermaltake Ibox storage compartment',
+    u'Thermaltake X-Ray Beverage holder / Cig lighter',
+    u'none']
+  PRODUCTS: [u'AMDESK', u'DESQ']
+  CHOICES: [   u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)',
+    u'Zalman ZM-MFC1 fan controller 4 speed & 2 toggle',
+    u'Zalman ZM-MFC2 fan controller power & temp monitor',
+    u'none']
+  PRODUCTS: [u'FLAGSHIP']
+  CHOICES: [   u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)',
+    u'none']
+  PRODUCTS: [u'SILENCE']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)',
+    u'none']
+  PRODUCTS: [u'OPT10BAY']
+  CHOICES: [   u'250 GB SATA II Hard Drive',
+    u'500 GB SATA II Hard Drive',
+    u'750 GB SATA II Hard Drive',
+    u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)',
+    u'none']
+  PRODUCTS: [u'OPTDESKTOP']
+  CHOICES: [   u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)',
+    u'Thermaltake Ibox storage compartment',
+    u'Thermaltake X-Ray Beverage holder / Cig lighter',
+    u'Zalman ZM-MFC1 fan controller 4 speed & 2 toggle',
+    u'Zalman ZM-MFC2 fan controller power & temp monitor',
+    u'none']
+  PRODUCTS: [u'i7DESK']
+OPTION: 5.25 inch Bay 4 :
+  CHOICES: [   u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)',
+    u'none']
+  PRODUCTS: [u'SILENCE']
+  CHOICES: [   u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)',
+    u'none']
+  PRODUCTS: [u'OPT10BAY']
+  CHOICES: [   u'Blu-Ray Burner ',
+    u'Blu-Ray Reader 4x SATA 2MB ',
+    u'DVDRW Dual Layer',
+    u'Tape Drive AIT-3 Sony  (2U chassis req)',
+    u'Tape Drive DDS-4 Sony Storage  (2U chassis req)',
+    u'Tape Drive DLT-V4 Quantum  (2U chassis req)',
+    u'Tape Drive HP Storageworks DAT72  (2U chassis req)',
+    u'Tape Drive IBM DAT72 SCSI Interface  (2U chassis)',
+    u'Tape Drive Quantum/Seagate DAT72  (2U chassis req)',
+    u'Zalman ZM-MFC1 fan controller 4 speed & 2 toggle',
+    u'Zalman ZM-MFC2 fan controller power & temp monitor',
+    u'none']
+  PRODUCTS: [u'FLAGSHIP']
+OPTION: Slim CD Bay :
+  CHOICES: [u'Slim LAPSTUDIO Blu-ray Disc Drive w/ DVD Burning']
+  PRODUCTS: [u'LAPSTUDIO']
+  CHOICES: [   u'Slimline BluRay Burner',
+    u'Slimline CD ROM',
+    u'Slimline DVD / CDRW',
+    u'Slimline DVDRW']
+  PRODUCTS: [u'PREMIUM', u'ENTERPRISE', u'ZIMBRA', u'BOOQ', u'i7CORE', u'SANDYCORE']
+  CHOICES: [u'Slimline BluRay Burner', u'Slimline DVD / CDRW', u'Slimline DVDRW', u'none']
+  PRODUCTS: [u'NAS16']
+  CHOICES: [u'Slim Laptop CD-ROM', u'Slim Laptop DVD', u'Slim Laptop DVDRW']
+  PRODUCTS: [u'LAPTOP']
+  CHOICES: [   u'Slim 8x DVD, 24x CD, DVD-ROM drive',
+    u'Slimline BluRay Burner',
+    u'Slimline CD ROM']
+  PRODUCTS: [u'OPTERNATOR16', u'OPTERNATOR48', u'X4X4', u'OPTERNATOR32', u'OPT4100']
+  CHOICES: [   u'Slimline BluRay Burner',
+    u'Slimline CD ROM',
+    u'Slimline DVD / CDRW',
+    u'Slimline DVDRW',
+    u'none']
+  PRODUCTS: [   u'SNORT',
+    u'SHORT',
+    u'LITE',
+    u'OPT6',
+    u'STUBBY',
+    u'NAS24',
+    u'NAS32',
+    u'NAS50',
+    u'NAS4',
+    u'OPT4']
+  CHOICES: [   u'GAMER 4x BluRay Rdr / 8x Super Multi Combo',
+    u'GAMER 6x BluRay Burner & Rdr / 8x Super Multi ',
+    u'GAMER 8x Multi Drive']
+  PRODUCTS: [u'GAMER']
+  CHOICES: [u'Slim THINKPAL Notebook DVD+-RW Dual Layer Drive']
+  PRODUCTS: [u'THINKPAL']
+OPTION: HD Controller -RAID :
+  CHOICES: [   u'3ware 9650SE 12-port RAID ML PCI-E',
+    u'3ware 9750-16i4e SATA/SAS 16-port',
+    u'LSI MegaRAID SATA/SAS 9260-16i 16-port']
+  PRODUCTS: [u'NAS12']
+  CHOICES: [   u'3ware 9750-8I for RAID 0,1,5,6,10,50,S,JBOD 8-port',
+    u'LSI Logic MegaRAID SAS LSI9260-8i 8-portx4 RAID ']
+  PRODUCTS: [u'NAS8', u'NAS6X']
+  CHOICES: [   u'3ware 9750-16i4e 20-port SAS2 PCI-e 8x',
+    u'3ware 9750-16i4e SATA/SAS 16-port',
+    u'LSI Logic 9211-8i 8 port SAS2 PCI-E 8x']
+  PRODUCTS: [u'NAS16X']
+  CHOICES: [   u'3ware 9650SE 16-port RAID ML PCI-E',
+    u'3ware 9750-16i4e SATA/SAS 16-port',
+    u'LSI MegaRAID SATA/SAS 9260-16i 16-port']
+  PRODUCTS: [u'NAS16']
+  CHOICES: [   u'3ware 9550SXU 12-port RAID SGL PCI-X',
+    u'3ware 9550SXU 4-port RAID LP PCI-X',
+    u'3ware 9550SXU 8-port RAID LP PCI-X',
+    u'none']
+  PRODUCTS: [u'OPT10BAY', u'OPTDESKTOP']
+OPTION: RAID Configuration :
+  CHOICES: [u'RAID 0 (striping)', u'RAID 1 (mirroring)', u'none (JBOD)']
+  PRODUCTS: [u'MS2UT']
+  CHOICES: [   u'RAID 0 (striping)',
+    u'RAID 1 (mirroring)',
+    u'RAID 10 (mirroring and striping)',
+    u'RAID 5 (striped with parity)',
+    u'RAID 6 (striped with dual parity)',
+    u'none (JBOD)',
+    u'rsync (JBOD)']
+  PRODUCTS: [u'NAS12', u'NAS16', u'NAS4', u'NAS3', u'NAS8', u'NAS6X', u'NAS16X']
+  CHOICES: [   u'RAID 0 (striping)',
+    u'RAID 1 (mirroring)',
+    u'RAID 10 (mirroring and striping)',
+    u'RAID 5 (striped with parity)',
+    u'none (JBOD)']
+  PRODUCTS: [u'TR4X', u'TR5M', u'TR8X', u'MN4Lplus']
+  CHOICES: [   u'RAID 0 (striping)',
+    u'RAID 1 (mirroring)',
+    u'RAID 10 (mirroring and striping)',
+    u'RAID 5 (striped with parity)',
+    u'none (JBOD)',
+    u'rsync (JBOD)']
+  PRODUCTS: [u'OPT10BAY', u'OPTDESKTOP', u'OPT4', u'PREMIUM2', u'NAS6']
+  CHOICES: [   u'RAID 0 (striping)',
+    u'RAID 1 (mirroring)',
+    u'RAID 10 (mirroring and striping)',
+    u'RAID 5 (striped with parity)',
+    u'RAID 6 (striped with dual parity)',
+    u'none (JBOD)']
+  PRODUCTS: [u'NAS24', u'NAS50', u'NAS24-32']
+  CHOICES: [   u'RAID 0 (striping)',
+    u'RAID 1 (mirroring)',
+    u'RAID 10 (mirroring and striping)',
+    u'RAID 5 (striped with parity)',
+    u'none',
+    u'none (JBOD)',
+    u'rsync (JBOD)']
+  PRODUCTS: [u'QFX', u'PREMIUM', u'FLAGSHIP']
+OPTION: Internal HD Bay :
+  CHOICES: [   u'1 x 1TB 2.5in 5200rpm SATA2 Drive',
+    u'250GB 2.5in 5400rpm SATA2 HARD DRIVE',
+    u'320GB 2.5in 5400rpm SATA2 HARD DRIVE',
+    u'500GB 2.5in 5400rpm SATA2 HARD DRIVE',
+    u'750GB 2.5in 5200rpm SATA2 HARD DRIVE']
+  PRODUCTS: [u'LAPTOP']
+  CHOICES: [   u'2 x 320 GB SATA HDs',
+    u'2 x 400 GB SATA HDs',
+    u'2 x 500 GB SATA HDs',
+    u'2 x 750 GB SATA HDs']
+  PRODUCTS: [u'TWINGUARD']
+  CHOICES: [   u'1 x 1TB 2.5in 5200rpm SATA2 Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'250GB 2.5in 5400rpm SATA2 HARD DRIVE',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'320GB 2.5in 5400rpm SATA2 HARD DRIVE',
+    u'500GB 2.5in 5400rpm SATA2 HARD DRIVE',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750GB 2.5in 5200rpm SATA2 HARD DRIVE',
+    u'96 GB Flash Media SATA2 2.5" SSD']
+  PRODUCTS: [u'LEAF']
+  CHOICES: [   u'128 GB Flash Media SATA2 2.5" SSD',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'96 GB Flash Media SATA2 2.5" SSD']
+  PRODUCTS: [u'FLAT']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD']
+  PRODUCTS: [   u'DMZ',
+    u'OPTDESKTOP',
+    u'MAIL',
+    u'DESQ',
+    u'DNS',
+    u'SOLO',
+    u'VALUE',
+    u'WEB',
+    u'NAT',
+    u'SSLW',
+    u'OPT10BAY',
+    u'SHORT',
+    u'VPN',
+    u'BOOQ',
+    u'SNORT',
+    u'QUBE']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'3 TB SATA II Hard Drive',
+    u'500 GB SATA II Hard Drive',
+    u'750 GB SATA II Hard Drive']
+  PRODUCTS: [u'SILENCE']
+  CHOICES: [   u'1 TB SATA Hard Drive',
+    u'1 TB SATA II Hard Drive',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'250GB SATA Hard Drive',
+    u'3 TB SATA II Hard Drive',
+    u'320 GB SATA II Hard Drive',
+    u'320GB SATA Hard Drive',
+    u'400 GB SATA II Hard Drive',
+    u'400GB SATA Hard Drive',
+    u'500 GB SATA II Hard Drive',
+    u'500GB SATA Hard Drive',
+    u'640 GB SATA II Hard Drive',
+    u'750 GB SATA II Hard Drive',
+    u'750GB SATA Hard Drive']
+  PRODUCTS: [u'1Test']
+  CHOICES: [   u'100GB SATA 5400rpm Hard Drive 9.5mm height',
+    u'120GB SATA 5400rpm Hard Drive 9.5mm height ']
+  PRODUCTS: [u'TABLET']
+  CHOICES: [   u'1 x 1TB 2.5in 5200rpm SATA2 Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'250GB HD 5400rpm ',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'320GB 2.5in 5400rpm SATA2 HARD DRIVE',
+    u'500GB 2.5in 5400rpm SATA2 HARD DRIVE',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750GB 2.5in 5200rpm SATA2 HARD DRIVE']
+  PRODUCTS: [u'THINKPAL']
+  CHOICES: [   u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD']
+  PRODUCTS: [u'STUBBY']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'128 GB SATA3  RealSSD C300',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'256 GB SATA3  RealSSD C300',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'512 GB SATA3 RealSSD C300',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD']
+  PRODUCTS: [u'i7DESK', u'AMDESK']
+  CHOICES: [   u'1 x 1TB 2.5in 5200rpm SATA2 Drive',
+    u'500GB 2.5in 5400rpm SATA2 HARD DRIVE',
+    u'750GB 2.5in 5200rpm SATA2 HARD DRIVE']
+  PRODUCTS: [u'LAPSTUDIO']
+  CHOICES: [   u'1 x 1TB 2.5in 5200rpm SATA2 Drive',
+    u'320GB 2.5in 5400rpm SATA2 HARD DRIVE',
+    u'500GB 2.5in 5400rpm SATA2 HARD DRIVE',
+    u'750GB 2.5in 5200rpm SATA2 HARD DRIVE',
+    u'Intel SSD2 160GB R/W:250/170 MB/s X-25M ',
+    u'Intel SSD2 80GB R/W:250/170 MB/s X-25M ']
+  PRODUCTS: [u'GAMER']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [u'SIXPACK']
+  CHOICES: [u'250GB HD 5400rpm ']
+  PRODUCTS: [u'STRATUS']
+OPTION: External USB Optical Drive :
+  CHOICES: [   u'External Slim Blu-Ray BD-ROM Combo DVDRW',
+    u'External USB CD-ROM',
+    u'External USB DVD/CDRW Drive',
+    u'External USB DVDRW Drive',
+    u'none']
+  PRODUCTS: [u'NIMBUS', u'CIRRUS', u'CUMULUS', u'STRATUS']
+OPTION: Internal HD Bay 1 :
+OPTION: Internal HD Bay 2 :
+  CHOICES: [   u'250 GB SATA II Hard Drive',
+    u'500 GB SATA II Hard Drive',
+    u'750 GB SATA II Hard Drive',
+    u'none']
+  PRODUCTS: [u'SILENCE']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'128 GB SATA3  RealSSD C300',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'256 GB SATA3  RealSSD C300',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'512 GB SATA3 RealSSD C300',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [u'i7DESK', u'AMDESK']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [u'SNORT', u'DESQ']
+OPTION: Internal HD Bay 3 :
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'128 GB SATA3  RealSSD C300',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'256 GB SATA3  RealSSD C300',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'512 GB SATA3 RealSSD C300',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [u'i7DESK', u'AMDESK']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [u'SNORT', u'DESQ']
+OPTION: Internal HD Bay 4 :
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'128 GB SATA3  RealSSD C300',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'256 GB SATA3  RealSSD C300',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'512 GB SATA3 RealSSD C300',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [u'i7DESK']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [u'SNORT', u'DESQ', u'AMDESK']
+OPTION: External Storage :
+  CHOICES: [   u'2TB Sans Digital MobilSTOR MS2UT USB',
+    u'4TB Sans Digital MobilSTOR TR4X USB',
+    u'none']
+  PRODUCTS: [u'i7DESK', u'STUDIO5', u'STUDIO7', u'STUDIO3']
+  CHOICES: [   u'1TB Sans Digital MobilSTOR MS1CT USB ',
+    u'2TB Sans Digital MobilSTOR MS2UT USB',
+    u'none']
+  PRODUCTS: [u'DESQ', u'AMDESK']
+OPTION: Bluetooth :
+  CHOICES: [u'THINKPAL Bluetooth w/antenna', u'none']
+  PRODUCTS: [u'THINKPAL']
+OPTION: Camera :
+  CHOICES: [u'THINKPAL camera 2.0 MP low light sensitive', u'none']
+  PRODUCTS: [u'THINKPAL']
+OPTION: Battery :
+  CHOICES: [   u'Lithium ion battery, upto 4.8 hours',
+    u'Upgrade 6 cell 63Wh Lithium Battery, upto 10.5 hr ']
+  PRODUCTS: [u'CIRRUS']
+  CHOICES: [   u'THINKPAL 4-cell Li-Ion',
+    u'THINKPAL 6-cell 2.6Ah Li-Ion - Dual Mode',
+    u'THINKPAL 9-cell 2.8Ah Li-Ion - Dual Mode']
+  PRODUCTS: [u'THINKPAL']
+OPTION: Removable Hard Drives :
+  CHOICES: [   u'12 x 1 TB SATA II HDs',
+    u'12 x 2 TB SATA II HDs',
+    u'12 x 2.5 TB SATA II HDs',
+    u'12 x 250 GB SATA II HDs',
+    u'12 x 3 TB SATA II HDs',
+    u'12 x 500 GB SATA II HDs',
+    u'12 x 750 GB SATA II HDs',
+    u'250 GB SATA II Hard Drive']
+  PRODUCTS: [u'NAS12']
+  CHOICES: [   u'4 x 1 TB SATA II HDs',
+    u'4 x 2 TB SATA II HDs',
+    u'4 x 2.5 TB SATA II HDs',
+    u'4 x 250 GB SATA II HDs',
+    u'4 x 3 TB SATA II HDs',
+    u'4 x 500 GB SATA II HDs',
+    u'4 x 750 GB SATA II HDs',
+    u'4 x SAS 73GB 16mb 15K Hard Drives ',
+    u'4 x SAS U-300 1TB 16MB 7200 Hard Drives ',
+    u'none']
+  PRODUCTS: [u'NAS4']
+  CHOICES: [   u'6 x 1 TB SATA II HDs',
+    u'6 x 2 TB SATA II HDs',
+    u'6 x 2.5 TB SATA II HDs',
+    u'6 x 250 GB SATA II HDs',
+    u'6 x 3 TB SATA II HDs',
+    u'6 x 500 GB SATA II HDs',
+    u'6 x 750 GB SATA II HDs',
+    u'6 x SAS 147GB  16mb 15K Hard Drive',
+    u'6 x SAS 36GB 16mb 15K Hard Drive',
+    u'6 x SAS 73GB 16mb 15K Hard Drive',
+    u'6 x SAS U-300 1TB 16MB 7200 Hard Drives']
+  PRODUCTS: [u'NAS6']
+  CHOICES: [   u'16 x 1 TB SATA II HDs',
+    u'16 x 2 TB SATA II HDs',
+    u'16 x 2.5 TB SATA II HDs',
+    u'16 x 250 GB SATA II HDs',
+    u'16 x 3 TB SATA II HDs',
+    u'16 x 500 GB SATA II HDs',
+    u'16 x 750 GB SATA II HDs',
+    u'none']
+  PRODUCTS: [u'NAS32']
+  CHOICES: [   u'4 x 1 TB SATA II HDs',
+    u'4 x 2 TB SATA II HDs',
+    u'4 x 2.5 TB SATA II HDs',
+    u'4 x 250 GB SATA II HDs',
+    u'4 x 3 TB SATA II HDs',
+    u'4 x 500 GB SATA II HDs',
+    u'4 x 750 GB SATA II HDs',
+    u'none']
+  PRODUCTS: [u'OPT4']
+  CHOICES: [   u'12 x SAS2 1.0TB 16MB 7200rpm Hard Drives',
+    u'12 x SAS2 2.0TB 16MB 7200rpm Hard Drives',
+    u'4 x SAS2 1.0TB 16MB 7200rpm Hard Drives',
+    u'4 x SAS2 2.0TB 16MB 7200rpm Hard Drives',
+    u'6 x SAS2 1.0TB 16MB 7200rpm Hard Drives',
+    u'6 x SAS2 2.0TB 16MB 7200rpm Hard Drives']
+  PRODUCTS: [u'NAS24-32']
+  CHOICES: [   u'12 x 1 TB SATA II HDs',
+    u'12 x 2 TB SATA II HDs',
+    u'12 x 2.5 TB SATA II HDs',
+    u'12 x 250 GB SATA II HDs',
+    u'12 x 3 TB SATA II HDs',
+    u'12 x 500 GB SATA II HDs',
+    u'12 x 750 GB SATA II HDs']
+  PRODUCTS: [u'NAS24']
+  CHOICES: [   u'24 x 1 TB SATA II HDs',
+    u'24 x 2 TB SATA II HDs',
+    u'24 x 2.5 TB SATA II HDs',
+    u'24 x 250 GB SATA II HDs',
+    u'24 x 3 TB SATA II HDs',
+    u'24 x 500 GB SATA II HDs',
+    u'24 x 750 GB SATA II HDs']
+  PRODUCTS: [u'NAS50']
+  CHOICES: [   u'8 x 1 TB SATA II HDs',
+    u'8 x 2 TB SATA II HDs',
+    u'8 x 2.5 TB SATA II HDs',
+    u'8 x 250 GB SATA II HDs',
+    u'8 x 3 TB SATA II HDs',
+    u'8 x 500 GB SATA II HDs',
+    u'8 x 750 GB SATA II HDs',
+    u'none']
+  PRODUCTS: [u'NAS8']
+  CHOICES: [   u'16 x 1 TB SATA II HDs',
+    u'16 x 2 TB SATA II HDs',
+    u'16 x 2.5 TB SATA II HDs',
+    u'16 x 250 GB SATA II HDs',
+    u'16 x 3 TB SATA II HDs',
+    u'16 x 500 GB SATA II HDs',
+    u'16 x 750 GB SATA II HDs',
+    u'250 GB SATA II Hard Drive']
+  PRODUCTS: [u'NAS16']
+OPTION: Removable SATA HD 1 :
+OPTION: Removable Hard Drives 2 :
+  CHOICES: [   u'24 x 1 TB SATA II HDs',
+    u'24 x 2 TB SATA II HDs',
+    u'24 x 2.5 TB SATA II HDs',
+    u'24 x 250 GB SATA II HDs',
+    u'24 x 3 TB SATA II HDs',
+    u'24 x 500 GB SATA II HDs',
+    u'24 x 750 GB SATA II HDs',
+    u'none']
+  PRODUCTS: [u'NAS50']
+  CHOICES: [   u'12 x 1 TB SATA II HDs',
+    u'12 x 2 TB SATA II HDs',
+    u'12 x 2.5 TB SATA II HDs',
+    u'12 x 250 GB SATA II HDs',
+    u'12 x 3 TB SATA II HDs',
+    u'12 x 500 GB SATA II HDs',
+    u'12 x 750 GB SATA II HDs',
+    u'none']
+  PRODUCTS: [u'NAS24']
+  CHOICES: [   u'16 x 1 TB SATA II HDs',
+    u'16 x 2 TB SATA II HDs',
+    u'16 x 2.5 TB SATA II HDs',
+    u'16 x 250 GB SATA II HDs',
+    u'16 x 3 TB SATA II HDs',
+    u'16 x 500 GB SATA II HDs',
+    u'16 x 750 GB SATA II HDs',
+    u'none']
+  PRODUCTS: [u'NAS32']
+  CHOICES: [   u'12 x SAS2 1.0TB 16MB 7200rpm Hard Drives',
+    u'12 x SAS2 2.0TB 16MB 7200rpm Hard Drives',
+    u'4 x SAS2 1.0TB 16MB 7200rpm Hard Drives',
+    u'4 x SAS2 2.0TB 16MB 7200rpm Hard Drives',
+    u'6 x SAS2 1.0TB 16MB 7200rpm Hard Drives',
+    u'6 x SAS2 2.0TB 16MB 7200rpm Hard Drives',
+    u'none']
+  PRODUCTS: [u'NAS24-32']
+OPTION: Removable HD Bay 1 :
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD']
+  PRODUCTS: [u'SIXPACK', u'PREMIUM2', u'OPT6', u'NSERVE']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'128 GB SATA3  RealSSD C300',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'256 GB SATA3  RealSSD C300',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'512 GB SATA3 RealSSD C300',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD']
+  PRODUCTS: [u'i7CORE', u'i7SHORT']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'3 TB SATA II Hard Drive',
+    u'500 GB SATA II Hard Drive',
+    u'750 GB SATA II Hard Drive']
+  PRODUCTS: [u'MS1CT', u'TR4X', u'MN4Lplus', u'TR5M', u'TR8X', u'MS2UT']
+OPTION: Removable SATA HD 2 :
+OPTION: Removable Hard Drives 3 :
+  CHOICES: [   u'4 x SAS2 1.0TB 16MB 7200rpm Hard Drives',
+    u'4 x SAS2 2.0TB 16MB 7200rpm Hard Drives',
+    u'6 x SAS2 1.0TB 16MB 7200rpm Hard Drives',
+    u'6 x SAS2 2.0TB 16MB 7200rpm Hard Drives',
+    u'none']
+  PRODUCTS: [u'NAS24-32']
+OPTION: Removable HD Bay 2 :
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'128 GB SATA3  RealSSD C300',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'256 GB SATA3  RealSSD C300',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'512 GB SATA3 RealSSD C300',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [u'i7CORE', u'i7SHORT']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'3 TB SATA II Hard Drive',
+    u'500 GB SATA II Hard Drive',
+    u'750 GB SATA II Hard Drive']
+  PRODUCTS: [u'TR4X', u'MN4Lplus', u'TR8X', u'MS2UT', u'TR5M']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [u'OPT6', u'NSERVE', u'PREMIUM2', u'SIXPACK']
+OPTION: Removable HD Bay 3 :
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'128 GB SATA3  RealSSD C300',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'256 GB SATA3  RealSSD C300',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'512 GB SATA3 RealSSD C300',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [u'i7SHORT']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'3 TB SATA II Hard Drive',
+    u'500 GB SATA II Hard Drive',
+    u'750 GB SATA II Hard Drive']
+  PRODUCTS: [u'TR4X', u'MN4Lplus', u'TR8X', u'TR5M']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [u'PREMIUM2', u'OPT6', u'NSERVE', u'SIXPACK']
+OPTION: Removable HD Bay 4 :
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'3 TB SATA II Hard Drive',
+    u'500 GB SATA II Hard Drive',
+    u'750 GB SATA II Hard Drive']
+  PRODUCTS: [u'MN4Lplus', u'TR8X', u'TR4X', u'TR5M']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [u'OPT6', u'PREMIUM2', u'SIXPACK']
+OPTION: Removable HD Bay 5 :
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'3 TB SATA II Hard Drive',
+    u'500 GB SATA II Hard Drive',
+    u'750 GB SATA II Hard Drive']
+  PRODUCTS: [u'TR8X', u'TR5M']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [u'OPT6', u'PREMIUM2']
+OPTION: Removable HD Bay 6 :
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'3 TB SATA II Hard Drive',
+    u'500 GB SATA II Hard Drive',
+    u'750 GB SATA II Hard Drive']
+  PRODUCTS: [u'TR8X']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [u'OPT6', u'PREMIUM2']
+OPTION: Removable HD Bay 7 :
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'3 TB SATA II Hard Drive',
+    u'500 GB SATA II Hard Drive',
+    u'750 GB SATA II Hard Drive']
+  PRODUCTS: [u'TR8X']
+OPTION: Removable HD Bay 8 :
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'3 TB SATA II Hard Drive',
+    u'500 GB SATA II Hard Drive',
+    u'750 GB SATA II Hard Drive']
+  PRODUCTS: [u'TR8X']
+OPTION: Removable HD Bay 9 :
+OPTION: OS Drive :
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'3 TB SATA II Hard Drive',
+    u'500 GB SATA II Hard Drive',
+    u'750 GB SATA II Hard Drive',
+    u'none']
+  PRODUCTS: [u'NAS8']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'SAS U-300 1TB  16MB 7200 Hard Drive',
+    u'none']
+  PRODUCTS: [u'NAS6']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [u'NAS24']
+  CHOICES: [   u'2 x 1 TB SATA II HDs',
+    u'2 x 2 TB SATA II HDs',
+    u'2 x 2.5 TB SATA II HDs',
+    u'2 x 250 GB SATA II HDs',
+    u'2 x 3 TB SATA II HDs',
+    u'2 x 500 GB SATA II HDs',
+    u'2 x 750 GB SATA II HDs']
+  PRODUCTS: [u'NAS50']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'500 GB SATA II Hard Drive',
+    u'750 GB SATA II Hard Drive',
+    u'none']
+  PRODUCTS: [u'NAS32']
+OPTION: NIC1 :
+OPTION: NIC2 :
+OPTION: SCSI :
+OPTION: Cables :
+OPTION: SCSI Drive 1 :
+OPTION: SCSI Drive 2 :
+OPTION: SCSI Drive 3 :
+OPTION: SCSI Drive 4 :
+OPTION: SCSI Drive 5 :
+OPTION: SCSI Drive 6 :
+OPTION: SCSI Drive 7 :
+OPTION: SCSI Drive 8 :
+OPTION: Low Profile PCI :
+  CHOICES: [   u'Hauppage PVR-150 TV Tuner LowProfile',
+    u'Single port 10/100 Network card',
+    u'Single port GBe Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'BOOQ']
+OPTION: Low Profile PCI 2 :
+  CHOICES: [   u'Hauppage PVR-150 TV Tuner LowProfile',
+    u'Single port 10/100 Network card',
+    u'Single port GBe Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'BOOQ']
+OPTION: Low Profile PCI 3 :
+OPTION: Low Profile PCI Slot (node 1) :
+  CHOICES: [u'3ware 9650SE 2-port RAID LP PCI-E', u'none']
+  PRODUCTS: [u'TWINSERVE']
+OPTION: Low Profile PCI Slot (node 2) :
+  CHOICES: [u'3ware 9650SE 2-port RAID LP PCI-E', u'none']
+  PRODUCTS: [u'TWINSERVE']
+OPTION: Low Profile PCI-e :
+  CHOICES: [   u'NVIDIA GT210 PCI-E x16 512MB VGA,DVI,HDMI LP',
+    u'NVIDIA GT220 PCI-E x16 1MB VGA, DVI, HDMI LP',
+    u'NVIDIA GT430 PCI-E x16 1MB VGA, DVI, HDMI LP',
+    u'NVIDIA GTS450 PCI-E x16 1MB VGA, DVI, HDMI LP',
+    u'none']
+  PRODUCTS: [u'BOOQ']
+OPTION: Mini PCI Slot :
+  CHOICES: [u'WinModem', u'WinModem / Prism2.5 Wireless 802.11b']
+  PRODUCTS: [u'LAPTOP']
+OPTION: SATA II HD 1 :
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD']
+  PRODUCTS: [u'STUDIO3', u'STUDIO5', u'STUDIO7']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD']
+  PRODUCTS: [   u'EFFECTS',
+    u'QFX',
+    u'ZIMBRA',
+    u'SERVE',
+    u'OPTERNATOR48',
+    u'OPTERNATOR16',
+    u'QUIET2',
+    u'X4X4',
+    u'SOLO',
+    u'OPTERNATOR32',
+    u'H2O2U',
+    u'LITE',
+    u'QUIET',
+    u'PFOUR',
+    u'FOCUS',
+    u'PREMIUM',
+    u'OPT4100']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'1.5 TB SATA II Hard Drive',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'3 TB SATA II Hard Drive',
+    u'500 GB SATA II Hard Drive',
+    u'750 GB SATA II Hard Drive',
+    u'none']
+  PRODUCTS: [u'NAS3']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'3 TB SATA II Hard Drive',
+    u'500 GB SATA II Hard Drive',
+    u'750 GB SATA II Hard Drive']
+  PRODUCTS: [u'ENTERPRISE']
+OPTION: SATA II HD 2 :
+  CHOICES: [u'250 GB SATA II Hard Drive', u'none']
+  PRODUCTS: [u'ENTERPRISE']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [   u'QUIET2',
+    u'QFX',
+    u'OPTERNATOR48',
+    u'OPTERNATOR16',
+    u'EFFECTS',
+    u'FOCUS',
+    u'ZIMBRA',
+    u'X4X4',
+    u'SOLO',
+    u'OPTERNATOR32',
+    u'PREMIUM']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [u'STUDIO5', u'STUDIO7', u'STUDIO3']
+OPTION: SATA II HD 2 - Alt Chassis only :
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [u'PFOUR']
+OPTION: SATA II HD 3 :
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [   u'QUIET2',
+    u'OPTERNATOR16',
+    u'OPTERNATOR48',
+    u'EFFECTS',
+    u'ZIMBRA',
+    u'QFX',
+    u'X4X4',
+    u'SOLO',
+    u'OPTERNATOR32',
+    u'PREMIUM']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [u'STUDIO7']
+OPTION: SATA Drives :
+  CHOICES: [   u'1 x 120GB SATA3 Intel SSD 450MB/s R, 210MB/s W',
+    u'1 x 1TB 2.5in 5200rpm SATA2 Drive',
+    u'1 x 250GB SATA3 Intel SSD 500MB/s R, 315MB/s W',
+    u'1 x 256GB SATA3 Crucial SSD 355MB/s R, 215MB/s W',
+    u'1 x 500GB 2.5in 7200rpm 16MB cache SATA2 Drive',
+    u'1 x 512GB SATA3 Crucial SSD 355MB/s R, 215MB/s W',
+    u'1 x 64GB SATA3 Crucial SSD 355MB/s R, 215MB/s W',
+    u'1 x 750GB 2.5in 7200rpm 16MB cache SATA2 Drives',
+    u'16 x 120GB SATA3 Intel SSD 450MB/s R, 210MB/s W',
+    u'16 x 250GB SATA3 Intel SSD 500MB/s R, 315MB/s W',
+    u'16 x 256GB SATA3 Crucial SSD 355MB/s R, 215MB/s W',
+    u'16 x 500GB 2.5in 7200rpm 16MB cache SATA2 Drives',
+    u'16 x 512GB SATA3 Crucial SSD 355MB/s R, 215MB/s W',
+    u'16 x 64GB SATA3 Crucial SSD 355MB/s R, 215MB/s W',
+    u'16 x 750GB 2.5in 7200rpm 16MB cache SATA2 Drives',
+    u'4  x 500GB 2.5in 7200rpm 16MB cache SATA2 Drives',
+    u'4 x 120GB SATA3 Intel SSD 450MB/s R, 210MB/s W',
+    u'4 x 1TB 2.5in 5200rpm SATA2 Drives',
+    u'4 x 250GB SATA3 Intel SSD 500MB/s R, 315MB/s W',
+    u'4 x 256GB SATA3 Crucial SSD 355MB/s R, 215MB/s W',
+    u'4 x 512GB SATA3 Crucial SSD 355MB/s R, 215MB/s W',
+    u'4 x 64GB SATA3 Crucial SSD 355MB/s R, 215MB/s W',
+    u'4 x 750GB 2.5in 7200rpm 16MB cache SATA2 Drives',
+    u'8 x 120GB SATA3 Intel SSD 450MB/s R, 210MB/s W',
+    u'8 x 1TB 2.5in 5200rpm SATA2 Drives',
+    u'8 x 250GB SATA3 Intel SSD 500MB/s R, 315MB/s W',
+    u'8 x 256GB SATA3 Crucial SSD 355MB/s R, 215MB/s W',
+    u'8 x 500GB 2.5in 7200rpm 16MB cache SATA2 Drives',
+    u'8 x 512GB SATA3 Crucial SSD 355MB/s R, 215MB/s W',
+    u'8 x 64GB SATA3 Crucial SSD 355MB/s R, 215MB/s W',
+    u'8 x 750GB 2.5in 7200rpm 16MB cache SATA2 Drives']
+  PRODUCTS: [u'NAS16X']
+  CHOICES: [   u'2 x 1 TB SATA II HDs',
+    u'2 x 1.5 GB SATA II HDs',
+    u'2 x 2 TB SATA II HDs',
+    u'2 x 2.5 TB SATA II HDs',
+    u'2 x 250 GB SATA II HDs',
+    u'2 x 3 TB SATA II HDs',
+    u'2 x 500 GB SATA II HDs',
+    u'2 x 750 GB SATA II HDs',
+    u'none']
+  PRODUCTS: [u'NAS3']
+OPTION: SATA II HD 4 :
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [u'PREMIUM', u'EFFECTS', u'ZIMBRA', u'QFX']
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [u'STUDIO7']
+OPTION: SATA II (node 1) HD1 :
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD']
+  PRODUCTS: [u'TWINSERVE']
+OPTION: SATA II (node 1) HD2 :
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [u'TWINSERVE']
+OPTION: SATA II (node 2) HD1 :
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD']
+  PRODUCTS: [u'TWINSERVE']
+OPTION: SATA II (node 2) HD2 :
+  CHOICES: [   u'1 TB SATA II Hard Drive',
+    u'128 GB Flash Media SATA2 2.5" SSD',
+    u'2 TB SATA II Hard Drive',
+    u'2.5 TB  SATA II Hard Drive',
+    u'250 GB SATA II Hard Drive',
+    u'256 GB Flash Media SATA2 2.5" SSD',
+    u'3 TB SATA II Hard Drive',
+    u'32 GB Flash Media SATA II 2.5" SSD',
+    u'500 GB SATA II Hard Drive',
+    u'512 GB Flash Media SATA2 2.5" SSD',
+    u'750 GB SATA II Hard Drive',
+    u'96 GB Flash Media SATA2 2.5" SSD',
+    u'none']
+  PRODUCTS: [u'TWINSERVE']
+OPTION: SATA3 Drive 1 :
+  CHOICES: [   u'1.0 TB  SATA3 7200rpm Hard Drive',
+    u'128 GB SATA3  RealSSD C300',
+    u'2.0 TB SATA3 7200rpm Hard Drive',
+    u'256 GB SATA3  RealSSD C300',
+    u'320 GB SATA3 7200rpm Hard Drive',
+    u'500 GB SATA3 7200rpm Hard Drive',
+    u'512 GB SATA3 RealSSD C300',
+    u'600 GB SATA3 High Speed 10Krpm Hard Drive',
+    u'64 GB SATA3 RealSSD C300',
+    u'640 GB SATA3 7200rpm Hard Drive',
+    u'750 GB SATA3 7200rpm Hard Drive']
+  PRODUCTS: [u'FLAGSHIP', u'SANDYCORE']
+  CHOICES: [   u'1.0 TB  SATA3 7200rpm Hard Drive',
+    u'2.0 TB SATA3 7200rpm Hard Drive',
+    u'320 GB SATA3 7200rpm Hard Drive',
+    u'500 GB SATA3 7200rpm Hard Drive',
+    u'600 GB SATA3 High Speed 10Krpm Hard Drive',
+    u'640 GB SATA3 7200rpm Hard Drive',
+    u'750 GB SATA3 7200rpm Hard Drive',
+    u'none']
+  PRODUCTS: [u'NAS3']
+OPTION: SATA3 Drive 2 :
+  CHOICES: [   u'1.0 TB  SATA3 7200rpm Hard Drive',
+    u'128 GB SATA3  RealSSD C300',
+    u'2.0 TB SATA3 7200rpm Hard Drive',
+    u'256 GB SATA3  RealSSD C300',
+    u'320 GB SATA3 7200rpm Hard Drive',
+    u'500 GB SATA3 7200rpm Hard Drive',
+    u'512 GB SATA3 RealSSD C300',
+    u'600 GB SATA3 High Speed 10Krpm Hard Drive',
+    u'64 GB SATA3 RealSSD C300',
+    u'640 GB SATA3 7200rpm Hard Drive',
+    u'750 GB SATA3 7200rpm Hard Drive',
+    u'none']
+  PRODUCTS: [u'FLAGSHIP', u'SANDYCORE']
+OPTION: SATA3 Drive 3 :
+  CHOICES: [   u'1.0 TB  SATA3 7200rpm Hard Drive',
+    u'128 GB SATA3  RealSSD C300',
+    u'2.0 TB SATA3 7200rpm Hard Drive',
+    u'256 GB SATA3  RealSSD C300',
+    u'320 GB SATA3 7200rpm Hard Drive',
+    u'500 GB SATA3 7200rpm Hard Drive',
+    u'512 GB SATA3 RealSSD C300',
+    u'600 GB SATA3 High Speed 10Krpm Hard Drive',
+    u'64 GB SATA3 RealSSD C300',
+    u'640 GB SATA3 7200rpm Hard Drive',
+    u'750 GB SATA3 7200rpm Hard Drive',
+    u'none']
+  PRODUCTS: [u'FLAGSHIP']
+OPTION: SATA3 Drive 4 :
+  CHOICES: [   u'1.0 TB  SATA3 7200rpm Hard Drive',
+    u'128 GB SATA3  RealSSD C300',
+    u'2.0 TB SATA3 7200rpm Hard Drive',
+    u'256 GB SATA3  RealSSD C300',
+    u'320 GB SATA3 7200rpm Hard Drive',
+    u'500 GB SATA3 7200rpm Hard Drive',
+    u'512 GB SATA3 RealSSD C300',
+    u'600 GB SATA3 High Speed 10Krpm Hard Drive',
+    u'64 GB SATA3 RealSSD C300',
+    u'640 GB SATA3 7200rpm Hard Drive',
+    u'750 GB SATA3 7200rpm Hard Drive',
+    u'none']
+  PRODUCTS: [u'FLAGSHIP']
+OPTION: SATA3 Drives :
+  CHOICES: [   u'2 x 1.0 TB SATA3 7200rpm Hard Drives',
+    u'2 x 2.0 TB SATA3 7200rpm Hard Drives',
+    u'2 x 320 GB SATA3 7200rpm Hard Drives',
+    u'2 x 500 GB SATA3 7200rpm Hard Drives',
+    u'2 x 600 GB SATA3 High Speed 10Krpm Drives',
+    u'2 x 640 GB SATA3 7200rpm Hard Drives',
+    u'2 x 750 GB SATA3 7200rpm Hard Drives',
+    u'none']
+  PRODUCTS: [u'NAS3']
+  CHOICES: [   u'1.0 TB  SATA3 7200rpm Hard Drive',
+    u'2 x 1.0 TB SATA3 7200rpm Hard Drives',
+    u'2 x 2.0 TB SATA3 7200rpm Hard Drives',
+    u'2 x 3.0 TB SATA3 7200rpm Hard Drives',
+    u'2 x 500 GB SATA3 7200rpm Hard Drives',
+    u'2 x 600 GB SATA3 High Speed 10Krpm Drives',
+    u'2 x 750 GB SATA3 7200rpm Hard Drives',
+    u'2.0 TB SATA3 7200rpm Hard Drive',
+    u'3.0 TB SATA3 7200rpm Hard Drive',
+    u'4 x 1.0 TB SATA3 7200rpm Hard Drives',
+    u'4 x 2.0 TB SATA3 7200rpm Hard Drives',
+    u'4 x 3.0 TB SATA3 7200rpm Hard Drives',
+    u'4 x 500 GB SATA3 7200rpm Hard Drives',
+    u'4 x 600 GB SATA3 High Speed 10Krpm Drives',
+    u'4 x 750 GB SATA3 7200rpm Hard Drives',
+    u'500 GB SATA3 7200rpm Hard Drive',
+    u'6 x 1.0 TB SATA3 7200rpm Hard Drives',
+    u'6 x 2.0 TB SATA3 7200rpm Hard Drives',
+    u'6 x 3.0 TB SATA3 7200rpm Hard Drives',
+    u'6 x 500 GB SATA3 7200rpm Hard Drives',
+    u'6 x 600 GB SATA3 High Speed 10Krpm Drives',
+    u'6 x 750 GB SATA3 7200rpm Hard Drives',
+    u'600 GB SATA3 High Speed 10Krpm Hard Drive',
+    u'750 GB SATA3 7200rpm Hard Drive',
+    u'none']
+  PRODUCTS: [u'NAS6X']
+OPTION: SAS Drive 1 :
+  CHOICES: [   u'SAS2 1.0TB 7200rpm Hard Drive',
+    u'SAS2 2.0TB 7200rpm Hard Drive',
+    u'SAS2 300GB 10K rpm 16MB cache Drive',
+    u'SAS2 450GB 15K rpm 16MB cache Drive',
+    u'SAS2 600GB 15K rpm 16MB cache Hard Drive',
+    u'none']
+  PRODUCTS: [u'NAS3']
+OPTION: SAS Drives :
+  CHOICES: [   u'2 x SAS2 1.0TB 7200rpm Drives',
+    u'2 x SAS2 2.0TB 7200rpm Drives',
+    u'2 x SAS2 300GB 10K rpm 16MB cache Drives',
+    u'2 x SAS2 450GB 15K rpm 16MB cache Drives',
+    u'2 x SAS2 600GB 15K rpm 16MB cache Drives',
+    u'4 x SAS2 1.0TB 16MB 7200rpm Hard Drives',
+    u'4 x SAS2 2.0TB 16MB 7200rpm Hard Drives',
+    u'4 x SAS2 300GB 10K rpm 16MB cache Drives',
+    u'4 x SAS2 450GB 15K rpm 16MB cache Drives',
+    u'6 x SAS2 1.0TB 16MB 7200rpm Hard Drives',
+    u'6 x SAS2 2.0TB 16MB 7200rpm Hard Drives',
+    u'6 x SAS2 300GB 10K rpm 16MB cache Drives',
+    u'6 x SAS2 450MB 15K rpm 16MB cache Drives',
+    u'6 x SAS2 600GB 15K rpm 16MB cache Drives',
+    u'SAS2 1.0TB 7200rpm Hard Drive',
+    u'SAS2 2.0TB 7200rpm Hard Drive',
+    u'SAS2 300GB 10K rpm 16MB cache Drive',
+    u'SAS2 450GB 15K rpm 16MB cache Drive',
+    u'SAS2 600GB 15K rpm 16MB cache Hard Drive',
+    u'none']
+  PRODUCTS: [u'NAS6X']
+  CHOICES: [   u'2 x SAS2 1.0TB 7200rpm Drives',
+    u'2 x SAS2 2.0TB 7200rpm Drives',
+    u'2 x SAS2 300GB 10K rpm 16MB cache Drives',
+    u'2 x SAS2 450GB 15K rpm 16MB cache Drives',
+    u'2 x SAS2 600GB 15K rpm 16MB cache Drives',
+    u'none']
+  PRODUCTS: [u'NAS3']
+  CHOICES: [   u'1 x SAS2 147GB 10Krpm 16MB cache Drive',
+    u'1 x SAS2 300GB 15Krpm 16MB cache Drive',
+    u'1 x SAS2 500GB 7200rpm 16MB cache Drive',
+    u'16 x SAS2 147GB 10Krpm 16MB cache Drives',
+    u'16 x SAS2 300GB 15Krpm 16MB cache Drives',
+    u'16 x SAS2 500GB 7200rpm 16MB cache Drives',
+    u'4 x SAS2 147GB 10Krpm 16MB cache Drives',
+    u'4 x SAS2 300GB 15Krpm 16MB cache Drives',
+    u'4 x SAS2 500GB 7200rpm 16MB cache Drives',
+    u'8 x SAS2 147GB 10Krpm 16MB cache Drives',
+    u'8 x SAS2 300GB 15Krpm 16MB cache Drives',
+    u'8 x SAS2 500GB 7200rpm 16MB cache Drives',
+    u'none']
+  PRODUCTS: [u'NAS16X']
+OPTION: PCI 1 :
+  CHOICES: [   u'3ware 9690 RAID 8 ports SAS/SATA2 LP PCI-E',
+    u'3ware 9750-4I for RAID 0,1,5,6,10,50,S,JBOD 4-port',
+    u'LSI Logic 9211-4I for RAID 0,1,1E,10,JBOD 4-port',
+    u'LSI Logic SA3041E-R 4-port 3Gb/s SAS RAID Adapter',
+    u'Wireless a/b/g PCI card',
+    u'eSATA PCI card for external storage, 2-port',
+    u'eSATA PCI card for external storage, 4-port',
+    u'none']
+  PRODUCTS: [u'NAS6']
+  CHOICES: [   u'3ware 9550SXU 4-port RAID LP PCI-X',
+    u'3ware 9550SXU 8-port RAID LP PCI-X',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Remote management card',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'OPT6']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100 32-bit routerboard',
+    u'Asus My Cinema P7131',
+    u'Dual port Intel GbE Network card',
+    u'HDTV HD-5500 TV Tuner Card',
+    u'HDTV HD-5500 TV Tuner Card',
+    u'Hauppage WinTV-HVR-1110 TV Tuner Card',
+    u'Quad Port Intel GbE Network card',
+    u'Single port 10/100 Network card',
+    u'Single port GBe Network card',
+    u'Sound Blaster Audigy SE',
+    u'Sound Blaster X-Fi Xtreme Audio',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'QUBE']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Firewire PCI card',
+    u'Hauppage WinTV-HVR-1110 TV Tuner Card',
+    u'Intel Dual Port Gigabit Ethernet card',
+    u'OpenBSD-qualified 4-port 800Mbps Server card',
+    u'Sound Blaster Audigy 4 Pro 7.1 PCI',
+    u'Sound Blaster Audigy SE',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'H2O2U']
+  CHOICES: [   u'3ware 9650SE 12-port RAID ML PCI-E',
+    u'3ware 9650SE 16-port RAID ML PCI-E',
+    u'3ware 9650SE 24-port RAID ML PCI-E ',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Intel Pro/1000F Single-port Fiber Server Adapter',
+    u'Intel Pro/1000PT Dual-port Server Adapter ',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card']
+  PRODUCTS: [u'NAS32']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9750-24i4e SATA/SAS 24-port',
+    u'3ware 9750-4I for RAID 0,1,5,6,10,50,S,JBOD 4-port',
+    u'3ware 9750-8I for RAID 0,1,5,6,10,50,S,JBOD 8-port',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Intel Pro/1000F Single-port Fiber Server Adapter',
+    u'Intel Pro/1000PT Dual-port Server Adapter ',
+    u'LSI Logic MegaRAID SAS LSI9260-8i 8-portx4 RAID ',
+    u'LSI Logic MegaRAID SAS LSI9280DE 8-portx4 RAID ',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'NAS24-32']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100 32-bit routerboard',
+    u'Asus My Cinema P7131',
+    u'Dual port Intel GbE Network card',
+    u'HDTV HD-5500 TV Tuner Card',
+    u'Hauppage WinTV-HVR-1110 TV Tuner Card',
+    u'Quad Port Intel GbE Network card',
+    u'Single port 10/100 Network card',
+    u'Single port GBe Network card',
+    u'Sound Blaster Audigy SE',
+    u'Sound Blaster X-Fi Xtreme Audio',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [   u'DESQ',
+    u'SILENCE',
+    u'i7DESK',
+    u'i7CORE',
+    u'NSERVE',
+    u'SIXPACK',
+    u'i7SHORT',
+    u'AMDESK',
+    u'SANDYCORE']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'LSI Logic MegaRAID SATA II 8204ELP 4-Port ',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'SOLO']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100 32-bit routerboard',
+    u'ATI Radeon 9250 AGP 128 MB DDR TV-in&out,DVI',
+    u'Asus My Cinema P7131',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'FOCUS']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9650SE 12-port RAID ML PCI-E',
+    u'3ware 9650SE 24-port RAID ML PCI-E ',
+    u'3ware 9750-24i4e SATA/SAS 24-port',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Intel Pro/1000F Single-port Fiber Server Adapter',
+    u'Intel Pro/1000PT Dual-port Server Adapter ',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'NAS24', u'NAS50']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'OPT10BAY']
+OPTION: PCI :
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'External HD68 SCSI connector',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'PREMIUM']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9650SE 2-port RAID LP PCI-E',
+    u'3ware 9650SE 4-port RAID LP PCI-E',
+    u'4 port Network card 10/100/1000',
+    u'Intel Pro/1000MF Dual-port Fiber Server Adapter',
+    u'Intel Pro/1000PT Dual-port Server Adapter ',
+    u'Intel Pro/1000PT Single Port Server Adapter',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'QUIET2']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card']
+  PRODUCTS: [u'NAT', u'DMZ']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'2-port eSATA PCI card',
+    u'2-port eSATA RAID PCI card',
+    u'3-port Firewire PCI card',
+    u'3-port USB PCI card',
+    u'none']
+  PRODUCTS: [u'MS1CT', u'MS2UT', u'TR8X', u'TR5M', u'TR4X']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9650SE 4-port RAID LP PCI-E',
+    u'4 port Network card 10/100 32-bit routerboard',
+    u'Asus My Cinema P7131',
+    u'Dual port Intel GbE Network card',
+    u'HDTV HD-5500 TV Tuner Card',
+    u'Hauppage WinTV-HVR-1110 TV Tuner Card',
+    u'LSI Logic MegaRAID SATA II 8204ELP 4-Port ',
+    u'Quad Port Intel GbE Network card',
+    u'Single port 10/100 Network card',
+    u'Sound Blaster Audigy SE',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'QFX', u'FLAGSHIP']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9550SXU 4-port RAID LP PCI-X',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'ZIMBRA']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9650SE 4-port RAID LP PCI-E',
+    u'Asus My Cinema P7131',
+    u'Dual port Intel GbE Network card',
+    u'HDTV HD-5500 TV Tuner Card',
+    u'Hauppage WinTV-HVR-1110 TV Tuner Card',
+    u'LSI Logic MegaRAID SATA II 8204ELP 4-Port ',
+    u'Quad Port Intel GbE Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'STUDIO5', u'STUDIO3', u'STUDIO7']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9750-16i4e SATA/SAS 16-port',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Remote management card',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'PFOUR']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9750-4I for RAID 0,1,5,6,10,50,S,JBOD 4-port',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'LSI Logic 9211-4I for RAID 0,1,1E,10,JBOD 4-port',
+    u'LSI Logic SA3041E-R 4-port 3Gb/s SAS RAID Adapter',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'NAS3']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'DNS', u'MAIL', u'SSLW', u'WEB', u'OPTDESKTOP']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9750-4I for RAID 0,1,5,6,10,50,S,JBOD 4-port',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'LSI Logic 9211-4I for RAID 0,1,1E,10,JBOD 4-port',
+    u'LSI Logic MegaRAID SATA II 8204ELP 4-Port ',
+    u'LSI Logic SA3041E-R 4-port 3Gb/s SAS RAID Adapter',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'NAS4']
+  CHOICES: [   u'3ware 9550SXU 4-port RAID LP PCI-X',
+    u'3ware Escalade 8506 2 port RAID card',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'OPT4']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'External HD68 SCSI connector',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Remote management card',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none',
+    u'v.90 56K modem LP PCI card']
+  PRODUCTS: [u'VALUE']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Intel Pro/1000MF Dual-port Fiber Server Adapter',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'NAS12', u'NAS8', u'NAS6X']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100/1000',
+    u'Asus My Cinema P7131',
+    u'Dual port Intel GbE Network card',
+    u'External HD68 SCSI connector',
+    u'HDTV HD-5500 TV Tuner Card',
+    u'Hauppage WinTV-HVR-1110 TV Tuner Card',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Tascam PCI822 audio midi PCI (win)',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'SHORT']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9750-4I for RAID 0,1,5,6,10,50,S,JBOD 4-port',
+    u'LSI Logic 9211-4I for RAID 0,1,1E,10,JBOD 4-port',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000']
+  PRODUCTS: [u'SNORT']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'FLAT ATI HD theater decoder card',
+    u'FLAT Wireless antenna option',
+    u'FLAT mini 2-port serial card',
+    u'FLAT serial and parallel combo',
+    u'none']
+  PRODUCTS: [u'FLAT']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'External HD68 SCSI connector',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Remote management card',
+    u'Ribbon-cable riser for AMD motherboard',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'SERVE']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100/1000',
+    u'External HD68 SCSI connector',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Remote management card',
+    u'Ribbon-cable riser for AMD motherboard',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Tascam PCI822 audio midi PCI (win)',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'STUBBY']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9550SXU 4-port RAID LP PCI-X',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Remote management card',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'PREMIUM2']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Remote management card',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'QUIET']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9650SE 16-port RAID ML PCI-E',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'NAS16', u'NAS16X']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100 32-bit routerboard',
+    u'Intel Pro/1000PT Dual-port Server Adapter ',
+    u'Intel Pro/1000PT Single Port Server Adapter',
+    u'PCI Parallel card',
+    u'PCI Serial card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'LITE']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card']
+  PRODUCTS: [u'VPN']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9550SXU 4-port RAID LP PCI-X',
+    u'3ware Escalade 8506 2 port RAID card',
+    u'Asus My Cinema P7131',
+    u'Firewire PCI card',
+    u'Intel Pro/1000MF Dual-port Fiber Server Adapter',
+    u'Intel Pro/1000PT Dual-port Server Adapter ',
+    u'Intel Pro/1000PT Quad Port Server Adapter ',
+    u'Intel Pro/1000PT Single Port Server Adapter',
+    u'Netgear 302T 1000BaseTX (RJ45)',
+    u'Netgear 621 1000BaseSX (SC Fiber)',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Sound Blaster Audigy 4 Pro 7.1 PCI',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'EFFECTS']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'none']
+  PRODUCTS: [u'ENTERPRISE']
+OPTION: PCI 2 :
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100/1000',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'RJ45 (1000BaseTX) 32bit-PCI card',
+    u'Remote management card',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'eSATA PCI card for external storage, 2-port',
+    u'eSATA PCI card for external storage, 4-port',
+    u'none']
+  PRODUCTS: [u'NAS6']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'IPMI Module',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'SOLO']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Intel Pro/1000PT Quad Port Server Adapter ',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'none']
+  PRODUCTS: [u'NAS12', u'NAS16', u'NAS8', u'NAS6X', u'NAS16X']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100 32-bit routerboard',
+    u'Asus My Cinema P7131',
+    u'Dual port Intel GbE Network card',
+    u'Dual port Intel GbE Network card',
+    u'HDTV HD-5500 TV Tuner Card',
+    u'Hauppage WinTV-HVR-1110 TV Tuner Card',
+    u'Quad Port Intel GbE Network card',
+    u'Single port 10/100 Network card',
+    u'Single port GBe Network card',
+    u'Sound Blaster Audigy SE',
+    u'Sound Blaster X-Fi Xtreme Audio',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'SILENCE']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Hauppage WinTV-HVR-1110 TV Tuner Card',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'OpenBSD-qualified 4-port 800Mbps Server card',
+    u'Sound Blaster Audigy 4 Pro 7.1 PCI',
+    u'Sound Blaster Audigy SE',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'H2O2U']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100 32-bit routerboard',
+    u'Asus My Cinema P7131',
+    u'Dual port Intel GbE Network card',
+    u'HDTV HD-5500 TV Tuner Card',
+    u'Hauppage WinTV-HVR-1110 TV Tuner Card',
+    u'Quad Port Intel GbE Network card',
+    u'Single port 10/100 Network card',
+    u'Single port GBe Network card',
+    u'Sound Blaster Audigy SE',
+    u'Sound Blaster X-Fi Xtreme Audio',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'QUBE', u'i7DESK', u'AMDESK', u'DESQ']
+  CHOICES: [   u'3ware 9650SE 16-port RAID ML PCI-E',
+    u'3ware 9650SE 16-port RAID ML PCI-E',
+    u'3ware 9650SE 24-port RAID ML PCI-E ',
+    u'4 port Network card 10/100/1000',
+    u'Intel Pro/1000F Single-port Fiber Server Adapter',
+    u'Intel Pro/1000PT Dual-port Server Adapter ',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'NAS32']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9550SXU 4-port RAID LP PCI-X',
+    u'3ware 9550SXU 8-port RAID LP PCI-X',
+    u'4 port Network card 10/100/1000',
+    u'Intel Pro/1000F Single-port Fiber Server Adapter',
+    u'Intel Pro/1000PT Dual-port Server Adapter ',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Phobos P230 PCI Dual Fast Ethernet Adapter',
+    u'Phobos P430 PCI Quad Fast Ethernet Adapter',
+    u'RJ45 (1000BaseTX) 32bit-PCI card',
+    u'Remote management card',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'OPT6']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9650SE 24-port RAID ML PCI-E ',
+    u'3ware 9750-24i4e SATA/SAS 24-port',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Intel Pro/1000F Single-port Fiber Server Adapter',
+    u'Intel Pro/1000PT Dual-port Server Adapter ',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'NAS50']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9550SXU 8-port RAID LP PCI-X',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Gigabit Fiber NIC',
+    u'Intel Pro/1000F Single-port Fiber Server Adapter',
+    u'Intel Pro/1000PT Dual-port Server Adapter ',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'none']
+  PRODUCTS: [u'PREMIUM2']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9650SE 12-port RAID ML PCI-E',
+    u'3ware 9650SE 24-port RAID ML PCI-E ',
+    u'3ware 9750-24i4e SATA/SAS 24-port',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Intel Pro/1000F Single-port Fiber Server Adapter',
+    u'Intel Pro/1000PT Dual-port Server Adapter ',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'NAS24']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9750-24i4e SATA/SAS 24-port',
+    u'3ware 9750-4I for RAID 0,1,5,6,10,50,S,JBOD 4-port',
+    u'3ware 9750-8I for RAID 0,1,5,6,10,50,S,JBOD 8-port',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Intel Pro/1000F Single-port Fiber Server Adapter',
+    u'Intel Pro/1000PT Dual-port Server Adapter ',
+    u'LSI Logic MegaRAID SAS LSI9260-8i 8-portx4 RAID ',
+    u'LSI Logic MegaRAID SAS LSI9280DE 8-portx4 RAID ',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'NAS24-32']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'OPT10BAY']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100 32-bit routerboard',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Sound Blaster Audigy 4 Pro 7.1 PCI',
+    u'Sound Blaster Audigy Platinum EX ',
+    u'Sound Blaster X-Fi Xtreme Audio',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'FOCUS']
+OPTION: PCI 3 :
+  CHOICES: [   u'3ware 9550SXU 12-port RAID SGL PCI-X',
+    u'3ware 9650SE 16-port RAID ML PCI-E',
+    u'3ware 9650SE 24-port RAID ML PCI-E ',
+    u'4 port Network card 10/100/1000',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Quad Port Intel GbE Network card',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'NAS32']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'4 port Network card 10/100 32-bit routerboard',
+    u'Asus My Cinema P7131',
+    u'Dual port Intel GbE Network card',
+    u'Dual port Intel GbE Network card',
+    u'HDTV HD-5500 TV Tuner Card',
+    u'Hauppage WinTV-HVR-1110 TV Tuner Card',
+    u'Quad Port Intel GbE Network card',
+    u'Single port 10/100 Network card',
+    u'Sound Blaster Audigy SE',
+    u'Sound Blaster X-Fi Xtreme Audio',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'SILENCE']
+  CHOICES: [   u'3ware 9550SXU 12-port RAID SGL PCI-X',
+    u'3ware 9650SE 24-port RAID ML PCI-E ',
+    u'3ware 9750-24i4e SATA/SAS 24-port',
+    u'3ware 9750-4I for RAID 0,1,5,6,10,50,S,JBOD 4-port',
+    u'3ware 9750-8I for RAID 0,1,5,6,10,50,S,JBOD 8-port',
+    u'LSI Logic MegaRAID SAS LSI9260-8i 8-portx4 RAID ',
+    u'LSI Logic MegaRAID SAS LSI9280DE 8-portx4 RAID ',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'NAS24-32']
+  CHOICES: [   u'3ware 9650SE 24-port RAID ML PCI-E ',
+    u'3ware 9750-24i4e SATA/SAS 24-port',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'NAS50']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9550SXU 4-port RAID LP PCI-X',
+    u'4 port Network card 10/100/1000',
+    u'Dual port Intel GbE Network card',
+    u'Netgear GA311 Network adapter - PCI 10/100/1000',
+    u'Phobos P230 PCI Dual Fast Ethernet Adapter',
+    u'Phobos P430 PCI Quad Fast Ethernet Adapter',
+    u'Remote management card',
+    u'Single Intel 10/100 Network card',
+    u'Single port 10/100 Network card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'OPT6']
+  CHOICES: [   u'AOPEN PA45 SIS6236 4M 2x AGP card',
+    u'Generic video adapter',
+    u'MGC SIS6326 4MB AGP graphics card',
+    u'PINE XP-2800 SIS305 32MB 4X SGP card',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'NAS6']
+  CHOICES: [   u'3ware 9650SE 12-port RAID ML PCI-E',
+    u'3ware 9650SE 24-port RAID ML PCI-E ',
+    u'3ware 9750-24i4e SATA/SAS 24-port',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'NAS24']
+OPTION: PCI 4 :
+  CHOICES: [u'Wireless a/b/g PCI card', u'none']
+  PRODUCTS: [u'NAS24-32']
+  CHOICES: [   u'3ware 9650SE 24-port RAID ML PCI-E ',
+    u'3ware 9750-24i4e SATA/SAS 24-port',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'NAS50']
+  CHOICES: [   u'3ware 9650SE 16-port RAID ML PCI-E',
+    u'3ware 9650SE 24-port RAID ML PCI-E ',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'NAS32']
+  CHOICES: [   u'3ware 9650SE 12-port RAID ML PCI-E',
+    u'3ware 9650SE 24-port RAID ML PCI-E ',
+    u'3ware 9750-24i4e SATA/SAS 24-port',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'NAS24']
+OPTION: PCI-e :
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9650SE 4-port RAID PCI-E w/riser',
+    u'IPMI Module',
+    u'Wireless a/b/g PCI card',
+    u'none']
+  PRODUCTS: [u'OPTERNATOR16', u'OPTERNATOR48', u'X4X4', u'OPTERNATOR32', u'OPT4100']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'HighPoint RocketRAID 1720 2-Port RAID Controller',
+    u'NVIDIA GTX275 1280MB 2DVI DDR3',
+    u'NVIDIA GTX285 1GB 2DVI-I/DHCP TV-out SLI',
+    u'NVIDIA GeForce 9500GT 1GB VGA/DVI/HDMI video card',
+    u'NVIDIA Quadro FX1800 768MB DVI 2xDisplayPort',
+    u'NVIDIA Quadro FX380 256MB 2xDVI',
+    u'NVIDIA Quadro FX3800 1GB DVI 2xDisplayPort',
+    u'NVIDIA Quadro FX580 512MB DVI 2xDisplayPort',
+    u'NVIDIA Quadro FX5800 4GB DVI 2xDisplayPort',
+    u'none']
+  PRODUCTS: [u'i7DESK']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9650SE 2-port RAID LP PCI-E',
+    u'3ware 9650SE 4-port RAID LP PCI-E',
+    u'none']
+  PRODUCTS: [u'PREMIUM']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'HighPoint RocketRAID 1720 2-Port RAID Controller',
+    u'none']
+  PRODUCTS: [u'QUBE']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'Asus Xonar DX sound card',
+    u'HighPoint RocketRAID 1720 2-Port RAID Controller',
+    u'NVIDIA GTX275 1280MB 2DVI DDR3',
+    u'NVIDIA GTX285 1GB 2DVI-I/DHCP TV-out SLI',
+    u'NVIDIA GeForce 9500GT 1GB VGA/DVI/HDMI video card',
+    u'NVIDIA Quadro FX1800 768MB DVI 2xDisplayPort',
+    u'NVIDIA Quadro FX380 256MB 2xDVI',
+    u'NVIDIA Quadro FX3800 1GB DVI 2xDisplayPort',
+    u'NVIDIA Quadro FX580 512MB DVI 2xDisplayPort',
+    u'NVIDIA Quadro FX5800 4GB DVI 2xDisplayPort',
+    u'none']
+  PRODUCTS: [u'DESQ', u'AMDESK']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'HighPoint RocketRAID 1720 2-Port RAID Controller',
+    u'NVIDIA GTX275 1280MB 2DVI DDR3',
+    u'NVIDIA GTX285 1GB 2DVI-I/DHCP TV-out SLI',
+    u'NVIDIA GeForce 9500GT 1GB VGA/DVI/HDMI video card',
+    u'none']
+  PRODUCTS: [u'QFX', u'SILENCE']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9650SE 2-port RAID LP PCI-E',
+    u'HighPoint RocketRAID 1720 2-Port RAID Controller',
+    u'none']
+  PRODUCTS: [u'ENTERPRISE']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9650SE 2-port RAID LP PCI-E',
+    u'3ware 9690 RAID 4 ports SAS/SATA2 LP PCI-E ',
+    u'HighPoint RocketRAID 1720 2-Port RAID Controller',
+    u'NVIDIA GTX275 1280MB 2DVI DDR3',
+    u'NVIDIA GTX285 1GB 2DVI-I/DHCP TV-out SLI',
+    u'NVIDIA Quadro FX1800 768MB DVI 2xDisplayPort',
+    u'NVIDIA Quadro FX380 256MB 2xDVI',
+    u'NVIDIA Quadro FX3800 1GB DVI 2xDisplayPort',
+    u'NVIDIA Quadro FX580 512MB DVI 2xDisplayPort',
+    u'NVIDIA Quadro FX5800 4GB DVI 2xDisplayPort',
+    u'none']
+  PRODUCTS: [u'NSERVE', u'SIXPACK']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'NVIDIA GeForce 9400GT 1GB DVI HDMI video card',
+    u'NVIDIA GeForce 9400GT 512KB video card',
+    u'NVIDIA GeForce 9600GT 512KB video card',
+    u'NVIDIA GeForce 9800GT 1GB video card',
+    u'NVIDIA GeForce 9800GT 512KB DVI video card',
+    u'none']
+  PRODUCTS: [u'i7SHORT']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'HighPoint RocketRAID 1720 2-Port RAID Controller',
+    u'NVIDIA GTX275 1280MB 2DVI DDR3',
+    u'NVIDIA GTX285 1GB 2DVI-I/DHCP TV-out SLI',
+    u'NVIDIA Quadro FX1800 768MB DVI 2xDisplayPort',
+    u'NVIDIA Quadro FX380 256MB 2xDVI',
+    u'NVIDIA Quadro FX3800 1GB DVI 2xDisplayPort',
+    u'NVIDIA Quadro FX580 512MB DVI 2xDisplayPort',
+    u'NVIDIA Quadro FX5800 4GB DVI 2xDisplayPort',
+    u'none']
+  PRODUCTS: [u'i7CORE', u'SANDYCORE']
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'3ware 9650SE 4-port RAID LP PCI-E',
+    u'3ware 9650SE 8-port RAID LP PCI-E',
+    u'HighPoint RocketRAID 1720 2-Port RAID Controller',
+    u'none']
+  PRODUCTS: [u'OPTDESKTOP']
+OPTION: PCI-e 2 :
+  CHOICES: [   u'10GbE  Intel X520-T2 2-port RJ-4 network',
+    u'10GbE Intel PCI-E SFP+ Fiber Optic network',
+    u'10GbE Universal 2-port CX4 copper network',
+    u'Asus Xonar DX sound card',
+    u'HighPoint RocketRAID 1720 2-Port RAID Controller',
+    u'NVIDIA GTX275 1280MB 2DVI DDR3',
+    u'NVIDIA GTX285 1GB 2DVI-I/DHCP TV-out SLI',
+    u'NVIDIA GeForce 9500GT 1GB VGA/DVI/HDMI video card',
+    u'NVIDIA Quadro FX1800 768MB DVI 2xDisplayPort',
+    u'NVIDIA Quadro FX380 256MB 2xDVI',
+    u'NVIDIA Quadro FX3800 1GB DVI 2xDisplayPort',
+    u'NVIDIA Quadro FX580 512MB DVI 2xDisplayPort',
+    u'NVIDIA Quadro FX5800 4GB DVI 2xDisplayPort',
+    u'none']
+  PRODUCTS: [u'AMDESK', u'DESQ']
+OPTION: PCMCIA :
+  CHOICES: [   u'802.11a/b dual band PCMCIA Wireless NIC',
+    u'802.11b PCMCIA Wireless NIC ',
+    u'none']
+  PRODUCTS: [u'LAPTOP']
+OPTION: PCMCIA 2 :
+OPTION: Remote Management - 2U :
+  CHOICES: [u'Remote management card', u'none']
+  PRODUCTS: [u'NAT', u'DMZ', u'VPN']
+OPTION: Add-ons :
+  CHOICES: [u'3ware RAID card Battery Backup option ', u'none']
+  PRODUCTS: [   u'NAS3',
+    u'NAS4',
+    u'NAS6',
+    u'NAS24',
+    u'NAS16',
+    u'NAS12',
+    u'NAS32',
+    u'NAS8',
+    u'NAS50',
+    u'NAS24-32',
+    u'NAS6X',
+    u'NAS16X']
+OPTION: Rack :
+  CHOICES: [u'27U 35inD 19in Rackmount Cabinet  ']
+  PRODUCTS: [u'rackcabinet']
+  CHOICES: []
+  PRODUCTS: [u'CONTAINER']
+OPTION: Fixed shelf :
+  CHOICES: [u'1U 30inD 19in Rackmount Shelf, Fixed ']
+  PRODUCTS: [u'rackcabinet']
+  CHOICES: []
+  PRODUCTS: [u'CONTAINER']
+OPTION: Rail kits :
+  CHOICES: [   u'Center Mount Brackets for 2U-4U chassis',
+    u'Rail kit, one pair 20" (20-26" depth)',
+    u'Rear Mount Brackets for 2U-4U chassis',
+    u'none']
+  PRODUCTS: [u'STUDIO5', u'STUDIO3', u'STUDIO7']
+  CHOICES: [   u'Center Mount Brackets for 1U chassis',
+    u'Rail kit, one pair 20" (20-26" depth)',
+    u'Rear Mount Brackets for 1U chassis',
+    u'none']
+  PRODUCTS: [u'LITE']
+  CHOICES: []
+  PRODUCTS: [u'CONTAINER']
+  CHOICES: [   u'Center Mount Brackets for 1U chassis',
+    u'Rail kit, one pair 26" (26-34" depth)',
+    u'Rear Mount Brackets for 1U chassis',
+    u'none']
+  PRODUCTS: [u'ENTERPRISE']
+  CHOICES: [   u'Center Mount Brackets for 1U chassis',
+    u'Center Mount Brackets for 2U-4U chassis',
+    u'Rail kit, one pair 20" (20-26" depth)',
+    u'Rail kit, one pair 26" (26-34" depth)',
+    u'Rear Mount Brackets for 1U chassis',
+    u'Rear Mount Brackets for 2U-4U chassis']
+  PRODUCTS: [u'railkits']
+OPTION: Rails and Brackets :
+  CHOICES: [   u'Center Mount Brackets for 1U chassis',
+    u'Center Mount Brackets for 2U-4U chassis',
+    u'Rear Mount Brackets for 1U chassis',
+    u'Rear Mount Brackets for 2U-4U chassis',
+    u'Sliding Rails for 1U chassis',
+    u'Sliding Rails, 20", for 2U-4U chassis',
+    u'Sliding Rails, 26", for 2U-4U chassis',
+    u'none']
+  PRODUCTS: [u'QUIET', u'SERVE', u'DMZ', u'DNS', u'MAIL', u'NAT', u'SSLW']
+  CHOICES: [   u'Center Mount Brackets for 2U-4U chassis',
+    u'Rear Mount Brackets for 2U-4U chassis',
+    u'Sliding Rails, 26", for 2U-4U chassis',
+    u'none']
+  PRODUCTS: [u'NAS6']
+  CHOICES: [   u'Center Mount Brackets for 2U-4U chassis',
+    u'Rear Mount Brackets for 2U-4U chassis',
+    u'Sliding Rails, 20", for 2U-4U chassis',
+    u'Sliding Rails, 26", for 2U-4U chassis',
+    u'none']
+  PRODUCTS: [   u'OPT6',
+    u'PREMIUM2',
+    u'NAS12',
+    u'NAS16',
+    u'EFFECTS',
+    u'QUIET2',
+    u'NAS8',
+    u'NAS6X']
+  CHOICES: []
+  PRODUCTS: [u'CONTAINER']
+  CHOICES: [   u'Center Mount Brackets for 1U chassis',
+    u'Rear Mount Brackets for 1U chassis',
+    u'Sliding Rails for 1U chassis',
+    u'none']
+  PRODUCTS: [   u'ZIMBRA',
+    u'SHORT',
+    u'STUBBY',
+    u'NAS4',
+    u'NAS3',
+    u'OPT4',
+    u'VALUE',
+    u'PREMIUM',
+    u'WEB',
+    u'PFOUR',
+    u'SNORT',
+    u'VPN',
+    u'TWINGUARD']
+OPTION: Fixed shelf 2 :
+OPTION: Keyboard shelf :
+  CHOICES: [u'none']
+  PRODUCTS: [u'CONTAINER']
+OPTION: Power strip :
+  CHOICES: [u'17in 15AMP/115VAC Power strip', u'none']
+  PRODUCTS: [u'rackcabinet']
+OPTION: Keyboard and Mouse :
+  CHOICES: [u'Black Keyboard with standard mouse', u'none']
+  PRODUCTS: [u'STUDIO5', u'QFX', u'STUDIO7', u'STUDIO3']
+  CHOICES: [   u'KeyTronic Keyboard standard PS/2',
+    u'Keyboard and Mouse',
+    u'Logitech 3 Button PS/2 Mouse',
+    u'none']
+  PRODUCTS: [   u'NAT',
+    u'VALUE',
+    u'DMZ',
+    u'SERVE',
+    u'DNS',
+    u'MAIL',
+    u'VPN',
+    u'SSLW',
+    u'WEB',
+    u'PREMIUM',
+    u'QUIET',
+    u'SNORT',
+    u'PFOUR',
+    u'NAS6',
+    u'SHORT',
+    u'OPT6',
+    u'OPT10BAY',
+    u'NAS24',
+    u'OPTDESKTOP',
+    u'PREMIUM2',
+    u'NAS12',
+    u'NAS16',
+    u'NAS4',
+    u'NAS3',
+    u'OPT4',
+    u'NAS32',
+    u'NAS8',
+    u'NAS24-32']
+  CHOICES: [   u'Black Keyboard with standard mouse',
+    u'KeyTronic Keyboard standard PS/2',
+    u'Keyboard and Mouse',
+    u'Logitech 3 Button PS/2 Mouse',
+    u'Logitech Optical Mouse with scroll wheel',
+    u'NXZT Avatar gaming mouse 2600 dpi',
+    u'NXZT gaming mouse & Logitech wireless keyboard',
+    u'none']
+  PRODUCTS: [u'i7DESK']
+  CHOICES: [   u'Black Keyboard with standard mouse',
+    u'NXZT Avatar gaming mouse 2600 dpi',
+    u'NXZT gaming mouse & Logitech wireless keyboard',
+    u'none']
+  PRODUCTS: [u'FLAGSHIP']
+  CHOICES: [   u'KeyTronic Keyboard standard PS/2',
+    u'Keyboard and Mouse',
+    u'Logitech 3 Button PS/2 Mouse',
+    u'Logitech Optical Mouse with scroll wheel',
+    u'none']
+  PRODUCTS: [u'QUBE', u'DESQ', u'BOOQ', u'SILENCE', u'LEAF', u'AMDESK']
+  CHOICES: [   u'Black Keyboard with standard mouse',
+    u'Black Keyboard with standard mouse',
+    u'KeyTronic Keyboard standard PS/2',
+    u'Keyboard and Mouse',
+    u'Logitech 3 Button PS/2 Mouse',
+    u'Logitech Optical Mouse with scroll wheel',
+    u'none']
+  PRODUCTS: [u'EFFECTS']
+OPTION: Wheels :
+OPTION: Mouse :
+  CHOICES: [u'Logitech VX Nano Cordless Mouse for Notebooks', u'Notebook Mouse', u'none']
+  PRODUCTS: [u'Accessories', u'LAPTOP']
+OPTION: Monitor :
+  CHOICES: [   u'Monitor LCD 17in 1280 x 1024, 1000:1',
+    u'Monitor LCD 17in 1400 x 900, 500:1',
+    u'Monitor LCD 19in 1440 x 900, 2000:1',
+    u'Monitor LCD 20in 1680 x 1050, 2500:1',
+    u'Monitor LCD 21.1in 1920 x 1080, 12000:1',
+    u'Monitor LCD 22in 1680 x 1050, 2500:1',
+    u'Monitor LCD 24in 1920 x 1200, 10000:1',
+    u'none']
+  PRODUCTS: [   u'STUDIO5',
+    u'SILENCE',
+    u'STUDIO7',
+    u'QFX',
+    u'STUDIO3',
+    u'LEAF',
+    u'i7DESK',
+    u'AMDESK',
+    u'BOOQ',
+    u'DESQ',
+    u'QUBE',
+    u'FLAGSHIP']
+  CHOICES: [u'LCDKBD 1U 15in LCD', u'LCDKBD-T-KVM 1U 15in LCD Touchpad, 8 KVM']
+  PRODUCTS: [u'LCDKBD']
+  CHOICES: [u'Monitor resolution 1024 x 768', u'Monitor resolution 1400 x 1050']
+  PRODUCTS: [u'TABLET']
+  CHOICES: [   u'10.4in LCD Panel 4U Rackmount ',
+    u'10.4in LCD Panel 4U Rackmount S-video input',
+    u'10.4in LCD Panel 4U Rackmount S-video speakers',
+    u'10.4in LCD Panel 4U Rackmount w/ speakers']
+  PRODUCTS: [u'LCD4U']
+  CHOICES: [   u'15in LCD Panel 6U Rackmount',
+    u'15in LCD Panel 6U Rackmount S-Video DVI inputs',
+    u'15in LCD Panel 6U Rackmount S-Video input']
+  PRODUCTS: [u'LCD6U']
+OPTION: Operating System :
+  CHOICES: [   u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Core 2 x86_64 ',
+    u'Fedora Linux 14',
+    u'FreeBSD/amd64',
+    u'Mandrake Linux Corporate Server 2.1 for AMD64',
+    u'NetBSD/amd64',
+    u'No OS - (tested with Ubuntu)',
+    u'OpenBSD/amd64',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'SuSE Linux AMD64 (download edition)',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'OPT10BAY']
+  CHOICES: [   u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Core 2 x86_64 ',
+    u'FreeBSD/amd64',
+    u'Mandriva Linux 2010',
+    u'NetBSD/amd64',
+    u'No OS - (tested with Ubuntu)',
+    u'OpenBSD/amd64',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise ES',
+    u'SuSE Linux AMD64 (download edition)',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'OPT6']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'FreeBSD/amd64',
+    u'Gentoo Linux ',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'NetBSD/amd64',
+    u'Novell SUSE Linux Enterprise Server 11 ',
+    u'OpenBSD 4.9',
+    u'OpenBSD/amd64',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'SuSE Linux AMD64 (download edition)',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'NAS16', u'NAS16X']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'ELX Linux',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Freespire 2.0',
+    u'Gentoo Linux ',
+    u'Linux Mint 6',
+    u'MS Windows 7 Home Premium',
+    u'MS Windows 7 Professional',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'No OS - (tested with Ubuntu)',
+    u'OpenBSD 4.9',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'SimplyMEPIS Linux 6.0',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition',
+    u'Xandros Deluxe',
+    u'Xandros Standard']
+  PRODUCTS: [u'QUBE']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Gentoo Linux ',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'No OS - (tested with Ubuntu)',
+    u'OpenBSD 4.8',
+    u'OpenBSD 4.9',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'STUBBY']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'ELX Linux',
+    u'Fedora Linux 14',
+    u'FreeBSD production 8',
+    u'Freespire 2.0',
+    u'Linux Mint 6',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'OpenBSD 4.9',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'SimplyMEPIS Linux 6.0',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition',
+    u'Xandros Deluxe',
+    u'Xandros Standard',
+    u'icepack Linux']
+  PRODUCTS: [u'THINKPAL']
+  CHOICES: [   u'Dual Boot operating systems (specify in NOTES)',
+    u'Fedora Linux 14',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Windows Vista Home Basic']
+  PRODUCTS: [u'NIMBUS']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Gentoo Linux ',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'Novell SUSE Linux Enterprise Server 11 ',
+    u'OpenBSD 4.9',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'NAS4', u'NAS6']
+  CHOICES: [u'FreeBSD production 8', u'OpenBSD 4.9']
+  PRODUCTS: [u'TWINGUARD']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'FreeBSD/amd64',
+    u'Gentoo Linux ',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'NetBSD/amd64',
+    u'Novell SUSE Linux Enterprise Desktop 11',
+    u'Novell SUSE Linux Enterprise Server 11 ',
+    u'OpenBSD 4.9',
+    u'Red Hat&reg; Linux Advanced Server AMD64 (as ava',
+    u'Red Hat&reg; Linux Enterprise ES',
+    u'SuSE Linux AMD64 (download edition)',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'ENTERPRISE']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Gentoo Linux ',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'Novell SUSE Linux Enterprise Server 11 ',
+    u'OpenBSD 4.9',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'SNORT', u'WEB', u'MAIL', u'SSLW', u'VPN', u'NAS3']
+  CHOICES: [   u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'Fedora Linux 7 ',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Freespire 2.0',
+    u'Linux 8.0 (redhat.com download edition)',
+    u'Linux 9  (redhat.com download edition)',
+    u'Mandriva Linux 2010',
+    u'No OS - (tested with Ubuntu)',
+    u'Novell SUSE Linux Enterprise Server 11 ',
+    u'OpenBSD 4.8',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'SimplyMEPIS Linux 6.0',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'LAPTOP']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Customer-provided custom Linux OS + software',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Freespire 2.0',
+    u'Gentoo Linux ',
+    u'Linux 9  (redhat.com download edition)',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'No OS - (tested with Ubuntu)',
+    u'Novell SUSE Linux Enterprise Desktop 11',
+    u'Novell SUSE Linux Enterprise Server 11 ',
+    u'OpenBSD 4.8',
+    u'OpenBSD 4.9',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise ES',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'SimplyMEPIS Linux 6.0',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition',
+    u'Xandros Standard']
+  PRODUCTS: [u'QUIET2']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Gentoo Linux ',
+    u'Novell SUSE Linux Enterprise Server 11 ',
+    u'OpenBSD 4.9',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'NAS24', u'NAS50', u'NAS24-32']
+  CHOICES: [   u'Dual Boot operating systems (specify in NOTES)',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'MS Windows 7 Home Premium',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition']
+  PRODUCTS: [u'CUMULUS']
+  CHOICES: [u'Linux (Asus)', u'Ubuntu-eee installation']
+  PRODUCTS: [u'Eee']
+  CHOICES: [   u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'MS Windows 7 Home Premium',
+    u'MS Windows 7 Professional',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition']
+  PRODUCTS: [u'STRATUS']
+  CHOICES: [   u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'FreeBSD/amd64',
+    u'Gentoo Linux ',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'NetBSD/amd64',
+    u'OpenBSD 4.9',
+    u'OpenBSD/amd64',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise ES',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'OPT4']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'ELX Linux',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Freespire 2.0',
+    u'Gentoo Linux ',
+    u'Linux Mint 6',
+    u'MS Windows 7 Home Premium',
+    u'MS Windows 7 Professional',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'No OS - (tested with Ubuntu)',
+    u'Novell SUSE Linux Enterprise Desktop 11',
+    u'Novell SUSE Linux Enterprise Desktop 11',
+    u'Novell SUSE Linux Enterprise Server 11 ',
+    u'OpenBSD 4.9',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'SimplyMEPIS Linux 6.0',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition',
+    u'Xandros Deluxe',
+    u'Xandros Standard',
+    u'icepack Linux']
+  PRODUCTS: [u'SILENCE']
+  CHOICES: [   u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'ELX Linux',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Gentoo Linux ',
+    u'Linux 9  (redhat.com download edition)',
+    u'Linux Mint 6',
+    u'Lycoris (Redmond) Linux',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'OpenBSD 4.8',
+    u'OpenBSD 4.9',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'SimplyMEPIS Linux 6.0',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition',
+    u'Xandros Deluxe',
+    u'Xandros Standard',
+    u'icepack Linux']
+  PRODUCTS: [u'GAMER']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Gentoo Linux ',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'No OS - (tested with Ubuntu)',
+    u'Novell SUSE Linux Enterprise Server 11 ',
+    u'OpenBSD 4.9',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'VALUE', u'QUIET', u'SERVE', u'PFOUR', u'SHORT', u'PREMIUM2']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Gentoo Linux ',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'Novell SUSE Linux Enterprise Server 11 ',
+    u'OpenBSD 4.9',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Advanced Server AMD64 (as ava',
+    u'Red Hat&reg; Linux Enterprise ES',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'ZIMBRA']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Core 2 x86_64 ',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'FreeBSD/amd64',
+    u'Gentoo Linux ',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'NetBSD/amd64',
+    u'Novell SUSE Linux Enterprise Server 11 ',
+    u'OpenBSD 4.9',
+    u'OpenBSD/amd64',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'NAS12', u'NAS8', u'NAS6X']
+  CHOICES: [   u'Dual Boot operating systems (specify in NOTES)',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'MS Windows 7 Home Premium',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu-eee installation']
+  PRODUCTS: [u'CIRRUS']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Freespire 2.0',
+    u'Gentoo Linux ',
+    u'NetBSD 5',
+    u'No OS - (tested with Ubuntu)',
+    u'OpenBSD 4.8',
+    u'OpenBSD 4.9',
+    u'SimplyMEPIS Linux 6.0',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'TWINSERVE']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'ELX Linux',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'FreeBSD 4.9',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'FreeBSD/amd64',
+    u'Freespire 2.0',
+    u'Gentoo Linux ',
+    u'Mandrake Linux Corporate Server 2.1 for AMD64',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'NetBSD/amd64',
+    u'No OS - (tested with Ubuntu)',
+    u'Novell SUSE Linux Enterprise Server 11 ',
+    u'OpenBSD 4.9',
+    u'OpenBSD/amd64',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'SuSE Linux AMD64 (download edition)',
+    u'SuSE Linux Enterprise Server 8 for AMD64',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition',
+    u'Xandros Deluxe']
+  PRODUCTS: [u'NAS32']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'ELX Linux',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Freespire 2.0',
+    u'Gentoo Linux ',
+    u'Linux Mint 6',
+    u'MS Windows 7 Home Premium',
+    u'MS Windows 7 Professional',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'No OS - (tested with Ubuntu)',
+    u'Novell SUSE Linux Enterprise Desktop 11',
+    u'OpenBSD 4.9',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'SimplyMEPIS Linux 6.0',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition',
+    u'Xandros Deluxe',
+    u'Xandros Standard',
+    u'icepack Linux']
+  PRODUCTS: [   u'DESQ',
+    u'i7DESK',
+    u'i7CORE',
+    u'NSERVE',
+    u'SIXPACK',
+    u'i7SHORT',
+    u'AMDESK',
+    u'SANDYCORE']
+  CHOICES: [   u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Mandriva Linux 2010',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'TABLET']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'Novell SUSE Linux Enterprise Server 11 ',
+    u'OpenBSD 4.9',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'NAT']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Gentoo Linux ',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'OpenBSD 4.9',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'DMZ']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'ELX Linux',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Freespire 2.0',
+    u'Gentoo Linux ',
+    u'Linux Mint 6',
+    u'MS Windows 7 Home Premium',
+    u'MS Windows 7 Professional',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'No OS - (tested with Ubuntu)',
+    u'Novell SUSE Linux Enterprise Desktop 11',
+    u'OpenBSD 4.9',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'SimplyMEPIS Linux 6.0',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition',
+    u'Xandros Deluxe',
+    u'Xandros Standard',
+    u'icepack Linux']
+  PRODUCTS: [u'BOOQ']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Core 2 x86_64 ',
+    u'FreeBSD/amd64',
+    u'NetBSD/amd64',
+    u'No OS - (tested with Ubuntu)',
+    u'OpenBSD/amd64',
+    u'SuSE Linux AMD64 (download edition)',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'OPTDESKTOP']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'ELX Linux',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Freespire 2.0',
+    u'Gentoo Linux ',
+    u'Linux 9  (redhat.com download edition)',
+    u'Linux Mint 6',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'No OS - (tested with Ubuntu)',
+    u'Novell SUSE Linux Enterprise Desktop 11',
+    u'Novell SUSE Linux Enterprise Server 11 ',
+    u'OpenBSD 4.8',
+    u'OpenBSD 4.9',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Advanced Server AMD64 (as ava',
+    u'Red Hat&reg; Linux Enterprise ES',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'SimplyMEPIS Linux 6.0',
+    u'SuSE Linux Enterprise Server 8 for AMD64',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'H2O2U']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Gentoo Linux ',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'OpenBSD 4.9',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'DNS']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'ELX Linux',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Freespire 2.0',
+    u'Gentoo Linux ',
+    u'Linux Mint 6',
+    u'MS Windows 7 Home Premium',
+    u'MS Windows 7 Professional',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'No OS - (tested with Ubuntu)',
+    u'Novell SUSE Linux Enterprise Desktop 11',
+    u'OpenBSD 4.9',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'SimplyMEPIS Linux 6.0',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Xandros Deluxe',
+    u'Xandros Standard',
+    u'icepack Linux']
+  PRODUCTS: [u'LEAF']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Core 2 x86_64 ',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'FreeBSD/amd64',
+    u'Freespire 2.0',
+    u'Gentoo Linux ',
+    u'Linux 9  (redhat.com download edition)',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'NetBSD/amd64',
+    u'No OS - (tested with Ubuntu)',
+    u'Novell SUSE Linux Enterprise Desktop 11',
+    u'OpenBSD 4.8',
+    u'OpenBSD 4.9',
+    u'OpenBSD/amd64',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise ES',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'SimplyMEPIS Linux 6.0',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition',
+    u'Xandros Deluxe']
+  PRODUCTS: [u'FOCUS']
+  CHOICES: [   u'Fedora Linux 14',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [   u'OPTERNATOR16',
+    u'OPTERNATOR48',
+    u'X4X4',
+    u'SOLO',
+    u'OPTERNATOR32',
+    u'OPT4100']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Gentoo Linux ',
+    u'MS Windows 7 Home Premium',
+    u'MS Windows 7 Professional',
+    u'NetBSD 5',
+    u'No OS - (tested with Ubuntu)',
+    u'Novell SUSE Linux Enterprise Desktop 11',
+    u'OpenBSD 4.8',
+    u'OpenBSD 4.9',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition',
+    u'Xandros Deluxe',
+    u'Xandros Standard']
+  PRODUCTS: [u'QFX', u'FLAGSHIP']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Gentoo Linux ',
+    u'MS Windows 7 Professional',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'No OS - (tested with Ubuntu)',
+    u'Novell SUSE Linux Enterprise Server 11 ',
+    u'OpenBSD 4.9',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'PREMIUM']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Customer-provided custom Linux OS + software',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Linux 14',
+    u'FreeBSD production 8',
+    u'Freespire 2.0',
+    u'LRP-based firewall',
+    u'MS Windows 2000 Prof',
+    u'NetBSD 5',
+    u'No OS - (tested with Ubuntu)',
+    u'OpenBSD 4.8',
+    u'OpenBSD 4.9',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'LITE']
+  CHOICES: [   u'CentOS Linux 5',
+    u'Debian Linux - development ',
+    u'Debian Linux - stable v6.0.0',
+    u'Debian Linux - testing ',
+    u'Fedora Linux 13',
+    u'Fedora Linux 14',
+    u'FreeBSD legacy 7',
+    u'FreeBSD production 8',
+    u'Gentoo Linux ',
+    u'Mandriva Linux 2010',
+    u'NetBSD 5',
+    u'No OS - (tested with Ubuntu)',
+    u'Novell SUSE Linux Enterprise Desktop 11',
+    u'Novell SUSE Linux Enterprise Server 11 ',
+    u'OpenBSD 4.9',
+    u'OpenSUSE 11.4  (or specify version)',
+    u'PCLinuxOS',
+    u'Puppy Linux 5.2.5',
+    u'Red Hat&reg; Linux Enterprise Workstation',
+    u'Ubuntu Linux 10.04 LTS Desktop Edition',
+    u'Ubuntu Linux 10.04 LTS Server Edition',
+    u'Ubuntu Linux 11.04 Desktop Edition',
+    u'Ubuntu Linux 11.04 Server Edition']
+  PRODUCTS: [u'EFFECTS']
+OPTION: 2nd Operating System :
+OPTION: Desktop Software :
+  CHOICES: [u'GNOME', u'KDE ', u'WindowMaker', u'XFCE', u'default']
+  PRODUCTS: [u'BOOQ', u'DESQ', u'SILENCE', u'LEAF', u'i7DESK', u'AMDESK']
+  CHOICES: [u'GNOME', u'KDE ', u'default']
+  PRODUCTS: [u'QFX', u'FLAGSHIP']
+OPTION: Software RAID :
+OPTION: Routers :
+  CHOICES: [   u'Wireless RangePlus Router WRT100 4-port ',
+    u'Wireless-G Broadband Router 4-port Speed Booster',
+    u'none']
+  PRODUCTS: [u'Accessories']
+OPTION: Mail Transfer Agent :
+  CHOICES: [   u'Exim',
+    u"OpenBSD's sendmail",
+    u'Other (enter choice in "Notes" field.)',
+    u'Postfix',
+    u'qmail']
+  PRODUCTS: [u'MAIL']
+OPTION: Software Bundle :
+OPTION: Software :
+  CHOICES: [   u'64 Studio v2.0 32bit Debian GNU/Linux',
+    u'64 Studio v2.0 64bit Debian GNU/Linux',
+    u'Ubuntu Studio 10.10']
+  PRODUCTS: [u'STUDIO5', u'STUDIO3', u'STUDIO7']
+  CHOICES: [u'Zimbra Desktop', u'default']
+  PRODUCTS: [   u'SILENCE',
+    u'DESQ',
+    u'QUBE',
+    u'QFX',
+    u'BOOQ',
+    u'LEAF',
+    u'i7DESK',
+    u'AMDESK',
+    u'FLAGSHIP']
+  CHOICES: [u'Zimbra Network Edition Trial', u'Zimbra Open Source Edition']
+  PRODUCTS: [u'ZIMBRA']
+  CHOICES: [   u'64 Studio v2.0 32bit Debian GNU/Linux',
+    u'64 Studio v2.0 64bit Debian GNU/Linux',
+    u'Ubuntu Studio 10.10',
+    u'default']
+  PRODUCTS: [u'LAPSTUDIO']
+  CHOICES: [u'Linux-native KVM (Kernel-based Virtual Machine)', u'Open Source VMWare ']
+  PRODUCTS: [u'X4X4']
+OPTION: Additional Chassis :
+OPTION: Extras :
+  CHOICES: [   u'16 GB USB 2.0 Drive',
+    u'32 GB USB 2.0 Drive',
+    u'4 GB USB 2.0  Drive',
+    u'8 GB USB 2.0 Drive',
+    u'Antec Cooler for laptops, USB cable 30in, 5V, 2W',
+    u'Belkin Security Lock ',
+    u'Extra Laptop AC Adapter',
+    u'Laptop Car Adapter',
+    u'none']
+  PRODUCTS: [u'THINKPAL']
+  CHOICES: [u'8 sets of 10 foot KVM cables', u'8 sets of 6 foot KVM cables', u'none']
+  PRODUCTS: [u'LCDKBD']
+  CHOICES: [   u'Tapes - set of two, LTO2 200/400GB',
+    u'Tapes - set of two, LTO3 400/800GB',
+    u'none']
+  PRODUCTS: [u'NAS6']
+  CHOICES: [   u'16 GB USB 2.0 Drive',
+    u'32 GB USB 2.0 Drive',
+    u'4 GB USB 2.0  Drive',
+    u'8 GB USB 2.0 Drive',
+    u'Antec Cooler for laptops, USB cable 30in, 5V, 2W',
+    u'Belkin Security Lock ',
+    u'Extra Laptop AC Adapter',
+    u'Extra Laptop Battery',
+    u'Laptop Car Adapter',
+    u'none']
+  PRODUCTS: [u'Accessories', u'LAPSTUDIO', u'TABLET', u'GAMER', u'LAPTOP']
+OPTION: More Extras :
+  CHOICES: [   u'16 GB USB 2.0 Drive',
+    u'32 GB USB 2.0 Drive',
+    u'4 GB USB 2.0  Drive',
+    u'8 GB USB 2.0 Drive',
+    u'Antec Cooler for laptops, USB cable 30in, 5V, 2W',
+    u'Belkin Security Lock ',
+    u'Extra Laptop AC Adapter',
+    u'Laptop Car Adapter',
+    u'none']
+  PRODUCTS: [u'THINKPAL']
+  CHOICES: [u'KVM switch, rackmountable  (no monitor, keyboard)', u'none']
+  PRODUCTS: [u'LCDKBD']
+  CHOICES: [   u'16 GB USB 2.0 Drive',
+    u'32 GB USB 2.0 Drive',
+    u'4 GB USB 2.0  Drive',
+    u'8 GB USB 2.0 Drive',
+    u'Antec Cooler for laptops, USB cable 30in, 5V, 2W',
+    u'Belkin Security Lock ',
+    u'Extra Laptop AC Adapter',
+    u'Extra Laptop Battery',
+    u'Laptop Car Adapter',
+    u'none']
+  PRODUCTS: [u'GAMER', u'Accessories', u'LAPSTUDIO', u'TABLET', u'LAPTOP']
+OPTION: Carrying Case :
+  CHOICES: [   u'Canvas Messenger Bag Grey Tattoo SNM15',
+    u'Classic Laptop Case 17 inch Black TNC17 Nylon',
+    u'Laptop Sleeve 13.3 inch SNS13 Black Neoprene zip',
+    u'Lightweight Backpack Grey/Black LNB15 ',
+    u'Lightweight Messenger Bag LNM15 ',
+    u'Slim Case Black VNC15 3lbs 2oz ',
+    u'Slim Laptop Case 17 inch Black VNC17 Nylon',
+    u'none']
+  PRODUCTS: [u'Accessories']
+OPTION: Donation target :
+  CHOICES: [   u'64 Studio Project',
+    u'Electronic Frontier Foundation',
+    u'No donation',
+    u'Other Open Source Project (please state in Notes)',
+    u'The FreeBSD Foundation',
+    u'The OpenBSD Project',
+    u'The OpenSSH Project']
+  PRODUCTS: [u'STUDIO5', u'STUDIO7', u'STUDIO3']
+  CHOICES: [   u'64 Studio Project',
+    u'Electronic Frontier Foundation',
+    u'No donation',
+    u'Other Open Source Project (please state in Notes)']
+  PRODUCTS: [u'LAPSTUDIO']
+  CHOICES: [   u'Electronic Frontier Foundation',
+    u'No donation',
+    u'Other Open Source Project (please state in Notes)']
+  PRODUCTS: [   u'NIMBUS',
+    u'Eee',
+    u'CIRRUS',
+    u'CUMULUS',
+    u'STRATUS',
+    u'MS1CT',
+    u'MS2UT',
+    u'TR4X',
+    u'MN4Lplus',
+    u'TR5M',
+    u'TR8X',
+    u'FLAT']
+  CHOICES: [   u'Electronic Frontier Foundation',
+    u'No donation',
+    u'Other Open Source Project (please state in Notes)',
+    u'The FreeBSD Foundation',
+    u'The OpenBSD Project',
+    u'The OpenSSH Project']
+  PRODUCTS: [   u'EFFECTS',
+    u'QUBE',
+    u'LITE',
+    u'TABLET',
+    u'NAS12',
+    u'NAS16',
+    u'NAS4',
+    u'NAS3',
+    u'QFX',
+    u'TWINGUARD',
+    u'FOCUS',
+    u'OPT4',
+    u'H2O2U',
+    u'ZIMBRA',
+    u'ENTERPRISE',
+    u'OPTERNATOR16',
+    u'QUIET2',
+    u'LAPTOP',
+    u'OPTERNATOR48',
+    u'TWINSERVE',
+    u'X4X4',
+    u'SOLO',
+    u'NAS32',
+    u'THINKPAL',
+    u'GAMER',
+    u'OPTERNATOR32',
+    u'LEAF',
+    u'NAS8',
+    u'i7DESK',
+    u'i7CORE',
+    u'NAS50',
+    u'NSERVE',
+    u'SIXPACK',
+    u'i7SHORT',
+    u'AMDESK',
+    u'NAS24-32',
+    u'OPT4100',
+    u'QUOTE',
+    u'VALUE',
+    u'SERVE',
+    u'PREMIUM',
+    u'QUIET',
+    u'SHORT',
+    u'OPT6',
+    u'OPT10BAY',
+    u'OPTDESKTOP',
+    u'PFOUR',
+    u'PREMIUM2',
+    u'NAS24',
+    u'SILENCE',
+    u'SNORT',
+    u'DNS',
+    u'MAIL',
+    u'NAS6',
+    u'NAT',
+    u'DMZ',
+    u'VPN',
+    u'WEB',
+    u'SSLW',
+    u'DESQ',
+    u'BOOQ',
+    u'SANDYCORE',
+    u'FLAGSHIP',
+    u'NAS6X',
+    u'NAS16X']
+OPTION: Donation amount :
+  CHOICES: [u'$10.00', u'$25.00', u'$5.00', u'No donation']
+  PRODUCTS: [   u'NIMBUS',
+    u'Eee',
+    u'CIRRUS',
+    u'CUMULUS',
+    u'STRATUS',
+    u'MS1CT',
+    u'MS2UT',
+    u'TR4X',
+    u'MN4Lplus',
+    u'TR5M',
+    u'TR8X',
+    u'VALUE',
+    u'SERVE',
+    u'FLAT']
+  CHOICES: [u'$10.00', u'$25.00', u'$5.00', u'$50.00', u'No donation']
+  PRODUCTS: [   u'QUBE',
+    u'LITE',
+    u'NAS12',
+    u'NAS16',
+    u'NAS4',
+    u'NAS3',
+    u'TWINGUARD',
+    u'FOCUS',
+    u'OPT4',
+    u'ZIMBRA',
+    u'LAPTOP',
+    u'THINKPAL',
+    u'LAPSTUDIO',
+    u'LEAF',
+    u'NAS8',
+    u'i7DESK',
+    u'i7CORE',
+    u'NSERVE',
+    u'SIXPACK',
+    u'i7SHORT',
+    u'AMDESK',
+    u'QUOTE',
+    u'PREMIUM',
+    u'QUIET',
+    u'SHORT',
+    u'OPT6',
+    u'OPT10BAY',
+    u'OPTDESKTOP',
+    u'PFOUR',
+    u'PREMIUM2',
+    u'SILENCE',
+    u'SNORT',
+    u'DNS',
+    u'MAIL',
+    u'NAS6',
+    u'NAT',
+    u'DMZ',
+    u'VPN',
+    u'WEB',
+    u'SSLW',
+    u'DESQ',
+    u'BOOQ',
+    u'SANDYCORE',
+    u'NAS6X',
+    u'NAS16X']
+  CHOICES: [   u'$10.00',
+    u'$100.00',
+    u'$25.00',
+    u'$5.00',
+    u'$50.00',
+    u'$75.00',
+    u'No donation']
+  PRODUCTS: [   u'QFX',
+    u'H2O2U',
+    u'ENTERPRISE',
+    u'OPTERNATOR16',
+    u'OPTERNATOR48',
+    u'X4X4',
+    u'NAS32',
+    u'OPTERNATOR32',
+    u'NAS50',
+    u'NAS24-32',
+    u'OPT4100',
+    u'NAS24',
+    u'FLAGSHIP']
+  CHOICES: [u'$10.00', u'$25.00', u'$5.00', u'$50.00', u'$75.00', u'No donation']
+  PRODUCTS: [   u'EFFECTS',
+    u'STUDIO5',
+    u'TABLET',
+    u'QUIET2',
+    u'TWINSERVE',
+    u'SOLO',
+    u'GAMER',
+    u'STUDIO3',
+    u'STUDIO7']
+OPTION: Warranty :
+  CHOICES: [   u'Extended 2yr full / 3yr limited warranty',
+    u'Premium full 3yr warranty',
+    u'Standard 1yr full /3yr limited warranty']
+  PRODUCTS: [   u'STUDIO5',
+    u'H2O2U',
+    u'SHORT',
+    u'QFX',
+    u'FOCUS',
+    u'LITE',
+    u'OPT6',
+    u'OPT10BAY',
+    u'STUBBY',
+    u'GAMER',
+    u'SILENCE',
+    u'NAS24',
+    u'OPTDESKTOP',
+    u'PREMIUM2',
+    u'NAS12',
+    u'NAS16',
+    u'NAS4',
+    u'NAS3',
+    u'OPT4',
+    u'TABLET',
+    u'TWINSERVE',
+    u'ZIMBRA',
+    u'ENTERPRISE',
+    u'EFFECTS',
+    u'OPTERNATOR16',
+    u'QUIET2',
+    u'OPTERNATOR48',
+    u'X4X4',
+    u'SOLO',
+    u'THINKPAL',
+    u'NAS32',
+    u'LAPSTUDIO',
+    u'OPTERNATOR32',
+    u'LEAF',
+    u'NAS8',
+    u'i7DESK',
+    u'i7CORE',
+    u'NAS50',
+    u'NSERVE',
+    u'SIXPACK',
+    u'i7SHORT',
+    u'STUDIO3',
+    u'STUDIO7',
+    u'AMDESK',
+    u'NAS24-32',
+    u'OPT4100',
+    u'VPN',
+    u'NAT',
+    u'PREMIUM',
+    u'VALUE',
+    u'SERVE',
+    u'WEB',
+    u'SSLW',
+    u'DNS',
+    u'MAIL',
+    u'SNORT',
+    u'NAS6',
+    u'QUBE',
+    u'DESQ',
+    u'BOOQ',
+    u'PFOUR',
+    u'QUIET',
+    u'DMZ',
+    u'LAPTOP',
+    u'TWINGUARD',
+    u'SANDYCORE',
+    u'FLAGSHIP',
+    u'NAS6X',
+    u'NAS16X']
+  CHOICES: [u'Standard 1yr full /3yr limited warranty']
+  PRODUCTS: [   u'NIMBUS',
+    u'Eee',
+    u'CIRRUS',
+    u'CUMULUS',
+    u'STRATUS',
+    u'MS1CT',
+    u'MS2UT',
+    u'TR4X',
+    u'MN4Lplus',
+    u'TR5M',
+    u'TR8X',
+    u'FLAT']
+OPTION: Support Incidents :
+OPTION: Configuration :
+  CHOICES: [   u'2 hrs configuration and tech support',
+    u'4 hrs configuration and tech support ',
+    u'none']
+  PRODUCTS: [   u'OPTERNATOR16',
+    u'OPTERNATOR48',
+    u'X4X4',
+    u'SOLO',
+    u'OPTERNATOR32',
+    u'OPT4100']

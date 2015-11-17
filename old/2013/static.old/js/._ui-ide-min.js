@@ -1,0 +1,1 @@
+/usr/local/lib/python2.7/dist-packages/djide/static/js/._ui-ide-min.js

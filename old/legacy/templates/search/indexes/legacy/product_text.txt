@@ -1,0 +1,8 @@
+{{ object.title }}
+{{ object.sku }}
+{{ object.baseprice }}
+{{ object.category }}
+{{ object.blurb }}
+{{ object.description }}
+{{ object.features }}
+fleeble

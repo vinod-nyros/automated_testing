@@ -1,0 +1,34 @@
+<IfModule mod_ssl.c>
+	#NameVirtualHost *:443
+	<VirtualHost *:443>
+
+	    <Location />
+		Order Deny,Allow
+		Allow from All
+	    </Location>
+
+	    SSLEngine on
+	    SSLCertificateFile    /etc/apache2/ssl/eracks/eracks.crt
+	    SSLCertificateKeyFile /etc/apache2/ssl/eracks/eracks.key
+	    BrowserMatch "MSIE [1-4]" nokeepalive ssl-unclean-shutdown \
+	                              downgrade-1.0 force-response-1.0  
+	    BrowserMatch "MSIE [5-9]" ssl-unclean-shutdown
+	    SSLCipherSuite ALL:!ADH:!EXPORT56:RC4+RSA:+HIGH:+MEDIUM:+LOW:+SSLv2:+EXP
+	
+	    ServerAdmin joe@eracks.com
+            ServerName eracks.com
+            ServerAlias eracks.net eracks.org
+	    	
+	    #SSLProxyEngine on
+	    #SSLProxyVerify optional_no_ca
+	    
+	    ProxyPass / http://127.0.0.1:7080/VirtualHostBase/http/eracks.com:80/eRacks/VirtualHostRoot/
+	    ProxyPassReverse / http://127.0.0.1:7080/VirtualHostBase/http/eracks.com:80/eRacks/VirtualHostRoot/
+	    
+	    ErrorLog /var/log/apache2/ssl-error-eracks.log
+            LogLevel warn
+	    CustomLog /var/log/apache2/ssl-access-eracks.log combined
+	    ServerSignature On
+	</VirtualHost>
+</IfModule>
+

@@ -1,0 +1,417 @@
+- fields: {created: ! '2009-10-15 21:14:51.716810', description: Joe's test SQL, modified: ! '2010-11-21
+      12:49:24.545346', notes: '', parm1: 'id in (1,2,3,4,5)', parm2: '1,2,3,4,5',
+    parm3: '', parm4: '', parm5: '', sql: "--update sqls_sql set description='Another
+      Test Select' where id=1;\r\n--commit;\r\n--select * from sqls_sql where id=1;\r\n--
+      yuk: insert into sqls_sql select 'blah'::text as description, 'select' as sql;\r\n--insert
+      into sqls_sql (description, sql, created, modified,notes) values ('blah','select',
+      now(), now(),'');\r\n-- select * from sqls_sql where id in (%s); nope..\r\n--select
+      * from sqls_sql where %s; nope..\r\n--select * from sqls_sql where id in (1,2,3,4,5);\r\n--select
+      dt from products where dt < '01-01-2001';\r\n--update products set dt='01-01-2001'
+      where dt < '01-01-2001';\r\n--\r\n--select count(dt) from prodoptchoices where
+      dt < '01-01-2001';\r\n--update prodoptchoices set dt='01-01-2001' where dt <
+      '01-01-2001';\r\n--select count(dt) from prodoptchoices where dt < '01-01-2001';\r\n--
+      prods about 29, poc's 2000+, prodopts 719, opts 88, choices 825\r\n\r\n", updates: false}
+  model: sqls.sql
+  pk: 1
+- fields: {created: ! '2009-10-15 21:54:01.417809', description: Choices insert, modified: ! '2009-10-15
+      21:54:01.417903', notes: '', parm1: '', parm2: '', parm3: '', parm4: '', parm5: '',
+    sql: "INSERT INTO  choices (name, current, id, cost, sortorder, comment)\n    VALUES
+      ('Intel Core 2 Duo Mobile T8100 2.1GHz 3MB CPU', 'T', DEFAULT, 194, 1765, 'for
+      GAMER laptop');", updates: false}
+  model: sqls.sql
+  pk: 2
+- fields: {created: ! '2009-10-15 21:54:01.530308', description: Show DESQ Processor
+      options, modified: ! '2009-10-15 21:54:01.530363', notes: '', parm1: '', parm2: '',
+    parm3: '', parm4: '', parm5: '', sql: 'Select products.id, products.name, options.id,
+      options.name,
+
+      choices.id, choices.name, choices.cost, choices.price, choices.sortorder
+
+      where products.id = prodopts.productid AND prodopts.optionid = options.id
+
+      AND choices.id = prodoptchoices.choiceid AND
+
+      prodoptchoices.productoptionid = prodopts.id AND products.id = 12819 AND
+
+      options.id = 6564 ORDER BY choices.cost;', updates: false}
+  model: sqls.sql
+  pk: 3
+- fields: {created: ! '2009-10-15 21:54:01.546339', description: show all options/choices
+      for a product, modified: ! '2009-10-15 21:54:01.546368', notes: '', parm1: '',
+    parm2: '', parm3: '', parm4: '', parm5: '', sql: 'Select products.id, products.name,
+      options.id as optionsid, options.name,
+
+      prodoptchoices.productoptionid, prodopts.defaultchoiceid,
+
+      choices.id, choices.name, choices.cost, choices.price, choices.sortorder
+
+      where products.id = prodopts.productid AND prodopts.optionid = options.id
+
+      AND choices.id = prodoptchoices.choiceid AND
+
+      prodoptchoices.productoptionid = prodopts.id AND
+
+      products.name LIKE ''%/OPTDESKTOP''
+
+      ORDER BY options.id, choices.cost;', updates: false}
+  model: sqls.sql
+  pk: 4
+- fields: {created: ! '2009-10-15 21:54:01.563102', description: 'Delete from prodoptchoices
+      old processors, etc.', modified: ! '2009-10-15 21:54:01.563129', notes: '',
+    parm1: '', parm2: '', parm3: '', parm4: '', parm5: '', sql: 'DELETE FROM prodoptchoices
+
+      WHERE prodoptchoices.choiceid = 31466 AND (old choice id) prodoptchoices.productoptionid
+      = 12988  (for only one product)
+
+      RETURNING *;', updates: false}
+  model: sqls.sql
+  pk: 5
+- fields: {created: ! '2009-10-15 21:54:01.579738', description: Show everything that
+      uses a certain choiceid, modified: ! '2009-10-15 21:54:01.579766', notes: '',
+    parm1: '', parm2: '', parm3: '', parm4: '', parm5: '', sql: "SELECT  products.sku,
+      prodopts.id, products.baseprice, options.name as option, choices.name as choice,
+      choices.cost, prodoptchoices.pricedelta\nfrom products, options, prodopts, choices,
+      prodoptchoices\nWHERE\n (prodopts.productid = products.id) AND\n (prodopts.optionid
+      = options.id)  AND\n\n (prodoptchoices.productoptionid = prodopts.id)  AND\n
+      (prodoptchoices.choiceid = choices.id) AND\n\n (prodoptchoices.choiceid = '31466')\nORDER
+      BY products.sku, options.name, prodopts.optionid, choices.name;", updates: false}
+  model: sqls.sql
+  pk: 6
+- fields: {created: ! '2009-10-15 21:54:01.596351', description: Show me every product
+      that uses Adaptec% as a defaultchoice somewhere, modified: ! '2009-10-15 21:54:01.596378',
+    notes: '', parm1: '', parm2: '', parm3: '', parm4: '', parm5: '', sql: "SELECT
+      \ products.sku, prodopts.id, products.baseprice, options.name as option, choices.name
+      as choice, choices.cost, prodoptchoices.pricedelta\nfrom products, options,
+      prodopts, choices, prodoptchoices\nWHERE\n (prodopts.productid = products.id)
+      AND\n (prodopts.optionid = options.id)  AND\n\n (prodoptchoices.productoptionid
+      = prodopts.id)  AND\n (prodoptchoices.choiceid = choices.id) AND\n (choices.id
+      = prodopts.defaultchoiceid) AND\n\n (choices.name LIKE 'Adaptec%')\nORDER BY
+      products.sku, options.name, prodopts.optionid, choices.name;", updates: false}
+  model: sqls.sql
+  pk: 7
+- fields: {created: ! '2009-10-15 21:54:01.613119', description: Show me everything
+      that has an LSI card somewhere, modified: ! '2009-10-15 21:54:01.613149', notes: '',
+    parm1: '', parm2: '', parm3: '', parm4: '', parm5: '', sql: "SELECT  products.sku,
+      prodopts.id, products.baseprice,\noptions.name as option, choices.id, choices.name
+      as choice, choices.cost,\nprodoptchoices.pricedelta, prodopts.defaultchoiceid\nfrom
+      products, options, prodopts, choices, prodoptchoices\nWHERE\n (prodopts.productid
+      = products.id) AND\n (prodopts.optionid = options.id)  AND\n (prodoptchoices.productoptionid
+      = prodopts.id)  AND\n (prodoptchoices.choiceid = choices.id) AND\n (choices.name
+      like 'LSI%')\nORDER BY products.sku, options.name, prodopts.optionid, choices.name;",
+    updates: false}
+  model: sqls.sql
+  pk: 8
+- fields: {created: ! '2009-10-15 21:54:01.635601', description: Update ProdOptChoices,
+    modified: ! '2009-10-15 21:54:01.635655', notes: '', parm1: '', parm2: '', parm3: '',
+    parm4: '', parm5: '', sql: "UPDATE prodoptchoices\n  SET choiceid = 35408\n  WHERE
+      prodoptchoices.choiceid = 37254;\nreplaces old processor for a new one across
+      models.", updates: false}
+  model: sqls.sql
+  pk: 9
+- fields: {created: ! '2009-10-15 21:54:01.654866', description: Replace 80GB SATA
+      for SATA 2 in all bays of PREMIUM2, modified: ! '2009-10-15 21:54:01.654897',
+    notes: '', parm1: '', parm2: '', parm3: '', parm4: '', parm5: '', sql: 'Update
+      prodoptchoices set choiceid = 32407
+
+      where products.id = prodopts.productid AND prodopts.optionid = options.id
+
+      AND choices.id = prodoptchoices.choiceid AND
+
+      prodoptchoices.productoptionid = prodopts.id AND
+
+      products.sku = ''PREMIUM2'' AND
+
+      options.name like ''Removable HD%'' AND
+
+      choices.id = 27251;', updates: false}
+  model: sqls.sql
+  pk: 10
+- fields: {created: ! '2009-10-15 21:54:01.671479', description: Show default choices
+      for each option for QUADPREM, modified: ! '2009-10-18 14:03:34.161693', notes: '',
+    parm1: QUADPREM, parm2: '', parm3: '', parm4: '', parm5: '', sql: "Select products.id,
+      products.name, options.id, options.name,\r\nprodoptchoices.productoptionid,\r\nchoices.id,
+      choices.name, choices.cost, choices.price, choices.sortorder\r\nwhere products.id
+      = prodopts.productid AND prodopts.optionid = options.id\r\nAND choices.id =
+      prodoptchoices.choiceid AND\r\nprodoptchoices.productoptionid = prodopts.id
+      AND\r\nchoices.id = prodopts.defaultchoiceid AND\r\nproducts.name LIKE %s\r\n
+      ORDER BY choices.name;", updates: false}
+  model: sqls.sql
+  pk: 11
+- fields: {created: ! '2009-10-15 21:54:01.696561', description: 'Print out baseprices,
+      and total default costs for each sku, sort by category, then ascending total
+      cost.', modified: ! '2011-11-14 12:58:58.491225', notes: '', parm1: '', parm2: '',
+    parm3: '', parm4: '', parm5: '', sql: "Select  categories.name, products.sku,
+      products.baseprice, sum(choices.cost) as total\r\nfrom categories, products,
+      options, prodopts, choices, prodoptchoices  \r\nwhere categories.id = products.categoryid
+      AND\r\nproducts.id = prodopts.productid AND\r\nproducts.published = 'T' AND\r\nprodopts.optionid
+      = options.id\r\nAND choices.id = prodoptchoices.choiceid AND\r\nprodoptchoices.productoptionid
+      = prodopts.id AND\r\nchoices.id = prodopts.defaultchoiceid\r\ngroup by categories.name,
+      products.sku, products.baseprice\r\norder by categories.name, total;", updates: false}
+  model: sqls.sql
+  pk: 12
+- fields: {created: ! '2009-10-15 21:54:01.713195', description: Adding a comment
+      field to a table!, modified: ! '2009-10-15 21:54:01.713223', notes: '', parm1: '',
+    parm2: '', parm3: '', parm4: '', parm5: '', sql: 'Alter table optionchoices
+
+      add column comment varchar(80);', updates: false}
+  model: sqls.sql
+  pk: 13
+- fields: {created: ! '2009-10-15 21:54:01.729952', description: Show all choices
+      for PCI-e across products, modified: ! '2009-10-15 21:54:01.729979', notes: '',
+    parm1: '', parm2: '', parm3: '', parm4: '', parm5: '', sql: 'Select products.id,
+      products.name, options.id, options.name,
+
+      prodoptchoices.productoptionid,
+
+      choices.id, choices.name, choices.cost, choices.price, choices.sortorder
+
+      where products.id = prodopts.productid AND prodopts.optionid = options.id
+
+      AND choices.id = prodoptchoices.choiceid AND
+
+      prodoptchoices.productoptionid = prodopts.id AND
+
+      options.id = 36525 ORDER BY choices.name;', updates: false}
+  model: sqls.sql
+  pk: 14
+- fields: {created: ! '2009-10-15 21:54:01.746576', description: Get the set of general
+      SATA2 HD choices, modified: ! '2009-10-15 21:54:01.746605', notes: '', parm1: '',
+    parm2: '', parm3: '', parm4: '', parm5: '', sql: 'Select options.id, optionchoices.comment,
+      options.name, choices.id, choices.name, choices.cost
+
+      FROM options, choices, optionchoices
+
+      where optionchoices.optionid = options.id
+
+      AND optionchoices.choiceid = choices.id
+
+      AND optionchoices.optionid = 32416
+
+      ORDER BY choices.cost;', updates: false}
+  model: sqls.sql
+  pk: 15
+- fields: {created: ! '2009-10-15 21:54:01.763185', description: 'These are the prodopts
+      that I went through to make sure all SATA2 defaultchoices ids are OK and all
+      choices are complete.
+
+      SATA -> SATA 2', modified: ! '2009-10-15 21:54:01.763212', notes: '', parm1: '',
+    parm2: '', parm3: '', parm4: '', parm5: '', sql: "\nSELECT  prodopts.id, products.sku,
+      prodopts.id, products.baseprice, options.name as option, choices.name as choice,
+      choices.cost, prodoptchoices.pricedelta\nfrom products, options, prodopts, choices,
+      prodoptchoices\nWHERE\n (prodopts.productid = products.id) AND\n (prodopts.optionid
+      = options.id)  AND\n (prodoptchoices.productoptionid = prodopts.id)  AND\n (prodoptchoices.choiceid
+      = choices.id) AND\n (products.current = 'T') AND\n (prodoptchoices.choiceid
+      = '27251')\nORDER BY products.sku, options.name, prodopts.optionid, choices.name;",
+    updates: false}
+  model: sqls.sql
+  pk: 16
+- fields: {created: ! '2009-10-15 21:54:01.788278', description: 'Who is using 80GB
+      as a defaultchoice?', modified: ! '2009-10-15 21:54:01.788309', notes: '', parm1: '',
+    parm2: '', parm3: '', parm4: '', parm5: '', sql: "SELECT  prodopts.id, products.sku,
+      prodopts.id, products.baseprice, options.name as option, choices.name as choice,
+      choices.cost, prodoptchoices.pricedelta\nfrom products, options, prodopts, choices,
+      prodoptchoices\nWHERE\n (prodopts.productid = products.id) AND\n (prodopts.optionid
+      = options.id)  AND\n (prodoptchoices.productoptionid = prodopts.id)  AND\n (prodoptchoices.choiceid
+      = choices.id) AND\n (products.current = 'T') AND\n (prodopts.defaultchoiceid
+      = choices.id) AND\n (prodoptchoices.choiceid = '27251')\nORDER BY products.sku,
+      options.name, prodopts.optionid, choices.name;", updates: false}
+  model: sqls.sql
+  pk: 17
+- fields: {created: ! '2009-10-15 21:54:01.804904', description: Test for nested query.
+      (then add 1.5TB drives to everybody who has a 1TB drive in selection)., modified: ! '2009-10-15
+      21:54:01.804932', notes: '', parm1: '', parm2: '', parm3: '', parm4: '', parm5: '',
+    sql: '-- my test (inserts into two old skus)
+
+
+      INSERT into prodoptchoices ( pricedelta, productoptionid, choiceid, current)
+
+      Select   0, productoptionid, 39338, ''T''
+
+      from prodoptchoices
+
+      where (prodoptchoices.productoptionid = 4310 or
+
+      prodoptchoices.productoptionid = 30895) and
+
+      prodoptchoices.choiceid = 36230;', updates: false}
+  model: sqls.sql
+  pk: 18
+- fields: {created: ! '2009-10-15 21:54:01.821582', description: Add 1.5TB to every
+      prodoptchoice set that has 1TB in it, modified: ! '2009-10-15 21:54:01.821612',
+    notes: '', parm1: '', parm2: '', parm3: '', parm4: '', parm5: '', sql: "-- OK,
+      assumes the nested query test works -\n\nINSERT into prodoptchoices ( pricedelta,
+      productoptionid, choiceid, current)\nSelect   0, prodoptchoices.productoptionid,
+      39338, 'T'\nfrom prodoptchoices,products, prodopts,options, choices\nwhere (\n
+      prodopts.productid = products.id AND\n prodopts.optionid = options.id  AND\n
+      prodoptchoices.productoptionid = prodopts.id  AND\n prodoptchoices.choiceid
+      = choices.id AND\n products.current = 'T' AND\n prodoptchoices.choiceid = 36230)\n
+      ORDER by prodoptchoices.productoptionid;", updates: false}
+  model: sqls.sql
+  pk: 19
+- fields: {created: ! '2009-10-15 21:54:01.838258', description: Copy all choices
+      from productoptionid 40953 to a new productoptionid 40954 (that I already entered
+      into prodopt table), modified: ! '2009-10-15 21:54:01.838285', notes: '', parm1: '',
+    parm2: '', parm3: '', parm4: '', parm5: '', sql: 'INSERT into prodoptchoices (
+      pricedelta, productoptionid, choiceid, current)
+
+
+      Select 0,40954, choiceid,''T''
+
+      from prodoptchoices
+
+      where prodoptchoices.productoptionid = 40953;', updates: false}
+  model: sqls.sql
+  pk: 20
+- fields: {created: ! '2009-10-15 21:54:01.854899', description: Show me each Sku's
+      Ubuntu* choices to make sure all 4 are included, modified: ! '2009-10-15 21:54:01.854927',
+    notes: '', parm1: '', parm2: '', parm3: '', parm4: '', parm5: '', sql: "SELECT
+      \ products.sku, prodopts.id as prodoptid, choices.id as choiceid, prodopts.defaultchoiceid
+      as default, products.baseprice, options.name as option, choices.name as choice,
+      choices.cost, prodoptchoices.pricedelta\nfrom products, options, prodopts, choices,
+      prodoptchoices\nWHERE\n (prodopts.productid = products.id) AND\n (prodopts.optionid
+      = options.id)  AND\n (products.current = 'T') AND\n\n (prodoptchoices.productoptionid
+      = prodopts.id)  AND\n (prodoptchoices.choiceid = choices.id) AND\n  (choices.name
+      like 'Ubuntu Linux 8%')\nORDER BY products.sku, choices.name ;", updates: false}
+  model: sqls.sql
+  pk: 21
+- fields: {created: ! '2009-10-15 21:54:01.871508', description: Print out all the
+      5.25in Bay choices (except tape drives), modified: ! '2015-01-04 15:05:21.912661',
+    notes: '', parm1: '', parm2: Tape Drive%, parm3: '', parm4: '', parm5: '', sql: "SELECT
+      \ products.sku, prodopts.id, products.baseprice,\r\noptions.name as option,
+      prodopts.id as prodoptid, choices.name as choice, choices.cost, prodoptchoices.pricedelta\r\nfrom
+      products, options, prodopts, choices, prodoptchoices\r\nWHERE\r\n (prodopts.productid
+      = products.id) AND\r\n products.published AND\r\n (prodopts.optionid = options.id)
+      \ AND\r\n (prodoptchoices.productoptionid = prodopts.id)  AND\r\n (prodoptchoices.choiceid
+      = choices.id) AND\r\n (options.name like '5.25%') AND\r\n (choices.name NOT
+      like %(parm2)s)\r\nORDER BY products.sku, options.name, prodopts.optionid, choices.cost;",
+    updates: false}
+  model: sqls.sql
+  pk: 22
+- fields: {created: ! '2009-10-18 22:18:03.867857', description: Clone Partial Product
+      - stproc version, modified: ! '2009-10-18 22:20:59.347543', notes: '', parm1: oldsku,
+    parm2: newsku, parm3: '', parm4: '', parm5: '', sql: "select partialcloneprod
+      (%(parm1)s, %(parm2)s);\r\n", updates: true}
+  model: sqls.sql
+  pk: 32
+- fields: {created: ! '2009-10-18 22:26:39.615126', description: Clone Product - sql
+      version, modified: ! '2011-12-12 14:22:25.961108', notes: '', parm1: iDESQ5,
+    parm2: iDESQ7, parm3: '', parm4: '', parm5: '', sql: "insert into products (sku,
+      name, baseprice, cost, categoryid, created, updated) \r\nselect %(parm2)s, 'eRacks/'
+      || %(parm2)s, baseprice, cost, categoryid, now(), now() \r\nfrom products \r\nwhere
+      products.sku = %(parm1)s; \r\n\r\ninsert into prodopts (optionid, productid,
+      defaultchoiceid, created, updated) \r\nselect optionid, newprod.id, defaultchoiceid,
+      now(), now() \r\nfrom prodopts, products oldprod, products newprod \r\nwhere
+      oldprod.sku = %(parm1)s\r\n  and newprod.sku = %(parm2)s\r\n  and prodopts.productid
+      = oldprod.id;\r\n\r\ninsert into prodoptchoices (pricedelta, productoptionid,
+      choiceid, created(), updated()) \r\nselect pricedelta, newpos.id, choiceid,
+      now(), now() \r\nfrom prodoptchoices, prodopts newpos, prodopts oldpos, products
+      oldprods, products newprods \r\nwhere prodoptchoices.productoptionid = oldpos.id
+      \r\n  and oldprods.sku = %(parm1)s\r\n  and newprods.sku = %(parm2)s\r\n  and
+      oldpos.productid = oldprods.id \r\n  and newpos.productid = newprods.id \r\n
+      \ and oldpos.optionid = newpos.optionid;\r\n\r\nselect 'OK'::varchar;\r\n",
+    updates: true}
+  model: sqls.sql
+  pk: 33
+- fields: {created: ! '2009-10-18 22:27:14.202109', description: Clone Product - stproc
+      version, modified: ! '2009-10-18 22:27:14.202152', notes: '', parm1: oldsku,
+    parm2: newsku, parm3: '', parm4: '', parm5: '', sql: "select cloneprod (%(parm1)s,
+      %(parm2)s);\r\n", updates: true}
+  model: sqls.sql
+  pk: 34
+- fields: {created: ! '2009-10-18 22:31:11.610332', description: Clone Partial Product
+      - sql version (prodopts/poc's only), modified: ! '2009-10-18 22:31:11.610373',
+    notes: '', parm1: oldsku, parm2: newsku, parm3: '', parm4: '', parm5: '', sql: "insert
+      into prodopts (optionid, productid, defaultchoiceid, created, updated, published,
+      name, qty, single, required, choices_orderby, allowed_quantities ) \r\nselect
+      optionid, newprod.id, defaultchoiceid, now(), now(), TRUE, '', 1, FALSE, FALSE,
+      'cost', ''\r\nfrom prodopts, products oldprod, products newprod \r\nwhere oldprod.sku
+      = $1 \r\n  and newprod.sku = $2 \r\n  and prodopts.productid = oldprod.id;\r\n\r\ninsert
+      into prodoptchoices (pricedelta, productoptionid, choiceid, current, created,
+      updated) \r\nselect pricedelta, newpos.id, choiceid, 'T', now(), now() \r\nfrom
+      prodoptchoices, prodopts newpos, prodopts oldpos, products oldprods, products
+      newprods \r\nwhere prodoptchoices.productoptionid = oldpos.id \r\n  and oldprods.sku
+      = $1\r\n  and newprods.sku = $2 \r\n  and oldpos.productid = oldprods.id \r\n
+      \ and newpos.productid = newprods.id \r\n  and oldpos.optionid = newpos.optionid;\r\n\r\n--
+      commit;\r\nselect 'OK'::varchar;\r\n", updates: true}
+  model: sqls.sql
+  pk: 35
+- fields: {created: ! '2010-03-23 17:24:36.792896', description: 'Who is using a given
+      defaultchoice?', modified: ! '2015-01-04 15:02:25.772277', notes: Upd for new
+      schema 1/4/15 JJW, parm1: '17', parm2: '', parm3: '', parm4: '', parm5: '',
+    sql: "SELECT  prodopts.id, products.sku, prodopts.id, products.baseprice, options.name
+      as option, choices.name as choice, choices.cost, prodoptchoices.pricedelta\r\nfrom
+      products, options, prodopts, choices, prodoptchoices\r\nWHERE\r\n (prodopts.productid
+      = products.id) AND\r\n (prodopts.optionid = options.id)  AND\r\n (prodoptchoices.productoptionid
+      = prodopts.id)  AND\r\n (prodoptchoices.choiceid = choices.id) AND\r\n (products.published)
+      AND\r\n (prodopts.defaultchoiceid = choices.id) AND\r\n (prodoptchoices.choiceid
+      = %s)\r\nORDER BY products.sku, options.name, prodopts.optionid, choices.name;",
+    updates: false}
+  model: sqls.sql
+  pk: 36
+- fields: {created: ! '2015-01-04 15:55:07.481436', description: 'Which product(s)
+      have options with null POCs?', modified: ! '2015-01-04 16:13:39.199442', notes: Upd
+      for new schema 1/4/15 JJW, parm1: '', parm2: '', parm3: '', parm4: '', parm5: '',
+    sql: "SELECT  products.id as productid, \r\n    products.sku, \r\n    prodopts.id
+      as prodoptid, \r\n    products.baseprice, \r\n    options.name as option,\r\n
+      \   prodoptchoices.id as prodoptchoiceid\r\nFROM products, options, prodopts,
+      prodoptchoices\r\nWHERE\r\n (prodopts.productid = products.id) AND\r\n (prodopts.optionid
+      = options.id)  AND\r\n (prodoptchoices.productoptionid = prodopts.id)  AND\r\n
+      (prodoptchoices.choiceid is null) AND\r\n (products.published)\r\nORDER BY products.sku,
+      options.name, prodopts.optionid;\r\n", updates: false}
+  model: sqls.sql
+  pk: 37
+- fields: {created: ! '2015-01-04 16:12:33.608471', description: 'Which products are
+      using a given option in "new" mode?', modified: ! '2015-01-04 17:31:56.570654',
+    notes: '', parm1: '', parm2: '', parm3: '', parm4: '', parm5: '', sql: "SELECT
+      \ products.id as productid, \r\n    products.sku, \r\n    prodopts.id as prodoptid,
+      \r\n    products.baseprice, \r\n    options.name as option,\r\n    prodoptchoices.id
+      as prodoptchoiceid\r\nFROM products, options, prodopts, prodoptchoices\r\nWHERE\r\n
+      \   (prodopts.productid = products.id) AND\r\n    (prodopts.optionid = options.id)
+      \ AND\r\n    prodopts.id not in (select prodoptchoices.productoptionid from
+      prodoptchoices)  \r\n    -- AND (products.published)\r\nORDER BY products.sku,
+      options.name, prodopts.optionid;\r\n\r\nSELECT  --products.id as productid,
+      \r\n    products.sku, \r\n    prodopts.id as prodoptid, \r\n    --products.baseprice,
+      \r\n    options.name as option\r\n    --prodoptchoices.id as prodoptchoiceid\r\nFROM
+      products, options, prodopts, prodoptchoices\r\nWHERE\r\n    (prodopts.productid
+      = products.id) AND\r\n    (prodopts.optionid = options.id)  AND\r\n    prodopts.id
+      not in (select prodoptchoices.productoptionid from prodoptchoices);\r\n\r\n--SELECT
+      cnt, *\r\n--FROM prodopts, (select count (*) from prodoptchoices where productoptionid=prodopts.id)
+      as cnt\r\n--WHERE cnt = 0;\r\n\r\nSELECT *\r\nFROM prodopts\r\nwhere not exists
+      (select id from prodoptchoices where productoptionid=prodopts.id);\r\n\r\nSELECT
+      \ products.id as productid, \r\n    products.sku, \r\n    prodopts.id as prodoptid,
+      \r\n    products.baseprice, \r\n    options.name as option\r\n    -- prodoptchoices.id
+      as prodoptchoiceid\r\nFROM products, options, prodopts  --, prodoptchoices\r\nWHERE
+      (prodopts.productid = products.id)\r\n    AND (prodopts.optionid = options.id)
+      \ \r\n    AND (products.published)\r\n    AND not exists (select id from prodoptchoices
+      where productoptionid = prodopts.id)  \r\nORDER BY products.sku, options.name,
+      prodopts.optionid;\r\n", updates: false}
+  model: sqls.sql
+  pk: 38
+- fields: {created: ! '2015-01-04 16:18:40.789914', description: Show all null POCs,
+    modified: ! '2015-10-06 10:04:00.856767', notes: '', parm1: '', parm2: '', parm3: '',
+    parm4: '', parm5: '', sql: "SELECT  *\r\nFROM  prodoptchoices\r\nWHERE\r\n (prodoptchoices.choiceid
+      is null) or\r\n (prodoptchoices.productoptionid is null);\r\n", updates: false}
+  model: sqls.sql
+  pk: 39
+- fields: {created: ! '2015-10-06 09:49:21.360316', description: Show all null POCs
+      with choice name, modified: ! '2015-10-06 09:55:31.797179', notes: '', parm1: '',
+    parm2: '', parm3: '', parm4: '', parm5: '', sql: "SELECT  poc.*, c.name\r\nFROM
+      \ prodoptchoices poc,  choices c\r\nWHERE\r\n  ( (poc.choiceid is null) or\r\n
+      \   (poc.productoptionid is null)\r\n  ) \r\n  and c.id = poc.choiceid;\r\n",
+    updates: false}
+  model: sqls.sql
+  pk: 40
+- fields: {created: ! '2015-10-06 10:03:43.322501', description: Delete all null POCs,
+    modified: ! '2015-10-06 10:03:43.322537', notes: Be careful!, parm1: '', parm2: '',
+    parm3: '', parm4: '', parm5: '', sql: "DELETE\r\nFROM  prodoptchoices\r\nWHERE\r\n
+      (prodoptchoices.choiceid is null) or\r\n (prodoptchoices.productoptionid is
+      null);\r\n", updates: true}
+  model: sqls.sql
+  pk: 41
+- fields: {created: ! '2015-10-06 10:08:27.927860', description: 'Show all choices
+      with null published ', modified: ! '2015-10-06 10:10:54.991887', notes: '',
+    parm1: '', parm2: '', parm3: '', parm4: '', parm5: '', sql: "SELECT distinct published
+      from choices;\r\nselect published, count(id) from choices group by published;",
+    updates: false}
+  model: sqls.sql
+  pk: 42

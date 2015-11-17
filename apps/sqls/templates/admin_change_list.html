@@ -1,0 +1,22 @@
+{% extends "admin/change_list.html" %}
+{% load admin_list %}
+
+{% block extrahead %}
+{{ block.super }}
+<script type='text/javascript'>
+
+{# % result_list cl % #}
+
+/*
+
+{% for r in cl.result_list %}
+
+  {{ r }}
+
+{% endfor %}
+
+*/
+
+</script>
+
+{% endblock %}

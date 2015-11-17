@@ -1,0 +1,1 @@
+-e git+https://github.com/jowolf/django-csvimport.git#egg=django-csvimport

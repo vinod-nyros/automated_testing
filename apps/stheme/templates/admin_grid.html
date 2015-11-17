@@ -1,0 +1,59 @@
+{% extends "admin/base_site.html" %}
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: $apps_path/orders/templets.yaml at line 8 on 2015-11-09 at 19:41:48 PST(GMT-0800)  #}
+
+
+{% block content_title %}
+  <h1>Legacy Orders Grid (Admin)</h1>
+{% endblock %}
+{% block content %}
+  <table>
+    <tr>
+      <th>Order ID</th>
+      <th>eMail</th>
+      <th>Status</th>
+      <th>Name</th>
+      <th>Organization</th>
+      <th>Pmt By</th>
+      <th>COGS</th>
+      <th>Notes</th>
+      <th>Ordered</th>
+      <th>Shipped</th>
+    </tr>
+    {% for order in orders %}
+      <tr>
+        <th>
+          {{ order.id }}
+        </th>
+        <td>
+          {% firstof email title billemail %}
+        </td>
+        <td>
+          {{ order.orderstatus }}
+        </td>
+        <td width="10%">
+          {{ order.name }}
+        </td>
+        <td width="10%">
+          {{ order.org }}
+        </td>
+        <td>
+          {{ order.paymeth }}
+        </td>
+        <td title="{{ order.internalnotes }}">
+          {{ order.costofgoods }}
+        </td>
+        <td>
+          {{ order.internalnotes }}
+        </td>
+        <td>
+          {{ order.orderdate|date:"D m/d/y H:i" }}
+        </td>
+        <td>
+          {{ order.shipdate|date:"D m/d/y" }}
+        </td>
+      </tr>
+    {% endfor %}
+  </table>
+{% endblock %}

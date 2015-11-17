@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: theme-legacy.yaml at line 1018 on 2015-11-09 at 19:41:48 PST(GMT-0800)  #}
+
+
+{% load i18n %}
+{% block content %}
+  {{ block.super }}
+  <h1>Contact eRacks</h1>
+  <p>Customized rackmount and desktop systems are our specialty! We frequently put configurations together for customers that have unique requirements. Contact us today.</p>
+  <p>Need network design help?</p>
+  <p>Open Source enterprise migration services?</p>
+  <p>eRacks experts can make special arrangements to tackle your design problems. Tell us about your project.</p>
+  <form action=''  method='post'>
+      {% csrf_token %}
+      <fieldset>
+          {{ form.non_field_errors }}
+          {% for field in form %}
+              {{ field.errors }}
+              {% comment %} Displaying checkboxes differently {% endcomment %}
+              <p >{{ field.label_tag }} {{ field }}</p>
+          {% endfor %}
+      </fieldset>
+      <input  type="submit" value='Submit' id="contact">
+  </form>
+
+  <img alt="" border="0" height="306" src="/images/contact-us/bcard_hand.gif" width="400">
+
+
+  <address>
+      <strong >eRacks Open Source Systems</strong>
+      <br>
+      Has offices in:
+  </address>
+  <address>
+      &nbsp;- Hayward, CA
+  </address>
+  <address>
+      &nbsp;- Los Gatos, CA
+  </address>
+  <br>
+  <p>
+      Phone: (408)455-0010 (Sales)
+      <br>
+      Phone: (714)758-5423 (Google Voicemail)
+      <br>
+      Fax: (631) 392-9842
+  </p>
+  <p>
+      eMail:
+      <a  href="mailto:info@eracks.com">info@eracks.com</a>
+  </p>
+  <p>
+      Twitter:
+      <a  href="http://twitter.com/eracks" target="new">twitter.com/eracks</a>
+  </p>
+  <p>
+      <script src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js" style="{}" type="text/javascript">
+      </script>
+      <a  href="skype:erackssales?call">
+          <img src="http://download.skype.com/share/skypebuttons/buttons/call_blue_transparent_70x23.png" style="{u'border': u'none'}" height="23" width="70" alt="Skype Me !">
+      </a>
+      <br>
+      Skype: erackssales
+  </p>
+{% endblock %}

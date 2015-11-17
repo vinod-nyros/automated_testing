@@ -1,0 +1,615 @@
+# JJW 8/22/3 fix disappearing 'notes' bug, shrink Notes box
+
+### my imports
+
+import myconfig
+from myutil import *
+#from updater import sesurl, fullpath  # for some reason this gives an import error on fullpath
+import updater
+
+import warnings
+
+def showwarning(message, category, filename, lineno, file=None):
+    """Hook to write a warning to a file; replace if you like."""
+    if file is None:
+        file = sys.stderr
+    try:
+      file.write(warnings.formatwarning(message, category, filename, lineno))
+    except:
+      file = open ('warnings.log', 'a')
+      file.write(warnings.formatwarning(message, category, filename, lineno))
+      file.close()
+
+warnings.showwarning = showwarning
+#f = open ('warnings.log', 'a')
+#f.write ('\n\n- - - - -renderer module reloaded - - - - -\n')
+#f.close()
+
+
+### Zope imports
+
+import OFS      # for Folder, DTMLDocument
+from DocumentTemplate.DT_Util import html_quote
+#from Main import bobo_application  # nope - requires bobo-pos, use globals instead
+#from Globals import Bobobase  # for Bobobase  # nope, requires persistence.persistent, which isn't in persistence (!)
+#import Globals.Bobobase
+#import Zope                    # nope, only for Zope
+
+### Python imports
+
+from types import *
+from string import find
+from sys import modules
+import urllib
+
+
+### misc HTML util functions
+
+def tr (s):
+  return '<tr>' + s + '</tr>'
+
+def td (s):
+  return ' <td valign="top" align="left">' + s + '</td>\n'
+
+def tdcenter (s):
+  return ' <td valign="top" align="center">' + s + '</td>\n'
+
+def bold (s):
+  return '<b>' + s + '</b>'
+
+def link (s, desc):
+  return '<a href="' + s + '">' + desc + '</a>'
+
+def font (sz, s):
+  return '<font face="Geneva,Helvetica,sans-serif" size=' + str (sz) + ' color="#000000">' + s + '</font>'
+
+def fontb (sz, s):
+  return '<font face="Geneva,Helvetica,sans-serif" size=' + str (sz) + ' color="#000000"><b>' + s + '</b></font>'
+  
+def image (i):
+  if type (i) == StringType:
+    return '<img border="0" src="' + i + '">'
+  else:
+    return str (i) # it already does all this stuff!
+    #h = i.height
+    #w = i.width
+    #return '<img border="0" height="%s" width="%s" src="%s">' % (h, w, str (i)) 
+
+
+### misc util functions & classes
+
+def iff (b,t,f):
+  if b: return t
+  else: return f
+
+class Dict:
+  def __init__(self, dict):
+    self.__dict__ = dict
+
+def getsession (self):
+  return getattr (self, 'session', self.aq_parent.session)
+  #return self.session
+
+def getimages (self):
+  return self.images
+  #if hasattr (self, 'images'):
+  #  return self.images
+  #else:
+  #  return self.aq_parent.images
+  
+  # wierd artifact of acquisition - the above works but this doesn't (in test folder):
+  #return getattr (self, 'images', self.aq_parent.images)
+
+
+### misc default declarations & global values
+
+boxcolor='#c4c4ff'
+blue='#efefff'
+grey='#dedede'
+
+pix  = '<img src="%s/images/pix.gif" height="1" width="1" border="0">' % myconfig.rootpath
+pix2 = '<img src="%s/images/pix.gif" height="2" width="2" border="0">' % myconfig.rootpath
+
+#zope    = Globals.Bobobase ['Application']   # 
+#zope    = Zope.bobo_application
+#zope    = modules ['Zope'].bobo_application._klass              # bingo!            aq_parent aq_self
+#zope    = modules ['Zope'].bobo_application._stuff
+#zope    = modules ['Zope'].bobo_application.__methods__
+#raise Exception (`zope` + `vars (zope)` + `zope._stuff[1]`)
+#zope    = modules ['Globals']
+#zope    = modules ['BoboPOS']
+#zope    = globals() #modules ['Main'].app #.root
+#raise Exception (`zope`)
+#zope = zope.getPhysicalRoot()            # eRacks
+#raise Exception (zope.getPhysicalPath (zope))
+#raise Exception (`zope` + `vars (zope)`)
+#images  = zope.images
+#buttons = zope.buttons
+
+
+### box functions
+
+def boxtop (clr, txt):
+  result = '<table width="100%" cellspacing="0" cellpadding="0" border="0">\n'       \
+           ' <tr>\n'                                                                 \
+           '  <td bgcolor="' + clr + '" align="center" valign="top" colspan="4">\n'  \
+           '   <font face="Geneva, Helvetica" size="2" color="#000000">\n' +          \
+                txt +                                                                \
+           '   </font>\n'                                                            \
+           '  </td>\n'                                                               \
+           ' </tr>'
+  return result
+
+def boxbottom (clr, pix):
+  result = ' <tr height="2">\n'                                                        \
+           '  <td colspan="4" bgcolor="' + clr + '">' + pix2 + '</td>\n'                \
+           ' </tr>\n'                                                                  \
+           ' <tr height="5"><td colspan="4" bgcolor="#ffffff">' + pix + '</td></tr>\n' \
+           '</table>'
+  return result
+
+def boxside (clr):
+  return '<td width="2" bgcolor="%s">%s</td>' % (clr, pix2)
+  #return '<td bgcolor="%s">%s</td>' % (clr, pix2)
+
+def isFolder (o):
+  return find (repr (o), '<Folder instance') == 0
+
+
+### draw portal-style flat colored box for objects
+
+def box (self, hdr, bdy, clr='#c4c4ff'):
+  #if hasattr (self, boxcolor):
+  #  clr = self.boxcolor
+  #else:
+  #  clr = boxcolor
+  #images = getimages (self)
+  #pix = str (images.pix)
+
+  t = type (bdy)
+  insert = ''
+
+  if isFolder (bdy):
+    bdy = bdy.__dict__
+    t = DictionaryType
+
+  if t in (ListType, TupleType):
+    for x in bdy:
+      insert = insert + tr (boxside (clr) + tdcenter (x) + boxside (clr))
+  
+  elif t is DictionaryType:
+    for (k,v) in bdy.items():
+      insert = insert + tr (boxside (clr) + tdcenter (html_quote (str(k))) +
+                                            tdcenter (html_quote (str(v))) + boxside (clr))
+  else:
+    #insert = tr (boxside (clr) + tdcenter (html_quote (str (bdy))) + tdcenter (bdy) + boxside (clr))
+    #insert = tr (boxside (clr) + tdcenter (html_quote (str (bdy))) + boxside (clr))
+    insert = tr (boxside (clr) + tdcenter (str (bdy(self))) + boxside (clr))
+
+  result = boxtop (clr, hdr) + \
+           insert            + \
+           boxbottom (clr, pix)
+  return result
+
+
+### build sidebar table, with blue bullets and expanding sections 
+# remove blue bullets, bold, Arial->Geneva 2/9/3 JJW & BJS
+
+def comparesortorder (f1, f2):
+  return f1.sortorder - f2.sortorder
+
+def sidebar (self, currentfolder):
+  #images = getimages (self)
+  ses = currentfolder.session
+  result = '<table width="100%" border="0" cellpadding="0" cellspacing="0">\n' 
+  
+  foldlist = []
+
+  for fold in self.__dict__.values():
+    if type (fold) is OFS.Folder.Folder:
+      foldlist.append (fold)
+
+  foldlist.sort (comparesortorder)
+
+  for fold in foldlist:
+    url = updater.sesurl (ses, self.REQUEST, 'products/' + urllib.quote (fold.id), 1)
+    result = result + tr (td ('&nbsp;&middot;&nbsp;' + link (url, fontb (1, fold.id)) ))
+# td (link (url, img (self, 'blueball'))) + \
+
+    if fold.id == currentfolder.id:
+      doclist = []
+
+      for doc in fold.__dict__.values():
+        if type (doc) is OFS.DTMLDocument.DTMLDocument:
+          doclist.append (doc)
+
+      doclist.sort (comparesortorder)
+      
+      result = result + '<tr><td>'
+
+      for doc in doclist:
+        url = updater.sesurl (ses, self.REQUEST, 'products/' + urllib.quote (fold.id) + '/config?sku=' + doc.id(), 1)
+        #url = ses.url (urllib.quote (fold.id) + '/config?sku=' + doc.id())
+        result = result + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + link (url, font (1,'eRacks/'+ doc.id())) + '<br>' 
+
+      result = result + '</td></tr>'
+
+  result = result + '</table>'
+  return result
+
+
+### build input list from sql method
+
+def inputform (self, sql):
+  #return str(sql.src) + '\n' + str (sql.template)
+  #return sql._arg._data sql._arg._keys
+  #return str(self.formwidth) works iff: 1) doc or prop in same folder, 2) property on calling doc AND passed this()
+
+  s = '<h2>%s</h2>' % sql.title
+  s = s + '<p><form action="%s" method="post">\n' % (sql.__name__ + 'inputresult')
+  s = s + '<table>\n'
+  s = s + '<tr bgcolor="#CCCCCC"><td colspan=3>%s</td></tr>' % sql.id
+
+  for arg in sql._arg._keys:
+    s = s + '<tr>\n <td align="right">%s</td>\n <td><input name="%s"></td>\n</tr>\n' % (arg, arg)  # type="text" is the default
+
+  s = s + '</table>\n'
+  s = s + '<input type="submit" name="submit" value="Update">\n'
+  s = s + '</form>\n'
+  #s = s + '<input type=button value="<back" onClick="history.back()">'
+  return s
+
+
+### configgrid - shows config grid (sorts by sortorder)
+
+def comparesortorders (o1, o2):
+  return int (o1 ['sortorder']) - int (o2 ['sortorder'])
+
+def configgrid (self):
+  table       = getattr (self, 'table', '<table width="100%" cellpadding="1" cellspacing="0">') + '\n'
+  blue        = getattr (self, 'blue', '#efefff')
+  grey        = getattr (self, 'grey', '#dedede')
+  evenrow     = getattr (self, 'evenrow', ' <tr bgcolor="%s">') % blue + '\n'
+  oddrow      = getattr (self, 'oddrow', ' <tr bgcolor="%s">') % grey + '\n'
+  hdritem     = getattr (self, 'hdritem', '  <td><b>%s</b></td>') + '\n'
+  item        = getattr (self, 'item', '  <td><font face="arial,helvetica,sans-serif" size="2">%s</font></td>') + '\n'
+  #item        = getattr (self, 'item', '  <td>%s</td>') + '\n'
+  optionsitem = getattr (self, 'optionsitem', '  <td><font face="arial,helvetica,sans-serif" size="1"> %s </font></td>') + '\n'
+  link        = getattr (self, 'link', '   <a href="#%s">More %s Info</a>') + '\n'
+
+  #return `self` yup, its a folder instance
+  #self._setProperty ('link', link)
+  #self.manage_addProperty (id='link', value=link, type='string')
+
+  row = evenrow
+  s = '<font face="arial,helvetica,sans-serif" size="2">' + table + '<font face="arial,helvetica,sans-serif" size="2">' + row
+  s = s + hdritem % 'Option' +  hdritem % 'Choices' + hdritem % 'More Info'
+  s = s + ' </tr>\n'
+
+  ses = getsession (self)
+  prod = Dict (ses ['prod'])
+  opts = prod.opts
+  optlist = opts.values()
+  #optlist.reverse()
+  optlist.sort (comparesortorders) 
+
+  for opt in optlist:
+    row = iff (row == evenrow, oddrow, evenrow)
+    optname = opt ['Option']
+
+    s = s + row + item % optname + item % choicecombo (self, opt) + optionsitem % link % (optname, optname) + '</tr>\n'
+
+  row      = iff (row == evenrow, oddrow, evenrow)
+  notes    = ''
+  
+  # JJW 8/22/3 
+  # the line below getting notes fm prod was missing the quotes around 'notes' - it seems to works now, so
+  # this may not be needed, although it might: if hasattr (req, 'notes'): notes = req.notes
+  if hasattr (prod, 'notes'): notes = prod.notes
+  noteslab = 'Notes'
+  textarea = '<font face="arial,helvetica,sans-serif" size="2"><textarea rows="2" cols="40" name="notes">%s</textarea></font>' % notes
+  s        = s + row + item % noteslab + item % textarea + optionsitem % link % (noteslab, noteslab) + '</tr>\n'
+
+  s = s + '</font></table>\n'
+  return s
+
+
+### choicecombo (& compare) - builds choice combobox, sorts choices by price (alpha added JJW 6/02)
+# need to change to price & sortorder, but need to add to sql & check presence of sortorder for old sessions 6/02 JJW
+
+def compareprices (c1, c2):
+  return int (c1 ['pricedelta']) - int (c2 ['pricedelta'])
+
+def comparepricesandalpha (c1, c2):
+  p1 = int (c1 ['pricedelta'])
+  p2 = int (c2 ['pricedelta'])
+  if p1 != p2:
+    return p1 - p2
+  else:
+    return cmp (c1, c2)
+
+def comparesortorderandprices (c1, c2):
+  so1 = int (c1 ['sortorder'])
+  so2 = int (c2 ['sortorder'])
+  if so1 != so2:
+    return so1 - so2
+  else:
+    return int (c1 ['pricedelta']) - int (c2 ['pricedelta'])
+
+
+def choicecombo (self, opt):  # assumes called form configure, w/valid session - also computes total price
+  select = getattr (self, 'select', '<select name="choiceid">') + '\n'
+  option = getattr (self, 'option', ' <option value="(%i,%i)" %s>%s %s</option>') + '\n'
+
+  s = select
+
+  # these only needed to compute totprice & update summary - see below
+  ses      = getsession (self)
+  prod     = ses ['prod']
+
+  defaultchoiceid  = opt ['defaultchoiceid']
+  selectedchoiceid = opt.get ('selectedchoiceid', defaultchoiceid)
+  choicelist       = opt ['choices'].values()
+  #choicelist.sort (compareprices) #.reverse()
+  choicelist.sort (comparepricesandalpha) #.reverse()
+  #choicelist.sort (comparesortorderandprices)
+
+  for choice in choicelist:
+    choiceid = choice ['choiceid']
+    price    = choice ['pricedelta']
+    desc     = choice ['Choices']
+
+    if price < 0:
+      add = 'Subtract $%i' % -price
+    elif price == 0:
+      add = ''
+    else:
+      add = 'Add $%i' % price
+
+    sel = iff (choiceid == selectedchoiceid, 'selected', '')
+
+    s = s + option % (opt ['optid'], choiceid, sel, desc, add)
+
+  return s + '</select>\n'
+
+
+### configsummary - shows configuration summary, totprice
+
+def configsummary (self, prod=None):
+  if not prod:
+    prod = getsession (self) ['prod']
+  sumprod = getattr (self, 'sumprod', '  <td>%s</td>') + '\n'
+  sumitem = getattr (self, 'sumitem', '  <td>%s</td>') + '\n'
+  sumprice = getattr (self, 'sumprice', '  <td>%s</td>') + '\n'
+  Product = prod.get ('Product', 'eRacks system')
+  summary = prod.get ('summary', '')
+  summary = summary or ' Default Configuration'
+  totprice = prod.get ('totprice', 1150)
+  s = sumprod % prod ['Product'] + sumitem % summary + sumprice % '$%6.2f' % totprice
+  return s
+
+
+### cartgrid - shows shopping cart grid (list of configsummaries)
+
+def cartgrid (self):
+  table       = getattr (self, 'table', '<table cellpadding="2" cellspacing="0" width="100%">') + '\n'
+  blue        = getattr (self, 'blue', '#efefff')
+  grey        = getattr (self, 'grey', '#dedede')
+  evenrow     = getattr (self, 'evenrow', ' <tr bgcolor="%s">') % blue + '\n'
+  oddrow      = getattr (self, 'oddrow', ' <tr bgcolor="%s">') % grey + '\n'
+  hdritem     = getattr (self, 'hdritem', '  <td><center><font face="arial,helvetica,sans-serif" size="2"><b> %s </b></font></center></td>') + '\n'
+  item        = getattr (self, 'item', '  <td><font face="arial,helvetica,sans-serif" size="2"> %s </font></td>') + '\n'
+  optionsitem = getattr (self, 'optionsitem', '  <td><font face="arial,helvetica,sans-serif" size="1"> %s </font></td>') + '\n'
+  
+  row = evenrow
+  s = table + row + \
+        hdritem % 'Line' + \
+        hdritem % 'Sku' + \
+        hdritem % 'Model' + \
+        hdritem % 'Options' + \
+        hdritem % 'Qty' + \
+        hdritem % 'Upd qty' + \
+        hdritem % 'Price' + \
+        hdritem % 'Total' + \
+        ' </tr>\n'
+
+  ses = getsession (self)
+  cart = ses ['cart']
+
+  if cart:
+    lines = cart.keys()
+    lines.reverse()
+
+    for line in lines:
+      prod  = Dict (cart [line])
+      sku   = prod.sku
+      model = prod.Product
+      desc  = prod.summary
+      qty   = prod.qty
+      price = prod.totprice
+      ext   = price * qty
+
+      row = iff (row == evenrow, oddrow, evenrow)
+      s = s + row + \
+	  item % str (line) +	\
+	  item % sku + \
+	  item % model + \
+	  optionsitem % desc + \
+	  item % str (qty) + \
+	  item % '<input name="updqty" size="3"><input type=hidden name="ordlin" value="%s">' % str (line) + \
+	  item % '%6.2f' % price + \
+	  item % '%6.2f' % ext + \
+	   ' </tr>\n'
+	  # JJW omit link for now (broken)
+	  #item % link (ses.url ('products/config?sku=' + sku), model) + \
+	  #optionsitem % link (ses.url ('products/config?edit=' + str(line)), desc) + \
+
+  else:
+    return 'Your cart is empty'
+
+  s = s + '</table>\n'
+  return s
+
+
+### cartcontents - returns duple of cart (items, total) - could add SKUs, too..
+
+def cartcontents (self):
+  ses = getsession (self)
+
+  grandtot = 0
+  totqty = 0
+
+  if ses.has_key ('cart'):
+    cart = ses ['cart']
+    
+    for line in cart.values():
+      qty = line ['qty']
+      totqty = totqty + qty
+      grandtot = grandtot + qty * line ['totprice']
+    
+  return (totqty, grandtot)
+
+
+### cartsummary - shows cart summary (number, skus, total order)
+
+def cartsummary (self):
+  (totqty, grandtot) = cartcontents (self)
+
+  return '%i item%s' % (totqty, iff (totqty==1, '', 's')) + ' totaling $%8.2f' % grandtot
+
+
+### cart box - should factor out the cartcontents proc above
+
+def cartbox (self, clr='#c4c4ff'):
+  #images = self.images   # getimages (self)
+  #pix = str (images.clear_pixel)  
+  def surl (url, flag=0, self=self):                   # self.session.url
+    return updater.sesurl (self.session, self.REQUEST, url, flag)
+
+  (totqty, grandtot) = cartcontents (self)
+  
+  if totqty:     # extra td/td is for colspan=4 in boxtop/bottom - still renders wrong in netscape 4.6
+    s = boxtop (clr, 'Your eRacks cart') + \
+        '<tr nowrap>' + boxside (clr) + \
+        ' <td valign="middle" align="center">' + \
+        font (1, link (surl ('cart', 1), img (self, 'cart') + \
+                               ' %i item%s' % (totqty, iff (totqty==1, '', 's')) + \
+                               ' $%8.2f total' % grandtot) ) + '</td><td> </td>\n' + \
+        boxside (clr) + '</tr>' + \
+        '<tr nowrap>' + boxside (clr)  + \
+        ' <td valign="middle" align="center">' + \
+        font (1, link (surl ('cart', 1), 'View Cart') + '&nbsp&middot&nbsp' + \
+                 link (surl ('checkout', 2), 'Checkout') ) + '</td><td> </td>\n' + \
+        boxside (clr) + '</tr>' + \
+        boxbottom (clr, pix)
+  else:
+    s = ''
+    
+  return s
+  
+
+def configdesc (self):
+  ses = getsession (self)
+  prod = ses ['prod']     # should I test this and redirect here, in case someone surfs directly to the config page? 
+                          # No, just set to some default in updater, if prod is blank (use NAS)
+  cat = prod ['category']
+  sku = prod ['sku']
+  fold = self.aq_self
+  
+  if not type (fold) is OFS.Folder.Folder: 
+    fold = self.aq_parent
+
+  if hasattr (fold, sku):    # if full folder passed
+    return fold [sku] (self) # then return the sku in this folder
+
+  cf =  self.products [cat]  # otherwise, start from bottom, acquire products, and get products/<category>/<sku>
+  return cf [sku] (self)  # calling it renders, accessing it w/o the call gives quoted html!  
+
+  #cf =  self.products [cat] # category folder - can't always find it by acquisition, for some reason
+  # NOTE:  have to pass fold, or another obj found fm aq_parent - otherwise the img calls in the dtml don't work -
+  # this is due to the zconfig.desc object being in the zconfigurator obj, NOT in the eracks tree (I think). JJW 3/01
+  # even this doesnt work, for example:
+  # return cf [sku] (self, None)  # calling it renders, accessing it w/o the call gives quoted html!
+                          # passing self is necessary so the dtml-var "img ('imagename')" finds images!  
+  #return fold.options [cat]
+  
+def configfaq (self):
+  ses = getsession (self)
+  prod = ses ['prod']
+  opts = list (prod ['opts'].values())
+  opts.reverse()
+  fold = self.aq_parent.options
+  s = ''
+
+  for opt in opts:
+    name = opt ['Option']
+    s = s + '<a name="%s"></a>' % name + fold [name] (fold)
+
+  return s
+  
+
+### image rendering funcs
+
+def imgobj (im, folders) :
+  if type (im) == type (''):
+    for fold in folders:
+      try: 
+        img = fold [im]
+        img.folder = fold.id
+        return img
+      except: continue 
+  else:  # its an image object already!
+    return im
+
+  s = 'Invalid image in imgobj: %s %s' % (im, folders [0].id)
+  if len (folders) > 1: 
+    s = s + ' ' + folders [1].id
+    s = s + ' %s' % folders [1].objectItems()
+  raise Exception (s)
+  return None
+
+def imgstr (im, *folders):
+  img = imgobj (im, folders)
+
+  try:
+    border = getattr (img, 'border', '0')
+    return (' src="%s" height="%s" width="%s" alt="%s" border="%s">' % \
+           #(updater.fullpath (img), img.height, img.width, img.title, border), img)
+           (img.absolute_url(), img.height, img.width, img.title,
+border), img)
+#           (base (img), img.height, img.width, img.title, border), img)
+  except:
+#    raise Exception ('Invalid image: %s %s %s' % (im, img, folders [0].id)) # , img.id))   #img.propertyItems()`, img.id))
+    raise Exception (dir (updater))
+  
+def img (self, im):
+  (s, theimg) = imgstr (im, self.buttons, self.images)
+  return '<img' + s
+
+def inputimg (self, im):
+  (s, theimg) = imgstr (im, self.buttons, self.images)
+  s = '<input type="image" name="%s" value="%s"' % (theimg.__name__, theimg.title) + s
+  return s
+
+def btn (self, im):
+  (s, theimg) = imgstr (im, self.buttons)
+  return '<img' + s
+
+def inputbtn (self, im):
+  (s, theimg) = imgstr (im, self.buttons)
+  s = '<input type="image" name="%s" value="%s"' % (theimg.__name__, theimg.title) + s
+  return s
+
+
+### main (for testing and development)
+
+if __name__ == "__main__":
+  import urllib
+  u = urllib.urlopen ('http://joe:semaj@eracks733:8080/eRacks/compile')
+  print u.read()
+
+  #if find (u.read(), 'compiled OK'):
+  #  print 'OK'
+
+  u.close()
+

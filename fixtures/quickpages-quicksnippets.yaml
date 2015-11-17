@@ -1,0 +1,251 @@
+- fields: {body: "<nav id=\"nav_main\">\r\n    <a href=\"/products/\" title=\"eRacks
+      Product Categories\">Products</a> \xB7\r\n    <a href=\"/services/\" title=\"eRacks
+      Services\">Services</a> \xB7\r\n    <a href=\"/partners/\" title=\"eRacks Partners\">Partners</a>
+      \xB7\r\n    <a class=\"aloha-link-text\" href=\"/customers/\" title=\"eRacks
+      Customers and Testimonials\">Customers</a> \xB7\r\n    <a class=\"aloha-link-text\"
+      href=\"/faq/\" title=\"eRacks Frequently Asked Questions\">FAQ</a> \xB7\r\n
+      \   <a class=\"aloha-link-text\" href=\"/press/\" title=\"News about eRacks,
+      Press Releases\">Press</a> \xB7\r\n    <a class=\"aloha-link-text\" href=\"/corporate/\"
+      title=\"About eRacks\">About Us</a> \xB7 \r\n    <a href=\"http://blog.eracks.com/\"
+      title=\"eRacks Tech News and Blog\">Blog</a> \xB7\r\n    <a target=\"_self\"
+      class=\"aloha-link-pointer\" href=\"/contact/\" title=\"Contact eRacks\">Contact
+      Us</a>\r\n</nav>\r\n", created: ! '2012-04-03 18:31:18.573738', name: nav_main,
+    published: false, title: Nav_Main - Main Nav Bar, updated: ! '2012-10-20 22:06:47.813579'}
+  model: quickpages.quicksnippet
+  pk: 1
+- fields: {body: "<nav id=\"nav_small\">\r\n    <a href=\"/\" title=\"eRacks Open
+      Source Systems\">Home</a> \xB7\r\n    <a href=\"/products/\" title=\"eRacks
+      Product Showroom\">Products</a> \xB7\r\n    <a href=\"/services/\" title=\"eRacks
+      Services\">Services</a> \xB7\r\n    <a href=\"/corporate/\" title=\"About eRacks\">About
+      Us</a>\r\n</nav>\r\n", created: ! '2012-04-08 23:07:11.839066', name: nav_small,
+    published: true, title: Nav_Small - Upper Left Nav, updated: ! '2012-10-20 22:06:11.753886'}
+  model: quickpages.quicksnippet
+  pk: 2
+- fields: {body: "<nav id=\"nav_login\">\r\n    Social Logins:\r\n    <a href=\"/login/\"
+      title=\"Login at eRacks using BrowserID / Mozilla Persona\">\r\n      <img alt=\"BrowserID
+      / Persona button\" src=\"https://browserid.org/i/sign_in_orange.png\">\r\n    </a>
+      \xB7\r\n    <a href=\"/fb\" title=\"Login at eRacks with Facebook\">FB</a> \xB7\r\n
+      \   <a href=\"/tw\" title=\"Login at eRacks with Twitter\">Tw</a> \xB7\r\n    <a
+      href=\"/in\" title=\"Login at eRacks with LinkedIn\">In</a> \xB7\r\n</nav>\r\n",
+    created: ! '2012-04-08 23:08:26.693513', name: nav_login, published: true, title: Nav_Login
+      - Upper Right Nav, updated: ! '2012-05-04 17:07:05.052150'}
+  model: quickpages.quicksnippet
+  pk: 3
+- fields: {body: "<div id=\"mailing_list\">\r\n  <form action=\"/customers/save_email/\"
+      class=\"nice\" method=\"POST\">\r\n  <i><b>Join Our Mailing List! </b></i>&nbsp;\r\n
+      \ <input type=\"email\" name=\"email\" placeholder=\"Enter your email address\"
+      />\r\n  <input type=\"submit\" class=\"nice small green radius button\" value=\"GO\"
+      />\r\n </form>\r\n</div>", created: ! '2012-04-10 18:08:24.474937', name: mailing_list,
+    published: true, title: Mailing List, updated: ! '2015-03-24 10:40:20.853426'}
+  model: quickpages.quicksnippet
+  pk: 4
+- fields: {body: "<div id=\"os_logos\">\r\n  <a href=\"http://www.ubuntu.com\" target=\"new\"><img
+      src=\"/images/logos/ubuntu.gif\" height=\"46\" width=\"40\" alt=\"Ubuntu\" border=\"0\"></a>&nbsp;\r\n
+      \ <!-- <a href=\"http://www.gentoo.org\" target=\"new\"><img src=\"http://eracks.com/images/logos/gentoo\"
+      alt=\"\" title=\"\" height=\"46\" width=\"45\" border=\"0\"></a>&nbsp; -->\r\n
+      \ <a href=\"http://www.debian.org\" target=\"new\"><img src=\"/images/logos/debian.gif\"
+      height=\"46\" width=\"50\" alt=\"Debian Linux\" border=\"0\"></a>&nbsp;\r\n
+      \ <a href=\"http://www.centos.org\" target=\"new\"><img src=\"/images/logos/centos.gif\"
+      height=\"46\" width=\"48\" alt=\"CentOS Linux\" border=\"0\"></a>&nbsp;\r\n
+      \ <a href=\"http://www.netbsd.org\" target=\"new\"><img src=\"/images/logos/netbsd_small.gif\"
+      height=\"46\" width=\"46\" alt=\"NetBSD\" border=\"0\"></a>&nbsp;\r\n  <a href=\"http://www.freebsd.org\"
+      target=\"new\"><img src=\"/images/logos/freebsd_small.gif\" height=\"46\" width=\"45\"
+      alt=\"FreeBSD\" border=\"0\"></a>&nbsp;\r\n  <a href=\"http://www.linux.org\"
+      target=\"new\"><img src=\"/images/logos/linux_small.gif\" height=\"46\" width=\"45\"
+      alt=\"Linux\" border=\"0\"></a>&nbsp;\r\n  <a href=\"http://www.openbsd.org\"
+      target=\"new\"><img src=\"/images/logos/openbsd_small.gif\" height=\"46\" width=\"55\"
+      alt=\"OpenBSD\" border=\"0\"></a>&nbsp; \r\n</div>", created: ! '2012-04-23
+      21:58:53.002279', name: os_logos, published: true, title: Open Source Operating
+      System Logos, updated: ! '2012-04-24 22:40:10.297260'}
+  model: quickpages.quicksnippet
+  pk: 5
+- fields: {body: "<div id=\"social_login_logos\">\r\n  <img src=\"/images/logos/facebook-logo-45x45.png\"
+      height=\"24\" width=\"24\" alt=\"Facebook login\" border=\"0\"></a>&nbsp;\r\n</div>",
+    created: ! '2012-04-23 22:39:01.136624', name: social_login_logos, published: true,
+    title: TODO, updated: ! '2012-04-23 22:39:01.136673'}
+  model: quickpages.quicksnippet
+  pk: 6
+- fields: {body: "\r\n<font color=\"red\"><b>New!</b></font><br>\r\nIntel e5-2600
+      <br>Quad/Six/Eight Core CPU<br>\r\n<a href=\"/products/Intel%20Systems/ESERVE\">eRacks/ESERVE</a>\r\n
+      and \r\n<a href=\"/products/Intel%20Systems/SANDYTOWER\">eRacks/SANDYTOWER</a>\r\n\r\n<a
+      href=\"/products/Intel%20Systems\"><img src=\"http://eracks.com/products/Intel%20Systems/intele5_chip_s\"
+      alt=\"\" title=\"\" height=\"52\" width=\"78\" border=\"0\"></a>\r\n<br>\r\n\r\n\r\n<hr
+      width=\"75%\"><br>\r\n\r\nIntel i3/i5/i7 <br>Dual- Quad- or Six- Core CPU<br>\r\n<a
+      href=\"/products/Desktops\"><img src=\"http://eracks.com/products/Desktops/i7chip_70\"
+      alt=\"\" title=\"Intel i7 CPU\" height=\"52\" width=\"70\" border=\"0\"></a>\r\n<br>\r\n\r\n\r\n<hr
+      width=\"75%\"><br>\r\n<font color=\"red\"><b>New!</b></font><br>\r\nUbuntu +
+      Thin + Light<br>\r\n<a href=\"/products/Laptops/ZENBOOK\"><img src=\"http://eracks.com/images/small/zenbook_100\"
+      alt=\"\" title=\"\" height=\"76\" width=\"100\" border=\"0\"></a>\r\n<br>\r\n<a
+      href=\"/products/Laptops/ZENBOOK\">eRacks/ZENBOOK</a>\r\n\r\n<hr width=\"75%\"><br>\r\n\r\nAMD
+      Fusion<br>A-Series Llano APU<br>\r\n<a href=\"/products/AMD%20Systems\"><img
+      src=\"http://eracks.com/products/AMD%20Systems/amd_70\" alt=\"\" title=\"AMD\"
+      height=\"76\" width=\"70\" border=\"0\"></a>\r\n<br>\r\n<a href=\"/products/ASERIES\">eRacks/ASERIES</a>\r\n
+      \ &  <br>\r\n<a href=\"/products/APURACK\">eRacks/APURACK</a>\r\n<p>\r\n\r\n<hr
+      width=\"75%\"><br>\r\n\r\n<b><a href=\"/products/Firewall%20Servers/\">eRacks/TWINGUARD</a>\r\n</b>\r\n<a
+      href=\"/products/Firewall%20Servers/\"><img src=\"http://eracks.com/products/Firewall%20Servers/openbsd_gunlogo_85\"
+      alt=\"\" title=\"\" height=\"69\" width=\"85\" border=\"0\"></a>\r\n<br>\r\n\r\nFailover
+      fully-redundant firewall system in one 1U chassis.\r\n\r\n<br>\r\n<hr width=\"75%\"><br>\r\n\r\nIntel
+      Xeon E7-4400 <br>&<br>Intel Xeon E7-8800<br>\r\n<a href=\"/products/Storage%20Servers%20-%20NAS\"><img
+      src=\"http://eracks.com/products/Storage%20Servers%20-%20NAS/intelE7_70\" alt=\"\"
+      title=\"\" height=\"53\" width=\"70\" border=\"0\"></a>\r\n<br>\r\n<a href=\"/products/NAS6X\">eRacks/NAS6X</a>\r\n
+      \ &  <br>\r\n<a href=\"/products/NAS16X\">eRacks/NAS16X</a>\r\n<p>\r\n\r\n<hr
+      width=\"75%\"><br>\r\n\r\n<a href=\"/products/NAS50\"><img src=\"http://eracks.com/products/Storage%20Servers%20-%20NAS/nas50_70\"
+      alt=\"\" title=\"eRacks/NAS50\" height=\"64\" width=\"70\" border=\"0\"></a>\r\n<br>\r\n<a
+      href=\"/products/NAS50\">150 TB Capacity</a>\r\n<br>\r\n<a href=\"/products/NAS50\">NAS
+      rackmount server</a>\r\n<p>\r\n\r\n<hr width=\"75%\"><br>\r\n\r\n\r\n\r\n<b>Ubuntu
+      11.10</b> Desktop and Server versions available on eRacks systems!<br>\r\n\r\n<img
+      src=\"products/Desktops/ubuntu_70\" border=\"0\" alt=\"Ubuntu logo\"><br>\r\n<hr
+      width=\"75%\"><br>\r\n\r\n<b>Follow us on <a href=\"http://twitter.com/eRacks\"
+      target=\"new\">Twitter</a>!</b>\r\n<a href=\"http://twitter.com/eRacks\" target=\"new\">
+      <img src=\"/images/twitter-bird\" border=\"0\" alt=\"Twitter bird\"></a><br>\r\nSales!
+      Price updates! News!<br>\r\n<hr width=\"75%\"><br>\r\n\r\n<a href=\"http://fedoraproject.org\"
+      target=\"new\"><img src=\"/images/fedora_logo\" border=\"0\" alt=\"Fedora logo\"></a><br>\r\n<b>Fedora</b>
+      16 ready!<p>\r\n\r\n", created: ! '2012-04-23 22:56:54.225105', name: right_column,
+    published: true, title: TODO, updated: ! '2012-04-23 22:56:54.225151'}
+  model: quickpages.quicksnippet
+  pk: 7
+- fields: {body: '<a href="http://www.la.bbb.org/BusinessReport.aspx?CompanyID=13194335&source=ctc"
+      title="eRacks'' Better Business Bureau report"><img src="http://www.la.bbb.org/images/ClickToCheckVert.gif"
+      WIDTH="86" HEIGHT="139" BORDER="0"></a>', created: ! '2012-06-23 09:42:10.868505',
+    name: bbb_vertical, published: true, title: Vertical Better Business Bureau Clickable
+      Logo, updated: ! '2012-06-23 09:42:10.868570'}
+  model: quickpages.quicksnippet
+  pk: 8
+- fields: {body: '<a href="http://www.la.bbb.org/BusinessReport.aspx?CompanyID=13194335&source=ctc"
+      title="eRacks'' Better Business Bureau report"><img src="http://www.la.bbb.org/images/clickratingsm.gif"
+      WIDTH="135" HEIGHT="52" BORDER="0"></a>', created: ! '2012-06-23 09:43:22.269853',
+    name: bbb_horizontal_old, published: false, title: Horizontal Better Business
+      Bureau Clickable Logo, updated: ! '2013-10-06 15:38:12.982086'}
+  model: quickpages.quicksnippet
+  pk: 9
+- fields: {body: "<!-- see https://ssl.trustwave.com/support/siteseal.php -->\r\n<!--
+      script type=\"text/javascript\" src=\"https://sealserver.trustwave.com/seal.js?style=normal\"></script
+      \ -->\r\n<script type=\"text/javascript\" src=\"https://sealserver.trustwave.com/seal.js?code=w6oj3BWieJra4gUlPlTROdOFZidqDb\"></script>",
+    created: ! '2012-06-23 09:55:19.651007', name: trustwave_siteseal, published: true,
+    title: 'TrustWave site seal - see https://ssl.trustwave.com/support/siteseal.php',
+    updated: ! '2013-06-21 14:58:14.758525'}
+  model: quickpages.quicksnippet
+  pk: 10
+- fields: {body: "<p>eRacks Open Source Systems provides high-performance competitively-priced
+      open source Rackmount Servers, \r\nDesktop Computers, as well as a wide array
+      of services including Open Source enterprise migration, \r\nsecurity, and network
+      architecture design. \r\n</p>\r\n\r\n<p>eRacks saves you both time and money
+      by combining quality open source enterprise-level software and \r\neasily-upgradeable
+      industry-standard components in its rackmount servers. \r\n</p>\r\n", created: ! '2012-10-28
+      14:50:42.749047', name: new_home_page_text_1, published: true, title: High Performance,
+    updated: ! '2015-11-06 12:01:25.794019'}
+  model: quickpages.quicksnippet
+  pk: 11
+- fields: {body: "<h3 style=\"font-weight:normal;font-size:x-large\">\r\n  Pre-provisioned
+      OSS\r\n</h3>\r\n\r\n<p>eRacks' specialty is in preconfigured custom Linux rackmount
+      servers, FreeBSD, OpenBSD, and NetBSD rackmount servers. \r\n</p>\r\n\r\n<p>eRacks'
+      wide choice of operating systems also include Ubuntu, Debian, openSUSE, Fedora
+      Linux and other rackmount server configurations. \r\neRacks also provides onsite
+      installation, open source migration services, including network consulting and
+      software development services. \r\n</p>\r\n\r\n<script type=\"text/javascript\">\r\n\r\n
+      \ var _gaq = _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-37665012-1']);\r\n
+      \ _gaq.push(['_setDomainName', 'eracks.com']);\r\n  _gaq.push(['_trackPageview']);\r\n\r\n
+      \ (function() {\r\n    var ga = document.createElement('script'); ga.type =
+      'text/javascript'; ga.async = true;\r\n    ga.src = ('https:' == document.location.protocol
+      ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\r\n    var
+      s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
+      s);\r\n  })();\r\n\r\n</script>", created: ! '2012-10-28 14:52:16.583062', name: home_page_text_2,
+    published: true, title: Pre-provisioned OSS, updated: ! '2015-11-02 20:03:12.170313'}
+  model: quickpages.quicksnippet
+  pk: 12
+- fields: {body: "<h5>\r\n  Experience, Custom design, Open Source, Quiet rackmounts\r\n</h5>\r\n\r\n<p>eRacks
+      also has extensive experience building quiet rackmount and desktop computers,
+      \r\nas well as customizing Linux and other Open Source OSes. Please call or
+      email us to \r\ndiscuss your computational needs.\r\n</p>\r\n\r\n<p> eRacks
+      also has extensive experience building quiet rackmount and desktop computers,
+      \r\nas well as customizing Linux and other Open Source OSes. Please call or
+      email us to discuss your computational needs.\r\n</p>\r\n\r\n<p>eRacks offers
+      more flexibility in rackmount server configuration at a better price!</p>",
+    created: ! '2012-10-28 14:56:03.012592', name: home_page_text_3, published: true,
+    title: '  Experience, Custom design, Open Source, Quiet rackmounts', updated: ! '2015-11-02
+      20:03:32.795324'}
+  model: quickpages.quicksnippet
+  pk: 13
+- fields: {body: "<!--\r\n<script src=\"http://download.skype.com/share/skypebuttons/js/skypeCheck.js\"
+      type=\"text/javascript\"></script>\r\n\r\n<a href=\"skype:erackssales?call\">\r\n
+      <img width=\"91\" height=\"22\" alt=\"My status\" style=\"border: none;\" src=\"http://mystatus.skype.com/bigclassic/erackssales\">\r\n</a>\r\n\r\nSkype
+      'My status' button\r\nhttp://www.skype.com/go/skypebuttons\r\n-->\r\n<script
+      type=\"text/javascript\" src=\"http://download.skype.com/share/skypebuttons/js/skypeCheck.js\"></script>\r\n<a
+      href=\"skype:erackssales?call\"><img src=\"http://mystatus.skype.com/bigclassic/erackssales\"
+      style=\"border: none;\" width=\"182\" height=\"44\" alt=\"My status\" /></a>\r\n",
+    created: ! '2012-10-28 21:59:14.179393', name: skype_widget, published: true,
+    title: Skype widget, updated: ! '2012-10-29 10:42:55.793997'}
+  model: quickpages.quicksnippet
+  pk: 14
+- fields: {body: "<div id=\"fb-root\"></div>\r\n<script>(function(d, s, id) {\r\n
+      \ var js, fjs = d.getElementsByTagName(s)[0];\r\n  if (d.getElementById(id))
+      return;\r\n  js = d.createElement(s); js.id = id;\r\n  js.src = \"//connect.facebook.net/en_US/all.js#xfbml=1&appId=151775531612916\";\r\n
+      \ fjs.parentNode.insertBefore(js, fjs);\r\n}(document, 'script', 'facebook-jssdk'));</script>",
+    created: ! '2013-01-06 17:13:26.517402', name: facebook_sdk, published: true,
+    title: 'Facebook JS SDK, aka root include', updated: ! '2013-01-06 17:13:26.517461'}
+  model: quickpages.quicksnippet
+  pk: 15
+- fields: {body: <div class="fb-like" data-send="false" data-layout="button_count"
+      data-width="450" data-show-faces="true"></div>, created: ! '2013-01-06 17:14:03.271470',
+    name: facebook_like, published: true, title: Facebook Like Button, updated: ! '2013-01-06
+      17:14:03.271527'}
+  model: quickpages.quicksnippet
+  pk: 16
+- fields: {body: "<!-- Place this tag after the last +1 button tag. -->\r\n<script
+      type=\"text/javascript\">\r\n  (function() {\r\n    var po = document.createElement('script');
+      po.type = 'text/javascript'; po.async = true;\r\n    po.src = 'https://apis.google.com/js/plusone.js';\r\n
+      \   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po,
+      s);\r\n  })();\r\n</script>", created: ! '2013-01-06 22:12:13.182089', name: google_plus_include,
+    published: true, title: Google+ widget, updated: ! '2013-01-06 22:19:11.560214'}
+  model: quickpages.quicksnippet
+  pk: 17
+- fields: {body: "<!-- Place this tag where you want the +1 button to render. -->\r\n<div
+      class=\"g-plusone\" data-size=\"medium\" data-annotation=\"bubble\" data-width=\"70\"></div>\r\n\r\n",
+    created: ! '2013-01-06 22:19:38.037254', name: google_plus_tag, published: true,
+    title: Google+ Tag, updated: ! '2013-01-12 14:16:37.596166'}
+  model: quickpages.quicksnippet
+  pk: 18
+- fields: {body: "<img src=\"/images/logos/cbbb-badge-horz.png\" WIDTH=\"135\" HEIGHT=\"52\"
+      BORDER=\"0\" alt=\"Better Business Bureau\" title=\"eRacks has an A+ Better
+      Business Bureau rating\">\r\n", created: ! '2013-05-04 14:45:15.718675', name: bbb_horizontal,
+    published: true, title: Better Business Bureau image, updated: ! '2015-04-15 02:11:53.344376'}
+  model: quickpages.quicksnippet
+  pk: 19
+- fields: {body: "<!-- GeoTrust QuickSSL [tm] Smart  Icon tag. Do not edit. -->\r\n<script
+      language=\"javascript\" type=\"text/javascript\" src=\"//smarticon.geotrust.com/si.js\"></script>\r\n",
+    created: ! '2013-10-06 15:39:36.827375', name: geotrust_seal, published: true,
+    title: GeoTrust QuickSSL Site Seal, updated: ! '2013-10-06 15:42:52.171403'}
+  model: quickpages.quicksnippet
+  pk: 20
+- fields: {body: "<a class=\"twitter-timeline\" href=\"https://twitter.com/eRacks\"
+      data-widget-id=\"662158681019019264\">Tweets by @eRacks</a>\r\n<script>!function(d,s,id){var
+      js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+\"://platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");</script>\r\n",
+    created: ! '2015-11-04 22:47:38.014725', name: twitter_widget, published: true,
+    title: eRacks Twitter Feed, updated: ! '2015-11-06 12:07:29.859989'}
+  model: quickpages.quicksnippet
+  pk: 21
+- fields: {body: "<p>eRacks' specialty is in preconfigured custom Linux rackmount
+      servers, FreeBSD, OpenBSD, and NetBSD rackmount servers. \r\n</p>\r\n\r\n<p>eRacks'
+      wide choice of operating systems also include Ubuntu, Debian, openSUSE, Fedora
+      Linux and other rackmount server configurations. \r\neRacks also provides onsite
+      installation, open source migration services, including network consulting and
+      software development services. \r\n</p>\r\n\r\n<script type=\"text/javascript\">\r\n\r\n
+      \ var _gaq = _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-37665012-1']);\r\n
+      \ _gaq.push(['_setDomainName', 'eracks.com']);\r\n  _gaq.push(['_trackPageview']);\r\n\r\n
+      \ (function() {\r\n    var ga = document.createElement('script'); ga.type =
+      'text/javascript'; ga.async = true;\r\n    ga.src = ('https:' == document.location.protocol
+      ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\r\n    var
+      s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
+      s);\r\n  })();\r\n\r\n</script>", created: ! '2015-11-05 15:20:32.344318', name: new_home_page_text_2,
+    published: true, title: Pre-provisioned OSS, updated: ! '2015-11-05 15:20:32.344354'}
+  model: quickpages.quicksnippet
+  pk: 23
+- fields: {body: "<p>eRacks also has extensive experience building quiet rackmount
+      and desktop computers, \r\nas well as customizing Linux and other Open Source
+      OSes. Please call or email us to \r\ndiscuss your computational needs.\r\n</p>\r\n\r\n<p>eRacks
+      offers more flexibility in rackmount server configuration at a better price!</p>",
+    created: ! '2015-11-05 15:22:35.229554', name: new_home_page_text_3, published: true,
+    title: 'Experience, Custom design, Open Source, Quiet rackmounts', updated: ! '2015-11-06
+      12:01:02.790656'}
+  model: quickpages.quicksnippet
+  pk: 24

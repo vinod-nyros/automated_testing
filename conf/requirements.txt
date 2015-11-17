@@ -1,0 +1,213 @@
+# For other dependencies - see brewpub, saltstack django-formula, mine, too
+# see also Dockerfile deps
+#
+# a few: postgresql, python-postgresql9.x, psycopg2 / python-psycopg2 / libpq-dev
+#
+# npm package, then
+# sudo npm install stylus -g
+
+django<1.8
+
+gunicorn
+
+# No! this is an incompatible Ccopy of the python GnuPG wrapper - - use python-gnupg only! - JJW
+#gnupg
+python-gnupg
+
+# 12/25/14 JJW for 'which'
+sh
+
+django-debug-toolbar
+sqlparse
+
+#south
+django-robots
+
+python-memcached
+Sphinx
+PyYAML
+Pillow
+
+# are we using this:
+#django_codemirror
+
+#no, now in stheme: objects, stylus, minaml - docs app!
+-e git+https://github.com/jowolf/django-quickpages.git#egg=django-quickpages
+
+# Mar 2012:
+# do we still need these post-satchmo:
+hamlpy
+#django-haml
+#pisa
+
+
+# Apr 2012
+# userena also requires guardian:
+#django-userena
+#-e git+https://github.com/jowolf/django-userena.git#egg=django-userena
+#-e git+https://github.com/bread-and-pepper/django-userena.git#egg=django-userena
+#-e git+https://github.com/ITCase/django-userena.git#egg=django-userena
+django-userena
+
+# note: easy_thumbnails is reqd by filer, userena
+# ..May need python-dev and libjpeg8-dev (or 62) for Pillow jpeg support
+# no:
+# pip install -v -e git+https://github.com/stefanfoulis/django-filer.git#egg=django-filer
+# django-tinymce
+
+# wysiwyg uses ckeditor (in packages)
+django-wysiwyg
+django-coffeescript
+#django-aloha
+-e hg+https://bitbucket.org/descent/django-aloha#egg=django-aloha
+
+# changed to forked version 10/27/13 JJW
+#django-ide
+-e git+https://github.com/jowolf/django-ide.git#egg=django-ide
+
+# already included in django-shpaml, 12/27/14 JJW
+#shpaml==1.00b
+
+django-shpaml==1.3
+
+# go w/mainstream filebrowser & grappelli 10/12/14 JJW
+# fork of django-filebrowser with no grapelli:
+#-e git+git://github.com/Bouke/django-filebrowser-no-grappelli.git#egg=django-filebrowser
+django-filebrowser  # pulls in grappelli
+
+
+# May 2012
+#please upgrate the djagno-taggit package to latest version to work with Django 1.7.4
+django-taggit==0.13.0
+django-taggit-templatetags
+
+# 1.2.7 has circular import loop:
+#django-haystack
+# so install 2.0.0 beta:
+#-e git+https://github.com/toastdriven/django-haystack.git@master#egg=django-haystack
+# django-haystack is looking for models in grappelli dashboard module, for this the below is patch to fix this issue.
+-e git+https://github.com/deschler/django-haystack.git@master#egg=django-haystack
+# solr?  n django-pgindex?
+whoosh
+
+#django-sociallogin
+#django-faq
+
+django-browserid
+
+# PyQuery for scraping - ubuntu package is too old, we want 1.2 or greater:
+pyquery
+
+# Plata - or put the git version in packages dir, to get examples - pdfdocument, xlwt required by plata examples:
+Plata
+pdfdocument
+xlwt
+
+# for zope orders scrape
+parsedatetime
+
+
+# June 2012 - from brewpub django install
+# can remove these when updating obdjects / templets:
+BeautifulSoup
+#django-stylus
+
+# from brewpub django install - needed? a: yes! 9/9/13 JJW
+#django-codemirror2
+-e git+https://github.com/jowolf/django-codemirror2.git#egg=django-codemirror2
+
+# July 2012
+#django-social-auth
+-e git+https://github.com/pythonforfacebook/facebook-sdk#egg=FacebookSDK
+
+# Django-social-auth is now deprecated in favor of python-social-auth,so install python-social-auth
+python-social-auth
+requests>=2.5.1
+oauthlib>=0.7.1
+# nope, git repo doens't pick up requests requirement, so had to do it manually
+#-e git+https://github.com/omab/python-social-auth.git#egg=python-social-auth
+
+# simpler:
+#django-socialregistration
+
+# try it, 7/25/12:
+# NOTE: this was moved to packages, as there is no setup.py:
+# -e git+https://github.com/FZambia/Django-jQuery-Grid-Admin#egg=django-jquery-grid-admin
+
+# 7/26/12 the following includes django-admin-tools
+# replacing w/grappelli 10/12/14 JJW:
+# django-fluent-dashboard
+
+#9/12/12
+django_email_extras
+# pulls in python-gnupg
+
+
+#10/21/12 for scraping
+pytidylib
+
+#10/27/12
+#DON'T FORGET TO FORK DJANGO_ALOHA FOR aloha-full.js
+
+# now replaces pisa:
+xhtml2pdf
+django-xhtml2pdf
+
+# 9/9/13 missed this one in eracks10 migration:
+django-countries
+
+# 9/24/13
+django-memcache-status
+
+#4/24/14
+#django-csvimport
+# needs to not list models while still in models.py...  for django 1.7 - for now, remove csvimport
+#-e git+https://github.com/edcrewe/django-csvimport.git#egg=django-csvimport
+# forked JJW 2/6/15 to fix runaway memory issue
+-e git+https://github.com/jowolf/django-csvimport.git#egg=django-csvimport
+
+#10/18/14
+django-supervisor
+
+#For django selenium test suite
+selenium
+
+#for selenium without firefox --mani
+# can also be used with firefox --jjw
+# requires apt-get install xvfb
+pyvirtualdisplay
+
+# for django news in admin
+feedparser
+
+# django debug toolbar extension w3c-validator for w3c compliance- mani
+w3c-validator
+
+# W3c validator package for python -mani
+py_w3c
+#html validator
+django-html-validator
+
+# JJW for my new themes engine, django-stheme :) :
+# upd 5/15 JJW threaded middleware reimplemented more simply myself:
+#django-themes
+#-e git+git://github.com/ilblackdragon/django-themes.git#egg=django-themes
+
+cssutils
+pyjade
+
+# all this no longer needed, my fork takes care of it:
+#--allow-external webelements --allow-unverified webelements webelements==1.0.0-beta.2 --upgrade
+#--allow-external WebElements --allow-unverified WebElements WebElements==1.0.0-beta.2
+#-e git+https://github.com/timothycrosley/Html2Shpaml.git#egg=html2shpaml
+# forked - DONE: Someday soon, recombine into a nicely installable single package with no symlinks required :)
+#--allow-external webelements
+
+-e git+https://github.com/jowolf/Html2Shpaml.git#egg=html2shpaml
+
+# JJW 10/4-10/5/15
+django-extensions
+Werkzeug
+django-easy-select2
+-e git+https://github.com/jowolf/django-webshell.git#egg=django-webshell
+

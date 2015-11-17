@@ -1,0 +1,29 @@
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: $apps_path/products/templets.yaml at line 79 on 2015-11-09 at 19:41:48 PST(GMT-0800)  #}
+
+<table class="configgrid">
+    <thead>
+        <tr>
+            <th title='Hover over option to see more info'>Option</th>
+            <th>Choices</th>
+            <th title='Hover over choice to see more info'>More Info</th>
+            <th title='Additions / subtractions from base price'>Add/Subtract</th>
+            {{ product.prodopts_as_table|safe }}
+        </tr>
+        <tr>
+            <td>
+                Notes
+            </td>
+            <td>
+                <input id="notes" name="notes" placeholder="Enter notes here">
+            </td>
+            <td>
+                Enter notes or custom instructions for this item here
+            </td>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+    </thead>
+</table>

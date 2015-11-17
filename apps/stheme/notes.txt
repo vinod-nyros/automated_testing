@@ -1,0 +1,10 @@
+8/19/15
+
+inverted-tree docs embedded in page for toplevel stheme items
+
+width: 100% for customers
+ - legacy-theme
+ - tshop?
+ - generic?
+
+d amadeus: templets.py too

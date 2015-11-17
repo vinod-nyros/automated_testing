@@ -1,0 +1,82 @@
+{% extends "quote_base.html" %}
+
+{% block title %}
+  {{ company_short }} quote for {% firstof q.customer.name 'Customer' %}
+{% endblock %}
+
+{% block style %}
+	@page {
+		size: {{ pagesize }};
+		margin: 1cm;
+		@frame footer {
+    		-pdf-frame-content: footerContent;
+    		bottom: 1cm;
+    		margin-left: 1cm;
+    		margin-right: 1cm;
+    		height: 1cm;
+		}
+	}
+{% endblock %}
+
+{% block page_header %}
+  <a href="/" title="eRacks Open Source Systems">
+    <img src="/images/logos/logo.png" noheight="46" nowidth="256"
+         alt="eRacks Open Source Systems logo" border="0" />
+  </a>
+  {% comment %}
+   <div>
+   		<h1>pisa html<span style="color: #FC0000;">to</span>pdf</h1>
+   		<h2>Python module for HTML/CSS to PDF conversion - Ezpdf example</h2>
+   </div>
+  {% endcomment %}
+	<hr />
+{% endblock %}
+
+{% block content %}
+{% with q.customer as c %}
+<br>
+
+<h1>{{ company_short }} quote for {% firstof c.name 'Customer' %}</h1>
+
+{{ c.name }}<br>
+{% if c.title %}{{ c.title }}<br>{% endif %}
+{% if c.dept %}{{ c.dept }}<br>{% endif %}
+{% if c.email %}{{ c.email }}<br>{% endif %}
+{% if c.email2 %}{{ c.email2 }}<br>{% endif %}
+{% if c.phone %}{{ c.phone }}<br>{% endif %}
+{% if c.phone2 %}{{ c.phone2 }}<br>{% endif %}
+<br>
+
+<addr>
+{{ c.shipping_address }}
+</addr>
+<br>
+
+{% if c.billing_address %}
+ <i>Billing:<br>
+ <addr>{{ c.billing_address }}</addr><br>
+{% endif %}
+<br>
+
+<table border=1><tr><th>Qty</th><th>Description</th><th>Price</th><th>Ext</th><tr>
+{% for line in q.quotelineitem_set.all %}
+  <tr><td>{{ line.quantity }}</td><td><pre>{{ line.description }}</pre></td><td>{{ line.price }}</td><td>{{ line.ext }}</td></tr>
+{% endfor %}
+</table>
+
+{% endwith %}
+
+<h3><a href="{{ request.path }}.pdf">PDF Version
+1 {{ request.meta.RAW_URI }}
+2 {{ request.META.PATH_INFO }}
+3 {{ request.RAW_URI }}
+4 {{ request.PATH_INFO }}
+5 {{ request.path }}
+6 {{ request.META.HTTP_REFERER }}
+</a></h3>
+
+{% endblock %}
+
+{% block page_foot %}
+		<pdf:pagenumber>
+{% endblock %}

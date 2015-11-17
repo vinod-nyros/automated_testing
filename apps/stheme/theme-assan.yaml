@@ -1,0 +1,246 @@
+####### ASSAN THEME #######
+
+###### CONFIG SECTION ######
+
+config:
+  theme_name: assan
+  theme_url: http://designmylife.co.in/theme-demo/assan-v1.4.5-html/home-shop.html
+  theme_downloaded_path: $project_path/apps/stheme/themes/designmylife.co.in/theme-demo/assan-v1.4.5-html/
+  templates_path: $project_path/apps/stheme/templates/
+  download: 0
+
+
+###### DECLARATION SECTION ######
+#
+# - basic hierarchical transformation declarations
+# - resuable on either themes or templates
+# - some can be a form of widgets (future: obdjects, with grouped assets, css, js)
+
+
+### THEME-SPECIFIC DECLARATIONS - HEAD ###
+
+link-styles-css:  # link[href$="style.css"] - rename style to styles (plural), common in many themes - test on others!
+  attr:
+    #href: $theme_name/css/styles.css
+    href: css/styles.css
+
+theme-head-styles:
+  merge_styles: |
+    /* Change Assan backround color to match Tshop :-) */
+    body {
+      background-color: #edeef0;
+    }
+
+
+### THEME-SPECIFIC DECLARATIONS - TOP BAR ###
+
+assan-top-bar-left:
+  minaml: |
+    a href=callto:1-408-455-0010 title="eRacks phone"
+      i class="fa fa-phone" ||
+      span.hidden-xs
+        Phone: <span class="colored-text">+1 408-455-0010</span>
+    a href=mailto:info@eracks.com title="eRacks email"
+      i class="fa fa-envelope" ||
+      span.hidden-xs
+        eMail: <span class="colored-text">info@eracks.com</span>
+
+
+### body-bottom scripts
+assan-breadcrumbs:
+  ### breadcrumbs, title
+  # org:
+  #.breadcrumb-wrap .breadcrumb: breadcrumbs
+  #.breadcrumb-wrap .col-sm-6:not(.text-right): page-title
+  # reverse them:
+  .breadcrumb-wrap .text-right: page-title
+  .breadcrumb-wrap .col-sm-6:not(.text-right):
+    innerHtml: <ol class="breadcrumb">..</ol>
+  .breadcrumb-wrap .breadcrumb: breadcrumbs
+  merge_scripts: |
+    // Breadcrumb random background
+    $(document).ready(function() {
+      var images = [
+        '01_hester_071117_4432.jpeg',
+        'dupedstackedracks2.jpeg',
+        'dupedstackedracks_blur.jpeg',
+        'ecommercehosting.jpeg',
+        'racks1blurred.jpg',
+        'racks1.jpg',
+      ];
+      $('.breadcrumb-wrap').css({'background-image': 'url(/images/parallax/'
+          + images[Math.floor(Math.random() * images.length)] + ')'});
+    });
+  #head:
+  #  merge_scripts:
+  #    src = "my/test/script"
+  merge_styles: |
+    /* Breadcrumbs */
+    .breadcrumb-wrap {
+      padding:40px 0;
+      margin-bottom: 15px;
+    }
+    .breadcrumb li a {
+      font-size: large;
+      line-height: 40px;
+      text-transform: none;
+    }
+    .breadcrumb-wrap h1, .breadcrumb {
+      padding: 0 15px !important;
+      border-radius: 12px;
+      background-color: rgba(1,1,1,0.3) !important;
+      display: inline-block;
+    }
+
+### THEME-SPECIFIC DECLARATIONS - FOOTER ###
+
+assan-footer:
+  merge_styles: |
+    /* Footer fixups - email subscription / newsletter box */
+    .newsLetterBox .btn {
+      background: #6F76FF;
+      border-radius: 3px;
+      display: inline-block;
+      font-size: 14px;
+      text-transform: none;
+      letter-spacing: 1px;
+      color: white;
+      height: 40px;
+      padding: 0;
+      width: 100%;
+    }
+    .newsLetterBox .btn:hover {
+      background: #8864CD;
+    }
+    .newsLetterBox input {
+      border-radius: 3px;
+      /* border-style: solid;
+      border-width: 2px 1px 1px 2px; */
+      color: #888888;
+      font-size: 14px;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+      height: 36px;
+      width: 100%;
+    }
+  footer#footer ul.list-inline.social-1:
+    save_template_once: src/_list_inline_social.minaml
+
+  footer#footer:
+    minaml: |
+      .footer ||
+      .footer-bottom.text-center style=background-color:white;font-size:small;padding:10px ||
+  footer .footer: footer-main
+  footer .footer-bottom: footer-copyright
+
+
+### COMBINED OPS FOR ASSAN THEME ###
+
+assan-base-ops:
+  ## Extract sections for later editing, too:
+  #undefined-sticky-wrapper > div > div > div.navbar-collapse.collapse > ul > li:nth-child(7)
+  .dropdown[data-animate]:
+    save_template_once: src/_search_menu_entry_assan.minaml
+
+  ### head & assets:
+  #head:   head-ops
+  #script: script-ops
+  #img:    img-ops
+
+  ### top-bar:
+  .top-bar .pull-left: assan-top-bar-left
+  .top-bar .pull-right: top-bar-right
+
+  body:
+    prepend: <div tabindex="-1" role="dialog" class="modal signUpContent fade" id="ModalLogin">Replaced</div>
+  '#ModalLogin': modal-login-signup
+
+  ### header, logo, navbar/megamenu:
+  a.navbar-brand: navbar-brand-logo
+  ul.nav.navbar-nav: main-nav-megamenus
+
+  '#header-top':
+    removeClass: hidden-xs
+
+  #.divide80:
+  #  #minaml_replace: |  buggy - corrupts
+  #  addClass: container Still this, too - duping portion w/content block in it
+  #  removeClass: divide80
+  #  minaml: |
+  #    .row.col-lg-12.text-center.tagline#tagline ||
+
+  .divide80: remove
+
+  # add main content id
+  body>.container:
+    attr:
+      id: content
+
+  ### skip to footer - main content is in individual templates below
+  footer: assan-footer
+
+
+###### TRANSFORMATIONS SECTION ######
+
+### CSS transformations
+
+assan/styles.css:
+  read: $theme_downloaded_path/css/style.css
+  replace:
+    ../img/showcase-4.jpg: /images/parallax/racks1blurred.jpg
+  #- show_urls: dummy
+  symlink: $static_link/css/styles.css   # ../static/assan/css/
+
+
+### BASE & HOME PAGE - template transformations, generic content adds
+
+assan/base.html:
+  load: $theme_downloaded_path/blank.html
+
+  html:
+    - prolog
+    - assan-base-ops
+
+  #for breadcrumbs obdject
+  # ... and this one compiles, but doesn't do anything..
+  #assan-breadcrumbs: {} #[] #apply  # why doesn't this work on the left side?
+  #assan-breadcrumbs: None  # nope
+    - assan-breadcrumbs
+
+  ### main body content
+  .container#content: base-content
+
+  apply: epilog
+
+
+assan/home.html:
+  load: $theme_downloaded_path/blank.html
+
+  html:
+    - prolog
+    - assan-base-ops
+    - owl-slider-styles
+    - owl-slider-scripts
+
+  # could just remove this altogether
+  .breadcrumb-wrap:
+    removeClass: breadcrumb-wrap
+    addClass: above-content
+    attr:
+      id: above-content
+    minaml: |
+      .container
+        .row.col-lg-12.text-center.tagline#tagline ||
+      % block above_content
+        {{ above_content|safe }}
+
+  .tagline#tagline: tagline-well
+
+  #.container#content: home-page-content
+  '#content': home-page-content
+
+  body: assan-breadcrumbs  # assan-body-bottom-scripts
+  apply: epilog
+
+  #load: /home/joe/eracks11/apps/stheme/themes/designmylife.co.in/theme-demo/assan-v1.4.5-html/index.html
+  # could save top-bar search box & padlock-sign-in, not much else we need

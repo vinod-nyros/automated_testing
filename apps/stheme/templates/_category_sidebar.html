@@ -1,0 +1,76 @@
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: src/_category_sidebar.minaml on 2015-11-09 at 19:41:46 PST(GMT-0800)  #}
+
+<div class="panel-group" id="accordionNo">
+    <style>
+        #accordionNo .nav-stacked li.active>a {
+          /* padding: 4px 10px 4px 0; */
+          margin: 0 -10px;
+        }
+        .nav-stacked>li.active a, .nav-stacked>li.active {
+          font-weight: normal;
+        }
+        .tree>.active>a>.badge {
+          background: #2ecc71;
+        }
+        .fa-caret-right:before {
+          color: #a35cff;
+          font-size: large;
+          /* margin-right: 8px; */
+          padding: 5px;
+        }
+        .fa-caret-right:hover {
+          background-color: azure;
+          font-weight: bold;
+          /* border: 1px solid lightgray; */
+        }
+        /* a span.collapseWill:hover {
+          background-color: yellow;
+        }
+        */
+    </style>
+    <div class="panel-default panel">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a href="#collapseCategory" data-toggle="collapse" class="collapseWill">
+                    <span class="pull-left">
+                        <i class="fa fa-caret-right"></i>
+                    </span>
+                    Category
+                </a>
+            </h4>
+        </div>
+        <div class="panel-collapse collapse in" id="collapseCategory">
+            <div class="panel-body">
+                <ul class="nav-stacked nav-pills nav tree">
+                    {% for cat in Categories_objects.published %}
+                    {% if cat.slug == category.slug %}
+                    <li class="active open-tree dropdown-tree">
+                        <a href="{{ cat.url }}" title="Go to page: {{ cat.title }}" class="dropdown-tree-a">
+                            <span class="pull-left collapseWill">
+                                <i title='Toggle this category' class="fa fa-caret-right"></i>
+                            </span>
+                            {{ cat.name }}
+                            <span class="badge pull-right">{{ cat.product_set.published.count|default:0 }}</span>
+                        </a>
+                        <ul class="dropdown-menu-tree category-level-2">{{ cat.prods_as_lis }}</ul>
+                    </li>
+                    {% else %}
+                    <li class="active dropdown-tree">
+                        <a href="{{ cat.url }}" title="Go to page: {{ cat.title }}" class="dropdown-tree-a">
+                            <span class="pull-left collapseWill pressed">
+                                <i title='Toggle this category' class="fa fa-caret-right"></i>
+                            </span>
+                            {{ cat.name }}
+                            <span class="badge pressed pull-right">{{ cat.product_set.published.count|default:0 }}</span>
+                        </a>
+                        <ul class="dropdown-menu-tree category-level-2">{{ cat.prods_as_lis }}</ul>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

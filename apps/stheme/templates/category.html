@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: $apps_path/products/templets.yaml at line 370 on 2015-11-09 at 19:41:48 PST(GMT-0800)  #}
+
+
+{% load render_as_template %}
+
+{% block extra_head %}
+  <style>
+    .product-summary {
+      min-height: 200px;
+      border: 1px solid lightgray;
+      margin: 10px 0;
+      padding: 10px;
+      /* overflow: auto; */
+      position: relative;
+    }
+    .product-summary .primary-image img {
+      float:right;
+      width: 40%;
+      height: auto;
+      padding: 0 0 10px 10px;
+    }
+    .product-summary .product-blurb {
+      width: 68%;
+    }
+    .product-summary .addl-img {
+      margin-right: 10px;
+    }
+    .product-summary .product-price-line {
+      /* border: 1px solid purple; */
+      /* border-radius: 3px; */
+      padding: 10px;
+      margin: 10px;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 25%;
+      text-transform: none;
+      font-size: larger;
+      letter-spacing: initial;
+    }
+    .product-summary .product-price {
+      font-weight: bold;
+      font-size: initial;
+      /* color: purple; */
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+
+  <div class="content row">
+    <div class="col-md-9 col-md-push-3">
+      <h1 title="{{category.title}}">
+          {{ category.name }}
+      </h1>
+
+      {% render_as_template category.description %}
+
+      <hr>
+
+
+      <div class="product-list">
+        {{ category.prods_as_list_divs }}
+      </div>
+    </div>
+
+    <div class="col-md-3 col-md-pull-9">
+      {% include "_category_sidebar.html" %}
+    </div>
+  </div>
+{% endblock %}
+
+{% block js %}
+  <script>
+    /* Scripts for Category sidebar accordion arrows */
+
+    $('.collapseWill').on('click',function(e) {
+      $(this).toggleClass("pressed");
+      e.preventDefault();
+    });
+
+    $(".dropdown-tree-a").click(function() {
+      $(this).parent('.dropdown-tree').toggleClass("open-tree active");
+    });
+  </script>
+{% endblock %}
+
+

@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% load highlight %}
+
+{% block content %}
+    <h1>Search</h1>
+
+    <form method="get" action=".">
+        <table>
+            {{ form.as_table }}
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <input type="submit" value="Search">
+                </td>
+            </tr>
+        </table>
+
+        {% if query %}
+            <h2>Results</h2>
+
+            {% for result in page.object_list %}
+
+                {% comment %}
+                EXAMPLES:
+                {% if result.content_type == "blog.post" %}
+                    <div class="post_result">
+                        <h3><a href="{{ result.object.get_absolute_url }}">{{ result.object.title }}</a></h3>
+                        <p>{{ result.object.tease }}</p>
+                    </div>
+                {% endif %}
+                {% if result.content_type == "media.photo" %}
+                    <div class="photo_result">
+                        <a href="{{ result.object.get_absolute_url }}">
+                        <img src="http://your.media.example.com/media/{{ result.object.photo.url }}"></a>
+                        <p>Taken By {{ result.object.taken_by }}</p>
+                    </div>
+                {% endif %}
+                {% endcomment %}
+
+                <p>
+                    <a href="{{ result.object.get_absolute_url }}" title="Result type: {{ result.content_type }}">{{ result.object.name }}</a><br>
+                    {% highlight result.text with query max_length 200 %}<br>
+                    {% comment %}
+                        content_type: {{ result.content_type }}<br><br>
+                        get_additional_fields: {{ result.get_additional_fields }}<br><br>
+                        get_stored_fields: {{ result.get_stored_fields }}<br><br>
+                    {% endcomment %}
+                </p>
+            {% empty %}
+                <p>No results found.</p>
+            {% endfor %}
+
+            {% if page.has_previous or page.has_next %}
+                <div>
+                    {% if page.has_previous %}<a href="?q={{ query }}&amp;page={{ page.previous_page_number }}">{% endif %}&laquo; Previous{% if page.has_previous %}</a>{% endif %}
+                    |
+                    {% if page.has_next %}<a href="?q={{ query }}&amp;page={{ page.next_page_number }}">{% endif %}Next &raquo;{% if page.has_next %}</a>{% endif %}
+                </div>
+            {% endif %}
+        {% else %}
+            {# Show some example queries to run, maybe query syntax, something else? #}
+        {% endif %}
+    </form>
+{% endblock %}

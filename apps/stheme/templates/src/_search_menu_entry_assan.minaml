@@ -1,0 +1,11 @@
+li.dropdown style=z-index:500 data-animate="animated fadeInUp"
+    a.dropdown-toggle href=blank.html# data-toggle=dropdown
+        i.fa.fa-search ||
+    ul.dropdown-menu.search-dropdown.animated.fadeInUp
+        li#dropdownForm
+            div.dropdown-form
+                form.form-inline#search action="/search/"
+                    div.input-group
+                        > input.form-control type=text placeholder=search...
+                        span.input-group-btn
+                            button.btn.btn-theme-bg type=button value=go | Go

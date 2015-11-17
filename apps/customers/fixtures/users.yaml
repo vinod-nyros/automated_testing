@@ -1,0 +1,45 @@
+- fields:
+    date_joined: 2009-10-15 12:36:12
+    email: joe@eracks.com
+    first_name: Joseph
+    groups: []
+    is_active: true
+    is_staff: true
+    is_superuser: true
+    last_login: 2014-07-03 16:57:47.110533
+    last_name: Wolff
+    password: pbkdf2_sha256$10000$KUExmMJkSnYJ$vagpKA7AsPjNgeeqCoTQi1UhKfzaHFbiPTPkLfxHrXs=
+    user_permissions: []
+    username: joe
+  model: auth.user
+  pk: 2
+- fields:
+    date_joined: 2012-10-18 14:34:52
+    email: greg@eracks.com
+    first_name: Greg
+    groups: []
+    is_active: true
+    is_staff: false
+    is_superuser: false
+    last_login: 2013-02-15 15:33:16
+    last_name: Stoops
+    password: pbkdf2_sha256$10000$DRqx7aiDlTTR$0SpH15d2DxUFHj++O9lnzAMedXZMACnmxMx27UqT8uc=
+    user_permissions: []
+    username: meshlife
+  model: auth.user
+  pk: 42
+- fields:
+    date_joined: 2012-11-08 08:27:53.954750
+    email: cbchisanga@gmail.com
+    first_name: ''
+    groups: []
+    is_active: true
+    is_staff: false
+    is_superuser: false
+    last_login: 2013-06-04 05:39:08.717762
+    last_name: ''
+    password: pbkdf2_sha256$10000$B588UE0uPT52$ekYfYF81F34O3PRuTIERmsXUl8kJoeX5Pqwx5i1cIWo=
+    user_permissions: []
+    username: Charles
+  model: auth.user
+  pk: 43

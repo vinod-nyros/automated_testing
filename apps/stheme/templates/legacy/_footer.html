@@ -1,0 +1,152 @@
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: theme-legacy.yaml at line 851 on 2015-11-09 at 19:41:48 PST(GMT-0800)  #}
+
+<div class="row">
+    <div class="twelve columns">
+        <table id="footer">
+            <tr>
+                <td class="right-dotted">
+                    <h5>eRacks Info</h5>
+                    <div><a href="/rackmount-servers">Rackmount Server Basics</a></div>
+                    <div><a href="/open-source-links/">Open source Links</a></div>
+                    <div>
+                        <a href="/faq/" title="eRacks Frequently Asked Questions" class="main">Frequently Asked Questions</a>
+                    </div>
+                    <div>
+                        <a href="/corporate/" title="About eRacks" class="main">About Us</a>
+                    </div>
+                    <div>
+                        <a href="/contact-us/" title="Contact eRacks" class="main">Contact Us</a>
+                    </div>
+                    <div>
+                        <a href="/jobs/" title="Positions at eRacks" class="main">Gigs / Jobs</a>
+                    </div>
+                </td>
+
+                <td class="right-dotted">
+                    <h5>eRacks Business</h5>
+                    <div>
+                        <a href="/showroom/" title="eRacks Product Showroom" class="main">Products</a>
+                    </div>
+                    <div>
+                        <a href="/services/" title="eRacks Services" class="main">Services</a>
+                    </div>
+                    <div>
+                        <a href="/partners/" title="eRacks Partners" class="main">Partners</a>
+                    </div>
+                    <div>
+                        <a href="/customers/" title="eRacks Customers and Testimonials" class="main">Customers</a>
+                    </div>
+                    <div>
+                        <a href="/press/" title="News about eRacks, Press Releases" class="main">Press</a>
+                    </div>
+                </td>
+                <td class="right-dotted">
+                    <h5>eRacks Misc</h5>
+                    <div>
+                        <a href="http://blog.eracks.com/" title="eRacks Tech News and Blog" class="main">Blog</a>
+                    </div>
+                    <div>
+                        <a href="http://accessories.eracks.com/" title="eRacks Computer parts and Accessories, notebooks, tablets, etc" class="main">Accessories</a>
+                    </div>
+                    <div>
+                        <a href="http://studio.eracks.com/" title="eRacks Studio and Music-related Blog" class="main">Studio / Music Blog</a>
+                    </div>
+                    <div>
+                        <a href="/policies/privacy-and-legal" class="main">Privacy, Legal Policies</a>
+                    </div>
+                    <div>
+                        <a href="/policies/warranty-and-order" class="main">Warranty & Order Policies</a>
+                    </div>
+                </td>
+
+                {% if request.user.is_staff %}
+                    <td class="right-dotted">
+                        <h5>eRacks Admin</h5>
+                        <div>
+                            <a href="/admin/">Admin</a>
+                        </div>
+                        <div>
+                            <a href="/djide/">Django IDE</a>
+                        </div>
+                        <div>
+                            <a href="/admin/home/featuredimage/">Featured Images</a>
+                        </div>
+                        <div>
+                            <a href="/admin/auth/user/{{ request.user.id }}/">
+                                User:
+                                {{ request.user }}
+                            </a>
+                        </div>
+                        {% if product %}
+                            <div>
+                                <a href="/admin/products/product/{{ product.id }}/">
+                                    Edit Product:
+                                    {{ product }}
+                                </a>
+                            </div>
+                        {% endif %}
+                        {% if category %}
+                            <div>
+                                <a href="/admin/products/categories/{{ category.id }}/">
+                                    Edit Category:
+                                    {{ category }}
+                                </a>
+                            </div>
+                        {% endif %}
+                        {% if settings.ALOHA %}
+                            <div>
+                                <a href="?edit=1">Edit in place</a>
+                            </div>
+                        {% endif %}
+                        {% if settings.DEBUG %}
+                            <div>
+                                <a href="/packages/">Packages directory</a>
+                            </div>
+                        {% endif %}
+                        <div>
+                            <a href="/utils/clearcache/">Clear cache</a>
+                        </div>
+                        <div>
+                            <a href="/utils/collect_static/">Collect Static</a>
+                        </div>
+                        <div>
+                            <a href="/utils/urls/">Show URL map</a>
+                        </div>
+                        <div>
+                            <a href="/session/">Show Session</a>
+                        </div>
+                    </td>
+                {% endif %}
+
+                <td>
+                    <h5>Accreditations</h5>
+                    <div>
+                        {{ bbb_horizontal }}
+                    </div>
+                    <div>
+                        {{ trustwave_siteseal }}
+                    </div>
+                    <div>
+                        {{ geotrust_seal }}
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="row">
+    <div class="text_center">
+        <a href="http://eracks.com" title="Top-quality rackmount servers">
+            <img src="/images/logos/smalle.gif" alt="small-e">
+        </a>
+        <br>
+        eRacks Open Source Systems © Copyright 1999-2015, All rights reserved.
+        <br>
+        Powered by the best
+        <a href= http://eracks.com>rackmount servers</a>
+        from eRacks Open Source Systems
+        <br>
+    </div>
+</div>

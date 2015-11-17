@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://designmylife.co.in/wp-bizwrap/sitemap.xml.gz

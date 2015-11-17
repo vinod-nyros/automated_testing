@@ -1,0 +1,363 @@
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_list.html
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_config_summary.html
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_config_tab.html
+compiling /home/joe/django_eracks/apps/products/templets.py to product.html
+compiling /home/joe/django_eracks/apps/products/templets.py to products.html
+compiling /home/joe/django_eracks/apps/products/templets.py to category.html
+compiling /home/joe/django_eracks/apps/bloglets/templets.py to _bloglet_list.html
+- fields:
+    author: 2
+    body: "<a target=\"new\" href=\"http://www.linuxmint.com/\">\r\n<img border=\"\
+      0\" alt=\"Mint logo\" src=\"/images/bloglets/mint-logo.png\" style=\"max-width:120px\"\
+      >\r\n</a>\r\n<br>\r\n<br>\r\n<b>Linux Mint 15 Olivia</b> is now available -\
+      \ And as always, Mint KDE, Mint Xfce, or LMDE (Mint Debian) editions are available\
+      \ on request!"
+    categories: [1]
+    created: 2013-08-12 16:41:26.638323
+    image: images/bloglets/mint-logo.png
+    pub_date: 2013-08-12 16:42:10
+    published: true
+    slug: mint15
+    title: Mint 15 Olivia
+    updated: 2013-09-08 17:00:52.575958
+  model: bloglets.post
+  pk: 55044
+- fields:
+    author: 2
+    body: "<a target=\"new\" href=\"http://www.debian.org/releases/stable/\">\r\n\
+      <img border=\"0\" alt=\"Fedora logo\" src=\"/images/bloglets/debian.png\" style=\"\
+      max-width:120px\">\r\n</a>\r\n<br>\r\n<br>\r\n<b>Debian 7.1 Stable</b> is now\
+      \ available on all eRacks systems!"
+    categories: [1]
+    created: 2013-08-12 16:22:57.741111
+    image: images/bloglets/debian.png
+    pub_date: 2013-08-12 16:31:23
+    published: true
+    slug: debian7
+    title: Debian 7.1 Stable
+    updated: 2013-08-12 16:39:11.281637
+  model: bloglets.post
+  pk: 55043
+- fields:
+    author: 2
+    body: "<a target=\"new\" href=\"http://fedoraproject.org\">\r\n<img border=\"\
+      0\" alt=\"Fedora logo\" src=\"/images/bloglets/fedora_logo.png\">\r\n</a>\r\n\
+      <br>\r\n<b>Fedora</b>\r\n19 is now avilable on all eRacks systems!"
+    categories: [1]
+    created: 2013-08-12 16:21:32.438921
+    image: images/bloglets/fedora_logo.png
+    pub_date: 2013-08-12 16:21:11
+    published: true
+    slug: fedora19
+    title: Fedora 19
+    updated: 2013-08-12 16:21:32.438957
+  model: bloglets.post
+  pk: 55042
+- fields:
+    author: 2
+    body: "<a target=\"new\" href=\"http://ubuntu.com\"> \r\n <img border=\"0\" alt=\"\
+      Ubuntu logo\" src=\"/images/categories/desktops/ubuntu_70.jpeg\" style=\"float:left;padding:0\
+      \ 10px\">\r\n <b>Ubuntu 13.04 Raring Ringtail</b>\r\n</a>\r\n<br>\r\n<br>\r\n\
+      Desktop and Server versions now available on all eRacks systems!\r\n"
+    categories: [1]
+    created: 2013-07-01 19:11:06.005080
+    image: images/categories/desktops/ubuntu_70.jpeg
+    pub_date: 2013-07-01 20:39:25
+    published: true
+    slug: ubuntu-13-04
+    title: Ubuntu 13.04 Raring Ringtail now available!
+    updated: 2013-07-01 19:27:13.115904
+  model: bloglets.post
+  pk: 55035
+- fields:
+    author: 2
+    body: "<a target=\"new\" href=\"http://fedoraproject.org\"> \r\n <img border=\"\
+      0\" alt=\"Fedora logo\" src=\"/images/bloglets/fedora_logo.png\">\r\n <b>Fedora\
+      \ 18</b>\r\n</a>\r\nis out, and is now available on all eRacks systems!"
+    categories: [1]
+    created: 2012-10-31 21:29:27.758471
+    image: images/bloglets/fedora_logo.png
+    pub_date: 2013-07-01 02:30:24
+    published: false
+    slug: fedora18
+    title: Fedora 18
+    updated: 2013-08-12 16:50:04.281778
+  model: bloglets.post
+  pk: 54716
+- fields:
+    author: 2
+    body: "<b style=\"color:red\">New!</b><br>\r\n<b>High Power Desktops</b><br>\r\
+      \nIntel E5-2600 series<br>\r\n<a href=\"/products/Desktops/ARESPRO\">eRacks/ARESPRO</a>\r\
+      \n<br>\r\n<a href=\"/products/Desktops/ARESPRO12\">eRacks/ARESPRO12</a>\r\n\
+      <br>\r\n<a href=\"/products/Desktops/ARESPRO16\">eRacks/ARESPRO16</a>\r\n<br>\r\
+      \n<a href=\"/products/Desktops/ARESPRO\"><img src=\"/images/bloglets/intele5_chip_s.png\"\
+      \ alt=\"Intel e5\" title=\"Intel e5\" border=\"0\" width=\"78\" height=\"52\"\
+      ></a>\r\n\r\n<script type=\"text/javascript\">\r\n\r\n  var _gaq = _gaq || [];\r\
+      \n  _gaq.push(['_setAccount', 'UA-37665012-1']);\r\n  _gaq.push(['_setDomainName',\
+      \ 'eracks.com']);\r\n  _gaq.push(['_trackPageview']);\r\n\r\n  (function() {\r\
+      \n    var ga = document.createElement('script'); ga.type = 'text/javascript';\
+      \ ga.async = true;\r\n    ga.src = ('https:' == document.location.protocol ?\
+      \ 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\r\n    var\
+      \ s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,\
+      \ s);\r\n  })();\r\n\r\n</script>"
+    categories: [1]
+    created: 2012-10-31 20:19:11.709254
+    image: images/categories/desktops/ubuntu_70.jpeg
+    pub_date: 2012-10-31 20:20:27
+    published: true
+    slug: high-power-desktops
+    title: High Power Desktops
+    updated: 2013-01-14 15:09:52.423606
+  model: bloglets.post
+  pk: 54711
+- fields:
+    author: 2
+    body: "<b>Intel e5-2600</b><br>\r\nQuad/Six/Eight Core CPU<br>\r\n<a href=\"/products/intel-systems/ESERVE\"\
+      >eRacks/ESERVE</a>\r\n and \r\n<a href=\"/products/intel-systems/SANDYTOWER\"\
+      >eRacks/SANDYTOWER</a>\r\n\r\n"
+    categories: [1]
+    created: 2012-10-31 20:26:42.644922
+    image: images/categories/desktops/ubuntu_70.jpeg
+    pub_date: 2012-10-31 19:25:59
+    published: false
+    slug: intel-e5-2600
+    title: Intel e5-2600
+    updated: 2013-07-01 19:28:25.513127
+  model: bloglets.post
+  pk: 54712
+- fields:
+    author: 2
+    body: "<b>Intel i3/i5/i7</b><br>\r\n<b>Dual/Quad/Six-Core CPU</b><br>\r\n<a href=\"\
+      /products/Desktops\"><img src=\"/images/bloglets/i7chip_70.png\" alt=\"Intel\
+      \ i7\" title=\"Intel i7 CPU\" border=\"0\" width=\"70\" height=\"52\"></a>\r\
+      \n<br>\r\n\r\n"
+    categories: [1]
+    created: 2012-10-31 20:45:04.072047
+    image: images/categories/desktops/ubuntu_70.jpeg
+    pub_date: 2012-10-31 18:25:59
+    published: true
+    slug: intel-i3-i5-i7
+    title: Intel i3/i5/i7
+    updated: 2013-01-05 08:53:09.267539
+  model: bloglets.post
+  pk: 54713
+- fields:
+    author: 2
+    body: "<b>AMD Fusion</b><br>\r\nA-Series Llano APU<br>\r\n<a href=\"/products/AMD%20Systems\"\
+      ><img src=\"/images/bloglets/amd_70.png\" alt=\"AMD A Series\" title=\"AMD A\
+      \ Series\" border=\"0\" width=\"70\" height=\"76\"></a>\r\n<br>\r\n<a href=\"\
+      /products/desktops/ASERIES\">eRacks/ASERIES</a>\r\n  &amp;  <br>\r\n<a href=\"\
+      /products/amd-systems/APURACK\">eRacks/APURACK</a>"
+    categories: [1]
+    created: 2012-10-31 20:59:14.941647
+    image: /images/bloglets/amd_70.png
+    pub_date: 2012-10-31 17:54:39
+    published: true
+    slug: amd-fusion
+    title: AMD Fusion
+    updated: 2012-10-31 20:59:14.941681
+  model: bloglets.post
+  pk: 54714
+- fields:
+    author: 2
+    body: "<b>Ubuntu 11.10</b>\r\nDesktop and Server versions available on eRacks\
+      \ systems!\r\n<br>\r\n<img border=\"0\" alt=\"Ubuntu logo\" src=\"/images/categories/desktops/ubuntu_70.jpeg\"\
+      >\r\n<br>"
+    categories: [1]
+    created: 2012-05-26 20:39:14.958618
+    image: images/categories/desktops/ubuntu_70.jpeg
+    pub_date: 2012-05-26 20:39:25
+    published: false
+    slug: ubuntu-11-10
+    title: Ubuntu 11.10 now available!
+    updated: 2012-05-27 18:04:18.594468
+  model: bloglets.post
+  pk: 54208
+- fields:
+    author: 2
+    body: "<b>Ubuntu 12.10</b>\r\nDesktop and Server versions available on eRacks\
+      \ systems!\r\n<br>\r\n<img border=\"0\" alt=\"Ubuntu logo\" src=\"/images/categories/desktops/ubuntu_70.jpeg\"\
+      >\r\n<br>"
+    categories: [1]
+    created: 2012-10-31 21:27:34.385518
+    image: images/categories/desktops/ubuntu_70.jpeg
+    pub_date: 2012-05-26 20:39:25
+    published: false
+    slug: ubuntu-12-10
+    title: Ubuntu 12.10 now available!
+    updated: 2013-07-01 19:28:03.941000
+  model: bloglets.post
+  pk: 54715
+- fields:
+    author: 2
+    body: "<b>\r\nFollow us on\r\n<a target=\"new\" href=\"http://twitter.com/eRacks\"\
+      >\r\n  Twitter!\r\n  <img border=\"0\" alt=\"Twitter bird\" src=\"/images/bloglets/twitter-bird.gif\"\
+      >\r\n</a>\r\n</b><br>\r\nSales! Price updates! News!"
+    categories: [1]
+    created: 2012-05-26 20:33:48.307364
+    image: images/bloglets/twitter-bird.gif
+    pub_date: 2012-05-26 20:34:15
+    published: true
+    slug: twitter
+    title: Twitter
+    updated: 2012-05-27 17:37:55.450443
+  model: bloglets.post
+  pk: 54207
+- fields:
+    author: 2
+    body: "<a target=\"new\" href=\"http://fedoraproject.org\">\r\n<img border=\"\
+      0\" alt=\"Fedora logo\" src=\"/images/bloglets/fedora_logo.png\">\r\n</a>\r\n\
+      <br>\r\n<b>Fedora</b>\r\n16 is out!"
+    categories: [1]
+    created: 2012-05-26 20:30:08.986677
+    image: images/bloglets/fedora_logo.png
+    pub_date: 2012-05-26 20:30:24
+    published: false
+    slug: fedora16
+    title: Fedora 16
+    updated: 2012-05-27 17:33:29.471775
+  model: bloglets.post
+  pk: 54206
+- fields:
+    author: 2
+    body: "<font color=\"red\"><b>New!</b></font><br>\r\nUbuntu + Thin + Light<br>\r\
+      \n<a href=\"/products/laptops/ZENBOOK\"><img src=\"/images/bloglets/zenbook_100.jpeg\"\
+      \ alt=\"Zenbook Image\" title=\"eRacks Zenbook!\" border=\"0\" height=\"76\"\
+      \ width=\"100\"></a>\r\n<br>\r\n<a href=\"/products/Laptops/ZENBOOK\">eRacks/ZENBOOK</a>\r\
+      \n"
+    categories: [1]
+    created: 2012-05-07 00:09:02.898021
+    image: images/bloglets/zenbook_100.jpeg
+    pub_date: 2012-05-07 00:07:57
+    published: true
+    slug: zenbooks
+    title: ZenBooks
+    updated: 2012-05-07 07:34:22.757610
+  model: bloglets.post
+  pk: 53721
+- fields:
+    author: 1
+    body: "<a href=\"/products/Netbooks\">eRacks/Netbooks</a>\r\n</b>\r\n<a href=\"\
+      /products/Netbooks\"><img src=\"/images/cumulus_colors_xsmall\" alt=\"\" title=\"\
+      eRacks/CUMULUS\" border=\"0\" height=\"69\" width=\"100\"></a>\r\n<br>\r\nLinux\
+      \ Netbooks!"
+    categories: [1]
+    created: 2009-01-05 15:19:23.782701
+    image: image/required
+    pub_date: 2009-01-05 15:19:23.782662
+    published: false
+    slug: eracks-netbooks
+    title: eRacks Netbooks!
+    updated: 2012-04-22 02:28:42.045432
+  model: bloglets.post
+  pk: 8
+- fields:
+    author: 1
+    body: "<a href=\"/products/Desktops/config?sku=i7DESK\">eRacks/i7DESK:</a>\r\n\
+      <br>\r\nIntel\xAE Core i7 Desktop<br>\r\n<a href=\"/products/Desktops/config?sku=i7DESK\"\
+      ><img src=\"/images/intelcorei7_60\" alt=\"\" title=\"\" border=\"0\" height=\"\
+      73\" width=\"60\">"
+    categories: [1]
+    created: 2009-01-05 15:18:51.071072
+    image: image/required
+    pub_date: 2009-01-05 15:18:51.071034
+    published: false
+    slug: eracks-i7-desk
+    title: eRacks i7 DESK
+    updated: 2012-04-22 02:28:42.251265
+  model: bloglets.post
+  pk: 7
+- fields:
+    author: 1
+    body: "<font color=\"red\">News</font>: Fedora 10 gets \r\n<a href=\"http://www.theregister.co.uk/2008/11/25/fedora_10_review/\"\
+      >great reviews</a>!\r\n<p>Significant price drops in Hard Drives!</p>\r\n"
+    categories: [1]
+    created: 2009-01-05 14:34:36.724564
+    image: image/required
+    pub_date: 2009-01-05 14:34:36.724526
+    published: false
+    slug: fedora-10-reviews
+    title: Fedora 10 reviews
+    updated: 2012-04-22 02:28:42.401401
+  model: bloglets.post
+  pk: 1
+- fields:
+    author: 1
+    body: "<b>\r\n <a href=\"http://eracks.com/products/Quiet%20Systems/config?sku=STUDIO\"\
+      >eRacks/STUDIO</a>\r\n</b>\r\n<a href=\"http://eracks.com/products/Quiet%20Systems/config?sku=STUDIO\"\
+      >\r\n<img src=\"/images/pedalup\" alt=\"\" title=\"eRacks/STUDIO\" border=\"\
+      0\" height=\"29\" width=\"30\">\r\n</a>\r\nOpen Source Digital Audio Workstation"
+    categories: [1]
+    created: 2009-01-05 14:42:42.865908
+    image: home/images/home/banner_160_studio.gif
+    pub_date: 2009-01-05 05:00:00
+    published: false
+    slug: eracks-studio-osdaw
+    title: eRacks STUDIO OSDAW
+    updated: 2012-04-24 19:27:20.180416
+  model: bloglets.post
+  pk: 2
+- fields:
+    author: 2
+    body: "<b>Dedicated Hosting now Available!</b><br>\r\n<a href=\"http://eracks.com/press/071207\"\
+      ><img src=\"/images/bloglets/erackshostinglogo_100.jpg\" alt=\"\" title=\"eRacksHosting.com\"\
+      \ border=\"0\" height=\"51\" width=\"100\"></a><br>\r\n<b><a href=\"http://erackshosting.com\"\
+      >eRacksHosting</a></b>\r\n"
+    categories: [1]
+    created: 2009-01-05 14:43:40.311783
+    image: images/bloglets/erackshostinglogo_100.jpg
+    pub_date: 2009-01-05 04:00:00
+    published: false
+    slug: dedicated-hosting-available
+    title: Dedicated Hosting Available
+    updated: 2012-05-05 16:26:50.822035
+  model: bloglets.post
+  pk: 3
+- fields:
+    author: 1
+    body: "<b>eRacks Canonical Partnership announced!</b><p>\r\n<a href=\"http://eracks.com/press/070216\"\
+      ><img src=\"/images/ubuntu_70\" alt=\"\" title=\"Do you Ubuntu?\" border=\"\
+      0\" height=\"70\" width=\"70\"></a>\r\n<br>\r\n<b><a href=\"http://eracks.com/products/Desktops/\"\
+      >Do you Ubuntu?</a></b>\r\n"
+    categories: [1]
+    created: 2009-01-05 15:14:23.162045
+    image: image/required
+    pub_date: 2009-01-05 03:00:00
+    published: false
+    slug: do-you-ubuntu
+    title: Do You Ubuntu?
+    updated: 2012-04-22 02:28:42.843319
+  model: bloglets.post
+  pk: 4
+- fields:
+    author: 2
+    body: "<b><a href=\"/products/firewall-servers/TWINGUARD\">eRacks/TWINGUARD</a>\r\
+      \n</b>\r\n<a href=\"/products/firewall-servers/\"><img src=\"/images/bloglets/openbsd_gunlogo_85.jpeg\"\
+      \ alt=\"OpenBSD\" title=\"OpenBSD\" border=\"0\" width=\"85\" height=\"69\"\
+      ></a>\r\n<br>\r\n\r\nFailover fully-redundant firewall system in one 1U chassis.\r\
+      \n"
+    categories: [1]
+    created: 2009-01-05 15:15:12.717932
+    image: /images/bloglets/openbsd_gunlogo_85.jpeg
+    pub_date: 2009-01-05 02:00:00
+    published: true
+    slug: eracks-twinguard
+    title: eRacks TWINGUARD
+    updated: 2012-10-31 21:22:33.906340
+  model: bloglets.post
+  pk: 5
+- fields:
+    author: 2
+    body: "<p>\r\n<a href=\"http://eff.org\" target=\"new\"><img src=\"/images/bloglets/eff-logo-s.png\"\
+      \ border=\"0\"></a><br>\r\n eRacks \r\n<a href=\"http://eracks.com/press/050201\"\
+      >matches donations</a> to EFF!\r\n"
+    categories: [1]
+    created: 2009-01-05 15:15:58.531970
+    image: images/bloglets/eff-logo-s.png
+    pub_date: 2009-01-05 01:00:00
+    published: true
+    slug: eff-donations
+    title: EFF Donations
+    updated: 2012-05-05 16:29:09.033872
+  model: bloglets.post
+  pk: 6

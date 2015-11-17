@@ -1,0 +1,29 @@
+<tr>
+    <td>
+        {% firstof addr.name '&nbsp;' %}
+    </td>
+</tr>
+<tr>
+    <td>
+        {{ addr.address1 }}
+    </td>
+</tr>
+{% if addr.address2 %}
+    <tr>
+        <td>
+            {{ addr.address2 }}
+        </td>
+    </tr>
+{% endif %}
+<tr><td>{{ addr.city }}, {{ addr.state }}</td></tr>
+<tr>
+    <td>
+        {{ addr.zip }}
+        {{ addr.country }}
+    </td>
+</tr>
+<tr>
+    <td>
+        {{ addr.customer.email }}
+    </td>
+</tr>

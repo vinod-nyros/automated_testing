@@ -1,0 +1,2456 @@
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_list.html
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_config_summary.html
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_config_tab.html
+compiling /home/joe/django_eracks/apps/products/templets.py to product.html
+compiling /home/joe/django_eracks/apps/products/templets.py to products.html
+compiling /home/joe/django_eracks/apps/products/templets.py to category.html
+compiling /home/joe/django_eracks/apps/bloglets/templets.py to _bloglet_list.html
+- fields:
+    blurb: "<p>\r\n\tGeneral Purpose Rackmount Servers</p>\r\n"
+    comments: "Scraped from Zope as of 2012-03-31\r\n\r\nScraped from Zope as of 2012-04-26\r\
+      \n\r\nScraped from Zope as of 2012-04-26\r\n\r\nScraped from Zope as of 2012-04-26\r\
+      \n\r\nScraped from Zope as of 2012-04-27\r\n\r\nScraped from Zope as of 2012-04-27\r\
+      \n\r\nScraped from Zope as of 2012-04-27\r\n\r\nScraped from Zope as of 2012-10-14\n\
+      \nScraped from Zope as of 2012-11-04\n\nScraped from Zope as of 2012-11-04"
+    created: 2001-01-08 00:00:00
+    description: "\n<!-- now content page goes in this cell--> \n\n\n<div class=\"\
+      xbig\">\neRacks General Purpose Systems:</div>\t\n\t\t\t\t\t\t\t\n<p>\n</p><div\
+      \ class=\"big\">eRacks offers general purpose \nrackmount servers, configured\
+      \ with your choice of operating system, including \nUbuntu Linux\xAE, Mandriva,\
+      \ Debian, CentOS, \nRed Hat\xAE Linux, FreeBSD, NetBSD, OpenBSD, openSUSE, and\
+      \ more!\n</div>\n<br/>\n\n\n<center>\n<table cellpadding=\"4\" border=\"0\"\
+      \ cellspacing=\"2\">\n<tbody><tr><td width=\"250\" align=\"center\" valign=\"\
+      top\">\n<div class=\"big\">\n\_\n<a href=\"/products/general-purpose/VALUE/\"\
+      ><img src=\"/images/categories/general-purpose/value_400.jpeg\" title=\"eRacks/VALUE\"\
+      \ alt=\"\" border=\"0\" width=\"400\" height=\"242\"/></a>\n\n<br/><b><a href=\"\
+      /products/general-purpose/VALUE/\">eRacks/VALUE</a>\n</b>\n<br/>starting at\
+      \ $595\n</div>\n</td>\n\n<td width=\"300\" align=\"left\"><div class=\"small\"\
+      >\n<i>Our entry-level server</i><p>\n<b><a href=\"/products/general-purpose/VALUE/\"\
+      >eRacks/VALUE</a>\n</b><br/>\n</p></div>\n<div class=\"small\">\n\_\xB7\_Intel\xAE\
+      \ Celeron\xAE Dual-core CPU<br/>\n\_\xB7\_Onboard LAN, video, audio<br/>\n\_\
+      \xB7\_SATA3 Hard Drive, DVD<br/>\n\_\xB7\_Choice of Operating System<br/>\n\
+      </div>\n</td>\n\n\n\n<td width=\"125\"><a href=\"http://www.intel.com/products/processor/celerondualcore/index.htm\"\
+      \ target=\"new\">\n<img src=\"/images/categories/general-purpose/celerondualcore_125.jpeg\"\
+      \ title=\"Intel Celeron Dual-core\" alt=\"\" border=\"0\" width=\"125\" height=\"\
+      152\"/></a>\n</td>\n</tr>\n\n<tr><td colspan=\"3\" align=\"center\" height=\"\
+      20\"><hr width=\"70%\"/></td></tr>\n\n<tr><td align=\"center\" valign=\"top\"\
+      >\n<div class=\"big\">\n\_\n<a href=\"/products/general-purpose/SERVE/\"><img\
+      \ src=\"/images/categories/general-purpose/serve_1u2u_400.jpeg\" title=\"eRacks/SERVE\"\
+      \ alt=\"\" border=\"0\" width=\"400\" height=\"318\"/></a>\n\n<br/><b><a href=\"\
+      /products/general-purpose/SERVE/\">eRacks/SERVE</a>\n</b>\n<br/>starting at\
+      \ $895</div>\n</td>\n\n<td align=\"left\"><div class=\"small\">\n<i>All the\
+      \ speed you'll need for most applications</i><p>\n<b><a href=\"/products/general-purpose/SERVE/\"\
+      >eRacks/SERVE</a>\n</b><br/>\n</p></div>\n<div class=\"small\">\n\_\xB7\_AMD\xAE\
+      \ Athlon<sup>TM</sup> 64 X2/X3/X4<br/>\n\_\xB7\_1U or Lockable 2U Chassis<br/>\n\
+      \_\xB7\_SATA3 Hard Drives, DVDRW Dual Layer<br/>\n\_\xB7\_Choice of Operating\
+      \ System<br/>\n</div>\n</td>\n\n\n<td width=\"125\"><a href=\"http://www.amd.com\"\
+      \ target=\"new\">\n<img src=\"/images/categories/general-purpose/amdx2_125.jpeg\"\
+      \ title=\"AMD Athlon64 X2\" alt=\"\" border=\"0\" width=\"125\" height=\"140\"\
+      /></a></td>\n</tr>\n\n<tr><td colspan=\"3\" align=\"center\" height=\"20\"><hr\
+      \ width=\"70%\"/></td></tr>\n\n\n<tr><td align=\"center\" valign=\"top\">\n\
+      <div class=\"big\">\n\_<a href=\"/products/general-purpose/PREMIUM/\"><img src=\"\
+      /images/categories/general-purpose/premium_400.jpeg\" title=\"eRacks/PREMIUM\"\
+      \ alt=\"\" border=\"0\" width=\"400\" height=\"219\"/></a>\n\n<br/><b><a href=\"\
+      /products/general-purpose/PREMIUM/\">eRacks/PREMIUM</a>\n\n</b><br/>starting\
+      \ at $1395\n</div>\n</td>\n\n<td align=\"left\"><div class=\"small\">\n<i>A\
+      \ high-performance rackmount server </i><p>\n<b><a href=\"/products/general-purpose/PREMIUM/\"\
+      >eRacks/PREMIUM</a>\n</b><br/>\n</p></div>\n<div class=\"small\">\n\_\xB7\_\
+      Intel\xAE <font size=\"1\"><sup>TM</sup></font> i5/i7/Xeon processor<br/>\n\_\
+      \xB7\_Max 32 GB DDR3 1333 Memory<br/>\n\_\xB7\_Up to four hotswap drives<br/>\n\
+      \_\xB7\_Choice of Operating System<br/>\n</div>\n</td>\n\n\n<td width=\"125\"\
+      ><img src=\"/images/categories/general-purpose/sandybridge.png\" title=\"\"\
+      \ alt=\"\" border=\"0\" width=\"129\" height=\"96\"/></td>\n</tr>\n\n\n<tr><td\
+      \ colspan=\"3\" align=\"center\" height=\"20\"><hr width=\"70%\"/></td></tr>\n\
+      \n\n\n\n\n\n</tbody></table>\n</center>\n\n<p>\n\n</p><div class=\"small\">\n\
+      eRacks offers custom configurations. Email <a href=\"mailto:info@eracks.com\"\
+      >info@eracks.com</a> for more information. \neRacks also offers network consulting\
+      \ and open source migration services.\n</div>\n\n\n\n"
+    image: ''
+    images: []
+    name: General Purpose
+    published: true
+    slug: general-purpose
+    sortorder: 10
+    title: Rackmount Servers
+    updated: 2012-11-04 19:42:56.431268
+  model: products.categories
+  pk: 3
+- fields:
+    blurb: ''
+    comments: '
+
+
+      Scraped from Zope as of 2012-03-31
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-10-14
+
+
+      Scraped from Zope as of 2012-11-04
+
+
+      Scraped from Zope as of 2012-11-04'
+    created: 2001-01-08 00:00:00
+    description: "\n<!-- now content page goes in this cell--> \n\n<!-- Begin Heading\
+      \ -->\n\n<div style=\"width:90%;margin-left:15px;\">\n<div class=\"xbig\">Enterprise\
+      \ Servers: \n</div>\t\t\t\n<p>\n</p><div class=\"big\">\nEnterprise and virtualization\
+      \ servers allow consolidation of applications in separate environments. Save\
+      \ power, \nspace, and admin time.  These systems are designed specifically for\
+      \ running multiple virtual machines and other enterprise-level applications.\
+      \ \nCustom configurations are also possible.\nContact eRacks for more information.<p/><p/></div>\n\
+      \n\n<table cellpadding=\"0\" width=\"95%\" align=\"middle\" border=\"0\" cellspacing=\"\
+      0\">\n<tbody><tr>\n</tr><tr><td width=\"450\" align=\"left\" valign=\"top\"\
+      >\n<div class=\"big\">\n<b><a href=\"/products/enterprise-servers/ENTERPRISE/\"\
+      >eRacks/ENTERPRISE</a>\n</b><br/>\n<a href=\"/products/enterprise-servers/ENTERPRISE/\"\
+      ><img src=\"/images/categories/enterprise-servers/enterprise_400.jpeg\" title=\"\
+      eRacks/ENTERPRISE\" alt=\"\" border=\"0\" width=\"400\" height=\"286\"/></a>\n\
+      <br/>\n</div>\n</td>\n\n<td align=\"left\"><div class=\"small\">\nXeon Quad/Six-core\
+      \ rackmount server for intensive computational applications<p>\n<b><a href=\"\
+      /products/enterprise-servers/ENTERPRISE/\">eRacks/ENTERPRISE</a>\n</b>\n<br/>\
+      \ starting at $2125\n</p><p>\n\_\xB7\_Intel\xAE Xeon\xAE E5-2600/1600 Processor<br/>\n\
+      \_\xB7\_Up to 256GB DDR3 Memory<br/>\n\_\xB7\_Four hotswap drives<br/>\n\_\xB7\
+      \_Choice of Operating System<br/>\n</p></div>\n</td>\n\n\n<td width=\"125\"\
+      \ alU00022rightU00022=\"\"><a href=\"http://www.intel.com/products/processor/xeon5000/\"\
+      \ target=\"new\">\n<img src=\"/images/categories/enterprise-servers/xeon_125.jpeg\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"125\" height=\"156\"/></a></td>\n\
+      </tr>\n\n<tr><td colspan=\"3\" height=\"1\"><hr color=\"grey\" width=\"60%\"\
+      /></td></tr>\n\n<tr>\n<td align=\"left\" valign=\"center\">\n<div class=\"big\"\
+      ><b><a href=\"/products/enterprise-servers/SIXPACK/\">eRacks/SIXPACK</a>\n</b><p>\n\
+      <a href=\"/products/enterprise-servers/SIXPACK/\"><img src=\"/images/categories/enterprise-servers/sixpack_400.jpeg\"\
+      \ title=\"eRacks/SIXPACK\" alt=\"\" border=\"0\" width=\"400\" height=\"214\"\
+      /></a>\n\n</p></div>\n</td>\n<td colspan=\"2\" align=\"left\">\n\n<div class=\"\
+      small\">\n<b>Up to 2 Six-Core Opteron <i>'Istanbul'</i> series 2000 CPUs</b><br/>\n\
+      starting at $2295<p>\n2U rackmount chassis<br/>\nUp to two Six-Core Opteron\
+      \ series 2000 CPUs<br/>\nUp to three SATA hotswap Drives<br/>\n\n</p></div>\n\
+      </td>\n</tr>\n\n<tr><td colspan=\"3\" height=\"1\"><hr color=\"grey\" width=\"\
+      60%\"/></td></tr>\n\n<tr><td align=\"left\">\n<div class=\"big\"><b><a href=\"\
+      /products/enterprise-servers/SOLO/\">eRacks/SOLO</a>\n</b><p>\n<a href=\"/products/enterprise-servers/SOLO/\"\
+      ><img src=\"/images/categories/enterprise-servers/solo_closed_300.jpeg\" title=\"\
+      eRacks/SOLO\" alt=\"\" border=\"0\" width=\"300\" height=\"144\"/></a>\n</p></div>\n\
+      </td>\n\n<td colspan=\"2\" align=\"left\" valign=\"top\" bgcolor=\"white\">\n\
+      \n<div class=\"small\">\n<b>Dual-Core Intel Virtualization Server!</b>\n<br/>starting\
+      \ at $2495<p>\n</p><ul>\n<li>One or Two Dual-core Intel Xeon processors<br/></li>\n\
+      <li>Hardware-virtualization qualified<br/></li>\n<li>Three Removable hard drives\
+      \ plus one internal<br/> </li>\n<li>DDR2 ECC Fully Buffered (FB-DIMM) Memory<br/>\
+      \ </li>\n<li>4-port RAID card<br/></li>\n<li>Virtualization Server software\
+      \ installed<br/></li>\n<li>Open Source Application servers installed<br/></li>\n\
+      <li>Software configuration available upon request<br/></li>\n</ul><p>\n</p></div></td>\n\
+      \n</tr>\n\n<tr><td colspan=\"3\" height=\"1\"><hr color=\"grey\" width=\"60%\"\
+      /></td></tr>\n\n<tr>\n<td align=\"left\">\n<div class=\"big\"><p><b><a href=\"\
+      /products/enterprise-servers/X4X4/\">eRacks/X4X4</a>\n</b><br/>\n<a href=\"\
+      /products/enterprise-servers/X4X4/\"><img src=\"/images/categories/enterprise-servers/x4x4_open_300.jpeg\"\
+      \ title=\"eRacks/X4X4\" alt=\"\" border=\"0\" width=\"300\" height=\"172\"/></a>\n\
+      <br/>\n</p></div>\n</td>\n\n<td colspan=\"2\" align=\"left\">\n\n<div class=\"\
+      small\">\n<b>1U Quad-Core Quad-Processor Virtualization Server!</b>\n<br/>starting\
+      \ at $9295<p>\n\n</p><ul>\n<li>Four Quad-core Intel Xeon 7300 processors<br/></li>\n\
+      <li>Hardware-virtualization qualified<br/></li>\n<li>Three Removable hard drives<br/>\
+      \ </li>\n<li>DDR2 ECC FB-DIMM Memory<br/> </li>\n<li>option for Remote management\
+      \ through IPMI<br/></li>\n<li>Virtualization Server software installed<br/></li>\n\
+      <li>Open Source Application servers installed<br/></li>\n<li>Software configuration\
+      \ available upon request<br/></li>\n</ul><p>\n</p></div></td>\n</tr></tbody></table>\n\
+      \n\n<div class=\"small\"><p>\nVirtualized machines isolate the application environment\
+      \ space, keeping your services secure.  \nYou choose the applications and virtual\
+      \ server slice sizes, and we'll install it for you.\nFurther configuration assistance\
+      \ is available as well, on an hourly basis.\n</p><p>\nLet eRacks install \n\
+      <a href=\"http://www.vmware.com/\" target=\"new\">vmware</a> or \n<a href=\"\
+      http://kvm.qumranet.com/kvmwiki\" target=\"new\">Linux-native KVM (Kernel-based\
+      \ Virtual Machine)</a> \nusing <a href=\"http://fabrice.bellard.free.fr/qemu/about.html\"\
+      \ target=\"new\">Qemu</a> \nand your choice of Open Source software running\
+      \ on virtualized servers,\neach on its own encapsulated slice. Possible software\
+      \ includes \n<a href=\"http://asterisk.org\" target=\"new\">Asterisk</a> IP\
+      \ telephony platform, \n<a href=\"http://postgresql.org\" target=\"new\">PostgreSQL</a>\
+      \ or \n<a href=\"http://mysql.com\" target=\"new\">mySQL</a> database \nsystems,\
+      \ \n<a href=\"http://www.zimbra.com/\" target=\"new\">Zimbra</a> email messaging\
+      \ and collaboration server, \n<a href=\"http://www.jaspersoft.com/\" target=\"\
+      new\">Jaspersoft</a> Business Intelligence Suite, and more. Each slice can have\
+      \ its own operating system, including\nOpenBSD, RedHat Linux, Gentoo and Ubuntu\
+      \ Linux. Choose from the list of \n<a href=\"http://www.vmware.com/vmtn/appliances/directory/\"\
+      \ target=\"new\">vmware's Virtual Appliance Marketplace</a> or \n<a href=\"\
+      http://www.oszoo.org/wiki/index.php/Category:OS_images\" target=\"new\">OS images</a>,\
+      \ or\n let us know what applications you need virtualized.\n</p><p>\n\neRacks\
+      \ Enterprise Servers are also available in a dedicated hosting arrangement.\
+      \ Contact eRacks and let us \nknow what your requirements are.</p></div> \n\n\
+      \n<center>\n\n<a href=\"/products/enterprise-servers/SIXPACK/\"><img src=\"\
+      /images/categories/enterprise-servers/asterisk.gif\" title=\"\" alt=\"\" border=\"\
+      0\" width=\"155\" height=\"29\"/></a>\n\_\_\n<a href=\"/products/enterprise-servers/SIXPACK/\"\
+      ><img src=\"/images/categories/enterprise-servers/postgresql.gif\" title=\"\"\
+      \ alt=\"\" border=\"0\" width=\"111\" height=\"85\"/></a>\n\_\_\n<a href=\"\
+      /products/enterprise-servers/SIXPACK/\"><img src=\"/images/categories/enterprise-servers/mysql.gif\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"100\" height=\"62\"/></a>\n\_\_\n\
+      <a href=\"/products/enterprise-servers/SIXPACK/\"><img src=\"/images/categories/enterprise-servers/sugarcrm.gif\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"190\" height=\"36\"/></a>\n\_\_\n\
+      <a href=\"/products/enterprise-servers/SIXPACK/\"><img src=\"/images/categories/enterprise-servers/jaspersoft.gif\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"100\" height=\"42\"/></a>\n\_\_\n\
+      <a href=\"/products/enterprise-servers/SIXPACK/\"><img src=\"/images/categories/enterprise-servers/zimbra.gif\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"100\" height=\"52\"/></a>\n<p>\n\
+      <a href=\"/products/enterprise-servers/SIXPACK/\"><img src=\"/images/categories/enterprise-servers/redhat.gif\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"100\" height=\"52\"/></a>\n\_\_\n\
+      <a href=\"/products/enterprise-servers/SIXPACK/\"><img src=\"/images/categories/enterprise-servers/ubuntu.gif\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"100\" height=\"52\"/></a>\n\_\_\n\
+      <a href=\"/products/enterprise-servers/SIXPACK/\"><img src=\"/images/categories/enterprise-servers/openbsd.jpeg\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"100\" height=\"84\"/></a>\n\_\_\n\
+      <a href=\"/products/enterprise-servers/SIXPACK/\"><img src=\"/images/categories/enterprise-servers/gentoo.jpeg\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"73\" height=\"75\"/></a>\n\_\_\n\
+      </p></center>\n<p>\n</p><div class=\"small\">\nSpecial configuration requests\
+      \ are possible! \nSimply <a href=\"mailto:info@eracks.com\">email</a> or call\
+      \ us to discuss your needs.\n</div>\n</div>\n"
+    image: ''
+    images: []
+    name: Enterprise Servers
+    published: true
+    slug: enterprise-servers
+    sortorder: 20
+    title: Enterprise / Virtualization Server, VIrtual Machine Server
+    updated: 2012-11-04 19:42:56.893488
+  model: products.categories
+  pk: 4
+- fields:
+    blurb: ''
+    comments: "Scraped from Zope as of 2012-03-31\r\n\r\nScraped from Zope as of 2012-04-26\r\
+      \n\r\nScraped from Zope as of 2012-04-26\r\n\r\nScraped from Zope as of 2012-04-26\r\
+      \n\r\nScraped from Zope as of 2012-04-27\r\n\r\nScraped from Zope as of 2012-04-27\r\
+      \n\r\nScraped from Zope as of 2012-10-14\n\nScraped from Zope as of 2012-11-04\n\
+      \nScraped from Zope as of 2012-11-04"
+    created: 0001-01-01 00:00:00
+    description: "\n<!-- now content page goes in this cell--> \n\n\n<div class=\"\
+      xbig\">\neRacks Shallow Depth Rackmount Computer Systems: \n</div>\t\t\n\t\t\
+      \t\t\t\t\t\n\n<div class=\"big\"><p>\neRacks offers 1U- and 2U-height cost-efficient\
+      \ high-quality scalable Shallow Depth Systems. \nThese systems are examples\
+      \ of our customized solutions for applications that have requirements of low-noise,\
+      \ \nsize-limitations, or other.\nAll system prices include installation of your\
+      \ choice of Operating System.</p></div>\n<p>\n\n</p><center>\n\n<table cellpadding=\"\
+      2\" border=\"0\" cellspacing=\"0\" width=\"90%\">\n\n\n<tbody><tr>\n<td align=\"\
+      left\">\n<div class=\"big\">\n<b><a href=\"/products/shallow-depth/SHORT/\"\
+      >eRacks/SHORT</a>\n</b><br/>\n<a href=\"/products/shallow-depth/SHORT/\"><img\
+      \ src=\"/images/categories/shallow-depth/short_face.jpeg\" title=\"eRacks/SHORT\"\
+      \ alt=\"\" border=\"0\" width=\"305\" height=\"89\"/></a>\n\n</div>\n</td>\n\
+      <td align=\"left\">\n<div class=\"small\">\n<b>Shallow depth for broadcast,\
+      \ audio and home theater rackmount applications.</b>\n<p>\n13in or 16in depth<br/>\n\
+      Intel Celeron D CPU<br/>\nSingle 10/100 NIC<br/> \nChoice of OS</p><p> \n<b><a\
+      \ href=\"/products/shallow-depth/SHORT/\">eRacks/SHORT</a>\n\nstarting at $515</b>\n\
+      </p></div>\n</td></tr>\n\n<tr><td colspan=\"2\" height=\"1\"><hr color=\"grey\"\
+      \ width=\"100%\"/></td></tr>\n\n<tr>\n<td align=\"left\">\n<div class=\"big\"\
+      >\n<b><a href=\"/products/shallow-depth/STUBBY/\">eRacks/STUBBY</a>\n</b><br/>\n\
+      <a href=\"/products/shallow-depth/STUBBY/\"><img src=\"/images/categories/shallow-depth/stubby_closed_300.jpeg\"\
+      \ title=\"eRacks/STUBBY\" alt=\"\" border=\"0\" width=\"300\" height=\"118\"\
+      /></a>\n\n</div>\n</td>\n<td align=\"left\">\n<div style=\"float:right\">\n\
+      <a href=\"http://www.intel.com/technology/atom/\" target=\"new\">\n<img src=\"\
+      /images/categories/shallow-depth/atom_62.gif\" title=\"\" alt=\"\" border=\"\
+      0\" width=\"62\" height=\"76\"/></a></div>\n\n<div class=\"small\">\n<b>Mini-ITX\
+      \ Intel Atom system in an 8.75 inch depth chassis</b>\n<p>\n8.75in(D) x 19in(W)\
+      \ x 1.75in(H)<br/>\nIntel Atom CPU<br/>\nSingle 10/100 onboard<br/>\nOne PCI\
+      \ slot available<br/> \nChoice of OS</p><p> \n<b><a href=\"/products/shallow-depth/STUBBY/\"\
+      >eRacks/STUBBY</a>\n\nstarting at $525</b>\n</p></div>\n</td></tr>\n\n<tr><td\
+      \ colspan=\"2\" height=\"1\"><hr color=\"grey\" width=\"100%\"/></td></tr>\n\
+      <tr>\n<td width=\"50%\" align=\"left\">\n<div class=\"big\">\n<b><a href=\"\
+      /products/shallow-depth/FLAT/\">eRacks/FLAT</a>\n</b><br/>\n<a href=\"/products/shallow-depth/FLAT/\"\
+      ><img src=\"/images/categories/shallow-depth/flat_front_300.jpeg\" title=\"\
+      eRacks/FLAT\" alt=\"\" border=\"0\" width=\"300\" height=\"172\"/></a>\n<br/>\n\
+      <a href=\"/products/Quiet%20Systems?session=31003113439216163\"><img src=\"\
+      /images/categories/shallow-depth/quietbydesign.jpeg\" title=\"\" alt=\"\" border=\"\
+      0\" width=\"127\" height=\"19\"/></a>\n\n</div>\n</td>\n<td align=\"left\"><div\
+      \ class=\"small\">\n<b>Dust-proof, silent, wall-mountable. \n<br/>7.3\" x 8.1\"\
+      \ x 1.3\" (not rackmount)</b><p>\n\nIntel Atom N270 CPU<br/>\nOnboard audio,\
+      \ video, TV out, 1394 Firewire, Gigabit Ethernet<br/> \nFront panel microphone\
+      \ / headphone</p><p> \n<b><a href=\"/products/shallow-depth/FLAT/\">eRacks/FLAT</a>\n\
+      \nstarting at $695</b><br/>\n\n</p></div>\n</td>\n</tr>\n\n\n<tr><td colspan=\"\
+      2\" height=\"1\"><hr color=\"grey\" width=\"100%\"/></td></tr>\n<tr>\n<td width=\"\
+      50%\" align=\"left\">\n<div class=\"big\">\n<b><a href=\"/products/shallow-depth/QUIET/\"\
+      >eRacks/QUIET</a>\n</b><br/>\n<a href=\"/products/shallow-depth/QUIET/\"><img\
+      \ width=\"305\" alt=\"eRacks/QUIET\" height=\"88\" border=\"0\" src=\"/images/categories/shallow-depth/quiet_face.jpeg\"\
+      /></a>\n<br/>\n<a href=\"/products/Quiet%20Systems?session=31003113439216163\"\
+      ><img src=\"/images/categories/shallow-depth/quietbydesign.jpeg\" title=\"\"\
+      \ alt=\"\" border=\"0\" width=\"127\" height=\"19\"/></a>\n\n</div>\n</td>\n\
+      <td align=\"left\"><div class=\"small\">\n<b>You can't even tell it's on, until\
+      \ you look at the lights!</b><p>\n\nLow-heat CPU<br/>\nLow-noise Hard Drive<br/>\
+      \ \nChoice of OS</p><p> \n<b><a href=\"/products/shallow-depth/QUIET/\">eRacks/QUIET</a>\n\
+      \nstarting at $795</b><br/>\nOther <a href=\"/products/Quiet%20Systems?session=31003113439216163\"\
+      >QuietByDesign</a>\n<sup>TM</sup> configurations available.\n</p></div>\n</td>\n\
+      </tr>\n\n\n<tr><td colspan=\"2\" height=\"1\"><hr color=\"grey\" width=\"100%\"\
+      /></td></tr>\n\n<tr>\n<td align=\"left\">\n<div class=\"big\">\n<b><a href=\"\
+      /products/shallow-depth/LITE/\">eRacks/LITE</a>\n</b><p>\n<a href=\"/products/shallow-depth/LITE/\"\
+      ><img src=\"/images/categories/shallow-depth/lite2_300.jpeg\" title=\"eRacks/LITE\"\
+      \ alt=\"\" border=\"0\" width=\"300\" height=\"139\"/></a>\n\n</p></div>\n</td>\n\
+      \n<td align=\"left\">\n<div class=\"small\">\n<b>Shallow 1U-height 16in depth.</b>\n\
+      <p>\nQuietizable<br/>\nVIA C7 low-heat CPU<br/>\nSATA Hard Drive<br/> \nChoice\
+      \ of OS</p><p> \n<b><a href=\"/products/shallow-depth/LITE/\">eRacks/LITE</a>\n\
+      \nstarting at $980</b>\n</p></div>\n</td></tr>\n\n\n\n\n<tr><td colspan=\"2\"\
+      \ height=\"1\"><hr color=\"grey\" width=\"100%\"/></td></tr>\n<tr>\n<td align=\"\
+      left\" valign=\"top\">\n<div class=\"big\">\n<b><a href=\"/products/shallow-depth/i7SHORT/\"\
+      >eRacks/i7SHORT</a>\n\n</b><br/>\n\_<a href=\"/products/shallow-depth/i7SHORT/\"\
+      ><img src=\"/images/categories/shallow-depth/i7short_3u.jpeg\" title=\"eRacks/i7SHORT\"\
+      \ alt=\"\" border=\"0\" width=\"260\" height=\"195\"/></a>\n\n<p>\n</p></div>\n\
+      </td>\n<td align=\"left\">\n<div style=\"float:right\">\n<a href=\"http://www.intel.com/products/processor/corei7/index.htm\"\
+      \ target=\"new\">\n<img src=\"/images/categories/shallow-depth/corei7_75.jpeg\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"75\" height=\"91\"/></a></div>\n\n\
+      <div class=\"small\">\n<b>Intel Core i7 Shallow Depth Rackmount Server</b><p>\n\
+      </p></div>\n<div class=\"small\">\nIntel\xAE Core<font size=\"1\"><sup>TM</sup></font>\
+      \ i7 processor<br/>\n3U-height (17.5in D) or 2U-height (13.9in D) shallow-depth\
+      \ chassis<br/>\nMax 12 GB DDR3-1600 Memory<br/>\nUp to three hotswap drives\
+      \ (more with 2U chassis)<br/>\nChoice of Operating System, installed and configured.\n\
+      <p><a href=\"/products/shallow-depth/i7SHORT/\">eRacks/i7SHORT</a>\n \nstarting\
+      \ at $1795\n\n</p></div>\n</td>\n</tr>\n\n\n<tr><td colspan=\"2\" height=\"\
+      1\"><hr color=\"grey\" width=\"100%\"/></td></tr>\n\n<tr>\n<td align=\"left\"\
+      \ valign=\"top\">\n<div class=\"big\">\n<b><a href=\"/products/shallow-depth/STUDIO3/\"\
+      >eRacks/STUDIO3</a>\n</b><br/>\n\n<a href=\"/products/shallow-depth/STUDIO/\"\
+      ><img src=\"/images/categories/shallow-depth/studio_media_2_300.jpeg\" title=\"\
+      eRacks / STUDIO digital audio system\" alt=\"\" border=\"0\" width=\"300\" height=\"\
+      192\"/></a>\n<br/>\n<center><a href=\"/products/Quiet%20Systems?session=31003113439216163\"\
+      ><img src=\"/images/categories/shallow-depth/quietbydesign.jpeg\" title=\"\"\
+      \ alt=\"\" border=\"0\" width=\"127\" height=\"19\"/></a>\n</center>\n</div>\n\
+      </td>\n\n<td align=\"left\" valign=\"center\">\n<div style=\"float:right;\"\
+      ><img src=\"/images/categories/shallow-depth/pedalup.png\"/>\_\_</div>\n<div\
+      \ class=\"small\">\n<b>Open Source Audio / Video Workstation</b>.<p>\nSet of\
+      \ Audio / Video software installed<br/>\nDefault chassis is not rackmount<br/>\n\
+      Dual Core CPU<br/>\nLow Latency Memory<br/>\n16.9 inches depth<br/>\nAll Open\
+      \ Source Software</p><p>\n<b><a href=\"/products/shallow-depth/STUDIO3/\">eRacks/STUDIO3</a>\n\
+      \nstarting at $1200</b><br/>\n</p></div>\n</td>\n</tr>\n\n\n</tbody></table>\n\
+      </center>\n\n\n\n\n\n<div class=\"small\"><p>\neRacks also provides <a href=\"\
+      /services/network\">onsite installation, network consulting and software\ndevelopment\
+      \ services</a>.  eRacks consultants specialize in configuring open source applications,\
+      \ and only recommend and \nsell systems we know to be reliable.\n</p></div>\n\
+      \n"
+    image: ''
+    images: []
+    name: Shallow Depth
+    published: true
+    slug: shallow-depth
+    sortorder: 30
+    title: Quiet Low Noise, Shallow depth Rackmount Computer Systems
+    updated: 2012-11-04 19:42:57.347865
+  model: products.categories
+  pk: 15984
+- fields:
+    blurb: ''
+    comments: "Scraped from Zope as of 2012-03-31\r\n\r\nScraped from Zope as of 2012-04-26\r\
+      \n\r\nScraped from Zope as of 2012-04-26\r\n\r\nScraped from Zope as of 2012-04-26\r\
+      \n\r\nScraped from Zope as of 2012-04-27\r\n\r\nScraped from Zope as of 2012-04-27\r\
+      \n\r\nScraped from Zope as of 2012-10-14\n\nScraped from Zope as of 2012-11-04"
+    created: 0001-01-01 00:00:00
+    description: "\n<!-- now content page goes in this cell--> \n\n\n\n\n<div style=\"\
+      float:right;\">\n<a href=\"http://www.amd.com/us-en/Processors/ProductInformation/0,,30_118_8825,00.html\"\
+      \ target=\"new\">\n<img src=\"/images/categories/amd-systems/amd_logo.gif\"\
+      \ title=\"AMD Athlon Systems\" alt=\"\" border=\"0\" width=\"129\" height=\"\
+      40\"/></a>\_\n</div>\n\n<div class=\"xbig\">\neRacks AMD<font size=\"1\">\xAE\
+      </font> Systems: \n</div>\n<p>\n\n</p><div class=\"big\">\neRacks offers dual-,\
+      \ quad-, six-core, eight-core, and now even <a href=\"http://eracks.com/press/100513\"\
+      >12-core</a> systems. \nCPUs include Opteron, Phenom, Athlon 64 in 1U, 2U and\
+      \ larger height chassis. \nCall or email for custom configurations. <p>\n</p></div>\n\
+      \n<p>\n\n</p><center>\n\n---\n<table cellpadding=\"0\" width=\"90%\" border=\"\
+      0\" cellspacing=\"0\">\n\n<tbody><tr>\n<td align=\"left\" valign=\"top\">\n\
+      <div class=\"big\">\n<b><a href=\"/products/amd-systems/APURACK/\">eRacks/APURACK</a>\n\
+      </b><p>\n<a href=\"/products/amd-systems/APURACK/\"><img src=\"/images/categories/amd-systems/apurack_400.jpeg\"\
+      \ title=\"eRacks/APURACK\" alt=\"\" border=\"0\" width=\"400\" height=\"416\"\
+      /></a>\n\n</p></div>\n</td>\n<td align=\"left\">\n<div class=\"big\">\n<b>AMD\
+      \ A-Series Llano APU</b>\n</div>\n<div style=\"float:right;\">\n<a href=\"http://www.amd.com\"\
+      \ target=\"new\"><img src=\"/images/categories/amd-systems/llano.jpeg\" title=\"\
+      AMD Llano chip Socket FM1\" alt=\"\" border=\"0\" width=\"133\" height=\"130\"\
+      /></a></div>\n<div class=\"small\">\n<!--i><a href=\"http://eracks.com/press/100924\"\
+      >press release</a> </i><br-->\nChoice of 1U, 2U or 3U rackmount chassis<br/>\n\
+      AMD A-Series Llano APU<br/>\nintegrated Radeon graphics<br/>\nDual- and Quad-\
+      \ Core<br/>\nChoice of OS<p>\n<a href=\"/products/amd-systems/APURACK/\">eRacks/APURACK</a>\n\
+      \nstarting at $735\n</p><p>\nDesktop format also available: <a href=\"/products/amd-systems/ASERIES/\"\
+      >eRacks/ASERIES</a>\n\n</p></div>\n</td>\n</tr>\n\n\n<tr><td colspan=\"2\" height=\"\
+      1\"><hr color=\"grey\" width=\"100%\"/></td></tr><tr>\n<td align=\"left\" valign=\"\
+      top\">\n<div class=\"big\">\n<b><a href=\"/products/amd-systems/OPT4200/\">eRacks/OPT4200</a>\n\
+      </b><p>\n<a href=\"/products/amd-systems/OPT4200/\"><img src=\"/images/categories/amd-systems/opt4200_1_400.jpeg\"\
+      \ title=\"eRacks/OPT4200\" alt=\"\" border=\"0\" width=\"400\" height=\"247\"\
+      /></a>\n\n</p></div>\n</td>\n<td align=\"left\">\n<div class=\"big\">\n<b>Lowest\
+      \ wattage per core!</b>\n</div>\n<div style=\"float:right;\">\n<a href=\"http://www.amd.com\"\
+      \ target=\"new\"><img src=\"/images/categories/amd-systems/opteronchip.jpeg\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"100\" height=\"118\"/></a></div>\n\
+      <div class=\"small\">\n1U Rackmount Chassis<br/>\nAMD Opteron 4200-series CPU<br/>\n\
+      6- or 8- Core Processor<br/>\nUp to 64GB DDR3 memory<br/>\nChoice of OS<p>\n\
+      <a href=\"/products/amd-systems/OPT4200/\">eRacks/OPT4200</a>\n\nstarting at\
+      \ $1229\n</p></div>\n</td>\n</tr>\n\n\n<tr><td colspan=\"2\" height=\"1\"><hr\
+      \ color=\"grey\" width=\"100%\"/></td></tr>\n\n<tr>\n<td align=\"left\" valign=\"\
+      top\">\n<div class=\"big\">\n<b><a href=\"/products/amd-systems/SERVE/\">eRacks/SERVE</a>\n\
+      </b><p>\n<a href=\"/products/amd-systems/SERVE/\"><img src=\"/images/categories/amd-systems/serve_400.jpeg\"\
+      \ title=\"eRacks/SERVE\" alt=\"\" border=\"0\" width=\"400\" height=\"157\"\
+      /></a>\n\n</p></div>\n</td>\n<td align=\"left\">\n<div class=\"big\">\n<b>Configure\
+      \ a Standard Server</b>\n</div>\n<div style=\"float:right;\">\n<a href=\"http://www.amd.com\"\
+      \ target=\"new\"><img src=\"/images/categories/amd-systems/athlonx2.jpeg\" title=\"\
+      AMD Athlon X2\" alt=\"\" border=\"0\" width=\"76\" height=\"90\"/></a></div>\n\
+      <div class=\"small\">\n1U rackmount chassis<br/>\nAMD Athlon64 X2 Dual Core\
+      \ CPU<br/>\nSATA3 drive, DVDRW Dual Layer<br/>\nUp to 16GB DDR3 memory<br/>\n\
+      Choice of OS<p>\n<a href=\"/products/amd-systems/SERVE/\">eRacks/SERVE</a>\n\
+      \nstarting at $895\n</p></div>\n</td>\n</tr>\n\n<tr><td colspan=\"2\" height=\"\
+      1\"><hr color=\"grey\" width=\"100%\"/></td></tr>\n\n<tr><td align=\"left\"\
+      \ valign=\"top\">\n<div class=\"big\">\n<b><a href=\"/products/amd-systems/EFFECTS/\"\
+      >eRacks/EFFECTS</a>\n</b><p>\n\_<a href=\"/products/amd-systems/EFFECTS/\"><img\
+      \ src=\"/images/categories/amd-systems/effects_400.jpeg\" title=\"eRacks/EFFECTS\"\
+      \ alt=\"\" border=\"0\" width=\"400\" height=\"169\"/></a>\n\n</p></div>\n</td>\n\
+      <td align=\"left\">\n<div style=\"float:right;\">\n<a href=\"http://www.amd.com\"\
+      \ target=\"new\"><img src=\"/images/categories/amd-systems/amd_phenom_logo.gif\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"76\" height=\"89\"/></a><p>\n<a href=\"\
+      http://www.amd.com\" target=\"new\"><img src=\"/images/categories/amd-systems/phenom2.jpeg\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"76\" height=\"90\"/></a></p></div>\n\
+      \n<div class=\"big\">\n<b>Phenom II AM3 Quad-core 2U</b>\n</div>\n<div class=\"\
+      small\">\nAMD Phenom / AM3 Quad -core CPU<br/>\nDDR2 or DDR3 Memory<br/>\nUp\
+      \ to 4 SATA2 / SAS drives<br/>\nDual Layer CD/DVD+R<br/>\nChoice of OS<p>\n\
+      <a href=\"/products/amd-systems/EFFECTS/\">eRacks/EFFECTS</a>\n\nstarting at\
+      \ $1120\n</p><p/></div>\n</td>\n\n</tr>\n\n<tr><td colspan=\"2\" height=\"1\"\
+      ><hr color=\"grey\" width=\"100%\"/></td></tr>\n\n\n\n<tr>\n<td align=\"left\"\
+      \ valign=\"center\">\n<div class=\"big\">\n<b><a href=\"/products/amd-systems/SIXPACK/\"\
+      >eRacks/SIXPACK</a>\n</b><p>\n<a href=\"/products/amd-systems/SIXPACK/\"><img\
+      \ src=\"/images/categories/amd-systems/sixpack_400.jpeg\" title=\"eRacks/SIXPACK\"\
+      \ alt=\"\" border=\"0\" width=\"400\" height=\"214\"/></a>\n\n</p></div></td>\n\
+      <td align=\"left\">\n\n<div class=\"big\">\n<b>Hardware Optimized for Virtualization</b></div>\n\
+      <div class=\"small\"><p>\n2U rackmount chassis<br/>\nUp to two <b>Six-Core Opteron\
+      \ series 2000</b> CPUs<br/>\nHard Drive Capacity 12TB<br/>\nMemory Capacity\
+      \ 64GB<br/>\n<br/>\n<a href=\"/products/amd-systems/SIXPACK/\">eRacks/SIXPACK</a>\n\
+      </p><p>\nstarting at $2295\n</p></div>\n</td>\n</tr>\n\n\n\n\n<tr><td colspan=\"\
+      2\" height=\"1\"><hr color=\"grey\" width=\"100%\"/></td></tr>\n\n\n<tr>\n<td\
+      \ align=\"left\" valign=\"center\">\n<div class=\"big\">\n<b><a href=\"/products/amd-systems/OPTERNATOR32/\"\
+      >eRacks/OPTERNATOR32</a>\n</b><p>\n<a href=\"/products/amd-systems/OPTERNATOR32/\"\
+      ><img src=\"/images/categories/amd-systems/opternator32_1.jpeg\" title=\"eRacks/OPTERNATOR32\"\
+      \ alt=\"\" border=\"0\" width=\"261\" height=\"157\"/></a>\n\n</p></div></td>\n\
+      <td align=\"left\">\n<div style=\"float:right;\"><img src=\"/images/categories/amd-systems/opteron_80.jpeg\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"80\" height=\"90\"/></div>\n<div\
+      \ class=\"big\">\n<b>32 cores in 1U!</b></div>\n<div class=\"small\"><p>\nUp\
+      \ to two <b>8/12/16 -Core Opteron series 6200</b> CPUs<br/>\n1U rackmount chassis<br/>\n\
+      Hard Drive Capacity 6 TB<br/>\nMemory Capacity 256 GB<br/>\nUbuntu Linux Advantage\
+      \ Essential Server<br/>\n<br/>\n<a href=\"/products/amd-systems/OPTERNATOR32/\"\
+      >eRacks/OPTERNATOR32</a>\n<br/>\nstarting at $3995\n</p></div>\n</td>\n</tr>\n\
+      \n<tr><td colspan=\"2\" height=\"1\"><hr color=\"grey\" width=\"100%\"/></td></tr>\n\
+      \n\n<tr>\n<td align=\"left\" valign=\"center\">\n<div class=\"big\">\n<b><a\
+      \ href=\"/products/amd-systems/OPTERNATOR48/\">eRacks/OPTERNATOR48</a>\n</b><p>\n\
+      <a href=\"/products/amd-systems/OPTERNATOR48/\"><img src=\"/images/categories/amd-systems/opternator48_1.jpeg\"\
+      \ title=\"eRacks/OPTERNATOR48\" alt=\"\" border=\"0\" width=\"261\" height=\"\
+      152\"/></a>\n\n</p></div></td>\n<td align=\"left\">\n<div style=\"float:right;\"\
+      ><img src=\"/images/categories/amd-systems/opteron_80.jpeg\" title=\"\" alt=\"\
+      \" border=\"0\" width=\"80\" height=\"90\"/></div>\n<div class=\"big\">\n<b>Total\
+      \ of 48 cores!</b>\n</div><div class=\"small\"><p>\nUp to four <b>4-core / 8-Core\
+      \ / 12-core Opteron series 6200</b> CPUs<br/>\n1U rackmount chassis<br/>\n3\
+      \ x hotswappable SATA3/SSD Hard drives<br/>\nMemory Capacity 256 GB DDR3<br/>\n\
+      Ubuntu Linux Advantage Essential Server<br/>\n<br/>\n<a href=\"/products/amd-systems/OPTERNATOR48/\"\
+      >eRacks/OPTERNATOR48</a>\n<br/>\nstarting at $5795\n</p></div>\n</td>\n</tr>\n\
+      \n<tr><td colspan=\"2\" height=\"1\"><hr color=\"grey\" width=\"100%\"/></td></tr>\n\
+      \n<tr>\n<td align=\"left\" valign=\"center\">\n<div class=\"big\">\n<b><a href=\"\
+      /products/amd-systems/OPTERNATOR64/\">eRacks/OPTERNATOR64</a>\n</b><p>\n<a href=\"\
+      /products/amd-systems/OPTERNATOR64/\"><img src=\"/images/categories/amd-systems/opternator64_1.jpeg\"\
+      \ title=\"eRacks/OPTERNATOR64\" alt=\"\" border=\"0\" width=\"261\" height=\"\
+      149\"/></a>\n\n</p></div></td>\n<td align=\"left\">\n<div style=\"float:right;\"\
+      ><img src=\"/images/categories/amd-systems/opteron_80.jpeg\" title=\"\" alt=\"\
+      \" border=\"0\" width=\"80\" height=\"90\"/></div>\n<div class=\"big\">\n<b>Max\
+      \ of 64 cores!</b>\n</div><div class=\"small\"><p>\nUp to four <b>12-Core/ 16-core\
+      \ Opteron series 6200</b> CPUs<br/>\n2U (or 1U) rackmount chassis<br/>\nStorage\
+      \ Capacity 6 SATA3 / SSD drives<br/>\nMemory Capacity 512 GB<br/>\nUbuntu Linux\
+      \ Advantage Essential Server<br/>\n<br/>\n<a href=\"/products/amd-systems/OPTERNATOR64/\"\
+      >eRacks/OPTERNATOR64</a>\n<br/>\nstarting at $7,995\n</p></div>\n</td>\n</tr>\n\
+      \n<tr><td colspan=\"2\" height=\"1\"><hr color=\"grey\" width=\"100%\"/></td></tr>\n\
+      \n\n</tbody></table>\n</center>\n\n\n<div class=\"small\">\neRacks offers custom\
+      \ configurations. Email <a href=\"mailto:info@eracks.com\">info@eracks.com</a>\
+      \ or call \nus for more information. \neRacks also offers network consulting\
+      \ and open source migration services.\n</div>\n\n\n\n"
+    image: ''
+    images: []
+    name: AMD Systems
+    published: true
+    slug: amd-systems
+    sortorder: 40
+    title: AMD Phenom AM3, Opteron, A-Series Rackmount Systems
+    updated: 2012-11-04 19:42:57.796597
+  model: products.categories
+  pk: 9531
+- fields:
+    blurb: ''
+    comments: "Scraped from Zope as of 2012-03-31\r\n\r\nScraped from Zope as of 2012-04-26\r\
+      \n\r\nScraped from Zope as of 2012-04-26\r\n\r\nScraped from Zope as of 2012-04-26\r\
+      \n\r\nScraped from Zope as of 2012-04-27\r\n\r\nScraped from Zope as of 2012-04-27\r\
+      \n\r\nScraped from Zope as of 2012-10-14\n\nScraped from Zope as of 2012-11-04"
+    created: 2002-07-01 00:00:00
+    description: "\n<!-- now content page goes in this cell--> \n\n<p/><center>\n\
+      <table cellpadding=\"0\" width=\"90%\" border=\"0\"> \n<tbody><tr><td align=\"\
+      left\" maxwidth=\"600\" valign=\"top\">\n<div class=\"xbig\">\neRacks Intel<font\
+      \ size=\"1\">\xAE</font>  Core i7 and Xeon Quad / Six - Core Systems: </div>\n\
+      <br/>\n<div class=\"big\">\nAll systems configured with your choice of operating\
+      \ system including \nUbuntu Linux\xAE, Mandriva, Debian, CentOS, \nRed Hat\xAE\
+      \ Linux, FreeBSD, NetBSD, OpenBSD, openSUSE, and more!\nCall or <a href=\"mailto:info@eracks.com\"\
+      >email</a> for quotes on other \ncustom configurations.</div>\n\t\n<p>\n\n\n\
+      \n\n</p><center>\n\n<table cellpadding=\"2\" width=\"95%\" border=\"0\" cellspacing=\"\
+      0\">\n\n\n<tbody><tr>\n<td align=\"left\">\n<div class=\"big\">\n<b><a href=\"\
+      /products/intel-systems/ESERVE/\">eRacks/ESERVE</a>\n</b><br/>\n\_<a href=\"\
+      /products/intel-systems/ESERVE/\"><img src=\"/images/categories/intel-systems/eserve_300.jpeg\"\
+      \ title=\"eRacks/ESERVE\" alt=\"\" border=\"0\" width=\"300\" height=\"183\"\
+      /></a>\n\n<br/>\n</div>\n</td>\n<td>\n<div style=\"float:right\">\n<img src=\"\
+      /images/categories/intel-systems/intele5_chip.png\" title=\"Ibtel E5-2600 series\"\
+      \ alt=\"\" border=\"0\" width=\"99\" height=\"66\"/></div>\n<div class=\"small\"\
+      >\n<b>2U Xeon E5-2600 rackmount server </b><p>\nIntel\xAE Xeon E5-2600 series\
+      \ processor<br/>\nMax 128 GB DDR3 1600 ECC REG Memory<br/>\nUp to eight hotswap\
+      \ drives<br/>\nChoice of Operating System\n</p><p>\n<a href=\"/products/intel-systems/ESERVE/\"\
+      >eRacks/SERVE</a>\n\nstarting at $2777\n</p></div>\n</td>\n</tr>\n<tr><td bgcolor=\"\
+      #ccccff\" height=\"1\" colspan=\"2\"/></tr>\n\n<tr>\n<td width=\"300\" align=\"\
+      center\" valign=\"top\">\n<div class=\"big\">\n<b><a href=\"/products/intel-systems/NAS6X/\"\
+      >eRacks/NAS6X</a>\n</b><br/>\nIntel Xeon E7-4800 series<p>\n<a href=\"/products/intel-systems/NAS6X/\"\
+      ><img src=\"/images/categories/intel-systems/nas6x_2u.jpeg\" title=\"eRacks/NAS8X\"\
+      \ alt=\"\" border=\"0\" width=\"261\" height=\"222\"/></a>\n</p><p>\n</p></div>\n\
+      <div class=\"small\">\n<p>\nUp to 10-core &amp; 20-thread processing<br/>\n\
+      Up to 512GB total DDR3 memory<br/>\nUp to six 3.5\"<a href=\"http://en.wikipedia.org/wiki/Harddrive#Form_factors\"\
+      \ title=\"Form Factor\">FF</a> removable drives<br/>\n2U chassis, 1400W Redundant\
+      \ High-efficiency PS<br/>\n<a href=\"/products/intel-systems/NAS6X/\">eRacks/NAS6X\
+      \ </a>\n\n<b><a href=\"/products/intel-systems/NAS6X/\">$8165 and up</a>\n</b>\n\
+      </p></div>\n</td>\n\n<td align=\"center\" valign=\"top\">\n<div style=\"float:right\"\
+      >\n<a href=\"http://ark.intel.com/ProductCollection.aspx?familyId=59139\" target=\"\
+      new\">\n<img src=\"/images/categories/intel-systems/intele7.jpeg\" title=\"\"\
+      \ alt=\"\" border=\"0\" width=\"160\" height=\"120\"/></a></div>\n\n<div class=\"\
+      big\">\n<b><a href=\"/products/intel-systems/NAS16X/\">eRacks/NAS16X</a>\n</b><br/>\n\
+      Intel Xeon E7-8800 series<br/>\n<a href=\"/products/intel-systems/NAS16X/\"\
+      ><img src=\"/images/categories/intel-systems/nas16x_5u.jpeg\" title=\"eRacks/NAS16X\"\
+      \ alt=\"\" border=\"0\" width=\"287\" height=\"244\"/></a>\n\n</div>\n<div class=\"\
+      small\">\n\nUp to 10-core &amp; 20-thread processing<br/> \nUp to 1TB total\
+      \ DDR3 memory<br/>\nUp to 16 2.5\"<a href=\"http://en.wikipedia.org/wiki/Harddrive#Form_factors\"\
+      \ title=\"Form Factor\">FF</a> removable drives<br/>\n5U chassis, 1400W Redundant\
+      \ High-efficiency PS<br/>\n<a href=\"/products/intel-systems/NAS16X/\">eRacks/NAS16X\
+      \ </a>\n\n<b><a href=\"/products/intel-systems/NAS16X/\">$25360 and up</a>\n\
+      </b>\n</div>\n</td>\n</tr>\n\n<tr><td bgcolor=\"#ccccff\" height=\"1\" colspan=\"\
+      2\"/></tr>\n\n<tr>\n<td align=\"left\">\n<div class=\"big\">\n<b><a href=\"\
+      /products/intel-systems/PREMIUM/\">eRacks/PREMIUM</a>\n</b><br/>\n\_<a href=\"\
+      /products/intel-systems/PREMIUM/\"><img src=\"/images/categories/intel-systems/premium_400.jpeg\"\
+      \ title=\"eRacks/PREMIUM\" alt=\"\" border=\"0\" width=\"400\" height=\"219\"\
+      /></a>\n\n<br/>\n</div>\n</td>\n<td>\n<div style=\"float:right\">\n<img src=\"\
+      /images/categories/intel-systems/sandybridge.png\" title=\"\" alt=\"\" border=\"\
+      0\" width=\"129\" height=\"96\"/></div>\n<div class=\"small\">\n<b>A high-performance\
+      \ rackmount server </b><p>\nIntel\xAE i5/i7  processor<br/>\nMax 32 GB DDR2\
+      \ Memory<br/>\nUp to four hotswap drives<br/>\nChoice of Operating System\n\
+      </p><p>\n<a href=\"/products/intel-systems/PREMIUM/\">eRacks/PREMIUM</a>\n\n\
+      starting at $1395\n</p></div>\n</td>\n</tr>\n\n\n<tr><td bgcolor=\"#ccccff\"\
+      \ height=\"1\" colspan=\"2\"/></tr>\n\n<tr>\n<td><div class=\"big\">\n<b><a\
+      \ href=\"/products/intel-systems/PREMIUM2/\">eRacks/PREMIUM2</a>\n</b><br/>\n\
+      \_<a href=\"/products/intel-systems/PREMIUM2/\"><img src=\"/images/categories/intel-systems/premium2_front.jpeg\"\
+      \ title=\"eRacks/PREMIUM2\" alt=\"\" border=\"0\" width=\"300\" height=\"194\"\
+      /></a>\n<p>\n</p></div>\n</td><td><p>\n</p><div style=\"float:right\">\n<img\
+      \ src=\"/images/categories/intel-systems/sandybridge.png\" title=\"\" alt=\"\
+      \" border=\"0\" width=\"129\" height=\"96\"/></div>\n<div class=\"small\">\n\
+      <b>2U-height version of the eRacks/<a href=\"/products/intel-systems/PREMIUM/\"\
+      >PREMIUM</a>\n rackmount server</b>\n<p>\nIntel i3/i5/i7/Xeon E3 1155<br/>\n\
+      Up to 6 Hot-swap SATA3 Hard Drives<br/>\nDDR3 Memory up to 32GB <br/>\nIntegrated\
+      \ graphics, LAN<br/>\nChoice of Operating System</p><p>\n<a href=\"/products/intel-systems/PREMIUM2/\"\
+      >eRacks/PREMIUM2</a>\n\nstarting at $1695\n</p></div>\n</td>\n</tr>\n<tr><td\
+      \ bgcolor=\"#ccccff\" height=\"1\" colspan=\"2\"/></tr>\n\n<tr>\n<td><div class=\"\
+      big\">\n<b><a href=\"/products/intel-systems/SANDYCORE/\">eRacks/SANDYCORE</a>\n\
+      </b><br/>\n\_<a href=\"/products/intel-systems/SANDYCORE/\"><img src=\"/images/categories/intel-systems/sandycore_2u_face.jpeg\"\
+      \ title=\"eRacks/SANDYCORE\" alt=\"\" border=\"0\" width=\"454\" height=\"130\"\
+      /></a>\n<p>\n</p></div>\n</td><td><p>\n</p><div style=\"float:right\">\n<a href=\"\
+      http://www.intel.com/consumer/products/processors/corei5.htm\" target=\"new\"\
+      >\n<img src=\"/images/categories/intel-systems/sandybridge.png\" title=\"\"\
+      \ alt=\"\" border=\"0\" width=\"129\" height=\"96\"/></a></div>\n<div class=\"\
+      small\">\n<b>based on Intel's Sandy Bridge integrated CPU microarchitecture</b>\n\
+      <p>\nDual-or quad- Core CPU<br/>\nSATA3 Hard Drives<br/>\nDDR3 Memory <br/>\n\
+      Choice of Operating System</p><p>\n<a href=\"/products/intel-systems/SANDYCORE/\"\
+      >eRacks/SANDYCORE</a>\n\nstarting at $1495\n</p></div>\n</td>\n</tr>\n\n<tr><td\
+      \ bgcolor=\"#ccccff\" height=\"1\" colspan=\"2\"/></tr>\n\n\n\n\n<tr>\n<td align=\"\
+      left\" valign=\"top\">\n<div class=\"big\">\n<b><a href=\"/products/intel-systems/i7CORE/\"\
+      >eRacks/i7CORE</a>\n\n</b><br/>\n\_<a href=\"/products/intel-systems/i7CORE/\"\
+      ><img src=\"/images/categories/intel-systems/i7core_1u_2u.jpeg\" title=\"\"\
+      \ alt=\"\" border=\"0\" width=\"429\" height=\"256\"/></a>\n\n<p>\n</p></div>\n\
+      </td>\n<td align=\"left\">\n<div style=\"float:right\">\n<a href=\"http://www.intel.com/products/processor/corei7/index.htm\"\
+      \ target=\"new\">\n<img src=\"/images/categories/intel-systems/corei7_75.jpeg\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"75\" height=\"91\"/></a></div>\n\n\
+      <div class=\"small\">\n<b>Intel Core i7 Rackmount Server</b><p>\n</p></div>\n\
+      <div class=\"small\">\nIntel\xAE Core<font size=\"1\"><sup>TM</sup></font> i7\
+      \ processor<br/>\n1U or 2U-height chassis (both shown)<br/>\nMax 24 GB DDR3\
+      \ Memory<br/>\nUp to two hotswap drives (more with 2U chassis)<br/>\nChoice\
+      \ of Operating System, installed and configured.\n<p><a href=\"/products/intel-systems/i7CORE/\"\
+      >eRacks/i7CORE</a>\n \nstarting at $2195\n\n</p></div>\n</td>\n</tr>\n\n\n\n\
+      \n\n<tr><td bgcolor=\"#ccccff\" height=\"1\" colspan=\"2\"/></tr>\n<tr>\n<td\
+      \ align=\"left\" valign=\"top\">\n<div class=\"big\">\n<b><a href=\"/products/intel-systems/i7SHORT/\"\
+      >eRacks/i7SHORT</a>\n\n</b><br/>\n\_<a href=\"/products/intel-systems/i7SHORT/\"\
+      ><img src=\"/images/categories/intel-systems/i7short_3u_400.jpeg\" title=\"\
+      eRacks/i7SHORT\" alt=\"\" border=\"0\" width=\"400\" height=\"189\"/></a>\n\n\
+      <p>\n</p></div>\n</td>\n<td align=\"left\">\n<div style=\"float:right\">\n<a\
+      \ href=\"http://www.intel.com/products/processor/corei7/index.htm\" target=\"\
+      new\">\n<img src=\"/images/categories/intel-systems/corei7_75.jpeg\" title=\"\
+      \" alt=\"\" border=\"0\" width=\"75\" height=\"91\"/></a></div>\n\n<div class=\"\
+      small\">\n<b>Intel Core i7 Shallow Depth Rackmount Server</b><p>\n</p></div>\n\
+      <div class=\"small\">\nIntel\xAE Core<font size=\"1\"><sup>TM</sup></font> i7\
+      \ processor<br/>\n3U-height (17.5in D) or 2U-height (13.9in D) shallow-depth\
+      \ chassis<br/>\nMax 12 GB DDR3-1600 Memory<br/>\nUp to three hotswap drives\
+      \ (more with 2U chassis)<br/>\nChoice of Operating System, installed and configured.\n\
+      <p><a href=\"/products/intel-systems/i7SHORT/\">eRacks/i7SHORT</a>\n \nstarting\
+      \ at $1795\n\n</p></div>\n</td>\n</tr>\n\n\n\n\n<tr><td bgcolor=\"#ccccff\"\
+      \ height=\"1\" colspan=\"2\"/></tr>\n\n<tr><td align=\"left\" valign=\"top\"\
+      >\n<div class=\"big\">\n<b><a href=\"/products/intel-systems/ENTERPRISE/\">eRacks/ENTERPRISE</a>\n\
+      \n</b><p>\n<a href=\"/products/intel-systems/ENTERPRISE/\"><img src=\"/images/categories/intel-systems/enterprise_400.jpeg\"\
+      \ title=\"eRacks/ENTERPRISE\" alt=\"\" border=\"0\" width=\"400\" height=\"\
+      286\"/></a>\n\n<br/>\n</p></div>\n</td>\n\n<td align=\"left\"><p>\n</p><div\
+      \ style=\"float:right;\"><a href=\"http://newsroom.intel.com/docs/DOC-2677\"\
+      \ target=\"new\">\n<img src=\"/images/categories/intel-systems/intele5_chip.png\"\
+      \ title=\"Ibtel E5-2600 series\" alt=\"\" border=\"0\" width=\"99\" height=\"\
+      66\"/></a></div>\n<div class=\"small\">\n<b>Xeon E5-2600 processor rackmount\
+      \ server for intensive computational applications</b><p>\nIntel\xAE Xeon E5-2600\
+      \ Quad-/Six-/Eight-core processor<br/>\nMax 256 GB DDR3 Memory<br/>\nFour hotswap\
+      \ drives<br/>\nChoice of Operating System<br/>\n<a href=\"/products/intel-systems/ENTERPRISE/\"\
+      >eRacks/ENTERPRISE</a>\n\nstarting at $2125<br/>\n</p></div>\n</td>\n</tr>\n\
+      \n<tr><td bgcolor=\"#ccccff\" height=\"1\" colspan=\"2\"/></tr>\n\n\n<tr>\n\
+      <td align=\"left\" valign=\"top\">\n<div class=\"big\">\n<b><a href=\"/products/intel-systems/TWINSERVE/\"\
+      >eRacks/TWINSERVE</a>\n</b>\n<p>\n<a href=\"/products/intel-systems/TWINSERVE/\"\
+      ><img src=\"/images/categories/intel-systems/twinserve_face_400.jpeg\" title=\"\
+      eRacks/TWINSERVE\" alt=\"\" border=\"0\" width=\"400\" height=\"76\"/></a>\n\
+      \n</p></div>\n</td>\n<td>\n<div class=\"small\">\n<b>High Density: 1U Dual Node\
+      \ rackmount server!</b><p>\nTwin Dual Processor server nodes<br/>\nSupports\
+      \ Quad-core and Dual-Core Intel Xeon<br/>\nTwo SATA II hard drives<br/> \nUp\
+      \ to 32 DDR2 ECC FB-DIMM Memory<br/> \nTwo 1Gigabit Ethernet interfaces per\
+      \ motherboard<br/>\nShared high-efficiency power supply</p><p>\n<a href=\"/products/intel-systems/TWINSERVE/\"\
+      >eRacks/TWINSERVE</a>\n\nstarting at $2995</p><p>\n</p></div></td></tr>\n\n\
+      <tr><td bgcolor=\"#ccccff\" height=\"1\" colspan=\"2\"/></tr>\n\n<tr>\n<td align=\"\
+      left\" valign=\"top\">\n\n<div class=\"big\">\n<b><a href=\"/products/intel-systems/X4X4/\"\
+      >eRacks/X4X4</a>\n</b><p>\n<a href=\"/products/intel-systems/X4X4/\"><img src=\"\
+      /images/categories/intel-systems/x4x4_face_400.jpeg\" title=\"eRacks/X4X4\"\
+      \ alt=\"\" border=\"0\" width=\"400\" height=\"73\"/></a>\n\n</p></div>\n</td>\n\
+      <td>\n<div class=\"small\">\n<b>1U Quad-Core Quad-Processor Virtualization Server!</b>\n\
+      <p>\nFour Quad-core Intel Xeon 7300 processors<br/>\nHardware-virtualization\
+      \ qualified<br/>\nThree Removable hard drives<br/> \nDDR2 ECC FB-DIMM Memory<br/>\
+      \ \nRemote management through IPMI<br/>\nVirtualization Server software installed<br/>\n\
+      Open Source Application servers installed<br/>\nSoftware configuration available\
+      \ upon request</p><p>\n<a href=\"/products/intel-systems/X4X4/\">eRacks/X4X4</a>\n\
+      \nstarting at $9295\n</p></div>\n</td>\n</tr>\n\n<tr><td bgcolor=\"#ccccff\"\
+      \ height=\"1\" colspan=\"2\"/></tr>\n\n<tr>\n<td align=\"left\" valign=\"top\"\
+      >\n<div class=\"big\">\n<b><a href=\"/products/intel-systems/DESQ/\">eRacks/DESQ</a>\n\
+      </b>\n<a href=\"/products/intel-systems/DESQ/\"><img src=\"/images/categories/intel-systems/desq_front_250.jpeg\"\
+      \ title=\"eRacks/DESQ\" alt=\"\" border=\"0\" width=\"250\" height=\"248\"/></a>\n\
+      \n\n\n<br/></div>\n</td><td>\n<div style=\"float:right\">\n<a href=\"http://www.intel.com/products/processor/core2duo/index.htm\"\
+      \ target=\"new\">\n<img src=\"/images/categories/intel-systems/core2duo_75.jpeg\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"75\" height=\"93\"/></a></div>\n\
+      <div class=\"small\">\n<i>Our Most Customizable &amp; Expandable Desktop!</i><p>\n\
+      \nUp to 4 Hard Drives/SSDs, Max 8GB Memory<br/>\nIntel Core2 Duo/ Core 2 Quad\
+      \ CPU<br/>\nOnboard video, 10/100 LAN or optional cards<br/>\nDVD, Floppy Drive/\
+      \ Card reader<br/>\nConfigured with your choice of Operating System.</p><p>\n\
+      <a href=\"/products/intel-systems/DESQ/\">eRacks/DESQ</a>\n\nstarting at $395\n\
+      </p></div>\n\n</td>\n</tr>\n\n<tr><td bgcolor=\"#ccccff\" height=\"1\" colspan=\"\
+      2\"/></tr>\n\n<tr>\n<td align=\"left\" valign=\"top\"><p>\n</p><div class=\"\
+      big\">\n<b><a href=\"/products/intel-systems/SILENCE/\">eRacks/SILENCE</a>\n\
+      </b>\n<a href=\"/products/intel-systems/SILENCE/\"><img src=\"/images/categories/intel-systems/silence_160.jpeg\"\
+      \ title=\"eRacks/SILENCE\" alt=\"\" border=\"0\" width=\"160\" height=\"235\"\
+      /></a>\n\n\n</div>\n</td><td>\n<div style=\"float:right\">\n<a href=\"http://www.intel.com/products/processor/core2duo/index.htm\"\
+      \ target=\"new\">\n<img src=\"/images/categories/intel-systems/core2duo_75.jpeg\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"75\" height=\"93\"/></a></div>\n\
+      <div class=\"small\">\n<i>Aluminum tower, designed to eliminate machine noise</i><p>\n\
+      Sound-deadening foam &amp; rubber gaskets around door<br/>\nIntel\xAE Core 2\
+      \ Duo / Core 2 Quad CPU<br/>\nUp to 8GB DDR2 Memory <br/>\nDVD &amp; two internal\
+      \ HDs<br/>\n18.11in(H) x 8.27in(W) x 20.67in(D)<br/>\nExpandable: 4 x 5.25in\
+      \ bays, 3 x 3.5\" bays<br/>\nChoice of Operating System.</p><p>\n<a href=\"\
+      /products/intel-systems/SILENCE/\">eRacks/SILENCE</a>\n\nstarting at $1375\n\
+      </p></div>\n</td>\n</tr>\n\n<tr><td bgcolor=\"#ccccff\" height=\"1\" colspan=\"\
+      2\"/></tr>\n\n\n\n<tr>\n<td align=\"left\" valign=\"top\"><p>\n</p><div class=\"\
+      big\">\n<b><a href=\"/products/intel-systems/SANDYTOWER/\">eRacks/SANDYTOWER</a>\n\
+      </b>\n<a href=\"/products/intel-systems/SANDYTOWER/\"><img src=\"/images/categories/intel-systems/sandytower_chip.jpeg\"\
+      \ title=\"eRacks/SANDYTOWER\" alt=\"\" border=\"0\" width=\"274\" height=\"\
+      227\"/></a>\n\n\n</div>\n</td><td>\n\n<div class=\"small\">\n<font color=\"\
+      red\"><i>New model! </i></font><p>\n<i>Tower with optional rackmount kit (4U)</i></p><p>\n\
+      Dual Quad/Six/Eight -core Intel\xAE E5-2600 CPUs<br/>\nUp to 512GB DDR3 ECC\
+      \ Memory <br/>\nDVD &amp; eight hotswap-drive bays<br/>\nChoice of Operating\
+      \ System.</p><p>\n<a href=\"/products/intel-systems/SANDYTOWER/\">eRacks/SANDYTOWER</a>\n\
+      \nstarting at $2328\n</p></div>\n</td>\n</tr>\n\n</tbody></table></center>\n\
+      \n\n\n<div class=\"big\"><p>\neRacks specializes in custom configurations. Email\
+      \ <a href=\"mailto:info@eracks.com\">info@eracks.com</a> or call \nus for more\
+      \ information. eRacks also offers consulting and open source migration services.\n\
+      </p></div>\n</td></tr></tbody></table><!--end BELOW TITLE BAR OUTSIDE TABLE--><p/><p>\n\
+      \n</p></center>"
+    image: ''
+    images: []
+    name: Intel Systems
+    published: true
+    slug: intel-systems
+    sortorder: 50
+    title: Custom Linux BSD Intel-based Rackmount Servers
+    updated: 2012-11-04 19:42:58.395762
+  model: products.categories
+  pk: 14821
+- fields:
+    blurb: Sans Digital products
+    comments: '
+
+
+      Scraped from Zope as of 2012-03-31
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-10-14
+
+
+      Scraped from Zope as of 2012-11-04'
+    created: 2006-01-24 20:00:16.028142
+    description: "\n<!-- now content page goes in this cell--> \n\n\n<div class=\"\
+      xbig\">\neRacks External Storage-DAS</div>\n\t\t\t<p>\n</p><div style=\"float:left;\
+      \ margin: 0px 10px 10px 10px;\"><img src=\"/images/categories/external-storage-das/sansdigital_logo.jpeg\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"129\" height=\"75\"/></div>\n\n<div\
+      \ class=\"big\">\nThese Sans Digital units are External Cross-Platform Data\
+      \ Storage - DAS (direct-attached storage), perfect for home or small office.\
+      \ \nAlso included is a NAS (network-attached-storage) non-rackmount system eRacks/MN4L.\n\
+      <p>eRacks technical staff can answer your data storage and backup system questions.\
+      \ \n(Wikipedia has a great <a href=\"http://en.wikipedia.org/wiki/RAID\">refresher\
+      \ on RAID levels</a>.) </p></div>\n<div style=\"clear:both;\" class=\"big\"\
+      > \n\n<table cellpadding=\"2\" width=\"90%\" border=\"0\" cellspacing=\"2\"\
+      >\n\n<tbody><tr>\n<td width=\"250\" align=\"right\" valign=\"center\">\n<a href=\"\
+      /products/external-storage-das/MS1CT/\"><img src=\"/images/categories/external-storage-das/ms1ct_1_250.jpeg\"\
+      \ title=\"eRacks/MS1CT\" alt=\"\" border=\"0\" width=\"250\" height=\"250\"\
+      /></a>\n\n</td>\n\n<td align=\"left\">\n<div class=\"big\">\n<b><a href=\"/products/external-storage-das/MS1CT/\"\
+      >eRacks/MS1CT</a>\n</b><br/>\n</div>\n<div class=\"small\">\n<i>Maximum Capacity:\
+      \ 3TB</i>\n<p>\n\nSingle hot-swap external drive<br/>\nUSB or Firewire<br/>\n\
+      Vertical or Horizontal<br/>\nDimensions: 1.58\"W x 7.88\"D x 4.73\"H </p><p>\n\
+      <a href=\"/products/external-storage-das/MS1CT/\">eRacks/MS1CT </a>\n \n<b><a\
+      \ href=\"/products/external-storage-das/MS1CT/\">$179</a>\n</b><br/><i>and up,\
+      \ depending on capacity</i>\n</p></div>\n</td>\n\n<td width=\"50\">\_</td>\n\
+      \n<td align=\"right\" valign=\"center\">\n\_<a href=\"/products/external-storage-das/MS2UT/\"\
+      ><img src=\"/images/categories/external-storage-das/ms2ut_1_250.jpeg\" title=\"\
+      eRacks/MS2UT\" alt=\"\" border=\"0\" width=\"250\" height=\"245\"/></a>\n\n\
+      </td>\n\n<td align=\"left\">\n<div class=\"big\">\n<b><a href=\"/products/external-storage-das/MS2UT/\"\
+      >eRacks/MS2UT</a>\n</b><br/>\n</div>\n<div class=\"small\">\n<i>Maximum Capacity:\
+      \ 6TB</i>\n<p>\n\nTwo hot-swap hard drives<br/>\nUSB or Firewire<br/>\nRAID\
+      \ Alarm, Fan / Temperature, Power LEDs<br/>\n</p><p>\n<a href=\"/products/external-storage-das/MS2UT/\"\
+      >eRacks/MS2UT</a>\n\n<b><a href=\"/products/external-storage-das/MS2UT/\">$315</a>\n\
+      </b><br/><i>and up, depending on capacity</i>\n</p></div>\n</td>\n</tr>\n\n\
+      <tr><td colspan=\"4\" height=\"30\">\_</td></tr>\n\n\n<tr>\n<td width=\"250\"\
+      \ align=\"right\" valign=\"center\">\n<a href=\"/products/external-storage-das/TR4X/\"\
+      ><img src=\"/images/categories/external-storage-das/tr4x_1_250.jpeg\" title=\"\
+      eRacks/TR4X\" alt=\"\" border=\"0\" width=\"250\" height=\"250\"/></a>\n\n</td>\n\
+      \n<td align=\"left\">\n<div class=\"big\">\n<b><a href=\"/products/external-storage-das/TR4X/\"\
+      >eRacks/TR4X</a>\n</b><br/>\n</div>\n<div class=\"small\">\n<i>Maximum Capacity:\
+      \ 12TB</i>\n<p>\nFour hot-swap drives<br/>\nUSB or Firewire<br/>\n\nDimensions:\
+      \ 5.3\"W x 7.1\"H x 10.0\"D  </p><p>\n<a href=\"/products/external-storage-das/TR4X/\"\
+      >eRacks/TR4X </a>\n \n<b><a href=\"/products/external-storage-das/TR4X/\">$590</a>\n\
+      </b><br/><i>and up, depending on capacity</i>\n</p></div>\n</td>\n\n<td width=\"\
+      50\">\_</td>\n\n<td align=\"right\" valign=\"center\">\n\_<a href=\"/products/external-storage-das/MN4Lplus/\"\
+      ><img src=\"/images/categories/external-storage-das/mn4l_1_250.jpeg\" title=\"\
+      eRacks/MN4L\" alt=\"\" border=\"0\" width=\"250\" height=\"231\"/></a>\n\n</td>\n\
+      \n<td align=\"left\">\n<div class=\"big\">\n<b><a href=\"/products/external-storage-das/MN4Lplus/\"\
+      >eRacks/MN4Lplus</a>\n</b><br/>\n</div>\n<div class=\"small\">\n<i>Maximum Capacity:\
+      \ 12TB</i>\n<p>\n\nLinux <b>NAS Server</b> (full system)<br/>\nFour removable\
+      \ hard drives<br/>\nPerfect home media server<br/>\nDDR2 Memory, 10/100/1000\
+      \ Gigabit Network<br/>\n\n</p><p>\n<a href=\"/products/external-storage-das/MN4Lplus/\"\
+      >eRacks/MN4Lplus</a>\n\n<b><a href=\"/products/external-storage-das/MN4Lplus/\"\
+      >$1034</a>\n</b><br/><i>and up, depending on capacity</i>\n</p></div>\n</td>\n\
+      </tr>\n\n\n<tr><td colspan=\"4\" height=\"30\">\_</td></tr>\n\n\n<tr>\n<td width=\"\
+      250\" align=\"right\" valign=\"center\">\n<a href=\"/products/external-storage-das/TR5M/\"\
+      ><img src=\"/images/categories/external-storage-das/tr5m_1_250.jpeg\" title=\"\
+      eRacks/TR5M\" alt=\"\" border=\"0\" width=\"250\" height=\"297\"/></a>\n\n</td>\n\
+      \n<td align=\"left\">\n<div class=\"big\">\n<b><a href=\"/products/external-storage-das/TR5M/\"\
+      >eRacks/TR5M</a>\n</b><br/>\n</div>\n<div class=\"small\">\n<i>Maximum Capacity:\
+      \ 15TB</i>\n<p>\nHigh Capacity DAS<br/>\nFive hot-swap hard drives<br/>\nUSB\
+      \ or Firewire<br/>\nRAID 0, 1, 1+0, 5, 5+spare, spanning and JBOD<br/>\nDimensions:\
+      \ 6.0\"W x 8.25\"H x 11.0\"D </p><p>\n<a href=\"/products/external-storage-das/TR5M/\"\
+      >eRacks/TR5M </a>\n \n<b><a href=\"/products/external-storage-das/TR5M/\">$785</a>\n\
+      </b><br/><i>and up, depending on capacity</i>\n</p></div>\n</td>\n\n<td width=\"\
+      50\">\_</td>\n\n<td align=\"right\" valign=\"center\">\n\_<a href=\"/products/external-storage-das/TR8X/\"\
+      ><img src=\"/images/categories/external-storage-das/tr8x_1_250.jpeg\" title=\"\
+      eRacks/TR8X\" alt=\"\" border=\"0\" width=\"250\" height=\"250\"/></a>\n\n</td>\n\
+      \n<td align=\"left\">\n<div class=\"big\">\n<b><a href=\"/products/external-storage-das/TR8X/\"\
+      >eRacks/TR8X</a>\n</b><br/>\n</div>\n<div class=\"small\">\n<i>Maximum Capacity:\
+      \ 24TB</i>\n<p>\n\nHigh Capacity DAS<br/>\nEight hot-swap hard drives<br/>\n\
+      USB or Firewire<br/>\nRAID 0, 1, 1+0, 5, 5+spare, spanning and JBOD<br/>\nDimensions:\
+      \ 5.9\"W x 13.4\"H x 13.4\"D <br/>\n<br/>\n\n</p><p>\n<a href=\"/products/external-storage-das/TR8X/\"\
+      >eRacks/TR8X</a>\n\n<b><a href=\"/products/external-storage-das/TR8X/\">$830</a>\n\
+      </b><br/><i>and up, depending on capacity</i>\n</p></div>\n</td>\n</tr>\n\n\n\
+      </tbody></table>\n\n\n<div class=\"big\">\n</div>\n\n\n\n\n<p>\n</p><div class=\"\
+      small\">\neRacks offers custom configurations. Email <a href=\"mailto:info@eracks.com\"\
+      >info@eracks.com</a> or call \nus for more information. \neRacks also offers\
+      \ consulting services and open source migration services.\n</div>\n\n\n\n</div>"
+    image: ''
+    images: []
+    name: External Storage - DAS
+    published: true
+    slug: external-storage-das
+    sortorder: 60
+    title: External Storage - DAS - Backup your data!
+    updated: 2012-11-04 19:42:58.799391
+  model: products.categories
+  pk: 42556
+- fields:
+    blurb: ''
+    comments: '
+
+
+      Scraped from Zope as of 2012-03-31
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-10-14
+
+
+      Scraped from Zope as of 2012-11-04'
+    created: 2001-02-09 11:44:15
+    description: "\n<!-- now content page goes in this cell--> \n\n<div class=\"xbig\"\
+      >eRacks Network Servers: </div>\n\n\n<table cellpadding=\"2\" width=\"90%\"\
+      \ border=\"0\" cellspacing=\"2\">\n<tbody><tr><td align=\"center\" valign=\"\
+      top\">\n\n<br/>\n<div class=\"big\">\n<a href=\"/products/network-servers/ZIMBRA/\"\
+      ><img src=\"/images/categories/network-servers/zimbra_front_logo.jpeg\" title=\"\
+      eRacks/ZIMBRA\" alt=\"\" border=\"0\" width=\"400\" height=\"191\"/></a>\n<br/>\n\
+      </div>\n</td>\n<td align=\"left\">\n<div class=\"big\">\n<a href=\"/products/network-servers/ZIMBRA/\"\
+      >eRacks/ZIMBRA</a>\n \n</div>\n<div class=\"small\">\n<i>Intel Core 2 Duo eMail\
+      \ Server with 4 hotswap\nSATA II drives, using the \n<a href=\"http://www.zimbra.com\"\
+      \ target=\"new\">Zimbra Collaboration Suite</a>. </i><p>\n</p><div style=\"\
+      float:right\">\n<a href=\"http://www.zimbra.org\" target=\"new\">\n<img src=\"\
+      /images/categories/network-servers/zimbralogosmall.jpeg\" title=\"Zimbra\" alt=\"\
+      \" border=\"0\" width=\"80\" height=\"25\"/></a>\n</div>\n\xB7Shared Calendar<br/>\n\
+      \xB7Web document authoring and sharing<br/> \n\xB7\"Over the air\" sync to mobile\
+      \ devices<br/>\n\xB7VoIP integration<br/>\n\xB7Linux, Apple, and even Microsoft\
+      \ Outlook compatibility<br/>\n<a href=\"/products/network-servers/ZIMBRA/\"\
+      >starting at $1795</a>\n\n\n</div></td></tr>\n\n<tr><td colspan=\"2\"><hr color=\"\
+      grey\" width=\"75%\"/></td></tr>\n\n<tr><td align=\"center\" valign=\"top\"\
+      >\n<div class=\"big\">\n<a href=\"/products/network-servers/SNORT/\"><img src=\"\
+      /images/categories/network-servers/snort_open_250.jpeg\" title=\"eRacks/SNORT\"\
+      \ alt=\"\" border=\"0\" width=\"250\" height=\"133\"/></a>\n<p>\n<a href=\"\
+      /products/network-servers/SNORT/\">eRacks/SNORT</a>\n</p><p>\n</p></div>\n</td>\n\
+      <td align=\"left\">\n<div class=\"big\">\n<a href=\"/products/network-servers/SNORT/\"\
+      >eRacks/SNORT</a>\n<p>\n</p></div>\n<div class=\"small\"><i>\nA 1U Dual-Core\
+      \ system running SNORT Intrusion Detection System.</i><p>\n</p><div style=\"\
+      float:right\">\n<a href=\"http://www.snort.org\" target=\"new\">\n<img src=\"\
+      /images/categories/network-servers/snort_org.jpeg\" title=\"SNORT IDS\" alt=\"\
+      \" border=\"0\" width=\"150\" height=\"70\"/></a>\n</div>\n\xB7Snort, MySQL,<br/>\n\
+      \xB7SWATCH logwatcher<br/>\n\xB7SPADE statistical analyzer, &amp;<br/>\n\xB7\
+      SnortSnarf HTML report software.<br/> \n\xB732bit or 64bit gigabit Ethernet<br/>\
+      \ \n<a href=\"/products/network-servers/SNORT/\">starting at $1565</a>\n\n</div>\n\
+      </td></tr>\n\n<tr><td colspan=\"2\"><hr color=\"grey\" width=\"75%\"/></td></tr>\n\
+      \n<tr>\n<td align=\"center\" valign=\"top\">\n<div class=\"big\">\n<a href=\"\
+      /products/network-servers/DNS/\"><img src=\"/images/categories/network-servers/dns_face.jpeg\"\
+      \ title=\"eRacks/DNS\" alt=\"\" border=\"0\" width=\"305\" height=\"99\"/></a>\n\
+      <p>\n<a href=\"/products/network-servers/DNS/\">eRacks/DNS</a>\n\n</p></div>\n\
+      </td>\n<td bgcolor=\"#ffffff\" align=\"left\" valign=\"center\">\n<div class=\"\
+      big\">\n<a href=\"/products/network-servers/DNS/\">eRacks/DNS</a>\n<p>\n</p></div>\n\
+      <div class=\"small\">\n<i>A 1U OpenBSD system running TinyDNS.</i><p>\n\n\xB7\
+      TinyDNS Supports load balancing, and client differentiation.<br/>\n<a href=\"\
+      /products/network-servers/DNS/\">starting at $745</a>\n\n</p></div>\n</td></tr>\n\
+      \n<tr><td colspan=\"2\"><hr color=\"grey\" width=\"75%\"/></td></tr>\n\n<tr><td\
+      \ align=\"center\" valign=\"top\">\n<div class=\"big\">\n<a href=\"/products/network-servers/MAIL/\"\
+      ><img src=\"/images/categories/network-servers/mail_face.jpeg\" title=\"eRacks/MAIL\"\
+      \ alt=\"\" border=\"0\" width=\"305\" height=\"99\"/></a>\n<p>\n<a href=\"/products/network-servers/MAIL/\"\
+      >eRacks/MAIL</a>\n\n</p></div>\n</td>\n<td bgcolor=\"#ffffff\" align=\"left\"\
+      \ valign=\"top\">\n<div class=\"big\">\n<a href=\"/products/network-servers/MAIL/\"\
+      >eRacks/MAIL</a>\n<p>\n</p></div>\n<div style=\"float:right\">\n<a href=\"http://www.squirrelmail.org\"\
+      \ target=\"new\">\n<img src=\"/images/categories/network-servers/postfix.gif\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"130\" height=\"91\"/></a>\n</div>\n\
+      <div class=\"small\">\n\xB7 OpenBSD based<br/>\n\xB7 Postfix MTA<br/>\n\xB7\
+      \ Spam/virus filtering <br/>\n\xB7 IMAP and IMAP-SSL <br/>\n\xB7 Webmail via\
+      \ Apache / Squirrelmail / PHP<br/>\n\n<a href=\"/products/network-servers/MAIL/\"\
+      >starting at $795</a>\n\n</div>\n</td>\n</tr>\n</tbody></table>\n\n\n<p/><div\
+      \ class=\"small\">\nSpecial configuration requests are possible! See eRacks'\
+      \ \n<a href=\"eRacks/products/Custom%20Design?session=31003113439216163\">Custom\
+      \ Design</a>\n Server page, \nor simply <a href=\"mailto:info@eracks.com\">email\
+      \ us</a> to discuss your needs.\n</div>\n\n"
+    image: ''
+    images: []
+    name: Network Servers
+    published: true
+    slug: network-servers
+    sortorder: 70
+    title: SNORT Intrusion Detection, DNS, eMail Network Servers
+    updated: 2012-11-04 19:42:59.635413
+  model: products.categories
+  pk: 1227
+- fields:
+    blurb: ''
+    comments: '
+
+
+      Scraped from Zope as of 2012-03-31
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-10-14
+
+
+      Scraped from Zope as of 2012-11-04'
+    created: 0001-01-01 00:00:00
+    description: "\n<!-- now content page goes in this cell--> \n\n\n<div class=\"\
+      xbig\">\neRacks NAS: Network Attached Storage Rackmount Servers\n</div>\n\t\t\
+      \t\n\n\n<div style=\"float:right;\"><center>\n\n<a href=\"/products/storage-servers-nas/NAS50/\"\
+      ><img src=\"/images/categories/storage-servers-nas/wd3tb_200.jpeg\" title=\"\
+      WD 3.5inFF Hard Drive\" alt=\"\" border=\"0\" width=\"200\" height=\"174\"/></a>\n\
+      \n\_\n<br/><div class=\"small\"><b>FOUR TERABYTE</b> drives now\n<br/>available\
+      \ on all 3.5\"<a href=\"http://en.wikipedia.org/wiki/Harddrive#Form_factors\"\
+      \ title=\"Form Factor\">FF</a>-based servers!\n</div></center>\n</div>\n\n\n\
+      <p>\n\n</p><div class=\"big\">\nReliable, Scalable, Cross-Platform Data and\
+      \ Cloud Storage. \n<p/></div>\n\n<div class=\"big\"> \neRacks NAS rackmount\
+      \ servers are configured with your choice of operating system, and can be provisioned\
+      \ with all\nother available software including ZFS, NFS, GlusterFS, MooseFS,\
+      \ GFS, Samba, RAID, rsync and others for a complete \ncross-platform support\
+      \ file storage solution.  \n<p>\nA battery backup option is also available for\
+      \ the 3ware RAID cards.\n</p><p>\neRacks also offers system architecture and\
+      \ design services, \nincluding <a href=\"/services\">network design and private\
+      \ cloud architectures.</a> \nPlease call or <a href=\"mailto:info@eracks.com\"\
+      >email</a> for provisioning \nquestions and custom configurations.\n</p>\n</div>\n\
+      \n\n\n\n<table cellpadding=\"2\" width=\"80%\" border=\"0\" cellspacing=\"2\"\
+      >\n\n<tbody><tr>\n<td width=\"300\" align=\"center\" valign=\"top\">\n<div class=\"\
+      big\">\n<b><a href=\"/products/storage-servers-nas/NAS6X/\">eRacks/NAS6X</a>\n\
+      </b><br/>\nIntel Xeon E7-4800 series<br/>\n<a href=\"/products/storage-servers-nas/NAS6X/\"\
+      ><img src=\"/images/categories/storage-servers-nas/nas6x_2u.jpeg\" title=\"\
+      eRacks/NAS8X\" alt=\"\" border=\"0\" width=\"261\" height=\"222\"/></a>\n\n\
+      </div>\n<div class=\"small\">\n\nUp to 10-core &amp; 20-thread processing<br/>\n\
+      Up to 512GB total DDR3 memory<br/>\nUp to six 3.5\"<a href=\"http://en.wikipedia.org/wiki/Harddrive#Form_factors\"\
+      \ title=\"Form Factor\">FF</a> removable drives<br/>\n2U chassis, 1400W Redundant\
+      \ High-efficiency PS<br/>\n<a href=\"/products/storage-servers-nas/NAS6X/\"\
+      >eRacks/NAS6X </a>\n\n<b><a href=\"/products/storage-servers-nas/NAS6X/\">$8165\
+      \ and up</a>\n</b>\n</div>\n</td>\n\n<td align=\"center\" valign=\"top\">\n\
+      <div class=\"big\">\n<b><a href=\"/products/storage-servers-nas/NAS16X/\">eRacks/NAS16X</a>\n\
+      </b><br/>\nIntel Xeon E7-8800 series<br/>\n<a href=\"/products/storage-servers-nas/NAS16X/\"\
+      ><img src=\"/images/categories/storage-servers-nas/nas16x_5u.jpeg\" title=\"\
+      eRacks/NAS16X\" alt=\"\" border=\"0\" width=\"287\" height=\"244\"/></a>\n\n\
+      </div>\n<div class=\"small\">\n\nUp to 10-core &amp; 20-thread processing<br/>\
+      \ \nUp to 1TB total DDR3 memory<br/>\nUp to 16 2.5\"<a href=\"http://en.wikipedia.org/wiki/Harddrive#Form_factors\"\
+      \ title=\"Form Factor\">FF</a> removable drives<br/>\n5U chassis, 1400W Redundant\
+      \ High-efficiency PS<br/>\n<a href=\"/products/storage-servers-nas/NAS16X/\"\
+      >eRacks/NAS16X </a>\n\n<b><a href=\"/products/storage-servers-nas/NAS16X/\"\
+      >$25360 and up</a>\n</b>\n</div>\n</td>\n</tr>\n\n<tr><td colspan=\"2\" height=\"\
+      30\">\_</td></tr>\n\n\n\n<tr>\n<td width=\"300\" align=\"right\" valign=\"center\"\
+      >\n<div class=\"big\">\n<b><a href=\"/products/storage-servers-nas/NAS3/\">eRacks/NAS3</a>\n\
+      </b><br/>\n<a href=\"/products/storage-servers-nas/NAS3/\"><img src=\"/images/categories/storage-servers-nas/nas3_front_300.jpeg\"\
+      \ title=\"eRacks/NAS3\" alt=\"\" border=\"0\" width=\"300\" height=\"33\"/></a>\n\
+      \n</div>\n</td>\n\n<td align=\"left\">\n<div class=\"small\">\n1U rackmount\
+      \ chassis<br/>\n\nUp to 3 SATA II / SATA3 / SAS / SAS2 drives<br/>\nIntel i3\
+      \ / i5 / i7 CPU<br/>\nSlim Optical disk drive<br/>\n<a href=\"/products/storage-servers-nas/NAS3/\"\
+      >eRacks/NAS3 </a>\n\n<b><a href=\"/products/storage-servers-nas/NAS3/\">$1695\
+      \ and up</a>\n</b>\n</div>\n</td>\n</tr>\n\n<tr><td colspan=\"2\" height=\"\
+      30\">\_</td></tr>\n\n<tr>\n<td align=\"right\" valign=\"center\">\n<div class=\"\
+      big\">\n<b><a href=\"/products/storage-servers-nas/NAS4/\">eRacks/NAS4</a>\n\
+      </b><br/>\n\_<a href=\"/products/storage-servers-nas/NAS4/\"><img src=\"/images/categories/storage-servers-nas/nas4_front_300.jpeg\"\
+      \ title=\"eRacks/NAS4\" alt=\"\" border=\"0\" width=\"300\" height=\"34\"/></a>\n\
+      \n</div>\n</td>\n\n<td align=\"left\"><div class=\"small\">\n1U rackmount chassis<br/>\n\
+      \nUp to 4 SATA II / SATA3 / SAS / SAS2 drives<br/>\nIntel i3 / i5 / i7 CPU<br/>\n\
+      Slim Optical Disk Drive<br/>\n<a href=\"/products/storage-servers-nas/NAS4/\"\
+      >eRacks/NAS4 </a>\n\n<b><a href=\"/products/storage-servers-nas/NAS4/\">$2295\
+      \ and up</a>\n</b>\n</div>\n</td>\n</tr>\n\n<tr><td colspan=\"2\" height=\"\
+      30\">\_</td></tr>\n\n<tr>\n<td align=\"right\" valign=\"top\">\n<div class=\"\
+      big\">\n<b><a href=\"/products/storage-servers-nas/NAS6/\">eRacks/NAS6</a>\n\
+      </b><br/>\n\_<a href=\"/products/storage-servers-nas/NAS6/\"><img src=\"/images/categories/storage-servers-nas/nas6_front_300.jpeg\"\
+      \ title=\"eRacks/NAS6\" alt=\"\" border=\"0\" width=\"300\" height=\"94\"/></a>\n\
+      \n</div>\n</td>\n\n<td width=\"200\" align=\"left\"><div class=\"small\">\n\
+      2U-height chassis<br/>\nUp to 6 SATA II / SATA3 / SAS / SAS2 drives<br/>\nIntel\
+      \ i3 / i5 / i7 CPU<br/>\n\n<a href=\"/products/storage-servers-nas/NAS6/\">eRacks/NAS6\
+      \ </a>\n\n<b><a href=\"/products/storage-servers-nas/NAS6/\">$2395 and up</a>\n\
+      </b>\n</div>\n</td>\n</tr>\n\n<tr><td colspan=\"2\" height=\"30\">\_</td></tr>\n\
+      \n<tr>\n<td align=\"right\" valign=\"top\">\n<div class=\"big\">\n<b><a href=\"\
+      /products/storage-servers-nas/NAS8/\">eRacks/NAS8</a>\n</b><br/>\n\_<a href=\"\
+      /products/storage-servers-nas/NAS8/\"><img src=\"/images/categories/storage-servers-nas/nas8_open_2u.jpeg\"\
+      \ title=\"eRacks/NAS8\" alt=\"\" border=\"0\" width=\"300\" height=\"190\"/></a>\n\
+      \n</div>\n</td>\n\n<td width=\"200\" align=\"left\"><div class=\"small\">\n\
+      2U-height chassis (3U option)<br/>\nUp to 8 Hot-swap SATA / SAS drives<br/>\n\
+      Either Opteron 8-core/12-core/16-core series 6200<br/> \nor Xeon quad-core/hexa-core\
+      \ series 5000 CPUs<br/>\n\n<a href=\"/products/storage-servers-nas/NAS8/\">eRacks/NAS8\
+      \ </a>\n\n<b><a href=\"/products/storage-servers-nas/NAS8/\">$3695 and up</a>\n\
+      </b>\n</div>\n</td>\n</tr>\n\n<tr><td colspan=\"2\" height=\"30\">\_</td></tr>\n\
+      \n<tr>\n<td align=\"right\" valign=\"top\">\n<div class=\"big\">\n<b><a href=\"\
+      /products/storage-servers-nas/NAS12/\">eRacks/NAS12</a>\n</b><br/>\n\_<a href=\"\
+      /products/storage-servers-nas/NAS12/\"><img src=\"/images/categories/storage-servers-nas/nas12_300.jpeg\"\
+      \ title=\"eRacks/NAS12\" alt=\"\" border=\"0\" width=\"300\" height=\"207\"\
+      /></a>\n</div>\n</td>\n<td align=\"left\"><div class=\"small\">\n2U-height chassis<br/>\n\
+      Up to 12 Hot-swap SATA / SAS drives<br/>\nDDR3-1333 MHz ECC/REG memory<br/>\n\
+      Either Opteron 8-core/12-core/16-core series 6200<br/> \nor Xeon quad-core/hexa-core\
+      \ series 5000 CPUs<br/>\n\n<a href=\"/products/storage-servers-nas/NAS12/\"\
+      >eRacks/NAS12 </a>\n\n<b><a href=\"/products/storage-servers-nas/NAS12/\">$4955\
+      \ and up</a>\n</b>\n</div>\n</td>\n</tr>\n\n<tr><td colspan=\"2\" height=\"\
+      30\">\_</td></tr>\n\n<tr>\n<td align=\"right\" valign=\"top\">\n<div class=\"\
+      big\">\n<b><a href=\"/products/storage-servers-nas/NAS16/\">eRacks/NAS16</a>\n\
+      </b><br/>\n\_<a href=\"/products/storage-servers-nas/NAS16/\"><img src=\"/images/categories/storage-servers-nas/nas16_300.jpeg\"\
+      \ title=\"eRacks/NAS16\" alt=\"\" border=\"0\" width=\"300\" height=\"255\"\
+      /></a>\n</div>\n</td>\n<td align=\"left\"><div class=\"small\">\n3U-height chassis<br/>\n\
+      Up to 16 Hot-swap SATA / SAS  drives<br/>\nDDR3 1333MHz Memory<br/>\nEither\
+      \ Opteron 8-core/12-core/16-core series 6200<br/> \nor Xeon quad-core/hexa-core\
+      \ series 5000 CPUs<br/>\n\n\n<a href=\"/products/storage-servers-nas/NAS16/\"\
+      >eRacks/NAS16 </a>\n\n<b><a href=\"/products/storage-servers-nas/NAS16/\">$5295\
+      \ and up</a>\n</b>\n</div>\n</td>\n</tr>\n\n<tr><td colspan=\"2\" height=\"\
+      30\">\_</td></tr>\n\n<tr>\n<td align=\"right\" valign=\"top\">\n<div class=\"\
+      big\">\n<b><a href=\"/products/storage-servers-nas/NAS24/\">eRacks/NAS24</a>\n\
+      </b><br/>\n<a href=\"/products/storage-servers-nas/NAS24/\"><img src=\"/images/categories/storage-servers-nas/nas24_300.jpeg\"\
+      \ title=\"eRacks/NAS24\" alt=\"\" border=\"0\" width=\"300\" height=\"278\"\
+      /></a>\n</div>\n</td>\n<td align=\"left\"><div class=\"small\">\n4U-height,\
+      \ 1200W redundant PS<br/>\n\nUp to 24 SATA / SAS Drives<br/>\nEither Opteron\
+      \ 8/12/16-core series 6200<br/> \nor Xeon quad-core/hexa-core series 5000 CPUs<br/>\n\
+      <a href=\"/products/storage-servers-nas/NAS24/\">eRacks/NAS24 </a>\n\n<b><a\
+      \ href=\"/products/storage-servers-nas/NAS24/\">$6995 and up</a>\n</b>\n</div>\n\
+      </td>\n</tr>\n\n<tr><td colspan=\"2\" height=\"30\">\_</td></tr>\n\n\n\n<tr>\n\
+      <td align=\"right\" valign=\"top\">\n<div class=\"big\">\n<b><a href=\"/products/storage-servers-nas/NAS24-32/\"\
+      >eRacks/NAS24-32</a>\n</b><br/>\n\_<a href=\"/products/storage-servers-nas/NAS24-32/\"\
+      ><img src=\"/images/categories/storage-servers-nas/nas24_32_front.jpeg\" title=\"\
+      eRacks/NAS24-32\" alt=\"\" border=\"0\" width=\"287\" height=\"135\"/></a>\n\
+      \n</div>\n</td>\n<td align=\"left\"><div class=\"small\">\n4U chassis, 6Gb/s,\
+      \ capacity of 32 x 4TB = 128 TB<br/>\nIntel Xeon 5500 Series CPU<br/>\n24 SAS2\
+      \ hotswap drives in front + 8 more in back = total of 32 Drives<br/>\n<a href=\"\
+      /products/storage-servers-nas/NAS24-32/\">eRacks/NAS24-32</a>\n\n<b><a href=\"\
+      /products/storage-servers-nas/NAS24-32/\">$7430 and up</a>\n</b>\n\n</div>\n\
+      </td></tr>\n\n<tr><td colspan=\"2\" height=\"30\">\_</td></tr>\n\n<tr>\n<td\
+      \ align=\"right\" valign=\"top\">\n<div class=\"big\">\n<b><a href=\"/products/storage-servers-nas/NAS50/\"\
+      >eRacks/NAS50</a>\n</b><br/>\n<a href=\"/products/storage-servers-nas/NAS50/\"\
+      ><img src=\"/images/categories/storage-servers-nas/nas50_front_300.jpeg\" title=\"\
+      eRacks/NAS50\" alt=\"\" border=\"0\" width=\"300\" height=\"276\"/></a>\n</div>\n\
+      </td>\n<td align=\"left\"><div class=\"small\">\n9U-height, 1350W redundant\
+      \ PS<br/>\nEither Opteron 8-core/12-core/16-core series 6200<br/> \nor Xeon\
+      \ quad-core/hexa-core series 5000 CPUs<br/>\nUp to 50 SATA / SAS Drives<br/>\n\
+      capacity of 50 x 4TB = 200 TB<br/>\nUbuntu Linux Advantage Essential Server<p>\n\
+      <a href=\"/products/storage-servers-nas/NAS50/\">eRacks/NAS50</a>\n\n<b><a href=\"\
+      /products/storage-servers-nas/NAS50/\">$10395 and up</a>\n</b></p><p>\n</p><div\
+      \ style=\"margin-left:50px;\"><img src=\"/images/categories/storage-servers-nas/ubuntu_70.jpeg\"\
+      \ title=\"Do you Ubuntu?\" alt=\"\" border=\"0\" width=\"70\" height=\"70\"\
+      /></div>\n</div>\n</td>\n</tr>\n\n\n\n</tbody></table>\n\n"
+    image: ''
+    images: []
+    name: Storage Servers - NAS
+    published: true
+    slug: storage-servers-nas
+    sortorder: 70
+    title: NAS Rackmount Servers
+    updated: 2012-11-04 19:42:59.271798
+  model: products.categories
+  pk: 9529
+- fields:
+    blurb: Single and Multiport Firewall Servers
+    comments: '
+
+
+      Scraped from Zope as of 2012-03-31
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-10-14
+
+
+      Scraped from Zope as of 2012-11-04'
+    created: 2001-01-08 00:00:00
+    description: "\n<!-- now content page goes in this cell--> \n\n<div class=\"xbig\"\
+      >eRacks Firewall Servers: \n <p>\n </p><div style=\"float:right\">\n <a href=\"\
+      http://www.openbsd.org\" target=\"new\"><img src=\"/images/categories/firewall-servers/openbsd.png\"\
+      \ title=\"OpenBSD\" alt=\"\" border=\"0\" width=\"98\" height=\"80\"/></a>\_\
+      \_\n </div>\n</div>\n\n\n\n<div style=\"background-color:#eeeeff; \" class=\"\
+      big\">\nEffective security is not optional. \nDon't let your systems be vulnerable\
+      \ to attack!<br/>\neRacks can help you with your network configuration and security\
+      \ issues. <a href=\"/services?session=31003113439216163\">Just ask.</a>\n\n\
+      </div>\n\n<p>\n</p><div class=\"big\">eRacks' failover fully-redundant firewalls,\
+      \ configured with OpenBSD or FreeBSD, using <a href=\"http://www.openbsd.org/faq/faq6.html#CARP\"\
+      \ target=\"new\">CARP</a> &amp; \n<a href=\"http://resin.csoft.net/cgi-bin/man.cgi?sektion=1&amp;topic=pfsync\"\
+      \ target=\"new\">pfsync</a><br/> </div>\n\n\n<table cellpadding=\"2\" width=\"\
+      95%\" border=\"0\" cellspacing=\"1\">\n<tbody><tr>\n<td width=\"33%\" align=\"\
+      left\" valign=\"top\">\n<div><a href=\"/products/firewall-servers/TWINGUARD/\"\
+      ><img src=\"/images/categories/firewall-servers/twinguard_250.jpeg\" title=\"\
+      eRacks/TWINGUARD\" alt=\"\" border=\"0\" width=\"250\" height=\"200\"/></a>\n\
+      </div>\n</td>\n<td width=\"33%\" align=\"left\" valign=\"top\">\n<div><a href=\"\
+      /products/firewall-servers/TWINGUARD.PRO/\"><img src=\"/images/categories/firewall-servers/twinguard_pro_250.jpeg\"\
+      \ title=\"eRacks/TWINGUARD.PRO\" alt=\"\" border=\"0\" width=\"250\" height=\"\
+      200\"/></a>\n</div>\n</td>\n<td align=\"left\" valign=\"top\">\n<a href=\"/products/firewall-servers/TWINGUARD.ENTERPRISE/\"\
+      ><img src=\"/images/categories/firewall-servers/twinguard_ent_250.jpeg\" title=\"\
+      eRacks/TWINGUARD.ENTERPRISE\" alt=\"\" border=\"0\" width=\"250\" height=\"\
+      200\"/></a>\n\n</td>\n</tr>\n<tr>\n<td><div class=\"big\">\n<div class=\"small\"\
+      >\_ Dual Gigabit Ethernet<br/>\n\_ Dual Core CPUs in each node.<br/>\n\_ <a\
+      \ href=\"/products/firewall-servers/TWINGUARD/\">starting at $1380</a>\n<p/></div>\n\
+      </div></td>\n\n<td>\n<div class=\"small\">\n\_ Dual GbE, Dual Intel Core 2 Duo\
+      \ CPUs<br/>\n\_ 2 x 8GB 1600MHz DDR3<br/>\n\_ up to 4 SSD/SATA II drives<br/>\n\
+      \_ <a href=\"/products/firewall-servers/TWINGUARD.PRO/\">starting at $1840</a>\n\
+      <p/></div>\n</td>\n\n<td>\n<div class=\"small\">\n\_ Dual 10GbE, Dual Intel\
+      \ Xeon CPUs<br/>\n\_ 2 x 8GB 1600MHz DDR3<br/>\n\_ up to 4 SSD/SATA II drives<br/>\n\
+      \_ IPMI option<br/>\n\_ <a href=\"/products/firewall-servers/TWINGUARD.ENTERPRISE/\"\
+      >starting at $3450</a>\n<p>\n</p></div>\n</td></tr>\n</tbody></table>\n\n\n\n\
+      <hr width=\"75%\"/>\n\n<table width=\"95%\">\n<tbody><tr>\n<td align=\"right\"\
+      \ valign=\"top\">\n<a href=\"/products/firewall-servers/NAT/\"><img src=\"/images/categories/firewall-servers/nat_face.jpeg\"\
+      \ title=\"eRacks/NAT\" alt=\"\" border=\"0\" width=\"305\" height=\"74\"/></a>\n\
+      \_\n</td>\n<td align=\"left\">\n<div class=\"big\">\n<a href=\"/products/firewall-servers/NAT/\"\
+      >eRacks/NAT</a>\n\n</div>\n<div class=\"small\">\n<i>Our standard 2-port Firewall\
+      \ with <b>N</b>etwork <b>A</b>ddress <b>T</b>ranslation.</i><p>\n\xB7Strong\
+      \ security; OpenBSD-based<br/> \n\xB7Onboard + single Netgear 10/100/1000 port<br/>\n\
+      \xB7Web-based administration<br/> \n\xB7Remote management card with 2U.<br/>\
+      \ \n<a href=\"/products/firewall-servers/NAT/\">starting at $845</a>\n\n</p></div>\n\
+      </td>\n</tr>\n\n<tr><td colspan=\"2\" align=\"center\"><hr color=\"grey\" width=\"\
+      75%\"/></td></tr>\n\n<tr>\n\n<td align=\"right\" valign=\"top\">\n<a href=\"\
+      /products/firewall-servers/DMZ/\"><img src=\"/images/categories/firewall-servers/dmz_face.jpeg\"\
+      \ title=\"eRacks/DMZ\" alt=\"\" border=\"0\" width=\"305\" height=\"79\"/></a>\n\
+      \_\n</td>\n\n<td bgcolor=\"white\" align=\"left\" valign=\"center\">\n<div class=\"\
+      big\">\n<a href=\"/products/firewall-servers/DMZ/\">eRacks/DMZ</a>\n \n</div>\n\
+      <div class=\"small\">\n<i>NAT features plus four 10/100/1000 ports for <b>D</b>e<b>M</b>ilitarized\
+      \ <b>Z</b>ones.</i>\n<p>\n\xB7Allows separation of main website traffic.<br/>\n\
+      \xB7Strong security; OpenBSD-based<br/> \n\xB7Web-based administration<br/>\
+      \ \n\xB7Remote management card with 2U.<br/> \n<a href=\"/products/firewall-servers/DMZ/\"\
+      >starting at $1395</a>\n\n</p></div></td>\n</tr>\n\n\n<tr><td colspan=\"2\"\
+      \ align=\"center\"><hr color=\"grey\" width=\"75%\"/></td></tr>\n\n<tr>\n\n\
+      <td align=\"right\" valign=\"top\">\n<a href=\"/products/firewall-servers/VPN/\"\
+      ><img src=\"/images/categories/firewall-servers/vpn_face.jpeg\" title=\"eRacks/VPN\"\
+      \ alt=\"\" border=\"0\" width=\"305\" height=\"128\"/></a>\n<br/>\n</td>\n\n\
+      <td bgcolor=\"white\" align=\"left\" valign=\"center\">\n<div class=\"big\"\
+      >\n<a href=\"/products/firewall-servers/VPN/\">eRacks/VPN</a>\n\n</div>\n<div\
+      \ class=\"small\">\n<i>A matched pair of ready-to-run IPSec protocol <b>V</b>irtual\
+      \ <b>P</b>rivate <b>N</b>etwork \nconfigured systems.</i><p>\n\n\xB7Virtually\
+      \ combine two network areas<br/>\n\xB7Strong security; OpenBSD-based<br/> \n\
+      \xB7Web-based administration<br/> \n\xB7Remote management card with 2U.<br/>\
+      \ \n<a href=\"/products/firewall-servers/VPN/\">starting at $845 for each system.</a>\n\
+      \n</p></div>\n</td>\n</tr></tbody></table>\n<p>\n\n</p><div class=\"small\"\
+      >\nSpecial configuration requests are possible! See eRacks' \n<a href=\"/eRacks/products/Custom%20Design?session=31003113439216163\"\
+      \ target=\"new\">Custom Design</a>\n Server page, \nor simply <a href=\"mailto:info@eracks.com\"\
+      >email us</a> to discuss your needs.\n</div>\n"
+    image: ''
+    images: []
+    name: Firewall Servers
+    published: true
+    slug: firewall-servers
+    sortorder: 90
+    title: Failover Redundant Firewall Servers
+    updated: 2012-11-04 19:43:00.162569
+  model: products.categories
+  pk: 1
+- fields:
+    blurb: ''
+    comments: ''
+    created: 0001-01-01 00:00:00
+    description: ''
+    image: ''
+    images: []
+    name: Handhelds
+    published: false
+    slug: handhelds
+    sortorder: 100
+    title: ''
+    updated: 2012-03-31 21:48:33.336555
+  model: products.categories
+  pk: 21720
+- fields:
+    blurb: ''
+    comments: ''
+    created: 2006-01-03 20:00:16
+    description: ''
+    image: ''
+    images: []
+    name: Liquid Cooled
+    published: false
+    slug: liquid-cooled
+    sortorder: 100
+    title: ''
+    updated: 2012-03-31 21:48:32.460782
+  model: products.categories
+  pk: 33513
+- fields:
+    blurb: ''
+    comments: ''
+    created: 0001-01-01 00:00:00
+    description: ''
+    image: ''
+    images: []
+    name: Memory
+    published: false
+    slug: memory
+    sortorder: 100
+    title: ''
+    updated: 2012-03-31 21:48:33.621656
+  model: products.categories
+  pk: 30481
+- fields:
+    blurb: ''
+    comments: ''
+    created: 0001-01-01 00:00:00
+    description: ''
+    image: ''
+    images: []
+    name: Opteron Systems
+    published: false
+    slug: opteron-systems
+    sortorder: 100
+    title: ''
+    updated: 2012-03-31 21:48:33.407575
+  model: products.categories
+  pk: 23454
+- fields:
+    blurb: ''
+    comments: ''
+    created: 0001-01-01 00:00:00
+    description: ''
+    image: ''
+    images: []
+    name: Overstock
+    published: false
+    slug: overstock
+    sortorder: 100
+    title: ''
+    updated: 2012-03-31 21:48:33.551571
+  model: products.categories
+  pk: 22006
+- fields:
+    blurb: ''
+    comments: ''
+    created: 2001-01-08 00:00:00
+    description: ''
+    image: ''
+    images: []
+    name: Routers and Switches
+    published: false
+    slug: routers-and-switches
+    sortorder: 100
+    title: ''
+    updated: 2012-03-31 21:48:31.720908
+  model: products.categories
+  pk: 5
+- fields:
+    blurb: ''
+    comments: ''
+    created: 2001-02-09 11:43:49
+    description: ''
+    image: ''
+    images: []
+    name: Small Form Factor
+    published: false
+    slug: small-form-factor
+    sortorder: 100
+    title: ''
+    updated: 2012-03-31 21:48:33.124464
+  model: products.categories
+  pk: 1226
+- fields:
+    blurb: Storefront and Web Servers
+    comments: ''
+    created: 2001-01-08 00:00:00
+    description: ''
+    image: ''
+    images: []
+    name: Web Servers
+    published: false
+    slug: web-servers
+    sortorder: 100
+    title: ''
+    updated: 2012-03-31 21:48:32.616758
+  model: products.categories
+  pk: 7
+- fields:
+    blurb: ''
+    comments: ''
+    created: 0001-01-01 00:00:00
+    description: ''
+    image: ''
+    images: []
+    name: Xeon Systems
+    published: false
+    slug: xeon-systems
+    sortorder: 100
+    title: ''
+    updated: 2012-03-31 21:48:33.195694
+  model: products.categories
+  pk: 16225
+- fields:
+    blurb: Programming and Database Servers
+    comments: '
+
+
+      Scraped from Zope as of 2012-03-31
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-10-14
+
+
+      Scraped from Zope as of 2012-11-04'
+    created: 2001-01-08 00:00:00
+    description: "\n<!-- now content page goes in this cell--> \n\n<!-- Begin Heading\
+      \ --><p>\n</p><div class=\"xbig\">\n\_eRacks Quiet Rackmount and Desktop Computers:\
+      \ </div><!-- End Heading -->\t\t\t\n\t\t\t\t\t\t\t\n<br/>\n\n<table cellpadding=\"\
+      5\" width=\"100%\" border=\"0\" cellspacing=\"0\">\n<tbody><tr bgcolor=\"#ffffff\"\
+      >\n<td align=\"left\" valign=\"top\">\n\n<div style=\"float:right\"><img src=\"\
+      /images/categories/quiet-systems/webpagequiet600.jpeg\" title=\"\" alt=\"\"\
+      \ border=\"0\" width=\"600\" height=\"223\"/></div>\n\n<div class=\"small\"\
+      >\neRacks design experts \neliminate the familiar noisy computer hum, by using\
+      \ a special combination of ultra-quiet chassis fans, \nstrategic chassis and\
+      \ component choice, arrangement, and low-noise drives. \n<p>\nFor extreme noise-sensitive\
+      \ environments, liquid cooling is utilized.\n</p><p>\nThe systems shown here\
+      \ are designed to be silent, or \n<br/>\n</p><center><a href=\"/products/Quiet\
+      \ Systems?session=31003113439216163\"><img src=\"/images/categories/quiet-systems/quietbydesign.jpeg\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"127\" height=\"19\"/></a>\n</center>\n\
+      <p>\nOther eRacks systems can be modified to minimize noise, but will usually\
+      \ not be as quiet as those designed \nwith noise elimination in mind.  Call\
+      \ or email eRacks to \ndiscuss your requirements and our solutions.\n</p><p>\n\
+      All eRacks systems are configured \nwith your choice of operating system including\
+      \ Ubuntu Linux\xAE, Mandriva, Debian, CentOS, \nRed Hat\xAE Linux, FreeBSD,\
+      \ NetBSD, OpenBSD, openSUSE, and more! \nAs always, custom configurations available\
+      \ upon request. Call or email us; we build to order!\n</p></div></td></tr>\n\
+      </tbody></table><br/>\n\n<table cellpadding=\"2\" width=\"90%\" border=\"0\"\
+      \ cellspacing=\"0\">\n<tbody><tr><td colspan=\"1\" align=\"right\" valign=\"\
+      top\" width=\"100\">\n\n<div class=\"small\"><center>\n<b><a href=\"/products/quiet-systems/QUIET/\"\
+      >eRacks/QUIET</a>\n</b> <p>\nSo quiet - you'll want to check the light<br/>\
+      \ to see if it is on!</p><p>\n<a href=\"/products/quiet-systems/QUIET/\"><img\
+      \ src=\"/images/categories/quiet-systems/quiet_300.jpeg\" title=\"eRacks/QUIET\"\
+      \ alt=\"\" border=\"0\" width=\"300\" height=\"81\"/></a>\n\n\n\n</p></center></div>\n\
+      </td>\n\n<td align=\"left\" valign=\"top\"><p>\n</p><div class=\"small\">\n\
+      <b><a href=\"/products/quiet-systems/QUIET/\">eRacks/QUIET</a>\n</b><br/>\n\n\
+      </div>\n<div class=\"xsmall\">\nApprox 34-35db<br/>\nLow-heat CPU<br/>\nLow-noise\
+      \ HD<br/>\n</div>\n\n<div class=\"small\">\n<a href=\"/products/quiet-systems/QUIET/\"\
+      >starting at</a>\n\n<br/><b>\n<a href=\"/products/quiet-systems/QUIET/\">$795</a>\n\
+      \n</b></div>\n\n\n\n</td>\n\n\n\n\n<td colspan=\"1\" align=\"right\" valign=\"\
+      top\" width=\"100\">\n<div class=\"small\"><center>\n<b><a href=\"/products/quiet-systems/STUDIO3/\"\
+      >eRacks/STUDIO3</a>\n</b><br/>\nOpen Source Digital Audio Workstation<br/>\n\
+      <a href=\"/products/quiet-systems/STUDIO3/\"><img src=\"/images/categories/quiet-systems/studio_media_2_300.jpeg\"\
+      \ title=\"eRacks / STUDIO digital audio system\" alt=\"\" border=\"0\" width=\"\
+      300\" height=\"192\"/></a>\n\n</center></div>\n</td>\n<td colspan=\"1\" align=\"\
+      left\" valign=\"top\">\n<div class=\"small\">\n<b><a href=\"/products/quiet-systems/STUDIO3/\"\
+      >eRacks/STUDIO3</a>\n</b><br/>\n</div>\n<img src=\"/images/categories/quiet-systems/pedalup.png\"\
+      /><br/>\n<div class=\"xsmall\">\n\nSet of Audio / Video software installed<br/>\n\
+      Intel Core i3 CPU<br/>\nLow Latency Memory<br/>\nAll Open Source Software<p>\n\
+      </p></div>\n<div class=\"small\">\n<a href=\"/products/quiet-systems/STUDIO3/\"\
+      >starting at</a>\n\n\n<a href=\"/products/quiet-systems/STUDIO3/\">$1200</a>\n\
+      \n</div>\n</td>\n\n\n\n\n\n</tr>\n\n<tr><td colspan=\"4\" height=\"3\"><hr color=\"\
+      grey\" width=\"75%\"/></td></tr>\n\n<tr>\n\n\n\n\n<td width=\"300\" align=\"\
+      center\" valign=\"center\">\n\n<div class=\"small\"><center>\n\n\n<b>\n<a href=\"\
+      /products/quiet-systems/QUIET2/\">eRacks/QUIET2</a>\n</b><p>\n2U height: More\
+      \ expandable than the <a href=\"/products/quiet-systems/QUIET/\">eRacks/QUIET</a>\n\
+      </p><p>\n\n<a href=\"/products/quiet-systems/QUIET2/\"><img src=\"/images/categories/quiet-systems/quiet2_250.jpeg\"\
+      \ title=\"eRacks/QUIET2\" alt=\"\" border=\"0\" width=\"250\" height=\"136\"\
+      /></a>\n</p><p>\n\n</p></center></div>\n</td>\n\n<td align=\"left\" valign=\"\
+      top\"><p>\n\n\n</p><p>\n</p><div class=\"small\">\n<b><a href=\"/products/quiet-systems/QUIET2/\"\
+      >eRacks/QUIET2</a>\n</b><br/>\n</div>\n<div class=\"xsmall\">\n2U-height Chassis<br/>\n\
+      Approx 34-35db<br/>\nLow-heat CPU<br/>\nLow-noise HD<br/>\n</div>\n\n<div class=\"\
+      small\">\n<a href=\"/products/quiet-systems/QUIET2/\">starting at</a>\n\n<br/><b><a\
+      \ href=\"/products/quiet-systems/QUIET2/\">$1395</a>\n</b></div>\n</td>\n\n\n\
+      <td width=\"300\" align=\"center\" valign=\"top\"><p>\n<font color=\"#000000\"\
+      \ size=\"2\" face=\"verdana,arial,sans-serif\">\n<b><a href=\"/products/quiet-systems/LITE/\"\
+      >eRacks/LITE</a>\n</b> - \nShallow 15-inch depth chassis and quiet. Perfect\
+      \ for audio systems.<br/>\n<a href=\"/products/quiet-systems/LITE/\"><img src=\"\
+      /images/categories/quiet-systems/lite2_300.jpeg\" title=\"eRacks/LITE\" alt=\"\
+      \" border=\"0\" width=\"300\" height=\"139\"/></a>\n\n</font>\n</p></td>\n<td\
+      \ align=\"left\" valign=\"top\"><p>\n<font color=\"#000000\" size=\"2\" face=\"\
+      verdana,arial,sans-serif\">\n<b><a href=\"/products/quiet-systems/LITE/\">eRacks/LITE</a>\n\
+      </b><br/>\n</font>\n<font color=\"#000000\" size=\"1\" face=\"verdana,arial,sans-serif\"\
+      >\nDDR2 Memory<br/>\nVia CPU<br/>\nSATA2 HD<br/>\nChoice of OS</font></p><p>\n\
+      \n<font color=\"#000000\" face=\"verdana,arial,sans-serif\" size=\"1\"><font\
+      \ color=\"#003399\" size=\"2\" face=\"verdana,arial,sans-serif\">\n<a href=\"\
+      /products/quiet-systems/LITE/\">starting at</a>\n\n<br/><font size=\"+1\"><b>\n\
+      <a href=\"/products/quiet-systems/LITE/\">$980</a>\n\n<xdtml-var U0005BU00027liteU00027U0005DU00022=\"\
+      \" fmt=\"whole-dollars\" U00022prices=\"\"/></b></font></font>\n</font></p></td>\n\
+      </tr>\n\n\n\n\n<tr><td colspan=\"4\" height=\"3\"><hr color=\"grey\" width=\"\
+      75%\"/></td></tr>\n\n\n<tr>\n<td width=\"100\" align=\"right\" valign=\"center\"\
+      >\n<div class=\"small\"><center>\n<b><a href=\"/products/quiet-systems/FLAT/\"\
+      >eRacks/FLAT</a>\n</b><br/>\nDust-proof and silent. 7.3 x 8.1 x 1.3 inch<p>\n\
+      <a href=\"/products/quiet-systems/FLAT/\"><img src=\"/images/categories/quiet-systems/flat_front_300.jpeg\"\
+      \ title=\"eRacks/FLAT\" alt=\"\" border=\"0\" width=\"300\" height=\"172\"/></a>\n\
+      \n</p></center></div>\n</td>\n<td align=\"left\" valign=\"center\">\n<div class=\"\
+      small\">\n<b><a href=\"/products/quiet-systems/FLAT/\">eRacks/FLAT</a>\n</b><br/>\n\
+      </div>\n<font color=\"#000000\" size=\"1\" face=\"verdana,arial,sans-serif\"\
+      >\n\nwall-mountable<br/>\nIntel Atom N270<br/>\nideal for kiosk<br/> \n\n<font\
+      \ color=\"#003399\" size=\"2\" face=\"verdana,arial,sans-serif\">\n<a href=\"\
+      /products/quiet-systems/FLAT/\">starting at</a>\n\n<br/><font size=\"+1\"><b>\n\
+      <a href=\"/products/quiet-systems/FLAT/\">$695</a>\n\n<xdtml-var fmt=\"whole-dollars\"\
+      \ U00022prices=\"\" U0005BU00027flatU00027U0005DU00022=\"\"/></b></font></font>\n\
+      </font></td>\n\n\n\n<td align=\"center\" valign=\"top\"><p>\n<a href=\"/products/quiet-systems/SILENCE/\"\
+      ><img src=\"/images/categories/quiet-systems/silence_160.jpeg\" title=\"eRacks/SILENCE\"\
+      \ alt=\"\" border=\"0\" width=\"160\" height=\"235\"/></a>\n\n</p></td>\n\n\
+      <td align=\"left\"><div class=\"small\">\n<b><a href=\"/products/quiet-systems/SILENCE/\"\
+      >eRacks/SILENCE</a>\n</b><p>\n\n\nDesigned to eliminate machine noise</p><p>\n\
+      </p></div>\n<div class=\"xsmall\">\nSound-deadening foam &amp; rubber gaskets\
+      \ around door<br/>\nIntel\xAE Pentium 4/Pentium D/Core 2 Duo/Core 2 Quad<br/>\n\
+      Dual channel Memory <br/>\nChoice of Operating System.\n</div>\n<br/><div class=\"\
+      small\">\n\nstarting at <br/>\n<font size=\"+1\"><b><a href=\"/products/quiet-systems/SILENCE/\"\
+      >$1375</a>\n</b></font></div>\n</td>\n</tr>\n</tbody></table>\n\n<p>\n\n</p><table\
+      \ cellpadding=\"5\" width=\"90%\" border=\"0\" cellspacing=\"0\">\n<tbody><tr\
+      \ bgcolor=\"#eeeeee\">\n<td align=\"left\" valign=\"center\">\n<div class=\"\
+      small\">\nWithout the proper design to insure adequate cooling, \nrackmount\
+      \ systems are susceptible for overheating.  \n<p>\nBe wary of  \n\"<i>server\
+      \ quietization kits</i>\" since the entire layout and design of the system must\
+      \ be considered to \neliminate noise without danger of overheating.  \n</p><p>\n\
+      eRacks engineers have extensive experience in server \nquietization, and each\
+      \ eRacks system is put through intensive testing.\n</p></div>\n</td>\n<td align=\"\
+      right\" valign=\"center\">\n<img src=\"/images/categories/quiet-systems/quietize.jpeg\"\
+      \ title=\"eRacks Quiet Computers\" alt=\"\" border=\"0\" width=\"100\" height=\"\
+      140\"/></td>\n</tr>\n</tbody></table>\n\n<p>\n<font color=\"#000000\" size=\"\
+      2\" face=\"verdana,arial,sans-serif\">\neRacks offers custom configurations.\
+      \ Email <a href=\"mailto:info@eracks.com\">info@eracks.com</a> for more information.\
+      \ \neRacks also offers network consulting and open source migration services.\n\
+      </font>\n\n\n\n</p>"
+    image: ''
+    images: []
+    name: Quiet Systems
+    published: true
+    slug: quiet-systems
+    sortorder: 110
+    title: Quiet Rackmount and Desktop Computer Systems
+    updated: 2012-11-04 19:43:00.533050
+  model: products.categories
+  pk: 2
+- fields:
+    blurb: ''
+    comments: '
+
+
+      Scraped from Zope as of 2012-03-31
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-10-14
+
+
+      Scraped from Zope as of 2012-11-04'
+    created: 2012-02-02 00:00:00
+    description: "\n<!-- now content page goes in this cell--> \n\n<!-- Begin Heading\
+      \ -->\n\n<div class=\"xbig\">\neRacks Blade Servers:  <b>Available now!</b>\
+      \ - call to configure!\n</div>\t\t\t\n<p>\n\n</p><div style=\"background-color:#dedeff;\
+      \ margin-left:auto; margin-right:auto; width:90%;text-align:center;\" class=\"\
+      big\">\nMaximum Density\_\xB7\_\_Affordability\_\_\xB7\_Reduced management costs\_\
+      \_\xB7\_\_Lower power consumption\_\_\xB7\_\_Optimal ROI\n\_\_\xB7\_High scalability\_\
+      </div>\n\n<div class=\"small\"><p>Blades are primarily suitable for high density\
+      \ server farms, where efficiency and cost-to-operate are significant.  \nEach\
+      \ of eRacks blade servers has its own memory, CPUs, GPUs, hard drives, and network\
+      \ connections, and can be hot-swapped.  \nSeveral blade servers reside together\
+      \ in one enclosure which provides the power and cooling for the set.  \nAn eRacks\
+      \ fully-populated blade enclosure can house between 10 and 14 blades, including\
+      \ twin-node blades.  \nRead more about blades in our <a href=\"/press/120315?session=31003113439216163\"\
+      >Press Release.</a>\n<br/>\nCall 714-532-5322 for Quote or for more detailed\
+      \ configuration information.</p></div>\n\n<center>\n\n<table cellpadding=\"\
+      10\" width=\"90%\" border=\"0\" cellspacing=\"0\">\n<tbody><tr>\n<td align=\"\
+      left\" valign=\"top\">\n\n\n<div class=\"big\"><b><a href=\"/products/blade-servers/XBLADE/\"\
+      >eRacks/XBLADE</a>\n</b>\n<div U0003Cbr=\"\" class=\"small\">use in eRacks/BLADE10.enclosure<br/><p>\n\
+      <a href=\"/products/blade-servers/XBLADE/\"><img src=\"/images/categories/blade-servers/xblade.jpeg\"\
+      \ title=\"eRacks/XBLADE\" alt=\"\" border=\"0\" width=\"400\" height=\"190\"\
+      /></a>\n\n\n</p></div>\n\n<div class=\"small\">\nSingle or Dual Xeon 1366 CPUs<br/>\n\
+      Up to 192 GB Memory per blade<br/>\nUp to six SATA3/ SAS/ SSD Drives per blade<br/>\n\
+      RAID 0,1,10,or 5<br/>\nIntegrated IPMI1.0 w/remote KVM<br/>\nInfiniband DDR/QDR\
+      \ support &amp; 10G Ethernet options<br/>\n<b>Capacity per one 7U enclosure:\
+      \ </b><br/>\n\_\_ 120 Cores (6 cores x 2 CPUs x 10 blades)<br/>\n\_\_ 1920GB\
+      \ Memory (192 x 10)<br/> \n\_\_ 45TB Drives (6 x 750GB x 10)<br/>\n</div>\n\
+      </div></td>\n\n<td align=\"left\" valign=\"top\">\n\n\n<div class=\"big\"><b><a\
+      \ href=\"/products/blade-servers/YBLADE/\">eRacks/YBLADE</a>\n</b>\n<div U0003Cbr=\"\
+      \" class=\"small\">use in eRacks/BLADE14.enclosure<br/><p>\n<a href=\"/products/blade-servers/YBLADE/\"\
+      ><img src=\"/images/categories/blade-servers/yblade.jpeg\" title=\"eRacks/YBLADE\"\
+      \ alt=\"\" border=\"0\" width=\"400\" height=\"200\"/></a>\n\n</p></div>\n\n\
+      <div class=\"small\">\nSingle or Dual Xeon 1366 CPUs<br/>\nUp to 96 GB Memory\
+      \ per blade<br/>\nUp to three SATA3/ SAS/ SSD Drives per blade<br/>\nRAID 0,1,or\
+      \ 5<br/>\nIntegrated IPMI1.0 w/remote KVM<br/>\nInfiniband DDR/QDR support &amp;\
+      \ 10G Ethernet options<br/>\n<b>Capacity per one 7U enclosure: </b><br/>\n\_\
+      \_ 168 Cores (6 cores x 2 CPUs x 14 blades)<br/>\n\_\_ 1344GB Memory (96 x 14)<br/>\
+      \ \n\_\_ 31.5TB Drives (3 x 750GB x 14)<br/>\n</div>\n</div></td>\n</tr>\n\n\
+      <tr><td colspan=\"2\"><hr color=\"grey\" width=\"100%\"/></td></tr>\n\n<tr>\n\
+      <td align=\"left\" valign=\"top\">\n\n\n<div class=\"big\"><b>\n\neRacks/TBLADE\
+      \ </b></div>\n<div U0003Cbr=\"\" class=\"small\">use in eRacks/BLADE10.enclosure<br/>\n\
+      <img src=\"/images/categories/blade-servers/tblade_exp.png\" title=\"eRacks/TBLADE\"\
+      \ alt=\"\" border=\"0\" width=\"394\" height=\"198\"/>\n</div>\n\n<div class=\"\
+      small\">\n<b>Two nodes per server blade.</b> <br/>\nSingle or Dual Xeon 1366\
+      \ CPUs per node<br/>\nUp to 128 GB Memory per node<br/>\n2 SATA3/ SAS/ SSD Drives\
+      \ per node<br/>\nDual-Port Gigabit Ethernet per node<br/>\nIntegrated IPMI1.0\
+      \ w/remote KVM<br/>\nInfiniband DDR/QDR support &amp; 10G Ethernet options<br/>\n\
+      <b>Capacity per one 7U enclosure: </b><br/>\n\_\_ 240 Cores (6 cores x 2 CPUs\
+      \ x 10 blades x 2 twin)<br/>\n\_\_ 2560GB Memory (128 x 10 x 2)<br/> \n\_\_\
+      \ 30TB Drives (2 x 750GB x 10 x 2)<br/>\n<i>Call for configuration assistance\
+      \ and quote</i>\n<br/>\n</div>\n</td>\n\n<td align=\"left\" valign=\"top\">\n\
+      \n\n<div class=\"big\"><b>\neRacks/RENDERBLADE</b></div>\n<div U0003Cbr=\"\"\
+      \ class=\"small\">use in either BLADE10 or BLADE14 enclosures<br/>\n<img src=\"\
+      /images/categories/blade-servers/renderblade_exp.jpeg\" title=\"eRacks/RENDERBLADE\"\
+      \ alt=\"\" border=\"0\" width=\"334\" height=\"195\"/>\n</div>\n\n<div class=\"\
+      small\">\n<br/>\n<b>Up to two NVIDIA Tesla M2050 and M2070 GPUs</b><br/>\nSingle\
+      \ or Dual Xeon 1366 CPUs<br/>\nUp to 96 GB Memory per node<br/>\nOne SATA3/\
+      \ SAS/ SSD Drives<br/>\nIntegrated IPMI2.0 w/ remote KVM<br/>\nIntegrated Matrox\
+      \ G200eW Graphics<br/>\nInfiniband DDR/QDR support &amp; 10G Ethernet options<br/>\n\
+      <b>Capacity per one 7U enclosure: </b><br/>\n\_\_ 120 Cores (6 cores x 2 CPUs\
+      \ x 10 blades), 8960 GPU CUDA Cores<br/>\n\_\_ 960GB Memory (96 x 10)<br/> \n\
+      \_\_ 7.5TB Drives (1 x 750GB x 10)<br/>\n<i>Call for configuration assistance\
+      \ and quote!</i>\n<br/>\n</div>\n</td>\n</tr>\n\n\n\n<tr><td colspan=\"2\"><hr\
+      \ color=\"grey\" width=\"100%\"/></td></tr>\n\n<tr>\n<td align=\"left\" valign=\"\
+      top\">\n\n\n<div class=\"big\"><b>\n\neRacks/ABLADE </b></div>\n<div U0003Cbr=\"\
+      \" class=\"small\">use in eRacks/BLADE10.enclosure<br/>\n<img src=\"/images/categories/blade-servers/ablade_exp.jpeg\"\
+      \ title=\"eRacks/ABLADE\" alt=\"\" border=\"0\" width=\"332\" height=\"185\"\
+      />\n</div>\n\n<div class=\"small\">\n<b>AMD-G34 Quad Blade Server</b> <br/>\n\
+      Quad AMD Opteron 6000 series processors<br/>\nUp to 256 GB DDR3 Memory<br/>\n\
+      Four SATA3/ SAS/ SSD Drives<br/>\nDual-Port Gigabit Ethernet<br/>\nIntegrated\
+      \ IPMI1.0 w/remote KVM<br/>\nInfiniband DDR/QDR support &amp; 10G Ethernet options<br/>\n\
+      <b>Capacity per one 7U enclosure: </b><br/>\n\_\_ 640 Cores (16 cores x 4 CPUs\
+      \ x 10 blades)<br/>\n\_\_ 2560GB Memory (256 x 10)<br/> \n\_\_ 30TB Drives (4\
+      \ x 750GB x 10)<br/>\n<i>Also available in twin configuration.</i>\n<i>Call\
+      \ for configuration assistance and quote</i>\n<br/>\n</div>\n</td>\n\n<td align=\"\
+      left\" valign=\"top\">\n\n\n<div class=\"small\">\n<p>\n<img src=\"/images/categories/blade-servers/tblade_blade10_350.jpeg\"\
+      \ title=\"eRacks/BLADE10 populated with TBLADEs\" alt=\"\" border=\"0\" width=\"\
+      350\" height=\"225\"/>\n<br/>\n<b>Maximize server density and efficiency.</b></p><p>\n\
+      This populated enclosure containing twin-node bladeservers has a density of\
+      \ 20-nodes and 2.56TB memory per 7U of rackmount height.</p><p>\neRacks experts\
+      \ can design and customize your blade server system.  <br/>\n<i>Call for configuration\
+      \ assistance and quote.</i>\n<br/>\n</p></div>\n</td>\n</tr>\n\n<tr><td colspan=\"\
+      2\"><hr color=\"grey\" width=\"100%\"/></td></tr>\n\n<tr><td width=\"50%\" align=\"\
+      left\" valign=\"top\">\n<div class=\"big\"><b><a href=\"/products/blade-servers/BLADE10.enclosure/\"\
+      >eRacks/BLADE10.enclosure</a>\n</b><p>\n<a href=\"/products/blade-servers/BLADE10.enclosure/\"\
+      ><img src=\"/images/categories/blade-servers/blade10enclosure.gif\" title=\"\
+      eRacks/BLADE10.enclosure\" alt=\"\" border=\"0\" width=\"166\" height=\"105\"\
+      /></a>\n\n</p></div>\n\n\n<div class=\"small\">\n<p>\n7U Enclosure, 12.1\" x\
+      \ 18.5\" x 29\" <br/>\nPower LED, Fault LED<br/>\nSupports up to 10 hot-plug\
+      \ processor blades<br/>\nUp to 16 cooling fans<br/>\nUp to two hot-plug management\
+      \ modules providing remote KVM and IPMI 2.0 functionalities<br/>\nSupports up\
+      \ to two hot-plug Gigabit Ethernet switches / Pass-Through Modules<br/>\n\n\n\
+      </p></div></td>\n\n\n<td align=\"left\" valign=\"top\">\n<div class=\"big\"\
+      ><b><a href=\"/products/blade-servers/BLADE14.enclosure/\">eRacks/BLADE14.enclosure</a>\n\
+      </b><p>\n<a href=\"/products/blade-servers/BLADE14.enclosure/\"><img src=\"\
+      /images/categories/blade-servers/blade14enclosure.gif\" title=\"eRacks/BLADE14.enclosure\"\
+      \ alt=\"\" border=\"0\" width=\"166\" height=\"106\"/></a>\n\n</p></div>\n\n\
+      \n<div class=\"small\">\n7U Enclosure, 12.1\" x 18.5\" x 29\" <br/>\nPower LED,\
+      \ Fault LED<br/>\nSupports up to 14 hot-plug processor blades<br/>\nUp to 16\
+      \ cooling fans<br/>\nUp to two hot-plug management modules providing remote\
+      \ KVM and IPMI 2.0 functionalities<br/>\nSupports up to two hot-plug Gigabit\
+      \ Ethernet switches / Pass-Through Modules<br/>\n\n\n</div></td>\n</tr>\n<tr><td\
+      \ colspan=\"2\">\n\n\n\nCustom configurations available! \nSimply <a href=\"\
+      mailto:info@eracks.com\">email</a> or call us to discuss your needs.\n\n</td></tr></tbody></table>\n\
+      </center>\n\n"
+    image: ''
+    images: []
+    name: Blade Servers
+    published: true
+    slug: blade-servers
+    sortorder: 130
+    title: Blade Systems, Host Cabinets and Blades for the Enterprise
+    updated: 2012-11-04 19:43:00.901333
+  model: products.categories
+  pk: 51626
+- fields:
+    blurb: Fully-provisioned turnkey racks, clusters, and bundled infrastructure -
+      ready for installation at your site or colo - Set up your private cloud today!
+    comments: '
+
+
+      Scraped from Zope as of 2012-03-31
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-10-14
+
+
+      Scraped from Zope as of 2012-11-04'
+    created: 2012-02-16 09:02:45.302769
+    description: "\n<!-- now content page goes in this cell--> \n\n<!-- Begin Heading\
+      \ -->\n<h1>eRacks/PETASCALE <em class=\"smaller\"> - Your enterprise level cloud\
+      \ storage solution!</em>\n</h1>\n<div class=\"big\">\n<div style=\"text-align:\
+      \ left;\">\n<div style=\"text-align: justify;\"><img src=\"/images/categories/cloud/petascalejpg.jpeg\"\
+      \ style=\"width: 302px; height: 500px;\" alt=\"\" align=\"left\"/>eRacks Open\
+      \ Source Systems is proud to announce its eracks/PETASCALE system. At over 800TB\
+      \ per rack, just two or more of these allow you to scale  well into the Petabyte\
+      \ range, and provides a formidable distributed storage  and archiving solution\
+      \ for today's cloud-based market.<br/> <br/> Used as a Network Access Storage\
+      \ solution for large virtualization environments, it allows users to never worry\
+      \ about the stability and reliability of their data. With the RAID and UPS redundancy\
+      \ options, this allows most businesses to not worry about their data security\
+      \ or data loss. Complete security packages are also available.<br/> <br/> Used\
+      \ in a private, enterprise environment, staff and employees can be reassured\
+      \ that their data is secure. The Cloud never looked so good, nor so accessible.<br/>\
+      \ <br/> Networking Software such as Samba is installed on request, as well as\
+      \ NFS, Novell, Apple and other protocol configurations are available.<br/> <br/>\
+      \ This model is updated with options for single and dual or quad CPU configurations.\
+      \ Processors options include AMDs Interlagos or Bulldozer, as well as the Intel\
+      \ Ivy and Sany Bridge Xeon CPU's. Memory can range from 1-512GB per system,\
+      \ allowing heavy caching.<br/> <br/> At full capacity, this system can now house\
+      \ 200 terabytes per system, making this solution 1.6 Petabytes (1,600 Gigabytes)\
+      \ in total storage capacity between 2 fully configured racks. <br/> <br/> Utilizing\
+      \ the Apache Hadoop software library, the eRacks/PETASCALE system is built atop\
+      \ a framework that allows for the distributed processing of large data sets\
+      \ across clusters of computers using a simple programming model. <br/> <br/>\
+      \ It is designed to scale up from single servers to thousands of machines, each\
+      \ offering local computation and storage. Rather than rely on solely the eracks/PETASCALE\
+      \ hardware to deliver high-avaibility, the library itself is designed to detect\
+      \ and handle failures at the application layer, so delivering a highly available\
+      \ service on top of a cluster of computers, each of which may be prone to failures.\
+      \ </div>\n\n<div style=\"text-align: justify;\"><br/>\n<div style=\"text-align:\
+      \ justify;\">The eRacks/PETASCALE can be custom configured for growth, with\
+      \ as little as 50TB to a 2PB+. eRacks builds to your specs, interconnectivity\
+      \ with 1/10/20/40/100GbE or even external SAS is available. The options also\
+      \ include UPS units, Switches, preassembled and configured racks, application\
+      \ servers and much more. Please Call or Email for more options. eRacks is a\
+      \ certified Linux/BSD partner and also does Windows on request. Consulting on\
+      \ software and hardware is also available. </div><br/>\n<div style=\"text-align:\
+      \ justify;\">\n<div style=\"text-align: justify;\">Contact eRacks for a more\
+      \ info or a quote, prices vary depending on configuration, eRacks is designed\
+      \ to work with your budget to get the best solution for your needs. eRacks is\
+      \ available at 714-532-5322 or Info@eracks.com</div><br/>\n</div>\n</div>\n\n\
+      </div></div>"
+    image: ''
+    images: []
+    name: Cloud
+    published: true
+    slug: cloud
+    sortorder: 130
+    title: Cloud Racks, Enterprise-level Private Cloud Products
+    updated: 2012-11-04 19:43:01.194303
+  model: products.categories
+  pk: 51989
+- fields:
+    blurb: ''
+    comments: '
+
+
+      Scraped from Zope as of 2012-03-31
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-10-14
+
+
+      Scraped from Zope as of 2012-11-04'
+    created: 0001-01-01 00:00:00
+    description: "\n<!-- now content page goes in this cell--> \n\n<!-- Begin Heading\
+      \ -->\n\n<div class=\"xbig\">\neRacks Desktop Systems: \n</div>\n\n<p>\n</p><table><tbody><tr>\n\
+      <td align=\"left\" valign=\"top\">\n<a href=\"/press/070216?session=31003113439216163\"\
+      ><img src=\"/images/categories/desktops/ubuntu_people.jpeg\" title=\"Do you\
+      \ Ubuntu?\" alt=\"\" border=\"0\" width=\"160\" height=\"156\"/></a>\n\_\n</td>\n\
+      \n<td align=\"left\" valign=\"top\">\n<div class=\"small\">\neRacks presents\
+      \ its line of Desktop Computers, configured \nwith your choice of operating\
+      \ system including Linux Mint, Ubuntu Linux, Mandriva, Debian, CentOS, \nRed\
+      \ Hat\xAE Linux, FreeBSD, NetBSD, OpenBSD, openSUSE, and more!\n<p>\n<img src=\"\
+      /images/categories/desktops/zimbra.png\" align=\"left\"/>\_\_\_\n<a href=\"\
+      http://www.zimbra.com/yahoo_zimbra_desktop/\">Zimbra Desktop</a> installation\
+      \ \navailable on all Desktops! \n\n</p><p>\nPCI &amp; PCI-e slot options include\
+      \ additional network connectivity, advanced graphics and audio cards, and\n\
+      TV Tuner cards and more!\nCustom configurations available upon request. Call\
+      \ or email us; we build to order!<br/>\n</p></div>\n</td>\n\n<td align=\"right\"\
+      \ valign=\"top\">\t\n<a href=\"/press/070216?session=31003113439216163\"><img\
+      \ src=\"/images/categories/desktops/ubuntu_70.jpeg\" title=\"Do you Ubuntu?\"\
+      \ alt=\"\" border=\"0\" width=\"70\" height=\"70\"/></a>\n\_\n</td>\n\n</tr></tbody></table>\n\
+      \n<center>\n<table width=\"96%\">\n<tbody><tr> \n\n<td align=\"center&quot;\"\
+      >\n<a href=\"/products/desktops/ARESPRO/\"><img src=\"/images/categories/desktops/arespro_s1.jpeg\"\
+      \ title=\"eRacks/ARESPRO\" alt=\"\" border=\"0\" width=\"162\" height=\"240\"\
+      /></a>\n\n</td><td>\n\n<div class=\"big\"><font color=\"red\">New!</font></div>\n\
+      <div class=\"small\">\n<b><a href=\"/products/desktops/ARESPRO/\">eRacks/ARESPRO</a>\n\
+      </b><br/>\nConfigurable High-end Mid-Tower<br/>\nIntel\xAE Single/Dual Quad/Six/Eight\
+      \ Core Xeon E5-2600 series processor.<br/>\n\n<b><a href=\"/products/desktops/ARESPRO/\"\
+      >eRacks/ARESPRO</a>\n</b> -  single CPU<br/> \n<b><a href=\"/products/desktops/ARESPRO12/\"\
+      >eRacks/ARESPRO12</a>\n</b> - up to 12 cores<br/>\n<b><a href=\"/products/desktops/ARESPRO16/\"\
+      >eRacks/ARESPRO16</a>\n</b> - up to 16 cores<br/>\n\nLatest Linux Mint (or other)\
+      \ OS installed &amp; configured.<br/>\n<font color=\"#003399\">\nstarting at\
+      \ <b> <a href=\"/products/desktops/ARESPRO/\">$2299</a>\n</b></font>\n</div>\n\
+      </td>\n\n\n\n<td align=\"center&quot;\">\n<a href=\"/products/desktops/SANDYTOWER/\"\
+      ><img src=\"/images/categories/desktops/sandytower_chip.jpeg\" title=\"eRacks/SANDYTOWER\"\
+      \ alt=\"\" border=\"0\" width=\"274\" height=\"227\"/></a>\n\n</td><td>\n\n\n\
+      <div class=\"small\">\n<b><a href=\"/products/desktops/SANDYTOWER/\">eRacks/SANDYTOWER</a>\n\
+      </b>\n<br/>Intel\xAE Quad Core Xeon processor, E5-2600 series.<br/>\n\nConfigurable\
+      \ Tower or 4U Rackmountable system<br/>\n8x hotwap SATA3 / SSD drives, max 512GB\
+      \ DDR3 ECC memory<br/>\nLatest Ubuntu (or other) Linux installed &amp; configured.<br/>\n\
+      <font color=\"#003399\">\nstarting at <b> <a href=\"/products/desktops/SANDYTOWER/\"\
+      >$2328</a>\n</b></font>\n</div>\n</td>\n</tr>\n\n\n<tr> \n<td align=\"center&quot;\"\
+      >\n<a href=\"/products/desktops/iDESQ3/\"><img src=\"/images/categories/desktops/idesq3_200.jpeg\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"188\" height=\"200\"/></a>\n\n</td><td>\n\
+      \n<div class=\"small\">\n<b><a href=\"/products/desktops/iDESQ3/\">eRacks/iDESQ3</a>\n\
+      </b>\n<br/>Intel Core i3 Dual Core Processor<br/>\nNVIDIA graphics<br/>\nConfigurable\
+      \ Desktop system<br/>\nSATA2 / SSD, DDR3 memory<br/>\nLatest Ubuntu (or other)\
+      \ Linux installed &amp; configured.<br/>\n<font color=\"#003399\">\nstarting\
+      \ at <b> <a href=\"/products/desktops/iDESQ3/\">$775</a>\n</b></font>\n</div>\n\
+      </td>\n\n<td align=\"center&quot;\">\n<a href=\"/products/desktops/iDESQ5/\"\
+      ><img src=\"/images/categories/desktops/idesq5_200.jpeg\" title=\"eRacks/iDESQ5\"\
+      \ alt=\"\" border=\"0\" width=\"194\" height=\"200\"/></a>\n\n</td><td>\n\n\
+      <div class=\"small\">\n<b><a href=\"/products/desktops/iDESQ5/\">eRacks/iDESQ5</a>\n\
+      </b>\n<br/>Intel Core i3 Quad Core Processor<br/>\nNVIDIA graphics, dual option<br/>\n\
+      Configurable Desktop system<br/>\nSATA2 / SATA3 / SSD, DDR3 memory<br/>\nLatest\
+      \ Ubuntu (or other) Linux installed &amp; configured.<br/>\n<font color=\"#003399\"\
+      >\nstarting at <b> <a href=\"/products/desktops/iDESQ5/\">$1075</a>\n</b></font>\n\
+      </div>\n</td></tr></tbody></table>\n\n<table wodth=\"90%\"><tbody><tr>\n<td\
+      \ align=\"center&quot;\">\n<a href=\"/products/desktops/iDESQ7/\"><img src=\"\
+      /images/categories/desktops/idesq7_200.jpeg\" title=\"eRacks/iDESQ7\" alt=\"\
+      \" border=\"0\" width=\"196\" height=\"200\"/></a>\n\n</td><td>\n\n<div class=\"\
+      small\">\n<b><a href=\"/products/desktops/iDESQ7/\">eRacks/iDESQ7</a>\n</b>\n\
+      <br/>Intel Core i7 Quad/Six Core Processor<br/>\nNVIDIA graphics, dual and triple\
+      \ options<br/>\nConfigurable Desktop system<br/>\nSATA 2 / SATA3 / SSD, DDR3\
+      \ memory<br/>\nChassis color choices!<br/>\nLatest Ubuntu (or other) Linux installed\
+      \ &amp; configured.<br/>\n<font color=\"#003399\">\nstarting at <b> <a href=\"\
+      /products/desktops/iDESQ7/\">$1500</a>\n</b></font>\n</div>\n</td>\n\n\n\n\n\
+      \n<td align=\"center\">\n<div class=\"small\"><br/>\n<a href=\"/products/desktops/ASERIES/\"\
+      ><img src=\"/images/categories/desktops/aseries_200.jpeg\" title=\"eRacks/ASERIES\"\
+      \ alt=\"\" border=\"0\" width=\"218\" height=\"203\"/></a>\n\n</div>\n</td>\n\
+      <td align=\"left\">\n<div class=\"small\">\n<b><a href=\"/products/desktops/ASERIES/\"\
+      >eRacks/ASERIES</a>\n</b>\n<br/>High-powered graphics!<br/>\nAMD Llano chip,\
+      \ A-Series CPU with Radeon graphics<br/>\nConfigurable Desktop system<br/>\n\
+      SATA3, DDR3 memory<br/>\nLatest Ubuntu (or other) Linux installed &amp; configured<br/>\n\
+      <font color=\"#003399\">\nstarting at <b> <a href=\"/products/desktops/ASERIES/\"\
+      >$600</a>\n</b></font>\n</div>\n</td>\n\n</tr></tbody></table>\n\n</center>\t\
+      \t\t\t\t\t\t\n\n<table cellpadding=\"2\" width=\"100%\" border=\"0\" cellspacing=\"\
+      0\">\n\n<tbody><tr>\n\n\n<td align=\"left\" valign=\"center\">\n<div class=\"\
+      small\">\n<!--div \"style=float:left;margin: 0 1cm 0 1cm;\"-->\n<a href=\"/products/Desktops?session=31003113439216163\"\
+      ><img src=\"/images/categories/desktops/leaf_black_130ivy.jpeg\" title=\"eRacks/LEAF\"\
+      \ alt=\"\" border=\"0\" width=\"130\" height=\"199\"/></a>\n\n</div>\n</td>\n\
+      <td>\n<div class=\"small\">\n<b><a href=\"/products/desktops/LEAF/\">eRacks/LEAF</a>\n\
+      </b>\n<br/>Run as a small footprint desktop, or as a thin client. \n<p> eRacks\
+      \ can fully configure your server &amp; clients. <br/>\nMaximum 4GB memory<br/>\n\
+      10/100/100 Ethernet<br/>\nIntel Atom Mini-ITX Dual Core CPU<br/>\n\n<font color=\"\
+      #003399\">\nstarting at <b> <a href=\"/products/desktops/LEAF/\">$475</a>\n\
+      </b></font>\n</p></div>\n</td>\n\n\n<td align=\"left\" valign=\"center\">\n\
+      <div class=\"small\">\n\n\n\n<div U00030=\"\" U00031cmU0003BU00022=\"\" U00031cm=\"\
+      \" U00022style=\"float:left;margin:\">\n<a href=\"/products/External%20Storage%20-%20DAS?session=31003113439216163\"\
+      ><img src=\"/images/categories/desktops/ms1ct_1_250.jpeg\" title=\"eRacks/MS1CT\"\
+      \ alt=\"\" border=\"0\" width=\"250\" height=\"250\"/></a>\n</div>\n</div></td><td>\n\
+      <b><a href=\"/products/External%20Storage%20-%20DAS?session=31003113439216163\"\
+      >eRacks External Storage</a>\n from Sans Digital. </b>\n<br/>USB / Firewire\
+      \ connected external hard drive storage. From 1 drive units to 8 drives, capacity\
+      \ to 16TB.\n<p>\n\n</p><div style=\"float:left; margin: 0px 10px 10px 10px;\"\
+      ><img src=\"/images/categories/desktops/sansdigital_logo.jpeg\" title=\"\" alt=\"\
+      \" border=\"0\" width=\"129\" height=\"75\"/></div>\n Configuration on request,\
+      \ including RAID. <br/>Contact us for more information!\n\n</td></tr>\n\n\n\n\
+      \n<tr><td bgcolor=\"#f1ffff\" align=\"left\" valign=\"bottom\">\n<a href=\"\
+      /products/desktops/QFX/\"><img src=\"/images/categories/desktops/qfx_small_bg.jpeg\"\
+      \ title=\"eRacks/QFX\" alt=\"\" border=\"0\" width=\"163\" height=\"273\"/></a>\n\
+      \n</td>\n\n<td bgcolor=\"#f1ffff\" align=\"left\" valign=\"center\">\n<div class=\"\
+      small\">\n\n<b><a href=\"/products/desktops/QFX/\">eRacks/QFX</a>\n</b><p>\n\
+      \n</p><p>\n\n\nQUAD_CORE Processing Power</p><p>\nGraphics / Gaming Powerhouse</p><p>\n\
+      </p></div>\n<div class=\"xsmall\">\nDual Channel Memory<br/>\nDual-Core or Quad-Core\
+      \ CPU<br/>\nChoice of Operating System, installed and configured.<p>\n</p></div>\n\
+      <div class=\"small\">\nstarting at <strike>$1480</strike> <b><a href=\"/products/desktops/QFX/\"\
+      >$1245</a>\n</b>\n</div>\n</td>\n\n\n<td align=\"center\" valign=\"top\"><p>\n\
+      <a href=\"/products/desktops/SILENCE/\"><img src=\"/images/categories/desktops/silence_160.jpeg\"\
+      \ title=\"eRacks/SILENCE\" alt=\"\" border=\"0\" width=\"160\" height=\"235\"\
+      /></a>\n\n</p></td>\n\n<td align=\"left\"><div class=\"small\">\n<b><a href=\"\
+      /products/desktops/SILENCE/\">eRacks/SILENCE</a>\n</b><p>\n\n\nDesigned to eliminate\
+      \ machine noise</p><p>\n</p></div>\n<div class=\"xsmall\">\nSound-deadening\
+      \ foam &amp; rubber gaskets around door<br/>\nIntel\xAE Pentium 4/Pentium D/Core\
+      \ 2 Duo/Core 2 Quad<br/>\nDual channel Memory <br/>\nChoice of Operating System.\n\
+      </div>\n<p/><div class=\"small\">\n<font color=\"#003399\">\nstarting at <b><a\
+      \ href=\"/products/desktops/SILENCE/\">$1375</a>\n</b></font></div>\n</td>\n\
+      </tr>\n\n\n<tr><td align=\"left\" valign=\"center\">\n<div class=\"xsmall\"\
+      >\n\_\n<a href=\"/products/desktops/STUDIO3/\"><img src=\"/images/categories/desktops/studio_media_2_200.jpeg\"\
+      \ title=\"eRacks/STUDIO\" alt=\"\" border=\"0\" width=\"200\" height=\"128\"\
+      /></a>\n\n<br/><center><i>Media chassis shown here.</i></center>\n</div>\n</td>\n\
+      <td align=\"left\">\n<div class=\"small\">\n<img src=\"/images/categories/desktops/pedalup.png\"\
+      />\_\n<b><a href=\"/products/desktops/STUDIO3/\">eRacks/STUDIO3</a>\n</b>\n\
+      <br/>Open Source Audio Workstation<p>\n</p></div>\n<div class=\"xsmall\">\n\n\
+      Set of Audio / Video software installed<br/>\nIntel Core i3 CPU<br/>\nLow Latency\
+      \ Memory<br/>\nAll Open Source Software<br/>\nDesktop, media, or rackmount chassis<br/>\n\
+      \n</div><p>\n</p><div class=\"small\"><font color=\"#003399\">\nstarting at\
+      \ <a href=\"/products/desktops/STUDIO3/\">$1200</a>\n</font>\n</div>\n</td>\n\
+      \n\n\n\n<td bgcolor=\"#f1ffff\" align=\"left\" valign=\"center\">\n<a href=\"\
+      /products/desktops/QUBE/\"><img src=\"/images/categories/desktops/qube_side_bg.jpeg\"\
+      \ title=\"eRacks/QUBE\" alt=\"\" border=\"0\" width=\"160\" height=\"145\"/></a>\n\
+      \n</td>\n\n<td bgcolor=\"#f1ffff\" align=\"left\">\n<div class=\"small\">\n\
+      <b><a href=\"/products/desktops/QUBE/\">eRacks/QUBE</a>\n</b><p>\n</p></div>\n\
+      <div class=\"xsmall\">\nSmall Form Factor Cube<br/>\n10.6in(H)x7.9in(W)x13.2in(D)<p>\n\
+      Intel\xAE Core 2 Duo CPU<br/>\nOnboard video, 10/100 LAN<br/>\nDVDRW Dual Layer,\
+      \ floppy, SATA2 drives<br/>\n2 x PCI Slots, 1 x PCI-e Slot<br/>\nChoice of Operating\
+      \ System.\n</p></div>\n<p/><div class=\"small\">\n<font color=\"#003399\">\n\
+      starting at <b>\n<a href=\"/products/desktops/QUBE/\">$795</a>\n</b></font></div>\n\
+      </td>\n</tr>\n\n\n\n\n<tr>\n\n<td bgcolor=\"#f1ffff\" align=\"left\" valign=\"\
+      bottom\" width=\"100\">\n<a href=\"/products/desktops/DESQ/\"><img src=\"/images/categories/desktops/desq_front_bg.jpeg\"\
+      \ title=\"eRacks/DESQ\" alt=\"\" border=\"0\" width=\"182\" height=\"248\"/></a>\n\
+      \n</td>\n\n<td bgcolor=\"#f1ffff\" align=\"left\">\n<div class=\"small\">\n\
+      <b><a href=\"/products/desktops/DESQ/\">eRacks/DESQ</a>\n</b>\n\n<p>\n\n<b>Our\
+      \ Most Customizable &amp; Expandable Intel Desktop!</b><br/>\n\nAlso see the\
+      \ new AMD Desktop: <b><a href=\"/products/desktops/AMDESK/\">eRacks/AMDESK</a>\n\
+      </b></p><p>\n</p></div>\n<div class=\"xsmall\">\nSATA II, DDR2 Memory<br/>\n\
+      Core2 Duo/Pentium/Celeron D<br/>\nOnboard video, 10/100 LAN or optional cards<br/>\n\
+      CDROM, Floppy Drive<br/>\n3 x 5.25\", 1 x 3.5\" Bays<br/>\n2 x PCI Slots, 1\
+      \ x PCI-e<br/>\nConfigured with your choice of Operating System.\n</div><p>\n\
+      \n</p><div class=\"small\">\n<font color=\"#003399\">\nstarting at <b><a href=\"\
+      /products/desktops/DESQ/\">$395</a>\n\n</b></font></div>\n</td>\n\n<td width=\"\
+      100\" align=\"center\" valign=\"bottom\">\n<a href=\"/products/desktops/BOOQ/\"\
+      ><img src=\"/images/categories/desktops/booq_silver_110.jpeg\" title=\"eRacks/BOOQ\"\
+      \ alt=\"\" border=\"0\" width=\"110\" height=\"193\"/></a>\n\n</td>\n\n<td align=\"\
+      left\">\n<div class=\"small\">\n<b><a href=\"/products/desktops/BOOQ/\">eRacks/BOOQ</a>\n\
+      </b><p>\n\n\nSlim and compact</p><p>\n</p></div>\n<div class=\"xsmall\">\nCore2\
+      \ Duo/Pentium/Celeron D<br/>\nOnboard video, 10/100 LAN<br/>\nDVDRW Dual Layer,\
+      \ SATA2 Drives<br/>\n1 x 5.25\", 1 x 3.5\" Bays<br/>\n2 x PCI Slots, 1 x PCI-e\
+      \ Slot<br/>\nChoice of Operating System.\n</div>\n<div class=\"small\">\nstarting\
+      \ at <b>\n<a href=\"/products/desktops/BOOQ/\">$495</a>\n</b></div>\n</td>\n\
+      \n</tr>\n</tbody></table>\n\n\n\n<p>\n</p><div class=\"small\">\neRacks offers\
+      \ custom configurations. Email <a href=\"mailto:info@eracks.com\">info@eracks.com</a>\
+      \ for more information. \neRacks also offers network consulting and open source\
+      \ migration services.\n</div>\n\n\n\n"
+    image: ''
+    images: []
+    name: Desktops
+    published: true
+    slug: desktops
+    sortorder: 140
+    title: Ubuntu Linux Desktop Computers
+    updated: 2012-11-04 19:43:02.063353
+  model: products.categories
+  pk: 12480
+- fields:
+    blurb: Music, broadcast, video, radio, tv systems
+    comments: '
+
+
+      Scraped from Zope as of 2012-03-31
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-10-14
+
+
+      Scraped from Zope as of 2012-11-04'
+    created: 2010-01-29 00:00:00
+    description: "\n<!-- now content page goes in this cell--> \n\n<!-- Begin Heading\
+      \ --><p>\n\n</p><div style=\"float:right; margin-right:10px;\">\n<a href=\"\
+      http://eracks.com/press/flyers/studio_NAMM2011\" target=\"new\">\n<img src=\"\
+      /images/categories/studio/studio_namm2011s.jpeg\" title=\"eRacks/STUDIO NAMM\
+      \ 2011\" alt=\"\" border=\"0\" width=\"133\" height=\"200\"/></a>\n</div>\n\n\
+      \n\n<div class=\"xbig\">\n\_<img src=\"/images/categories/studio/pedalup.png\"\
+      /> \_eRacks Studio Computers: \n<div class=\"big\"> <i>Intel\xAE Core<sup><font\
+      \ size=\"1\">TM</font></sup> i3/5/7 systems specifically \nbuilt for video and\
+      \ audio applications.</i></div></div>\n\t<center/>\n\n\t\t\n\t\t\t\t\t\t\t\n\
+      <p/><div class=\"big\">\n\n\nThese rackmount and desktop systems come fully\
+      \ installed with Ubuntu Studio or 64 Studio software, a suite of Open Source\
+      \ audio and \nvideo software applications. \n\n\n<p>No licenses, no upgrade\
+      \ fees, ever. \n</p><p>\nCome join, contribute, and share with the Open Source\
+      \ audio community, where users and developers work together. \n</p><p>\n</p></div>\n\
+      \n\n<table width=\"100%\"><tbody><tr><td width=\"50%\" align=\"center\">\n<a\
+      \ href=\"http://www.ubuntustudio.org\" target=\"new\">\n<img src=\"/images/categories/studio/ubuntustudiologo.png\"\
+      \ title=\"Ubuntu Studio\" alt=\"\" border=\"0\" width=\"200\" height=\"55\"\
+      /></a>\n</td>\n<td align=\"center\">\n<a href=\"http://www.64studio.com\" target=\"\
+      new\">\n<img src=\"/images/categories/studio/logo64studio.jpeg\" title=\"64\
+      \ Studio\" alt=\"\" border=\"0\" width=\"60\" height=\"62\"/></a>\n</td></tr></tbody></table>\n\
+      \n<p>\n\n\n\n\n\n\n\n</p><table cellpadding=\"2\" width=\"90%\" border=\"0\"\
+      \ cellspacing=\"0\">\n<tbody><tr><td width=\"100\" align=\"right\" valign=\"\
+      top\">\n<a href=\"/products/studio/STUDIO3/\"><img src=\"/images/categories/studio/studio_media_2_300.jpeg\"\
+      \ title=\"eRacks / STUDIO digital audio system\" alt=\"\" border=\"0\" width=\"\
+      300\" height=\"192\"/></a>\n\n</td>\n<td align=\"left\" valign=\"center\">\n\
+      <div class=\"big\">\n<b><a href=\"/products/studio/STUDIO3/\">eRacks/STUDIO3</a>\n\
+      </b><p>\n</p></div>\n\n<div style=\"float:right\">\n<a href=\"http://www.intel.com/consumer/products/processors/corei3.htm\"\
+      \ target=\"new\">\n<img src=\"/images/categories/studio/intelcorei3.gif\" title=\"\
+      \" alt=\"\" border=\"0\" width=\"78\" height=\"59\"/></a>\n</div>\n\n<div class=\"\
+      small\">\nNew 2010 Intel Core i3 CPU<br/>\nMedia, Desktop, or Rackmount chassis<br/>\n\
+      Ubuntu Studio or Studio 64 software suite installed<br/>\n\n<a href=\"/products/studio/STUDIO3/\"\
+      >starting at</a>\n\n<b><a href=\"/products/studio/STUDIO3/\">$1200</a>\n\n</b></div>\n\
+      </td></tr>\n\n\n<tr><td colspan=\"2\"><hr width=\"75%\"/></td></tr>\n\n\n<tr><td\
+      \ width=\"100\" align=\"right\" valign=\"top\">\n<a href=\"/products/studio/STUDIO5/\"\
+      ><img src=\"/images/categories/studio/fridge_160.jpeg\" title=\"eRacks / STUDIO\
+      \ digital audio system\" alt=\"\" border=\"0\" width=\"160\" height=\"228\"\
+      /></a>\n\n</td>\n<td colspan=\"1\" align=\"left\" valign=\"center\">\n<div class=\"\
+      big\">\n<b><a href=\"/products/studio/STUDIO5/\">eRacks/STUDIO5</a>\n</b><p>\n\
+      </p></div>\n\n<div style=\"float:right\">\n<a href=\"http://www.intel.com/consumer/products/processors/corei5.htm\"\
+      \ target=\"new\">\n<img src=\"/images/categories/studio/intelcorei5.gif\" title=\"\
+      \" alt=\"\" border=\"0\" width=\"78\" height=\"59\"/></a>\n</div>\n\n<div class=\"\
+      small\">\n2010 Intel Core i5 CPU<br/>\nMedia, Desktop, or Rackmount chassis<br/>\n\
+      Ubuntu Studio or Studio 64 software suite installed<br/>\n\n<a href=\"/products/studio/STUDIO5/\"\
+      >starting at</a>\n\n<b><a href=\"/products/studio/STUDIO5/\">$1500</a>\n\n</b></div>\n\
+      </td>\n\n</tr>\n\n\n<tr><td colspan=\"2\"><hr width=\"75%\"/></td></tr>\n\n\n\
+      <tr><td width=\"100\" align=\"right\" valign=\"top\">\n<a href=\"/products/studio/STUDIO7/\"\
+      ><img src=\"/images/categories/studio/studio7_d300_400.jpeg\" title=\"eRacks/STUDIO7\"\
+      \ alt=\"\" border=\"0\" width=\"350\" height=\"242\"/></a>\n\n</td>\n\n<td colspan=\"\
+      1\" align=\"left\" valign=\"center\">\n<div class=\"big\">\n<b><a href=\"/products/studio/STUDIO7/\"\
+      >eRacks/STUDIO7</a>\n</b><p>\n</p></div>\n\n<div style=\"float:right\">\n<a\
+      \ href=\"http://www.intel.com/consumer/products/processors/corei7.htm\" target=\"\
+      new\">\n<img src=\"/images/categories/studio/intelcorei7.gif\" title=\"\" alt=\"\
+      \" border=\"0\" width=\"78\" height=\"59\"/></a>\n</div>\n\n<div class=\"small\"\
+      >\nUltimate Smart performance<br/>\n2010 Intel Core i7 Processor<br/>\n<a href=\"\
+      /products/studio/STUDIO7/\">starting at</a>\n\n<b><a href=\"/products/studio/STUDIO7/\"\
+      >$2200</a>\n\n</b></div>\n</td></tr>\n\n\n</tbody></table>\n\n\n\n<p>\n<font\
+      \ color=\"#000000\" size=\"2\" face=\"verdana,arial,sans-serif\">\neRacks offers\
+      \ custom configurations. Email <a href=\"mailto:info@eracks.com\">info@eracks.com</a>\
+      \ for more information. \neRacks also offers network consulting and open source\
+      \ migration services.\n</font>\n\n\n</p>"
+    image: ''
+    images: []
+    name: Studio
+    published: true
+    slug: studio
+    sortorder: 140
+    title: Systems suitable for Music, broadcast, video, radio, TV
+    updated: 2012-11-04 19:43:01.534051
+  model: products.categories
+  pk: 44304
+- fields:
+    blurb: ''
+    comments: "Scraped from Zope as of 2012-03-31\r\n\r\nScraped from Zope as of 2012-04-26\r\
+      \n\r\nScraped from Zope as of 2012-04-26\r\n\r\nScraped from Zope as of 2012-04-26\r\
+      \n\r\nScraped from Zope as of 2012-04-27\r\n\r\nScraped from Zope as of 2012-04-27\r\
+      \n\r\nScraped from Zope as of 2012-10-14\r\n\r\nScraped from Zope as of 2012-11-04"
+    created: 0001-01-01 00:00:00
+    description: "<!-- now content page goes in this cell--><!-- Begin Heading -->\r\
+      \n<p>\r\n\t<!-- End Heading --></p>\r\n<table border=\"0\" cellpadding=\"5\"\
+      \ cellspacing=\"0\" width=\"100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td align=\"\
+      left\" colspan=\"2\" valign=\"top\">\r\n\t\t\t\t<h5 class=\"xbig\">\r\n\t\t\t\
+      \t\t&nbsp;eRacks Laptops:</h5>\r\n\t\t\t\t<p>\r\n\t\t\t\t\t&nbsp;</p>\r\n\t\t\
+      \t\t<p style=\"float: left;\">\r\n\t\t\t\t\t<a href=\"/press/070216?session=31003113439216163\"\
+      ><img alt=\"\" border=\"0\" height=\"185\" src=\"/images/categories/laptops/ubuntu_people.jpeg\"\
+      \ title=\"\" width=\"150\" /></a></p>\r\n\t\t\t\t<p class=\"small\">\r\n\t\t\
+      \t\t\t<big>Each laptop is custom configured with your choice of operating system,\
+      \ including Ubuntu Linux, Fedora&reg; Linux, Mandriva, Debian, CentOS, FreeBSD,\
+      \ NetBSD, OpenBSD, openSUSE, and more! Dual Boot configuration is available\
+      \ upon request.</big></p>\r\n\t\t\t\t<br />\r\n\t\t\t\t<center>\r\n\t\t\t\t\t\
+      <img alt=\"\" border=\"0\" height=\"44\" src=\"/images/categories/laptops/linuxmint.jpeg\"\
+      \ title=\"\" width=\"150\" /> &nbsp;&nbsp; <img alt=\"\" border=\"0\" height=\"\
+      62\" src=\"/images/categories/laptops/ubuntu.png\" title=\"\" width=\"210\"\
+      \ /> &nbsp;&nbsp; <img alt=\"\" border=\"0\" height=\"64\" src=\"/images/categories/laptops/fedora.png\"\
+      \ title=\"\" width=\"180\" /></center>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\
+      \n</table>\r\n<br />\r\n<center>\r\n\t<table border=\"0\" cellpadding=\"0\"\
+      \ cellspacing=\"0\" width=\"90%\">\r\n\t\t<tbody>\r\n\t\t\t<tr>\r\n\t\t\t\t\
+      <td align=\"left\" valign=\"top\" width=\"50%\">\r\n\t\t\t\t\t<div class=\"\
+      big\" style=\"margin-left:100px;\">\r\n\t\t\t\t\t\t<a href=\"/products/laptops/ZENBOOK/\"\
+      >eRacks/ZENBOOK</a></div>\r\n\t\t\t\t\t<div class=\"xsmall\" style=\"margin-left:100px;\"\
+      >\r\n\t\t\t\t\t\t<i>starting at $1385</i></div>\r\n\t\t\t\t\t<div style=\"margin-right:50px;\
+      \ margin-top:0px;\">\r\n\t\t\t\t\t\t<a href=\"/products/laptops/ZENBOOK/\"><img\
+      \ alt=\"\" border=\"0\" height=\"234\" src=\"/images/categories/laptops/zenbook_400.jpeg\"\
+      \ title=\"eRacks/ZENBOOK\" width=\"400\" /></a></div>\r\n\t\t\t\t</td>\r\n\t\
+      \t\t\t<td align=\"left\" valign=\"top\">\r\n\t\t\t\t\t<div class=\"big\">\r\n\
+      \t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t<big><strong><a href=\"/products/laptops/ZENBOOK/\"\
+      >eRacks/ZENBOOK</a></strong></big></p>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div\
+      \ class=\"small\">\r\n\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\
+      \t\tAsus UX21E hardware, with Ubuntu or other OS</li>\r\n\t\t\t\t\t\t\t<li>\r\
+      \n\t\t\t\t\t\t\t\tIntel&reg; Core<sup>TM</sup> i7-2677M Dual-Core Processor</li>\r\
+      \n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\tDisplay: 11.6&quot; Widescreen LED-backlit\
+      \ 1366 x 768</li>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\tLonger battery life!</li>\r\
+      \n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\tDimensions: Only 3 mm at the front and\
+      \ 9 mm at the rear</li>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\tWeight: 2.43\
+      \ lb</li>\r\n\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t<img alt=\"\
+      \" border=\"0\" height=\"91\" src=\"/images/categories/laptops/corei7_75.jpeg\"\
+      \ title=\"\" width=\"75\" /></p>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</td>\r\n\t\t\
+      \t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t<td colspan=\"2\">\r\n\t\t\t\t\t<hr width=\"\
+      75%\" />\r\n\t\t\t\t\t<p>\r\n\t\t\t\t\t\t&nbsp;</p>\r\n\t\t\t\t</td>\r\n\t\t\
+      \t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t<td align=\"left\" valign=\"top\" width=\"\
+      50%\">\r\n\t\t\t\t\t<div class=\"big\" style=\"margin-left:100px;\">\r\n\t\t\
+      \t\t\t\t<a href=\"/products/laptops/KING/\">eRacks/KING</a></div>\r\n\t\t\t\t\
+      \t<div class=\"xsmall\" style=\"margin-left:100px;\">\r\n\t\t\t\t\t\t<i>starting\
+      \ at $2395</i></div>\r\n\t\t\t\t\t<div style=\"margin-right:50px; margin-top:0px;\"\
+      >\r\n\t\t\t\t\t\t<a href=\"/products/laptops/KING/\"><img alt=\"\" border=\"\
+      0\" height=\"385\" src=\"/images/categories/laptops/king_400.jpeg\" title=\"\
+      eRacks/KING\" width=\"400\" /></a></div>\r\n\t\t\t\t</td>\r\n\t\t\t\t<td align=\"\
+      left\" valign=\"top\">\r\n\t\t\t\t\t<div class=\"big\" style=\"margin-left:0px;\"\
+      >\r\n\t\t\t\t\t\t<big><strong><a href=\"/products/laptops/KING/\">eRacks/KING</a></strong></big></div>\r\
+      \n\t\t\t\t\t<div class=\"small\">\r\n\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t<li>\r\
+      \n\t\t\t\t\t\t\t\tHigh-end laptop designed for intensive computation</li>\r\n\
+      \t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\tPowerful Dual NVIDIA GeForce GTX 680M\
+      \ GPU</li>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\tEarthshaking Sound Blaster\
+      \ X-Fi MB2 audio, subwoofer</li>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\tProgrammable\
+      \ illuminated keyboard</li>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\tSager hardware,\
+      \ with your choice of Linux, including Dual Boot option</li>\r\n\t\t\t\t\t\t\
+      \t<li>\r\n\t\t\t\t\t\t\t\tIntel&reg; Core<sup>TM</sup> i7-3610qm 2.3GHz CPU</li>\r\
+      \n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\tTwo hard drives, and/or mSATA SSD</li>\r\
+      \n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\tSupports hardware RAID</li>\r\n\t\t\t\
+      \t\t\t\t<li>\r\n\t\t\t\t\t\t\t\t17.3&quot; (16:9) Full HD (1920x1080) LED-Backlit\
+      \ Display</li>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\t9-in-1 Card Reader</li>\r\
+      \n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\tMedia: 8xDVDRW or BluRay optical drive</li>\r\
+      \n\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t<img alt=\"\" border=\"\
+      0\" height=\"91\" src=\"/images/categories/laptops/corei7_75.jpeg\" title=\"\
+      \" width=\"75\" /></p>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\
+      \n\t\t\t<tr>\r\n\t\t\t\t<td colspan=\"2\">\r\n\t\t\t\t\t<hr width=\"75%\" />\r\
+      \n\t\t\t\t\t<p>\r\n\t\t\t\t\t\t&nbsp;</p>\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\
+      \t\t\t<tr>\r\n\t\t\t\t<td align=\"left\" valign=\"top\" width=\"50%\">\r\n\t\
+      \t\t\t\t<div class=\"big\" style=\"margin-left:100px;\">\r\n\t\t\t\t\t\t<a href=\"\
+      /products/laptops/HUMBOLDT/\">eRacks/HUMBOLDT</a></div>\r\n\t\t\t\t\t<div class=\"\
+      xsmall\" style=\"margin-left:100px;\">\r\n\t\t\t\t\t\t<i>starting at $1495</i></div>\r\
+      \n\t\t\t\t\t<div style=\"margin-right:50px; margin-top:0px;\">\r\n\t\t\t\t\t\
+      \t<a href=\"/products/laptops/HUMBOLDT/\"><img alt=\"\" border=\"0\" height=\"\
+      385\" src=\"/images/categories/laptops/humboldt_400.jpeg\" title=\"eRacks/HUMBOLDT\"\
+      \ width=\"400\" /></a></div>\r\n\t\t\t\t</td>\r\n\t\t\t\t<td align=\"left\"\
+      \ valign=\"top\">\r\n\t\t\t\t\t<div class=\"big\" style=\"margin-left:0px;\"\
+      >\r\n\t\t\t\t\t\t<big><strong><a href=\"/products/laptops/HUMBOLDT/\">eRacks/HUMBOLDT</a></strong></big></div>\r\
+      \n\t\t\t\t\t<div class=\"small\">\r\n\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t<li>\r\
+      \n\t\t\t\t\t\t\t\tPowerful, yet affordable Linux-based laptop</li>\r\n\t\t\t\
+      \t\t\t\t<li>\r\n\t\t\t\t\t\t\t\tSager hardware, with your choice of OS, including\
+      \ Dual Boot option</li>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\tNVIDIA GeForce\
+      \ GTX 660M GPU with 2GB GDDR5 memory</li>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\
+      \t\t\tIntel&reg; Core<sup>TM</sup> i5-3210M (2.50GHz) CPU</li>\r\n\t\t\t\t\t\
+      \t\t<li>\r\n\t\t\t\t\t\t\t\tSupports one optical drive and two hard drives and/or\
+      \ mSATA SSD</li>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\tSupports hardware\
+      \ RAID</li>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\tPremium THX TruStudio Pro\
+      \ sound system</li>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\tLong battery life</li>\r\
+      \n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\t17.3&quot; (16:9) HD+ (1600x900) LED-Backlit\
+      \ Display</li>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\t9-in-1 Card Reader</li>\r\
+      \n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\tMedia: 8xDVDRW or BluRay optical drive</li>\r\
+      \n\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t<img alt=\"\" border=\"\
+      0\" height=\"75\" src=\"/images/categories/laptops/i5_102.jpeg\" title=\"Intel\
+      \ Core i5\" width=\"102\" /></p>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</td>\r\n\t\t\
+      \t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t<td colspan=\"2\">\r\n\t\t\t\t\t<hr width=\"\
+      75%\" />\r\n\t\t\t\t\t<p>\r\n\t\t\t\t\t\t&nbsp;</p>\r\n\t\t\t\t</td>\r\n\t\t\
+      \t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t<td align=\"left\" valign=\"top\" width=\"\
+      50%\">\r\n\t\t\t\t\t<div class=\"big\" style=\"margin-left:100px;\">\r\n\t\t\
+      \t\t\t\t<a href=\"/products/laptops/ADELIE/\">eRacks/ADELIE</a></div>\r\n\t\t\
+      \t\t\t<div class=\"xsmall\" style=\"margin-left:100px;\">\r\n\t\t\t\t\t\t<i>starting\
+      \ at $995</i></div>\r\n\t\t\t\t\t<div style=\"margin-right:50px; margin-top:0px;\"\
+      >\r\n\t\t\t\t\t\t<a href=\"/products/laptops/ADELIE/\"><img alt=\"\" border=\"\
+      0\" height=\"385\" src=\"/images/categories/laptops/adelie_400.jpeg\" title=\"\
+      eRacks/ADELIE\" width=\"400\" /></a></div>\r\n\t\t\t\t</td>\r\n\t\t\t\t<td align=\"\
+      left\" valign=\"top\">\r\n\t\t\t\t\t<div class=\"big\" style=\"margin-left:0px;\"\
+      >\r\n\t\t\t\t\t\t<big><strong><a href=\"/products/laptops/ADELIE/\">eRacks/ADELIE</a></strong></big></div>\r\
+      \n\t\t\t\t\t<div class=\"small\">\r\n\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t<li>\r\
+      \n\t\t\t\t\t\t\t\tIdeal all-purpose Linux-based laptop</li>\r\n\t\t\t\t\t\t\t\
+      <li>\r\n\t\t\t\t\t\t\t\tSager hardware, with your choice of OS, including Dual\
+      \ Boot option</li>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\tIntel\u017D GMA\
+      \ HD, Intel\u017D Dynamic Video Memory Technology up to 1.7GB</li>\r\n\t\t\t\
+      \t\t\t\t<li>\r\n\t\t\t\t\t\t\t\tIntel&reg; Core<sup>TM</sup> i5-2450M (2.50GHz)\
+      \ CPU</li>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\tSupports one hard drive\
+      \ and/or mSATA SSD</li>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\tHigh Definition\
+      \ audio interface</li>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\t14&quot; (16:9)\
+      \ HD (1366x768) LED-Backlit Display</li>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\
+      \t\t\t9-in-1 Card Reader</li>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\tMedia:\
+      \ 8xDVDRW or BluRay optical drive</li>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\
+      \t\tWeight: 4.85 LBs with Battery Pack</li>\r\n\t\t\t\t\t\t</ul>\r\n\t\t\t\t\
+      \t\t<p>\r\n\t\t\t\t\t\t\t<img alt=\"\" border=\"0\" height=\"75\" src=\"/images/categories/laptops/i5_102.jpeg\"\
+      \ title=\"Intel Core i5\" width=\"102\" /></p>\r\n\t\t\t\t\t</div>\r\n\t\t\t\
+      \t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t<td colspan=\"2\">\r\n\t\t\t\
+      \t\t<hr width=\"75%\" />\r\n\t\t\t\t\t<p>\r\n\t\t\t\t\t\t&nbsp;</p>\r\n\t\t\t\
+      \t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t<td align=\"left\" valign=\"\
+      top\" width=\"50%\">\r\n\t\t\t\t\t<div class=\"big\" style=\"margin-left:100px;\"\
+      >\r\n\t\t\t\t\t\t<a href=\"/products/laptops/Accessories/\">eRacks/Accessories</a></div>\r\
+      \n\t\t\t\t\t<div style=\"margin-left:150px; margin-top:0px;\">\r\n\t\t\t\t\t\
+      \t<a href=\"/products/laptops/Accessories/\"><img alt=\"\" border=\"0\" height=\"\
+      200\" src=\"/images/categories/laptops/accessories_200.jpeg\" title=\"eRacks/Accessories\"\
+      \ width=\"200\" /></a></div>\r\n\t\t\t\t</td>\r\n\t\t\t\t<td align=\"left\"\
+      \ valign=\"top\">\r\n\t\t\t\t\t<div class=\"big\">\r\n\t\t\t\t\t\t<big><strong><a\
+      \ href=\"/products/laptops/Accessories/\">eRacks/Accessories</a></strong></big>\r\
+      \n\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\t&nbsp;</li>\r\n\t\
+      \t\t\t\t\t</ul>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t<li class=\"\
+      small\">\r\n\t\t\t\t\t\t\tBackpacks / Carrying cases / Neoprene sleeves</li>\r\
+      \n\t\t\t\t\t\t<li class=\"small\">\r\n\t\t\t\t\t\t\tWireless Routers</li>\r\n\
+      \t\t\t\t\t\t<li class=\"small\">\r\n\t\t\t\t\t\t\tExtra batteries, AC adaptors,\
+      \ car adaptors</li>\r\n\t\t\t\t\t\t<li class=\"small\">\r\n\t\t\t\t\t\t\tNotebook\
+      \ Security Lock</li>\r\n\t\t\t\t\t\t<li class=\"small\">\r\n\t\t\t\t\t\t\tNotebook\
+      \ Cooler, Notebook stand</li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t</td>\r\n\t\t\t\
+      </tr>\r\n\t\t</tbody>\r\n\t</table>\r\n</center>\r\n<p>\r\n\t&nbsp;</p>\r\n\
+      <div class=\"small\">\r\n\teRacks offers custom configurations. Email <a href=\"\
+      mailto:info@eracks.com\">info@eracks.com</a> for more information. eRacks also\
+      \ offers network consulting and open source migration services.</div>\r\n"
+    image: ''
+    images: []
+    name: Laptops
+    published: true
+    slug: laptops
+    sortorder: 160
+    title: Preconfigured Linux Laptops & notebooks
+    updated: 2012-11-07 22:19:48.565653
+  model: products.categories
+  pk: 18787
+- fields:
+    blurb: ''
+    comments: '
+
+
+      Scraped from Zope as of 2012-03-31
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-10-14
+
+
+      Scraped from Zope as of 2012-11-04'
+    created: 2006-01-24 20:00:16.028142
+    description: "\n<!-- now content page goes in this cell--> \n\n\n\n\t\n<div class=\"\
+      xbig\">\n\_eRacks Netbooks: \n</div><p>\n\n</p><div class=\"small\">\n\n<div\
+      \ style=\"float:right; margin-right:10px;margin-left:10px;\">\n<br/>\n<img src=\"\
+      /images/categories/netbooks/intel_atom_100.jpeg\" title=\"\" alt=\"\" border=\"\
+      0\" width=\"100\" height=\"124\"/></div>\n\nYes, eRacks sells Linux Netbooks!\
+      \  \_Netbooks are significantly smaller and more portable than Laptops. Optical\
+      \ drives are available as USB external, \nmaking these Netbooks very lightweight\
+      \ and small.  \n<p>\nEach Netbook is custom configured \nwith your choice of\
+      \ operating system, including  \n<a href=\"http://ubuntu.com\">Ubuntu</a> Linux\
+      \ or <a href=\"http://fedoraproject.org\">Fedora\xAE</a> Linux. \n\_ Dual Boot\
+      \ configuration is available on request. \_\nDon't forget to <a href=\"http://eracks.com/products/External%20Storage%20-%20DAS\"\
+      >backup</a> your work!\n</p></div><br/>\n<center>\n<img src=\"/images/categories/netbooks/ubuntu.png\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"210\" height=\"62\"/>\_\_\n<img src=\"\
+      /images/categories/netbooks/fedora.png\" title=\"\" alt=\"\" border=\"0\" width=\"\
+      180\" height=\"64\"/>\n</center>\n\n\n\n<br/>\n<table cellpadding=\"5\" border=\"\
+      0\" cellspacing=\"0\"><tbody><tr><td>\n\n<table cellpadding=\"5\" border=\"\
+      0\" cellspacing=\"0\">\n\n<tbody><tr>\n<td align=\"center\" valign=\"top\">\n\
+      <div class=\"big\">\n<a href=\"/products/netbooks/NIMBUS/\"><img src=\"/images/categories/netbooks/nimbus_300.jpeg\"\
+      \ title=\"eRacks/NIMBUS\" alt=\"\" border=\"0\" width=\"300\" height=\"300\"\
+      /></a>\n\n<p>\n</p></div></td>\n\n<td>\n<div class=\"big\">\n<a href=\"/products/netbooks/NIMBUS/\"\
+      >eRacks/NIMBUS</a>\n</div><br/>\n<div class=\"small\">\n<i><b> Starting at $540</b></i><br/>\n\
+      Asus Eee PC 1215N<br/>\nIntel\u017D Atom<sup>TM</sup> D525 Dual Core processor<br/>\n\
+      12.1 inches, 1366 x 768 pixels <br/>\n250GB Hard Drive<br/> \nWeight: 3.22 lbs<br/>\n\
+      11.7 x 8.2 x 1.3 inch<br/>\n</div>\n</td>\n</tr>\n\n\n<!-- tr>\n<td align=\"\
+      center\" valign=\"top\">\n<div class=\"big\">\n<a href=\"config?sku=CUMULUS&amp;session=31003113439216163\"\
+      ><img src=\"http://eracks.com/products/Netbooks/CUMULUS_photos/L2100_8_300\"\
+      \ alt=\"\" title=\"eRacks/CUMULUS\" height=\"293\" width=\"300\" border=\"0\"\
+      ></a>\n\n<p>\n</td>\n\n<td>\n<div class=\"big\">\n<a href=\"config?sku=CUMULUS&amp;session=31003113439216163\"\
+      >eRacks/CUMULUS</a>\n</div><br>\n<div class=\"small\">\n<i><b> Starting at $485</b></i><br>\n\
+      MSI U230-40US Netbook<br>\nAMD Athlon Neo X2 L335 Processor, 1.60GHz<br>\n12.1\
+      \ inches, 1366 x 768 pixels <br>\n320GB Hard Drive<br> \nWeight: 3.3 lbs,  6-cell\
+      \ battery<br>\n11.71 x 7.49 x 1.22 inch<br>\n</div>\n</td>\n</tr --->\n\n<tr>\n\
+      \n<td width=\"50%\" align=\"center\" valign=\"top\">\n<a href=\"/products/netbooks/STRATUS/\"\
+      ><img src=\"/images/categories/netbooks/asusx101red_300.jpeg\" title=\"eRacks/STRATUS\"\
+      \ alt=\"\" border=\"0\" width=\"300\" height=\"259\"/></a>\n\n</td>\n\n<td width=\"\
+      50%\">\n<div class=\"big\">\n<a href=\"/products/netbooks/STRATUS/\">eRacks/STRATUS</a>\n\
+      </div><br/>\n\n<div class=\"small\"><i><b>starting at $320</b></i>\n<br/>\n\
+      Asus X101Eee PC<br/>\nIntel\xAE Atom 1.66GHz CPU<br/>\nMeego (option Ubuntu\
+      \ Linux or other OS)<br/>\n8GB SSD + 2GB Dropbox Storage<br/>\n10 inch, 1024\
+      \ x 600 display<br/>\nMicro SD Card Reader, WebCam<br/> \nWeight: 0.92 Kgs,\
+      \ with 3-cell battery<br/>\nSize: 262 x 180 x 17.6 mm (WxDxH<br/>\n</div>\n\
+      </td>\n</tr>\n\n\n<tr>\n<td align=\"center\" valign=\"top\">\n\n<a href=\"/products/netbooks/CIRRUS/\"\
+      ><img src=\"/images/categories/netbooks/eee1005ha_3_300.jpeg\" title=\"eRacks/CIRRUS\"\
+      \ alt=\"\" border=\"0\" width=\"300\" height=\"300\"/></a>\n<br/>\n\n</td>\n\
+      <td>\n<div class=\"big\">\n<a href=\"/products/netbooks/CIRRUS/\">eRacks/CIRRUS</a>\n\
+      </div><br/>\n\n<div class=\"small\"><i><b>starting at $315</b></i><br/>\n\n\
+      Asus Eee PC 1005HA Seashell 10.1in<br/>\nIntel\xAE Atom 1.6GHz CPU<br/>\nUbuntu\
+      \ Linux or other OS<br/>\n160GB SATA HD, WebCam<br/> \nWeight:2.42 lbs, 6-cell\
+      \ battery option<br/>\nSize: 10.31 x 7.01 x 1.01-1.44 inch<br/>\n</div>\n</td>\n\
+      </tr>\n<tr>\n\n<td align=\"center\" valign=\"top\"><p>\n<a href=\"/products/netbooks/Accessories/\"\
+      ><img src=\"/images/categories/netbooks/accessories_200.jpeg\" title=\"eRacks/Accessories\"\
+      \ alt=\"\" border=\"0\" width=\"200\" height=\"200\"/></a>\n\n</p></td>\n<td>\n\
+      <div class=\"big\">\n<a href=\"/products/netbooks/Accessories/\">eRacks/Accessories</a>\n\
+      </div><br/>\n\n<div class=\"small\">\nBackpacks / Carrying cases / Neoprene\
+      \ sleeves<br/>\nWireless Routers<br/>\nExtra batteries, AC adaptors, car adaptors<br/>\n\
+      Notebook Security Lock<br/> \nNotebook Cooler, Notebook stand<br/>\n</div>\n\
+      </td>\n</tr>\n</tbody></table>\n\n</td><td valign=\"top\">\n<div style=\"float:right;\
+      \ margin-right:10px;margin-left:10px;\">\n<p>\n<img src=\"/images/categories/netbooks/uncompromisingmobility.png\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"350\" height=\"145\"/>\n\n</p><p>\n\
+      <img src=\"/images/categories/netbooks/eee_pc_women_350.jpeg\" title=\"\" alt=\"\
+      \" border=\"0\" width=\"350\" height=\"261\"/>\n</p><p>\_</p><p>\n<img src=\"\
+      /images/categories/netbooks/netbook_group.jpeg\" title=\"\" alt=\"\" border=\"\
+      0\" width=\"350\" height=\"325\"/>\n</p><p>\n\n</p></div>\n</td></tr></tbody></table>\n\
+      \n\n\n<p>\n</p><div class=\"small\">\neRacks offers custom configurations. Email\
+      \ <a href=\"mailto:info@eracks.com\">info@eracks.com</a> for more information.\
+      \ \neRacks also offers network consulting and open source migration services.\n\
+      </div>\n\n\n\n"
+    image: ''
+    images: []
+    name: Netbooks
+    published: true
+    slug: netbooks
+    sortorder: 160
+    title: Linux Netbooks! Ubuntu,  Fedora  - Dual Boot available!
+    updated: 2012-11-04 19:43:02.569737
+  model: products.categories
+  pk: 41479
+- fields:
+    blurb: ''
+    comments: "\r\nScraped from Zope as of 2012-03-31\r\n\r\nScraped from Zope as\
+      \ of 2012-04-26\r\n\r\nScraped from Zope as of 2012-04-26\r\n\r\nScraped from\
+      \ Zope as of 2012-04-26\r\n\r\nScraped from Zope as of 2012-04-27\r\n\r\nScraped\
+      \ from Zope as of 2012-04-27\r\n\r\nScraped from Zope as of 2012-10-14\r\n\r\
+      \nScraped from Zope as of 2012-11-04"
+    created: 2001-01-08 00:00:00
+    description: "<!-- now content page goes in this cell-->\r\n<center>\r\n\t<table\
+      \ border=\"0\" cellpadding=\"8\" cellspacing=\"0\" width=\"95%\">\r\n\t\t<tbody>\r\
+      \n\t\t\t<tr>\r\n\t\t\t\t<td align=\"left\">\r\n\t\t\t\t\t<font color=\"#000000\"\
+      \ face=\"geneva,verdana,helvetica,sans-serif\" size=\"5\">eRacks Racks and Hardware:\
+      \ </font><!-- End Heading --></td>\r\n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t\
+      <td>\r\n\t\t\t\t\t<p>\r\n\t\t\t\t\t\t<font color=\"#000000\" face=\"geneva,verdana,helvetica,sans-serif\"\
+      \ size=\"4\"><a href=\"/products/racks-and-hardware/railkits/\">eRacks/RailKits</a>\
+      \ </font></p>\r\n\t\t\t\t\t<center>\r\n\t\t\t\t\t\t<a href=\"/products/racks-and-hardware/railkits/\"\
+      ><img alt=\"\" border=\"0\" height=\"118\" src=\"/images/categories/racks-and-hardware/railkit20.jpeg\"\
+      \ title=\"Sliding Rail kit\" width=\"250\" /></a></center>\r\n\t\t\t\t\t<!--$55\r\
+      \n per pair (20-26&quot; depth).-->\r\n\t\t\t\t\t<p>\r\n\t\t\t\t\t\t&nbsp;</p>\r\
+      \n\t\t\t\t\t<hr width=\"60%\" />\r\n\t\t\t\t\t<p>\r\n\t\t\t\t\t\t&nbsp;</p>\r\
+      \n\t\t\t\t\t<center>\r\n\t\t\t\t\t\t<table bgcolor=\"#ffffff\" border=\"0\"\
+      \ cellpadding=\"4\" cellspacing=\"0\" width=\"98%\">\r\n\t\t\t\t\t\t\t<tbody>\r\
+      \n\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t\t\t<font\
+      \ color=\"#000000\" face=\"geneva,verdana,helvetica,sans-serif\" size=\"4\"\
+      ><a href=\"/products/racks-and-hardware/rackcabinet/\">eRacks/RackCabinet</a>\
+      \ </font><br />\r\n\t\t\t\t\t\t\t\t\t\t<center>\r\n\t\t\t\t\t\t\t\t\t\t\t<a\
+      \ href=\"/products/racks-and-hardware/rackcabinet/\"><img alt=\"\" border=\"\
+      0\" height=\"298\" src=\"/images/categories/racks-and-hardware/rackcabinet_closed.png\"\
+      \ title=\"eRacks/RackCabinet\" width=\"529\" /></a></center>\r\n\t\t\t\t\t\t\
+      \t\t\t</td>\r\n\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t</tbody>\r\n\t\t\t\t\t\
+      \t</table>\r\n\t\t\t\t\t</center>\r\n\t\t\t\t\t<p>\r\n\t\t\t\t\t\t<fontu0003du00022genevau0002cverdanau0002chelveticau0002csans-serifu00022\
+      \ color=\"#000000\" size=\"2\"> Click on the image to enter into shopping area.</fontu0003du00022genevau0002cverdanau0002chelveticau0002csans-serifu00022></p>\r\
+      \n\t\t\t\t\t<p>\r\n\t\t\t\t\t\t<font color=\"#000000\" face=\"geneva,verdana,helvetica,sans-serif\"\
+      \ size=\"3\">Please <a href=\"/contact-us\">Contact eRacks</a> if you would\
+      \ like to know more about eRacks&#39; selection of Racks and other Hardware.\
+      \ </font></p>\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t</tbody>\r\n\t</table>\r\
+      \n</center>\r\n<p>\r\n\t&nbsp;</p>\r\n"
+    image: ''
+    images: []
+    name: Racks and Hardware
+    published: true
+    slug: racks-and-hardware
+    sortorder: 170
+    title: Rack Shelves and Rack Hardware for Rackmount Computers
+    updated: 2012-11-04 20:03:33.316252
+  model: products.categories
+  pk: 6
+- fields:
+    blurb: ''
+    comments: "Scraped from Zope as of 2012-03-31\r\n\r\nScraped from Zope as of 2012-04-26\r\
+      \n\r\nScraped from Zope as of 2012-04-26\r\n\r\nScraped from Zope as of 2012-04-26\r\
+      \n\r\nScraped from Zope as of 2012-04-27\r\n\r\nScraped from Zope as of 2012-04-27\r\
+      \n\r\nScraped from Zope as of 2012-10-14\r\n\r\nScraped from Zope as of 2012-11-04"
+    created: 2001-01-29 00:00:00
+    description: "<!-- now content page goes in this cell-->\r\n<div class=\"xbig\"\
+      >\r\n\teRacks Rackmount Monitors:\r\n\t<p>\r\n\t\t&nbsp;</p>\r\n</div>\r\n<div\
+      \ class=\"small\">\r\n\teRacks offers rackmountable monitor/keyboard/KVM switches,\
+      \ as well as 4U and 6U rackmountable LCD panels.\r\n\t<p>\r\n\t\t&nbsp;</p>\r\
+      \n</div>\r\n<table border=\"0\" cellpadding=\"2\" cellspacing=\"3\" width=\"\
+      604\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td align=\"center\" valign=\"center\"\
+      \ width=\"150\">\r\n\t\t\t\t<font color=\"#000000\" face=\"geneva,helvetica,sans-serif\"\
+      \ size=\"2\"><b><font size=\"4\"><a href=\"/products/monitors/LCDKBD/\">eRacks/LCDKBD</a>\
+      \ &nbsp;KVM</font></b><br />\r\n\t\t\t\tTouchpad mouse / keyboard<br />\r\n\t\
+      \t\t\t1024 x 768<br />\r\n\t\t\t\t15.0&quot; LCD<br />\r\n\t\t\t\t8-port KVM\
+      \ switch</font></td>\r\n\t\t\t<td>\r\n\t\t\t\t<a href=\"/products/monitors/LCDKBD/\"\
+      ><img alt=\"\" border=\"0\" height=\"326\" src=\"/images/categories/monitors/lcdkbdt_open.jpeg\"\
+      \ title=\"eRacks/LCDKBD\" width=\"400\" /></a>\r\n\t\t\t\t<p>\r\n\t\t\t\t\t\
+      &nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td align=\"center\"\
+      \ valign=\"center\" width=\"150\">\r\n\t\t\t\t<br />\r\n\t\t\t\t<font color=\"\
+      #000000\" face=\"geneva,helvetica,sans-serif\" size=\"2\"><b><font size=\"4\"\
+      ><a href=\"/products/monitors/LCD4U/\">eRacks/LCD4U</a> </font></b><br />\r\n\
+      \t\t\t\tRackmountable 10.4 inch TFT display that takes up 4U of rack space.</font></td>\r\
+      \n\t\t\t<td>\r\n\t\t\t\t<a href=\"/products/monitors/LCD4U/\"><img alt=\"\"\
+      \ border=\"0\" height=\"176\" src=\"/images/categories/monitors/lcd4u_300.jpeg\"\
+      \ title=\"eRacks/LCD4U\" width=\"300\" /></a>\r\n\t\t\t\t<p>\r\n\t\t\t\t\t&nbsp;</p>\r\
+      \n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td align=\"center\" valign=\"\
+      center\" width=\"150\">\r\n\t\t\t\t<br />\r\n\t\t\t\t<font color=\"#000000\"\
+      \ face=\"geneva,helvetica,sans-serif\" size=\"2\"><b><font size=\"4\"><a href=\"\
+      /products/monitors/LCD6U/\">eRacks/LCD6U</a> </font></b><br />\r\n\t\t\t\tRackmountable\
+      \ 15 inch TFT LCD display that takes up 6U of rack space.</font></td>\r\n\t\t\
+      \t<td>\r\n\t\t\t\t<a href=\"/products/monitors/LCD6U/\"><img alt=\"\" border=\"\
+      0\" height=\"188\" src=\"/images/categories/monitors/lcd6u_300.jpeg\" title=\"\
+      eRacks/LCD6U\" width=\"300\" /></a>\r\n\t\t\t\t<p>\r\n\t\t\t\t\t&nbsp;</p>\r\
+      \n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n<p>\r\n\t<font color=\"\
+      #000000\" face=\"geneva,helvetica,sans-serif\" size=\"3\">Please <a href=\"\
+      /contact-us\">contact us</a> if you would like to know more about eRacks&#39;\
+      \ selection of Monitors and Accessories. </font></p>\r\n"
+    image: ''
+    images: []
+    name: Monitors
+    published: true
+    slug: monitors
+    sortorder: 180
+    title: 1U Rackmount LCD Monitor and keyboard
+    updated: 2012-11-04 19:57:54.805886
+  model: products.categories
+  pk: 1022
+- fields:
+    blurb: ''
+    comments: '
+
+
+      Scraped from Zope as of 2012-03-31
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-10-14
+
+
+      Scraped from Zope as of 2012-11-04'
+    created: 0001-01-01 00:00:00
+    description: "\n<!-- now content page goes in this cell--> \n\n\n\n\n\n\n\n<div\
+      \ class=\"xbig\">\neRacks Custom Rackmount Servers: <p/><p>\n</p></div>\n\n\n\
+      <div style=\"float:right; margin: 0 0 5px 5px;\">\n<p>\n<img src=\"/images/categories/custom-design/custom3.jpeg\"\
+      \ title=\"\" alt=\"\" border=\"0\" width=\"200\" height=\"193\"/><br/>\n<img\
+      \ src=\"/images/categories/custom-design/custom4.jpeg\" title=\"\" alt=\"\"\
+      \ border=\"0\" width=\"200\" height=\"193\"/><br/>\n</p></div>\n\n\n<div class=\"\
+      small\">\neRacks Open Source Systems' specialty is custom-built rackmount servers\
+      \ configured with open source software. \neRacks' system designers choose only\
+      \ high-quality easily-upgradeable components and ensure hardware compatibility\
+      \ \nwith the operating system of your choice, saving you time and frustration.<p>\n\
+      \nCall or email us with your desired configuration, requirements, and/or restrictions,\
+      \ and we'll \nput together a workable configuration and price quote for you.\
+      \ \n\n</p><p>\n</p><hr/><p>\nIf you have received an emailed eRacks Quote on\
+      \ your custom configuration, you may place your order \nonline via the \n<font\
+      \ color=\"#003399\" size=\"3\" face=\"arial,helvetica,sans-serif\">\n<b><a href=\"\
+      /products/custom-design/QUOTE/\">eRacks/QUOTE</a>\n</b></font> form.\n\n\n</p><p/><hr/><p>If\
+      \ you have received a passworded <b>online</b> adjustable quote, \nclick to\
+      \ view your \n<b><a href=\"http://eracks.com/products/Custom%20Design/userquotes?session=31003113439216163\"\
+      >passworded online quote</a>\n</b>.\n\n</p><p/><hr/><p>Please direct any questions\
+      \ or quote requests to \n<a href=\"mailto:info@eracks.com\">info@eracks.com</a>\n\
+      </p></div>\n\n"
+    image: ''
+    images: []
+    name: Custom Design
+    published: true
+    slug: custom-design
+    sortorder: 190
+    title: Custom Design Rackmount Computer Systems
+    updated: 2012-11-04 19:43:04.282967
+  model: products.categories
+  pk: 3763
+- fields:
+    blurb: ''
+    comments: '
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-26
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-04-27
+
+
+      Scraped from Zope as of 2012-10-14
+
+
+      Scraped from Zope as of 2012-11-04'
+    created: 2006-09-03 20:00:16
+    description: "\n<!-- now content page goes in this cell--> \n\n\n<!-- Begin Heading\
+      \ --><p>\n<font color=\"#000000\" size=\"5\" face=\"geneva,verdana,helvetica,sans-serif\"\
+      >\n eRacks Legacy Systems: \n</font>\n<!-- End Heading -->\t\t\t\n\t\t\t\t\t\
+      \t\t\n</p><table cellpadding=\"0\" width=\"100%\" border=\"0\" cellspacing=\"\
+      0\">\n<tbody><tr>\n<td width=\"100%\">\n <font size=\"2\" face=\"verdana,helvetica,sans-serif\"\
+      >\n  These are generally discontinued models that may still be available in\
+      \ limited quantities. Please email or call eRacks for more \ninformation on\
+      \ these systems.<p>\n\n<b><a href=\"/products/legacy-systems/nserve/\">eRacks/NSERVE</a></b>\
+      \ - 2U Intel\u017D Quad-Core/Six-Core Xeon Nehalem processor, 5500 series, 3\
+      \ hotswap drives.</p><p>\n<b><a href=\"/products/legacy-systems/pfour/\">eRacks/PFOUR</a></b>\
+      \ - Standard 1U rackmount with Pentium4 CPU.</p><p>\n\n<b><a href=\"/products/legacy-systems/nas/\"\
+      >eRacks/NAS</a></b> - Network Attached Storage.</p><p>\n<b><a href=\"/products/legacy-systems/centrino/\"\
+      >eRacks/CENTRINO</a></b> - Basic Centrino laptop.</p><p>\n<b><a href=\"/products/legacy-systems/express/\"\
+      >eRacks/EXPRESS</a></b> - fashionable full-featured laptop</p><p>\n<b><a href=\"\
+      /products/legacy-systems/focus/\">eRacks/FOCUS</a></b> - High-performance AMD64\
+      \ Quiet Desktop.</p><p>\n<b><a href=\"/products/legacy-systems/subnote/\">eRacks/SUBNOTE</a></b>\
+      \ - Small lightweight VIA laptop without CD or floppy.</p><p>\n<b><a href=\"\
+      /products/legacy-systems/front/\">eRacks/FRONT</a></b> - is a shallow-depth\
+      \ (14\") utility server.</p><p>\n\n\n<b><a href=\"/products/legacy-systems/work/\"\
+      >eRacks/WORK</a></b> - a 1U-height, under-desk mounted \npersonal workstation.</p><p>\n\
+      <b><a href=\"/products/legacy-systems/back/\">eRacks/BACK</a></b> - a 2U-height\
+      \ DAT drive system for back-ups.</p><p>\n\n<b><a href=\"/products/legacy-systems/xpc/\"\
+      >eRacks/XPC</a></b> - CUBE-format desktop workstation.</p><p>\n\n<b><a href=\"\
+      /products/legacy-systems/studio/\">eRacks/STUDIO</a></b> - Digital Audio Workstation\
+      \ with Dual Core CPU.</p></font><p><font size=\"2\" face=\"verdana,helvetica,sans-serif\"\
+      >\n\n\t\t\t\t\t\t</font></p><p/><p>\t\t\t\t\t\n \n\n\n\n\n\n\n\n</p></td></tr></tbody></table>\n"
+    image: ''
+    images: []
+    name: Legacy Systems
+    published: true
+    slug: legacy-systems
+    sortorder: 200
+    title: Legacy Systems
+    updated: 2012-11-04 19:43:04.734544
+  model: products.categories
+  pk: 32556

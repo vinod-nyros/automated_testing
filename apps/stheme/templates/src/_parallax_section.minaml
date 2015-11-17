@@ -1,0 +1,8 @@
+div.parallax-image-2.parallax-section
+    div.w100.parallax-section-overley
+        div.container
+            div.row
+                div.col-sm-12.col-lg-12.col-xs-12.col-md-12
+                    div.clearfix.parallax-content
+                        h1.xlarge style=text-transform:none | Finest rackmounts and hosting since 1999
+                        h5.parallaxSubtitle | Private Cloud Hosting, Development Hosting, Open Source, OpenStack

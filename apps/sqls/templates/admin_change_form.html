@@ -1,0 +1,59 @@
+{% extends "admin/change_form.html" %}
+{# % load i18n admin_modify adminmedia % #}
+
+{% block extrahead %}
+{{ block.super }}
+
+<script type='text/javascript'>
+(function ($) {
+
+$(document).ready (function(){
+  $("#id_description").width (600);
+
+  $("#do_sql").bind ("click", function(e) {
+    // $("#sql_results").load("/do_sql/", { sql: $('#id_sql').text() });
+
+    $.ajax ({
+      url: "/admin/do_sql/",
+      type: "POST",
+      dataType: "html",
+      data: {
+        sql: $('#id_sql')[0].value, /* why do I need the [0]?  .value or .text() should work */
+        parms: [ 
+          $('#id_parm1')[0].value,
+          $('#id_parm2')[0].value,
+          $('#id_parm3')[0].value,
+          $('#id_parm4')[0].value,
+          $('#id_parm5')[0].value,
+        ],
+        //updates: $('#id_updates')[0].value, // 'on' / blank
+        updates: $('#id_updates')[0].checked, // true/false
+      },
+      complete: function(res, status){
+        // If successful, insert the result
+        if ( status == "success" || status == "notmodified" )
+          $("#sql_results").html (res.responseText);
+        // else, inject the HTML into all the matched elements
+        else {
+          rslt = $("<div/>").append (res.responseText).find ('#summary').html();
+          rslt += $("<div/>").append (res.responseText).find ('#traceback').html();
+          //alert (rslt.html());
+          $("#sql_results").html (rslt);
+        }
+      },
+    });
+  });
+});
+
+}) (grp.jQuery);
+</script>
+
+{% endblock %}
+
+
+{% block after_field_sets %}
+
+<input id=do_sql type=button value='Do Sql'>
+<div id=sql_results></div>
+
+{% endblock %}

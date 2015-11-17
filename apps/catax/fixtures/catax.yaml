@@ -1,0 +1,53 @@
+- fields: {cities: 'Acton, Agoura, Agoura Hills, Agua Dulce, Alhambra, Almondale,
+      Alondra, Altadena, Antelope Acres, Arcadia, Arleta, Artesia, Athens, Azusa,
+      Bailey, Baldwin Park, Barrington, Bassett, Bel Air Estates, Bell Gardens, Bell,
+      Bellflower, Beverly Hills, Biola College, Bouquet Canyon, Bradbury, Brents Junction,
+      Brentwood, Burbank, Cabrillo, Calabasas Highlands, Calabasas Park, Calabasas,
+      Canoga Annex, Canoga Park, Canyon Country, Carson, Castaic, Cedar, Century City,
+      Cerritos, Charter Oak, Chatsworth, City of Commerce, City of Industry, City
+      Terrace, Claremont, Cole, Commerce, Compton, Cornell, Covina, Crenshaw, Cudahy,
+      Culver City, Del Sur, Diamond Bar, Downey, Duarte, Eagle Rock, East Los Angeles,
+      East Lynwood, East Rancho Dominguez, East San Pedro, Eastgate, Echo Park, El
+      Segundo, Elizabeth Lake, Encino, Flintridge, Florence, Forest Park, Friendly
+      Valley, Gardena, Glassell Park, Glendale, Glendora, Gorman, Granada Hills, Green
+      Valley, Hacienda Heights, Harbor City, Hawaiian Gardens, Hawthorne, Hazard,
+      Hermosa Beach, Hidden Hills, Highland Park, Hollywood, Honby, Huntington Park,
+      Hyde Park, Industry, Irwindale, Kagel Canyon, L.A. Airport, La Canada- Flintridge,
+      La Crescenta, La Habra Heights, La Mirada, La Puente, La Verne, La Vina, Ladera
+      Heights, Lake Hughes, Lake Los Angeles, Lakeview Terrace, Lakewood, Lancaster,
+      Lang, Lawndale, Lennox, Leona Valley, Lincoln Heights, Littlerock, Llano, Lomita,
+      Long Beach, Longview, Los Angeles, Los Nietos, Lugo, Lynwood, Maclay, Malibu,
+      Manhattan Beach, Mar Vista, Marcelina, Marina Del Rey, Maywood, Mint Canyon,
+      Mission Hills, Moneta, Monrovia, Montebello, Monterey Park, Montrose, Mount
+      Wilson, Naples, Newhall, North Gardena, North Hills, North Hollywood, Northridge,
+      Norwalk, Oban, Olive View, Pacific Palisades, Pacoima, Pallett, Palmdale, Palos
+      Verdes Estates, Palos Verdes/Peninsula, Panorama City, Paramount, Pasadena,
+      Pearblossom, Pearland, Perry, Pinetree, Playa Del Rey, Pomona, Porter Ranch,
+      Portuguese Bend, Pt. Dume, Quartz Hill, Rancho Dominguez, Rancho Palos Verdes,
+      Rancho Park, Ravenna, Redondo Beach, Reseda, Rimpau, Rolling Hills Estates,
+      Rolling Hills, Rose Bowl, Rosemead, Rowland Heights, San Dimas, San Fernando,
+      San Gabriel, San Marino, San Pedro, Santa Clarita, Santa Fe Springs, Saugus,
+      Sawtelle, Seminole Hot Springs, Sepulveda, Sherman Oaks, Sierra Madre, Signal
+      Hill, Sleepy Valley, Solemint, South Pasadena, South Whittier, Stevenson Ranch,
+      Studio City, Sulphur Springs, Sun Valley, Sunland, Sylmar, Tarzana, Temple City,
+      Terminal Island, Toluca Lake, Topanga, Topanga Park, Torrance, Tujunga, Universal
+      City, Val Verde Park, Valencia, Valinda, Valley Village, Valyermo, Van Nuys,
+      Vasquez Rocks, Venice, Verdugo City, Vernon, Veteran''s Hospital, View Park,
+      Vincent, Walnut Park, Walnut, Watts, West Covina, West Hills, West Hollywood,
+      West Los Angeles, Westchester, Westlake, Westlake Village, Westwood, Whittier,
+      Willowbrook, Wilmington, Wilsona Gardens, Windsor Hills, Winnetka, Woodland
+      Hills', count: 242, county: Los Angeles, created: ! '2012-04-11 16:23:54.646110',
+    name: Los Angeles, tax: '8.75', updated: ! '2012-04-11 16:24:48.478351'}
+  model: catax.catax
+  pk: 53595
+- fields: {cities: 'Avalon, El Monte, Inglewood, Santa Monica, South El Monte', count: 5,
+    county: Los Angeles, created: ! '2012-04-11 16:23:54.879532', name: 'Los Angeles
+      (Avalon, El Monte, Inglewood, Santa Monica, South El Monte)', tax: '9.25', updated: ! '2012-04-11
+      16:24:48.682409'}
+  model: catax.catax
+  pk: 53596
+- fields: {cities: 'Pico Rivera, South Gate', count: 2, county: Los Angeles, created: ! '2012-04-11
+      16:23:55.111561', name: 'Los Angeles (Pico Rivera, South Gate)', tax: '9.75',
+    updated: ! '2012-04-11 16:24:48.868376'}
+  model: catax.catax
+  pk: 53597

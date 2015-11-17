@@ -1,0 +1,25 @@
+<table class="configgrid">
+    <thead>
+        <tr>
+            <th title='Hover over option to see more info'>Option</th>
+            <th>Choices</th>
+            <th title='Hover over choice to see more info'>More Info</th>
+            <th title='Additions / subtactions from base price'>Add/Subtract</th>
+            {{ product.prodopts_as_table|safe }}
+        </tr>
+        <tr>
+            <td>
+                Notes
+            </td>
+            <td>
+                <input id="notes" name="notes" placeholder="Enter notes here">
+            </td>
+            <td>
+                Enter notes or custom instructions for this item here
+            </td>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+    </thead>
+</table>

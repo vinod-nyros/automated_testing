@@ -1,0 +1,224 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>migrations Package &mdash; eRacks Django website 10.0alpha documentation</title>
+    
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '10.0alpha',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="eRacks Django website 10.0alpha documentation" href="../index.html" />
+    <link rel="up" title="bloglets Package" href="django_eracks.apps.bloglets.html" />
+    <link rel="next" title="templatetags Package" href="django_eracks.apps.bloglets.templatetags.html" />
+    <link rel="prev" title="bloglets Package" href="django_eracks.apps.bloglets.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="django_eracks.apps.bloglets.templatetags.html" title="templatetags Package"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="django_eracks.apps.bloglets.html" title="bloglets Package"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../index.html">eRacks Django website 10.0alpha documentation</a> &raquo;</li>
+          <li><a href="modules.html" >&lt;no title&gt;</a> &raquo;</li>
+          <li><a href="django_eracks.html" >django_eracks Package</a> &raquo;</li>
+          <li><a href="django_eracks.apps.html" >apps Package</a> &raquo;</li>
+          <li><a href="django_eracks.apps.bloglets.html" accesskey="U">bloglets Package</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="migrations-package">
+<h1>migrations Package<a class="headerlink" href="#migrations-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-django_eracks.apps.bloglets.migrations.0001_initial">
+<span id="initial-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">0001_initial</span></tt> Module<a class="headerlink" href="#module-django_eracks.apps.bloglets.migrations.0001_initial" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="django_eracks.apps.bloglets.migrations.0001_initial.Migration">
+<em class="property">class </em><tt class="descclassname">django_eracks.apps.bloglets.migrations.0001_initial.</tt><tt class="descname">Migration</tt><a class="headerlink" href="#django_eracks.apps.bloglets.migrations.0001_initial.Migration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">south.v2.SchemaMigration</span></tt></p>
+<dl class="method">
+<dt id="django_eracks.apps.bloglets.migrations.0001_initial.Migration.backwards">
+<tt class="descname">backwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.bloglets.migrations.0001_initial.Migration.backwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.bloglets.migrations.0001_initial.Migration.complete_apps">
+<tt class="descname">complete_apps</tt><em class="property"> = ['bloglets']</em><a class="headerlink" href="#django_eracks.apps.bloglets.migrations.0001_initial.Migration.complete_apps" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="django_eracks.apps.bloglets.migrations.0001_initial.Migration.forwards">
+<tt class="descname">forwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.bloglets.migrations.0001_initial.Migration.forwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.bloglets.migrations.0001_initial.Migration.models">
+<tt class="descname">models</tt><em class="property"> = {'auth.user': {'username': ('django.db.models.fields.CharField', [], {'max_length': '30', 'unique': 'True'}), 'last_name': ('django.db.models.fields.CharField', [], {'max_length': '30', 'blank': 'True'}), 'is_active': ('django.db.models.fields.BooleanField', [], {'default': 'True'}), 'is_staff': ('django.db.models.fields.BooleanField', [], {'default': 'False'}), 'groups': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Group']&quot;, 'blank': 'True', 'symmetrical': 'False'}), 'user_permissions': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Permission']&quot;, 'blank': 'True', 'symmetrical': 'False'}), 'password': ('django.db.models.fields.CharField', [], {'max_length': '128'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'date_joined': ('django.db.models.fields.DateTimeField', [], {'default': 'datetime.datetime(2012, 4, 22, 2, 13, 40, 949899)'}), 'first_name': ('django.db.models.fields.CharField', [], {'max_length': '30', 'blank': 'True'}), 'is_superuser': ('django.db.models.fields.BooleanField', [], {'default': 'False'}), 'Meta': {'object_name': 'User'}, 'last_login': ('django.db.models.fields.DateTimeField', [], {'default': 'datetime.datetime(2012, 4, 22, 2, 13, 40, 949810)'}), 'email': ('django.db.models.fields.EmailField', [], {'max_length': '75', 'blank': 'True'})}, 'bloglets.post': {'body': ('django.db.models.fields.TextField', [], {}), 'updated': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'pub_date': ('django.db.models.fields.DateTimeField', [], {}), 'slug': ('django.db.models.fields.SlugField', [], {'max_length': '100', 'unique': 'True', 'db_index': 'True'}), 'categories': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['bloglets.Category']&quot;, 'symmetrical': 'False'}), 'author': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['auth.User']&quot;}), 'title': ('django.db.models.fields.CharField', [], {'max_length': '200'}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'Meta': {'ordering': &quot;['-pub_date']&quot;, 'object_name': 'Post'}, 'published': ('django.db.models.fields.BooleanField', [], {'default': 'True'})}, 'bloglets.category': {'updated': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'title': ('django.db.models.fields.CharField', [], {'max_length': '200'}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'Meta': {'object_name': 'Category'}, 'published': ('django.db.models.fields.BooleanField', [], {'default': 'True'}), 'slug': ('django.db.models.fields.SlugField', [], {'max_length': '100', 'unique': 'True', 'db_index': 'True'})}, 'auth.permission': {'codename': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'Meta': {'ordering': &quot;('content_type__app_label', 'content_type__model', 'codename')&quot;, 'unique_together': &quot;(('content_type', 'codename'),)&quot;, 'object_name': 'Permission'}, 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'content_type': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['contenttypes.ContentType']&quot;}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '50'})}, 'contenttypes.contenttype': {'model': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'Meta': {'ordering': &quot;('name',)&quot;, 'unique_together': &quot;(('app_label', 'model'),)&quot;, 'object_name': 'ContentType', 'db_table': &quot;'django_content_type'&quot;}, 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'app_label': ('django.db.models.fields.CharField', [], {'max_length': '100'})}, 'auth.group': {'permissions': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Permission']&quot;, 'blank': 'True', 'symmetrical': 'False'}), 'Meta': {'object_name': 'Group'}, 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '80', 'unique': 'True'})}}</em><a class="headerlink" href="#django_eracks.apps.bloglets.migrations.0001_initial.Migration.models" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-django_eracks.apps.bloglets.migrations.0002_auto__add_field_post_image">
+<span id="auto-add-field-post-image-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">0002_auto__add_field_post_image</span></tt> Module<a class="headerlink" href="#module-django_eracks.apps.bloglets.migrations.0002_auto__add_field_post_image" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="django_eracks.apps.bloglets.migrations.0002_auto__add_field_post_image.Migration">
+<em class="property">class </em><tt class="descclassname">django_eracks.apps.bloglets.migrations.0002_auto__add_field_post_image.</tt><tt class="descname">Migration</tt><a class="headerlink" href="#django_eracks.apps.bloglets.migrations.0002_auto__add_field_post_image.Migration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">south.v2.SchemaMigration</span></tt></p>
+<dl class="method">
+<dt id="django_eracks.apps.bloglets.migrations.0002_auto__add_field_post_image.Migration.backwards">
+<tt class="descname">backwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.bloglets.migrations.0002_auto__add_field_post_image.Migration.backwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.bloglets.migrations.0002_auto__add_field_post_image.Migration.complete_apps">
+<tt class="descname">complete_apps</tt><em class="property"> = ['bloglets']</em><a class="headerlink" href="#django_eracks.apps.bloglets.migrations.0002_auto__add_field_post_image.Migration.complete_apps" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="django_eracks.apps.bloglets.migrations.0002_auto__add_field_post_image.Migration.forwards">
+<tt class="descname">forwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.bloglets.migrations.0002_auto__add_field_post_image.Migration.forwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.bloglets.migrations.0002_auto__add_field_post_image.Migration.models">
+<tt class="descname">models</tt><em class="property"> = {'auth.user': {'username': ('django.db.models.fields.CharField', [], {'max_length': '30', 'unique': 'True'}), 'last_name': ('django.db.models.fields.CharField', [], {'max_length': '30', 'blank': 'True'}), 'is_active': ('django.db.models.fields.BooleanField', [], {'default': 'True'}), 'is_staff': ('django.db.models.fields.BooleanField', [], {'default': 'False'}), 'groups': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Group']&quot;, 'blank': 'True', 'symmetrical': 'False'}), 'user_permissions': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Permission']&quot;, 'blank': 'True', 'symmetrical': 'False'}), 'password': ('django.db.models.fields.CharField', [], {'max_length': '128'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'date_joined': ('django.db.models.fields.DateTimeField', [], {'default': 'datetime.datetime(2012, 4, 22, 2, 18, 17, 795877)'}), 'first_name': ('django.db.models.fields.CharField', [], {'max_length': '30', 'blank': 'True'}), 'is_superuser': ('django.db.models.fields.BooleanField', [], {'default': 'False'}), 'Meta': {'object_name': 'User'}, 'last_login': ('django.db.models.fields.DateTimeField', [], {'default': 'datetime.datetime(2012, 4, 22, 2, 18, 17, 795692)'}), 'email': ('django.db.models.fields.EmailField', [], {'max_length': '75', 'blank': 'True'})}, 'bloglets.post': {'body': ('django.db.models.fields.TextField', [], {}), 'updated': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'image': ('filebrowser.fields.FileBrowseField', [], {'max_length': '200', 'null': 'True', 'blank': 'True'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'pub_date': ('django.db.models.fields.DateTimeField', [], {}), 'slug': ('django.db.models.fields.SlugField', [], {'max_length': '100', 'unique': 'True', 'db_index': 'True'}), 'categories': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['bloglets.Category']&quot;, 'symmetrical': 'False'}), 'author': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['auth.User']&quot;}), 'title': ('django.db.models.fields.CharField', [], {'max_length': '200'}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'Meta': {'ordering': &quot;['-pub_date']&quot;, 'object_name': 'Post'}, 'published': ('django.db.models.fields.BooleanField', [], {'default': 'True'})}, 'bloglets.category': {'updated': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'title': ('django.db.models.fields.CharField', [], {'max_length': '200'}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'Meta': {'object_name': 'Category'}, 'published': ('django.db.models.fields.BooleanField', [], {'default': 'True'}), 'slug': ('django.db.models.fields.SlugField', [], {'max_length': '100', 'unique': 'True', 'db_index': 'True'})}, 'auth.permission': {'codename': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'Meta': {'ordering': &quot;('content_type__app_label', 'content_type__model', 'codename')&quot;, 'unique_together': &quot;(('content_type', 'codename'),)&quot;, 'object_name': 'Permission'}, 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'content_type': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['contenttypes.ContentType']&quot;}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '50'})}, 'contenttypes.contenttype': {'model': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'Meta': {'ordering': &quot;('name',)&quot;, 'unique_together': &quot;(('app_label', 'model'),)&quot;, 'object_name': 'ContentType', 'db_table': &quot;'django_content_type'&quot;}, 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'app_label': ('django.db.models.fields.CharField', [], {'max_length': '100'})}, 'auth.group': {'permissions': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Permission']&quot;, 'blank': 'True', 'symmetrical': 'False'}), 'Meta': {'object_name': 'Group'}, 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '80', 'unique': 'True'})}}</em><a class="headerlink" href="#django_eracks.apps.bloglets.migrations.0002_auto__add_field_post_image.Migration.models" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-django_eracks.apps.bloglets.migrations.0003_auto__chg_field_post_image">
+<span id="auto-chg-field-post-image-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">0003_auto__chg_field_post_image</span></tt> Module<a class="headerlink" href="#module-django_eracks.apps.bloglets.migrations.0003_auto__chg_field_post_image" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="django_eracks.apps.bloglets.migrations.0003_auto__chg_field_post_image.Migration">
+<em class="property">class </em><tt class="descclassname">django_eracks.apps.bloglets.migrations.0003_auto__chg_field_post_image.</tt><tt class="descname">Migration</tt><a class="headerlink" href="#django_eracks.apps.bloglets.migrations.0003_auto__chg_field_post_image.Migration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">south.v2.SchemaMigration</span></tt></p>
+<dl class="method">
+<dt id="django_eracks.apps.bloglets.migrations.0003_auto__chg_field_post_image.Migration.backwards">
+<tt class="descname">backwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.bloglets.migrations.0003_auto__chg_field_post_image.Migration.backwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.bloglets.migrations.0003_auto__chg_field_post_image.Migration.complete_apps">
+<tt class="descname">complete_apps</tt><em class="property"> = ['bloglets']</em><a class="headerlink" href="#django_eracks.apps.bloglets.migrations.0003_auto__chg_field_post_image.Migration.complete_apps" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="django_eracks.apps.bloglets.migrations.0003_auto__chg_field_post_image.Migration.forwards">
+<tt class="descname">forwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.bloglets.migrations.0003_auto__chg_field_post_image.Migration.forwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.bloglets.migrations.0003_auto__chg_field_post_image.Migration.models">
+<tt class="descname">models</tt><em class="property"> = {'auth.user': {'username': ('django.db.models.fields.CharField', [], {'max_length': '30', 'unique': 'True'}), 'last_name': ('django.db.models.fields.CharField', [], {'max_length': '30', 'blank': 'True'}), 'is_active': ('django.db.models.fields.BooleanField', [], {'default': 'True'}), 'is_staff': ('django.db.models.fields.BooleanField', [], {'default': 'False'}), 'groups': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Group']&quot;, 'blank': 'True', 'symmetrical': 'False'}), 'user_permissions': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Permission']&quot;, 'blank': 'True', 'symmetrical': 'False'}), 'password': ('django.db.models.fields.CharField', [], {'max_length': '128'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'date_joined': ('django.db.models.fields.DateTimeField', [], {'default': 'datetime.datetime(2012, 4, 22, 2, 20, 4, 11918)'}), 'first_name': ('django.db.models.fields.CharField', [], {'max_length': '30', 'blank': 'True'}), 'is_superuser': ('django.db.models.fields.BooleanField', [], {'default': 'False'}), 'Meta': {'object_name': 'User'}, 'last_login': ('django.db.models.fields.DateTimeField', [], {'default': 'datetime.datetime(2012, 4, 22, 2, 20, 4, 11737)'}), 'email': ('django.db.models.fields.EmailField', [], {'max_length': '75', 'blank': 'True'})}, 'bloglets.post': {'body': ('django.db.models.fields.TextField', [], {}), 'updated': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'image': ('filebrowser.fields.FileBrowseField', [], {'max_length': '200'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'pub_date': ('django.db.models.fields.DateTimeField', [], {}), 'slug': ('django.db.models.fields.SlugField', [], {'max_length': '100', 'unique': 'True', 'db_index': 'True'}), 'categories': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['bloglets.Category']&quot;, 'symmetrical': 'False'}), 'author': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['auth.User']&quot;}), 'title': ('django.db.models.fields.CharField', [], {'max_length': '200'}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'Meta': {'ordering': &quot;['-pub_date']&quot;, 'object_name': 'Post'}, 'published': ('django.db.models.fields.BooleanField', [], {'default': 'True'})}, 'bloglets.category': {'updated': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'title': ('django.db.models.fields.CharField', [], {'max_length': '200'}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'Meta': {'object_name': 'Category'}, 'published': ('django.db.models.fields.BooleanField', [], {'default': 'True'}), 'slug': ('django.db.models.fields.SlugField', [], {'max_length': '100', 'unique': 'True', 'db_index': 'True'})}, 'auth.permission': {'codename': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'Meta': {'ordering': &quot;('content_type__app_label', 'content_type__model', 'codename')&quot;, 'unique_together': &quot;(('content_type', 'codename'),)&quot;, 'object_name': 'Permission'}, 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'content_type': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['contenttypes.ContentType']&quot;}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '50'})}, 'contenttypes.contenttype': {'model': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'Meta': {'ordering': &quot;('name',)&quot;, 'unique_together': &quot;(('app_label', 'model'),)&quot;, 'object_name': 'ContentType', 'db_table': &quot;'django_content_type'&quot;}, 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'app_label': ('django.db.models.fields.CharField', [], {'max_length': '100'})}, 'auth.group': {'permissions': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Permission']&quot;, 'blank': 'True', 'symmetrical': 'False'}), 'Meta': {'object_name': 'Group'}, 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '80', 'unique': 'True'})}}</em><a class="headerlink" href="#django_eracks.apps.bloglets.migrations.0003_auto__chg_field_post_image.Migration.models" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">migrations Package</a><ul>
+<li><a class="reference internal" href="#module-django_eracks.apps.bloglets.migrations.0001_initial"><tt class="docutils literal"><span class="pre">0001_initial</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-django_eracks.apps.bloglets.migrations.0002_auto__add_field_post_image"><tt class="docutils literal"><span class="pre">0002_auto__add_field_post_image</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-django_eracks.apps.bloglets.migrations.0003_auto__chg_field_post_image"><tt class="docutils literal"><span class="pre">0003_auto__chg_field_post_image</span></tt> Module</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="django_eracks.apps.bloglets.html"
+                        title="previous chapter">bloglets Package</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="django_eracks.apps.bloglets.templatetags.html"
+                        title="next chapter">templatetags Package</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../_sources/apidoc/django_eracks.apps.bloglets.migrations.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="django_eracks.apps.bloglets.templatetags.html" title="templatetags Package"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="django_eracks.apps.bloglets.html" title="bloglets Package"
+             >previous</a> |</li>
+        <li><a href="../index.html">eRacks Django website 10.0alpha documentation</a> &raquo;</li>
+          <li><a href="modules.html" >&lt;no title&gt;</a> &raquo;</li>
+          <li><a href="django_eracks.html" >django_eracks Package</a> &raquo;</li>
+          <li><a href="django_eracks.apps.html" >apps Package</a> &raquo;</li>
+          <li><a href="django_eracks.apps.bloglets.html" >bloglets Package</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, JJW.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+- fields: {blurb: null, created: !!timestamp '2001-01-08 00:00:00', name: Routers
+      and Switches, updated: !!timestamp '2011-07-08 13:24:57.898230'}
+  model: legacy.categories
+  pk: 5
+- fields: {blurb: Single and Multiport Firewall Servers, created: !!timestamp '2001-01-08
+      00:00:00', name: Firewall Servers, updated: !!timestamp '2011-07-08 13:24:57.907678'}
+  model: legacy.categories
+  pk: 1
+- fields: {blurb: 'Music, broadcast, video, radio, tv systems', created: !!timestamp '2010-01-29
+      00:00:00', name: Studio, updated: !!timestamp '2011-07-08 13:24:57.916083'}
+  model: legacy.categories
+  pk: 44304
+- fields: {blurb: null, created: !!timestamp '2001-01-08 00:00:00', name: Racks and
+      Hardware, updated: !!timestamp '2011-07-08 13:24:57.924574'}
+  model: legacy.categories
+  pk: 6
+- fields: {blurb: null, created: !!timestamp '2006-01-24 20:00:16.028142', name: Netbooks,
+    updated: !!timestamp '2011-07-08 13:24:57.932793'}
+  model: legacy.categories
+  pk: 41479
+- fields: {blurb: null, created: !!timestamp '2006-01-03 20:00:16', name: Liquid Cooled,
+    updated: !!timestamp '2011-07-08 13:24:57.940813'}
+  model: legacy.categories
+  pk: 33513
+- fields: {blurb: null, created: !!timestamp '2001-02-09 11:44:15', name: Network
+      Servers, updated: !!timestamp '2011-07-08 13:24:57.949051'}
+  model: legacy.categories
+  pk: 1227
+- fields: {blurb: Storefront and Web Servers, created: !!timestamp '2001-01-08 00:00:00',
+    name: Web Servers, updated: !!timestamp '2011-07-08 13:24:57.957315'}
+  model: legacy.categories
+  pk: 7
+- fields: {blurb: null, created: !!timestamp '0001-01-01 00:00:00', name: Custom Design,
+    updated: !!timestamp '2011-07-08 13:24:57.965549'}
+  model: legacy.categories
+  pk: 3763
+- fields: {blurb: null, created: !!timestamp '2001-01-29 00:00:00', name: Monitors,
+    updated: !!timestamp '2011-07-08 13:24:57.973794'}
+  model: legacy.categories
+  pk: 1022
+- fields: {blurb: null, created: !!timestamp '2002-07-01 00:00:00', name: Intel Systems,
+    updated: !!timestamp '2011-07-08 13:24:57.981800'}
+  model: legacy.categories
+  pk: 14821
+- fields: {blurb: null, created: !!timestamp '0001-01-01 00:00:00', name: Storage
+      Servers - NAS, updated: !!timestamp '2011-07-08 13:24:57.989778'}
+  model: legacy.categories
+  pk: 9529
+- fields: {blurb: null, created: !!timestamp '0001-01-01 00:00:00', name: Desktops,
+    updated: !!timestamp '2011-07-08 13:24:57.997783'}
+  model: legacy.categories
+  pk: 12480
+- fields: {blurb: null, created: !!timestamp '0001-01-01 00:00:00', name: AMD Systems,
+    updated: !!timestamp '2011-07-08 13:24:58.005766'}
+  model: legacy.categories
+  pk: 9531
+- fields: {blurb: null, created: !!timestamp '2001-02-09 11:43:49', name: Small Form
+      Factor, updated: !!timestamp '2011-07-08 13:24:58.016631'}
+  model: legacy.categories
+  pk: 1226
+- fields: {blurb: null, created: !!timestamp '0001-01-01 00:00:00', name: Xeon Systems,
+    updated: !!timestamp '2011-07-08 13:24:58.025267'}
+  model: legacy.categories
+  pk: 16225
+- fields: {blurb: null, created: !!timestamp '0001-01-01 00:00:00', name: Laptops,
+    updated: !!timestamp '2011-07-08 13:24:58.033251'}
+  model: legacy.categories
+  pk: 18787
+- fields: {blurb: null, created: !!timestamp '0001-01-01 00:00:00', name: Handhelds,
+    updated: !!timestamp '2011-07-08 13:24:58.041281'}
+  model: legacy.categories
+  pk: 21720
+- fields: {blurb: null, created: !!timestamp '0001-01-01 00:00:00', name: Opteron
+      Systems, updated: !!timestamp '2011-07-08 13:24:58.049750'}
+  model: legacy.categories
+  pk: 23454
+- fields: {blurb: null, created: !!timestamp '0001-01-01 00:00:00', name: Shallow
+      Depth, updated: !!timestamp '2011-07-08 13:24:58.057753'}
+  model: legacy.categories
+  pk: 15984
+- fields: {blurb: null, created: !!timestamp '0001-01-01 00:00:00', name: Overstock,
+    updated: !!timestamp '2011-07-08 13:24:58.065742'}
+  model: legacy.categories
+  pk: 22006
+- fields: {blurb: null, created: !!timestamp '0001-01-01 00:00:00', name: Memory,
+    updated: !!timestamp '2011-07-08 13:24:58.073733'}
+  model: legacy.categories
+  pk: 30481
+- fields: {blurb: null, created: !!timestamp '2006-09-03 20:00:16', name: Legacy,
+    updated: !!timestamp '2011-07-08 13:24:58.081738'}
+  model: legacy.categories
+  pk: 32556
+- fields: {blurb: Programming and Database Servers, created: !!timestamp '2001-01-08
+      00:00:00', name: Quiet Systems, updated: !!timestamp '2011-07-08 13:24:58.089723'}
+  model: legacy.categories
+  pk: 2
+- fields: {blurb: Small Office / Home Office Servers, created: !!timestamp '2001-01-08
+      00:00:00', name: Virtualization Servers, updated: !!timestamp '2011-07-08 13:24:58.097771'}
+  model: legacy.categories
+  pk: 4
+- fields: {blurb: File Storage Servers, created: !!timestamp '2001-01-08 00:00:00',
+    name: General Purpose, updated: !!timestamp '2011-07-08 13:24:58.106239'}
+  model: legacy.categories
+  pk: 3
+- fields: {blurb: Sans Digital products, created: !!timestamp '2006-01-24 20:00:16.028142',
+    name: External Storage - DAS, updated: !!timestamp '2011-07-08 13:24:58.114719'}
+  model: legacy.categories
+  pk: 42556

@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: $apps_path/orders/templets.yaml at line 53 on 2015-11-09 at 19:41:48 PST(GMT-0800)  #}
+
+
+{% block head_bottom %}
+  <style>
+    /* cart styles */
+    #cartform td, #cartform th {
+      padding:15px;
+    }
+  </style>
+{% endblock %}
+{% block content %}
+  <div class="col-lg-9 col-md-9 col-sm-7">
+    <h1 class="section-title-inner">
+      <span>
+        <i class="glyphicon glyphicon-shopping-cart"></i>
+        Your Cart
+      </span>
+    </h1>
+    <div class="row userInfo">
+      <div class="col-xs-12 col-sm-12">
+        <div class="cartContent w100">
+          {% if content %}
+            <form action="/cart/" method="POST" id="cartform">
+              {{ content|safe }}
+              <div w100 class="cartFooter">
+                <div class="box-footer">
+                  <div class="pull-left">
+                    <a href="/" class="btn btn-default">
+                      <i class="fa fa-arrow-left"></i>
+                      &nbsp; Continue shopping
+                    </a>
+                  </div>
+                  <div class="pull-right">
+                    <button type="submit" name="update" value="UpdateQuantities" title="Update Quantities" class="btn btn-info">
+                      <i class="fa fa-undo"></i>
+                      &nbsp; Update Quantities
+                    </button>
+                  </div>
+                  &nbsp;
+                  <div class="pull-right">
+                    <button type="submit" name="delete" style="margin-right:20px" value="EmptyCart" title="Empty Cart" class="btn btn-default">
+                      <i class="fa fa-trash-o"></i>
+                      &nbsp; Empty Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <br>
+            {% else %}
+            <h3>Your cart is empty!</h3>
+            <h5>
+              <a href="/">Return to shopping</a>
+            </h5>
+            <br>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-5 rightSidebar">
+    <div class="contentBox">
+      <div class="w100 costDetails">
+        <div class="table-block" id="order-detail-content">
+          <a title="checkout" href="/checkout/" style="margin-bottom:20px" class="btn btn-primary btn-lg btn-block">
+            Proceed to checkout &nbsp; <i class="fa fa-arrow-right"></i>
+          </a>
+          <div class="w100 cartMiniTable">
+            <table class="std table" id="cart-summary">
+              {{ summary|safe }}
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

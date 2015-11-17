@@ -1,0 +1,16 @@
+li.navbar-formbox.navbar-right.w100.static-search.search-box
+    form#search-form.navbar-form action=/search/ role=search method=GET
+        div.input-group
+            > input.form-control type=text style="padding:6px 6px" placeholder=Search... name=q
+            div.input-group-btn
+                button.btn-default.btn type=submit style="background-color:lightsteelblue"
+                    i.glyphicon.glyphicon-search style="margin-right:initial;font-size:initial" ||
+  ::comment
+    div style=clear:both
+        ::comment
+            empty
+    div.hide.input-group
+        button.btn.btn-nobg type=button
+            i.fa.fa-search
+                ::comment
+                    empty

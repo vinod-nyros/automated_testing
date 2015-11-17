@@ -1,0 +1,56 @@
+::comment
+  TODO: merge owl-slider stanzas in general decs here, into 'obdject' - either it's own .yaml, homepage.yaml, or into general decs
+
+.relative.show-case-wrapper.center-block.col-sm-11
+  noscript
+    %with FeaturedImage_objects.all|random as i
+      .product-slide
+        .col-sm-8.product-slide-left
+          a.product-slide-img href="{{ i.link }}" title="{{ i.title }}"
+            > img.img-responsive alt="{{ i.image }}" src='{{ i.image }}'
+        .col-sm-4
+          .product-slide-inner
+            h3 |= i.title|safe
+            p.details-description
+              = i.caption|safe
+            %if i.product
+              h2.product-code |= i.product.name
+              .product-price
+                starting at $
+                =i.product.baseprice
+            a.btn.btn-primary.btn-stroke-dark.btn-lg title="Configure" href="#"
+              i.glyphicon.glyphicon-shopping-cart ||
+              Configure Now
+
+  .owl-carousel.owl-theme#productShowCase
+    % for i in FeaturedImage_objects.all
+      .product-slide
+        .col-sm-8.product-slide-left
+          a.product-slide-img href="{{ i.link }}" title="{{ i.title }}"
+            > img.img-responsive alt="{{ i.image }}" src='{{ i.image }}'
+        .col-sm-4
+          .product-slide-inner
+            h3 |= i.title|safe
+            p.details-description
+              = i.caption|safe
+            %if i.product
+              h2.product-code |= i.product.name
+              .product-price
+                starting at $
+                =i.product.baseprice
+            a.btn.btn-primary.btn-stroke-dark.btn-lg title="Configure" href="#"
+              i.glyphicon.glyphicon-shopping-cart ||
+              Configure Now
+
+  div style=clear:both ||
+
+  noscript
+    a.ps-nav#ps-next href=/
+      i.fa.fa-angle-right ||
+    a.ps-nav#ps-prev href=/
+      i.fa.fa-angle-left ||
+
+  a.ps-nav.jsonly#ps-next
+    i.fa.fa-angle-right ||
+  a.ps-nav.jsonly#ps-prev
+    i.fa.fa-angle-left ||

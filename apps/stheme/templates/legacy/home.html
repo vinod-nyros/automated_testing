@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: theme-legacy.yaml at line 956 on 2015-11-09 at 19:41:48 PST(GMT-0800)  #}
+
+
+{% load cache %}
+
+{% block css %}
+    {{ block.super }}
+    <!--[if IE]>
+        <style type="text/css">
+            .timer { display: none !important; }
+            div.caption { background:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);zoom: 1; }
+        </style>
+    <![endif]-->
+{% endblock %}
+
+{% block content %}
+    {{ block.super }}
+
+    {% cache 3600 featured_images_legacy %}
+        <div id="featured">
+            {% for f in featured_images %}
+                {{ f.as_content }}
+            {% endfor %}
+        </div>
+        {% for f in featured_images %}
+            {{ f.as_caption }}
+        {% endfor %}
+    {% endcache %}
+
+    <div class="panel five columns">
+        {{ home_page_text_1 }}
+    </div>
+
+    <div class="panel five columns right">
+        {{ home_page_text_2 }}
+    </div>
+
+    <div class="panel eleven columns">
+        {{ home_page_text_3 }}
+    </div>
+
+    <div class="one column">&nbsp;</div>
+{% endblock %}
+
+{% block js_bottom %}
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#featured').orbit({
+                bullets: true,              // true or false to activate the bullet navigation
+                captions: true,             // 'Captions' are really html overlay
+                directionalNav: false,      // manual advancing directional navs
+                fluid: '305x198',           // half of 610x396
+            });
+        });
+    </script>
+    {{ block.super }}
+
+{% endblock %}

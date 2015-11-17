@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content_row %}
+    <div class="row" id="content_row">
+        <div class="two columns">
+            &nbsp;
+        </div>
+        <div class="eight columns">
+            {% block content %}
+                <h1>
+                    Thank you for your order!
+                </h1>
+                <div class="panel">
+                    {% include "_final_cart.html" %}
+                    <p class="clearfix">
+                        &nbsp;
+                    </p>
+                </div>
+                <br>
+                <h4>
+                    Please print this page for your records.
+                </h4>
+                <p>
+                    An email confirmation has also been sent to
+                    {% firstof order.customer.email order.customer.user.email %}
+                </p>
+            {% endblock %}
+        </div>
+        <div class="two columns">
+            &nbsp;
+        </div>
+    </div>
+{% endblock %}

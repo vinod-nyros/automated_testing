@@ -1,0 +1,9 @@
+3/9/12 JJW
+
+todo:
+delete extraneous sh*t
+use StoneSoup for starters, but lxml too
+
+use new approaches as docced in daily.txt
+
+strings, dicts, lists etc

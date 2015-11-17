@@ -1,0 +1,1000 @@
+ 1063  syndaemon -i 0.5 -t -R -d
+ 1064  ps ax |grep syndaemon
+ 1065  cd /etc
+ 1066  grep -ri syndaemon
+ 1067  sudo grep -ri syndaemon *
+ 1068  sudo grep -ri syndaemon .
+ 1069  ps ax |grep syndaemon
+ 1070  killall syndaemon
+ 1071  ps ax |grep syndaemon
+ 1072  syndaemon -i 1.0 -t -R -d
+ 1073  mc
+ 1074  locate W9
+ 1075  locate W-9
+ 1076  rm /home/joe/Dropbox/eracks/Sales/Bids/W-9 forms.pdf
+ 1077  rm /home/joe/Dropbox/eracks/Sales/Bids/W-9\ forms.pdf
+ 1078  cat >x 
+ 1079  wc x
+ 1080  wc <
+ 1081  wc 
+ 1082  cd backups/
+ 1083  ls
+ 1084  df -h
+ 1085  du -sh *
+ 1086  sudo su
+ 1087  mc
+ 1088  sydo su
+ 1089  sudo su
+ 1090  apt-get install tree
+ 1091  sudo apt-get install tree
+ 1092  cd eracks10/
+ 1093  svn up
+ 1094  svn help
+ 1095  svn info
+ 1096  svn ls
+ 1097  svn help
+ 1098  svn help info
+ 1099  svn info -
+ 1100  svn info -R
+ 1101  svn help
+ 1102  svn help st
+ 1103  svn help info
+ 1104  svn info --depth 1
+ 1105  svn info --depth 2
+ 1106  svn info --depth immediates
+ 1107  svnadmin 
+ 1108  svnadmin help
+ 1109  svnadmin help lstxns
+ 1110  svnadmin help lslocks
+ 1111  svnlook 
+ 1112  svnlook help
+ 1113  svnlook help info
+ 1114  svnlook help tree
+ 1115  svnlook tree http://osdf.net/eracks9/svn/
+ 1116  svnlook tree http://osdf.net/eracks9/svn
+ 1117  svnlook tree .
+ 1118  svnlook tree 
+ 1119  svnlook tree ./
+ 1120  svnlook tree .svn
+ 1121  cd ..
+ 1122  mkdir eracks10-git
+ 1123  cd eracks10-git/
+ 1124  svn ls  http://osdf.net/eracks9/svn
+ 1125  svn ls  http://osdf.net/eracks9/svn/branches/
+ 1126  svn ls  http://osdf.net/eracks9/svn/tags/
+ 1127  svnversion .
+ 1128  cd ../
+ 1129  cd eracks10
+ 1130  svnversion .
+ 1131  dpkg -l |grep git
+ 1132  dpkg -l |grep git-core
+ 1133  dpkg -l |grep git-svn
+ 1134  dpkg -l |grep ruby
+ 1135  dpkg -l |grep rubygems
+ 1136  gem
+ 1137  sudo gem install svn2git
+ 1138  cd ..
+ 1139  cd eracks10-git/
+ 1140  svn2git http://osdf.net/eracks9/svn/ --rootistrunk
+ 1141  ls -l
+ 1142  ls -la
+ 1143  mc
+ 1144  sudo mc
+ 1145  sshmenu
+ 1146  locate "ID Theft"
+ 1147  rsync -av IMG_2012* /media/joe/My\ Passport/Photos/Aaron/Galaxy_Nexus/2012/ >aaron_photos_copy_042214.log
+ 1148  ls
+ 1149  ls | wc
+ 1150  ifconfig 
+ 1151  netstat -antp
+ 1152  netstat -r
+ 1153  netstat -rn
+ 1154  ping 192.168.12.1
+ 1155  sudo lspci -k | grep -A 3 -i “network”
+ 1156  sudo lspci -k | grep -i “network”
+ 1157  sudo lspci -k
+ 1158  modinfo iwlwifi
+ 1159  modinfo iwlwifi |grep depend
+ 1160  pgrep host
+ 1161  pgrep hostapd
+ 1162  ps ax |grep hostapd
+ 1163  ps ax |grep host
+ 1164  ps ax
+ 1165  sudo mc
+ 1166  mount
+ 1167  sshmenu
+ 1168  mc
+ 1169  ifconfig 
+ 1170  route -l
+ 1171  route -v
+ 1172  mc
+ 1173  jack -?
+ 1174  jack -h
+ 1175  jack --h
+ 1176  jack --help
+ 1177  man jack
+ 1178  jackd --help
+ 1179  man jackd 
+ 1180  pgrep qjack
+ 1181  pgrep jack
+ 1182  pgrep jackd
+ 1183  ps ax |grep jacks
+ 1184  ps ax |grep jackd
+ 1185  kill 18874
+ 1186  ps ax |grep jackd
+ 1187  kill 18874
+ 1188  ps ax |grep jackd
+ 1189  kill 18874
+ 1190  ps ax |grep jackd
+ 1191  kill -9 18874
+ 1192  ps ax |grep jackd
+ 1193  ls -l VirtualMachines/
+ 1194  chmod +r VirtualMachines/Win7.img 
+ 1195  sudo chmod +r VirtualMachines/Win7.img 
+ 1196  ls -l VirtualMachines/
+ 1197  ifconfig 
+ 1198  ifconfig eth0 10.1.1.2 up
+ 1199  sudo ifconfig eth0 10.1.1.2 up
+ 1200  sudo ifconfig eth0 10.1.1.2 netmask 255.255.255.0 up
+ 1201  ping 10.1.1.3
+ 1202  ifconfig 
+ 1203  man rsync
+ 1204  ls -l
+ 1205  cd ..
+ 1206  ls -l
+ 1207  ls -ltr
+ 1208  iwspy 
+ 1209  iwspy wlan0
+ 1210  man iwspy 
+ 1211  ls -ltr
+ 1212  ls -ltra
+ 1213  cd ..
+ 1214  ifconfig 
+ 1215  /etc/init.d/networking restart
+ 1216  /etc/init.d/network-manager restart
+ 1217  /etc/init.d/network-interface-security restart
+ 1218  reboot
+ 1219  ping eracks.com
+ 1220  sshmenu
+ 1221  lsb_release -a
+ 1222  uname -a
+ 1223  cd Dropbox/Bangladesh\ SPEMP/
+ 1224  find . -\name "EFT Crypto*"
+ 1225  mc
+ 1226  ls 
+ 1227  ls *Libre*
+ 1228  ls -l *Libre*
+ 1229  ls -l *ibre*
+ 1230  man wget
+ 1231  wget -c http://donate.libreoffice.org/home/dl/deb-x86_64/4.2.3/en-US/LibreOffice_4.2.3_Linux_x86-64_deb.tar.gz
+ 1232  sudo add-apt-repository ppa:libreoffice/libreoffice-4-2
+ 1233  sudo apt-get update
+ 1234  find . -name "iBAS++ SECURITY Requirements*"
+ 1235  xkill
+ 1236  mc
+ 1237  man mc.ini
+ 1238  man mc
+ 1239  mc
+ 1240  git remote add origin https://github.com/jowolf/eracks11.git
+ 1241  git push -u origin master
+ 1242  grep JJW *
+ 1243  grep -ri JJW *
+ 1244  sudo grep -ri JJW *
+ 1245  sudo grep -ri desq *
+ 1246  ping desqhost.com
+ 1247  echo master: desqhost.com >/etc/salt/minion.d/master.conf
+ 1248  sudo echo master: desqhost.com >/etc/salt/minion.d/master.conf
+ 1249  sudo "echo master: desqhost.com >/etc/salt/minion.d/master.conf"
+ 1250  sudo su -c echo master: desqhost.com >/etc/salt/minion.d/master.conf
+ 1251  man su
+ 1252  sudo su -c - echo master: desqhost.com >/etc/salt/minion.d/master.conf
+ 1253  sudo su -c - "echo master: desqhost.com >/etc/salt/minion.d/master.conf"
+ 1254  sudo su -c "echo master: desqhost.com >/etc/salt/minion.d/master.conf"
+ 1255  ls minion.d/'
+ 1256  ls minion.d/
+ 1257  cat minion.d/master.conf 
+ 1258  salt-minion -l debug
+ 1259  sudo salt-minion -l debug
+ 1260  sudo salt-minion --version
+ 1261  ssh desqhost.com
+ 1262  sudo salt-minion -l debug
+ 1263  sshmenu
+ 1264  host librelinux.com
+ 1265  host libresystems.com
+ 1266  whois libresystems.com
+ 1267  ssh 192.168.1.12
+ 1268  ssh 173.67.92.121
+ 1269  ssh-keygen -f "/home/joe/.ssh/known_hosts" -R 173.67.92.121
+ 1270  ssh 173.67.92.121
+ 1271  ls
+ 1272  df -h
+ 1273  du -sh eracks10
+ 1274  du -sh eracks10-git/
+ 1275  cd eracks10
+ 1276  svn up
+ 1277  svn st
+ 1278  mc
+ 1279  git branch
+ 1280  locate ACS
+ 1281  locate "2014 blank"
+ 1282  locate "2014 Blank"
+ 1283  locate AMy
+ 1284  \
+ 1285  locate Mar 2014
+ 1286  locate "Mar 2014"
+ 1287  locate Mar-14
+ 1288  locate May-14
+ 1289  locate "May-14"
+ 1290  updatedb
+ 1291  sudo updatedb
+ 1292  locate "press release"
+ 1293  locate -i "press release"
+ 1294  locate CONTAINER
+ 1295  locate -i CONTAINER
+ 1296  rsync --version
+ 1297  sudo su
+ 1298  cat /etc/sudoers
+ 1299  sudo cat /etc/sudoers
+ 1300  id
+ 1301  vigr
+ 1302  sudo vigr
+ 1303  man ssh
+ 1304  netstat -antp
+ 1305  man ssh
+ 1306  ssh -D 10.0.3.219:80 192.168.1.12
+ 1307  sudo ssh -D 10.0.3.219:80 192.168.1.12
+ 1308  sudo ssh -D 10.0.3.219:80 joe@192.168.1.12
+ 1309  sudo 
+ 1310  sudo su
+ 1311  sudo ssh -X 192.168.1.12
+ 1312  ssh -X 192.168.1.12
+ 1313  ssh -Y 192.168.1.12
+ 1314  man ssh
+ 1315  ssh -w any 192.168.1.12
+ 1316  sudo ssh -w any 192.168.1.12
+ 1317  sudo ssh -w any joe@192.168.1.12
+ 1318  sudo su
+ 1319  ssh 192.168.1.11
+ 1320  ssh root@192.168.1.11
+ 1321  diff ini ini.bak 
+ 1322  diff ini ini.bak | grep arrows
+ 1323  coffee -?
+ 1324  coffee -h
+ 1325  mkdir test-salt-coffee
+ 1326  cd test-salt-coffee/
+ 1327  touch test-json.coffee
+ 1328  coffee -bc test-json.coffee 
+ 1329  coffee -b -c test-json.coffee 
+ 1330  coffee -c test-json.coffee 
+ 1331  man coffee
+ 1332  mc
+ 1333  sudo salt-minion -l debug
+ 1334  sudo salt-minion --version
+ 1335  sudo salt-minion -l debug
+ 1336  cat .ssh/authorized_keys 
+ 1337  scp .ssh/authorized_keys root@192.168.1.11:/root/.ssh/
+ 1338  sshmenu
+ 1339  sudo ssh -L 80:10.0.3.219:80 joe@173.67.92.121
+ 1340  history > history
+ 1341  sudo ssh -L 80:10.0.3.219:80 joe@173.67.92.121
+ 1342  man ssh
+ 1343  top
+ 1344  do-release-upgrade 
+ 1345  sudo ssh -L 80:10.0.3.219:80 joe@173.67.92.121
+ 1346  gdk-pixbuf-query-loaders > /usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache
+ 1347  sudo gdk-pixbuf-query-loaders > /usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache
+ 1348  sudo su
+ 1349  top
+ 1350  sudo apt-get -f install
+ 1351  sudo apt-get autoremove
+ 1352  sudo apt-get -f install
+ 1353  sudo apt-get update
+ 1354  sudo apt-get -f install
+ 1355  sudo apt-get upgreade
+ 1356  sudo apt-get upgrade
+ 1357  do-release-upgrade 
+ 1358  sudo apt-get updateapt-get asrfgsdfgsdfg
+ 1359  sdfg
+ 1360  sdfgsrg
+ 1361  clear
+ 1362  reset
+ 1363  do-release-upgrade 
+ 1364  sudo su
+ 1365  sudo apt-get update
+ 1366  sudo apt-get -f install
+ 1367  sudo top
+ 1368  sudo apt-get -f install
+ 1369  sudo dpkg --configure -a
+ 1370  sudo apt-get -f install
+ 1371  sudo apt-get autoremove
+ 1372  apt-get update
+ 1373  sudo apt-get update
+ 1374  sudo apt-get upgrade
+ 1375  reboot
+ 1376  sudo reboot
+ 1377  update cd "`printf "%b" '\0057home'`"
+ 1378  cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+ 1379  ls
+ 1380  ls -ltr
+ 1381  mc
+ 1382  sudo su
+ 1383  ls -la .
+ 1384  ks -l .
+ 1385  ls -l .
+ 1386  mkdir xxx
+ 1387  ls -l .
+ 1388  rmdir xxx
+ 1389  ./install.sh 
+ 1390  ls -l
+ 1391  sshmenu
+ 1392  cd /usr/local/bin/
+ 1393  ks
+ 1394  ls
+ 1395  mc
+ 1396  sudo mc
+ 1397  sudo mc
+ 1398  mc
+ 1399  gnome-session-properties 
+ 1400  ./SSHMenu.py 
+ 1401  ls -ltr
+ 1402  pwd
+ 1403  du -sh *
+ 1404  smbmount
+ 1405  man -k smbmount
+ 1406  man smbclient
+ 1407  man mount.fuse 
+ 1408  man fusermount
+ 1409  mount.cifs 
+ 1410  man mount.cifs 
+ 1411  mount.cifs //momsmybooklive/joe /media/joe/
+ 1412  mount.cifs //momsmybooklive/Joe /media/joe/
+ 1413  mount.cifs //MOMSMYBOOKLIVE/Joe /media/joe/
+ 1414  cifs.idmap 
+ 1415  cifs.idmap -h
+ 1416  man cifs.idmap 
+ 1417  cifscreds 
+ 1418  cifs.upcall 
+ 1419  samba-tool 
+ 1420  samba-tool sites list
+ 1421  samba-tool sites 
+ 1422  samba-tool spn
+ 1423  samba-tool spn list
+ 1424  samba-tool spn list joe
+ 1425  samba-tool spn list Joe
+ 1426  samba-tool domain
+ 1427  samba-tool domain list
+ 1428  mount.cifs smb://momsmybooklive/joe /media/joe/
+ 1429  mount.cifs \\\\momsmybooklive\\joe /media/joe/
+ 1430  man mount.cifs 
+ 1431  mount -t cifs //momsmybooklive/Joe /media/joe/ --verbose
+ 1432  mount 
+ 1433  mount -t cifs //momsmybooklive/Joe /media/joe/ --verbose
+ 1434  sudo mount -t cifs //momsmybooklive/Joe /media/joe/ --verbose
+ 1435  sudo mount -t cifs //momsmybooklive/Joe /media/joe/ --verbose -o user=joe
+ 1436  sudo mount -t cifs //momsmybooklive/Joe --verbose -o user=joe /media/joe/
+ 1437  sudo mount -t cifs //192.168.0.8/Joe --verbose -o user=joe /media/joe/
+ 1438  mount
+ 1439  gnome-session-properties 
+ 1440  gnome-control-center
+ 1441  gnome-control-center.real 
+ 1442  locate pre-move
+ 1443  top
+ 1444  killall thunderbird
+ 1445  killall -9 thunderbird
+ 1446  locate NAS72
+ 1447  mc
+ 1448  sudo mc
+ 1449  /usr/local/bin/SSHMenu.py 
+ 1450  kill %1
+ 1451  cd /usr/local/bin/
+ 1452  ./SSHMenu.py 
+ 1453  kill %1
+ 1454  smbtree 
+ 1455  man smbtree 
+ 1456  smbtree -?
+ 1457  smbtree -S
+ 1458  man smbclient 
+ 1459  smbget 
+ 1460  smbclient -I
+ 1461  smbcacls 
+ 1462  smbtree -I
+ 1463  netstat -ant
+ 1464  sudo ./SSHMenu.py 
+ 1465  kill %1
+ 1466  sudo kill %1
+ 1467  sudo "kill %1"
+ 1468  sudo -c kill %1
+ 1469  sudo kill %1
+ 1470  %1
+ 1471  ps ax
+ 1472  ps ax |grep SSH
+ 1473  sudo kill 7970
+ 1474  ps ax |grep SSH
+ 1475  sudo kill -9 7970
+ 1476  ps ax |grep SSH
+ 1477  kill 3590
+ 1478  ssh n192.168.0.8
+ 1479  ssh 192.168.0.8
+ 1480  ssh 192.168.0.7
+ 1481  ./chrome
+ 1482  sudo dpkg-reconfigure google-chrome-stable1~
+ 1483  sudo dpkg-reconfigure google-chrome-stable1
+ 1484  sudo dpkg-reconfigure google-chrome-stable
+ 1485  ./chrome
+ 1486  ./labels
+ 1487  sudo mc
+ 1488  mc
+ 1489  sudo mc
+ 1490  host librestudio.com
+ 1491  host librestudio.org
+ 1492  host librestudio.net
+ 1493  host librestud.io
+ 1494  host stud.io
+ 1495  mc
+ 1496  umount /media/joe 
+ 1497  sudo umount /media/joe 
+ 1498  mount
+ 1499  samba-tool 
+ 1500  samba-tool sites
+ 1501  samba-tool spn
+ 1502  samba-tool spn list
+ 1503  samba-tool spn list joe
+ 1504  samba-tool dele
+ 1505  samba-tool delegation
+ 1506  samba-tool domain
+ 1507  samba-tool dns
+ 1508  samba-tool sites list
+ 1509  samba-tool sites --help
+ 1510  samba-tool 
+ 1511  cifscreds 
+ 1512  cifs.idmap 
+ 1513  cifs.idmap -h
+ 1514  smbstatus
+ 1515  net
+ 1516  man net
+ 1517  net server
+ 1518  net server domain
+ 1519  net rap server domain
+ 1520  sudo su
+ 1521  net domain list
+ 1522  net help domain 
+ 1523  net domain list SHELDON
+ 1524  net conf
+ 1525  net conf list
+ 1526  man net
+ 1527  net domain list SHELDON -u guest
+ 1528  net ads domain list SHELDON -u guest
+ 1529  net ads domain list SHELDON --user guest
+ 1530  net ads workgroup list SHELDON --user guest
+ 1531  net rpc workgroup list SHELDON --user guest
+ 1532  net rpc info SHELDON --user guest
+ 1533  net rpc info 
+ 1534  net help rpc info
+ 1535  net rpc info SHELDON
+ 1536  man net
+ 1537  net rpc info -w SHELDON
+ 1538  net rpc info -W SHELDON
+ 1539  net rac info -W SHELDON
+ 1540  net rap info -W SHELDON
+ 1541  net rap domain
+ 1542  net rap domain -U guest
+ 1543  testparm 
+ 1544  net usershare info --long
+ 1545  smbclient -L host
+ 1546  smbtree 
+ 1547  man smbtree 
+ 1548  smbtree -S
+ 1549  man smbtree 
+ 1550  smbtree -D
+ 1551  smbtree -S -d1
+ 1552  smbtree -S -d2
+ 1553  smbtree -S -d3
+ 1554  smbtree -S -d2
+ 1555  smbtree -S -d4
+ 1556  sudo nmap -sT -p80 192.168.1.2-200
+ 1557  smbtree -S -d2
+ 1558  smbclient -L JOESMYCLOUD
+ 1559  smbclient -L //JOESMYCLOUD
+ 1560  smbclient -L //SHELDON/JOESMYCLOUD
+ 1561  man smbclient
+ 1562  smbclient -L //JOESMYCLOUD
+ 1563  testparm 
+ 1564  samba-tool sites list
+ 1565  samba-tool 
+ 1566  samba-tool time JOESMYCLOUD
+ 1567  ssh-copy-id root@192.168.1.17
+ 1568  ssh- root@192.168.1.17
+ 1569  ssh root@192.168.1.17
+ 1570  top
+ 1571  dmesg 
+ 1572  apt-cache search asp.net
+ 1573  apt-cache search vnext
+ 1574  pip search vnext
+ 1575  pip search 
+ 1576  sudo easy_install requests
+ 1577  pip search 
+ 1578  pip search vnext
+ 1579  pip search vNext
+ 1580  pip search asp
+ 1581  pip search asp.net
+ 1582  mc
+ 1583  cd Dropbox/Bangladesh\ SPEMP/
+ 1584  grep Audit *
+ 1585  grep -ri Audit *
+ 1586  ps ax |grep ssh
+ 1587  ps ax |grep -i ssh
+ 1588  locate stranger
+ 1589  locate -i stranger
+ 1590  locate sshmenu
+ 1591  locate sshlaunch
+ 1592  ls
+ 1593  which python
+ 1594  ./SSHMenu.py 
+ 1595  kill %1
+ 1596  sudo ./SSHMenu.py 
+ 1597  python SSHMenu.py 
+ 1598  kill %1
+ 1599  python SSHMenu.py 
+ 1600  kill %1
+ 1601  kill 3692
+ 1602  python SSHMenu.py 
+ 1603  kill %1
+ 1604  /usr/local/bin/SSHMenu.py 
+ 1605  kill %1
+ 1606  apt-cache show sux
+ 1607  sux
+ 1608  mc
+ 1609  locate gobject
+ 1610  python
+ 1611  SSHMenu.py 
+ 1612  kill %1
+ 1613  SSHMenu.py 
+ 1614  python
+ 1615  python3 SSHMenu.py 
+ 1616  python --help
+ 1617  python -v SSHMenu.py 
+ 1618  SSHMenu.py 
+ 1619  kill %1
+ 1620  python
+ 1621  python2
+ 1622  mc
+ 1623  ./SSHMenu.py
+ 1624  python
+ 1625  ipython
+ 1626  %1
+ 1627  ping uec1.swisa.org
+ 1628  ping swisa.org
+ 1629  ping uec1.librehost.nwet
+ 1630  ping uec1.librehost.net
+ 1631  host uec1.librehost.net
+ 1632  host ns1.librehost.net
+ 1633  host ns1.librehost.com
+ 1634  host ns2.librehost.com
+ 1635  ssh-copy-id joe@216.172.133.9
+ 1636  ssh-copy-id joe@216.172.133.16
+ 1637  ssh-keygen -f "/home/joe/.ssh/known_hosts" -R 216.172.133.16
+ 1638  ssh-copy-id joe@216.172.133.16
+ 1639  ssh-copy-id 
+ 1640  ssh-copy-id root@ns1.librehost.com
+ 1641  ssh-copy-id root@ns2.librehost.com
+ 1642  man ssh
+ 1643  man telnet
+ 1644  man ssh
+ 1645  man ssh-config
+ 1646  man ssh
+ 1647  man ssh_config
+ 1648  ssh-copy-id joe@desqhost.com
+ 1649  ping osdf.com
+ 1650  sudo su
+ 1651  cat /etc/sudoers.d/sudoers-jjw 
+ 1652  sudo cat /etc/sudoers.d/sudoers-jjw 
+ 1653  7z
+ 1654  7z a Bangladesh\ SPEMP\ Review Bangladesh\ SPEMP\ Review/
+ 1655  ls -l
+ 1656  7z a Bangladesh\ SPEMP Dropbox/Bangladesh\ SPEMP/
+ 1657  ls
+ 1658  ls -l
+ 1659  nmap -sT -p 80 192.168.1.2-200
+ 1660  sudo nmap -sT -p 80 192.168.1.2-200
+ 1661  cd eracks10
+ 1662  svn st
+ 1663  svn upgrade
+ 1664  svn st
+ 1665  svn up
+ 1666  git status
+ 1667  git pull
+ 1668  git log
+ 1669  git status
+ 1670  git info
+ 1671  git --help
+ 1672  git show
+ 1673  git config
+ 1674  git config -l
+ 1675  git help pull
+ 1676  git pull svn-remote
+ 1677  git pull svn-remote.svn
+ 1678  git help pull
+ 1679  git help 
+ 1680  git help svn
+ 1681  git help pull
+ 1682  git svn fetch
+ 1683  git status
+ 1684  git tag imported-from-svn
+ 1685  git tag 
+ 1686  git status
+ 1687  git svn fetch
+ 1688  git status
+ 1689  git help pull
+ 1690  git merge FETCH_HEAD
+ 1691  git merge FETCH-HEAD
+ 1692  git help pull
+ 1693  git merge "FETCH_HEAD"
+ 1694  git help merge
+ 1695  git status
+ 1696  git log
+ 1697  git merge
+ 1698  git status
+ 1699  git commit
+ 1700  git branch
+ 1701  git status
+ 1702  git log
+ 1703  git diff notes.txt
+ 1704  head notes.txt 
+ 1705  git tag
+ 1706  git branch 
+ 1707  git merge a3569c41583f5bc7f28a64d852c625ed53c56830
+ 1708  git status
+ 1709  git commit
+ 1710  git log
+ 1711  git commit
+ 1712  git status
+ 1713  git push
+ 1714  git status
+ 1715  git add
+ 1716  git add scripts/
+ 1717  git status
+ 1718  man gitignore
+ 1719  ls -l scripts/import/
+ 1720  ls -lA scripts/import/
+ 1721  ls -la scripts/import/
+ 1722  ls -la scripts/import/cpus/
+ 1723  git status
+ 1724  git rm scripts/import/cpus/*~
+ 1725  git unstage scripts/import/cpus/*~
+ 1726  git help add
+ 1727  git add revert scripts/import/cpus/*~
+ 1728  git help add
+ 1729  git revert scripts/import/cpus/*~
+ 1730  git add -i
+ 1731  git status
+ 1732  git commit -m 'Add scripts/import/cpus, with csv & gnumeric files - JJW'
+ 1733  git push
+ 1734  git log
+ 1735  git add .gitignore 
+ 1736  git commit -m 'Add .gitignore - JJW'
+ 1737  git push
+ 1738  git config -l
+ 1739  svn up
+ 1740  cd ..
+ 1741  diff --help
+ 1742  diff -wyd eracks10 eracks11
+ 1743  diff --help
+ 1744  diff -wydq eracks10 eracks11
+ 1745  locate eracks10
+ 1746  locate eracks10 |less
+ 1747  ls ups*
+ 1748  ls ng*
+ 1749  ls gu*
+ 1750  grep -ri eracks *
+ 1751  mount
+ 1752  fuser
+ 1753  fdisk -l
+ 1754  fdisk 
+ 1755  fdisk -l /dev/sdb
+ 1756  sudo fdisk -l /dev/sdb
+ 1757  sudo fdisk -l 
+ 1758  sudo mount
+ 1759  sudo fusermount 
+ 1760  sudo fusermount /dev/sdb
+ 1761  sudo fusermount /dev/sdb1
+ 1762  sudo mount
+ 1763  mkfs -?
+ 1764  man mkfs.bfs 
+ 1765  fsck /dev/sdb1
+ 1766  umount /dev/sdb1
+ 1767  sudo umount /dev/sdb1
+ 1768  fsck /dev/sdb1
+ 1769  sudo fsck /dev/sdb1
+ 1770  mount
+ 1771  ssh smtp.eracks.com
+ 1772  pwd
+ 1773  mc
+ 1774  host quilling.com
+ 1775  ssh 192.168.1.17
+ 1776  ssh root@192.168.1.17
+ 1777  ls -l .ssh
+ 1778  chmod +w .ssh/config
+ 1779  ssh 192.168.1.17
+ 1780  nmap -sT -p 22 192.168.1.2-200
+ 1781  sudo nmap -sT -p 22 192.168.1.2-200
+ 1782  ssh root@192.168.1.17
+ 1783  ssh-keygen -f "/home/joe/.ssh/known_hosts" -R 192.168.1.17
+ 1784  ssh root@192.168.1.17
+ 1785  ostromalehouse.com
+ 1786  devonalehouse.com
+ 1787  host ostromalehouse.com
+ 1788  host devonalehouse.com
+ 1789  whois ostromhouse.net
+ 1790  whois ostromhouse.com
+ 1791  ssh 192.168.1.12
+ 1792  mc
+ 1793  ping ischoolsolutions.com
+ 1794  ssh ischoolsolutions.com
+ 1795  ping ischoolsolutions.com
+ 1796  ssh ischoolsolutions.com
+ 1797  nmap ischoolsolutions.com
+ 1798  sudo nmap ischoolsolutions.com
+ 1799  ssh ischoolsolutions.com
+ 1800  ping ischoolsolutions.com
+ 1801  sudo nmap ischoolsolutions.com
+ 1802  ping ischoolsolutions.com
+ 1803  sudo nmap ischoolsolutions.com
+ 1804  ping ischoolsolutions.com
+ 1805  nc
+ 1806  locate -i world
+ 1807  locate -i "world bank"
+ 1808  locate -i review
+ 1809  locate -i " review"
+ 1810  mc
+ 1811  cd eracks11/
+ 1812  git status
+ 1813  git pull
+ 1814  mc
+ 1815  pip search coffeescript
+ 1816  coffee test-json.coffee 
+ 1817  coffee 
+ 1818  coffee test-json.coffee 
+ 1819  python
+ 1820  pip search execjs
+ 1821  salt-call 
+ 1822  touch test-yaml.py
+ 1823  salt-call -h
+ 1824  salt-call test.sls
+ 1825  sudo salt-call test.sls
+ 1826  sudo salt-call ./test.sls
+ 1827  sudo salt-call -c . --local test.sls
+ 1828  sudo salt-call -c . --local ./test.sls
+ 1829  sudo salt-call -c . --local --file-root . ./test.sls
+ 1830  svn st
+ 1831  svn upgrade
+ 1832  svn st
+ 1833  ps ax |grep salt
+ 1834  salt-minion -?
+ 1835  salt-minion -
+ 1836  history |grep salt
+ 1837  sudo salt-minion -l debug
+ 1838  locate SecArch
+ 1839  locate 1040
+ 1840  locate 1120
+ 1841  locate HP0146
+ 1842  ping admin.eracks.com
+ 1843  sudo killall skype
+ 1844  sudo killall -9 skype
+ 1845  ping eracks.com
+ 1846  ping 192.168.0.1
+ 1847  ping eracks.com
+ 1848  ping 8.8.8.8
+ 1849  ping eracks.com
+ 1850  ping 8.8.8.8
+ 1851  sudo /etc/init.d/networking restart
+ 1852  sudo su
+ 1853  docker.io 
+ 1854  docker.io images
+ 1855  sudo docker.io images
+ 1856  sudo docker.io ls
+ 1857  sudo docker.io ps
+ 1858  sudo docker.io login
+ 1859  sudo docker.io ps
+ 1860  sudo docker.io images
+ 1861  sudo docker.io ps
+ 1862  sudo docker.io search django
+ 1863  sudo docker.io search spice
+ 1864  sudo docker.io search kvm
+ 1865  sudo docker.io search windows
+ 1866  sudo docker.io info
+ 1867  sudo docker.io version
+ 1868  sudo docker.io info dockerfiles/django-uwsgi-nginx 
+ 1869  sudo docker.io his dockerfiles/django-uwsgi-nginx 
+ 1870  sudo docker.io history dockerfiles/django-uwsgi-nginx 
+ 1871  sudo docker.io pull dockerfiles/django-uwsgi-nginx 
+ 1872  sudo docker.io info dockerfiles/django-uwsgi-nginx 
+ 1873  sudo docker.io inspect dockerfiles/django-uwsgi-nginx 
+ 1874  sudo docker.io logs dockerfiles/django-uwsgi-nginx 
+ 1875  sudo docker.io images
+ 1876  sudo docker.io logs 184bcb8fc8d3
+ 1877  sudo docker.io ps
+ 1878  sudo docker.io images 
+ 1879  sudo docker.io ps
+ 1880  sudo docker.io info dockerfiles/django-uwsgi-nginx 
+ 1881  sudo docker.io inspect dockerfiles/django-uwsgi-nginx 
+ 1882  locate docker
+ 1883  pwd
+ 1884  ls -l
+ 1885  cat test.file 
+ 1886  rm test.file 
+ 1887  ls -la
+ 1888  chown -R joe:joe .
+ 1889  sudo chown -R joe:joe .
+ 1890  sudo chown -R joe:joe .dockercfg 
+ 1891  docker.io 
+ 1892  docker.io iimages
+ 1893  docker.io images
+ 1894  sudo docker.io images
+ 1895  sudo docker.io inspect 184bcb8fc8d3
+ 1896  sudo docker.io run
+ 1897  sudo docker.io search
+ 1898  sudo docker.io 
+ 1899  sudo docker.io search ubuntu
+ 1900  sudo docker.io run ubuntu
+ 1901  sudo docker.io images
+ 1902  sudo docker.io help run ubuntu
+ 1903  sudo docker.io run ubuntu -t 
+ 1904  sudo docker.io images
+ 1905  sudo docker.io info images
+ 1906  sudo docker.io 
+ 1907  sudo docker.io images
+ 1908  sudo docker.io inspect 6cfa4d1f33fb
+ 1909  sudo docker.io ps
+ 1910  sudo docker.io ls
+ 1911  sudo docker.io logs 6cfa4d1f33fb
+ 1912  sudo docker.io images
+ 1913  sudo docker.io history 6cfa4d1f33fb
+ 1914  sudo docker.io images
+ 1915  docker run -t -i ubuntu /bin/bash
+ 1916  docker.io run -t -i ubuntu /bin/bash
+ 1917  sudo docker.io run -t -i ubuntu /bin/bash
+ 1918  sudo docker.io images
+ 1919  sudo docker.io rmi 6cfa4d1f33fb
+ 1920  sudo docker.io run -t -i ubuntu /bin/bash
+ 1921  sudo docker.io images
+ 1922  sudo docker.io run -t -i ubuntu /bin/bash
+ 1923  sudo docker.io ps
+ 1924  sudo docker.io restart ubuntu
+ 1925  sudo docker.io images
+ 1926  sudo docker.io top
+ 1927  ps ax |grep docker
+ 1928  service docker
+ 1929  service docker status
+ 1930  service docker.io status
+ 1931  service docker.io restart
+ 1932  sudo docker.io images
+ 1933  sudo docker.io run -t -i ubuntu /bin/bash
+ 1934  sudo docker.io images
+ 1935  sudo docker.io run -t -i ubuntu /bin/bash
+ 1936  df -h
+ 1937  sudo docker.io run -t -i ubuntu /bin/bash
+ 1938  sudo docker.io images
+ 1939  sudo docker.io ps
+ 1940  sudo docker.io search kde
+ 1941  sudo docker.io search desktop
+ 1942  sudo docker.io info lainie/docker-desktop
+ 1943  sudo docker.io inspect lainie/docker-desktop
+ 1944  docker.io inspect lainie/docker-desktop
+ 1945  pwd
+ 1946  chmod +x docker-install.sh 
+ 1947  ./docker-install.sh 
+ 1948  docker
+ 1949  ld /etc/init/0~sudo docker.io info lainie/docker-desktop
+ 1950  sudo docker.io info lainie/docker-desktop
+ 1951  sudo docker.io inspect lainie/docker-desktop
+ 1952  sudo docker.io
+ 1953  sudo help docker.io search
+ 1954  sudo docker.io help search
+ 1955  docker.io inspect lainie/docker-desktop
+ 1956  sudo docker.io inspect lainie/docker-desktop
+ 1957  sudo docker.io search desktop --no-trunc
+ 1958  sudo docker.io search --no-trunc desktop 
+ 1959  sudo docker.io pull dockerfile/ubuntu-desktop 
+ 1960  sudo docker.io inspect dockerfile/ubuntu-desktop 
+ 1961  sudo docker.io run -t -i 
+ 1962  sudo docker.io images 
+ 1963  sudo docker.io run -t -i dockerfile/ubuntu-desktop
+ 1964  ping webmail.eracks.com
+ 1965  nmap -sT webmail.eracks.com
+ 1966  parted 
+ 1967  sudo parted 
+ 1968  sudo parted /dev/sda
+ 1969  mkfs.ext4 -?
+ 1970  sudo mkfs.ext4 
+ 1971  df -h
+ 1972  cat /etc/fstab
+ 1973  man df 
+ 1974  man fstab
+ 1975  mc
+ 1976  locate Drivers
+ 1977  locate "Driver's"
+ 1978  locate -i driver |grep license
+ 1979  locate -i driver |grep -i license
+ 1980  locate -i DL |grep -i jo
+ 1981  locate -i "DL " |grep -i jo
+ 1982  mc
+ 1983  sudo mc
+ 1984  mc
+ 1985  sudo mc
+ 1986  sudo 0~docker.io inspect lainie/docker-desktop
+ 1987  sudo docker.io inspect lainie/docker-desktop
+ 1988  service docker status
+ 1989  service docker.io status
+ 1990  which docker.io
+ 1991  cat >docker-install.sh
+ 1992  mc
+ 1993  SUDO MC
+ 1994  sudo mc
+ 1995  ping eracks.com
+ 1996  locate pgdump
+ 1997  locate -i pgdump
+ 1998  touch Dockerfile
+ 1999  cat ~/.ssh/id_rsa
+ 2000  cat ~/.ssh/id_rsa.pub 
+ 2001  locate -i pgdump
+ 2002  sudo docker ps -a
+ 2003  apt-cache show supervisor
+ 2004  sudo docker start 4f62b7b0b989
+ 2005  sudo docker attach 4f62b7b0b989
+ 2006  sudo docker start 4f62b7b0b989 -i -t bash
+ 2007  sudo docker start 4f62b7b0b989 bash
+ 2008  sudo docker ps -a
+ 2009  sudo docker help start 
+ 2010  sudo docker start -a -i 4f62b7b0b989 
+ 2011  sudo docker ps -a
+ 2012  sudo docker start -a -i 4f62b7b0b989 /bin/bash
+ 2013  sudo docker start -a -i 4f62b7b0b989 
+ 2014  sudo docker ps -a
+ 2015  sudo docker run -a -i 4f62b7b0b989 
+ 2016  sudo docker run -a -i ubuntu14.04.1
+ 2017  sudo docker images
+ 2018  sudo docker run -a -i 14.04.1
+ 2019  sudo docker build
+ 2020  sudo docker build Dockerfile 
+ 2021  docker build Dockerfile 
+ 2022  ls -l
+ 2023  sudo docker build /home/joe/eracks-docker/Dockerfile 
+ 2024  sudo docker build .
+ 2025  sudo docker build . | tee >(aha > docker-outfile.html)
+ 2026  git status
+ 2027  git pull
+ 2028  git config --global credential.username jowolf
+ 2029  git config --global credential.helper cache
+ 2030  git pull
+ 2031  git status
+ 2032  git commit -a
+ 2033  git push
+ 2034  git status
+ 2035  sudo docker build . | tee >(aha > docker-outfile.html)
+ 2036  docker help build
+ 2037  sudo docker build -i . | tee >(aha > docker-outfile.html)
+ 2038  docker help
+ 2039  sudo docker build . | tee >(aha > docker-outfile.html)
+ 2040  sudo docker ps
+ 2041  sudo docker ps -a
+ 2042  sudo docker help
+ 2043  sudo docker help build
+ 2044  sudo docker help run
+ 2045  sudo docker run -t trusty
+ 2046  sudo docker run -t 14.04.1
+ 2047  sudo docker run -t ubuntu
+ 2048  sudo docker ps -a
+ 2049  sudo docker rm
+ 2050  sudo docker rm *
+ 2051  sudo docker ps -a
+ 2052  sudo docker help rm 
+ 2053  sudo docker rm --all
+ 2054  sudo docker rm 
+ 2055  sudo restart docker
+ 2056  sudo restart docker.io
+ 2057  sudo docker ps -a
+ 2058  sudo docker ps -a --notrunc
+ 2059  sudo docker ps -a -notrunc
+ 2060  sudo docker ps -a -notrunc | grep 'Exit' | awk '{print $1}' | xargs -r docker rm
+ 2061  sudo docker ps -a -notrunc | grep 'Exit' | awk '{print $1}' | sudo xargs -r docker rm
+ 2062  history > useful.history

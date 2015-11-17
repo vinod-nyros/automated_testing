@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+
+  <title>Tests results screens</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+{% load staticfiles %}
+  <link rel="stylesheet" href="{% static "css/screen.css" %}">
+  <link rel="stylesheet" href="{% static "css/lightbox.css" %}">
+  
+</head>
+<body>
+
+  <section id="examples" class="examples-section">
+    <div class="container">
+
+      <div class="image-row">
+        <div class="image-set">
+          {% for image in images %}
+              <a class="example-image-link" href="/media/test_results_screens/{{image}}" data-lightbox="example-set" data-title="{{ image|slice:":-4"  }} test case result screen">
+                <img class="example-image" src="/media/test_results_screens/{{image}}"  height="300" width="300" alt=""/>
+              </a>
+          {% endfor %}
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="{% static "js/jquery-1.11.0.min.js" %}"></script>
+  <script src="{% static "js/lightbox.js" %}"></script>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+orderpath    = '/home/eracks/orders'
+orderhost    = 'https://orders.eracks.com'
+rootpath     = 'eRacks'
+standardhost = 'http://eracks.com'  #+ rootpath
+securehost   = 'https://eracks.com'  #+ rootpath
+
+

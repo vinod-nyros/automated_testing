@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+
+    {% block base %}{% firstof base "<!-- BLOCK BASE -->" %} {% endblock base %}
+
+    <!-- Set the viewport width to device width for mobile -->
+    <meta content="width=device-width" name="viewport">
+    <meta name="google-site-verification" content="4QorVb8Z51YbHLZ5hPfk3TQJjblIY43ByE6qFw2-dLU">
+    {# JJW 9/21/15 per Satish at Absoloute #}
+    <meta name="msvalidate.01" content="E830B9E86F26F425F9F7800DA21086EC">
+    <meta name="DC.title" content="Line server, AMD opteron rack server, Storage servers, NAS server, Open source systems, Cloud server">
+    <meta name="geo.region" content="US-CA">
+    <meta name="geo.placename" content="Los Gatos">
+    <meta name="geo.position" content="37.235808;-121.962375">
+    <meta name="ICBM" content="37.235808, -121.962375">
+    <meta name="author" content="eRacks">
+    <meta name="robots" content="noodp,noydir">
+
+    {% if meta_title %}<meta name="title" content="{{ meta_title }}">{% endif %}
+    {% if meta_keywords %}<meta name="keywords" content="{{ meta_keywords }}">{% endif %}
+    {% if meta_description %}<meta name="description" content="{{ meta_description }}">{% endif %}
+
+    <title>{% block title %}{% firstof title 'eRacks Open Source Systems' %}{% endblock title %}</title>
+
+    <!-- Included CSS Files -->
+    <link href="/stylesheets/foundation.css" rel="stylesheet">
+    <link href="/stylesheets/app.css" rel="stylesheet">
+    <link href="/static/browserid/persona-buttons.css" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="/stylesheets/ie.css">
+	<![endif]-->
+
+	<!-- IE Fix for HTML5 Tags -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+    <!-- From H5BP: Place favicon.ico and apple-touch-icon.png in the root of your domain and delete these references -->
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+
+    {% block css %} <!-- BLOCK CSS --> {{ css }} {% endblock css %}
+    {% block head_bottom %} <!-- BLOCK HEAD_BOTTOM --> {{ head_bottom }} {% endblock head_bottom %}
+    {% block extra_head %} <!-- BLOCK EXTRA_HEAD for some packages like djgrid, QuickPages --> {% endblock extra_head %}
+</head>
+
+<body>
+
+<!-- container -->
+<div class="container" id="main_container">
+
+    {% block page_top %} <!-- BLOCK PAGE_TOP --> {{ header_top }}
+
+    <div class="row" id="page_top">
+        <div class="four columns">
+            {% block nav_small %} <!-- BLOCK NAV_SMALL --> {{ nav_small }} {% endblock nav_small %}
+        </div>
+        <div class="four columns">
+            {% block mailing_list %} <!-- BLOCK MAILING_LIST --> {{ mailing_list }} {% endblock mailing_list %}
+        </div>
+        <div class="column">
+            {% block nav_login %} <!-- BLOCK NAV_LOGIN --> {{ nav_login }} {% endblock nav_login %}
+        </div>
+    </div>
+
+    {% endblock page_top %}
+
+    {% block header %} <!-- BLOCK HEADER --> {{ header }}
+
+    <div class="row" id="header">
+        <div class="five columns">
+            {% block logo %} <!-- BLOCK LOGO --> {{ logo }} {% endblock logo %}
+        </div>
+        <div class="seven columns">
+            {% block header_right %}  <!-- BLOCK HEADER_RIGHT --> {{ header_right }} {% endblock header_right %}
+        </div>
+    </div>
+
+    <div id="nav" class="row">
+        <div class="twelve columns">
+            {% block nav_main %}  <!-- BLOCK NAV_MAIN --> {{ nav_main }} {% endblock nav_main %}
+        </div>
+    </div>
+
+    {% endblock header %}
+
+
+    {% block breadcrumbs_row %} <!-- BLOCK BREADCRUMBS_ROW -->
+    <div class="row" id="breadcrumbs_row">
+        <div class="twelve columns">
+            {% block breadcrumbs %} <!-- BLOCK BREADCRUMBS --> {{ breadcrumbs }} {% endblock breadcrumbs %}
+        </div>
+    </div>
+    {% endblock breadcrumbs_row %}
+
+
+    {% block messages_row %} <!-- BLOCK MESSAGES_ROW -->
+
+    {% if messages %}
+        <div class="row" id="content_row">
+            <div class="one column">
+            </div>
+
+            <div class="ten columns" style="padding-top:15px">
+                {% for message in messages %}
+                    <div class="alert-box {{ message.tags }}"> {# [success warning error ] #}
+                        {{ message }}  {# This is a success alert (div.alert-box.success). #}
+                        <a href="" class="close">&times;</a>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <div class="one column">
+            </div>
+        </div>
+    {% endif %}
+
+    {% endblock messages_row %}
+
+
+    {% block content_row %} <!-- BLOCK CONTENT_ROW --> {{ content_row }}
+
+    <div class="row" id="content_row">
+        <div class="three columns">
+            {% block sidebar_one %} <!-- BLOCK SIDEBAR ONE --> {{ sidebar_one }} {% endblock sidebar_one %}
+        </div>
+
+        <div class="seven columns">
+            {% block content_title %} <!-- BLOCK CONTENT_TITLE --> {% endblock content_title %}
+            {% block content %} <!-- BLOCK CONTENT -->
+                {# % block breadcrumbs %} <!-- BLOCK BREADCRUMBS --> {{ breadcrumbs }} {% endblock breadcrumbs % #}
+                {{ content }}
+            {% endblock content %}
+        </div>
+
+        <div class="two columns">
+            {% block sidebar_two %} <!-- BLOCK SIDEBAR two --> {{ sidebar_two }} {% endblock sidebar_two %}
+        </div>
+    </div>
+
+    {% endblock content_row %}
+
+</div>
+<!-- container -->
+
+
+{% block footer %} <!-- BLOCK FOOTER --> {{ footer }} {% endblock footer %}
+
+{% block js_foundation %}
+	<!-- Included JS Files -->
+	<script src="/javascripts/jquery.min.js"></script>
+	<script src="/javascripts/modernizr.foundation.js"></script>
+	<script src="/javascripts/foundation.js"></script>
+	<script src="/javascripts/app.js"></script>
+{% endblock js_foundation %}
+
+{% block js_bottom %} <!-- BLOCK JS BOTTOM --> {{ js_bottom }} {% endblock js_bottom %}
+
+</body></html>

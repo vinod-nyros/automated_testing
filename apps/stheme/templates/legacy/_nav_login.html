@@ -1,0 +1,37 @@
+{% load browserid %}
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: theme-legacy.yaml at line 696 on 2015-11-09 at 19:41:48 PST(GMT-0800)  #}
+
+
+{% browserid_info %}
+{% load staticfiles %}
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="https://login.persona.org/include.js"></script>
+<script type="text/javascript" src="{% static 'browserid/api.js' %}"></script>
+<script type="text/javascript" src="{% static 'browserid/browserid.js' %}"></script>
+
+<nav id="nav_login">
+    Login with:
+    <a id="browserid" href="#" title="Login with Mozilla Persona / BrowserID" data-next="{% if request.path == '/accounts/signout/' %}{{ request.META.HTTP_REFERER }}{% elif request.REQUEST.next %}{{ request.REQUEST.next }}{% else %}{{request.path}}{% endif %}" class="browserid-login">
+        <img src="/images/logos/login/persona.png" height="24" width="24" alt="BrowserID / Persona login">
+    </a>
+    <a href="{% url 'social:begin' 'facebook' %}?next={{ request.path }}" title="Login with your Facebook account">
+        <img src="/images/logos/login/facebook.png" height="24" width="24" alt="Facebook login">
+    </a>
+    <a href="{% url 'social:begin' 'twitter' %}" title="Login with your Twitter account">
+        <img src="/images/logos/login/twitter.png" height="24" width="24" alt="Twitter login">
+    </a>
+    <a href="{% url 'social:begin' 'github' %}" title="Login with your Github account">
+        <img src="/images/home/github-logo-48x48.png" height="24" width="24" alt="Github login">
+    </a>
+    <a href="{% url 'social:begin' 'linkedin' %}" title="Login with LinkedIn">
+        <img src="/images/logos/login/linkedin.png" height="24" width="24" alt="LinkedIn login">
+    </a>
+    <a href="{% url 'social:begin' 'google-oauth2' %}" title="Login with Google">
+        <img src="/images/logos/login/google.png" height="24" width="24" alt="Google+ login">
+    </a>
+    <a href="{% url 'social:begin' 'dropbox' %}" title="Login with your Dropbox account">
+        <img src="/images/logos/login/dropbox.png" height="24" width="24" alt="Dropbox login">
+    </a>
+</nav>

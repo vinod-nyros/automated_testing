@@ -1,0 +1,279 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>migrations Package &mdash; eRacks Django website 10.0alpha documentation</title>
+    
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '10.0alpha',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="eRacks Django website 10.0alpha documentation" href="../index.html" />
+    <link rel="up" title="quotes Package" href="django_eracks.apps.quotes.html" />
+    <link rel="next" title="sqls Package" href="django_eracks.apps.sqls.html" />
+    <link rel="prev" title="quotes Package" href="django_eracks.apps.quotes.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="django_eracks.apps.sqls.html" title="sqls Package"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="django_eracks.apps.quotes.html" title="quotes Package"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../index.html">eRacks Django website 10.0alpha documentation</a> &raquo;</li>
+          <li><a href="modules.html" >&lt;no title&gt;</a> &raquo;</li>
+          <li><a href="django_eracks.html" >django_eracks Package</a> &raquo;</li>
+          <li><a href="django_eracks.apps.html" >apps Package</a> &raquo;</li>
+          <li><a href="django_eracks.apps.quotes.html" accesskey="U">quotes Package</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="migrations-package">
+<h1>migrations Package<a class="headerlink" href="#migrations-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-django_eracks.apps.quotes.migrations.0001_initial">
+<span id="initial-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">0001_initial</span></tt> Module<a class="headerlink" href="#module-django_eracks.apps.quotes.migrations.0001_initial" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="django_eracks.apps.quotes.migrations.0001_initial.Migration">
+<em class="property">class </em><tt class="descclassname">django_eracks.apps.quotes.migrations.0001_initial.</tt><tt class="descname">Migration</tt><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0001_initial.Migration" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="django_eracks.apps.quotes.migrations.0001_initial.Migration.backwards">
+<tt class="descname">backwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0001_initial.Migration.backwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.quotes.migrations.0001_initial.Migration.complete_apps">
+<tt class="descname">complete_apps</tt><em class="property"> = ['quotes']</em><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0001_initial.Migration.complete_apps" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="django_eracks.apps.quotes.migrations.0001_initial.Migration.forwards">
+<tt class="descname">forwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0001_initial.Migration.forwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.quotes.migrations.0001_initial.Migration.models">
+<tt class="descname">models</tt><em class="property"> = {'auth.user': {'username': ('django.db.models.fields.CharField', [], {'unique': 'True', 'max_length': '30'}), 'last_name': ('django.db.models.fields.CharField', [], {'max_length': '30', 'blank': 'True'}), 'is_active': ('django.db.models.fields.BooleanField', [], {'default': 'True', 'blank': 'True'}), 'is_staff': ('django.db.models.fields.BooleanField', [], {'default': 'False', 'blank': 'True'}), 'groups': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Group']&quot;, 'blank': 'True'}), 'user_permissions': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Permission']&quot;, 'blank': 'True'}), 'password': ('django.db.models.fields.CharField', [], {'max_length': '128'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'date_joined': ('django.db.models.fields.DateTimeField', [], {'default': 'datetime.datetime.now'}), 'first_name': ('django.db.models.fields.CharField', [], {'max_length': '30', 'blank': 'True'}), 'is_superuser': ('django.db.models.fields.BooleanField', [], {'default': 'False', 'blank': 'True'}), 'last_login': ('django.db.models.fields.DateTimeField', [], {'default': 'datetime.datetime.now'}), 'email': ('django.db.models.fields.EmailField', [], {'max_length': '75', 'blank': 'True'})}, 'legacy.customer': {'comment': ('django.db.models.fields.TextField', [], {}), 'phone2': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'primaryshipping': ('django.db.models.fields.IntegerField', [], {}), 'phone': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'primarybilling': ('django.db.models.fields.IntegerField', [], {}), 'dt': ('django.db.models.fields.DateTimeField', [], {}), 'email2': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'id': ('django.db.models.fields.IntegerField', [], {'primary_key': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'primarycreditcard': ('django.db.models.fields.IntegerField', [], {}), 'title': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'maillist': ('django.db.models.fields.IntegerField', [], {}), 'dept': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'Meta': {'db_table': &quot;u'customers'&quot;}, 'email': ('django.db.models.fields.CharField', [], {'max_length': '50'})}, 'auth.permission': {'codename': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'Meta': {'unique_together': &quot;(('content_type', 'codename'),)&quot;}, 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'content_type': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['contenttypes.ContentType']&quot;}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '50'})}, 'contenttypes.contenttype': {'model': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'Meta': {'unique_together': &quot;(('app_label', 'model'),)&quot;, 'db_table': &quot;'django_content_type'&quot;}, 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'app_label': ('django.db.models.fields.CharField', [], {'max_length': '100'})}, 'quotes.quote': {'terms': ('django.db.models.fields.CharField', [], {'max_length': '20'}), 'shipping_method': ('django.db.models.fields.CharField', [], {'max_length': '40'}), 'discount': ('django.db.models.fields.FloatField', [], {}), 'customer_reference': ('django.db.models.fields.CharField', [], {'max_length': '30'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'customer': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['legacy.Customer']&quot;, 'null': 'True'}), 'discount_type': ('django.db.models.fields.CharField', [], {'max_length': '1'}), 'target': ('django.db.models.fields.FloatField', [], {}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'quote_number': ('django.db.models.fields.CharField', [], {'max_length': '20'}), 'modified': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'shipping': ('django.db.models.fields.FloatField', [], {}), 'valid_for': ('django.db.models.fields.IntegerField', [], {}), 'purchase_order': ('django.db.models.fields.CharField', [], {'max_length': '20'}), 'approved_by': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['auth.User']&quot;})}, 'quotes.quotelineitem': {'price': ('django.db.models.fields.FloatField', [], {}), 'cost': ('django.db.models.fields.FloatField', [], {}), 'description': ('django.db.models.fields.TextField', [], {}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'quote': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['quotes.Quote']&quot;}), 'model': ('django.db.models.fields.CharField', [], {'max_length': '60'}), 'quantity': ('django.db.models.fields.IntegerField', [], {}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'modified': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'})}, 'auth.group': {'permissions': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Permission']&quot;, 'blank': 'True'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'unique': 'True', 'max_length': '80'})}}</em><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0001_initial.Migration.models" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-django_eracks.apps.quotes.migrations.0002_move_customer_from_legacy_to_quotes">
+<span id="move-customer-from-legacy-to-quotes-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">0002_move_customer_from_legacy_to_quotes</span></tt> Module<a class="headerlink" href="#module-django_eracks.apps.quotes.migrations.0002_move_customer_from_legacy_to_quotes" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="django_eracks.apps.quotes.migrations.0002_move_customer_from_legacy_to_quotes.Migration">
+<em class="property">class </em><tt class="descclassname">django_eracks.apps.quotes.migrations.0002_move_customer_from_legacy_to_quotes.</tt><tt class="descname">Migration</tt><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0002_move_customer_from_legacy_to_quotes.Migration" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="django_eracks.apps.quotes.migrations.0002_move_customer_from_legacy_to_quotes.Migration.backwards">
+<tt class="descname">backwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0002_move_customer_from_legacy_to_quotes.Migration.backwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.quotes.migrations.0002_move_customer_from_legacy_to_quotes.Migration.complete_apps">
+<tt class="descname">complete_apps</tt><em class="property"> = ['quotes']</em><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0002_move_customer_from_legacy_to_quotes.Migration.complete_apps" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="django_eracks.apps.quotes.migrations.0002_move_customer_from_legacy_to_quotes.Migration.forwards">
+<tt class="descname">forwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0002_move_customer_from_legacy_to_quotes.Migration.forwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.quotes.migrations.0002_move_customer_from_legacy_to_quotes.Migration.models">
+<tt class="descname">models</tt><em class="property"> = {'quotes.customer': {'comment': ('django.db.models.fields.TextField', [], {}), 'phone2': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'primaryshipping': ('django.db.models.fields.IntegerField', [], {}), 'phone': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'primarybilling': ('django.db.models.fields.IntegerField', [], {}), 'dt': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'email2': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'primarycreditcard': ('django.db.models.fields.IntegerField', [], {}), 'title': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'maillist': ('django.db.models.fields.IntegerField', [], {}), 'dept': ('django.db.models.fields.CharField', [], {'max_length': '50'}), 'Meta': {'db_table': &quot;u'customers'&quot;}, 'email': ('django.db.models.fields.CharField', [], {'max_length': '50'})}, 'auth.user': {'username': ('django.db.models.fields.CharField', [], {'max_length': '30', 'unique': 'True'}), 'last_name': ('django.db.models.fields.CharField', [], {'max_length': '30', 'blank': 'True'}), 'is_active': ('django.db.models.fields.BooleanField', [], {'default': 'True', 'blank': 'True'}), 'is_staff': ('django.db.models.fields.BooleanField', [], {'default': 'False', 'blank': 'True'}), 'groups': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Group']&quot;, 'blank': 'True'}), 'user_permissions': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Permission']&quot;, 'blank': 'True'}), 'password': ('django.db.models.fields.CharField', [], {'max_length': '128'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'date_joined': ('django.db.models.fields.DateTimeField', [], {'default': 'datetime.datetime.now'}), 'first_name': ('django.db.models.fields.CharField', [], {'max_length': '30', 'blank': 'True'}), 'is_superuser': ('django.db.models.fields.BooleanField', [], {'default': 'False', 'blank': 'True'}), 'last_login': ('django.db.models.fields.DateTimeField', [], {'default': 'datetime.datetime.now'}), 'email': ('django.db.models.fields.EmailField', [], {'max_length': '75', 'blank': 'True'})}, 'auth.permission': {'codename': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'Meta': {'unique_together': &quot;(('content_type', 'codename'),)&quot;}, 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'content_type': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['contenttypes.ContentType']&quot;}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '50'})}, 'contenttypes.contenttype': {'model': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'Meta': {'unique_together': &quot;(('app_label', 'model'),)&quot;, 'db_table': &quot;'django_content_type'&quot;}, 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'app_label': ('django.db.models.fields.CharField', [], {'max_length': '100'})}, 'quotes.quote': {'terms': ('django.db.models.fields.CharField', [], {'max_length': '20'}), 'shipping_method': ('django.db.models.fields.CharField', [], {'max_length': '40', 'blank': 'True'}), 'discount': ('django.db.models.fields.FloatField', [], {'blank': 'True'}), 'customer_reference': ('django.db.models.fields.CharField', [], {'max_length': '30', 'blank': 'True'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'customer': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['quotes.Customer']&quot;, 'null': 'True', 'blank': 'True'}), 'discount_type': ('django.db.models.fields.CharField', [], {'max_length': '1', 'blank': 'True'}), 'target': ('django.db.models.fields.FloatField', [], {}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'quote_number': ('django.db.models.fields.CharField', [], {'max_length': '20', 'unique': 'True'}), 'modified': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'shipping': ('django.db.models.fields.FloatField', [], {'blank': 'True'}), 'valid_for': ('django.db.models.fields.IntegerField', [], {}), 'purchase_order': ('django.db.models.fields.CharField', [], {'max_length': '20', 'blank': 'True'}), 'approved_by': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['auth.User']&quot;})}, 'quotes.quotelineitem': {'price': ('django.db.models.fields.FloatField', [], {}), 'cost': ('django.db.models.fields.FloatField', [], {}), 'description': ('django.db.models.fields.TextField', [], {}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'quote': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['quotes.Quote']&quot;}), 'model': ('django.db.models.fields.CharField', [], {'max_length': '60'}), 'quantity': ('django.db.models.fields.IntegerField', [], {}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'modified': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'})}, 'auth.group': {'permissions': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Permission']&quot;, 'blank': 'True'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '80', 'unique': 'True'})}}</em><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0002_move_customer_from_legacy_to_quotes.Migration.models" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-django_eracks.apps.quotes.migrations.0003_change_customer_fields">
+<span id="change-customer-fields-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">0003_change_customer_fields</span></tt> Module<a class="headerlink" href="#module-django_eracks.apps.quotes.migrations.0003_change_customer_fields" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="django_eracks.apps.quotes.migrations.0003_change_customer_fields.Migration">
+<em class="property">class </em><tt class="descclassname">django_eracks.apps.quotes.migrations.0003_change_customer_fields.</tt><tt class="descname">Migration</tt><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0003_change_customer_fields.Migration" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="django_eracks.apps.quotes.migrations.0003_change_customer_fields.Migration.backwards">
+<tt class="descname">backwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0003_change_customer_fields.Migration.backwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.quotes.migrations.0003_change_customer_fields.Migration.complete_apps">
+<tt class="descname">complete_apps</tt><em class="property"> = ['quotes']</em><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0003_change_customer_fields.Migration.complete_apps" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="django_eracks.apps.quotes.migrations.0003_change_customer_fields.Migration.forwards">
+<tt class="descname">forwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0003_change_customer_fields.Migration.forwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.quotes.migrations.0003_change_customer_fields.Migration.models">
+<tt class="descname">models</tt><em class="property"> = {'quotes.customer': {'comment': ('django.db.models.fields.TextField', [], {}), 'phone2': ('django.db.models.fields.CharField', [], {'max_length': '40'}), 'primaryshipping': ('django.db.models.fields.IntegerField', [], {}), 'phone': ('django.db.models.fields.CharField', [], {'max_length': '40'}), 'primarybilling': ('django.db.models.fields.IntegerField', [], {}), 'dt': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'email2': ('django.db.models.fields.CharField', [], {'max_length': '160'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '80'}), 'primarycreditcard': ('django.db.models.fields.IntegerField', [], {}), 'title': ('django.db.models.fields.CharField', [], {'max_length': '80'}), 'maillist': ('django.db.models.fields.IntegerField', [], {}), 'dept': ('django.db.models.fields.CharField', [], {'max_length': '80'}), 'Meta': {'db_table': &quot;u'customers'&quot;}, 'email': ('django.db.models.fields.CharField', [], {'max_length': '160'})}, 'auth.user': {'username': ('django.db.models.fields.CharField', [], {'max_length': '30', 'unique': 'True'}), 'last_name': ('django.db.models.fields.CharField', [], {'max_length': '30', 'blank': 'True'}), 'is_active': ('django.db.models.fields.BooleanField', [], {'default': 'True', 'blank': 'True'}), 'is_staff': ('django.db.models.fields.BooleanField', [], {'default': 'False', 'blank': 'True'}), 'groups': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Group']&quot;, 'blank': 'True'}), 'user_permissions': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Permission']&quot;, 'blank': 'True'}), 'password': ('django.db.models.fields.CharField', [], {'max_length': '128'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'date_joined': ('django.db.models.fields.DateTimeField', [], {'default': 'datetime.datetime.now'}), 'first_name': ('django.db.models.fields.CharField', [], {'max_length': '30', 'blank': 'True'}), 'is_superuser': ('django.db.models.fields.BooleanField', [], {'default': 'False', 'blank': 'True'}), 'last_login': ('django.db.models.fields.DateTimeField', [], {'default': 'datetime.datetime.now'}), 'email': ('django.db.models.fields.EmailField', [], {'max_length': '75', 'blank': 'True'})}, 'auth.permission': {'codename': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'Meta': {'unique_together': &quot;(('content_type', 'codename'),)&quot;}, 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'content_type': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['contenttypes.ContentType']&quot;}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '50'})}, 'contenttypes.contenttype': {'model': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'Meta': {'unique_together': &quot;(('app_label', 'model'),)&quot;, 'db_table': &quot;'django_content_type'&quot;}, 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'app_label': ('django.db.models.fields.CharField', [], {'max_length': '100'})}, 'quotes.quote': {'terms': ('django.db.models.fields.CharField', [], {'max_length': '20'}), 'shipping_method': ('django.db.models.fields.CharField', [], {'max_length': '40', 'blank': 'True'}), 'discount': ('django.db.models.fields.FloatField', [], {'blank': 'True'}), 'customer_reference': ('django.db.models.fields.CharField', [], {'max_length': '30', 'blank': 'True'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'customer': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['quotes.Customer']&quot;, 'null': 'True', 'blank': 'True'}), 'discount_type': ('django.db.models.fields.CharField', [], {'max_length': '1', 'blank': 'True'}), 'target': ('django.db.models.fields.FloatField', [], {}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'quote_number': ('django.db.models.fields.CharField', [], {'max_length': '20', 'unique': 'True'}), 'modified': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'shipping': ('django.db.models.fields.FloatField', [], {'blank': 'True'}), 'valid_for': ('django.db.models.fields.IntegerField', [], {}), 'purchase_order': ('django.db.models.fields.CharField', [], {'max_length': '20', 'blank': 'True'}), 'approved_by': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['auth.User']&quot;})}, 'quotes.quotelineitem': {'price': ('django.db.models.fields.FloatField', [], {}), 'cost': ('django.db.models.fields.FloatField', [], {}), 'description': ('django.db.models.fields.TextField', [], {}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'quote': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['quotes.Quote']&quot;}), 'model': ('django.db.models.fields.CharField', [], {'max_length': '60'}), 'quantity': ('django.db.models.fields.IntegerField', [], {}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'modified': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'})}, 'auth.group': {'permissions': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Permission']&quot;, 'blank': 'True'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '80', 'unique': 'True'})}}</em><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0003_change_customer_fields.Migration.models" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-django_eracks.apps.quotes.migrations.0004_add_customer_shipping_and_dates_fields">
+<span id="add-customer-shipping-and-dates-fields-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">0004_add_customer_shipping_and_dates_fields</span></tt> Module<a class="headerlink" href="#module-django_eracks.apps.quotes.migrations.0004_add_customer_shipping_and_dates_fields" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="django_eracks.apps.quotes.migrations.0004_add_customer_shipping_and_dates_fields.Migration">
+<em class="property">class </em><tt class="descclassname">django_eracks.apps.quotes.migrations.0004_add_customer_shipping_and_dates_fields.</tt><tt class="descname">Migration</tt><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0004_add_customer_shipping_and_dates_fields.Migration" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="django_eracks.apps.quotes.migrations.0004_add_customer_shipping_and_dates_fields.Migration.backwards">
+<tt class="descname">backwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0004_add_customer_shipping_and_dates_fields.Migration.backwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.quotes.migrations.0004_add_customer_shipping_and_dates_fields.Migration.complete_apps">
+<tt class="descname">complete_apps</tt><em class="property"> = ['quotes']</em><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0004_add_customer_shipping_and_dates_fields.Migration.complete_apps" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="django_eracks.apps.quotes.migrations.0004_add_customer_shipping_and_dates_fields.Migration.forwards">
+<tt class="descname">forwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0004_add_customer_shipping_and_dates_fields.Migration.forwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.quotes.migrations.0004_add_customer_shipping_and_dates_fields.Migration.models">
+<tt class="descname">models</tt><em class="property"> = {'quotes.customer': {'comment': ('django.db.models.fields.TextField', [], {}), 'billing_address': ('django.db.models.fields.TextField', [], {}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '80'}), 'primarycreditcard': ('django.db.models.fields.IntegerField', [], {}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'phone2': ('django.db.models.fields.CharField', [], {'max_length': '40'}), 'primaryshipping': ('django.db.models.fields.IntegerField', [], {}), 'maillist': ('django.db.models.fields.IntegerField', [], {}), 'phone': ('django.db.models.fields.CharField', [], {'max_length': '40'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'dept': ('django.db.models.fields.CharField', [], {'max_length': '80'}), 'Meta': {'db_table': &quot;u'customers'&quot;}, 'primarybilling': ('django.db.models.fields.IntegerField', [], {}), 'modified': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'shipping_address': ('django.db.models.fields.TextField', [], {}), 'title': ('django.db.models.fields.CharField', [], {'max_length': '80'}), 'email2': ('django.db.models.fields.CharField', [], {'max_length': '160'}), 'email': ('django.db.models.fields.CharField', [], {'max_length': '160'})}, 'auth.user': {'username': ('django.db.models.fields.CharField', [], {'max_length': '30', 'unique': 'True'}), 'last_name': ('django.db.models.fields.CharField', [], {'max_length': '30', 'blank': 'True'}), 'is_active': ('django.db.models.fields.BooleanField', [], {'default': 'True', 'blank': 'True'}), 'is_staff': ('django.db.models.fields.BooleanField', [], {'default': 'False', 'blank': 'True'}), 'groups': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Group']&quot;, 'blank': 'True'}), 'user_permissions': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Permission']&quot;, 'blank': 'True'}), 'password': ('django.db.models.fields.CharField', [], {'max_length': '128'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'date_joined': ('django.db.models.fields.DateTimeField', [], {'default': 'datetime.datetime.now'}), 'first_name': ('django.db.models.fields.CharField', [], {'max_length': '30', 'blank': 'True'}), 'is_superuser': ('django.db.models.fields.BooleanField', [], {'default': 'False', 'blank': 'True'}), 'last_login': ('django.db.models.fields.DateTimeField', [], {'default': 'datetime.datetime.now'}), 'email': ('django.db.models.fields.EmailField', [], {'max_length': '75', 'blank': 'True'})}, 'auth.permission': {'codename': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'Meta': {'unique_together': &quot;(('content_type', 'codename'),)&quot;}, 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'content_type': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['contenttypes.ContentType']&quot;}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '50'})}, 'contenttypes.contenttype': {'model': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'Meta': {'unique_together': &quot;(('app_label', 'model'),)&quot;, 'db_table': &quot;'django_content_type'&quot;}, 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'app_label': ('django.db.models.fields.CharField', [], {'max_length': '100'})}, 'quotes.quote': {'terms': ('django.db.models.fields.CharField', [], {'max_length': '20'}), 'shipping_method': ('django.db.models.fields.CharField', [], {'max_length': '40', 'blank': 'True'}), 'discount': ('django.db.models.fields.FloatField', [], {'blank': 'True'}), 'customer_reference': ('django.db.models.fields.CharField', [], {'max_length': '30', 'blank': 'True'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'customer': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['quotes.Customer']&quot;, 'null': 'True', 'blank': 'True'}), 'discount_type': ('django.db.models.fields.CharField', [], {'max_length': '1', 'blank': 'True'}), 'target': ('django.db.models.fields.FloatField', [], {}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'quote_number': ('django.db.models.fields.CharField', [], {'max_length': '20', 'unique': 'True'}), 'modified': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'shipping': ('django.db.models.fields.FloatField', [], {'blank': 'True'}), 'valid_for': ('django.db.models.fields.IntegerField', [], {}), 'purchase_order': ('django.db.models.fields.CharField', [], {'max_length': '20', 'blank': 'True'}), 'approved_by': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['auth.User']&quot;})}, 'quotes.quotelineitem': {'price': ('django.db.models.fields.FloatField', [], {}), 'cost': ('django.db.models.fields.FloatField', [], {}), 'description': ('django.db.models.fields.TextField', [], {}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'quote': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['quotes.Quote']&quot;}), 'model': ('django.db.models.fields.CharField', [], {'max_length': '60'}), 'quantity': ('django.db.models.fields.IntegerField', [], {}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'modified': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'})}, 'auth.group': {'permissions': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Permission']&quot;, 'blank': 'True'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '80', 'unique': 'True'})}}</em><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0004_add_customer_shipping_and_dates_fields.Migration.models" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-django_eracks.apps.quotes.migrations.0005_allow_blanks">
+<span id="allow-blanks-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">0005_allow_blanks</span></tt> Module<a class="headerlink" href="#module-django_eracks.apps.quotes.migrations.0005_allow_blanks" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="django_eracks.apps.quotes.migrations.0005_allow_blanks.Migration">
+<em class="property">class </em><tt class="descclassname">django_eracks.apps.quotes.migrations.0005_allow_blanks.</tt><tt class="descname">Migration</tt><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0005_allow_blanks.Migration" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="django_eracks.apps.quotes.migrations.0005_allow_blanks.Migration.backwards">
+<tt class="descname">backwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0005_allow_blanks.Migration.backwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.quotes.migrations.0005_allow_blanks.Migration.complete_apps">
+<tt class="descname">complete_apps</tt><em class="property"> = ['quotes']</em><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0005_allow_blanks.Migration.complete_apps" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="django_eracks.apps.quotes.migrations.0005_allow_blanks.Migration.forwards">
+<tt class="descname">forwards</tt><big>(</big><em>orm</em><big>)</big><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0005_allow_blanks.Migration.forwards" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="django_eracks.apps.quotes.migrations.0005_allow_blanks.Migration.models">
+<tt class="descname">models</tt><em class="property"> = {'quotes.customer': {'comment': ('django.db.models.fields.TextField', [], {}), 'billing_address': ('django.db.models.fields.TextField', [], {'blank': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '80'}), 'primarycreditcard': ('django.db.models.fields.IntegerField', [], {}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'phone2': ('django.db.models.fields.CharField', [], {'max_length': '40', 'blank': 'True'}), 'primaryshipping': ('django.db.models.fields.IntegerField', [], {}), 'maillist': ('django.db.models.fields.IntegerField', [], {}), 'phone': ('django.db.models.fields.CharField', [], {'max_length': '40'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'dept': ('django.db.models.fields.CharField', [], {'max_length': '80', 'blank': 'True'}), 'Meta': {'db_table': &quot;u'customers'&quot;}, 'primarybilling': ('django.db.models.fields.IntegerField', [], {}), 'modified': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'shipping_address': ('django.db.models.fields.TextField', [], {}), 'title': ('django.db.models.fields.CharField', [], {'max_length': '80', 'blank': 'True'}), 'email2': ('django.db.models.fields.CharField', [], {'max_length': '160', 'blank': 'True'}), 'email': ('django.db.models.fields.CharField', [], {'max_length': '160'})}, 'auth.user': {'username': ('django.db.models.fields.CharField', [], {'max_length': '30', 'unique': 'True'}), 'last_name': ('django.db.models.fields.CharField', [], {'max_length': '30', 'blank': 'True'}), 'is_active': ('django.db.models.fields.BooleanField', [], {'default': 'True', 'blank': 'True'}), 'is_staff': ('django.db.models.fields.BooleanField', [], {'default': 'False', 'blank': 'True'}), 'groups': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Group']&quot;, 'blank': 'True'}), 'user_permissions': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Permission']&quot;, 'blank': 'True'}), 'password': ('django.db.models.fields.CharField', [], {'max_length': '128'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'date_joined': ('django.db.models.fields.DateTimeField', [], {'default': 'datetime.datetime.now'}), 'first_name': ('django.db.models.fields.CharField', [], {'max_length': '30', 'blank': 'True'}), 'is_superuser': ('django.db.models.fields.BooleanField', [], {'default': 'False', 'blank': 'True'}), 'last_login': ('django.db.models.fields.DateTimeField', [], {'default': 'datetime.datetime.now'}), 'email': ('django.db.models.fields.EmailField', [], {'max_length': '75', 'blank': 'True'})}, 'auth.permission': {'codename': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'Meta': {'unique_together': &quot;(('content_type', 'codename'),)&quot;}, 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'content_type': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['contenttypes.ContentType']&quot;}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '50'})}, 'contenttypes.contenttype': {'model': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'Meta': {'unique_together': &quot;(('app_label', 'model'),)&quot;, 'db_table': &quot;'django_content_type'&quot;}, 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '100'}), 'app_label': ('django.db.models.fields.CharField', [], {'max_length': '100'})}, 'quotes.quote': {'terms': ('django.db.models.fields.CharField', [], {'max_length': '20'}), 'shipping_method': ('django.db.models.fields.CharField', [], {'max_length': '40', 'blank': 'True'}), 'discount': ('django.db.models.fields.FloatField', [], {'blank': 'True'}), 'customer_reference': ('django.db.models.fields.CharField', [], {'max_length': '30', 'blank': 'True'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'customer': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['quotes.Customer']&quot;, 'null': 'True', 'blank': 'True'}), 'discount_type': ('django.db.models.fields.CharField', [], {'max_length': '1', 'blank': 'True'}), 'target': ('django.db.models.fields.FloatField', [], {}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'quote_number': ('django.db.models.fields.CharField', [], {'max_length': '20', 'unique': 'True'}), 'modified': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}), 'shipping': ('django.db.models.fields.FloatField', [], {'blank': 'True'}), 'valid_for': ('django.db.models.fields.IntegerField', [], {}), 'purchase_order': ('django.db.models.fields.CharField', [], {'max_length': '20', 'blank': 'True'}), 'approved_by': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['auth.User']&quot;})}, 'quotes.quotelineitem': {'price': ('django.db.models.fields.FloatField', [], {}), 'cost': ('django.db.models.fields.FloatField', [], {}), 'description': ('django.db.models.fields.TextField', [], {}), 'created': ('django.db.models.fields.DateTimeField', [], {'auto_now_add': 'True', 'blank': 'True'}), 'quote': ('django.db.models.fields.related.ForeignKey', [], {'to': &quot;orm['quotes.Quote']&quot;}), 'model': ('django.db.models.fields.CharField', [], {'max_length': '60'}), 'quantity': ('django.db.models.fields.IntegerField', [], {}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'modified': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'})}, 'auth.group': {'permissions': ('django.db.models.fields.related.ManyToManyField', [], {'to': &quot;orm['auth.Permission']&quot;, 'blank': 'True'}), 'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}), 'name': ('django.db.models.fields.CharField', [], {'max_length': '80', 'unique': 'True'})}}</em><a class="headerlink" href="#django_eracks.apps.quotes.migrations.0005_allow_blanks.Migration.models" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">migrations Package</a><ul>
+<li><a class="reference internal" href="#module-django_eracks.apps.quotes.migrations.0001_initial"><tt class="docutils literal"><span class="pre">0001_initial</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-django_eracks.apps.quotes.migrations.0002_move_customer_from_legacy_to_quotes"><tt class="docutils literal"><span class="pre">0002_move_customer_from_legacy_to_quotes</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-django_eracks.apps.quotes.migrations.0003_change_customer_fields"><tt class="docutils literal"><span class="pre">0003_change_customer_fields</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-django_eracks.apps.quotes.migrations.0004_add_customer_shipping_and_dates_fields"><tt class="docutils literal"><span class="pre">0004_add_customer_shipping_and_dates_fields</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-django_eracks.apps.quotes.migrations.0005_allow_blanks"><tt class="docutils literal"><span class="pre">0005_allow_blanks</span></tt> Module</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="django_eracks.apps.quotes.html"
+                        title="previous chapter">quotes Package</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="django_eracks.apps.sqls.html"
+                        title="next chapter">sqls Package</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../_sources/apidoc/django_eracks.apps.quotes.migrations.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="django_eracks.apps.sqls.html" title="sqls Package"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="django_eracks.apps.quotes.html" title="quotes Package"
+             >previous</a> |</li>
+        <li><a href="../index.html">eRacks Django website 10.0alpha documentation</a> &raquo;</li>
+          <li><a href="modules.html" >&lt;no title&gt;</a> &raquo;</li>
+          <li><a href="django_eracks.html" >django_eracks Package</a> &raquo;</li>
+          <li><a href="django_eracks.apps.html" >apps Package</a> &raquo;</li>
+          <li><a href="django_eracks.apps.quotes.html" >quotes Package</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, JJW.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

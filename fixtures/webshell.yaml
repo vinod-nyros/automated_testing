@@ -1,0 +1,56 @@
+- fields: {name: Publish/Unpublish referenced/unreferenced choices, source: "from
+      products.models import Option, Choice, Prodoptchoice, Prodopt\r\nfrom pprint
+      import pprint\r\n\r\n# 0 \r\n#print Choice.objects.filter (prodopt__product__published=True).filter(options__isnull=True,
+      prodopt__isnull=True, prodoptchoice__isnull=True, prodopts__isnull=True).count()\r\n\r\n#
+      2\r\n#print Choice.objects.filter (prodopt__product__published=True).filter(options__isnull=True,
+      prodoptchoice__isnull=True, prodopts__isnull=True)\r\n\r\n#1342\r\n#print Choice.objects.filter
+      (prodopt__product__published=True).count() \r\n\r\n#202\r\n#print Choice.objects.filter
+      (prodopt__product__published=False).count() \r\n\r\n# 2836\r\n#print Choice.objects.filter
+      (prodopt__product__published=None).count() \r\n\r\n# 3188\r\n#print Choice.objects.count()
+      \r\n\r\n\r\n# the nulls name it extremely hard to duplicate the programmatic
+      result below with sql or the object model, so just do it programmatically:\r\n\r\nteeth
+      = 0\r\ntriple0_count = 0\r\npub_count = 0\r\n\r\nfor c in Choice.objects.all():\r\n
+      \   poc_cnt = Prodoptchoice.objects.filter (choice=c, productoption__product__published=True).count()\r\n
+      \   po_cnt  = Prodopt.objects.filter (choices=c, product__published=True).count()\r\n
+      \   def_cnt = Prodopt.objects.filter (defaultchoice=c, product__published=True).count()\r\n
+      \   opt_cnt = Option.objects.filter (choices=c).count() # , productoption__product__published=True).count()\r\n\r\n
+      \   if po_cnt != poc_cnt:\r\n        print '\\nMISMATCH!:', c\r\n\r\n    if
+      poc_cnt == 0 and po_cnt == 0 and opt_cnt == 0 and def_cnt == 0:\r\n        triple0_count
+      += 1\r\n        c.published = False\r\n    else:\r\n        pub_count += 1\r\n
+      \       c.published = True\r\n\r\n    if teeth:\r\n        c.save()\r\n        \r\nprint
+      pub_count, 'published.'\r\nprint triple0_count, 'unpublished.'\r\n\r\nprint
+      Choice.objects.filter (published=False).count()\r\nprint Choice.objects.filter
+      (published=True).count()\r\nprint Choice.objects.filter (published=None).count()\r\nprint
+      Choice.objects.count()\r\nprint 472+1148+1568  # 3188 - check!\r\n"}
+  model: webshell.script
+  pk: 1
+- fields: {name: 'Count unreferenced choices, different ways', source: "from products.models
+      import Option, Choice, Prodoptchoice, Prodopt\r\nfrom pprint import pprint\r\n\r\nprint
+      Choice.objects.filter(options__isnull=True, prodopt__isnull=True, prodoptchoice__isnull=True,
+      prodopts__isnull=True).count()\r\ncset = Choice.objects.filter(options__isnull=True,
+      prodopt__isnull=True, prodoptchoice__isnull=True, prodopts__isnull=True).values_list
+      ('id', flat=True)\r\n\r\nprint Choice.objects.exclude(options__isnull=False,
+      prodopt__isnull=False, prodoptchoice__isnull=False,prodopts__isnull=False).count()\r\n\r\nprint\r\n\r\nprint
+      Choice.objects.filter(prodopt__isnull=True).count()\r\nprint Choice.objects.filter(prodopts__isnull=True).count()\r\nprint
+      Choice.objects.filter(prodoptchoice__isnull=True).count()\r\n\r\nprint \r\n\r\n#
+      pprint (set (Choice.objects.filter(prodopts__isnull=True)).intersection (Choice.objects.filter(prodoptchoice__isnull=True)))\r\n\r\ntriple0_count
+      = 0\r\n\r\nfor c in Choice.objects.all():\r\n    poc_cnt = Prodoptchoice.objects.filter
+      (choice=c, productoption__product__published=True).count()\r\n    po_cnt  =
+      Prodopt.objects.filter (choices=c, product__published=True).count()\r\n    def_cnt
+      = Prodopt.objects.filter (defaultchoice=c, product__published=True).count()\r\n
+      \   opt_cnt = Option.objects.filter (choices=c).count() # , productoption__product__published=True).count()\r\n\r\n
+      \   if po_cnt != poc_cnt:\r\n        print '\\nMISMATCH!:', c\r\n\r\n    if
+      poc_cnt == 0 and po_cnt == 0 and opt_cnt == 0 and def_cnt == 0:\r\n        triple0_count
+      += 1\r\n        if c.id not in cset:\r\n            print c.id, c, c.prodopts.count(),
+      c.prodoptchoice_set.count(), c.prodopt_set.count(), c.options.count()\r\n\r\nprint
+      triple0_count\r\nprint \r\n\r\ntriple0_count = 0\r\n\r\nfor c in Choice.objects.all():\r\n
+      \   poc_cnt = Prodoptchoice.objects.filter (choice=c).count()\r\n    po_cnt
+      \ = Prodopt.objects.filter (choices=c).count()\r\n    def_cnt = Prodopt.objects.filter
+      (defaultchoice=c).count()\r\n    opt_cnt = Option.objects.filter (choices=c).count()
+      \r\n\r\n    if po_cnt != poc_cnt:\r\n        print '\\nMISMATCH!:', c\r\n\r\n
+      \   if poc_cnt == 0 and po_cnt == 0 and opt_cnt == 0 and def_cnt == 0:\r\n        triple0_count
+      += 1\r\n        if c.id not in cset:\r\n            print c.id, c, c.prodopts.count(),
+      c.prodoptchoice_set.count(), c.prodopt_set.count(), c.options.count()\r\n\r\nprint
+      triple0_count\r\n\r\n    "}
+  model: webshell.script
+  pk: 2

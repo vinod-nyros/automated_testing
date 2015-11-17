@@ -1,0 +1,115 @@
+{% extends "foundation-base.html" %}
+{% load coffeescript browserid %}
+
+
+{% block css %}
+{{ block.super }}
+
+<link href="/css/site.css" rel="stylesheet"/>
+{# % browserid_css % #}
+
+{% if settings.ALOHA and request.GET.edit and user.is_staff %}
+    {% include 'aloha/includes/css.html' %}
+    <style>
+        form.aloha, form.aloha div {
+            display: inline;
+        }
+    </style>
+{% endif %}
+
+{# { css } already called in block.super #}
+{% endblock css %}
+
+
+{% block nav_login %} <!-- BLOCK NAV_LOGIN -->
+{% include '_nav_login.html' %}
+{% endblock nav_login %}
+
+
+{% block logo %}
+{{ block.super }}
+
+<div id=logo>
+  <a href=/ title="eRacks Systems">
+    <img src=/images/logos/logo.png alt='logo'>
+  </a>
+</div>
+
+{% endblock logo %}
+
+
+{% block header_right %} {{ block.super }}
+{% if not user.is_authenticated %} {% include '_signin_signup_modal.html' %} {% endif %}
+{% include '_header_right.html' %}
+{% endblock header_right %}
+
+
+{% block nav_main %} <!-- BLOCK NAV_MAIN -->
+<!--{% browserid_info %}-->
+{% include '_nav_main.html' %}
+{% endblock nav_main %}
+
+
+{% block sidebar_one %} <!-- BLOCK SIDEBAR_ONE -->
+{% include '_product_list.html' %}
+{% endblock sidebar_one %}
+
+
+{% block breadcrumbs %} <!-- BLOCK BREADCRUMBS -->
+<div class="right social_link">{{ facebook_like }}</div>
+<div class="right social_link">{{ google_plus_tag }}</div>
+{% include '_breadcrumbs.html' %}
+{% endblock breadcrumbs %}
+
+
+{% block sidebar_two %} <!-- BLOCK SIDEBAR_TWO -->
+{% include '_bloglet_list.html' %}
+{% endblock sidebar_two %}
+
+
+{% block footer %}  <!-- BLOCK FOOTER -->
+{% include '_footer.html' %}
+{% endblock footer %}
+
+
+{% block js_bottom %} <!-- BLOCK JS_BOTTOM -->
+{{ block.super }}
+
+{% if settings.ALOHA and request.GET.edit and user.is_staff %}
+ {% include 'aloha/includes/js.html' %}
+{% endif %}
+
+{# { browserid_form.media } #}
+{# % browserid_js % this new 0.9 version of django_browserid adds extra net traffic and autologin - yuk #}
+{# so do the next two manually, from the old version #}
+{# Removed the script code as to fix the mozila persona issues #}
+
+
+{{ facebook_sdk }}
+{{ google_plus_include }}
+
+{# { js_bottom } #}
+
+<script type="text/javascript">
+{% if settings.AUTORELOAD %}
+{% inlinecoffeescript %}
+
+console.log "calling refresh"
+
+$.ajax '/utils/refresh',
+    type: 'GET'
+    timeout: 60000000
+    dataType: 'html'
+    error: (jqXHR, textStatus, errorThrown) ->
+        console.log "AJAX Error!: #{textStatus}"
+        console.log setTimeout("console.log('reloading...');location.reload(true)", 2000)
+        console.log "After setTimeout!"
+    success: (data, textStatus, jqXHR) ->
+        console.log "Successful AJAX call: #{data}"
+
+{% endinlinecoffeescript %}
+{% endif %}
+</script>
+
+{% endblock js_bottom %}
+

@@ -1,0 +1,23 @@
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM:  theme-tshop.yaml at line 190  #}
+
+<div class="relative show-case-wrapper center-block col-sm-11">
+    <div class="owl-carousel owl-theme" id="productShowCase">{% load pyjadetags %}{% for i in FeaturedImage_objects.all|__pyjade_iter:1 %}
+<div class="product-slide">
+  <div class="col-sm-8 product-slide-left"><a href="{{ i.link }}" title="{{ i.title }}" class="product-slide-img"><img alt="img" src="{{ i.image }}" class="img-responsive"></a>
+  </div>
+  <div class="col-sm-4">
+    <div class="product-slide-inner">
+      <h2>{{i.title|force_escape}}</h2>
+      <h3 class="product-code">{{i.product.sku|default:'SKU goes here'|force_escape}}</h3>
+      <div>eRacks/PRODUCT starting at $15,995</div>
+      <div class="details-description">
+        <p>{{i.caption|default:'Caption goes here'|force_escape}}</p>
+      </div><a title="Configure" style="text-transform:inherit" class="btn btn-primary btn-stroke-dark btn-lg"><i class="glyphicon glyphicon-shopping-cart"></i>Configure</a>
+    </div>
+  </div>
+</div>{% endfor %}</div><!--/#productShowCase -->
+
+    <div style="clear:both;"></div>
+    <a class="ps-nav" id="ps-next"> <i class="fa fa-angle-right"></i> </a> <a class="ps-nav" id="ps-prev"> <i class="fa fa-angle-left"></i> </a> </div>

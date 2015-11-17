@@ -1,0 +1,3499 @@
+name,comment,cost,choicecategory,blurb,supplier,price,multiplier,published,sortorder
+"GeForce GTX 980 Ti","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 980 Ti
+Rank: 1
+G3DMark: 11,531
+G2DMark: 855
+Num Samples: 1034
+Price: $639.99
+","639.99","High-end GPUs","GeForce GTX 980 Ti:
+G3D Mark score: 11,531
+G2D Mark scrore: 855
+","","","","True","1"
+"GeForce GTX TITAN X","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX TITAN X
+Rank: 2
+G3DMark: 10,995
+G2DMark: 813
+Num Samples: 305
+Price: $999.99
+","999.99","High-end GPUs","GeForce GTX TITAN X:
+G3D Mark score: 10,995
+G2D Mark scrore: 813
+","","","","True","2"
+"Quadro M6000","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro M6000
+Rank: 3
+G3DMark: 10,322
+G2DMark: 750
+Num Samples: 5
+Price: $4,999.00
+","4999.00","High-end GPUs","Quadro M6000:
+G3D Mark score: 10,322
+G2D Mark scrore: 750
+","","","","True","3"
+"GeForce GTX 980","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 980
+Rank: 4
+G3DMark: 9,756
+G2DMark: 879
+Num Samples: 3286
+Price: $395.01
+","395.01","High-end GPUs","GeForce GTX 980:
+G3D Mark score: 9,756
+G2D Mark scrore: 879
+","","","","True","4"
+"GeForce GTX 780 Ti","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 780 Ti
+Rank: 5
+G3DMark: 8,967
+G2DMark: 895
+Num Samples: 2513
+Price: $385.00
+","385.00","High-end GPUs","GeForce GTX 780 Ti:
+G3D Mark score: 8,967
+G2D Mark scrore: 895
+","","","","True","5"
+"GeForce GTX TITAN Black","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX TITAN Black
+Rank: 6
+G3DMark: 8,659
+G2DMark: 853
+Num Samples: 206
+Price: $1,849.99
+","1849.99","High-end GPUs","GeForce GTX TITAN Black:
+G3D Mark score: 8,659
+G2D Mark scrore: 853
+","","","","True","6"
+"GeForce GTX 970","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 970
+Rank: 7
+G3DMark: 8,653
+G2DMark: 852
+Num Samples: 10648
+Price: $317.93
+","317.93","High-end GPUs","GeForce GTX 970:
+G3D Mark score: 8,653
+G2D Mark scrore: 852
+","","","","True","7"
+"GeForce GTX 780","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 780
+Rank: 8
+G3DMark: 8,031
+G2DMark: 894
+Num Samples: 5065
+Price: $449.99
+","449.99","High-end GPUs","GeForce GTX 780:
+G3D Mark score: 8,031
+G2D Mark scrore: 894
+","","","","True","8"
+"GeForce GTX TITAN Z","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX TITAN Z
+Rank: 9
+G3DMark: 8,015
+G2DMark: 803
+Num Samples: 42
+Price: $1,499.99
+","1499.99","High-end GPUs","GeForce GTX TITAN Z:
+G3D Mark score: 8,015
+G2D Mark scrore: 803
+","","","","True","9"
+"GeForce GTX Titan","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX Titan
+Rank: 10
+G3DMark: 7,929
+G2DMark: 849
+Num Samples: 699
+Price: $2,054.59
+","2054.59","High-end GPUs","GeForce GTX Titan:
+G3D Mark score: 7,929
+G2D Mark scrore: 849
+","","","","True","10"
+"Radeon R9 Fury X","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R9 Fury X
+Rank: 11
+G3DMark: 7,908
+G2DMark: 708
+Num Samples: 47
+Price: $529.99
+","529.99","High-end GPUs","Radeon R9 Fury X:
+G3D Mark score: 7,908
+G2D Mark scrore: 708
+","","","","True","11"
+"Quadro K6000","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro K6000
+Rank: 12
+G3DMark: 7,695
+G2DMark: 735
+Num Samples: 46
+Price: $4,590.99
+","4590.99","High-end GPUs","Quadro K6000:
+G3D Mark score: 7,695
+G2D Mark scrore: 735
+","","","","True","12"
+"Radeon R9 295X2","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R9 295X2
+Rank: 13
+G3DMark: 7,083
+G2DMark: 764
+Num Samples: 230
+Price: $1,499.99
+","1499.99","High-end GPUs","Radeon R9 295X2:
+G3D Mark score: 7,083
+G2D Mark scrore: 764
+","","","","True","13"
+"Radeon R9 290X / 390X","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R9 290X / 390X
+Rank: 14
+G3DMark: 7,029
+G2DMark: 765
+Num Samples: 1988
+Price: $299.99
+","299.99","High-end GPUs","Radeon R9 290X / 390X:
+G3D Mark score: 7,029
+G2D Mark scrore: 765
+","","","","True","14"
+"Quadro M4000","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro M4000
+Rank: 15
+G3DMark: 6,808
+G2DMark: 953
+Num Samples: 3
+Price: $889.00*
+Price is last known price","889.00","High-end GPUs","Quadro M4000:
+G3D Mark score: 6,808
+G2D Mark scrore: 953
+","","","","True","15"
+"Radeon R9 290 / 390","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R9 290 / 390
+Rank: 16
+G3DMark: 6,726
+G2DMark: 754
+Num Samples: 3391
+Price: $239.99
+","239.99","High-end GPUs","Radeon R9 290 / 390:
+G3D Mark score: 6,726
+G2D Mark scrore: 754
+","","","","True","16"
+"FirePro W9100","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro W9100
+Rank: 17
+G3DMark: 6,489
+G2DMark: 680
+Num Samples: 15
+Price: $2,999.99*
+Price is last known price","2999.99","High-end GPUs","FirePro W9100:
+G3D Mark score: 6,489
+G2D Mark scrore: 680
+","","","","True","17"
+"GeForce GTX 770","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 770
+Rank: 18
+G3DMark: 6,144
+G2DMark: 857
+Num Samples: 7956
+Price: $370.99
+","370.99","High-end GPUs","GeForce GTX 770:
+G3D Mark score: 6,144
+G2D Mark scrore: 857
+","","","","True","18"
+"GeForce GTX 980M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 980M
+Rank: 19
+G3DMark: 6,135
+G2DMark: 763
+Num Samples: 438
+Price: NA
+","NA","High-end GPUs","GeForce GTX 980M:
+G3D Mark score: 6,135
+G2D Mark scrore: 763
+","","","","True","19"
+"Quadro K5200","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro K5200
+Rank: 20
+G3DMark: 6,098
+G2DMark: 774
+Num Samples: 88
+Price: $1,781.00
+","1781.00","High-end GPUs","Quadro K5200:
+G3D Mark score: 6,098
+G2D Mark scrore: 774
+","","","","True","20"
+"GeForce GTX 960","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 960
+Rank: 21
+G3DMark: 5,981
+G2DMark: 756
+Num Samples: 3040
+Price: $179.99
+","179.99","High-end GPUs","GeForce GTX 960:
+G3D Mark score: 5,981
+G2D Mark scrore: 756
+","","","","True","21"
+"GeForce GTX 680","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 680
+Rank: 22
+G3DMark: 5,719
+G2DMark: 817
+Num Samples: 4822
+Price: $240.00
+","240.00","High-end GPUs","GeForce GTX 680:
+G3D Mark score: 5,719
+G2D Mark scrore: 817
+","","","","True","22"
+"FirePro W8100","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro W8100
+Rank: 23
+G3DMark: 5,526
+G2DMark: 781
+Num Samples: 17
+Price: $1,014.99
+","1014.99","High-end GPUs","FirePro W8100:
+G3D Mark score: 5,526
+G2D Mark scrore: 781
+","","","","True","23"
+"Radeon R9 285 / 380","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R9 285 / 380
+Rank: 24
+G3DMark: 5,509
+G2DMark: 655
+Num Samples: 395
+Price: $166.20
+","166.20","High-end GPUs","Radeon R9 285 / 380:
+G3D Mark score: 5,509
+G2D Mark scrore: 655
+","","","","True","24"
+"Radeon HD 7990","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7990
+Rank: 25
+G3DMark: 5,432
+G2DMark: 798
+Num Samples: 174
+Price: $689.98*
+Price is last known price","689.98","High-end GPUs","Radeon HD 7990:
+G3D Mark score: 5,432
+G2D Mark scrore: 798
+","","","","True","25"
+"GeForce GTX 670","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 670
+Rank: 26
+G3DMark: 5,382
+G2DMark: 811
+Num Samples: 6125
+Price: $409.99
+","409.99","High-end GPUs","GeForce GTX 670:
+G3D Mark score: 5,382
+G2D Mark scrore: 811
+","","","","True","26"
+"GeForce GTX 950","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 950
+Rank: 27
+G3DMark: 5,306
+G2DMark: 668
+Num Samples: 101
+Price: $159.99
+","159.99","High-end GPUs","GeForce GTX 950:
+G3D Mark score: 5,306
+G2D Mark scrore: 668
+","","","","True","27"
+"FirePro W9000","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro W9000
+Rank: 28
+G3DMark: 5,244
+G2DMark: 848
+Num Samples: 3
+Price: $3,443.99*
+Price is last known price","3443.99","High-end GPUs","FirePro W9000:
+G3D Mark score: 5,244
+G2D Mark scrore: 848
+","","","","True","28"
+"GeForce GTX 690","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 690
+Rank: 29
+G3DMark: 5,224
+G2DMark: 792
+Num Samples: 788
+Price: $999.00
+","999.00","High-end GPUs","GeForce GTX 690:
+G3D Mark score: 5,224
+G2D Mark scrore: 792
+","","","","True","29"
+"Radeon HD 7970 / R9 280X","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7970 / R9 280X
+Rank: 30
+G3DMark: 5,217
+G2DMark: 733
+Num Samples: 8675
+Price: $214.99
+","214.99","High-end GPUs","Radeon HD 7970 / R9 280X:
+G3D Mark score: 5,217
+G2D Mark scrore: 733
+","","","","True","30"
+"Radeon HD 8990","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8990
+Rank: 31
+G3DMark: 5,041
+G2DMark: 692
+Num Samples: 16
+Price: NA
+","NA","High-end GPUs","Radeon HD 8990:
+G3D Mark score: 5,041
+G2D Mark scrore: 692
+","","","","True","31"
+"GeForce GTX 760 Ti","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 760 Ti
+Rank: 32
+G3DMark: 5,034
+G2DMark: 912
+Num Samples: 49
+Price: $297.50*
+Price is last known price","297.50","High-end GPUs","GeForce GTX 760 Ti:
+G3D Mark score: 5,034
+G2D Mark scrore: 912
+","","","","True","32"
+"FirePro W7100","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro W7100
+Rank: 33
+G3DMark: 5,025
+G2DMark: 782
+Num Samples: 30
+Price: $619.99
+","619.99","High-end GPUs","FirePro W7100:
+G3D Mark score: 5,025
+G2D Mark scrore: 782
+","","","","True","33"
+"RADEON R9 M295X","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: RADEON R9 M295X
+Rank: 34
+G3DMark: 5,004
+G2DMark: 822
+Num Samples: 23
+Price: NA
+","NA","High-end GPUs","RADEON R9 M295X:
+G3D Mark score: 5,004
+G2D Mark scrore: 822
+","","","","True","34"
+"GeForce GTX 580","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 580
+Rank: 35
+G3DMark: 4,989
+G2DMark: 740
+Num Samples: 3053
+Price: $289.88*
+Price is last known price","289.88","High-end GPUs","GeForce GTX 580:
+G3D Mark score: 4,989
+G2D Mark scrore: 740
+","","","","True","35"
+"GeForce GTX 760","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 760
+Rank: 36
+G3DMark: 4,954
+G2DMark: 801
+Num Samples: 9328
+Price: $149.99
+","149.99","High-end GPUs","GeForce GTX 760:
+G3D Mark score: 4,954
+G2D Mark scrore: 801
+","","","","True","36"
+"FirePro S10000","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro S10000
+Rank: 37
+G3DMark: 4,897
+G2DMark: 672
+Num Samples: 1
+Price: NA
+","NA","High-end GPUs","FirePro S10000:
+G3D Mark score: 4,897
+G2D Mark scrore: 672
+","","","","True","37"
+"Radeon HD 7950 / R9 280","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7950 / R9 280
+Rank: 38
+G3DMark: 4,726
+G2DMark: 694
+Num Samples: 6131
+Price: $199.99
+","199.99","High-end GPUs","Radeon HD 7950 / R9 280:
+G3D Mark score: 4,726
+G2D Mark scrore: 694
+","","","","True","38"
+"GeForce GTX 660 Ti","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 660 Ti
+Rank: 39
+G3DMark: 4,703
+G2DMark: 763
+Num Samples: 5288
+Price: $575.59
+","575.59","High-end GPUs","GeForce GTX 660 Ti:
+G3D Mark score: 4,703
+G2D Mark scrore: 763
+","","","","True","39"
+"Radeon R9 270X","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R9 270X
+Rank: 40
+G3DMark: 4,552
+G2DMark: 661
+Num Samples: 5248
+Price: $169.99
+","169.99","High-end GPUs","Radeon R9 270X:
+G3D Mark score: 4,552
+G2D Mark scrore: 661
+","","","","True","40"
+"GRID K520","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GRID K520
+Rank: 41
+G3DMark: 4,479
+G2DMark: 581
+Num Samples: 9
+Price: NA
+","NA","High-end GPUs","GRID K520:
+G3D Mark score: 4,479
+G2D Mark scrore: 581
+","","","","True","41"
+"GeForce GTX 775M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 775M
+Rank: 42
+G3DMark: 4,471
+G2DMark: 913
+Num Samples: 8
+Price: NA
+","NA","High-end GPUs","GeForce GTX 775M:
+G3D Mark score: 4,471
+G2D Mark scrore: 913
+","","","","True","42"
+"Quadro K4200","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro K4200
+Rank: 43
+G3DMark: 4,408
+G2DMark: 794
+Num Samples: 188
+Price: $784.00
+","784.00","High-end GPUs","Quadro K4200:
+G3D Mark score: 4,408
+G2D Mark scrore: 794
+","","","","True","43"
+"GeForce GTX 970M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 970M
+Rank: 44
+G3DMark: 4,397
+G2DMark: 751
+Num Samples: 720
+Price: NA
+","NA","High-end GPUs","GeForce GTX 970M:
+G3D Mark score: 4,397
+G2D Mark scrore: 751
+","","","","True","44"
+"GeForce GTX 570","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 570
+Rank: 45
+G3DMark: 4,393
+G2DMark: 716
+Num Samples: 3573
+Price: $99.99*
+Price is last known price","99.99","High-end GPUs","GeForce GTX 570:
+G3D Mark score: 4,393
+G2D Mark scrore: 716
+","","","","True","45"
+"GeForce GTX 680MX","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 680MX
+Rank: 46
+G3DMark: 4,356
+G2DMark: 772
+Num Samples: 27
+Price: NA
+","NA","High-end GPUs","GeForce GTX 680MX:
+G3D Mark score: 4,356
+G2D Mark scrore: 772
+","","","","True","46"
+"GeForce GTX 480","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 480
+Rank: 47
+G3DMark: 4,342
+G2DMark: 688
+Num Samples: 1347
+Price: $71.99*
+Price is last known price","71.99","High-end GPUs","GeForce GTX 480:
+G3D Mark score: 4,342
+G2D Mark scrore: 688
+","","","","True","47"
+"FirePro W8000","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro W8000
+Rank: 48
+G3DMark: 4,328
+G2DMark: 767
+Num Samples: 11
+Price: $1,048.99*
+Price is last known price","1048.99","High-end GPUs","FirePro W8000:
+G3D Mark score: 4,328
+G2D Mark scrore: 767
+","","","","True","48"
+"Radeon HD 7870","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7870
+Rank: 49
+G3DMark: 4,275
+G2DMark: 663
+Num Samples: 5336
+Price: $359.99
+","359.99","High-end GPUs","Radeon HD 7870:
+G3D Mark score: 4,275
+G2D Mark scrore: 663
+","","","","True","49"
+"Radeon R9 270 / R7 370","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R9 270 / R7 370
+Rank: 50
+G3DMark: 4,195
+G2DMark: 647
+Num Samples: 2778
+Price: $134.99
+","134.99","High-end GPUs","Radeon R9 270 / R7 370:
+G3D Mark score: 4,195
+G2D Mark scrore: 647
+","","","","True","50"
+"FirePro W7000 Adapter","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro W7000 Adapter
+Rank: 51
+G3DMark: 4,158
+G2DMark: 611
+Num Samples: 19
+Price: NA
+","NA","High-end GPUs","FirePro W7000 Adapter:
+G3D Mark score: 4,158
+G2D Mark scrore: 611
+","","","","True","51"
+"GeForce GTX 660","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 660
+Rank: 52
+G3DMark: 4,119
+G2DMark: 731
+Num Samples: 8973
+Price: $325.86
+","325.86","High-end GPUs","GeForce GTX 660:
+G3D Mark score: 4,119
+G2D Mark scrore: 731
+","","","","True","52"
+"GeForce GTX 780M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 780M
+Rank: 53
+G3DMark: 4,110
+G2DMark: 815
+Num Samples: 478
+Price: NA
+","NA","High-end GPUs","GeForce GTX 780M:
+G3D Mark score: 4,110
+G2D Mark scrore: 815
+","","","","True","53"
+"FirePro W7000","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro W7000
+Rank: 54
+G3DMark: 4,064
+G2DMark: 722
+Num Samples: 70
+Price: $619.99
+","619.99","High-end GPUs","FirePro W7000:
+G3D Mark score: 4,064
+G2D Mark scrore: 722
+","","","","True","54"
+"GeForce GTX 590","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 590
+Rank: 55
+G3DMark: 4,052
+G2DMark: 755
+Num Samples: 314
+Price: $184.00*
+Price is last known price","184.00","High-end GPUs","GeForce GTX 590:
+G3D Mark score: 4,052
+G2D Mark scrore: 755
+","","","","True","55"
+"FirePro S7000","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro S7000
+Rank: 56
+G3DMark: 4,043
+G2DMark: 688
+Num Samples: 3
+Price: NA
+","NA","High-end GPUs","FirePro S7000:
+G3D Mark score: 4,043
+G2D Mark scrore: 688
+","","","","True","56"
+"Quadro K5000","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro K5000
+Rank: 57
+G3DMark: 3,999
+G2DMark: 655
+Num Samples: 200
+Price: $1,698.00
+","1698.00","High-end GPUs","Quadro K5000:
+G3D Mark score: 3,999
+G2D Mark scrore: 655
+","","","","True","57"
+"Radeon HD 8970M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8970M
+Rank: 58
+G3DMark: 3,829
+G2DMark: 788
+Num Samples: 38
+Price: NA
+","NA","High-end GPUs","Radeon HD 8970M:
+G3D Mark score: 3,829
+G2D Mark scrore: 788
+","","","","True","58"
+"GRID K2","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GRID K2
+Rank: 59
+G3DMark: 3,772
+G2DMark: 396
+Num Samples: 11
+Price: $2,795.00
+","2795.00","High-end GPUs","GRID K2:
+G3D Mark score: 3,772
+G2D Mark scrore: 396
+","","","","True","59"
+"GeForce GTX 880M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 880M
+Rank: 60
+G3DMark: 3,767
+G2DMark: 825
+Num Samples: 290
+Price: NA
+","NA","High-end GPUs","GeForce GTX 880M:
+G3D Mark score: 3,767
+G2D Mark scrore: 825
+","","","","True","60"
+"Radeon HD 7850","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7850
+Rank: 61
+G3DMark: 3,753
+G2DMark: 628
+Num Samples: 6749
+Price: $174.95
+","174.95","High-end GPUs","Radeon HD 7850:
+G3D Mark score: 3,753
+G2D Mark scrore: 628
+","","","","True","61"
+"Radeon HD 7970M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7970M
+Rank: 62
+G3DMark: 3,730
+G2DMark: 669
+Num Samples: 196
+Price: NA
+","NA","High-end GPUs","Radeon HD 7970M:
+G3D Mark score: 3,730
+G2D Mark scrore: 669
+","","","","True","62"
+"GeForce GTX 750 Ti","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 750 Ti
+Rank: 63
+G3DMark: 3,687
+G2DMark: 716
+Num Samples: 5028
+Price: $109.99
+","109.99","High-end GPUs","GeForce GTX 750 Ti:
+G3D Mark score: 3,687
+G2D Mark scrore: 716
+","","","","True","63"
+"GeForce GTX 470","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 470
+Rank: 64
+G3DMark: 3,581
+G2DMark: 632
+Num Samples: 1447
+Price: $522.01*
+Price is last known price","522.01","High-end GPUs","GeForce GTX 470:
+G3D Mark score: 3,581
+G2D Mark scrore: 632
+","","","","True","64"
+"GeForce GTX 560 Ti","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 560 Ti
+Rank: 65
+G3DMark: 3,543
+G2DMark: 682
+Num Samples: 6350
+Price: $274.79*
+Price is last known price","274.79","High-end GPUs","GeForce GTX 560 Ti:
+G3D Mark score: 3,543
+G2D Mark scrore: 682
+","","","","True","65"
+"GeForce GTX 650 Ti BOOST","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 650 Ti BOOST
+Rank: 66
+G3DMark: 3,535
+G2DMark: 690
+Num Samples: 1581
+Price: NA
+","NA","High-end GPUs","GeForce GTX 650 Ti BOOST:
+G3D Mark score: 3,535
+G2D Mark scrore: 690
+","","","","True","66"
+"Radeon HD 6970","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 6970
+Rank: 67
+G3DMark: 3,477
+G2DMark: 673
+Num Samples: 1432
+Price: $99.99
+","99.99","High-end GPUs","Radeon HD 6970:
+G3D Mark score: 3,477
+G2D Mark scrore: 673
+","","","","True","67"
+"Quadro 6000","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro 6000
+Rank: 68
+G3DMark: 3,466
+G2DMark: 627
+Num Samples: 104
+Price: $647.41
+","647.41","High-end GPUs","Quadro 6000:
+G3D Mark score: 3,466
+G2D Mark scrore: 627
+","","","","True","68"
+"Tesla C2050","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Tesla C2050
+Rank: 69
+G3DMark: 3,450
+G2DMark: 551
+Num Samples: 5
+Price: NA
+","NA","High-end GPUs","Tesla C2050:
+G3D Mark score: 3,450
+G2D Mark scrore: 551
+","","","","True","69"
+"Tesla C2050 / C2070","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Tesla C2050 / C2070
+Rank: 70
+G3DMark: 3,412
+G2DMark: 768
+Num Samples: 3
+Price: NA
+","NA","High-end GPUs","Tesla C2050 / C2070:
+G3D Mark score: 3,412
+G2D Mark scrore: 768
+","","","","True","70"
+"Quadro K2200","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro K2200
+Rank: 71
+G3DMark: 3,399
+G2DMark: 857
+Num Samples: 206
+Price: $425.00
+","425.00","High-end GPUs","Quadro K2200:
+G3D Mark score: 3,399
+G2D Mark scrore: 857
+","","","","True","71"
+"GeForce GTX 680M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 680M
+Rank: 72
+G3DMark: 3,397
+G2DMark: 727
+Num Samples: 306
+Price: NA
+","NA","High-end GPUs","GeForce GTX 680M:
+G3D Mark score: 3,397
+G2D Mark scrore: 727
+","","","","True","72"
+"Tesla C2075","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Tesla C2075
+Rank: 73
+G3DMark: 3,283
+G2DMark: 567
+Num Samples: 5
+Price: $2,269.99*
+Price is last known price","2269.99","High-end GPUs","Tesla C2075:
+G3D Mark score: 3,283
+G2D Mark scrore: 567
+","","","","True","73"
+"GeForce GTX 750","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 750
+Rank: 74
+G3DMark: 3,245
+G2DMark: 676
+Num Samples: 2006
+Price: $99.99
+","99.99","High-end GPUs","GeForce GTX 750:
+G3D Mark score: 3,245
+G2D Mark scrore: 676
+","","","","True","74"
+"Radeon HD 6950","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 6950
+Rank: 75
+G3DMark: 3,181
+G2DMark: 660
+Num Samples: 3314
+Price: $89.99*
+Price is last known price","89.99","High-end GPUs","Radeon HD 6950:
+G3D Mark score: 3,181
+G2D Mark scrore: 660
+","","","","True","75"
+"Radeon HD 7870 (Tahiti LE)","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7870 (Tahiti LE)
+Rank: 76
+G3DMark: 3,142
+G2DMark: 574
+Num Samples: 3
+Price: NA
+","NA","High-end GPUs","Radeon HD 7870 (Tahiti LE):
+G3D Mark score: 3,142
+G2D Mark scrore: 574
+","","","","True","76"
+"GeForce GTX 560","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 560
+Rank: 77
+G3DMark: 3,113
+G2DMark: 646
+Num Samples: 3420
+Price: $215.46
+","215.46","High-end GPUs","GeForce GTX 560:
+G3D Mark score: 3,113
+G2D Mark scrore: 646
+","","","","True","77"
+"Quadro K5100M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro K5100M
+Rank: 78
+G3DMark: 3,086
+G2DMark: 890
+Num Samples: 43
+Price: NA
+","NA","High-end GPUs","Quadro K5100M:
+G3D Mark score: 3,086
+G2D Mark scrore: 890
+","","","","True","78"
+"Radeon R7 260X","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R7 260X
+Rank: 79
+G3DMark: 3,033
+G2DMark: 590
+Num Samples: 2162
+Price: $99.99
+","99.99","High-end GPUs","Radeon R7 260X:
+G3D Mark score: 3,033
+G2D Mark scrore: 590
+","","","","True","79"
+"Radeon HD 7790","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7790
+Rank: 80
+G3DMark: 3,005
+G2DMark: 585
+Num Samples: 1175
+Price: $310.96
+","310.96","High-end GPUs","Radeon HD 7790:
+G3D Mark score: 3,005
+G2D Mark scrore: 585
+","","","","True","80"
+"FirePro W5000","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro W5000
+Rank: 81
+G3DMark: 2,947
+G2DMark: 775
+Num Samples: 80
+Price: $434.00
+","434.00","High-end GPUs","FirePro W5000:
+G3D Mark score: 2,947
+G2D Mark scrore: 775
+","","","","True","81"
+"GeForce GTX 465","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 465
+Rank: 82
+G3DMark: 2,938
+G2DMark: 603
+Num Samples: 369
+Price: $263.28*
+Price is last known price","263.28","High-end GPUs","GeForce GTX 465:
+G3D Mark score: 2,938
+G2D Mark scrore: 603
+","","","","True","82"
+"GeForce GTX 965M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 965M
+Rank: 83
+G3DMark: 2,932
+G2DMark: 718
+Num Samples: 97
+Price: NA
+","NA","High-end GPUs","GeForce GTX 965M:
+G3D Mark score: 2,932
+G2D Mark scrore: 718
+","","","","True","83"
+"Quadro K1200","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro K1200
+Rank: 84
+G3DMark: 2,903
+G2DMark: 770
+Num Samples: 11
+Price: $299.00
+","299.00","High-end GPUs","Quadro K1200:
+G3D Mark score: 2,903
+G2D Mark scrore: 770
+","","","","True","84"
+"Radeon R7 260","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R7 260
+Rank: 85
+G3DMark: 2,824
+G2DMark: 580
+Num Samples: 71
+Price: $89.99*
+Price is last known price","89.99","High-end GPUs","Radeon R7 260:
+G3D Mark score: 2,824
+G2D Mark scrore: 580
+","","","","True","85"
+"Quadro K4000","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro K4000
+Rank: 86
+G3DMark: 2,818
+G2DMark: 696
+Num Samples: 390
+Price: $545.00
+","545.00","High-end GPUs","Quadro K4000:
+G3D Mark score: 2,818
+G2D Mark scrore: 696
+","","","","True","86"
+"Radeon HD 6990","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 6990
+Rank: 87
+G3DMark: 2,817
+G2DMark: 615
+Num Samples: 4
+Price: $159.99*
+Price is last known price","159.99","High-end GPUs","Radeon HD 6990:
+G3D Mark score: 2,817
+G2D Mark scrore: 615
+","","","","True","87"
+"FirePro 3D V9800","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro 3D V9800
+Rank: 88
+G3DMark: 2,811
+G2DMark: 555
+Num Samples: 3
+Price: $2,499.00*
+Price is last known price","2499.00","High-end GPUs","FirePro 3D V9800:
+G3D Mark score: 2,811
+G2D Mark scrore: 555
+","","","","True","88"
+"FirePro M6100","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro M6100
+Rank: 89
+G3DMark: 2,797
+G2DMark: 714
+Num Samples: 38
+Price: NA
+","NA","High-end GPUs","FirePro M6100:
+G3D Mark score: 2,797
+G2D Mark scrore: 714
+","","","","True","89"
+"FirePro W5100","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro W5100
+Rank: 90
+G3DMark: 2,787
+G2DMark: 692
+Num Samples: 20
+Price: $324.99
+","324.99","High-end GPUs","FirePro W5100:
+G3D Mark score: 2,787
+G2D Mark scrore: 692
+","","","","True","90"
+"Quadro K5000M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro K5000M
+Rank: 91
+G3DMark: 2,781
+G2DMark: 672
+Num Samples: 37
+Price: NA
+","NA","High-end GPUs","Quadro K5000M:
+G3D Mark score: 2,781
+G2D Mark scrore: 672
+","","","","True","91"
+"Radeon HD 8950","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8950
+Rank: 92
+G3DMark: 2,766
+G2DMark: 823
+Num Samples: 6
+Price: NA
+","NA","High-end GPUs","Radeon HD 8950:
+G3D Mark score: 2,766
+G2D Mark scrore: 823
+","","","","True","92"
+"Radeon HD8970M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD8970M
+Rank: 93
+G3DMark: 2,706
+G2DMark: 679
+Num Samples: 8
+Price: NA
+","NA","High-end GPUs","Radeon HD8970M:
+G3D Mark score: 2,706
+G2D Mark scrore: 679
+","","","","True","93"
+"Quadro 5000","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro 5000
+Rank: 94
+G3DMark: 2,704
+G2DMark: 575
+Num Samples: 158
+Price: $262.04
+","262.04","High-end GPUs","Quadro 5000:
+G3D Mark score: 2,704
+G2D Mark scrore: 575
+","","","","True","94"
+"GeForce GTX 770M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 770M
+Rank: 95
+G3DMark: 2,703
+G2DMark: 763
+Num Samples: 522
+Price: NA
+","NA","High-end GPUs","GeForce GTX 770M:
+G3D Mark score: 2,703
+G2D Mark scrore: 763
+","","","","True","95"
+"GeForce GTX 650 Ti","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 650 Ti
+Rank: 96
+G3DMark: 2,678
+G2DMark: 656
+Num Samples: 3133
+Price: $117.98
+","117.98","High-end GPUs","GeForce GTX 650 Ti:
+G3D Mark score: 2,678
+G2D Mark scrore: 656
+","","","","True","96"
+"FirePro V7900","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro V7900
+Rank: 97
+G3DMark: 2,673
+G2DMark: 663
+Num Samples: 55
+Price: $708.99
+","708.99","High-end GPUs","FirePro V7900:
+G3D Mark score: 2,673
+G2D Mark scrore: 663
+","","","","True","97"
+"GeForce GTX 460","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 460
+Rank: 98
+G3DMark: 2,647
+G2DMark: 600
+Num Samples: 4610
+Price: $89.99*
+Price is last known price","89.99","High-end GPUs","GeForce GTX 460:
+G3D Mark score: 2,647
+G2D Mark scrore: 600
+","","","","True","98"
+"Quadro K4100M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro K4100M
+Rank: 99
+G3DMark: 2,623
+G2DMark: 891
+Num Samples: 46
+Price: NA
+","NA","High-end GPUs","Quadro K4100M:
+G3D Mark score: 2,623
+G2D Mark scrore: 891
+","","","","True","99"
+"FirePro W5100 Adapter","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro W5100 Adapter
+Rank: 100
+G3DMark: 2,617
+G2DMark: 731
+Num Samples: 10
+Price: NA
+","NA","High-end GPUs","FirePro W5100 Adapter:
+G3D Mark score: 2,617
+G2D Mark scrore: 731
+","","","","True","100"
+"Radeon HD 5970","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 5970
+Rank: 101
+G3DMark: 2,604
+G2DMark: 651
+Num Samples: 386
+Price: $329.99*
+Price is last known price","329.99","High-end GPUs","Radeon HD 5970:
+G3D Mark score: 2,604
+G2D Mark scrore: 651
+","","","","True","101"
+"Radeon HD 5870","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 5870
+Rank: 102
+G3DMark: 2,600
+G2DMark: 614
+Num Samples: 1573
+Price: $99.99*
+Price is last known price","99.99","High-end GPUs","Radeon HD 5870:
+G3D Mark score: 2,600
+G2D Mark scrore: 614
+","","","","True","102"
+"Radeon HD 6870","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 6870
+Rank: 103
+G3DMark: 2,579
+G2DMark: 615
+Num Samples: 4402
+Price: $89.99*
+Price is last known price","89.99","High-end GPUs","Radeon HD 6870:
+G3D Mark score: 2,579
+G2D Mark scrore: 615
+","","","","True","103"
+"GeForce GTX 460 v2","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 460 v2
+Rank: 104
+G3DMark: 2,579
+G2DMark: 623
+Num Samples: 140
+Price: $199.99*
+Price is last known price","199.99","High-end GPUs","GeForce GTX 460 v2:
+G3D Mark score: 2,579
+G2D Mark scrore: 623
+","","","","True","104"
+"Radeon R9 M290X","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R9 M290X
+Rank: 105
+G3DMark: 2,547
+G2DMark: 619
+Num Samples: 2
+Price: NA
+","NA","High-end GPUs","Radeon R9 M290X:
+G3D Mark score: 2,547
+G2D Mark scrore: 619
+","","","","True","105"
+"FirePro 3D V8800","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro 3D V8800
+Rank: 106
+G3DMark: 2,519
+G2DMark: 731
+Num Samples: 18
+Price: $424.99*
+Price is last known price","424.99","High-end GPUs","FirePro 3D V8800:
+G3D Mark score: 2,519
+G2D Mark scrore: 731
+","","","","True","106"
+"GeForce GT 645","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GT 645
+Rank: 107
+G3DMark: 2,498
+G2DMark: 868
+Num Samples: 3
+Price: NA
+","NA","High-end GPUs","GeForce GT 645:
+G3D Mark score: 2,498
+G2D Mark scrore: 868
+","","","","True","107"
+"GeForce GTX 675MX","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 675MX
+Rank: 108
+G3DMark: 2,385
+G2DMark: 665
+Num Samples: 87
+Price: NA
+","NA","High-end GPUs","GeForce GTX 675MX:
+G3D Mark score: 2,385
+G2D Mark scrore: 665
+","","","","True","108"
+"GeForce GTX 485M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 485M
+Rank: 109
+G3DMark: 2,369
+G2DMark: 578
+Num Samples: 16
+Price: NA
+","NA","High-end GPUs","GeForce GTX 485M:
+G3D Mark score: 2,369
+G2D Mark scrore: 578
+","","","","True","109"
+"GeForce GTX 580M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 580M
+Rank: 110
+G3DMark: 2,309
+G2DMark: 585
+Num Samples: 64
+Price: NA
+","NA","High-end GPUs","GeForce GTX 580M:
+G3D Mark score: 2,309
+G2D Mark scrore: 585
+","","","","True","110"
+"Radeon HD 5850","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 5850
+Rank: 111
+G3DMark: 2,264
+G2DMark: 594
+Num Samples: 1731
+Price: $79.99*
+Price is last known price","79.99","High-end GPUs","Radeon HD 5850:
+G3D Mark score: 2,264
+G2D Mark scrore: 594
+","","","","True","111"
+"Quadro K620","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro K620
+Rank: 112
+G3DMark: 2,248
+G2DMark: 843
+Num Samples: 196
+Price: $159.99
+","159.99","High-end GPUs","Quadro K620:
+G3D Mark score: 2,248
+G2D Mark scrore: 843
+","","","","True","112"
+"Radeon HD 6850","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 6850
+Rank: 113
+G3DMark: 2,239
+G2DMark: 589
+Num Samples: 4480
+Price: $99.99*
+Price is last known price","99.99","High-end GPUs","Radeon HD 6850:
+G3D Mark score: 2,239
+G2D Mark scrore: 589
+","","","","True","113"
+"GeForce GTX 460 SE","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 460 SE
+Rank: 114
+G3DMark: 2,237
+G2DMark: 599
+Num Samples: 449
+Price: $159.99*
+Price is last known price","159.99","High-end GPUs","GeForce GTX 460 SE:
+G3D Mark score: 2,237
+G2D Mark scrore: 599
+","","","","True","114"
+"GeForce GTX 870M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 870M
+Rank: 115
+G3DMark: 2,232
+G2DMark: 754
+Num Samples: 317
+Price: NA
+","NA","High-end GPUs","GeForce GTX 870M:
+G3D Mark score: 2,232
+G2D Mark scrore: 754
+","","","","True","115"
+"GeForce GTX 560 SE","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 560 SE
+Rank: 116
+G3DMark: 2,229
+G2DMark: 574
+Num Samples: 177
+Price: $89.99*
+Price is last known price","89.99","High-end GPUs","GeForce GTX 560 SE:
+G3D Mark score: 2,229
+G2D Mark scrore: 574
+","","","","True","116"
+"Quadro K4000M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro K4000M
+Rank: 117
+G3DMark: 2,188
+G2DMark: 717
+Num Samples: 55
+Price: NA
+","NA","High-end GPUs","Quadro K4000M:
+G3D Mark score: 2,188
+G2D Mark scrore: 717
+","","","","True","117"
+"FirePro M5100","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro M5100
+Rank: 118
+G3DMark: 2,172
+G2DMark: 836
+Num Samples: 3
+Price: NA
+","NA","High-end GPUs","FirePro M5100:
+G3D Mark score: 2,172
+G2D Mark scrore: 836
+","","","","True","118"
+"GeForce GTX 555","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 555
+Rank: 119
+G3DMark: 2,165
+G2DMark: 676
+Num Samples: 77
+Price: NA
+","NA","High-end GPUs","GeForce GTX 555:
+G3D Mark score: 2,165
+G2D Mark scrore: 676
+","","","","True","119"
+"GeForce GTX 745","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 745
+Rank: 120
+G3DMark: 2,161
+G2DMark: 860
+Num Samples: 308
+Price: NA
+","NA","High-end GPUs","GeForce GTX 745:
+G3D Mark score: 2,161
+G2D Mark scrore: 860
+","","","","True","120"
+"Radeon R7 + HD 7700 Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R7 + HD 7700 Dual
+Rank: 121
+G3DMark: 2,159
+G2DMark: 494
+Num Samples: 2
+Price: NA
+","NA","High-end GPUs","Radeon R7 + HD 7700 Dual:
+G3D Mark score: 2,159
+G2D Mark scrore: 494
+","","","","True","121"
+"Radeon HD 7770","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7770
+Rank: 122
+G3DMark: 2,155
+G2DMark: 576
+Num Samples: 5405
+Price: $119.99
+","119.99","High-end GPUs","Radeon HD 7770:
+G3D Mark score: 2,155
+G2D Mark scrore: 576
+","","","","True","122"
+"GeForce GTX 675M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 675M
+Rank: 123
+G3DMark: 2,141
+G2DMark: 663
+Num Samples: 231
+Price: NA
+","NA","High-end GPUs","GeForce GTX 675M:
+G3D Mark score: 2,141
+G2D Mark scrore: 663
+","","","","True","123"
+"GeForce GTX 670MX","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 670MX
+Rank: 124
+G3DMark: 2,065
+G2DMark: 633
+Num Samples: 254
+Price: NA
+","NA","High-end GPUs","GeForce GTX 670MX:
+G3D Mark score: 2,065
+G2D Mark scrore: 633
+","","","","True","124"
+"Radeon HD 6790","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 6790
+Rank: 125
+G3DMark: 2,037
+G2DMark: 567
+Num Samples: 595
+Price: $64.99*
+Price is last known price","64.99","High-end GPUs","Radeon HD 6790:
+G3D Mark score: 2,037
+G2D Mark scrore: 567
+","","","","True","125"
+"Radeon HD 5830","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 5830
+Rank: 126
+G3DMark: 2,031
+G2DMark: 539
+Num Samples: 456
+Price: $159.99*
+Price is last known price","159.99","High-end GPUs","Radeon HD 5830:
+G3D Mark score: 2,031
+G2D Mark scrore: 539
+","","","","True","126"
+"GeForce GTX 480M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 480M
+Rank: 127
+G3DMark: 2,018
+G2DMark: 555
+Num Samples: 9
+Price: NA
+","NA","High-end GPUs","GeForce GTX 480M:
+G3D Mark score: 2,018
+G2D Mark scrore: 555
+","","","","True","127"
+"GeForce GTX 570M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 570M
+Rank: 128
+G3DMark: 2,008
+G2DMark: 550
+Num Samples: 122
+Price: NA
+","NA","High-end GPUs","GeForce GTX 570M:
+G3D Mark score: 2,008
+G2D Mark scrore: 550
+","","","","True","128"
+"Radeon R9 M370X","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R9 M370X
+Rank: 129
+G3DMark: 1,985
+G2DMark: 729
+Num Samples: 3
+Price: NA
+","NA","High-end GPUs","Radeon R9 M370X:
+G3D Mark score: 1,985
+G2D Mark scrore: 729
+","","","","True","129"
+"GeForce GTX 470M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 470M
+Rank: 130
+G3DMark: 1,976
+G2DMark: 521
+Num Samples: 6
+Price: NA
+","NA","High-end GPUs","GeForce GTX 470M:
+G3D Mark score: 1,976
+G2D Mark scrore: 521
+","","","","True","130"
+"Quadro 4000","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro 4000
+Rank: 131
+G3DMark: 1,932
+G2DMark: 637
+Num Samples: 785
+Price: $342.28
+","342.28","High-end GPUs","Quadro 4000:
+G3D Mark score: 1,932
+G2D Mark scrore: 637
+","","","","True","131"
+"GeForce GTX 765M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 765M
+Rank: 132
+G3DMark: 1,928
+G2DMark: 727
+Num Samples: 679
+Price: NA
+","NA","High-end GPUs","GeForce GTX 765M:
+G3D Mark score: 1,928
+G2D Mark scrore: 727
+","","","","True","132"
+"GeForce GTX 645","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 645
+Rank: 133
+G3DMark: 1,926
+G2DMark: 857
+Num Samples: 239
+Price: NA
+","NA","High-end GPUs","GeForce GTX 645:
+G3D Mark score: 1,926
+G2D Mark scrore: 857
+","","","","True","133"
+"GeForce GTX 550 Ti","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 550 Ti
+Rank: 134
+G3DMark: 1,923
+G2DMark: 584
+Num Samples: 5016
+Price: $287.59*
+Price is last known price","287.59","High-end GPUs","GeForce GTX 550 Ti:
+G3D Mark score: 1,923
+G2D Mark scrore: 584
+","","","","True","134"
+"Quadro 5000M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro 5000M
+Rank: 135
+G3DMark: 1,919
+G2DMark: 400
+Num Samples: 7
+Price: NA
+","NA","High-end GPUs","Quadro 5000M:
+G3D Mark score: 1,919
+G2D Mark scrore: 400
+","","","","True","135"
+"Radeon HD 6900M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 6900M
+Rank: 136
+G3DMark: 1,900
+G2DMark: 587
+Num Samples: 281
+Price: NA
+","NA","High-end GPUs","Radeon HD 6900M:
+G3D Mark score: 1,900
+G2D Mark scrore: 587
+","","","","True","136"
+"GeForce GTX 670M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 670M
+Rank: 137
+G3DMark: 1,891
+G2DMark: 648
+Num Samples: 351
+Price: NA
+","NA","High-end GPUs","GeForce GTX 670M:
+G3D Mark score: 1,891
+G2D Mark scrore: 648
+","","","","True","137"
+"Quadro K3100M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro K3100M
+Rank: 138
+G3DMark: 1,884
+G2DMark: 846
+Num Samples: 134
+Price: $676.93
+","676.93","High-end GPUs","Quadro K3100M:
+G3D Mark score: 1,884
+G2D Mark scrore: 846
+","","","","True","138"
+"GRID K280Q","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GRID K280Q
+Rank: 139
+G3DMark: 1,840
+G2DMark: 533
+Num Samples: 5
+Price: NA
+","NA","High-end GPUs","GRID K280Q:
+G3D Mark score: 1,840
+G2D Mark scrore: 533
+","","","","True","139"
+"Radeon HD 8570D + HD 7700 Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8570D + HD 7700 Dual
+Rank: 140
+G3DMark: 1,834
+G2DMark: 466
+Num Samples: 3
+Price: NA
+","NA","High-end GPUs","Radeon HD 8570D + HD 7700 Dual:
+G3D Mark score: 1,834
+G2D Mark scrore: 466
+","","","","True","140"
+"GeForce GTX 650","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 650
+Rank: 141
+G3DMark: 1,832
+G2DMark: 632
+Num Samples: 4137
+Price: $99.99
+","99.99","High-end GPUs","GeForce GTX 650:
+G3D Mark score: 1,832
+G2D Mark scrore: 632
+","","","","True","141"
+"Radeon R9 255","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R9 255
+Rank: 142
+G3DMark: 1,826
+G2DMark: 626
+Num Samples: 24
+Price: NA
+","NA","High-end GPUs","Radeon R9 255:
+G3D Mark score: 1,826
+G2D Mark scrore: 626
+","","","","True","142"
+"Radeon HD 8670D + 7700 Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8670D + 7700 Dual
+Rank: 143
+G3DMark: 1,788
+G2DMark: 572
+Num Samples: 6
+Price: NA
+","NA","High-end GPUs","Radeon HD 8670D + 7700 Dual:
+G3D Mark score: 1,788
+G2D Mark scrore: 572
+","","","","True","143"
+"FirePro 3D V7800","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro 3D V7800
+Rank: 144
+G3DMark: 1,784
+G2DMark: 598
+Num Samples: 13
+Price: $599.99*
+Price is last known price","599.99","High-end GPUs","FirePro 3D V7800:
+G3D Mark score: 1,784
+G2D Mark scrore: 598
+","","","","True","144"
+"Quadro 4000M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro 4000M
+Rank: 145
+G3DMark: 1,769
+G2DMark: 552
+Num Samples: 64
+Price: NA
+","NA","High-end GPUs","Quadro 4000M:
+G3D Mark score: 1,769
+G2D Mark scrore: 552
+","","","","True","145"
+"Radeon HD 8870M / R9 M270X / M370X","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8870M / R9 M270X / M370X
+Rank: 146
+G3DMark: 1,754
+G2DMark: 675
+Num Samples: 33
+Price: NA
+","NA","High-end GPUs","Radeon HD 8870M / R9 M270X / M370X:
+G3D Mark score: 1,754
+G2D Mark scrore: 675
+","","","","True","146"
+"Radeon HD 8870M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8870M
+Rank: 147
+G3DMark: 1,704
+G2DMark: 679
+Num Samples: 11
+Price: NA
+","NA","High-end GPUs","Radeon HD 8870M:
+G3D Mark score: 1,704
+G2D Mark scrore: 679
+","","","","True","147"
+"Quadro 5010M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro 5010M
+Rank: 148
+G3DMark: 1,698
+G2DMark: 587
+Num Samples: 24
+Price: NA
+","NA","High-end GPUs","Quadro 5010M:
+G3D Mark score: 1,698
+G2D Mark scrore: 587
+","","","","True","148"
+"Radeon HD 5770","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 5770
+Rank: 149
+G3DMark: 1,687
+G2DMark: 544
+Num Samples: 4430
+Price: $115.99*
+Price is last known price","115.99","High-end GPUs","Radeon HD 5770:
+G3D Mark score: 1,687
+G2D Mark scrore: 544
+","","","","True","149"
+"FirePro W600","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro W600
+Rank: 150
+G3DMark: 1,679
+G2DMark: 714
+Num Samples: 15
+Price: $449.99
+","449.99","High-end GPUs","FirePro W600:
+G3D Mark score: 1,679
+G2D Mark scrore: 714
+","","","","True","150"
+"FirePro M6000 Mobility Pro","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro M6000 Mobility Pro
+Rank: 151
+G3DMark: 1,674
+G2DMark: 693
+Num Samples: 40
+Price: NA
+","NA","High-end GPUs","FirePro M6000 Mobility Pro:
+G3D Mark score: 1,674
+G2D Mark scrore: 693
+","","","","True","151"
+"Radeon HD 6770","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 6770
+Rank: 152
+G3DMark: 1,664
+G2DMark: 540
+Num Samples: 1671
+Price: $76.99*
+Price is last known price","76.99","High-end GPUs","Radeon HD 6770:
+G3D Mark score: 1,664
+G2D Mark scrore: 540
+","","","","True","152"
+"Quadro K2000","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro K2000
+Rank: 153
+G3DMark: 1,661
+G2DMark: 760
+Num Samples: 394
+Price: $363.50
+","363.50","High-end GPUs","Quadro K2000:
+G3D Mark score: 1,661
+G2D Mark scrore: 760
+","","","","True","153"
+"Radeon HD 7750","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7750
+Rank: 154
+G3DMark: 1,643
+G2DMark: 549
+Num Samples: 3062
+Price: $89.99
+","89.99","High-end GPUs","Radeon HD 7750:
+G3D Mark score: 1,643
+G2D Mark scrore: 549
+","","","","True","154"
+"Quadro K2000D","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro K2000D
+Rank: 155
+G3DMark: 1,628
+G2DMark: 795
+Num Samples: 65
+Price: $389.75
+","389.75","High-end GPUs","Quadro K2000D:
+G3D Mark score: 1,628
+G2D Mark scrore: 795
+","","","","True","155"
+"Quadro K3000M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro K3000M
+Rank: 156
+G3DMark: 1,595
+G2DMark: 720
+Num Samples: 75
+Price: NA
+","NA","High-end GPUs","Quadro K3000M:
+G3D Mark score: 1,595
+G2D Mark scrore: 720
+","","","","True","156"
+"GeForce GTX 860M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 860M
+Rank: 157
+G3DMark: 1,592
+G2DMark: 667
+Num Samples: 1556
+Price: NA
+","NA","High-end GPUs","GeForce GTX 860M:
+G3D Mark score: 1,592
+G2D Mark scrore: 667
+","","","","True","157"
+"GeForce GT 755M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GT 755M
+Rank: 158
+G3DMark: 1,574
+G2DMark: 712
+Num Samples: 436
+Price: NA
+","NA","High-end GPUs","GeForce GT 755M:
+G3D Mark score: 1,574
+G2D Mark scrore: 712
+","","","","True","158"
+"GeForce GTX 960M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 960M
+Rank: 159
+G3DMark: 1,573
+G2DMark: 667
+Num Samples: 441
+Price: NA
+","NA","High-end GPUs","GeForce GTX 960M:
+G3D Mark score: 1,573
+G2D Mark scrore: 667
+","","","","True","159"
+"GeForce GT 740","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GT 740
+Rank: 160
+G3DMark: 1,555
+G2DMark: 656
+Num Samples: 524
+Price: $64.99
+","64.99","High-end GPUs","GeForce GT 740:
+G3D Mark score: 1,555
+G2D Mark scrore: 656
+","","","","True","160"
+"GeForce GTX 560M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 560M
+Rank: 161
+G3DMark: 1,551
+G2DMark: 546
+Num Samples: 622
+Price: NA
+","NA","High-end GPUs","GeForce GTX 560M:
+G3D Mark score: 1,551
+G2D Mark scrore: 546
+","","","","True","161"
+"GeForce GTS 450","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTS 450
+Rank: 162
+G3DMark: 1,551
+G2DMark: 543
+Num Samples: 2459
+Price: $64.99*
+Price is last known price","64.99","High-end GPUs","GeForce GTS 450:
+G3D Mark score: 1,551
+G2D Mark scrore: 543
+","","","","True","162"
+"FirePro W4100","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro W4100
+Rank: 163
+G3DMark: 1,551
+G2DMark: 833
+Num Samples: 16
+Price: $159.99
+","159.99","High-end GPUs","FirePro W4100:
+G3D Mark score: 1,551
+G2D Mark scrore: 833
+","","","","True","163"
+"Radeon HD 7660D + HD 6670 Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7660D + HD 6670 Dual
+Rank: 164
+G3DMark: 1,533
+G2DMark: 508
+Num Samples: 3
+Price: NA
+","NA","High-end GPUs","Radeon HD 7660D + HD 6670 Dual:
+G3D Mark score: 1,533
+G2D Mark scrore: 508
+","","","","True","164"
+"Intel Iris Pro 6200","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Intel Iris Pro 6200
+Rank: 165
+G3DMark: 1,530
+G2DMark: 871
+Num Samples: 13
+Price: NA
+","NA","High-end GPUs","Intel Iris Pro 6200:
+G3D Mark score: 1,530
+G2D Mark scrore: 871
+","","","","True","165"
+"Radeon HD 4890","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 4890
+Rank: 166
+G3DMark: 1,527
+G2DMark: 548
+Num Samples: 705
+Price: $109.99*
+Price is last known price","109.99","High-end GPUs","Radeon HD 4890:
+G3D Mark score: 1,527
+G2D Mark scrore: 548
+","","","","True","166"
+"FirePro W4100 Adapter","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro W4100 Adapter
+Rank: 167
+G3DMark: 1,524
+G2DMark: 736
+Num Samples: 8
+Price: NA
+","NA","High-end GPUs","FirePro W4100 Adapter:
+G3D Mark score: 1,524
+G2D Mark scrore: 736
+","","","","True","167"
+"FirePro V5900","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro V5900
+Rank: 168
+G3DMark: 1,514
+G2DMark: 646
+Num Samples: 99
+Price: $319.99
+","319.99","High-end GPUs","FirePro V5900:
+G3D Mark score: 1,514
+G2D Mark scrore: 646
+","","","","True","168"
+"Radeon HD 7870M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7870M
+Rank: 169
+G3DMark: 1,447
+G2DMark: 558
+Num Samples: 12
+Price: NA
+","NA","High-end GPUs","Radeon HD 7870M:
+G3D Mark score: 1,447
+G2D Mark scrore: 558
+","","","","True","169"
+"GeForce GTX 760M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 760M
+Rank: 170
+G3DMark: 1,436
+G2DMark: 706
+Num Samples: 223
+Price: NA
+","NA","High-end GPUs","GeForce GTX 760M:
+G3D Mark score: 1,436
+G2D Mark scrore: 706
+","","","","True","170"
+"GeForce GTX 660M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 660M
+Rank: 171
+G3DMark: 1,432
+G2DMark: 625
+Num Samples: 821
+Price: NA
+","NA","High-end GPUs","GeForce GTX 660M:
+G3D Mark score: 1,432
+G2D Mark scrore: 625
+","","","","True","171"
+"FirePro M4000","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro M4000
+Rank: 172
+G3DMark: 1,420
+G2DMark: 635
+Num Samples: 48
+Price: NA
+","NA","High-end GPUs","FirePro M4000:
+G3D Mark score: 1,420
+G2D Mark scrore: 635
+","","","","True","172"
+"Radeon R7 250","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R7 250
+Rank: 173
+G3DMark: 1,413
+G2DMark: 545
+Num Samples: 835
+Price: $79.99
+","79.99","High-end GPUs","Radeon R7 250:
+G3D Mark score: 1,413
+G2D Mark scrore: 545
+","","","","True","173"
+"Radeon HD 7560D + 7670 Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7560D + 7670 Dual
+Rank: 174
+G3DMark: 1,412
+G2DMark: 447
+Num Samples: 6
+Price: NA
+","NA","High-end GPUs","Radeon HD 7560D + 7670 Dual:
+G3D Mark score: 1,412
+G2D Mark scrore: 447
+","","","","True","174"
+"FirePro M40003","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro M40003
+Rank: 175
+G3DMark: 1,411
+G2DMark: 658
+Num Samples: 36
+Price: NA
+","NA","High-end GPUs","FirePro M40003:
+G3D Mark score: 1,411
+G2D Mark scrore: 658
+","","","","True","175"
+"Radeon R7 + R7 200 Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R7 + R7 200 Dual
+Rank: 176
+G3DMark: 1,408
+G2DMark: 475
+Num Samples: 38
+Price: NA
+","NA","High-end GPUs","Radeon R7 + R7 200 Dual:
+G3D Mark score: 1,408
+G2D Mark scrore: 475
+","","","","True","176"
+"GeForce GTX 850M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 850M
+Rank: 177
+G3DMark: 1,405
+G2DMark: 684
+Num Samples: 913
+Price: NA
+","NA","High-end GPUs","GeForce GTX 850M:
+G3D Mark score: 1,405
+G2D Mark scrore: 684
+","","","","True","177"
+"Radeon HD 5750","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 5750
+Rank: 178
+G3DMark: 1,395
+G2DMark: 522
+Num Samples: 1350
+Price: $69.41*
+Price is last known price","69.41","High-end GPUs","Radeon HD 5750:
+G3D Mark score: 1,395
+G2D Mark scrore: 522
+","","","","True","178"
+"Radeon R9 M275X / M375","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R9 M275X / M375
+Rank: 179
+G3DMark: 1,388
+G2DMark: 651
+Num Samples: 29
+Price: NA
+","NA","High-end GPUs","Radeon R9 M275X / M375:
+G3D Mark score: 1,388
+G2D Mark scrore: 651
+","","","","True","179"
+"GeForce GTX 460M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 460M
+Rank: 180
+G3DMark: 1,382
+G2DMark: 486
+Num Samples: 516
+Price: NA
+","NA","High-end GPUs","GeForce GTX 460M:
+G3D Mark score: 1,382
+G2D Mark scrore: 486
+","","","","True","180"
+"Radeon HD 4870","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 4870
+Rank: 181
+G3DMark: 1,375
+G2DMark: 508
+Num Samples: 1389
+Price: $59.99*
+Price is last known price","59.99","High-end GPUs","Radeon HD 4870:
+G3D Mark score: 1,375
+G2D Mark scrore: 508
+","","","","True","181"
+"GeForce GTX 950M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 950M
+Rank: 182
+G3DMark: 1,373
+G2DMark: 678
+Num Samples: 203
+Price: NA
+","NA","High-end GPUs","GeForce GTX 950M:
+G3D Mark score: 1,373
+G2D Mark scrore: 678
+","","","","True","182"
+"Radeon HD 7850M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7850M
+Rank: 183
+G3DMark: 1,372
+G2DMark: 565
+Num Samples: 8
+Price: NA
+","NA","High-end GPUs","Radeon HD 7850M:
+G3D Mark score: 1,372
+G2D Mark scrore: 565
+","","","","True","183"
+"Radeon HD 8670D + 6670 Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8670D + 6670 Dual
+Rank: 184
+G3DMark: 1,361
+G2DMark: 567
+Num Samples: 12
+Price: NA
+","NA","High-end GPUs","Radeon HD 8670D + 6670 Dual:
+G3D Mark score: 1,361
+G2D Mark scrore: 567
+","","","","True","184"
+"FireStream 9270","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FireStream 9270
+Rank: 185
+G3DMark: 1,341
+G2DMark: 473
+Num Samples: 4
+Price: NA
+","NA","High-end GPUs","FireStream 9270:
+G3D Mark score: 1,341
+G2D Mark scrore: 473
+","","","","True","185"
+"GeForce GT 750M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GT 750M
+Rank: 186
+G3DMark: 1,341
+G2DMark: 673
+Num Samples: 1595
+Price: NA
+","NA","High-end GPUs","GeForce GT 750M:
+G3D Mark score: 1,341
+G2D Mark scrore: 673
+","","","","True","186"
+"Radeon HD 7730","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7730
+Rank: 187
+G3DMark: 1,335
+G2DMark: 474
+Num Samples: 34
+Price: $49.99*
+Price is last known price","49.99","High-end GPUs","Radeon HD 7730:
+G3D Mark score: 1,335
+G2D Mark scrore: 474
+","","","","True","187"
+"FirePro 3D V5800","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro 3D V5800
+Rank: 188
+G3DMark: 1,327
+G2DMark: 575
+Num Samples: 64
+Price: $369.99*
+Price is last known price","369.99","High-end GPUs","FirePro 3D V5800:
+G3D Mark score: 1,327
+G2D Mark scrore: 575
+","","","","True","188"
+"Radeon HD 8790M / R9 M290X","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8790M / R9 M290X
+Rank: 189
+G3DMark: 1,326
+G2DMark: 618
+Num Samples: 3
+Price: NA
+","NA","High-end GPUs","Radeon HD 8790M / R9 M290X:
+G3D Mark score: 1,326
+G2D Mark scrore: 618
+","","","","True","189"
+"Radeon R9 M270X","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R9 M270X
+Rank: 190
+G3DMark: 1,312
+G2DMark: 438
+Num Samples: 8
+Price: NA
+","NA","High-end GPUs","Radeon R9 M270X:
+G3D Mark score: 1,312
+G2D Mark scrore: 438
+","","","","True","190"
+"Radeon HD 8790M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8790M
+Rank: 191
+G3DMark: 1,305
+G2DMark: 799
+Num Samples: 15
+Price: NA
+","NA","High-end GPUs","Radeon HD 8790M:
+G3D Mark score: 1,305
+G2D Mark scrore: 799
+","","","","True","191"
+"Radeon HD 6750","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 6750
+Rank: 192
+G3DMark: 1,305
+G2DMark: 526
+Num Samples: 432
+Price: $49.99*
+Price is last known price","49.99","High-end GPUs","Radeon HD 6750:
+G3D Mark score: 1,305
+G2D Mark scrore: 526
+","","","","True","192"
+"Quadro 2000","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro 2000
+Rank: 193
+G3DMark: 1,303
+G2DMark: 638
+Num Samples: 650
+Price: $95.00
+","95.00","High-end GPUs","Quadro 2000:
+G3D Mark score: 1,303
+G2D Mark scrore: 638
+","","","","True","193"
+"Quadro 3000M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro 3000M
+Rank: 194
+G3DMark: 1,297
+G2DMark: 577
+Num Samples: 190
+Price: $349.00*
+Price is last known price","349.00","High-end GPUs","Quadro 3000M:
+G3D Mark score: 1,297
+G2D Mark scrore: 577
+","","","","True","194"
+"FirePro V4900","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro V4900
+Rank: 195
+G3DMark: 1,295
+G2DMark: 712
+Num Samples: 170
+Price: $144.99
+","144.99","High-end GPUs","FirePro V4900:
+G3D Mark score: 1,295
+G2D Mark scrore: 712
+","","","","True","195"
+"GeForce GT 640","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GT 640
+Rank: 196
+G3DMark: 1,288
+G2DMark: 632
+Num Samples: 2467
+Price: $59.99*
+Price is last known price","59.99","High-end GPUs","GeForce GT 640:
+G3D Mark score: 1,288
+G2D Mark scrore: 632
+","","","","True","196"
+"Quadro 2000D","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro 2000D
+Rank: 197
+G3DMark: 1,287
+G2DMark: 670
+Num Samples: 64
+Price: $424.00*
+Price is last known price","424.00","High-end GPUs","Quadro 2000D:
+G3D Mark score: 1,287
+G2D Mark scrore: 670
+","","","","True","197"
+"GeForce GTX 760A","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 760A
+Rank: 198
+G3DMark: 1,281
+G2DMark: 781
+Num Samples: 4
+Price: NA
+","NA","High-end GPUs","GeForce GTX 760A:
+G3D Mark score: 1,281
+G2D Mark scrore: 781
+","","","","True","198"
+"GeForce GT 545","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GT 545
+Rank: 199
+G3DMark: 1,278
+G2DMark: 647
+Num Samples: 184
+Price: $55.59*
+Price is last known price","55.59","High-end GPUs","GeForce GT 545:
+G3D Mark score: 1,278
+G2D Mark scrore: 647
+","","","","True","199"
+"FirePro 3D V8750","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro 3D V8750
+Rank: 200
+G3DMark: 1,267
+G2DMark: 536
+Num Samples: 3
+Price: $1,230.99*
+Price is last known price","1230.99","High-end GPUs","FirePro 3D V8750:
+G3D Mark score: 1,267
+G2D Mark scrore: 536
+","","","","True","200"
+"GeForce GTX 285","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 285
+Rank: 201
+G3DMark: 1,261
+G2DMark: 570
+Num Samples: 543
+Price: $179.99*
+Price is last known price","179.99","High-end GPUs","GeForce GTX 285:
+G3D Mark score: 1,261
+G2D Mark scrore: 570
+","","","","True","201"
+"Quadro K2100M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro K2100M
+Rank: 202
+G3DMark: 1,259
+G2DMark: 810
+Num Samples: 223
+Price: $235.00*
+Price is last known price","235.00","High-end GPUs","Quadro K2100M:
+G3D Mark score: 1,259
+G2D Mark scrore: 810
+","","","","True","202"
+"Radeon HD 7660D + 6670 Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7660D + 6670 Dual
+Rank: 203
+G3DMark: 1,243
+G2DMark: 522
+Num Samples: 19
+Price: NA
+","NA","High-end GPUs","Radeon HD 7660D + 6670 Dual:
+G3D Mark score: 1,243
+G2D Mark scrore: 522
+","","","","True","203"
+"Radeon HD 7640G + HD 8750M Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7640G + HD 8750M Dual
+Rank: 204
+G3DMark: 1,240
+G2DMark: 235
+Num Samples: 2
+Price: NA
+","NA","High-end GPUs","Radeon HD 7640G + HD 8750M Dual:
+G3D Mark score: 1,240
+G2D Mark scrore: 235
+","","","","True","204"
+"Radeon HD 8570D + 6570 Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8570D + 6570 Dual
+Rank: 205
+G3DMark: 1,239
+G2DMark: 459
+Num Samples: 2
+Price: NA
+","NA","High-end GPUs","Radeon HD 8570D + 6570 Dual:
+G3D Mark score: 1,239
+G2D Mark scrore: 459
+","","","","True","205"
+"Radeon HD 4870 X2","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 4870 X2
+Rank: 206
+G3DMark: 1,239
+G2DMark: 549
+Num Samples: 164
+Price: NA
+","NA","High-end GPUs","Radeon HD 4870 X2:
+G3D Mark score: 1,239
+G2D Mark scrore: 549
+","","","","True","206"
+"Radeon HD 8570D + HD 6670 Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8570D + HD 6670 Dual
+Rank: 207
+G3DMark: 1,229
+G2DMark: 555
+Num Samples: 3
+Price: NA
+","NA","High-end GPUs","Radeon HD 8570D + HD 6670 Dual:
+G3D Mark score: 1,229
+G2D Mark scrore: 555
+","","","","True","207"
+"Radeon HD 8670D + HD 6670 Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8670D + HD 6670 Dual
+Rank: 208
+G3DMark: 1,221
+G2DMark: 540
+Num Samples: 5
+Price: NA
+","NA","High-end GPUs","Radeon HD 8670D + HD 6670 Dual:
+G3D Mark score: 1,221
+G2D Mark scrore: 540
+","","","","True","208"
+"GeForce GT 650M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GT 650M
+Rank: 209
+G3DMark: 1,220
+G2DMark: 619
+Num Samples: 1764
+Price: NA
+","NA","High-end GPUs","GeForce GT 650M:
+G3D Mark score: 1,220
+G2D Mark scrore: 619
+","","","","True","209"
+"GeForce GTX 275","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 275
+Rank: 210
+G3DMark: 1,217
+G2DMark: 575
+Num Samples: 535
+Price: $109.99
+","109.99","High-end GPUs","GeForce GTX 275:
+G3D Mark score: 1,217
+G2D Mark scrore: 575
+","","","","True","210"
+"FirePro M4170","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro M4170
+Rank: 211
+G3DMark: 1,215
+G2DMark: 710
+Num Samples: 3
+Price: NA
+","NA","High-end GPUs","FirePro M4170:
+G3D Mark score: 1,215
+G2D Mark scrore: 710
+","","","","True","211"
+"Radeon R9 M265X","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R9 M265X
+Rank: 212
+G3DMark: 1,213
+G2DMark: 658
+Num Samples: 24
+Price: NA
+","NA","High-end GPUs","Radeon R9 M265X:
+G3D Mark score: 1,213
+G2D Mark scrore: 658
+","","","","True","212"
+"Radeon HD 4800 Serisi","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 4800 Serisi
+Rank: 213
+G3DMark: 1,211
+G2DMark: 391
+Num Samples: 2
+Price: NA
+","NA","High-end GPUs","Radeon HD 4800 Serisi:
+G3D Mark score: 1,211
+G2D Mark scrore: 391
+","","","","True","213"
+"GeForce GTX 280","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 280
+Rank: 214
+G3DMark: 1,198
+G2DMark: 565
+Num Samples: 329
+Price: $119.99*
+Price is last known price","119.99","High-end GPUs","GeForce GTX 280:
+G3D Mark score: 1,198
+G2D Mark scrore: 565
+","","","","True","214"
+"Intel Iris Pro 5200","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Intel Iris Pro 5200
+Rank: 215
+G3DMark: 1,178
+G2DMark: 743
+Num Samples: 189
+Price: NA
+","NA","High-end GPUs","Intel Iris Pro 5200:
+G3D Mark score: 1,178
+G2D Mark scrore: 743
+","","","","True","215"
+"Mobility Radeon HD 5870","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Mobility Radeon HD 5870
+Rank: 216
+G3DMark: 1,178
+G2DMark: 424
+Num Samples: 450
+Price: NA
+","NA","High-end GPUs","Mobility Radeon HD 5870:
+G3D Mark score: 1,178
+G2D Mark scrore: 424
+","","","","True","216"
+"Quadro 2000 D","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro 2000 D
+Rank: 217
+G3DMark: 1,167
+G2DMark: 661
+Num Samples: 10
+Price: NA
+","NA","High-end GPUs","Quadro 2000 D:
+G3D Mark score: 1,167
+G2D Mark scrore: 661
+","","","","True","217"
+"Radeon HD 7670","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7670
+Rank: 218
+G3DMark: 1,165
+G2DMark: 640
+Num Samples: 44
+Price: NA
+","NA","High-end GPUs","Radeon HD 7670:
+G3D Mark score: 1,165
+G2D Mark scrore: 640
+","","","","True","218"
+"FireStream 9250","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FireStream 9250
+Rank: 219
+G3DMark: 1,164
+G2DMark: 465
+Num Samples: 2
+Price: NA
+","NA","High-end GPUs","FireStream 9250:
+G3D Mark score: 1,164
+G2D Mark scrore: 465
+","","","","True","219"
+"Intel HD 530","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Intel HD 530
+Rank: 220
+G3DMark: 1,152
+G2DMark: 798
+Num Samples: 125
+Price: NA
+","NA","High-end GPUs","Intel HD 530:
+G3D Mark score: 1,152
+G2D Mark scrore: 798
+","","","","True","220"
+"Quadro K2200M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro K2200M
+Rank: 221
+G3DMark: 1,146
+G2DMark: 874
+Num Samples: 9
+Price: NA
+","NA","High-end GPUs","Quadro K2200M:
+G3D Mark score: 1,146
+G2D Mark scrore: 874
+","","","","True","221"
+"GeForce GT 745A","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GT 745A
+Rank: 222
+G3DMark: 1,146
+G2DMark: 796
+Num Samples: 4
+Price: NA
+","NA","High-end GPUs","GeForce GT 745A:
+G3D Mark score: 1,146
+G2D Mark scrore: 796
+","","","","True","222"
+"Radeon R7 M260X","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R7 M260X
+Rank: 223
+G3DMark: 1,145
+G2DMark: 646
+Num Samples: 2
+Price: NA
+","NA","High-end GPUs","Radeon R7 M260X:
+G3D Mark score: 1,145
+G2D Mark scrore: 646
+","","","","True","223"
+"Radeon HD 7750M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7750M
+Rank: 224
+G3DMark: 1,144
+G2DMark: 695
+Num Samples: 2
+Price: NA
+","NA","High-end GPUs","Radeon HD 7750M:
+G3D Mark score: 1,144
+G2D Mark scrore: 695
+","","","","True","224"
+"FirePro W4170M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro W4170M
+Rank: 225
+G3DMark: 1,135
+G2DMark: 841
+Num Samples: 5
+Price: NA
+","NA","High-end GPUs","FirePro W4170M:
+G3D Mark score: 1,135
+G2D Mark scrore: 841
+","","","","True","225"
+"Radeon HD 7560D + 6670 Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7560D + 6670 Dual
+Rank: 226
+G3DMark: 1,130
+G2DMark: 500
+Num Samples: 7
+Price: NA
+","NA","High-end GPUs","Radeon HD 7560D + 6670 Dual:
+G3D Mark score: 1,130
+G2D Mark scrore: 500
+","","","","True","226"
+"Radeon R9 M275","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R9 M275
+Rank: 227
+G3DMark: 1,130
+G2DMark: 537
+Num Samples: 13
+Price: $699.79
+","699.79","High-end GPUs","Radeon R9 M275:
+G3D Mark score: 1,130
+G2D Mark scrore: 537
+","","","","True","227"
+"Radeon HD 4850 X2","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 4850 X2
+Rank: 228
+G3DMark: 1,128
+G2DMark: 572
+Num Samples: 31
+Price: NA
+","NA","High-end GPUs","Radeon HD 4850 X2:
+G3D Mark score: 1,128
+G2D Mark scrore: 572
+","","","","True","228"
+"GeForce GTX 260","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 260
+Rank: 229
+G3DMark: 1,116
+G2DMark: 534
+Num Samples: 1914
+Price: $95.38*
+Price is last known price","95.38","High-end GPUs","GeForce GTX 260:
+G3D Mark score: 1,116
+G2D Mark scrore: 534
+","","","","True","229"
+"Radeon HD 7660D + 6570 Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7660D + 6570 Dual
+Rank: 230
+G3DMark: 1,100
+G2DMark: 551
+Num Samples: 2
+Price: NA
+","NA","High-end GPUs","Radeon HD 7660D + 6570 Dual:
+G3D Mark score: 1,100
+G2D Mark scrore: 551
+","","","","True","230"
+"Quadro FX 5800","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro FX 5800
+Rank: 231
+G3DMark: 1,097
+G2DMark: 558
+Num Samples: 58
+Price: $499.99*
+Price is last known price","499.99","High-end GPUs","Quadro FX 5800:
+G3D Mark score: 1,097
+G2D Mark scrore: 558
+","","","","True","231"
+"FirePro 3D V8700","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro 3D V8700
+Rank: 232
+G3DMark: 1,093
+G2DMark: 522
+Num Samples: 19
+Price: $199.99*
+Price is last known price","199.99","High-end GPUs","FirePro 3D V8700:
+G3D Mark score: 1,093
+G2D Mark scrore: 522
+","","","","True","232"
+"FirePro 3D V4800","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro 3D V4800
+Rank: 233
+G3DMark: 1,091
+G2DMark: 575
+Num Samples: 151
+Price: $159.99*
+Price is last known price","159.99","High-end GPUs","FirePro 3D V4800:
+G3D Mark score: 1,091
+G2D Mark scrore: 575
+","","","","True","233"
+"Quadro K2000M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro K2000M
+Rank: 234
+G3DMark: 1,084
+G2DMark: 703
+Num Samples: 199
+Price: NA
+","NA","High-end GPUs","Quadro K2000M:
+G3D Mark score: 1,084
+G2D Mark scrore: 703
+","","","","True","234"
+"Radeon HD 8850M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8850M
+Rank: 235
+G3DMark: 1,076
+G2DMark: 585
+Num Samples: 4
+Price: NA
+","NA","High-end GPUs","Radeon HD 8850M:
+G3D Mark score: 1,076
+G2D Mark scrore: 585
+","","","","True","235"
+"Quadro 2000M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro 2000M
+Rank: 236
+G3DMark: 1,075
+G2DMark: 575
+Num Samples: 208
+Price: $199.95*
+Price is last known price","199.95","High-end GPUs","Quadro 2000M:
+G3D Mark score: 1,075
+G2D Mark scrore: 575
+","","","","True","236"
+"Radeon HD 5670","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 5670
+Rank: 237
+G3DMark: 1,062
+G2DMark: 481
+Num Samples: 1868
+Price: $47.84*
+Price is last known price","47.84","High-end GPUs","Radeon HD 5670:
+G3D Mark score: 1,062
+G2D Mark scrore: 481
+","","","","True","237"
+"Radeon HD 4770","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 4770
+Rank: 238
+G3DMark: 1,061
+G2DMark: 492
+Num Samples: 264
+Price: NA
+","NA","High-end GPUs","Radeon HD 4770:
+G3D Mark score: 1,061
+G2D Mark scrore: 492
+","","","","True","238"
+"Radeon HD 7520G + 7700M Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7520G + 7700M Dual
+Rank: 239
+G3DMark: 1,060
+G2DMark: 331
+Num Samples: 3
+Price: NA
+","NA","High-end GPUs","Radeon HD 7520G + 7700M Dual:
+G3D Mark score: 1,060
+G2D Mark scrore: 331
+","","","","True","239"
+"Radeon HD 7670A","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7670A
+Rank: 240
+G3DMark: 1,051
+G2DMark: 717
+Num Samples: 3
+Price: NA
+","NA","High-end GPUs","Radeon HD 7670A:
+G3D Mark score: 1,051
+G2D Mark scrore: 717
+","","","","True","240"
+"Radeon HD 6670","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 6670
+Rank: 241
+G3DMark: 1,051
+G2DMark: 502
+Num Samples: 3256
+Price: $74.99
+","74.99","High-end GPUs","Radeon HD 6670:
+G3D Mark score: 1,051
+G2D Mark scrore: 502
+","","","","True","241"
+"Radeon HD 8500M/8700M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8500M/8700M
+Rank: 242
+G3DMark: 1,050
+G2DMark: 606
+Num Samples: 6
+Price: NA
+","NA","High-end GPUs","Radeon HD 8500M/8700M:
+G3D Mark score: 1,050
+G2D Mark scrore: 606
+","","","","True","242"
+"Firepro M4100","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Firepro M4100
+Rank: 243
+G3DMark: 1,049
+G2DMark: 647
+Num Samples: 11
+Price: NA
+","NA","High-end GPUs","Firepro M4100:
+G3D Mark score: 1,049
+G2D Mark scrore: 647
+","","","","True","243"
+"GeForce GT 445M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GT 445M
+Rank: 244
+G3DMark: 1,048
+G2DMark: 396
+Num Samples: 48
+Price: NA
+","NA","High-end GPUs","GeForce GT 445M:
+G3D Mark score: 1,048
+G2D Mark scrore: 396
+","","","","True","244"
+"Radeon R7 A10-7870K Radeon R7, 12 Compute Cores 4C","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R7 A10-7870K Radeon R7, 12 Compute Cores 4C
+Rank: 245
+G3DMark: 1,040
+G2DMark: 452
+Num Samples: 69
+Price: NA
+","NA","High-end GPUs","Radeon R7 A10-7870K Radeon R7, 12 Compute Cores 4C:
+G3D Mark score: 1,040
+G2D Mark scrore: 452
+","","","","True","245"
+"GeForce GTX 295","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTX 295
+Rank: 246
+G3DMark: 1,035
+G2DMark: 581
+Num Samples: 337
+Price: $139.99
+","139.99","High-end GPUs","GeForce GTX 295:
+G3D Mark score: 1,035
+G2D Mark scrore: 581
+","","","","True","246"
+"Radeon HD 4850","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 4850
+Rank: 247
+G3DMark: 1,033
+G2DMark: 475
+Num Samples: 1828
+Price: $89.99*
+Price is last known price","89.99","High-end GPUs","Radeon HD 4850:
+G3D Mark score: 1,033
+G2D Mark scrore: 475
+","","","","True","247"
+"Radeon HD7570","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD7570
+Rank: 248
+G3DMark: 1,028
+G2DMark: 356
+Num Samples: 2
+Price: NA
+","NA","High-end GPUs","Radeon HD7570:
+G3D Mark score: 1,028
+G2D Mark scrore: 356
+","","","","True","248"
+"Radeon HD 8670D + R7 240 Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8670D + R7 240 Dual
+Rank: 249
+G3DMark: 1,027
+G2DMark: 515
+Num Samples: 2
+Price: NA
+","NA","High-end GPUs","Radeon HD 8670D + R7 240 Dual:
+G3D Mark score: 1,027
+G2D Mark scrore: 515
+","","","","True","249"
+"Radeon HD 7660D + 7670 Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7660D + 7670 Dual
+Rank: 250
+G3DMark: 1,024
+G2DMark: 506
+Num Samples: 3
+Price: NA
+","NA","High-end GPUs","Radeon HD 7660D + 7670 Dual:
+G3D Mark score: 1,024
+G2D Mark scrore: 506
+","","","","True","250"
+"Quadro CX","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro CX
+Rank: 251
+G3DMark: 1,013
+G2DMark: 421
+Num Samples: 2
+Price: $149.95*
+Price is last known price","149.95","High-end GPUs","Quadro CX:
+G3D Mark score: 1,013
+G2D Mark scrore: 421
+","","","","True","251"
+"Radeon HD 8600/8700M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8600/8700M
+Rank: 252
+G3DMark: 1,013
+G2DMark: 540
+Num Samples: 26
+Price: NA
+","NA","High-end GPUs","Radeon HD 8600/8700M:
+G3D Mark score: 1,013
+G2D Mark scrore: 540
+","","","","True","252"
+"Radeon R7 + R7 240 Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R7 + R7 240 Dual
+Rank: 253
+G3DMark: 1,007
+G2DMark: 302
+Num Samples: 2
+Price: NA
+","NA","High-end GPUs","Radeon R7 + R7 240 Dual:
+G3D Mark score: 1,007
+G2D Mark scrore: 302
+","","","","True","253"
+"Radeon HD 8570D + R7 200 Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8570D + R7 200 Dual
+Rank: 254
+G3DMark: 1,000
+G2DMark: 415
+Num Samples: 4
+Price: NA
+","NA","High-end GPUs","Radeon HD 8570D + R7 200 Dual:
+G3D Mark score: 1,000
+G2D Mark scrore: 415
+","","","","True","254"
+"Radeon R7 A10-7850K","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R7 A10-7850K
+Rank: 255
+G3DMark: 999
+G2DMark: 483
+Num Samples: 268
+Price: NA
+","NA","High-end GPUs","Radeon R7 A10-7850K:
+G3D Mark score: 999
+G2D Mark scrore: 483
+","","","","True","255"
+"Radeon HD 7690M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7690M
+Rank: 256
+G3DMark: 995
+G2DMark: 583
+Num Samples: 14
+Price: NA
+","NA","High-end GPUs","Radeon HD 7690M:
+G3D Mark score: 995
+G2D Mark scrore: 583
+","","","","True","256"
+"Radeon HD 7730M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7730M
+Rank: 257
+G3DMark: 995
+G2DMark: 615
+Num Samples: 5
+Price: NA
+","NA","High-end GPUs","Radeon HD 7730M:
+G3D Mark score: 995
+G2D Mark scrore: 615
+","","","","True","257"
+"Quadro FX 4800","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro FX 4800
+Rank: 258
+G3DMark: 991
+G2DMark: 537
+Num Samples: 210
+Price: $87.27
+","87.27","High-end GPUs","Quadro FX 4800:
+G3D Mark score: 991
+G2D Mark scrore: 537
+","","","","True","258"
+"Radeon HD 5600/5700","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 5600/5700
+Rank: 259
+G3DMark: 990
+G2DMark: 467
+Num Samples: 44
+Price: NA
+","NA","High-end GPUs","Radeon HD 5600/5700:
+G3D Mark score: 990
+G2D Mark scrore: 467
+","","","","True","259"
+"Radeon HD 6770M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 6770M
+Rank: 260
+G3DMark: 986
+G2DMark: 576
+Num Samples: 8
+Price: NA
+","NA","High-end GPUs","Radeon HD 6770M:
+G3D Mark score: 986
+G2D Mark scrore: 576
+","","","","True","260"
+"GeForce 845M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce 845M
+Rank: 261
+G3DMark: 984
+G2DMark: 621
+Num Samples: 24
+Price: NA
+","NA","High-end GPUs","GeForce 845M:
+G3D Mark score: 984
+G2D Mark scrore: 621
+","","","","True","261"
+"Radeon HD 7560D + 7560D Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7560D + 7560D Dual
+Rank: 262
+G3DMark: 982
+G2DMark: 420
+Num Samples: 2
+Price: NA
+","NA","High-end GPUs","Radeon HD 7560D + 7560D Dual:
+G3D Mark score: 982
+G2D Mark scrore: 420
+","","","","True","262"
+"Radeon HD 7570","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7570
+Rank: 263
+G3DMark: 979
+G2DMark: 737
+Num Samples: 393
+Price: NA
+","NA","High-end GPUs","Radeon HD 7570:
+G3D Mark score: 979
+G2D Mark scrore: 737
+","","","","True","263"
+"GeForce GT 745M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GT 745M
+Rank: 264
+G3DMark: 978
+G2DMark: 626
+Num Samples: 234
+Price: NA
+","NA","High-end GPUs","GeForce GT 745M:
+G3D Mark score: 978
+G2D Mark scrore: 626
+","","","","True","264"
+"Radeon HD 6800M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 6800M
+Rank: 265
+G3DMark: 974
+G2DMark: 498
+Num Samples: 136
+Price: NA
+","NA","High-end GPUs","Radeon HD 6800M:
+G3D Mark score: 974
+G2D Mark scrore: 498
+","","","","True","265"
+"Quadro K1100M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro K1100M
+Rank: 266
+G3DMark: 973
+G2DMark: 766
+Num Samples: 240
+Price: $1,549.00*
+Price is last known price","1549.00","High-end GPUs","Quadro K1100M:
+G3D Mark score: 973
+G2D Mark scrore: 766
+","","","","True","266"
+"Radeon R9 M375","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R9 M375
+Rank: 267
+G3DMark: 967
+G2DMark: 590
+Num Samples: 2
+Price: NA
+","NA","High-end GPUs","Radeon R9 M375:
+G3D Mark score: 967
+G2D Mark scrore: 590
+","","","","True","267"
+"Radeon HD 7660G N HD 7660G + HD 7700M N HD 7700M D","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7660G N HD 7660G + HD 7700M N HD 7700M D
+Rank: 268
+G3DMark: 966
+G2DMark: 350
+Num Samples: 2
+Price: NA
+","NA","High-end GPUs","Radeon HD 7660G N HD 7660G + HD 7700M N HD 7700M D:
+G3D Mark score: 966
+G2D Mark scrore: 350
+","","","","True","268"
+"Radeon HD 6700M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 6700M
+Rank: 269
+G3DMark: 966
+G2DMark: 538
+Num Samples: 661
+Price: NA
+","NA","High-end GPUs","Radeon HD 6700M:
+G3D Mark score: 966
+G2D Mark scrore: 538
+","","","","True","269"
+"Radeon HD 8750M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8750M
+Rank: 270
+G3DMark: 965
+G2DMark: 587
+Num Samples: 25
+Price: NA
+","NA","High-end GPUs","Radeon HD 8750M:
+G3D Mark score: 965
+G2D Mark scrore: 587
+","","","","True","270"
+"Radeon R7 240","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R7 240
+Rank: 271
+G3DMark: 965
+G2DMark: 521
+Num Samples: 952
+Price: $60.00
+","60.00","High-end GPUs","Radeon R7 240:
+G3D Mark score: 965
+G2D Mark scrore: 521
+","","","","True","271"
+"Radeon HD 4830","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 4830
+Rank: 272
+G3DMark: 962
+G2DMark: 465
+Num Samples: 257
+Price: $59.99*
+Price is last known price","59.99","High-end GPUs","Radeon HD 4830:
+G3D Mark score: 962
+G2D Mark scrore: 465
+","","","","True","272"
+"Radeon R7 A8-7650K","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R7 A8-7650K
+Rank: 273
+G3DMark: 962
+G2DMark: 458
+Num Samples: 14
+Price: NA
+","NA","High-end GPUs","Radeon R7 A8-7650K:
+G3D Mark score: 962
+G2D Mark scrore: 458
+","","","","True","273"
+"Intel Iris 6100","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Intel Iris 6100
+Rank: 274
+G3DMark: 961
+G2DMark: 650
+Num Samples: 87
+Price: NA
+","NA","High-end GPUs","Intel Iris 6100:
+G3D Mark score: 961
+G2D Mark scrore: 650
+","","","","True","274"
+"Radeon HD8570","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD8570
+Rank: 275
+G3DMark: 951
+G2DMark: 926
+Num Samples: 26
+Price: NA
+","NA","High-end GPUs","Radeon HD8570:
+G3D Mark score: 951
+G2D Mark scrore: 926
+","","","","True","275"
+"GeForce 830A","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce 830A
+Rank: 276
+G3DMark: 942
+G2DMark: 745
+Num Samples: 13
+Price: NA
+","NA","High-end GPUs","GeForce 830A:
+G3D Mark score: 942
+G2D Mark scrore: 745
+","","","","True","276"
+"GeForce GT 635","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GT 635
+Rank: 277
+G3DMark: 941
+G2DMark: 855
+Num Samples: 189
+Price: NA
+","NA","High-end GPUs","GeForce GT 635:
+G3D Mark score: 941
+G2D Mark scrore: 855
+","","","","True","277"
+"Radeon HD 8570","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8570
+Rank: 278
+G3DMark: 939
+G2DMark: 727
+Num Samples: 63
+Price: NA
+","NA","High-end GPUs","Radeon HD 8570:
+G3D Mark score: 939
+G2D Mark scrore: 727
+","","","","True","278"
+"FirePro M4150","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro M4150
+Rank: 279
+G3DMark: 936
+G2DMark: 618
+Num Samples: 3
+Price: NA
+","NA","High-end GPUs","FirePro M4150:
+G3D Mark score: 936
+G2D Mark scrore: 618
+","","","","True","279"
+"Radeon E6760","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon E6760
+Rank: 280
+G3DMark: 935
+G2DMark: 589
+Num Samples: 8
+Price: $239.99*
+Price is last known price","239.99","High-end GPUs","Radeon E6760:
+G3D Mark score: 935
+G2D Mark scrore: 589
+","","","","True","280"
+"GeForce GT 640M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GT 640M
+Rank: 281
+G3DMark: 932
+G2DMark: 593
+Num Samples: 406
+Price: NA
+","NA","High-end GPUs","GeForce GT 640M:
+G3D Mark score: 932
+G2D Mark scrore: 593
+","","","","True","281"
+"Radeon HD 7660G + 7730M Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7660G + 7730M Dual
+Rank: 282
+G3DMark: 931
+G2DMark: 391
+Num Samples: 2
+Price: NA
+","NA","High-end GPUs","Radeon HD 7660G + 7730M Dual:
+G3D Mark score: 931
+G2D Mark scrore: 391
+","","","","True","282"
+"Radeon R7 240 + HD 8670D Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R7 240 + HD 8670D Dual
+Rank: 283
+G3DMark: 930
+G2DMark: 470
+Num Samples: 4
+Price: NA
+","NA","High-end GPUs","Radeon R7 240 + HD 8670D Dual:
+G3D Mark score: 930
+G2D Mark scrore: 470
+","","","","True","283"
+"GeForce GT 730","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GT 730
+Rank: 284
+G3DMark: 930
+G2DMark: 577
+Num Samples: 892
+Price: $44.99
+","44.99","High-end GPUs","GeForce GT 730:
+G3D Mark score: 930
+G2D Mark scrore: 577
+","","","","True","284"
+"GeForce 9800 GTX+","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce 9800 GTX+
+Rank: 285
+G3DMark: 927
+G2DMark: 487
+Num Samples: 271
+Price: NA
+","NA","High-end GPUs","GeForce 9800 GTX+:
+G3D Mark score: 927
+G2D Mark scrore: 487
+","","","","True","285"
+"Radeon HD 8650G","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8650G
+Rank: 286
+G3DMark: 925
+G2DMark: 350
+Num Samples: 416
+Price: NA
+","NA","High-end GPUs","Radeon HD 8650G:
+G3D Mark score: 925
+G2D Mark scrore: 350
+","","","","True","286"
+"Radeon HD 6750M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 6750M
+Rank: 287
+G3DMark: 925
+G2DMark: 537
+Num Samples: 3
+Price: NA
+","NA","High-end GPUs","Radeon HD 6750M:
+G3D Mark score: 925
+G2D Mark scrore: 537
+","","","","True","287"
+"Radeon HD 8670D + R7 200 Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8670D + R7 200 Dual
+Rank: 288
+G3DMark: 920
+G2DMark: 500
+Num Samples: 5
+Price: NA
+","NA","High-end GPUs","Radeon HD 8670D + R7 200 Dual:
+G3D Mark score: 920
+G2D Mark scrore: 500
+","","","","True","288"
+"Radeon R7 240 + HD 8570D Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R7 240 + HD 8570D Dual
+Rank: 289
+G3DMark: 917
+G2DMark: 352
+Num Samples: 3
+Price: NA
+","NA","High-end GPUs","Radeon R7 240 + HD 8570D Dual:
+G3D Mark score: 917
+G2D Mark scrore: 352
+","","","","True","289"
+"GeForce GT 555M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GT 555M
+Rank: 290
+G3DMark: 908
+G2DMark: 517
+Num Samples: 536
+Price: NA
+","NA","High-end GPUs","GeForce GT 555M:
+G3D Mark score: 908
+G2D Mark scrore: 517
+","","","","True","290"
+"Radeon HD 8570D + R7 240 Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8570D + R7 240 Dual
+Rank: 291
+G3DMark: 906
+G2DMark: 464
+Num Samples: 2
+Price: NA
+","NA","High-end GPUs","Radeon HD 8570D + R7 240 Dual:
+G3D Mark score: 906
+G2D Mark scrore: 464
+","","","","True","291"
+"GeForce GT 645M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GT 645M
+Rank: 292
+G3DMark: 904
+G2DMark: 576
+Num Samples: 72
+Price: NA
+","NA","High-end GPUs","GeForce GT 645M:
+G3D Mark score: 904
+G2D Mark scrore: 576
+","","","","True","292"
+"GeForce 9800 GTX/9800 GTX+","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce 9800 GTX/9800 GTX+
+Rank: 293
+G3DMark: 902
+G2DMark: 493
+Num Samples: 489
+Price: $89.99*
+Price is last known price","89.99","High-end GPUs","GeForce 9800 GTX/9800 GTX+:
+G3D Mark score: 902
+G2D Mark scrore: 493
+","","","","True","293"
+"GeForce GTS 250","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTS 250
+Rank: 294
+G3DMark: 900
+G2DMark: 506
+Num Samples: 1934
+Price: $114.99*
+Price is last known price","114.99","High-end GPUs","GeForce GTS 250:
+G3D Mark score: 900
+G2D Mark scrore: 506
+","","","","True","294"
+"Radeon R7 A8-7600","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R7 A8-7600
+Rank: 295
+G3DMark: 899
+G2DMark: 432
+Num Samples: 165
+Price: NA
+","NA","High-end GPUs","Radeon R7 A8-7600:
+G3D Mark score: 899
+G2D Mark scrore: 432
+","","","","True","295"
+"Radeon HD 8690A","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8690A
+Rank: 296
+G3DMark: 896
+G2DMark: 792
+Num Samples: 2
+Price: NA
+","NA","High-end GPUs","Radeon HD 8690A:
+G3D Mark score: 896
+G2D Mark scrore: 792
+","","","","True","296"
+"Radeon R7 A10-7800","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R7 A10-7800
+Rank: 297
+G3DMark: 881
+G2DMark: 404
+Num Samples: 57
+Price: NA
+","NA","High-end GPUs","Radeon R7 A10-7800:
+G3D Mark score: 881
+G2D Mark scrore: 404
+","","","","True","297"
+"FirePro W2100 Adapter","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro W2100 Adapter
+Rank: 298
+G3DMark: 880
+G2DMark: 799
+Num Samples: 4
+Price: NA
+","NA","High-end GPUs","FirePro W2100 Adapter:
+G3D Mark score: 880
+G2D Mark scrore: 799
+","","","","True","298"
+"Radeon HD 8670D + R5 235 Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8670D + R5 235 Dual
+Rank: 299
+G3DMark: 879
+G2DMark: 536
+Num Samples: 2
+Price: NA
+","NA","High-end GPUs","Radeon HD 8670D + R5 235 Dual:
+G3D Mark score: 879
+G2D Mark scrore: 536
+","","","","True","299"
+"FirePro W2100","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro W2100
+Rank: 300
+G3DMark: 876
+G2DMark: 753
+Num Samples: 12
+Price: $119.99
+","119.99","High-end GPUs","FirePro W2100:
+G3D Mark score: 876
+G2D Mark scrore: 753
+","","","","True","300"
+"GeForce 930M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce 930M
+Rank: 301
+G3DMark: 875
+G2DMark: 633
+Num Samples: 16
+Price: NA
+","NA","High-end GPUs","GeForce 930M:
+G3D Mark score: 875
+G2D Mark scrore: 633
+","","","","True","301"
+"Radeon R7 A10-7700K","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R7 A10-7700K
+Rank: 302
+G3DMark: 875
+G2DMark: 456
+Num Samples: 77
+Price: NA
+","NA","High-end GPUs","Radeon R7 A10-7700K:
+G3D Mark score: 875
+G2D Mark scrore: 456
+","","","","True","302"
+"Radeon HD 8550G + HD 8750M Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8550G + HD 8750M Dual
+Rank: 303
+G3DMark: 871
+G2DMark: 320
+Num Samples: 8
+Price: NA
+","NA","High-end GPUs","Radeon HD 8550G + HD 8750M Dual:
+G3D Mark score: 871
+G2D Mark scrore: 320
+","","","","True","303"
+"FirePro V3900","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: FirePro V3900
+Rank: 304
+G3DMark: 870
+G2DMark: 688
+Num Samples: 52
+Price: $109.99
+","109.99","High-end GPUs","FirePro V3900:
+G3D Mark score: 870
+G2D Mark scrore: 688
+","","","","True","304"
+"GeForce 940M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce 940M
+Rank: 305
+G3DMark: 869
+G2DMark: 568
+Num Samples: 154
+Price: NA
+","NA","High-end GPUs","GeForce 940M:
+G3D Mark score: 869
+G2D Mark scrore: 568
+","","","","True","305"
+"Radeon HD 8570D + HD 6570 Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8570D + HD 6570 Dual
+Rank: 306
+G3DMark: 868
+G2DMark: 506
+Num Samples: 2
+Price: NA
+","NA","High-end GPUs","Radeon HD 8570D + HD 6570 Dual:
+G3D Mark score: 868
+G2D Mark scrore: 506
+","","","","True","306"
+"GeForce 840A","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce 840A
+Rank: 307
+G3DMark: 867
+G2DMark: 593
+Num Samples: 15
+Price: NA
+","NA","High-end GPUs","GeForce 840A:
+G3D Mark score: 867
+G2D Mark scrore: 593
+","","","","True","307"
+"GeForce 8800 GTS 512","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce 8800 GTS 512
+Rank: 308
+G3DMark: 859
+G2DMark: 497
+Num Samples: 292
+Price: NA
+","NA","High-end GPUs","GeForce 8800 GTS 512:
+G3D Mark score: 859
+G2D Mark scrore: 497
+","","","","True","308"
+"Radeon HD 8730M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8730M
+Rank: 309
+G3DMark: 858
+G2DMark: 422
+Num Samples: 5
+Price: NA
+","NA","High-end GPUs","Radeon HD 8730M:
+G3D Mark score: 858
+G2D Mark scrore: 422
+","","","","True","309"
+"Radeon R7 A10 PRO-7850B","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon R7 A10 PRO-7850B
+Rank: 310
+G3DMark: 857
+G2DMark: 430
+Num Samples: 4
+Price: NA
+","NA","High-end GPUs","Radeon R7 A10 PRO-7850B:
+G3D Mark score: 857
+G2D Mark scrore: 430
+","","","","True","310"
+"Radeon HD 3870 X2","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 3870 X2
+Rank: 311
+G3DMark: 855
+G2DMark: 440
+Num Samples: 84
+Price: NA
+","NA","High-end GPUs","Radeon HD 3870 X2:
+G3D Mark score: 855
+G2D Mark scrore: 440
+","","","","True","311"
+"GeForce GTS 240","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce GTS 240
+Rank: 312
+G3DMark: 850
+G2DMark: 538
+Num Samples: 134
+Price: $64.99*
+Price is last known price","64.99","High-end GPUs","GeForce GTS 240:
+G3D Mark score: 850
+G2D Mark scrore: 538
+","","","","True","312"
+"Quadro FX 3800","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Quadro FX 3800
+Rank: 313
+G3DMark: 849
+G2DMark: 530
+Num Samples: 316
+Price: $130.00
+","130.00","High-end GPUs","Quadro FX 3800:
+G3D Mark score: 849
+G2D Mark scrore: 530
+","","","","True","313"
+"Radeon HD 8650G + 8600/8700M Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8650G + 8600/8700M Dual
+Rank: 314
+G3DMark: 845
+G2DMark: 374
+Num Samples: 26
+Price: NA
+","NA","High-end GPUs","Radeon HD 8650G + 8600/8700M Dual:
+G3D Mark score: 845
+G2D Mark scrore: 374
+","","","","True","314"
+"Radeon HD 7660G + HD 7600M Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 7660G + HD 7600M Dual
+Rank: 315
+G3DMark: 843
+G2DMark: 340
+Num Samples: 32
+Price: NA
+","NA","High-end GPUs","Radeon HD 7660G + HD 7600M Dual:
+G3D Mark score: 843
+G2D Mark scrore: 340
+","","","","True","315"
+"GeForce 840M","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GeForce 840M
+Rank: 316
+G3DMark: 842
+G2DMark: 588
+Num Samples: 1424
+Price: NA
+","NA","High-end GPUs","GeForce 840M:
+G3D Mark score: 842
+G2D Mark scrore: 588
+","","","","True","316"
+"Radeon HD 8550G + HD 8600/8700M Dual","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: Radeon HD 8550G + HD 8600/8700M Dual
+Rank: 317
+G3DMark: 842
+G2DMark: 266
+Num Samples: 3
+Price: NA
+","NA","High-end GPUs","Radeon HD 8550G + HD 8600/8700M Dual:
+G3D Mark score: 842
+G2D Mark scrore: 266
+","","","","True","317"
+"GRID K1","Scraped from Passmark: http://www.videocardbenchmark.net/high_end_gpus.html
+Name: GRID K1
+Rank: 318
+G3DMark: 840
+G2DMark: 483
+Num Samples: 10
+Price: $2,800.00
+","2800.00","High-end GPUs","GRID K1:
+G3D Mark score: 840
+G2D Mark scrore: 483
+","","","","True","318"

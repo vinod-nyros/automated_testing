@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: theme-assan.yaml at line 196 on 2015-11-09 at 19:41:46 PST(GMT-0800)  #}
+
+<html lang="en"><head>
+        <meta charset="utf-8">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <meta name="description" content='{% firstof meta_description description "eRacks Open Source Systems - Premium open source rackmounts, desktops, laptops, ultrabooks, consulting, and service since 1999" %}
+'>
+<meta name="title" content='{% firstof meta_title title "eRacks" %}'>
+<meta name="author" content='{% firstof meta_author author "eRacks" %}'>
+<meta name="keywords" content='{% firstof meta_keywords keywords "rackmount, rack mount, cloud server, private cloud, hybrid cloud, Open Source, Red Hat, Ubuntu, Linux Mint, Debian" %}
+'>
+<meta name="google-site-verification" content="4QorVb8Z51YbHLZ5hPfk3TQJjblIY43ByE6qFw2-dLU">
+<meta name="msvalidate.01" content="E830B9E86F26F425F9F7800DA21086EC">
+<meta name="DC.title" content="Line server, AMD opteron rack server, Storage servers, NAS server, Open source systems, Cloud server">
+<meta name="geo.region" content="US-CA">
+<meta name="geo.placename" content="Los Gatos">
+<meta name="geo.position" content="37.235808;-121.962375">
+<meta name="ICBM" content="37.235808, -121.962375">
+<meta name="robots" content="noodp,noydir">
+<title>{% firstof page_title title "eRacks Open Source Systems" %}</title><!-- Bootstrap -->
+        
+{% block compress_css %}
+<link href="/assan/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- custom css (blue color by default) -->
+        <link media="screen" href="/assan/css/styles.css" type="text/css" rel="stylesheet">
+        <!-- custom css (green color ) -->
+        <!--      <link href="css/style-green.css" rel="stylesheet" type="text/css" media="screen">-->
+        <!-- custom css (red color ) -->
+        <!--        <link href="css/style-red.css" rel="stylesheet" type="text/css" media="screen">-->
+        <!-- custom css (yellow color ) -->
+        <!--       <link href="css/style-yellow.css" rel="stylesheet" type="text/css" media="screen">-->
+        <!-- custom css (sea-greean color ) -->
+        <!--      <link href="css/style-sea-green.css" rel="stylesheet" type="text/css" media="screen">-->
+        <!-- custom css (style-gold color ) -->
+        <!--       <link href="css/style-gold.css" rel="stylesheet" type="text/css" media="screen">-->
+        <!-- font awesome for icons -->
+        <link href="/assan/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- flex slider css -->
+        <link media="screen" href="/assan/css/flexslider.css" type="text/css" rel="stylesheet">
+        <!-- animated css  -->
+        <link media="screen" href="/assan/css/animate.css" type="text/css" rel="stylesheet">
+        <!--google fonts-->
+        
+        
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700,800" type="text/css" rel="stylesheet">
+        <!--owl carousel css-->
+        <link media="screen" href="/assan/css/owl.carousel.css" type="text/css" rel="stylesheet">
+        <link media="screen" href="/assan/css/owl.theme.css" type="text/css" rel="stylesheet">
+        <!--mega menu -->
+        <link href="/assan/css/yamm.css" type="text/css" rel="stylesheet">
+        <!--popups css-->
+        <link href="/assan/css/magnific-popup.css" type="text/css" rel="stylesheet">
+        <link href="/tshop/assets/plugins/magnific/magnific-popup.css" type="text/css" rel="stylesheet">
+<link href="/css/vendor/normalize.css" type="text/css" rel="stylesheet">
+<link href="/css/gallery.prefixed.css" type="text/css" rel="stylesheet">
+<link href="/css/gallery.theme.css" type="text/css" rel="stylesheet">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    
+{{ css|default:'<!-- empty css variable-->' }}
+{% block css %} <!-- block css --> {% endblock %}
+{{ javascript|default:'<!-- empty javascript variable-->' }}
+{% block javascripts %} <!-- block javascripts --> {% endblock %}
+{% block extra_head %} <!-- block extra_head--> {% endblock %}
+
+
+<noscript>
+  <style type="text/css" rel="stylesheet">
+    .jsonly {
+        display: none!important;
+    }
+    .nojs-inline {
+      display: inline;
+    }
+    .nojs-inline li {
+      padding: 10px;
+      display: inline-block;
+      max-width: 180px;
+    }
+  </style>
+</noscript>
+
+
+{{ quick_styles|safe }}
+<!-- Appended styles --><style>
+
+{% block head_styles %} /* block head-styles */ {% endblock %}
+
+/* Partner page only - fix until Quickpage edited and/or replaced with app */
+.partner-div {
+  width:30%;
+}
+.partner-logo-div img {
+  max-width: 95%;
+  height: auto;
+}
+/* For products megamenu (until bin-packing ported from eRAccs )
+.columns5 {
+  -webkit-column-count: 5;
+  -webkit-column-gap: 10px;
+  -webkit-column-fill: auto;
+  -moz-column-count: 5;
+  -moz-column-gap: 10px;
+  -moz-column-fill: auto;
+  column-count: 5;
+  column-gap: 15px;
+  column-fill: auto;
+}
+*/
+/* See http://getbootstrap.com.vn/examples/equal-height-columns/  */
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+/* Change Assan backround color to match Tshop :-) */
+body {
+  background-color: #edeef0;
+}
+
+/* .top-bar hover dropdowns, also does assan main menu hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+  z-index:10000;
+  margin-top:-10px;
+}
+.userMenu li {
+  font-weight: normal;
+  text-transform: none;
+}
+.userMenu li a {
+  padding-right:7px;
+}
+.userMenu .dropdown-menu li a {
+  color: black;
+  padding: 0 20px;
+  line-height: calc(10/7);
+  font-size: inherit;
+}
+.userMenu .dropdown-menu li {
+  clear: both;
+}
+.userMenu i.glyphicon {
+  padding: 0 3px;
+}
+
+/* tweak input forms - don't hug the label, btn alignment, tab-panel, etc */
+.modal-content input[!btn] {
+  margin-left: 15px;
+}
+.tab-content {
+  padding: 0;
+  margin-top: -0;
+}
+/* Make tabs more obvious & unambiguous - this is really global, could move there, or to product */
+/* inspired by http://jsfiddle.net/KyleMit/2VmmW/ */
+
+/* Tab Navigation */
+.nav-tabs {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.nav-tabs > li {
+  margin-botton: -2px;
+}
+.nav-tabs > li > a {
+    background: #6f76ff;  /* #DADADA; */
+    color: white;
+    border-radius: 7px 7px 0 0;
+    /* border-bottom: 2px solid gray; */
+    /* box-shadow: inset 0 -8px 7px -9px rgba(0,0,0,.4),-2px -2px 5px -2px rgba(0,0,0,.4); */
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus  {
+    background: #F5F5F5;
+    color: inherit !important;
+    border-radius: 10px 10px 0 0;
+    border-width: 1px 1px 0 1px;
+    border-color: lightgray;
+    border-style: solid;
+}
+/* .nav-tabs > li.active > a:hover { */
+.nav-tabs > li > a:hover {
+    background: #66de97;  /* #F5F5F5; */
+    color: white;
+    border-radius: 7px 7px 0 0;
+    border-width: 1px 1px 0 1px;
+    border-color: lightgray;
+    border-style: solid;
+    /* box-shadow: inset 0 0 0 0 rgba(0,0,0,.4),-2px -3px 5px -2px rgba(0,0,0,.4); */
+}
+
+/* Tab Content */
+.tab-pane {
+    background: #F5F5F5;
+    border: 1px solid lightgray;
+    /* box-shadow: 0 0 4px rgba(0,0,0,.4); */
+    /* border-radius: 0; */
+    text-align: center;
+    padding: 10px;
+    margin-top: -1px;
+}
+
+.dropdown-menu li.megamenu-content a {
+  padding: 0;
+￼  font-size: small;
+  font-family: Helvetica, Arial, sans-serif;
+  font-stretch: condensed;
+}
+.product {
+  text-align: left;
+  padding: 0 6px;
+  overflow: hidden;
+  /* font-stretch: extra-condensed; */
+  /* font-size: xx-small; */
+}
+
+/* Footer fixups - email subscription / newsletter box */
+.newsLetterBox .btn {
+  background: #6F76FF;
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 14px;
+  text-transform: none;
+  letter-spacing: 1px;
+  color: white;
+  height: 40px;
+  padding: 0;
+  width: 100%;
+}
+.newsLetterBox .btn:hover {
+  background: #8864CD;
+}
+.newsLetterBox input {
+  border-radius: 3px;
+  /* border-style: solid;
+  border-width: 2px 1px 1px 2px; */
+  color: #888888;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  height: 36px;
+  width: 100%;
+}
+
+/* Footer fixup for Tshop & themes that SHOUT :-/ */
+.footer-col h3 {
+  text-transform: none;
+  margin-bottom: 12px;
+}
+/* nope - nfg, too many tags intervening
+.footer-col h3:nth-of-type(2) {
+  padding-top: 12px;
+}
+*/
+.footer-col h3.second {
+  padding-top: 12px;
+}
+
+/* Social icons & colors obdject using font-awesome - currently in Footer fixups  */
+.social-1 {
+  margin: 0;
+  padding: 0;
+}
+.social-1 li {
+  padding: 0px;
+}
+.social-1 li a i {
+  width:32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color:#fff;
+  font-size: 16px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -webkit-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+.social-1 li a i:hover {
+  opacity: 0.8;
+}
+.social-1 li a i.fa-facebook {
+  background-color: #3b5998;
+}
+.social-1 li a i.fa-twitter {
+  background-color: #0084b4;
+}
+.social-1 li a i.fa-google-plus {
+  background-color: #C63D2D;
+}
+.social-1 li a i.fa-pinterest {
+  background-color: #cb2027;
+}
+.social-1 li a i.fa-dribbble {
+  background-color: #ea4c89;
+}
+.social-1 li a i.fa-youtube {
+  background-color: #FF3333;
+}
+.social-1 li a i.fa-linkedin {
+  background-color: #4875B4;
+}
+.social-1 li a i.fa-github {
+  background-color: lightgray;
+}
+.social-1 li a i.fa-instagram {
+  background-color: #4E433C;
+}
+.social-1 li a i.fa-tumblr {
+  background-color: #2B4964;
+}
+.social-1 li a i.fa-flickr {
+  background-color: #FE0883;
+}
+
+/* Breadcrumbs */
+.breadcrumb-wrap {
+  padding:40px 0;
+  margin-bottom: 15px;
+}
+.breadcrumb li a {
+  font-size: large;
+  line-height: 40px;
+  text-transform: none;
+}
+.breadcrumb-wrap h1, .breadcrumb {
+  padding: 0 15px !important;
+  border-radius: 12px;
+  background-color: rgba(1,1,1,0.3) !important;
+  display: inline-block;
+}
+
+</style>
+{% endblock %}
+
+{% block head_bottom %} <!-- block head_bottom (after compress) -->  {% endblock head_bottom %}
+</head>
+    <body>
+<div tabindex="-1" role="dialog" class="modal signUpContent fade" id="ModalLogin"><div class="modal-dialog" id="signin_signup_modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button data-dismiss="modal" type="button" aria-hidden="true" class="close">×</button>
+      <img src="/images/logos/logo-cropped-45.png" alt="eracks-logo" style="height:45px;margin:7px 0" class="pull-left"><h3 style="margin: 21px 0 0 300px">
+        Login to eRacks
+      </h3>
+    </div>
+    <div role="tabpanel" class="modal-body">
+      <ul role="tablist" class="nav nav-tabs"><li role="presentation" class="active">
+          <a href="#signin" role="tab" data-toggle="tab" aria-controls="signin">Signin</a>
+        </li>
+        <li role="presentation">
+          <a href="#signup" role="tab" data-toggle="tab" aria-controls="signup">... Or Signup</a>
+        </li>
+      </ul><div class="tab-content">
+        <div class="tab-pane active" id="signin">
+          <form method="post" action="{% url 'userena_signin' %}">
+            {% csrf_token %}
+            <table>
+              {{ signin_form.as_table }}
+            </table><input type="submit" name="submit" value="Signin" class="btn btn-block btn-lg btn-primary"></form>
+          <div class="forgot-password">
+            <a href="{% url 'userena_password_reset' %}" title="Forgot your password?">
+              Forgot your password?
+            </a>
+          </div>
+        </div>
+        <div class="tab-pane" id="signup">
+          <form action="{% url 'userena_signup' %}" method="post">
+            {% csrf_token %}
+            <table>{{ signup_form }}</table><input type="submit" name="submit" value="Signup" class="btn btn-block btn-lg btn-primary"></form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div><div class="" id="header-top">
+            <div class="container">
+                <div class="top-bar">
+                    <div class="pull-left sample-1right">
+<a href="callto:1-408-455-0010" title="eRacks phone">
+  <i class="fa fa-phone"></i>
+  <span class="hidden-xs">
+    Phone: <span class="colored-text">+1 408-455-0010</span>
+  </span>
+</a>
+<a href="mailto:info@eracks.com" title="eRacks email">
+  <i class="fa fa-envelope"></i>
+  <span class="hidden-xs">
+    eMail: <span class="colored-text">info@eracks.com</span>
+  </span>
+</a>
+</div><div class="pull-right"><ul style="margin:0" class="userMenu list-inline">
+  {% if user.is_authenticated %}
+    <li>
+      <a href="{% url 'userena_profile_detail' user.username %}">
+        <i class="glyphicon glyphicon-user"></i>
+        <span class="hidden-xs">
+          {{ user.username }}'s Account
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="{% url 'userena_signout' %}">
+        <i class="glyphicon glyphicon-log-out"></i>
+        <span class="hidden-xs">
+          Logout
+        </span>
+      </a>
+    </li>
+    {% if request.user.is_staff %}
+      <li class="dropdown">
+        <a href="#">
+          <i class="glyphicon glyphicon-lock"></i>
+          <span class="hidden-xs">
+            Admin
+          </span>
+        </a>
+        <ul class="dropdown-menu"><li>
+            <a href="/admin/">eRacks Admin</a>
+          </li>
+          <li>
+            <a href="/djide/">Django IDE</a>
+          </li>
+          <li>
+            <a href="/admin/home/featuredimage/">Featured Images</a>
+          </li>
+          <li>
+            <a href="?/admin/auth/user/{%7B" request.user.id>User: {{ request.user }}</a>
+          </li>
+          {% if product %}
+            <li>
+              <a href="/admin/products/product/{{ product.id }}/">Edit Product: {{ product }}</a>
+            </li>
+          {% endif %}
+          {% if category %}
+            <li>
+              <a href="/admin/products/categories/{{ category.id }}/">Edit Category: {{ category }}</a>
+            </li>
+          {% endif %}
+          {% if settings.ALOHA %}
+            <li>
+              <a href="?edit=1">Edit in place</a>
+            </li>
+          {% endif %}
+          {% if settings.DEBUG %}
+            <li>
+              <a href="/packages/">Packages directory</a>
+            </li>
+          {% endif %}
+          <li>
+            <a href="/utils/clearcache/">Clear cache</a>
+          </li>
+          <li>
+            <a href="/utils/collect_static/">Collect static files</a>
+          </li>
+          <li>
+            <a href="/utils/compile_themes/">Compile themes</a>
+          </li>
+          <li>
+            <a href="/utils/urls/">Show URL map</a>
+          </li>
+          <li>
+            <a href="/session/">Show Session</a>
+          </li>
+        </ul></li>
+    {% endif %}
+    {% else %}
+    <li>
+      <a href="/accounts/signin/">
+        <i class="glyphicon glyphicon-user"></i>
+        <span class="hidden-xs">
+          Account
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="#" id="show-login-dialog" data-reveal-id="signin_signup_modal" data-toggle="modal" data-target="#ModalLogin">
+        <i class="glyphicon glyphicon-log-in"></i>
+        <span class="hidden-xs">
+          Login / Register
+        </span>
+      </a>
+    </li>
+  {% endif %}
+  <li>
+    <a href="/cart/" title="Your Cart">
+      <i class="glyphicon glyphicon-shopping-cart"></i>
+      <span class="hidden-xs">
+        {% if cart_totqty %}
+          {{ cart_totqty }}
+          items ${{ cart_grandtot|floatformat:2 }}
+          {% else %}
+          (Empty)
+        {% endif %}
+      </span>
+    </a>
+  </li>
+  <li class="dropdown">
+    <a href="#">
+      <i class="glyphicon glyphicon-music"></i>
+      <span class="hidden-xs">
+        Theme
+      </span>
+    </a>
+    <ul style="margin-left:-75px" class="dropdown-menu"><li>
+        <a href="?theme=legacy">Legacy eRacks theme (Default)</a>
+      </li>
+      <li>
+        <a href="?theme=assan">Assan theme - BETA</a>
+      </li>
+      <li>
+        <a href="?theme=tshop">Tshop theme - BETA</a>
+      </li>
+    </ul></li>
+</ul></div></div>
+            </div>
+        </div><!--top bar end hidden in small devices-->
+        <!--navigation -->
+        <!-- Static navbar -->
+        <div role="navigation" class="navbar navbar-default navbar-static-top yamm sticky">
+            <div class="container">
+                <div class="navbar-header">
+                    <button data-toggle="collapse" type="button" data-target=".navbar-collapse" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="/" class="navbar-brand" title="eRacks Open Source Systems"><img src="/images/logos/logo-cropped-45.png" alt="eRacks-Logo" style="height:45px;width:225px;margin-top:-12px"></a></div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+{% load cache %}
+{% cache 36000 product_list %}
+  <li class="dropdown megamenu-80width">
+    <a data-toggle="dropdown" href="/products/" title="eRacks Product Showroom" class="dropdown-toggle">
+      Products
+      <div class="caret"></div>
+    </a>
+    <ul class="dropdown-menu">
+      <li class="megamenu-content">
+        <div class="row">
+          <div class="col-md-2 col-sm-3 col-xs-4 category">
+            {% for cat in Categories_objects.published %}
+                <a href="{{ cat.url }}" title="{{ cat.title }}">
+                  <strong>{{ cat.name }}</strong>
+                </a>
+                {% for prod in cat.product_set.published %}
+                  <div class="product">
+                    <a href="{{ prod.url }}" title="{{ prod.title_or_name }}">
+                      {{ prod.name }}
+                    </a>
+                  </div>
+                {% endfor %}
+              {% if forloop.counter|divisibleby:"3" %}
+                </div><div class="col-md-2 col-sm-3 col-xs-4 category">
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </li>
+
+    </ul>
+  </li>
+  <li>
+      <a href="/services/" title="eRacks Services" class="main">Services</a>
+  </li>
+  <li>
+      <a href="/partners/" title="eRacks Partners" class="main">Partners</a>
+  </li>
+  <li>
+      <a href="/customers/" title="eRacks Customers and Testimonials" class="main">Customers</a>
+  </li>
+  <li>
+      <a href="http://blog.eracks.com/" title="eRacks Tech News and Blog" class="main">Blog</a>
+  </li>
+  <li class="dropdown">
+    <a href="/corporate/" title="About eRacks" data-toggle="dropdown" class="main dropdown-toggle">
+      About Us
+      <b class="caret"> </b>
+    </a>
+    <ul class="dropdown-menu" style="right:initial;margin-left:-20px;">
+      <li>
+        <a href="/corporate/" title="eRacks Corporate" class="main">Corporate</a>
+      </li>
+      <li>
+        <a href="/press/" title="News about eRacks, Press Releases" class="main">Press</a>
+      </li>
+      <li>
+        <a href="{% url 'contact' %}" title="Contact eRacks" class="main">Contact Us</a>
+      </li>
+    </ul>
+  </li>
+  {% include "_search_menu_entry.html" %}
+
+{% endcache %}
+</ul></div><!--/.nav-collapse -->
+            </div><!--container-->
+        </div><!--navbar-default-->
+        <div class="breadcrumb-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6"><ol class="breadcrumb">
+<li>
+  <a href="/" title="eRacks Home Page">Home</a>
+</li>
+{% if breadcrumbs.real %}
+  <li>
+    <a href="#" title="{{ title }}" class="current">
+      {% firstof name title 'Page' %}
+    </a>
+  </li>
+  {% else %}
+  {% for bc in breadcrumbs %}
+    <li>
+      <a href="{{ bc.url }}" title="{{ bc.title }}">{{ bc.name }}</a>
+    </li>
+  {% endfor %}
+{% endif %}
+</ol></div><div class="col-sm-6 hidden-xs text-right">
+<h1 style="font-size:xx-large;color:white;letter-spacing:4px;margin:0" title="{{ title }}">{{ title }}</h1>
+</div></div>
+            </div>
+        </div><!--breadcrumbs-->
+         
+        <div class="container" id="content">
+{% include "_toast_messages.html" %}
+{% block content %}
+  {% if title %}
+    <h1 title="{{title}}">
+      {{ title }}
+    </h1>
+  {% endif %}
+  {{ content|safe }}
+{% endblock %}
+</div><div class="divide60"></div>
+                 <footer id="footer">
+<div class="footer"><div class="container">
+  <div class="row:">
+    <div class="col-md-3 col-sm-6 margin30">
+      <div class="footer-col">
+        <h3 title="eRacks - About">eRacks - About</h3>
+        <ul class="list-unstyled"><li>
+            <p>
+              eRacks Systems has been providing Open Source expertise, quality hardware with standard COTS components, no vendor-lock-in, and provisioning, DevOps, network, &amp; architecture services since 1999.
+            </p>
+          </li>
+          <li>
+            <h3 title="eRacks Newsletter" class="second">eRacks Newsletter</h3>
+            <form action="/customers/save_email/" method="POST">
+              <div class="input-append newsLetterBox text-center">
+                <input type="email" name="email" placeholder="Your eMail address" class="full text-center"><button type="submit" class="btn bg-gray">
+                  Subscribe <i class="fa fa-long-arrow-right"> </i>
+                </button>
+              </div>
+            </form>
+            <p style="padding-top: 10px">
+              Join our newsletter today to keep up on the latest news, trends, and products from eRacks.
+            </p>
+          </li>
+        </ul></div>
+    </div>
+    <div class="col-md-3 col-sm-6 margin30">
+      <div class="footer-col">
+        <h3 title="eRacks Information">eRacks Info</h3>
+        <ul class="list-unstyled"><li><a href="/rackmount-servers">Rackmount Server Basics</a></li>
+          <li><a href="/open-source-links/">Open source Links</a></li>
+          <li>
+              <a href="/corporate/" title="About eRacks" class="main">About Us</a>
+          </li>
+          <li>
+              <a href="/contact-us/" title="Contact eRacks" class="main">Contact Us</a>
+          </li>
+          <li>
+              <a href="/jobs/" title="Positions at eRacks" class="main">Gigs / Jobs</a>
+          </li>
+          <li>
+            <h3 title="eRacks Miscellaneous" class="second">eRacks Misc</h3>
+          </li>
+          <li>
+              <a href="http://blog.eracks.com/" title="eRacks Tech News and Blog" class="main">Blog</a>
+          </li>
+          <li>
+              <a href="http://accessories.eracks.com/" title="eRacks Computer parts and Accessories, notebooks, tablets, etc" class="main">Accessories</a>
+          </li>
+          <li>
+              <a href="http://studio.eracks.com/" title="eRacks Studio and Music-related Blog" class="main">Studio / Music Blog</a>
+          </li>
+          <li>
+              <a href="/policies/privacy-and-legal" class="main">Privacy, Legal Policies</a>
+          </li>
+          <li>
+              <a href="/policies/warranty-and-order" class="main">Warranty &amp; Order Policies</a>
+          </li>
+        </ul></div>
+    </div>
+    <div class="col-md-3 col-sm-6 margin30">
+      <div class="footer-col">
+        <h3 title="eRacks Business">eRacks Business</h3>
+        <ul class="list-unstyled"><li>
+              <a href="/showroom/" title="eRacks Product Showroom" class="main">Products</a>
+          </li>
+          <li>
+              <a href="/services/" title="eRacks Services" class="main">Services</a>
+          </li>
+          <li>
+              <a href="/partners/" title="eRacks Partners" class="main">Partners</a>
+          </li>
+          <li>
+              <a href="/customers/" title="eRacks Customers and Testimonials" class="main">Customers</a>
+          </li>
+          <li>
+              <a href="/press/" title="News about eRacks, Press Releases" class="main">Press</a>
+          </li>
+          <li>
+            <h3 title="eRacks Technology" class="second">eRacks Technology</h3>
+          </li>
+          <li>
+            <a href="#" title="eRacks Components" class="main">Components we use</a>
+          </li>
+          <li>
+            <a href="#" title="Software RAID" class="main">BIOS vs Linux RAID</a>
+          </li>
+          <li>
+            <a href="#" title="RAID - Inexpensive or Independent?" class="main">RAID Disk types</a>
+          </li>
+          <li>
+            <a href="#" title="Flash storage vs caching controller" class="main">"Flash" storage myths</a>
+          </li>
+          <li>
+            <a href="#" title="Latest memory types" class="main">NVMe, M.2, RAM Flash</a>
+          </li>
+        </ul></div>
+    </div>
+    <div class="col-md-3 col-sm-6 margin30">
+      <div class="footer-col">
+        <h3 title="eRacks Accreditations">
+          eRacks Accreditations
+        </h3>
+        <ul class="list-unstyled"><li>
+            {{ bbb_horizontal }}
+            {{ trustwave_siteseal }}
+            {{ geotrust_seal }}
+          </li>
+          <li>
+            <h3 title="eRacks Social Media" class="second">
+              eRacks Social
+            </h3>
+          </li>
+          <li id="list-inline-social">
+<ul class="list-inline social-1">
+  <li>
+    <a href="blank.html#">
+      <i class="fa fa-facebook"></i>
+    </a>
+  </li>
+  <li>
+    <a href="blank.html#">
+      <i class="fa fa-twitter"></i>
+    </a>
+  </li>
+  <li>
+    <a href="blank.html#">
+      <i class="fa fa-google-plus"></i>
+    </a>
+  </li>
+  <li>
+    <a href="blank.html#">
+      <i class="fa fa-pinterest"></i>
+    </a>
+  </li>
+  <li>
+    <a href="blank.html#">
+      <i class="fa fa-dribbble"></i>
+    </a>
+  </li>
+  <li>
+    <a href="blank.html#">
+      <i class="fa fa-youtube"></i>
+    </a>
+  </li>
+  <li>
+    <a href="blank.html#">
+      <i class="fa fa-linkedin"></i>
+    </a>
+  </li>
+  <li>
+    <a href="blank.html#">
+      <i class="fa fa-github"></i>
+    </a>
+  </li>
+  <li>
+    <a href="blank.html#">
+      <i class="fa fa-instagram"></i>
+    </a>
+  </li>
+  <li>
+    <a href="blank.html#">
+      <i class="fa fa-tumblr"></i>
+    </a>
+  </li>
+  <li>
+    <a href="blank.html#">
+      <i class="fa fa-flickr"></i>
+    </a>
+  </li>
+</ul>
+
+</li></ul></div>
+    </div>
+  </div>
+</div>
+</div><div style="background-color:white;font-size:small;padding:10px" class="footer-bottom text-center"><span class="footer-copyright">
+  <a href="http://eracks.com" title="Top-quality rackmount servers">
+    <img src="/images/logos/smalle.gif" alt="small-e">
+    eRacks Open Source Systems
+  </a>
+  © 1999-2016 all rights reserved.
+  Powered by <a href="http://eracks.com" title="The best rackmount servers">eRacks</a>
+</span>
+</div></footer><!--default footer end here-->
+       <!--scripts and plugins -->
+        <!--must need plugin jquery-->
+        
+{% block compress_js_bottom %}
+<script src="/assan/js/jquery.min.js"></script>        
+        <!--bootstrap js plugin-->
+        <script src="/assan/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>       
+        <!--easing plugin for smooth scroll-->
+        <script src="/assan/js/jquery.easing.1.3.min.js" type="text/javascript"></script>
+        <!--sticky header-->
+        <script src="/assan/js/jquery.sticky.js" type="text/javascript"></script>
+        <!--flex slider plugin-->
+        <script src="/assan/js/jquery.flexslider-min.js" type="text/javascript"></script>
+        <!--parallax background plugin-->
+        <script src="/assan/js/jquery.stellar.min.js" type="text/javascript"></script>
+        
+        
+        <!--digit countdown plugin-->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+        <!--digit countdown plugin-->
+        <script src="/assan/js/jquery.counterup.min.js" type="text/javascript"></script>
+        <!--on scroll animation-->
+        <script src="/assan/js/wow.min.js" type="text/javascript"></script> 
+        <!--owl carousel slider-->
+        <script src="/assan/js/owl.carousel.min.js" type="text/javascript"></script>
+        <!--popup js-->
+        <script src="/assan/js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+        <!--you tube player-->
+        <script src="/assan/js/jquery.mb.YTPlayer.min.js" type="text/javascript"></script>
+        
+        
+        <!--customizable plugin edit according to your needs-->
+        <script src="/assan/js/custom.js" type="text/javascript"></script>
+    
+
+<script src="/tshop/assets/plugins/magnific/jquery.magnific-popup.min.js"></script>
+
+{{ js|default:'<!-- empty js variable-->' }}
+{{ quick_scripts|safe }}
+{% block js %} <!-- block js --> {% endblock %}
+
+
+
+<!-- Appended scripts -->
+
+
+<script>
+
+// Breadcrumb random background
+$(document).ready(function() {
+  var images = [
+    '01_hester_071117_4432.jpeg',
+    'dupedstackedracks2.jpeg',
+    'dupedstackedracks_blur.jpeg',
+    'ecommercehosting.jpeg',
+    'racks1blurred.jpg',
+    'racks1.jpg',
+  ];
+  $('.breadcrumb-wrap').css({'background-image': 'url(/images/parallax/'
+      + images[Math.floor(Math.random() * images.length)] + ')'});
+});
+
+</script>
+{% endblock %}
+
+{% block js_bottom %} <!-- block js_bottom (after compress) --> {% endblock js_bottom %}
+</body></html>

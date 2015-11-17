@@ -1,0 +1,9 @@
+pip uninstall gnupg
+pip uninstall django-admin-tools
+
+# more migrations:
+pip install django-grappelli --upgrade
+
+# 1/5/15, some help, pip can update, (but not uninstall):
+
+pip install --exists-action w -e git+https://github.com/deschler/django-haystack.git@master#egg=django-haystack

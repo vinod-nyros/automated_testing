@@ -1,0 +1,19 @@
+{% extends "base-aloha.html" %}
+
+{% block content %}
+    <div class="content" id="featured">
+        {% for f in featured_images %}
+            {{ f.as_html }}
+        {% endfor %}
+    </div>
+{% endblock %}
+
+{% block js_bottom %}
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#featured').orbit({
+                bullets: true,             // true or false to activate the bullet navigation
+            });
+        });
+    </script>
+{% endblock %}

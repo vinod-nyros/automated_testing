@@ -1,0 +1,262 @@
+{% extends "foundation-base.html" %}
+{% load stylus coffeescript %}
+
+
+{% block css %}
+{{ block.super }}
+<style type="text/css">
+{% filter stylus_filter %}
+{% block stylus %}
+
+vertical-gradient(tp, bt)
+    background -webkit-gradient(linear, left top, left bottom, color-stop(0, tp), color-stop(1, bt))
+    background -webkit-linear-gradient(top, tp 0%, bt 100%)
+    background -moz-linear-gradient(top, tp 0%, bt 100%)
+    background linear-gradient(top, tp 0%, bt 100%)
+
+border-radius()
+    -webkit-border-radius arguments
+    -moz-border-radius arguments
+    -khtml-border-radius arguments
+    border-radius arguments
+
+rounded()
+    -webkit-border-radius arguments
+    -moz-border-radius arguments
+    -khtml-border-radius arguments
+    border-radius arguments
+
+rounded_bottom()
+    -webkit-border-radius 0 0 arguments arguments
+    -moz-border-radius 0 0 arguments arguments
+    -khtml-border-radius 0 0 arguments arguments
+    border-radius 0 0 arguments arguments
+
+rounded_top()
+    -webkit-border-radius arguments arguments 0 0
+    -moz-border-radius arguments arguments 0 0
+    -khtml-border-radius arguments arguments 0 0
+    border-radius arguments arguments 0 0
+
+
+body
+    //vertical-gradient(white, black)
+    //vertical-gradient(white, #88f)
+    //vertical-gradient(white, #003)
+    //vertical-gradient #003, white
+    vertical-gradient #010, white
+
+.rounded
+    rounded 8px
+
+.rounded_bottom
+    rounded_bottom 8px
+
+.rounded_top
+    rounded_top 8px
+
+.flush_top
+    margin-top 0
+
+.flush_bottom
+    margin-bottom 0
+
+.row#header
+    vertical-gradient #ccf, white
+
+#logo
+    padding 10px
+
+#nav_small, #mailing_list, #nav_login
+    padding 10px 0
+
+#mailing_list input
+    font-size x-small
+    display inline
+
+#mailing_list input[type=button]
+    padding 0
+
+#mailing_list form
+    margin 0
+
+#mailing_list i
+    color #8CC640
+
+#header_right a
+    padding 20px
+
+#nav_account
+    height 30px
+    li
+        line-height 30px
+//    vertical-gradient #8D8DE9, #A29EE9
+
+#nav_main
+    margin-top 0
+    .nav-bar
+        margin-top 0
+        height 30px
+    height 30px
+    line-height 30px
+    .nav-bar li
+        line-height 30px
+    ul
+        background #020
+
+#back, #next
+    padding 20px
+
+#back a, #next a
+    background url(/images/orders/nav_back.png) no-repeat
+    display block
+    color white
+    height 30px
+    width 53px
+    line-height 12px
+    padding 2px 24px
+
+#back a:hover
+    background url(/images/orders/nav_back_press.png) no-repeat
+
+#next a
+    background url(/images/orders/nav_next.png) no-repeat
+
+#next a:hover
+    background url(/images/orders/nav_next_press.png) no-repeat
+
+#back
+    float left
+
+#next
+    float right
+
+
+//        background #dfd
+//    a
+//        padding 20px
+//        color black
+//vertical-gradient #69A0EB, #8CB9E9
+
+{% endblock %}
+{% endfilter %}
+</style>
+
+{% if settings.ALOHA %}
+    {% include 'aloha/includes/css.html' %}
+    <style>
+        form.aloha, form.aloha div {
+            display: inline;
+        }
+    </style>
+{% endif %}
+
+{# { css } #}
+{% endblock css %}
+
+
+{% block logo %} {{ block.super }}
+{% filter minaml %}
+
+#logo
+    > img src=/images/logos/eracks_web_logo.png
+::comment
+    {# h2 | Welcome to eRacks #}
+    p | eRacks Open Source Systems! April 9th, 2012
+    > hr
+
+{% endfilter %}
+{% endblock logo %}
+
+
+{% block header_right %} {{ block.super }}
+{% filter minaml %}
+
+#header_right
+    .row
+        .seven.columns.offset-by-four
+            ul#nav_account.rounded_bottom.nav-bar.flush_top
+                li
+                    a href=# | My Account
+                li
+                    a href=# | Login
+                li
+                    a href=# | Shopping Cart
+
+::comment
+    .row
+        .twelve.columns
+            Customer Support
+
+    .row
+        .twelve.columns
+            ul.rounded_top.nav-bar.flush_bottom
+                li | All Products
+                li | All Brands
+                li | Search box goes here
+
+{% endfilter %}
+{% endblock header_right %}
+
+
+{% block nav_main %}  <!-- BLOCK NAV_MAIN -->
+{% filter minaml %}
+
+nav#nav_main
+    ul.nav-bar
+        li
+            a.main href="/showroom/" title="eRacks Product Showroom" | Products
+        li
+            a.main href="/services/" title="eRacks Services" | Services
+        li
+            a.main href="/partners/" title="eRacks Partners" | Partners
+        li
+            a.main href="/customers/" title="eRacks Customers and Testimonials" | Customers
+        li
+            a.main href="/faq/" title="eRacks Frequently Asked Questions" | FAQ
+        li
+            a.main href="/press/" title="News about eRacks, Press Releases" | Press
+        li
+            a.main href="/corporate/" title="About eRacks" | About Us
+        li
+            a.main href="http://blog.eracks.com/" title="eRacks Tech News and Blog" | Blog
+        li
+            a.main href="/contact/" title="Contact eRacks" | Contact Us
+
+{% endfilter %}
+{% endblock nav_main %}
+
+
+
+{% block js_bottom %}
+{{ block.super }}
+
+{% if settings.ALOHA %}
+{% include 'aloha/includes/js.html' %}
+{% endif %}
+
+{# { js_bottom } #}
+
+<script type="text/javascript">
+{% if settings.AUTORELOAD %}
+{% inlinecoffeescript %}
+
+console.log "calling refresh"
+
+$.ajax '/utils/refresh',
+    type: 'GET'
+    timeout: 60000000
+    dataType: 'html'
+    error: (jqXHR, textStatus, errorThrown) ->
+        console.log "AJAX Error!: #{textStatus}"
+        console.log setTimeout("console.log('reloading...');location.reload(true)", 2000)
+        console.log "After setTimeout!"
+    success: (data, textStatus, jqXHR) ->
+        console.log "Successful AJAX call: #{data}"
+
+{% endinlinecoffeescript %}
+{% endif %}
+</script>
+
+{% endblock js_bottom %}
+

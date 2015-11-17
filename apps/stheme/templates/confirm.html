@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: $apps_path/orders/templets.yaml at line 476 on 2015-11-09 at 19:41:48 PST(GMT-0800)  #}
+
+
+{% block head_bottom %}
+  <style>
+    #final_cart {
+      background-color: whitesmoke;
+      margin_bottom: 20px;
+      padding_bottom: 1px;
+    }
+    #confirmform table, table#cart-summary {
+      background-color: whitesmoke;
+    }
+    table#outer_address {
+      /* margin: 0; */
+      width: 97.5% !important;
+      margin-bottom: -20px !important;
+    }
+    #confirmform table {
+      width: 95%;
+      margin: 20px;
+      border: 1px solid black;
+    }
+    #confirmform td, #confirmform th {
+      padding: 5px 15px;
+    }
+    #confirmform th {
+      text-align: center;
+      background-color: #ddf;
+      font-size: medium;
+    }
+    #confirmform thead {
+      border-bottom: 1px solid lightgray;
+      font-size: large;
+    }
+  </style>
+{% endblock %}
+{% block content %}
+  <div class="col-lg-9 col-md-9 col-sm-7">
+    <h1 class="section-title-inner">
+      <span>
+        <i class="glyphicon glyphicon-shopping-cart"></i>
+        Checkout - Review/Confirm Your Order
+      </span>
+    </h1>
+    <div class="row userInfo">
+      <form action="/checkout/order/" method="POST" class="nice" id="confirmform">
+        {% include "_final_cart.html" %}
+        <a title="checkout" href="/checkout/confirm/" style="margin-bottom:20px" class="btn btn-primary btn-lg btn-block place_order">
+          Place Your Order &nbsp; <i class="fa fa-arrow-right"></i>
+        </a>
+      </form>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-5 rightSidebar">
+    <div class="contentBox">
+      <div class="w100 costDetails">
+        <div class="table-block" id="order-detail-content">
+          <a title="checkout" href="/checkout/confirm/" style="margin-bottom:20px" class="btn btn-primary btn-lg btn-block place_order">
+            Place Your Order &nbsp; <i class="fa fa-arrow-right"></i>
+          </a>
+          <div class="w100 cartMiniTable">
+            <table class="std table" id="cart-summary">
+              {{ summary|safe }}
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+{% block js_bottom %}
+  {{ customer_form.media }}
+  <script type="text/javascript">
+    $('a.place_order').click (function(event) {
+        event.preventDefault();
+        $('#confirmform').submit();
+    });
+  </script>
+{% endblock %}

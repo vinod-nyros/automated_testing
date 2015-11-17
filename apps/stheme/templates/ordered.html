@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: $apps_path/orders/templets.yaml at line 573 on 2015-11-09 at 19:41:48 PST(GMT-0800)  #}
+
+
+{% block head_bottom %}
+  <style>
+    #final_cart {
+      background-color: whitesmoke;
+      margin_bottom: 20px;
+      padding_bottom: 1px;
+    }
+    table#order_info {
+      width: initial !important;
+    }
+    table#outer_address {
+      /* margin: 0; */
+      width: 97.5% !important;
+      margin-bottom: -20px !important;
+    }
+    #final_cart table {
+      width: 95%;
+      margin: 20px;
+      border: 1px solid black;
+    }
+    #final_cart td, #final_cart th {
+      padding: 5px 15px;
+    }
+    #final_cart th {
+      text-align: center;
+      background-color: #ddf;
+      font-size: medium;
+    }
+    #final_cart thead {
+      border-bottom: 1px solid lightgray;
+      font-size: large;
+    }
+  </style>
+{% endblock %}
+{% block content %}
+  <div class="row" id="content">
+    <h1 class="section-title-inner">
+      <span>
+        <i class="glyphicon glyphicon-shopping-cart"></i>
+        Checkout - Your Order Confirmation
+      </span>
+    </h1>
+    <div class="panel">
+      {% include "_final_cart.html" %}
+    </div>
+    <br>
+    <h3>
+      Thank you for your order!
+    </h3>
+    <h4>
+      Please print this page for your records.
+    </h4>
+    <p>
+      An email confirmation has also been sent to
+      {% firstof order.customer.email order.customer.user.email %}
+    </p>
+  </div>
+{% endblock %}

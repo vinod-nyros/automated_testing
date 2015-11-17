@@ -1,0 +1,21 @@
+{% extends "admin/change_form.html" %}
+{# % load i18n admin_modify adminmedia % #}
+
+{% block pretitle %}
+  <h2 style="float:right">Return to Product: {{ original }}</h2>
+{% endblock %}
+
+{% block after_field_sets %}
+
+<fieldset class="module aligned wide">
+    <h2>Product Option Choices</h2>
+    <br>
+    <h3>
+      <a href="/admin/legacy/prodoptchoice/?productoption__id__exact={{ original.id }}">
+        Edit Product Option Choice(s) for <b>{{ original }}</b>
+      </a>
+    </h3>
+    <br>
+</fieldset>
+
+{% endblock %}

@@ -1,0 +1,42 @@
+- fields: {approved_by: 2, created: ! '2009-10-24 17:29:31.083441', customer: 2,
+    customer_reference: Contact Joe, discount: 10.0, discount_type: '%', modified: ! '2013-10-25
+      15:40:20.827739', purchase_order: '', quote_number: 102409JJW, shipping: 40.0,
+    shipping_method: UPS, target: 5000.0, terms: Net 10, valid_for: 10}
+  model: quotes.quote
+  pk: 1
+- fields: {approved_by: 2, created: ! '2013-10-25 15:48:41.789684', customer: 3,
+    customer_reference: Saffa Kemokai, discount: 0.0, discount_type: $, modified: ! '2013-10-25
+      16:05:27.071938', purchase_order: email, quote_number: 102113-JJW-Saffa, shipping: 40.0,
+    shipping_method: Ground, target: 455.0, terms: Credit Card, valid_for: 10}
+  model: quotes.quote
+  pk: 55143
+- fields: {approved_by: 2, created: ! '2013-10-26 09:20:37.913977', customer: null,
+    customer_reference: 'Nam Sung Kim, UWisc', discount: 0.0, discount_type: '%',
+    modified: ! '2013-10-26 09:37:39.474759', purchase_order: '', quote_number: 102613-JJW-Nam,
+    shipping: 40.0, shipping_method: Ground, target: 20000.0, terms: Wire Transfer,
+    valid_for: 10}
+  model: quotes.quote
+  pk: 55149
+- fields: {cost: 1000.0, created: ! '2009-10-24 17:29:31.107969', description: "Joe's
+      2U Server for Refurb\r\n24GB RAM\r\n3x1.5TB HD\r\nNew Mobo\r\nDual Core\r\nVirtualization-Capable\r\n",
+    model: 2U Refurb, modified: ! '2009-10-24 17:29:31.108024', price: 1800.0, quantity: 1,
+    quote: 1}
+  model: quotes.quotelineitem
+  pk: 1
+- fields: {cost: 280.0, created: ! '2013-10-25 15:48:41.805766', description: "1U
+      server\r\nServer-class motherboard\r\nXeon CPU\r\nDual NICs\r\n2GB RAM\r\nslim
+      DVD drive\r\n1TB Hard drive\r\n\r\n$485.00 Main Unit\r\n$35.00 1TB drive Upgrade\r\n$35.00
+      Shipping\r\n$555.00 total\r\n", model: Custom Value 1U Server, modified: ! '2013-10-25
+      15:48:41.805785', price: 555.0, quantity: 1, quote: 55143}
+  model: quotes.quotelineitem
+  pk: 55144
+- fields: {cost: 600.0, created: ! '2013-10-26 09:20:37.992310', description: "SUPERMICRO
+      CSE-512F-350B 1U Chassis with 350W power supply \r\nAMD A10-5800K 3.8Mhz (4.2Mhz
+      Turbo) Quad Core Trinity Processor \r\nGA-F2A85X-UP4 Gigabyte FM2 Socket Mother
+      Board, USB 3.0 SATA 6Gbps \r\n16GB (4x4GB) Crucial 4GB DDR3 1866MHz Memory,
+      BLT4G3D1869DT2TXOB \r\nSeagate ST500DM002 500GB 7200 RPM SATA 6.0Gb/s Hard Drive
+      \r\nSingle Gigabit LAN 10/100/1000Mbps \r\nVideo output ports; DisplayPort,
+      HDMI, DVI, VGA o \r\n", model: APU-A10 server, modified: ! '2013-10-26 09:20:37.992341',
+    price: 1039.0, quantity: 20, quote: 55149}
+  model: quotes.quotelineitem
+  pk: 55150

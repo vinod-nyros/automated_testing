@@ -1,0 +1,45 @@
+old / handy pastebin:
+
+run sshd to get in, as long as salt is running - on master:
+
+salt -vv -l info 'dev.eracks.com' cmd.run /usr/sbin/sshd
+
+
+# TERM=linux elinks phase1..
+
+sudo docker build -t eracksdev-phase1 . | tee >(aha > phase1-docker-outfile.html) && \
+sudo docker run -it -p 80:80 -p 8080:8080 -p 2222:22 -h dev.eracks.com $(sudo docker images -q |head -1) salt-minion -l debug \
+  | tee >(aha > phase2-salt-log.html) && \
+
+rm phase2-salt-log.html && \
+sudo docker run -it -p 80:80 -p 8080:8080 -p 2222:22 -h dev.eracks.com eracksdev-phase1 salt-minion -l debug | tee >(aha > phase2-salt-log.html)
+
+sudo docker commit -a joe -m eracksdev-phase2 $(sudo docker ps -aq |head -1)
+
+sudo docker tag $(sudo docker images -q |head -1) eracksdev-phase2
+
+sudo docker run -it -p 80:80 -p 8080:8080 -p 2222:22 -h dev.eracks.com eracksdev-phase2 /bin/bash
+
+sudo docker run -it -p 80:80 -p 8080:8080 -p 8000:8000 -p 2222:22 -v /home/joe/pgdump:/home/dev/pgdump -h dev.eracks.com newtesting supervisord -c /etc/supervisor/supervisord.conf
+
+run pg unpack!
+
+
+# Handy one-liners:
+
+apt-get install -y openssh-server && mkdir -p /var/run/sshd && sudo /usr/sbin/sshd -D
+
+
+10/22/14:
+
+pre-saltcall grep fix:
+(salt-call does NOT return results as expected - you have to grep for success
+
+sudo docker build --no-cache --rm=false -t eracksdev-phase123 . | tee >(aha > phase123-docker-outfile.html)
+
+post-grepfix:
+
+sudo docker build -t eracksdev-phase1and2 . | tee >(aha > phase1and2-docker-outfile.html)
+
+More standard, allows you to iterate faster, picking up where cache left off
+

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>404 Error</h1>
+
+<h2>Your page was not found.</h2>
+
+<p>
+This may be because a page linked to us, and we moved things around, or it's an old page, or perhaps it was just a typo.
+
+<p>
+Regardless, it's just not here.
+
+(This is also known as a <b>"404 error"</b>.)
+
+<h4>
+Maybe you want to search our site on it:
+
+<a href="/search?q={{ request.META.PATH_INFO|cut:"/" }}">
+{{ request.META.PATH_INFO|cut:"/" }}</a>
+</h4>
+
+{% endblock content %}

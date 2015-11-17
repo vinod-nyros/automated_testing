@@ -1,0 +1,32 @@
+# run with ./manage shell < <this script>
+
+from wtp.apps.products.models import Product
+
+from django.db import connection, transaction
+
+cursor = connection.cursor()
+
+cursor.execute("SELECT distinct amazon_console from wtp_product;")
+#cursor.execute("SELECT distinct console from wtp_product;")
+rows = cursor.fetchall()
+
+print len (rows)
+
+platforms = {}
+
+for r in rows:  # [:5]:
+	if r[0]:  # check for none, '' (12), ' ' (3), probly extra commas at fields end
+		toks = r[0].upper().split (',')
+		#print toks
+		for t in toks:
+			t = t.strip()
+			platforms [t] = platforms.setdefault (t, 0) + 1
+
+from pprint import pprint
+pprint (platforms)
+
+print len (platforms)
+
+# Data modifying operation - commit required
+#cursor.execute("UPDATE bar SET foo = 1 WHERE baz = %s", [self.baz])
+#transaction.commit_unless_managed()

@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% block content_row %}
+    <form action="/checkout/order/" method="POST" class="nice" id="confirmform">
+        <div class="row" id="title_row">
+            <div class="two columns">
+                <div id="back">
+                    <a href="/checkout/">Edit<br>Info</a>
+                </div>
+            </div>
+            <div class="eight columns">
+                {% block content_title %}
+                    <h1>Confirm Your Order</h1>
+                {% endblock %}
+            </div>
+            <div class="two columns">
+                <div id="next">
+                    <a href="/checkout/order/">Place<br>Order</a>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="content_row">
+            <div class="two columns">
+                &nbsp;
+            </div>
+            <div class="eight columns">
+                {% block content %}
+                    <div class="panel">
+                        {% include "_final_cart.html" %}
+                        <p class="clearfix">
+                            &nbsp;
+                        </p>
+                    </div>
+                    <br>
+                    <h3>
+                        Your Order: {{ totqty }} item{{ totqty|pluralize }}, US${{ gtts|floatformat:2 }} with tax & shipping
+                    </h3>
+                    <h5>
+                        Name:
+                        {{ user.first_name }}
+                        {{ user.last_name }}
+                        User:
+                        {{ user }}
+                        eMail:
+                        {{ user.email }}
+                    </h5>
+                    <br>
+                    <input type="submit" name="order" value="Place Order" class="nice green radius button">
+                    <br>
+                    <br>
+                {% endblock %}
+            </div>
+            <div class="two columns">
+                &nbsp;
+            </div>
+        </div>
+    </form>
+{% endblock %}
+{% block js_bottom %}
+    {{ customer_form.media }}
+{% endblock %}

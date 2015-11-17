@@ -1,0 +1,1000 @@
+  366  service nginx start
+  367  netstat -antp
+  368  service nginx reload
+  369  man -k csr
+  370  man ssl
+  371  man openssl
+  372  openssl 
+  373  openssl help req
+  374  openssl req --help
+  375  openssl req -new -newkey rsa:2048 -nodes -keyout server.key -out server.csr
+  376  openssl req -new -newkey rsa:2048 -nodes -keyout eracks.key -out eracks.csr
+  377  man openssl-req
+  378  man openssl
+  379  man req
+  380  openssl req -new -newkey rsa:2048 -nodes -keyout eracks.key -out eracks.csr
+  381  ls -l
+  382  rm server.key 
+  383  cat eracks.csr 
+  384  openssl req -new -newkey rsa:2048 -nodes -keyout eracks.key -out eracks.csr
+  385  cat eracks.csr 
+  386  ./findit.sh SessionHelper
+  387  service eraccks10 restart
+  388  service eracks10 restart
+  389  ./manage.py shell
+  390  service eracks10 restart
+  391  ./manage.py runserver 0:8000
+  392  ./manage.py shell
+  393  python manage.py shell
+  394  pip uninstall django-aloha
+  395  pip install -r requirements.txt 
+  396  service eracks10 restart
+  397  ls -l static/
+  398  ls -l static/css/
+  399  ls -l apps/home/static/css/
+  400  vigr
+  401  adduser www-data joe
+  402  service eracks10 restart
+  403  service upstart restart
+  404  service eracks10 restart
+  405  ps axu
+  406  man upstart
+  407  man service
+  408  service eracks10 full-restart
+  409  service eracks10 --full-restart
+  410  service eracks10 restart
+  411  service eracks10 stop
+  412  service eracks10 start
+  413  service eracks10 
+  414  service eracks10 start
+  415  service eracks10 
+  416  [s axu
+  417  ps axu
+  418  man service
+  419  man upstart
+  420  man upstart-events
+  421  reboot
+  422  ls -l
+  423  ps axu
+  424  sudo mc
+  425  sudo reboot
+  426  service eracks10 start
+  427  ps axu
+  428  reboot
+  429  sudo mc
+  430  uptime
+  431  sudo mc
+  432  ls -l
+  433  service eracks10 start
+  434  service eracks10 restart
+  435  cat /etc/salt/minion
+  436  su - postgres
+  437  less eracksdb-100613.dump.7z 
+  438  hexdump eracksdb-100613.dump.7z 
+  439  mqn hexdump
+  440  man hexdump
+  441  hexdump -C eracksdb-100613.dump.7z 
+  442  hexdump -C eracksdb-100613.dump.7z |less
+  443  hexdump -C eracksdb.dump.7z |less
+  444  hexdump -C eracksdb-100613.dump.7z |less
+  445  hexdump -C eracksdb.dump.7z |less
+  446  cat /etc/ssl/eracks/eracks.crt 
+  447  ls -l /etc/ssl/eracks/eracks.crt 
+  448  openssl req -text -noout -verify -in eracks.csr 
+  449  history }grep openssl
+  450  history |grep openssl
+  451  history |grep openssl >openssl.txt
+  452  openssl req -new -newkey rsa:2048 -nodes -keyout eracks.key -out eracks.csr
+  453  ls
+  454  cat eracks.csr 
+  455  7z
+  456  ssh eracks.librehost.com
+  457  ssh joe@eracks.librehost.com
+  458  ssh admin.eracks.com
+  459  ssh joe@admin.eracks.com
+  460  ssh sysadmin@admin.eracks.com
+  461  man ssh
+  462  ssh sysadmin@admin.eracks.com "ls -l"
+  463  ssh sysadmin@admin.eracks.com "cat /var/lib/postgresql/eracksdb-100613.dump.7z" >x.7z
+  464  ls -l
+  465  md5sum eracksdb-100613-from-librehost.7z 
+  466  head -100 pgdumpall.daily 
+  467  cd "`printf "%b" '\0057home\0057joe'`"
+  468  md5sum eracksdb-100613.dump.7z 
+  469  rm eracksdb-100613.dump.7z 
+  470  vi eracksdb-100613-from-librehost 
+  471  ls -l
+  472  pwd
+  473  id
+  474  psql -f eracksdb-100613-from-librehost 
+  475  sudo su - postgres -c psql -f eracksdb-100613-from-librehost 
+  476  sudo su - postgres -c "psql -f eracksdb-100613-from-librehost"
+  477  ls
+  478  sudo su - postgres -c "psql -f /home/joe/eracksdb-100613-from-librehost"
+  479  service apache2 restart
+  480  sudo service apache2 restart
+  481  service eracks10 restart
+  482  touch eracks.crt
+  483  service nginx restart
+  484  ls -l
+  485  chown :www-data *
+  486  ls -l
+  487  ./manage.py dbshe
+  488  ./manage.py dbshell
+  489  ./manage.py shell
+  490  id
+  491  ls -l
+  492  sudo mc
+  493  man pg_dump
+  494  man pgdump
+  495  man pg-dump
+  496  pg_dump --help
+  497  man psql
+  498  sudo su - postgres
+  499  ls -l
+  500  7z t eracksdb
+  501  7z t eracksdb-100613.dump.7z 
+  502  mc
+  503  sudo mc
+  504  pwd
+  505  id
+  506  sudo su - postgres
+  507  pwd
+  508  cd django_eracks
+  509  cd
+  510  cd eracks10/
+  511  ./manage.py dbshell
+  512  sudo mc
+  513  id
+  514  ps axu
+  515  sudo su www-data
+  516  sudo vigr
+  517  ls -la ../.gnupg/
+  518  ls -la ..
+  519  sudo mc
+  520  ls -la
+  521  chown :www-data .gnupg
+  522  ls -la
+  523  ls -la .gnupg/
+  524  cd eracks10/
+  525  sudo su www-data
+  526  sudo service eracks10 restart
+  527  ln -s . admin
+  528  sudo ln -s . admin
+  529  sudo service eracks10 restart
+  530  svn st
+  531  less apps/utils/middleware.py
+  532  svn diff |less
+  533  svn add conf/
+  534  svn add conf/*
+  535  svn st
+  536  cat test.sh
+  537  svn st
+  538  svn add conf/apache/eracks10 
+  539  svn add apps/products/static/images/categories/GPsmall.jpeg 
+  540  svn add apps/utils/middleware.py
+  541  svn st
+  542  svn ci
+  543  sudo service eracks10 restart
+  544  ./manage.py shell
+  545  sudo service eracks10 restart
+  546  ./manage.py shell
+  547  sudo service eracks10 restart
+  548  ./findit.sh "Product features/specs"
+  549  ./findit.sh "Product features / specs"
+  550  sudo service eracks10 restart
+  551  ./manage.py shell
+  552  tail eracks10.log
+  553  sudo service eracks10 restart
+  554  sudo service eracks10 stop
+  555  sudo service eracks10 start
+  556  sudo service eracks10 restart
+  557  service nginx reload
+  558  service nginx restart
+  559  service nginx reload
+  560  service nginx restart
+  561  ls -l
+  562  cd //
+  563  cd 
+  564  ls -l
+  565  ls -l media/
+  566  chown joe:www-data wsgi.pyc
+  567  chown joe:www-data local_settings.pyc
+  568  ls -l
+  569  chown -R joe:www-data *
+  570  ls -l
+  571  service nginx reload
+  572  service nginx restart
+  573  service nginx reload
+  574  man nginx
+  575  nginx -t
+  576  service nginx reload
+  577  nginx -t
+  578  service nginx reload
+  579  nginx -t
+  580  service nginx reload
+  581  nginx -t && service nginx reload
+  582  ls -l
+  583  cat /etc/cron.daily/update_eracks_search_index 
+  584  chmod -R g+w whoosh_index/
+  585  chown -R joe:www-data whoosh_index/
+  586  ls -l
+  587  sudo service eracks10 restart
+  588  sudo service eracks10 stop
+  589  sudo service eracks10 start
+  590  sudo service eracks10 restart
+  591  pip search django
+  592  man pip
+  593  pip
+  594  pip show django
+  595  dpkg -a |grep django
+  596  dpkg -l |grep django
+  597  dpkg -l |grep python
+  598  pip install django --upgrade
+  599  sudo service eracks10 restart
+  600  /usr/local/lib/python2.7/dist-packages/django
+  601  rm -rf /usr/local/lib/python2.7/dist-packages/django
+  602  pip install django --upgrade
+  603  pip install django 
+  604  sudo service eracks10 restart
+  605  sudo service nginx restart
+  606  nginx -t && sudo service nginx restart
+  607  sudo service eracks10 restart
+  608  ./manage.py collectstatic -l
+  609  sudo service eracks10 restart
+  610  ls -l
+  611  chown joe:www-data browserid.py 
+  612  mkdir -p patches/django-browserid/templatetags/
+  613  chown -R joe:www-data patches/
+  614  ls -l
+  615  sudo service eracks10 restart
+  616  ls -l
+  617  cd eracks10
+  618  vi conf/nginx/eracks 
+  619  sudo service nginx reload 
+  620  sudo mc
+  621  sudo mc
+  622  ./manage.py shell
+  623  sudo service eracks10 restart
+  624  svn st
+  625  svn add patches/
+  626  svn add apps/products/static/images/products/zenbook13
+  627  svn add apps/products/static/images/products/zenbook15
+  628  svn add apps/quotes/templates/pdf_base.html
+  629  svn rm apps/quotes/templates/quote_base.html
+  630  svn add apps/quotes/templates/pdf.html
+  631  svn rm apps/home/static/index.html
+  632  svn st
+  633  svn ci -m 'Updates from Prod - nginx tweaks, quotes work, zenbook13/15, redirects working (requires django patch), 404 page, django_browserid patch - JJW'
+  634  sudo service eracks10 restart
+  635  stylus 
+  636  jade
+  637  pip search jade
+  638  sudo service eracks10 restart
+  639  ./manage.py shell
+  640  sudo service eracks10 restart
+  641  ./manage.py shell
+  642  sudo service eracks10 restart
+  643  ./manage.py shell
+  644  sudo service eracks10 restart
+  645  svn st
+  646  svn ci -m 'Allow add-to-cart & checkout for quotes, sideline PDF capability, minor cart & checkout bugfixes - JJW'
+  647  ping blog.eracks.com
+  648  sudo service eracks10 restart
+  649  ping eracks.com
+  650  host eracks.com
+  651  apt-get search host
+  652  apt-cache search host
+  653  apt-cache search host |grep host
+  654  sudo host
+  655  sudo apt-get install bind9-host
+  656  diff default.rb ../sysadmin/brewpub/cookbooks/joe/recipes/default.rb 
+  657  svn st
+  658  svn ci -m "Add bind9-host to joe's arsenal"
+  659  host eracks.com
+  660  host216.172.133.15
+  661  host 216.172.133.15
+  662  sudo service eracks10 restart
+  663  sudo service nginx restart
+  664  pip search tclink
+  665  apt-cache search tclink
+  666  apt-cache search TrustCommerce
+  667  pip search TrustCommmerce
+  668  pip search trustcommerce
+  669  pip search commerce
+  670  pip -r requirements.txt 
+  671  pip
+  672  sudo pip install -r requirements.txt 
+  673  sudo service eracks10 restart
+  674  ./manage.py collectstatic -l
+  675  ./manage.py help collectstatic 
+  676  ./manage.py collectstatic -lc
+  677  cd ..
+  678  ./manage.py collectstatic -lc
+  679  ./manage.py collectstatic -l
+  680  cd ..
+  681  ./manage.py collectstatic -l
+  682  cd //
+  683  cd
+  684  cd eracks10/
+  685  ./manage.py collectstatic -l
+  686  sudo service eracks10 restart
+  687  ls -l
+  688  cd src
+  689  ls -l
+  690  chown -R joe:www-data django-ide
+  691  ls -l
+  692  ls -l metafiles/
+  693  ./findit.sh django.views.decorators
+  694  ./findit.sh login_required
+  695  sudo service eracks10 restart
+  696  ls -la
+  697  chmod-R  g+w .
+  698  chmod -R  g+w .
+  699  ls -la
+  700  chown -R root:www-data .
+  701  mc
+  702  sudo mc
+  703  sudo service eracks10 restart
+  704  sudo mc
+  705  ls -l
+  706  ls -l facebooksdk/
+  707  sudo service eracks10 restart
+  708  cd eracks10/
+  709  ./manage.py shell
+  710  sudo service eracks10 restart
+  711  whois eracks.vc
+  712  dmesg 
+  713  sudo service eracks10 restart
+  714  mc
+  715  sudo mc
+  716  ./manage.py shell
+  717  sudo mc
+  718  sudo service eracks10 restart
+  719  mc
+  720  sudo mc
+  721  ./manage.py shell
+  722  sudo mc
+  723  ./findit.sh new_grid
+  724  sudo service eracks10 restart
+  725  svn st
+  726  svn ci -m 'Products Admin update - two of three Zenbooks, lots of crosslinking btw product admin pages, a few bugs fixed, easier cleanup an dtransition to new PO-OL architecture - JJW'
+  727  sudo service eracks10 restart
+  728  ./manage.py collectstatic -l
+  729  ./manage.py help collectstatic 
+  730  ./manage.py collectstatic -l
+  731  mc
+  732  sudo mc
+  733  ./manage.py 
+  734  ./manage.py rebuild_index
+  735  sudo mc
+  736  ./manage.py shell
+  737  sudo mc
+  738  ./manage.py collectstatic -l
+  739  mc
+  740  sudo mc
+  741  sudo service eracks10 restart
+  742  mkdir patches
+  743  mc
+  744  sudo mc
+  745  mc
+  746  sudo mc
+  747  cd ..
+  748  mc
+  749  sudo mc
+  750  mc
+  751  sudo mc
+  752  mc
+  753  ls -l
+  754  ls -l django-ide
+  755  chmod g-R +w django-ide
+  756  chmod -R g+w django-ide
+  757  sudo chmod -R g+w django-ide
+  758  sudo service eracks10 restart
+  759  sudo mc
+  760  sudo service eracks10 restart
+  761  clear
+  762  pwd
+  763  cd eracks10/
+  764  cat apps/products/admin.py
+  765  sudo service eracks10 restart
+  766  mc
+  767  sudo mc
+  768  cd eracks10
+  769  ./findit.sh mailing_list
+  770  ./findit.sh save_email
+  771  ./manage.py shell
+  772  %1
+  773  cd eracks10/
+  774  ./manage.py shell
+  775  cd eracks10/
+  776  sudo service eracks10 restart
+  777  cd eracks10/
+  778  sudo mc
+  779  mc
+  780  ./manage.py shell
+  781  cd eracks10/
+  782  ./manage.py runserver
+  783  ./manage.py runserver 0:8000
+  784  sudo service eracks10 restart
+  785  cd eracks
+  786  cd eracks10
+  787  sudo service eracks10 restart
+  788  ./manage.py runserver 0:8000
+  789  ./findit.sh update_config
+  790  ./manage.py runserver 0:8000
+  791  sudo service eracks10 restart
+  792  cd eracks10
+  793  ./manage.py runserver 0:8000
+  794  mc
+  795  sudo service eracks10 restart
+  796  cd eracks19
+  797  cd eracks10
+  798  ./findit.sh 20
+  799  ./findit.sh -w 20
+  800  ./findit.sh -w weight
+  801  ./findit.sh -w weight |grep 20
+  802  sudo service eracks10 restart
+  803  mc
+  804  mv nas24_32_266.jpeg nas36_266.jpeg 
+  805  mv nas24_32_front.jpeg nas36_front.jpeg 
+  806  mv nas36_rear.jpeg nas36_rear.jpeg 
+  807  mv nas24_32_rear.jpeg nas36_rear.jpeg 
+  808  ./manage.py collectstatic -l
+  809  svn st
+  810  svn del apps/products/static/images/products/nas24-32
+  811  svn st
+  812  cat test.sh 
+  813  ls
+  814  ls -l
+  815  mv test.sh old/
+  816  svn st
+  817  svn add apps/products/static/images/products/*
+  818  svn st
+  819  svn diff |less
+  820  svn ci -m 'Misc fall 2013, requirements, admin, NAS26, delete incorrect nas24-32 (From 2010!), quotes, helpers/cart, nginx, etc - JJW'
+  821  svn up
+  822  svn ci -m 'Misc fall 2013, requirements, admin, NAS26, delete incorrect nas24-32 (From 2010!), quotes, helpers/cart, nginx, etc - JJW'
+  823  0
+  824  df -h
+  825  mc
+  826  sudo mc
+  827  du -sh .* *
+  828  du -sh *
+  829  sudo mc
+  830  df -h
+  831  cd eracks10/
+  832  ./manage.py dbshell
+  833  cd eracks10/
+  834  ./manage.py dbshell
+  835  df -h
+  836  su mc
+  837  sudo mc
+  838  ./findit.sh userena_profile_detail
+  839  grep -ri eracks10
+  840  df -h
+  841  man service
+  842  grep -ri eracks10 *
+  843  OB
+  844  less syslog
+  845  sudo su
+  846  top
+  847  /etc/init.d/
+  848  history 
+  849  sudo service eracks10 restart
+  850  sudo mc
+  851  alias 
+  852  man -k alias
+  853  newaliases 
+  854  bash sql-clear-sessions.sh 
+  855  psql -?
+  856  bash sql-clear-sessions.sh 
+  857  cd ..
+  858  ./manage.py dbshell
+  859  ls -l
+  860  ./manage.py dbshell
+  861  cd eracks10/
+  862  ./manage.py dbshell
+  863  cd ..
+  864  chmod 0600 .pgpass 
+  865  ./manage.py dbshell
+  866  man .pgpass
+  867  man -k .pgpass
+  868  ./manage.py dbshell
+  869  ls -l
+  870  rm sql-clear-sessions.py 
+  871  chmod +x sql-clear-sessions.sh 
+  872  ls -l
+  873  chmod +x start_postgres.sh 
+  874  ./sql-clear-sessions.sh 
+  875  mv sql-clear-sessions.sh sql-clear-eracks-sessions
+  876  OD
+  877  ./manage.py 
+  878  time
+  879  which time
+  880  shell
+  881  man time
+  882  which time
+  883  which sh
+  884  sh
+  885  sh test.sh 
+  886  chmod +x test.sh 
+  887  ./test.sh 
+  888  cd eracks10
+  889  ./manage.py shell
+  890  sudo service eracks10 restart
+  891  cd eracks10
+  892  sudo mc
+  893  ./manage.py shell
+  894  ./manage.py collectstatic -l
+  895  cd eracks10
+  896  svn nfo
+  897  svn info
+  898  svn st
+  899  svn dff notes.txt 
+  900  svn diff notes.txt 
+  901  svn log
+  902  cd eracks10
+  903  ./manage.py runserver 0:8000
+  904  sudo service eracks10 restart
+  905  cd eracks10/
+  906  ./manage.py dbshell
+  907  ./manage.py shell
+  908  for x,s in enumerate (models.Session.objects.all()) [3447:]:
+  909  ./manage.py shell
+  910  sudo service eracks10 restart
+  911  svn up
+  912  ls -l
+  913  svn del update_index.sh 
+  914  mc
+  915  svn de adelie_ cd "`printf "%b" '\0057home\0057joe\0057eracks10\0057apps\0057products\0057static\0057images\0057products\0057adelie\0057old'`"
+  916  svn del adelie_400.jpeg 
+  917  svn del adelie_bottom.jpeg 
+  918  svn del adelie_open.jpeg 
+  919  svn del adelie_open_250.jpeg 
+  920  svn del adelie_back.jpeg 
+  921  svn del adelie_keyboard.jpeg 
+  922  svn del adelie_left.jpeg 
+  923  svn del adelie_front.jpeg 
+  924  svn del adelie_top_open.jpeg 
+  925  svn del adelie_right.jpeg 
+  926  svn st
+  927  svn add packages/Django-QuickPages/quickpages/templates/quickpages/press-list.html
+  928  svn add scripts/cron/
+  929  svn add apps/products/static/images/products/adelie/*
+  930  svn st
+  931  svn ci -m 'Add scripts/cron dir, cart robustness fixes, new Adelie model and photos, add automated press release list - JJW' 
+  932  ls /scripts/test/
+  933  sh scripts/test/test-order-cart.py 
+  934  python scripts/test/test-order-cart.py 
+  935  cd scripts/
+  936  ./runscript.sh test/test-order-cart.py 
+  937  ./runscript.sh test/test-order-cart.py 
+  938  cd ..
+  939  ./manage.py shell
+  940  cd scripts/
+  941  ./runscript.sh test/test-order-cart.py 
+  942  sudo service eracks10 restart
+  943  ssh 173.67.92.121
+  944  mc
+  945  locate filebrowser
+  946  cat requirements.txt 
+  947  ./manage.py collectstatic -l
+  948  cd eracks10
+  949  ./manage.py collectstatic -l
+  950  ifconfig 
+  951  netstat -antp
+  952  cat ./forward.sh 
+  953  ./manage.py collectstatic -l
+  954  svn st
+  955  svn add scripts/test/test-order-cart.py 
+  956  svn add apps/products/static/images/products/nas50/openstack-logo*
+  957  svn add apps/products/static/images/products/nas36/nas36*
+  958  svn st
+  959  svn add apps/home/static/images/slideshow/banner_front_nas50_300TB*
+  960  svn ci -m 'Add nifty script to retrieve latest order and print complete configuration info for oursourcing, updates to NAS50 for OpenStack, NAS36 photos, product template, slideshow banner for NAS50, product templets - JJW'
+  961  svn up
+  962  mc
+  963  sudo su
+  964  cd eracks10/
+  965  svn up
+  966  svn st
+  967  ls apps/products/static/pdf/
+  968  svn add apps/products/static/pdf/
+  969  svn st
+  970  ls src
+  971  cat src/pip-delete-this-directory.txt 
+  972  svn ci -m "Static product PDFs, update notes - JJW"
+  973  sudo mc
+  974  cd eracks10
+  975  pip search django-csv
+  976  pip search django-csvimport
+  977  pip install django-csvimport
+  978  sudo pip install django-csvimport
+  979  mc
+  980  ./manage.py 
+  981  ./manage.py runserver 0:8000
+  982  ./manage.py syncdb
+  983  ./manage.py runserver 0:8000
+  984  cd eracks10
+  985  ./manage.py runserver 0:8000
+  986  cd eracks10/
+  987  svn st
+  988  svn info
+  989  svn up
+  990  svn info
+  991  svn st
+  992  svn diff
+  993  mc
+  994  cd eracks10/
+  995  mc
+  996  python test-order-cart.py 
+  997  cd ..
+  998  python scripts/test/test-order-cart.py 
+  999  cd scripts/
+ 1000  ./runscript.sh test/test-order-cart.py 
+ 1001  ./runscript.sh orders/show-order-cart.py
+ 1002  df -h
+ 1003  dpplg -l |grep post
+ 1004  dpkg -l |grep post
+ 1005  ps ax
+ 1006  sudo mc
+ 1007  sudo su
+ 1008  pip search reportlab
+ 1009  pip search xhtml2pdf
+ 1010  pip install --upgrade reportlab xhtml2pdf
+ 1011  apt-get -s install python-dev
+ 1012  apt-get install python-dev
+ 1013  pip install --upgrade reportlab xhtml2pdf
+ 1014  pip search reportlab
+ 1015  pip
+ 1016  which pip
+ 1017  dpkg -l |grep pip
+ 1018  dpkg -l |grep reportlab
+ 1019  dpkg -l |grep xhtml2pdf
+ 1020  dpkg -l |grep reportlab
+ 1021  apt-get -s install python-pip
+ 1022  `0
+ 1023  apt-cache show openssh-server
+ 1024  svn st
+ 1025  cd eracks10/
+ 1026  cd ..
+ 1027  svn add apps/home/static/images/slideshow/NAS72_frontpage*
+ 1028  svn add media/
+ 1029  svn add media/csv/
+ 1030  svn add scripts/orders/
+ 1031  svn st
+ 1032  svn ci
+ 1033  cat /home/joe/eracks10/svn-commit.tmp
+ 1034  du -sh *
+ 1035  du -sh ../*
+ 1036  df -h
+ 1037  ls up*
+ 1038  grep -ri upstart
+ 1039  man upstart
+ 1040  touch pg-upgr-91-93.sh
+ 1041  apt-cache search post
+ 1042  apt-cache search postgres
+ 1043  apt-cache search postgresql
+ 1044  apt-get -s install postgresql
+ 1045  apt-get -s install postgresql postgresql-plpython
+ 1046  apt-get -s install postgresql postgresql-plpython-9.3
+ 1047  apt-get install postgresql postgresql-plpython-9.3
+ 1048  sudo apt-get install postgresql postgresql-plpython-9.3
+ 1049  cat pg-upgr-91-93.sh 
+ 1050  pg_upgradecluster
+ 1051  sudo su - postgres
+ 1052  cat pg-upgr-91-93.sh 
+ 1053  apt-get -s remove postgresql-9.1 postgresql-client-9.1 postgresql-plpython-9.1
+ 1054  apt-cache search postgresql
+ 1055  apt-get remove postgresql-9.1 postgresql-client-9.1 postgresql-plpython-9.1
+ 1056  sudo apt-get remove postgresql-9.1 postgresql-client-9.1 postgresql-plpython-9.1
+ 1057  netstat -antp
+ 1058  sudo netstat -antp
+ 1059  ps ax
+ 1060  ln -s eracks11 eracks10
+ 1061  reboot
+ 1062  cd scripts/
+ 1063  ls
+ 1064  ./runscript.sh orders/show-order-cart.py 
+ 1065  sudo mc
+ 1066  cd eracks11/
+ 1067  git log
+ 1068  mc
+ 1069  ps ax
+ 1070  mc
+ 1071  ln -s conf/local_settings.py
+ 1072  ln -s /home/joe/eracks10-old/src .
+ 1073  history 
+ 1074  sudo service eracks10 restart
+ 1075  ./manage.py collectstatic -l
+ 1076  sudo service eracks10 restart
+ 1077  vi set-upo-local-settings.sh
+ 1078  cat
+ 1079  cat set-upo-local-settings.sh 
+ 1080  cd ..
+ 1081  ln -s conf/local_settings_eracks10.py local.settings.py
+ 1082  sudo service eracks10 restart
+ 1083  echo sudo service eracks10 restart >scripts/restart.sh
+ 1084  sudo service eracks10 restart
+ 1085  mv set-upo-local-settings.sh set-up-local-settings.sh 
+ 1086  cd ..
+ 1087  sh scripts/set-up-local-settings.sh 
+ 1088  ls
+ 1089  ./scripts/runscript.sh 
+ 1090  ./scripts/runscript.sh scripts/orders/show-order-cart.py 
+ 1091  sudo mc
+ 1092  df -h
+ 1093  sudo add-apt-repository ppa:nginx/stable
+ 1094  apt-get update
+ 1095  sudo apt-get update
+ 1096  sudo apt-get -s install nginx
+ 1097  lsb_release -a
+ 1098  sudo apt-cache showpkg nginx
+ 1099  sudo mc
+ 1100  sudo apt-get update
+ 1101  sudo apt-cache showpkg nginx
+ 1102  sudo apt-cache shog nginx
+ 1103  sudo apt-cache show nginx
+ 1104  sudo apt-get -s install nginx
+ 1105  nginx --version
+ 1106  nginx -version
+ 1107  nginx -v
+ 1108  sudo apt-get install nginx
+ 1109  nginx -v
+ 1110  service nginx restart
+ 1111  sudo service nginx restart
+ 1112  mc
+ 1113  sudo mc
+ 1114  cd /etc
+ 1115  ls -ltr
+ 1116  pwd
+ 1117  cd eracks11
+ 1118  git statua
+ 1119  git status
+ 1120  cat conf/apache/README.txt 
+ 1121  git diff notes.txt 
+ 1122  netstat -antp
+ 1123  python
+ 1124  env x='() { :;}; echo vulnerable' bash -c "echo this is a test"
+ 1125  apt-gert update && apt-get dist-upgrade
+ 1126  sudo apt-get update && sudo apt-get dist-upgrade
+ 1127  env x='() { :;}; echo vulnerable' bash -c "echo this is a test"
+ 1128  cd eracks11/
+ 1129  git info
+ 1130  git status
+ 1131  git url
+ 1132  git config
+ 1133  git config -l
+ 1134  mc
+ 1135  grep 3715 pgdumpall.daily 
+ 1136  ls -l
+ 1137  ifconfig -a
+ 1138  pip freeze
+ 1139  sudo mc
+ 1140  grep /quote eracks.com.access.log
+ 1141  grep /quote eracks.com.access.log |less
+ 1142  git static/
+ 1143  git status
+ 1144  git add *
+ 1145  git add 
+ 1146  git add .
+ 1147  git status
+ 1148  git commit
+ 1149  git config --global user.name "Joseph Wolff"
+ 1150  git config --global user.email joe@eracks.com
+ 1151  git commit --amend --reset-author
+ 1152  git status
+ 1153  git push
+ 1154  cat > ~/.ssh/id_rsa
+ 1155  cat  ~/.ssh/id_rsa
+ 1156  git push
+ 1157  git config
+ 1158  git config --global
+ 1159  git help config 
+ 1160  git config --global http.sslkey ~/.ssh/id_rsa
+ 1161  git help config 
+ 1162  git config --global http.sslCertPasswordProtected
+ 1163  git push
+ 1164  git help config 
+ 1165  git config --global http.sslCert ~/.ssh/id_rsa
+ 1166  git config --global credential.username jowolf
+ 1167  git push
+ 1168  git config --global http.sslCert
+ 1169  git help config 
+ 1170  git config --global --unset http.sslCert
+ 1171  git push
+ 1172  ssh -T git@github.com
+ 1173  chmod 600 /home/joe/.ssh/id_rsa
+ 1174  ssh -T git@github.com
+ 1175  git push
+ 1176  git pull
+ 1177  git config --global credential.helper 'cache --timeout=3600'
+ 1178  git pull
+ 1179  git push
+ 1180  apt-get -s install supervisor
+ 1181  lsb_release -a
+ 1182  apt-get history
+ 1183  man apt-get 
+ 1184  man apt-cache
+ 1185  mc
+ 1186  history |less
+ 1187  cd eracks11/
+ 1188  cat requirements.txt 
+ 1189  less requirements.txt 
+ 1190  pytho
+ 1191  python
+ 1192  git status
+ 1193  less scripts/restart.sh 
+ 1194  less scripts/set-up-local-settings.sh 
+ 1195  ls -l src
+ 1196  ls -l src/
+ 1197  ls -l local_settings.py
+ 1198  ls -l scripts/db
+ 1199  ls -l scripts/db/
+ 1200  ls -la scripts/db/
+ 1201  ls -la whoosh_index/
+ 1202  mc
+ 1203  history |less
+ 1204  service nginx restart
+ 1205  sudo mc
+ 1206  mc
+ 1207  git status
+ 1208  git diff
+ 1209  git help diff
+ 1210  git diff --ignor-space-at-eol
+ 1211  git diff --ignore-space-at-eol
+ 1212  git info
+ 1213  git 
+ 1214  git status
+ 1215  git branch
+ 1216  git config
+ 1217  git config -l
+ 1218  git status
+ 1219  vi .gitignore
+ 1220  git status
+ 1221  git commit -a
+ 1222  git diff --ignore-space-at-eol
+ 1223  git push
+ 1224  mc
+ 1225  ls -l
+ 1226  ls /home/
+ 1227  mc
+ 1228  svn st
+ 1229  svn upgrade
+ 1230  svn help upgrade
+ 1231  sudo svn upgrade
+ 1232  svn st
+ 1233  cat default.rb 
+ 1234  sudo su - postgres
+ 1235  pwd
+ 1236  cd eracks11
+ 1237  ./manage.py dbshell
+ 1238  ls -l /etc/ssl
+ 1239  ls -l /etc/ssl/eracks/
+ 1240  cat  /etc/ssl/eracks/eracks.crt 
+ 1241  cat  /etc/ssl/eracks/eracks.key 
+ 1242  touch x
+ 1243  chmod x 755
+ 1244  ls -l
+ 1245  chmod 755 x
+ 1246  ls -l
+ 1247  chmod 644 x
+ 1248  ls -l
+ 1249  ls /etc/nginx/sites-enabled/
+ 1250  mc
+ 1251  sudo mc
+ 1252  ls -l
+ 1253  man pg_dump
+ 1254  pg_dump 
+ 1255  id
+ 1256  sudo su - postgres
+ 1257  sudo -u postgres psql -c \\l
+ 1258  sudo -u postgres psql -d ercaksdb -c \\dt
+ 1259  sudo -u postgres psql -d eracksdb -c \\dt
+ 1260  sudo -u postgres psql -d eracksdb -c select count (*) from django-sessions; echo $?
+ 1261  sudo -u postgres psql -d eracksdb -c "select count (*) from django-sessions"; echo $?
+ 1262  sudo -u postgres psql -d eracksdb -c 'select count (*) from django-sessions'; echo $?
+ 1263  sudo -u postgres psql -d eracksdb -c 'select count (*) from django_sessions'; echo $?
+ 1264  sudo -u postgres psql -d eracksdb -c 'select count (*) from django_session'; echo $?
+ 1265  du -sh *
+ 1266  ls -ltr
+ 1267  history 
+ 1268  man pg_dump
+ 1269  sudo -u postgres pg_dump -Fd mydb eracks.dump.dirfmt
+ 1270  sudo -u postgres pg_dump -Fd eracksdb >eracks.dump.dirfmt
+ 1271  sudo -u postgres pg_dump -Fd eracksdb -f eracks.dump
+ 1272  sudo -u postgres pg_dump -Fd eracksdb -f eracks.dump.dir
+ 1273  pwd
+ 1274  sudo -u postgres pg_dump -Fd eracksdb -f /eracks.dump.dir
+ 1275  mkdir eracks.dump.dir; sudo -u postgres pg_dump -Fd eracksdb -f eracks.dump.dir
+ 1276  ls
+ 1277   eracks.dump.dir
+ 1278  mkdir -p eracks.dump.dir; chmod 777 eracks.dump.dir; sudo -u postgres pg_dump -Fd eracksdb -f eracks.dump.dir
+ 1279  mc
+ 1280  cd eracks
+ 1281  cd eracks11
+ 1282  ./manage.py help collectstatic
+ 1283  mc
+ 1284  git status
+ 1285  mc
+ 1286  cd ..
+ 1287  sudo service eracks10 restart
+ 1288  ./manage.py collectstatic -l
+ 1289  cd ..
+ 1290  ./manage.py runserver
+ 1291  cd ..
+ 1292  ./manage.py runserver 0:8000
+ 1293  git static/
+ 1294  git status
+ 1295  git commit -a
+ 1296  git pull
+ 1297  git push
+ 1298  ./manage.py runserver 0:8000
+ 1299  cd ..
+ 1300  ./manage.py runserver 0:8000
+ 1301  mc
+ 1302  sudo mc
+ 1303  7z
+ 1304  7za
+ 1305  cat .ssh/authorized_keys 
+ 1306  cd eracks11
+ 1307  ./scripts/runscript.sh scripts/orders/show-order-cart.py 
+ 1308  cd eracks11
+ 1309  ./scripts/runscript.sh scripts/orders/show-order-cart.py 
+ 1310  mc
+ 1311  git status
+ 1312  git diff
+ 1313  sudo pip install -r conf/requirements.txt 
+ 1314  service eracks restart
+ 1315  service eracks10 restart
+ 1316  service eracks restart
+ 1317  service eracks start
+ 1318  service eracks10 start
+ 1319  service eracks restart
+ 1320  service --status-all
+ 1321  ps ax
+ 1322  service gunicorn restart
+ 1323  service gunicorn restart cd "`printf "%b" '\0057home\0057joe\0057eracks11\0057conf\0057etc\0057upstart'`"
+ 1324  service eracksrestart
+ 1325  service eracks restart
+ 1326  service eracks 
+ 1327  service eracks status
+ 1328  ./upstart
+ 1329  man upstart
+ 1330  man initctl
+ 1331  initctl list
+ 1332  initctl stop eracks10
+ 1333  initctl reload-configuration
+ 1334  initctl start eracks
+ 1335  initctl restart eracks
+ 1336  initctl status eracks
+ 1337  initctl start eracks
+ 1338  initctl status eracks
+ 1339  ps ax
+ 1340  initctl status eracks
+ 1341  initctl reload-configuration
+ 1342  initctl status eracks
+ 1343  initctl start eracks
+ 1344  pip freeze |grep django
+ 1345  pip freeze |less
+ 1346  sudo pip install --upgrade -r conf/requirements.txt 
+ 1347  vi conf/requirements.txt 
+ 1348  apt-get install python-libxml2-dev python-libxslt-dev
+ 1349  apt-cache search libxml2
+ 1350  sudo apt-get install libxml2-dev libxslt-dev
+ 1351  sudo apt-get update
+ 1352  sudo apt-get install libxml2-dev libxslt-dev
+ 1353  sudo pip install --upgrade -r conf/requirements.txt 
+ 1354  sudo apt-get install lz-dev
+ 1355  apt-cache search lz
+ 1356  sudo apt-get install zlib-dev
+ 1357  apt-cache search zlib
+ 1358  sudo apt-get install zlib1g-dev
+ 1359  sudo pip install --upgrade -r conf/requirements.txt 
+ 1360  django-admin --vewrsion
+ 1361  django-admin --version
+ 1362  pip freeze |less
+ 1363  initctl restart eracks
+ 1364  history conf/old/useful-history.txt
+ 1365  history >conf/old/useful-history.txt

@@ -1,0 +1,113 @@
+{% extends "base_twocolumns.html" %}
+
+
+{% block css %}
+{{ block.super }}
+
+<style type="text/css">
+
+.quote th {
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+</style>
+
+{% endblock css %}
+
+
+{% block content %}
+
+{% load quote_tags %}
+
+{% with q.customer as c %}
+
+<h1>{{ title }}</h1>
+
+<h2>For {% firstof c.name c.user.username '(Unnamed Customer)' %}</h2>
+
+{% if c %}
+
+{% if c.title %}{{ c.title }}<br>{% endif %}
+{% if c.dept %}{{ c.dept }}<br>{% endif %}
+{% if c.email %}{{ c.email }}<br>{% endif %}
+{% if c.email2 %}{{ c.email2 }}<br>{% endif %}
+{% if c.phone %}{{ c.phone }}<br>{% endif %}
+{% if c.phone2 %}{{ c.phone2 }}<br>{% endif %}
+<br>
+
+<addr>
+{{ c.shipping_address }}
+</addr>
+<br>
+
+{% endif %}
+
+{% if c.billing_address %}
+ <i>Billing:<br>
+ <addr>{{ c.billing_address }}</addr><br>
+{% endif %}
+<br>
+
+<table class="quote" border=1 style="display: inline-block;">
+ <tr><th>Valid for </th><td> {{ q.valid_for }} days</td></tr>
+ <tr><th>Approved by </th><td> {{ q.approved_by }}</td></tr>
+ <tr><th>Purchase Order # </th><td> {{ q.purchase_order }}</td></tr>
+ <tr><th>Customer reference or RFQ # </th><td> {{ q.customer_reference }}</td></tr>
+ <tr><th>Terms </th><td> {{ q.terms }}</td></tr>
+</table>
+<table style="display: inline-block; border:none; ">
+  <tr>
+    {% if q.image %}
+    <td><img width="200px" src="/media/{{ q.image }}" alt="original image"/></td>
+    {% else %}
+    <td></td>
+    {% endif %}
+  </tr>
+</table>
+<table class="quote" border=1>
+ <tr>
+  <th style="text-align:center;">Qty</th>
+  <th style="text-align:center;">Description</th>
+  <th style="text-align:center;">Image</th>
+  <th style="text-align:center;">Price</th>
+  <th style="text-align:center;">Ext</th>
+ <tr>
+ 
+{% for line in q.quotelineitem_set.all %}
+ <tr>
+  <td style="text-align:center;width:100%;">{{ line.quantity }}</td>
+  <td style="width:100%;"><pre>{{ line.description }}</pre></td>
+  {% if line.image %}
+  <td style="width:100%;"><img width="100%" src="/media/{{ line.image }}" alt="No Image"/></td>
+  {% else %}
+  <td style="width:100%;"></td>
+  {% endif %}
+  <td style="text-align:center;width:100%;">{{ line.price }}</td>
+ <td style="text-align:center;width:100%;">{% multiply line.quantity  line.price %} </td>
+ </tr>
+{% endfor %}
+</table>
+
+<form method=POST>
+ <input class="nice green radius button" id="add" type="submit" name="add" value="Add to Cart" />
+</form>
+<form method=POST>
+ <input class="nice green radius button" id="pdf" type="submit" name="pdf" value="Get PDF" />
+</form>
+
+{% endwith %}
+
+{% comment %}
+<h3><a href="{{ request.path }}.pdf">PDF Version
+1 {{ request.meta.RAW_URI }}
+2 {{ request.META.PATH_INFO }}
+3 {{ request.RAW_URI }}
+4 {{ request.PATH_INFO }}
+5 {{ request.path }}
+6 {{ request.META.HTTP_REFERER }}
+</a></h3>
+{% endcomment %}
+
+{% endblock %}

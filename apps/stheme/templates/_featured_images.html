@@ -1,0 +1,86 @@
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: src/_featured_images.minaml on 2015-11-09 at 19:41:46 PST(GMT-0800)  #}
+
+
+<div class="relative show-case-wrapper center-block col-sm-11">
+  <noscript>
+    {% with FeaturedImage_objects.all|random as i %}
+      <div class="product-slide">
+        <div class="col-sm-8 product-slide-left">
+          <a href="{{ i.link }}" title="{{ i.title }}" class="product-slide-img">
+            <img alt="{{ i.image }}" src='{{ i.image }}' class="img-responsive">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <div class="product-slide-inner">
+            <h3>{{ i.title|safe }}</h3>
+            <p class="details-description">
+              {{ i.caption|safe }}
+            </p>
+            {% if i.product %}
+              <h2 class="product-code">{{ i.product.name }}</h2>
+              <div class="product-price">
+                starting at $
+                {{ i.product.baseprice }}
+              </div>
+            {% endif %}
+            <a title="Configure" href="#" class="btn btn-primary btn-stroke-dark btn-lg">
+              <i class="glyphicon glyphicon-shopping-cart"></i>
+              Configure Now
+            </a>
+          </div>
+        </div>
+      </div>
+    {% endwith %}
+  </noscript>
+
+  <div class="owl-carousel owl-theme" id="productShowCase">
+    {% for i in FeaturedImage_objects.all %}
+      <div class="product-slide">
+        <div class="col-sm-8 product-slide-left">
+          <a href="{{ i.link }}" title="{{ i.title }}" class="product-slide-img">
+            <img alt="{{ i.image }}" src='{{ i.image }}' class="img-responsive">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <div class="product-slide-inner">
+            <h3>{{ i.title|safe }}</h3>
+            <p class="details-description">
+              {{ i.caption|safe }}
+            </p>
+            {% if i.product %}
+              <h2 class="product-code">{{ i.product.name }}</h2>
+              <div class="product-price">
+                starting at $
+                {{ i.product.baseprice }}
+              </div>
+            {% endif %}
+            <a title="Configure" href="#" class="btn btn-primary btn-stroke-dark btn-lg">
+              <i class="glyphicon glyphicon-shopping-cart"></i>
+              Configure Now
+            </a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <div style="clear:both"></div>
+
+  <noscript>
+    <a href="/" class="ps-nav" id="ps-next">
+      <i class="fa fa-angle-right"></i>
+    </a>
+    <a href="/" class="ps-nav" id="ps-prev">
+      <i class="fa fa-angle-left"></i>
+    </a>
+  </noscript>
+
+  <a class="ps-nav jsonly" id="ps-next">
+    <i class="fa fa-angle-right"></i>
+  </a>
+  <a class="ps-nav jsonly" id="ps-prev">
+    <i class="fa fa-angle-left"></i>
+  </a>
+</div>

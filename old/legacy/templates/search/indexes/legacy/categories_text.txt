@@ -1,0 +1,5 @@
+{{ object.title }}
+{{ object.name }}
+{{ object.slug }}
+{{ object.blurb }}
+{{ object.description }}

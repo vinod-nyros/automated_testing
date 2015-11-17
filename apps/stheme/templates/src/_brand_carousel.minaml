@@ -1,0 +1,25 @@
+ul.brand-carousel.no-margin.owl-theme.owl-carousel
+    li
+        a href=http://www.ubuntu.com target=new
+            > img src=/images/logos/ubuntu.gif title=Ubuntu height=46 width=40 alt=Ubuntu
+    li
+        a href=http://www.gentoo.org target=new
+            > img src=/images/logos/gentoo.jpg title=Gentoo height=46 width=45 alt=Gentoo
+    li
+        a href=http://www.debian.org target=new
+            > img src=/images/logos/debian.gif height=46 width=50 alt="Debian Linux"
+    li
+        a href=http://www.centos.org target=new
+            > img src=/images/logos/centos.gif height=46 width=48 alt="CentOS Linux"
+    li
+        a href=http://www.netbsd.org target=new
+            > img src=/images/logos/netbsd_small.gif height=46 width=46 alt=NetBSD
+    li
+        a href=http://www.freebsd.org target=new
+            > img src=/images/logos/freebsd_small.gif height=46 width=45 alt=FreeBSD
+    li
+        a href=http://www.linux.org target=new
+            > img src=/images/logos/linux_small.gif height=46 width=45 alt=Linux
+    li
+        a href=http://www.openbsd.org target=new
+            > img src=/images/logos/openbsd_small.gif height=46 width=55 alt=OpenBSD

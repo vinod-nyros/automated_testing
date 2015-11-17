@@ -1,0 +1,24 @@
+{% load cache %}
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: theme-legacy.yaml at line 18 on 2015-11-09 at 19:41:47 PST(GMT-0800)  #}
+
+
+{% cache 3600 bloglet_list_legacy %}
+  <div class="box">
+    <h4>
+      eRacks News
+    </h4>
+    <div class="text_center">
+      <ul class="nav-bar vertical">
+        {% for post in Post_objects.published %}
+          <li>
+            {{ post.body|safe }}
+            <hr>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div style="clear:both"></div>
+  </div>
+{% endcache %}

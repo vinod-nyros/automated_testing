@@ -1,0 +1,56 @@
+div#accordionNo.panel-group
+    style VERBATIM
+        #accordionNo .nav-stacked li.active>a {
+          /* padding: 4px 10px 4px 0; */
+          margin: 0 -10px;
+        }
+        .nav-stacked>li.active a, .nav-stacked>li.active {
+          font-weight: normal;
+        }
+        .tree>.active>a>.badge {
+          background: #2ecc71;
+        }
+        .fa-caret-right:before {
+          color: #a35cff;
+          font-size: large;
+          /* margin-right: 8px; */
+          padding: 5px;
+        }
+        .fa-caret-right:hover {
+          background-color: azure;
+          font-weight: bold;
+          /* border: 1px solid lightgray; */
+        }
+        /* a span.collapseWill:hover {
+          background-color: yellow;
+        }
+        */
+    div.panel-default.panel
+        div.panel-heading
+            h4.panel-title
+                a.collapseWill href=#collapseCategory data-toggle=collapse
+                    span.pull-left
+                        i.fa.fa-caret-right ||
+                    Category
+        div#collapseCategory.panel-collapse.collapse.in
+            div.panel-body
+                ul.nav-stacked.nav-pills.nav.tree
+                    {% for cat in Categories_objects.published %}
+                    {% if cat.slug == category.slug %}
+                    li.active.open-tree.dropdown-tree
+                        a.dropdown-tree-a href="{{ cat.url }}" title="Go to page: {{ cat.title }}"
+                            span.pull-left.collapseWill
+                                i.fa.fa-caret-right title='Toggle this category' ||
+                            {{ cat.name }}
+                            span.badge.pull-right | {{ cat.product_set.published.count|default:0 }}
+                        ul.dropdown-menu-tree.category-level-2 | {{ cat.prods_as_lis }}
+                    {% else %}
+                    li.active.dropdown-tree
+                        a.dropdown-tree-a href="{{ cat.url }}" title="Go to page: {{ cat.title }}"
+                            span.pull-left.collapseWill.pressed
+                                i.fa.fa-caret-right title='Toggle this category' ||
+                            {{ cat.name }}
+                            span.badge.pressed.pull-right | {{ cat.product_set.published.count|default:0 }}
+                        ul.dropdown-menu-tree.category-level-2 | {{ cat.prods_as_lis }}
+                    {% endif %}
+                    {% endfor %}

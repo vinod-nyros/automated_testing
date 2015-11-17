@@ -1,0 +1,4 @@
+name,comment,cost,category,blurb,supplier,price,multiplier,sortorder
+"Intel Xeon E5-2697 v2 @ 2.70GHz",17800,2749.99,CPUs,,,,,1300
+"Intel Xeon E5-2690 v2 @ 3.00GHz",17441,2149.99,CPUs,,,,,1299
+"Intel Xeon E5-2680 v2 @ 2.80GHz",16799,1743,CPUs,,,,,1298

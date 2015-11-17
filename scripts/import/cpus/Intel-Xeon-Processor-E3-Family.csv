@@ -1,0 +1,13 @@
+name,comment,cost,choicecategory,blurb,supplier,price,multiplier,published,sortorder
+"Intel Xeon E3-1220 (8M Cache, 3.10 GHz)","Scraped from ark, End of Life: Q2'11","203.00","Xeon E3 CPUs","4 cores, 80 W","","","","True","1300"
+"Intel Xeon E3-1220L (3M Cache, 2.20 GHz)","Scraped from ark, End of Life: Q2'11","189.00","Xeon E3 CPUs","2 cores, 20 W","","","","True","1300"
+"Intel Xeon E3-1225 (6M Cache, 3.10 GHz)","Scraped from ark, End of Life: Q2'11","209.00","Xeon E3 CPUs","4 cores, 95 W","","","","True","1300"
+"Intel Xeon E3-1230 (8M Cache, 3.20 GHz)","Scraped from ark, End of Life: Q2'11","230.00","Xeon E3 CPUs","4 cores, 80 W","","","","True","1300"
+"Intel Xeon E3-1235 (8M Cache, 3.20 GHz)","Scraped from ark, End of Life: Q2'11","250.00","Xeon E3 CPUs","4 cores, 95 W","","","","True","1300"
+"Intel Xeon E3-1240 (8M Cache, 3.30 GHz)","Scraped from ark, End of Life: Q2'11","261.00","Xeon E3 CPUs","4 cores, 80 W","","","","True","1300"
+"Intel Xeon E3-1245 (8M Cache, 3.30 GHz)","Scraped from ark, End of Life: Q2'11","273.00","Xeon E3 CPUs","4 cores, 95 W","","","","True","1300"
+"Intel Xeon E3-1260L (8M Cache, 2.40 GHz)","Scraped from ark, End of Life: Q2'11","294.00","Xeon E3 CPUs","4 cores, 45 W","","","","True","1300"
+"Intel Xeon E3-1270 (8M Cache, 3.40 GHz)","Scraped from ark, End of Life: Q2'11","339.00","Xeon E3 CPUs","4 cores, 80 W","","","","True","1300"
+"Intel Xeon E3-1275 (8M Cache, 3.40 GHz)","Scraped from ark, End of Life: Q2'11","350.00","Xeon E3 CPUs","4 cores, 95 W","","","","True","1300"
+"Intel Xeon E3-1280 (8M Cache, 3.50 GHz)","Scraped from ark, End of Life: Q2'11","623.00","Xeon E3 CPUs","4 cores, 95 W","","","","True","1300"
+"Intel Xeon E3-1290 (8M Cache, 3.60 GHz)","Scraped from ark, End of Life: Q3'11","N/A","Xeon E3 CPUs","4 cores, 95 W","","","","True","1300"

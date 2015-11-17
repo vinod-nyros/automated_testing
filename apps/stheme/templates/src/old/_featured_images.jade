@@ -1,0 +1,29 @@
+.relative.show-case-wrapper.center-block.col-sm-11
+  .owl-carousel#productShowCase:
+    jade: |
+      -load pyjadetags
+      for i in FeaturedImage_objects.all
+          .product-slide
+            .col-sm-8.product-slide-left
+              a.product-slide-img(href='{{ i.link }}' title="{{ i.title }}")
+                img.img-responsive(alt="img" src='{{ i.image }}')
+            .col-sm-4
+              .product-slide-inner
+                h2= i.title
+                h3.product-code= i.product.sku|default:'SKU goes here'
+                div eRacks/PRODUCT starting at $15,995
+                //- .product-price
+                  span.price-sales $70
+                  span.price-standard $95
+                .details-description
+                  p= i.caption|default:'Caption goes here'
+                a.btn.btn-stroke-dark(title="Configure", style="text-transform:inherit")
+                  i.glyphicon.glyphicon-shopping-cart
+                  | Configure
+
+  div style=clear:both ||
+  a.ps-nav#ps-next
+    i.fa.fa-angle-right ||
+  a.ps-nav#ps-prev
+    i.fa.fa-angle-left ||
+

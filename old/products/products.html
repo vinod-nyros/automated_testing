@@ -1,0 +1,38 @@
+{% extends "base_onecolumn.html" %}
+
+{% block content %}
+    {{ block.super }}
+
+    <div class="content">
+        <h1>
+            Products
+        </h1>
+
+        <dl class="nice tabs" id="products_tabs">
+            <dd>
+                <a href="#bycat" class="active">By Category</a>
+            </dd>
+            <dd>
+                <a href="#byapp">By Application</a>
+            </dd>
+        </dl>
+
+        <ul class="nice tabs-content">
+            <li class="active" id="bycatTab">
+                <ul class="block-grid three-up">
+                    {% for cat in categories %}
+                        <li class="panel">
+                            {{ cat.blurb|safe }}
+                            <a href="{{ cat.url }}" title="{{ cat.title }}">
+                                {{ cat.name }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </li>
+            <li id="byappTab">
+                Implement b's tags idea here
+            </li>
+        </ul>
+    </div>
+{% endblock %}

@@ -1,0 +1,15 @@
+- fields: {caption: '', created: ! '2012-04-22 00:33:16.281949', image: images/slideshow/banner_front_nas50_300TB.jpeg,
+    link: /products/storage-servers-nas/NAS50/, published: true, sortorder: 100, title: The
+      leading Cloud server building-block - 300TB!, updated: ! '2014-03-27 16:01:18.787134'}
+  model: home.featuredimage
+  pk: 53684
+- fields: {caption: '', created: ! '2012-04-22 00:41:54.050158', image: home/images/slideshow/front_blades.jpeg,
+    link: /products/blade-servers/, published: false, sortorder: 110, title: The finest
+      blade servers in existence!, updated: ! '2013-01-29 12:48:31.721381'}
+  model: home.featuredimage
+  pk: 53685
+- fields: {caption: '', created: ! '2012-04-22 00:42:46.262811', image: home/images/slideshow/front_NAS16X.jpeg,
+    link: /products/storage-servers-nas/NAS16/, published: false, sortorder: 110,
+    title: The perfect SMB storage server, updated: ! '2013-01-29 12:48:31.779715'}
+  model: home.featuredimage
+  pk: 53686

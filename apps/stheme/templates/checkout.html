@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: $apps_path/orders/templets.yaml at line 226 on 2015-11-09 at 19:41:48 PST(GMT-0800)  #}
+
+
+{% block head_bottom %}
+  <style>
+    /* checkout styles */
+    #checkoutform table, table#cart-summary {
+      background-color: whitesmoke;
+    }
+    #checkoutform table {
+      width: 95%;
+      margin-top: 10px;
+    }
+    #checkoutform th {
+      /* padding: 5px 10px; */
+    }
+    #checkoutform td {
+      padding: 2px 10px;
+      font-size: small;
+    }
+    #checkoutform tbody th {
+      text-align: right;
+      width: 160px;
+    }
+    #checkoutform thead th {
+      padding: 5px 10px;
+      background-color: #ccf;  /* #ddf; */
+    }
+    #checkoutform thead {
+      border-bottom: 1px solid lightgray;
+      font-size: large;
+    }
+    #checkoutform input[type=text], #checkoutform input[type=email], #checkoutform select, #checkoutform textarea, .expirydatefield {
+      width: 250px;
+      color: darkslategrey;
+      padding-left: 5px;
+      margin-bottom: 0;
+      height: initial;
+    }
+    #checkoutform table textarea {
+      height: 4em;
+    }
+    #checkoutform input[type=radio], #checkoutform ul {
+      padding-left: 0;
+      margin-bottom: 0;
+    }
+    #checkoutform label {
+      font-size: small;
+      display: initial;
+    }
+    #checkoutform li {
+      list-style-type: none;
+    }
+    #checkoutform table th img {
+      float: right;
+    }
+    #checkoutform ul.errorlist {
+      color: red;
+    }
+  </style>
+{% endblock %}
+{% block content %}
+  <div class="col-lg-9 col-md-9 col-sm-7">
+    <h1 class="section-title-inner">
+      <span>
+        <i class="glyphicon glyphicon-shopping-cart"></i>
+        Checkout - Your Info
+      </span>
+    </h1>
+    <div class="row userInfo">
+      <form action="/checkout/confirm/" method="POST" id="checkoutform">
+        <div class="row" id="content_row">
+          {% for form in formlist %}
+            <table id="{{form.myname}}">
+              {{ form }}
+            </table>
+          {% endfor %}
+          <a title="checkout" href="/checkout/confirm/" style="margin-top:20px" class="btn btn-primary btn-lg btn-block review_order">
+            Review and Confirm Order &nbsp; <i class="fa fa-arrow-right"></i>
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-5 rightSidebar">
+    <div class="contentBox">
+      <div class="w100 costDetails">
+        <div class="table-block" id="order-detail-content">
+          <a title="checkout" href="/checkout/confirm/" style="margin-bottom:20px" class="btn btn-primary btn-lg btn-block review_order">
+            Review Order &nbsp; <i class="fa fa-arrow-right"></i>
+          </a>
+          <div class="w100 cartMiniTable">
+            <table class="std table" id="cart-summary">
+              {{ summary|safe }}
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+{% block js_bottom %}
+  {{ customer_form.media }}
+  <script type="text/javascript">
+    $('a.review_order').click (function(event) {
+        event.preventDefault();
+        $('#checkoutform').submit();
+    });
+  </script>
+{% endblock %}

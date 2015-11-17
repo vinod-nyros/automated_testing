@@ -1,0 +1,614 @@
+.content#content.eracks-product
+  ::comment
+    .col-lg-9.col-md-9.col-sm-12
+    .col-lg-6.col-md-6.col-sm-12
+    .col-lg-5.col-md-5.col-sm-12
+    .col-lg-4.col-md-4.col-sm-12
+    .col-lg-3.col-md-3.col-sm-12
+    .col-md-12
+    .row
+    .media
+    .media-right.w3in
+    .media-heading
+    .media-body#product-description
+    .col-lg-3.col-md-3.col-sm-12#config-summary
+    .width100
+    .clear style="clear:both" | &nbsp;
+    > hr
+
+  .col-lg-8.col-md-8.col-sm-12
+    .row
+
+      .col-lg-6.col-md-6.col-sm-12
+        h1 |= product.name
+
+      .col-md-12#product_tabs role=tabpanel
+          ul.nav.nav-tabs role=tablist
+            li.active role=presentation
+              a href=#description role=tab data-toggle=tab aria-controls=description | Description
+            li role=presentation
+              a href=#config role=tab data-toggle=tab aria-controls=config | Configure It
+          .tab-content
+            .tab-pane.active#description
+              =product.description|safe
+            .tab-pane#config
+              form.configform action="/cart/" method=POST
+                > input type=hidden name=sku id=sku value="{{ product.sku }}"
+                ::comment
+                  % include "_product_config_tab.html"
+                table.configgrid.table.table-hover
+                  thead
+                    tr
+                      th title='Hover over option to see more info' | Option
+                      th | Choices
+                      th title='Hover over choice to see more info' | More Info
+                      th title='Additions / subtactions from base price' | Add/Subtract
+                  tbody
+                    =product.prodopts_as_table|safe
+                    tr
+                      td | Notes
+                      td | <textarea id=notes name=notes placeholder="Enter notes here"></textarea>
+                      ::comment
+                        > input id=notes name=notes placeholder="Enter notes here"
+                      td | Enter notes or custom instructions for this item here
+                      td | &nbsp;
+
+                > input.btn.btn-lg.btn-primary#add_to_cart type=submit name=add value="Add to Cart"
+                % if user.is_staff
+                  > input.btn.btn-lg.btn-primary#get_quote type=submit name=quote value="Get a Quote" title="Get a quote on this configuration, or ask eRacks a question about it"
+
+  .col-lg-4.col-md-4.col-sm-12.sidebar
+    .panel-group
+      .panel.panel-default
+        .panel-heading
+          h4.panel-title
+            a.collapseWill href=#collapsePhotos data-toggle=collapse
+              span.pull-left
+                i.fa.fa-caret-right ||
+              =product.name
+              Photos
+        .panel-collapse.collapse.in#collapsePhotos
+          .panel-body
+            .owl-product-photos#productPhotos
+              =photos
+      .panel.panel-default
+        .panel-heading
+          h4.panel-title
+            a.collapseWill href=#collapseCurrentConfig data-toggle=collapse
+              span.pull-left
+                i.fa.fa-caret-right ||
+              Current Configuration
+        .panel-collapse.collapse.in#collapseCurrentConfig
+          .panel-body
+            #current-config-summary
+              .baseprice
+                Base Price:
+                b
+                  $
+                  =product.baseprice|floatformat:2
+              .price
+                As Configured:
+                b
+                  $
+                  =product.baseprice|floatformat:2
+              .summary | <b>Configuration Summary:</b><br>Default Configuration
+              a.btn.btn-sm.btn-primary onclick='$("a[href=#config]").click();' href="#config" | Configure Now
+              a.btn.btn-sm.btn-primary onclick='$("#add_to_cart").click();' href="#add" | Add to Cart
+    % include "_category_sidebar.html"
+
+
+::comment
+
+  role="tabpanel"
+          ul.nav.nav-tabs role=tablist
+            li.active role=presentation
+              a href=#signin role=tab data-toggle=tab aria-controls=signin | Signin
+            li role=presentation
+              a href=#signup role=tab data-toggle=tab aria-controls=signup | ... Or Signup
+          .tab-content
+            .tab-pane.active#signin
+              form method=post action="{% url 'userena_signin' %}"
+                {% csrf_token %}
+                table
+                  = signin_form.as_table
+                > input.btn.btn-block.btn-lg.btn-primary type=submit name=submit value="Signin"
+              .forgot-password
+                a href="{% url 'userena_password_reset' %}" title="Forgot your password?"
+                  Forgot your password?
+            .tab-pane#signup
+              form action="{% url 'userena_signup' %}" method="post"
+                {% csrf_token %}
+                table |= signup_form
+                > input.btn.btn-block.btn-lg.btn-primary type=submit name=submit value="Signup"
+
+
+::comment
+        .content
+            h1
+                =product.name
+
+            dl.nice.tabs.edt-tabs#product_tabs
+                <dt></dt>
+                dd
+                    a.active#overview-tab href="#overview" | Overview
+                dd
+                    a#specs-tab href="#specs" | Specifications
+                dd
+                    a#photos-tab href="#photos" | Photos
+                dd
+                    a#config-tab href="#config" | Configure
+
+            ul.nice.tabs-content
+                li.active#overviewTab
+                    ::comment
+                        // %aloha product 'description'
+                    =product.description|safe
+                li#specsTab
+                    ::comment
+                        // %aloha product 'features'
+                    %firstof product.features "Product features / specs are in Overview tab"
+                li#photosTab
+                    =photos
+                li#configTab
+                    form.configform action="/cart/" method=POST
+                        > input type=hidden name=sku id=sku value="{{ product.sku }}"
+                        %include "_product_config_tab.html"
+                        > input.nice.green.radius.button#add_to_cart type=submit name=add value="Add to Cart"
+                        %if user.is_staff
+                            > input.nice.green.radius.button#get_quote type=submit name=quote value="Get a Quote" title="Get a quote on this configuration, or ask eRacks a question about it"
+                        ::comment
+                            a.nice.green.radius.button href="/add-to-wishlist/"
+                                Add to Wishlist
+                            a.nice.green.radius.button href="/request-quote/"
+                                Get a Quote
+
+
+::comment
+  product_config_tab:
+    table.configgrid
+        thead
+            tr
+                th title='Hover over option to see more info' | Option
+                th | Choices
+                th title='Hover over choice to see more info' | More Info
+                th title='Additions / subtactions from base price' | Add/Subtract
+                =product.prodopts_as_table|safe
+            tr
+                td
+                    Notes
+                td
+                    > input id=notes name=notes placeholder="Enter notes here"
+                td
+                    Enter notes or custom instructions for this item here
+                td
+                    &nbsp;
+
+
+::comment
+  section.slice.bg-white
+    div.shop.wp-section
+
+  div.container
+    div.row
+        div.col-md-9
+            div.row
+                div.col-md-7
+                    div.product-gallery
+                        div.primary-image
+                            a.theater href=images/prv/product-3.png rel=group
+                                > img.img-responsive src=images/prv/product-3.png alt=_BLANK_
+                        div.owl-carousel.thumbnail-images.owl-carousel-5.owl-theme.style-2 style=opacity:1;display:block
+                            div.owl-wrapper-outer
+                                div.owl-wrapper style=width:1536px;display:block;left:-96px
+                                    div.owl-item style=width:96px
+                                        div.item
+                                            a.theater href=images/prv/product-3.png rel=group
+                                                > img src=images/prv/shop/shop-img-2.jpg alt=_BLANK_
+                                    div.owl-item style=width:96px
+                                        div.item
+                                            a.theater href=images/prv/product-3.png rel=group
+                                                > img src=images/prv/shop/shop-img-3.jpg alt=_BLANK_
+                                    div.owl-item style=width:96px
+                                        div.item
+                                            a.theater href=images/prv/product-3.png rel=group
+                                                > img src=images/prv/shop/shop-img-4.jpg alt=_BLANK_
+                                    div.owl-item style=width:96px
+                                        div.item
+                                            a.theater href=images/prv/product-3.png rel=group
+                                                > img src=images/prv/shop/shop-img-5.jpg alt=_BLANK_
+                                    div.owl-item style=width:96px
+                                        div.item
+                                            a.theater href=images/prv/product-3.png rel=group
+                                                > img src=images/prv/shop/shop-img-1.jpg alt=_BLANK_
+                                    div.owl-item style=width:96px
+                                        div.item
+                                            a.theater href=images/prv/product-3.png rel=group
+                                                > img src=images/prv/shop/shop-img-3.jpg alt=_BLANK_
+                                    div.owl-item style=width:96px
+                                        div.item
+                                            a.theater href=images/prv/product-3.png rel=group
+                                                > img src=images/prv/shop/shop-img-4.jpg alt=_BLANK_
+                                    div.owl-item style=width:96px
+                                        div.item
+                                            a.theater href=images/prv/product-3.png rel=group
+                                                > img src=images/prv/shop/shop-img-5.jpg alt=_BLANK_
+                div.col-md-5
+                    div.product-info
+                        h3.product-title |= product.name
+                        div.pull-left.rating
+                            span.star.voted rel=1
+                                ::comment
+                                    empty
+                            span.star.voted rel=2
+                                ::comment
+                                    empty
+                            span.star.voted rel=3
+                                ::comment
+                                    empty
+                            span.star.voted rel=4
+                                ::comment
+                                    empty
+                            span.star rel=5
+                                ::comment
+                                    empty
+                        span.pull-left.review-rating style=margin-left:15px
+                            a href=_BLANK_ | Read all 23 reviews
+                            or
+                            a href=_BLANK_ | Share you oppinion
+                        span.clearfix
+                            ::comment
+                                empty
+                        p |= product.description|safe
+
+                        > hr
+                        div.product-price
+                            span.discount.price | RON 310
+                            span.price | RON 230
+                        > input style=width:60px;text-align:center;margin-right:5px;margin-bottom:15px;height:34px type=number name=cant value=1
+                        button.btn-icon.btn.btn-base.btn-cart type=submit name=submit
+                            span | Add to cart
+                        button.fa-heart.btn-light.btn.btn-icon type=submit
+                            span | Whishlist
+                        > hr
+                        div.product-short-info
+                            p
+                                i.fa-heart.fa
+                                    ::comment
+                                        empty
+                                strong | Shipping
+                                : Free
+                            p
+                                i.fa.fa-inbox
+                                    ::comment
+                                        empty
+                                strong | Category
+                                : Apple
+                            p
+                                i.fa.fa-check
+                                    ::comment
+                                        empty
+                                strong | Availability
+                                : In Stock
+                            p
+                                i.fa.fa-tag
+                                    ::comment
+                                        empty
+                                strong | Tags
+                                : laptop, notebook, asus
+            div.row
+                div.col-md-12
+                    <!-- Tabs -->
+                    div.mt-20.tabs-framed
+                        ul.tabs.clearfix.nav.nav-tabs role=tablist
+                            li.active role=presentation
+                                a data-toggle=tab href=#tab-1 | Product details
+                            li role=presentation
+                                a data-toggle=tab href=#tab-2 | Specifications
+                            li role=presentation
+                                a data-toggle=tab href=#tab-3 | Reviews
+                        div.tab-content
+                            <!-- Tab 1 -->
+                            div#tab-1.tab-pane.active.fade.in
+                                div.tab-body
+                                    div.section-title-wr
+                                        h3.section-title.left | Product description
+                                    p
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                                        > br
+                                        > br
+                                        Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+                            <!-- Tab 2 -->
+                            div#tab-2.tab-pane.fade
+                                div.tab-body
+                                    div.section-title-wr
+                                        h3.section-title.left | Additional details
+                                    table.table-responsive.table.table-bordered.table-striped.table-hover
+                                        tbody
+                                            tr
+                                                td
+                                                    strong | Property Size:
+                                                    2300 Sq Ft
+                                                td
+                                                    strong | Lot size:
+                                                    5000 Sq Ft
+                                                td
+                                                    strong | Price:
+                                                    RON 23000
+                                            tr
+                                                td
+                                                    strong | Rooms:
+                                                    5
+                                                td
+                                                    strong | Bedrooms:
+                                                    4
+                                                td
+                                                    strong | Bathrooms:
+                                                    2
+                                            tr
+                                                td
+                                                    strong | Garages:
+                                                    2
+                                                td
+                                                    strong | Roofing:
+                                                    New
+                                                td
+                                                    strong | Structure Type:
+                                                    Bricks
+                                            tr
+                                                td
+                                                    strong | Year built:
+                                                    1991
+                                                td
+                                                    strong | Available from:
+                                                    1 August 2014
+                                                td
+                                                    ::comment
+                                                        empty
+                                    div.section-title-wr
+                                        h3.section-title.left | Location details
+                                    table.table-responsive.table.table-bordered.table-striped.table-hover
+                                        tbody
+                                            tr
+                                                td
+                                                    strong
+                                                        strong | Property Size:
+                                                        2300 Sq Ft
+                                                td
+                                                    strong | Lot size:
+                                                    5000 Sq Ft
+                                                td
+                                                    strong | Price:
+                                                    RON 23000
+                                            tr
+                                                td
+                                                    strong | Rooms:
+                                                    5
+                                                td
+                                                    strong | Bedrooms:
+                                                    4
+                                                td
+                                                    strong | Bathrooms:
+                                                    2
+                                            tr
+                                                td
+                                                    strong | Garages:
+                                                    2
+                                                td
+                                                    strong | Roofing:
+                                                    New
+                                                td
+                                                    strong | Structure Type:
+                                                    Bricks
+                                            tr
+                                                td
+                                                    strong | Year built:
+                                                    1991
+                                                td
+                                                    strong | Available from:
+                                                    1 August 2014
+                                                td
+                                                    ::comment
+                                                        empty
+                            <!-- Tab 3 -->
+                            div#tab-3.tab-pane.fade
+                                div.tab-body
+                                    div#comments.clearfix.comment-list
+                                        h2 | 5 reviews from our buyers
+                                        a.link-add-comment.anchor hidefocus=true href=#divAddReview | Add a review
+                                        &lt;!-- Comments list --&gt;
+                                        ol
+                                            li.comment
+                                                div.comment-body.bb
+                                                    div.comment-avatar
+                                                        div.avatar
+                                                            > img src=images/temp/avatar1.png alt=_BLANK_
+                                                    div.comment-text
+                                                        div.clearfix.comment-author
+                                                            a.link-author hidefocus=true href=# | Brad Pit
+                                                            span.comment-meta
+                                                                span.comment-date | June 26, 2013
+                                                                |
+                                                                a.link-reply.anchor hidefocus=true href=#addcomments | Reply
+                                                        div.comment-entry | William Bradley "Brad" Pitt is an American actor and film producer. Pitt has received four Academy Award nominations and five Golden Globe.
+                                            li.comment
+                                                div.comment-body.bb
+                                                    div.comment-avatar
+                                                        div.avatar
+                                                            > img src=images/temp/avatar2.png alt=_BLANK_
+                                                    div.comment-text
+                                                        div.clearfix.comment-author
+                                                            a.link-author hidefocus=true href=# | Ari Gold
+                                                            span.comment-meta
+                                                                span.comment-date | June 25, 2013
+                                                                |
+                                                                a.link-reply.anchor hidefocus=true href=#addcomments | Reply
+                                                        div.comment-entry | Ari Gold is Vincent Chase's neurotic movie agent. He was an undergrad at Harvard University before earning his J.D./M.B.A. at the University of Michigan. In addition to reprising the role for the upcoming prequels of
+                                                ul.children
+                                                    li.comment
+                                                        div.comment-body.bb
+                                                            div.comment-avatar
+                                                                div.avatar
+                                                                    > img src=images/temp/avatar3.png alt=_BLANK_
+                                                            div.comment-text
+                                                                div.clearfix.comment-author
+                                                                    a.link-author hidefocus=true href=# | Elijah Wood
+                                                                    span.comment-meta
+                                                                        span.comment-date | June 24, 2013
+                                                                        |
+                                                                        a.link-reply.anchor hidefocus=true href=#addcomments | Reply
+                                                                div.comment-entry | Elijah Wood is an American actor best known for Frodo.
+                                            li.comment
+                                                div.comment-body.bb
+                                                    div.comment-avatar
+                                                        div.avatar
+                                                            > img src=images/temp/avatar4.png alt=_BLANK_
+                                                    div.comment-text
+                                                        div.clearfix.comment-author
+                                                            a.link-author hidefocus=true href=# | Superman
+                                                            span.comment-meta
+                                                                span.comment-date | June 23, 2013
+                                                                |
+                                                                a.link-reply.anchor hidefocus=true href=#addcomments | Reply
+                                                        div.comment-entry | Superman is a fictional character, a comic book superhero who appears in comic books published by DC Comics.
+                                            li.comment
+                                                div.comment-body.bb
+                                                    div.comment-avatar
+                                                        div.avatar
+                                                            > img src=images/temp/avatar1.png alt=_BLANK_
+                                                    div.comment-text
+                                                        div.clearfix.comment-author
+                                                            a.link-author hidefocus=true href=# | Brad Pit
+                                                            span.comment-meta
+                                                                span.comment-date | June 26, 2013
+                                                                |
+                                                                a.link-reply.anchor hidefocus=true href=#addcomments | Reply
+                                                        div.comment-entry | William Bradley "Brad" Pitt is an American actor and film producer. Pitt has received four Academy Award nominations and five Golden Globe.
+        div.col-md-3
+            div.sidebar
+                div.panel-default.panel-sidebar-1.panel
+                    div.panel-heading
+                        h2 | Filter by
+                    div.panel-body
+                        h4 | Category
+                        ul.list-group
+                            li.list-group-item
+                                span.base.badge | 14
+                                a href=_BLANK_ | Laptops
+                            li.list-group-item
+                                span.base.badge | 14
+                                a href=_BLANK_ | Tablets
+                            li.list-group-item
+                                span.base.badge | 14
+                                a href=_BLANK_ | Phones
+                            li.list-group-item
+                                span.base.badge | 14
+                                a href=_BLANK_ | Mice
+                            li.list-group-item
+                                span.base.badge | 14
+                                a href=_BLANK_ | Cameras
+                            li.list-group-item
+                                span.base.badge | 14
+                                a href=_BLANK_ | Home Cinemas
+                        h4 | Manufacturer
+                        ul.list-group
+                            li.list-group-item
+                                span.base.badge | 14
+                                a href=_BLANK_ | Laptops
+                            li.list-group-item
+                                span.base.badge | 14
+                                a href=_BLANK_ | Tablets
+                            li.list-group-item
+                                span.base.badge | 14
+                                a href=_BLANK_ | Phones
+                            li.list-group-item
+                                span.base.badge | 14
+                                a href=_BLANK_ | Mice
+                            li.list-group-item
+                                span.base.badge | 14
+                                a href=_BLANK_ | Cameras
+                            li.list-group-item
+                                span.base.badge | 14
+                                a href=_BLANK_ | Home Cinemas
+                div.panel-default.panel-sidebar-1.panel
+                    div.panel-heading
+                        h2 | Recently viewed
+                    div.panel-body
+                        ul.featured
+                            li
+                                div.featured-item
+                                    div.featured-item-img
+                                        > img.pull-left src=images/prv/product-2.jpg alt=_BLANK_
+                                    div.feature-item-info
+                                        h3.title
+                                            a href=# | Samsung Galaxy S4
+                                        div.rating
+                                            span.star.voted rel=1
+                                                ::comment
+                                                    empty
+                                            span.star.voted rel=2
+                                                ::comment
+                                                    empty
+                                            span.star.voted rel=3
+                                                ::comment
+                                                    empty
+                                            span.star rel=4
+                                                ::comment
+                                                    empty
+                                            span.star rel=5
+                                                ::comment
+                                                    empty
+                                        div.price-wr
+                                            span.discount.price | RON 300.99
+                                            span.price | RON 233.89
+                            li
+                                div.featured-item
+                                    div.featured-item-img
+                                        > img.pull-left src=images/prv/product-3.jpg alt=_BLANK_
+                                    div.feature-item-info
+                                        h3.title
+                                            a href=# | Asus Ultra Notebook
+                                        div.rating
+                                            span.star.voted rel=1
+                                                ::comment
+                                                    empty
+                                            span.star.voted rel=2
+                                                ::comment
+                                                    empty
+                                            span.star.voted rel=3
+                                                ::comment
+                                                    empty
+                                            span.star rel=4
+                                                ::comment
+                                                    empty
+                                            span.star rel=5
+                                                ::comment
+                                                    empty
+                                        div.price-wr
+                                            span.discount.price | RON 300.99
+                                            span.price | RON 233.89
+                            li
+                                div.featured-item
+                                    div.featured-item-img
+                                        > img.pull-left src=images/prv/product-4.jpg alt=_BLANK_
+                                    div.feature-item-info
+                                        h3.title
+                                            a href=# | PC Mouse Microsoft
+                                        div.rating
+                                            span.star.voted rel=1
+                                                ::comment
+                                                    empty
+                                            span.star.voted rel=2
+                                                ::comment
+                                                    empty
+                                            span.star.voted rel=3
+                                                ::comment
+                                                    empty
+                                            span.star rel=4
+                                                ::comment
+                                                    empty
+                                            span.star rel=5
+                                                ::comment
+                                                    empty
+                                        div.price-wr
+                                            span.discount.price | RON 300.99
+                                            span.price | RON 233.89

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM:  theme-tshop.yaml at line 0          #}
+
+<html lang="en">
+{% extends "base.html" %}
+
+{% block javascripts %}
+  <script src="/js/masonry.pkgd.min.js"></script>
+  <script>
+    var container = document.querySelector('.content_area#content');
+    var msnry = new Masonry( container, {
+      // options...
+      itemSelector: '.partner-div',
+      columnWidth: 200
+    });
+  </script>
+{% endblock %}
+</html>

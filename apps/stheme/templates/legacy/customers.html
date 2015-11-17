@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: theme-legacy.yaml at line 39 on 2015-11-09 at 19:41:47 PST(GMT-0800)  #}
+
+
+{% load cache %}
+
+{% block content_row %}
+    {% cache cachetime customers_legacy %}
+        <div class="row" id="content_row">
+            <div class="one column">
+                &nbsp;
+            </div>
+            <div class="eight columns">
+                <h1>Customers</h1>
+
+                <ul id="customers">
+                    {% for cust in customers %}
+                        <li>
+                            <div>
+                                <a href="{{ cust.link }}" title="{{ cust.title }}">
+                                    <img src="/{{ cust.image }}" alt="{{ cust.title }}" />
+                                </a>
+                                <br>
+                                <strong>
+                                    {{ cust.caption }}
+                                </strong>
+                                <br>
+                                {{ cust.location }}
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="three columns">
+                <h2>Testimonials</h2>
+
+                {% cache 36000 testimonials_legacy %}
+                    <ul>
+                        {% for testim in testimonials %}
+                            <li>
+                              <i>"{{ testim.quote|safe }}"</i><br>
+                              {{ testim.attribution|safe }}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endcache %}
+            </div>
+        </div>
+    {% endcache %}
+{% endblock %}

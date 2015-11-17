@@ -1,0 +1,366 @@
+% extends "base.html"
+
+% block css
+  noscript
+    style VERBATIM
+      .owl-product-photos#productPhotos, .jsonly {
+        /* overflow: hidden; */
+        display: none;
+      }
+      .photo-wrapper noscript img {
+        max-width: 100%;
+        height: auto;
+      }
+    ::comment
+      .gallery .control-button {
+        color: #777;
+        /* color: rgba(255, 255, 255, 0.5); */
+        font-size: 4em;
+      }
+      .gallery .control-button:hover {
+        /* color: white; */
+        color: rgba(255, 255, 255, 0.8);
+      }
+      .gallery .item {
+        height: 500px;
+      }
+  style VERBATIM
+    /* .owl-product-photos#productPhotos { */
+    .photo-wrapper {
+      width:40%;
+      float: left;
+      margin: 0 10px 10px 0;
+    }
+    .owl-product-photos#productPhotos .owl-item { /* .product_photo { */
+      /* margin: 3px; */
+      /* height: 300px; */
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+    .owl-product-photos#productPhotos img { /* for noscript */
+      float: left;
+    }
+    .owl-product-photos#productPhotos .owl-item img { /* .product_photo img { */
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    /*
+    h4.panel-title a {
+      padding-left: 7px;
+    }
+    width3in, w3in {
+      width: 3in;
+    }
+    .panel-body #current-config-summary {
+      padding:20px;
+    }
+    */
+    i.fa.fa-caret-right {
+      padding-right: 7px;
+      background-color: #66de97;
+      padding: 0px 6px;
+      border-radius: 8px;
+    }
+    .eracks-product #description img {
+      max-width: 200px;
+      height: auto;
+      margin: 5px 10px 0 0;
+    }
+    .eracks-product #description  {
+      font-size: larger;
+    }
+    /* .eracks-product h1, .eracks-product h2, */
+    .eracks-product h3, .eracks-product h4 {
+      font-weight: bold;
+    }
+    #config_summary .price, #config_summary .baseprice {
+      font-size: initial;
+      font-weight: initial;
+      padding-right: 15px;
+    }
+    #config select, #config textarea {     /* #config input, */
+      width: 100%;
+      display: inline;
+    }
+    #config td {
+      padding: 2px 5px;
+    }
+
+    #config select.choiceqty {
+      width: 18%;
+    }
+    /*
+    #config select.choiceid {
+      width: 100%;
+    }
+    */
+    #config select.choiceid.leaveroom {
+      width: 80%;
+    }
+    #config input {
+      margin-right: 2%;
+    }
+    #photos img { /* photos at bottom */
+      max-width: 100%;
+      height: auto;
+    }
+    /*
+    .panel-body #current-config-summary ul {
+      list-style-type: circle;
+      margin-left: 15px;
+    }
+    .sidebar {
+      font-family: inherit;
+    }
+    .dropdown-tree-a {
+      font-weight: normal !important;
+    }
+    .dropdown-tree:hover .dropdown-menu-tree {
+      display: block;
+    }
+    */
+
+% block js
+  script VERBATIM
+    // Config grid ajax update script
+    function update_config (e) {
+      console.log ($('.configform').serialize());
+      if (e) {
+        console.log ('ITEM CHANGED:');
+        console.log (e.currentTarget);
+        console.log ($(e.target).find ('option:selected'));
+      }
+
+      $.post ("/products/update_grid/", $('.configform').serialize(), function(json) {
+        console.log (json);
+        $('#config_summary #current .price b').html ('$' + json.price);
+        $('#config_summary #current .summary').html ('<b>Configuration Summary:</b><br>' + json.summary);
+
+        $.each(json.optchoices, function(key, val) {  // it's an array, so keys are 0
+          console.log (key, val);
+          console.log ('#' + val.optid + ' .choiceinfo');
+          if (val.choicename)
+            $('#' + val.optid + ' .choiceinfo').html (val.choicename);
+          if (val.choiceblurb)
+            $('#' + val.optid + ' .choiceinfo').attr ('title', val.choiceblurb);
+          //if (val.optprice)
+          $('#' + val.optid + ' .optprice').html ('$' + val.optprice);
+        });
+      }).error (function(err) {
+        console.log ('post error:' + err);
+        window.location.reload();   // likely the back button, prod is no longer there, so reload
+      });
+    }
+
+    // attach grid change events to fire ajax update
+    $(document).ready(function() {
+        $('.configgrid select[name="choiceid"]').change (update_config);
+        $('.configgrid select[name="choiceqty"]').change (update_config);
+    });
+
+    // Small owl carousel for product photos
+    $(document).ready(function() {
+      $(".owl-product-photos#productPhotos").owlCarousel({
+          autoPlay: 4000, //Set AutoPlay to 4 seconds
+          singleItem: true,
+          // navigation: true,
+          // rewindNav: false,  // nope, just sits there at the end :)
+          // itemsScaleUp: false,  // still scales up the smaller "portait" items & then makes it too tall
+          // autoHeight: true,  // no, then bottom bobs up & down
+          // items : 1,
+          // itemsDesktop : [1199,3],
+          // itemsDesktopSmall : [979,3]
+      });
+
+      // Magnific popup / lightbox - need to add gallery mode, get images working - HERE
+      $('.owl-product-photos#productPhotos .owl-wrapper').magnificPopup({
+        items: $('.owl-product-photos#productPhotos img').map (function() { return { src: $(this).attr ('src') } }).get(),
+        type: 'image',
+        gallery: {
+          enabled: true,
+          navigateByImgClick: true,
+          arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>', // markup of an arrow button
+          tPrev: 'Previous (Left arrow key)', // title for left button
+          tNext: 'Next (Right arrow key)', // title for right button
+          tCounter: '<span class="mfp-counter" style="min-width:100px">%curr% of %total%</span>', // markup of counter
+        },
+      });
+    });
+
+% block content
+  .content.row.eracks-product.col-lg-12.col-md-12.col-sm-12#content_row
+    .photo-wrapper
+      noscript style="min-height: 300px;display:inline-block"
+        =product.image|safe
+        .product-name
+          =product.name
+          a href=#photos
+            More Photos
+
+        ::comment
+          .gallery.autoplay.items-5
+            %for p in photos_list
+              <div class="control-operator" id="photo-{{ forloop.counter }}"></div>
+            %for p in photos_list
+              figure.item
+                =p|safe
+            .controls
+              %for p in photos_list
+                a.control-button href=#photo-{{forloop.counter}} | &bull;
+                ::comment
+                  &middot; &sdot; &bull;
+
+      .owl-product-photos#productPhotos
+        =photos
+      .product-name.jsonly
+        =product.name
+        a href=#photos
+          More Photos
+
+    i
+      a href=#config style=float:right;clear:right title='Jump to Configurator'
+        &bull;&nbsp; Configure
+      %if product.features
+        a href=#features style=float:right;clear:right title='Jump to Features & Specs'
+          &bull;&nbsp; Features & Specs
+      a href=#photos style=float:right;clear:right title='Jump to Photos'
+        &bull;&nbsp; Photos
+
+    h1 |= product.name
+
+    #description
+      =product.description|safe
+
+    %if product.features
+      > hr
+      #features
+        h3
+          Features & Specifications
+        p
+          =product.features|safe
+
+    > hr.clearfix.col-md-12
+
+    #config.pull-left
+      .col-md-6
+        h3
+          Configure {{ product.name }}
+        p.jsonly
+          Choose the desired options and click "Add to Cart". You may also request a quote, please add additional requests and information in the "Notes" field.
+          Your quote request will be sent to your profile's eMail if you are logged in, otherwise enter the email address below (required only if not logged in).
+
+      .col-md-6.jsonly
+        %include "_product_config_summary.html"
+
+      noscript.col-md-12
+        .alert.alert-info
+          h4
+            strong
+              Javascript is disabled.
+            Our configurator is non-interactive without javascript.
+          p
+            You may choose the options you want, click "Request a Quote", and your desired selections
+            will be added to your cart, and a quote request will be sent to us (and a copy to you).
+            We will get back to you shortly with a private online for your requested configuration,
+            as well as our recommendations.
+
+      form.configform action="/cart/" method=POST
+        > input type=hidden name=sku id=sku value="{{ product.sku }}"
+        table.configgrid.table.table-hover.col-md-12
+          thead
+            tr
+              th title='Hover over option to see more info' | Option
+              th | Choices
+              th title='Hover over choice to see more info' | More Info
+              th title='Additions / subtactions from base price' | Add/Subtract
+          tbody
+            =product.prodopts_as_table|safe
+            tr
+              td | Notes
+              td | <textarea id=notes name=notes placeholder="Enter notes here"></textarea>
+              td | Enter notes or custom instructions for this item here
+              td | &nbsp;
+
+        .col-md-6
+          > input.btn.btn-lg.btn-primary#add_to_cart type=submit name=add value="Add to Cart"
+          ::comment
+            % if user.is_staff
+          > input.btn.btn-lg.btn-primary#get_quote type=submit name=quote value="Get a Quote" title='Get a quote on this configuration. Choose the options you want, click "Request a Quote", and your desired selections will be added to your cart, and a quote request will be sent to us (and a copy to you). We will get back to you shortly with a private online for your requested configuration, as well as our recommendations.'
+          > input type=email name=email placeholder="eMail address for quote" style="width:12em"
+
+        p.col-md-6
+          Choose the desired options and click "Add to Cart". You may also request a quote, please add additional requests and information in the "Notes" field.
+          Your quote request will be sent to your profile's eMail if you are logged in, otherwise enter the email address below (required only if not logged in).
+
+    ::comment
+      noscript
+    .col-md-12#photos
+      > hr
+      h3
+        More {{ product.name }} Photos
+      =photos
+
+
+
+
+  ::comment
+    .col-lg-3.col-md-3.col-sm-12.sidebar
+      .panel-group
+        .panel.panel-default
+          .panel-heading
+            h4.panel-title
+              a.collapseWill href=#collapsePhotos data-toggle=collapse
+                span.pull-left
+                  i.fa.fa-caret-right ||
+                =product.name
+                Photos
+          .panel-collapse.collapse.in#collapsePhotos
+            .panel-body
+              .owl-product-photos#productPhotos
+                =photos
+        .panel.panel-default
+          .panel-heading
+            h4.panel-title
+              a.collapseWill href=#collapseCurrentConfig data-toggle=collapse
+                span.pull-left
+                  i.fa.fa-caret-right ||
+                Current Configuration
+          .panel-collapse.collapse.in#collapseCurrentConfig
+            .panel-body
+              #current-config-summary
+                .baseprice
+                  Base Price:
+                  b
+                    $
+                    =product.baseprice|floatformat:2
+                .price
+                  As Configured:
+                  b
+                    $
+                    =product.baseprice|floatformat:2
+                .summary | <b>Configuration Summary:</b><br>Default Configuration
+                a.btn.btn-sm.btn-primary onclick='$("a[href=#config]").click();' href="#config" | Configure Now
+                a.btn.btn-sm.btn-primary onclick='$("#add_to_cart").click();' href="#add" | Add to Cart
+      % include "_category_sidebar.html"
+
+    10/24/15 JJW
+    ::comment
+      .col-lg-9.col-md-9.col-sm-12
+        .row
+
+      .col-lg-7.col-md-7.col-sm-12.pull-right
+        h1 |= product.name
+
+
+    ::comment
+      .col-md-12#product_tabs role=tabpanel
+        ul.nav.nav-tabs role=tablist
+          li.active role=presentation
+            a href=#description role=tab data-toggle=tab aria-controls=description | Description
+          li role=presentation
+            a href=#config role=tab data-toggle=tab aria-controls=config | Configure It
+        .tab-content
+          .tab-pane.active#description
+    ::comment
+        .tab-pane#config

@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM:  theme-tshop.yaml at line 710   #}
+
+
+
+{% block css %}
+  <style>
+    #customers h1 {
+      font-weight: bold;
+    }
+    #customers ul {
+      -webkit-column-count: 4;
+      -moz-column-count: 4;
+      -khtml-column-count: 4;
+      -ms-column-count: 4;
+      -o-column-count: 4;
+      column-count: 4;
+      -webkit-column-gap: 18px;
+      -moz-column-gap: 18px;
+      -khtml-column-gap: 18px;
+      -ms-column-gap: 18px;
+      -o-column-gap: 18px;
+      column-gap: 18px;
+    }
+    #customers li {
+      display: inline-block;
+      padding: 20px;
+    }
+    #customers li a img {
+      max-width: 180px;
+    }
+    #testimonials h2 {
+      font-weight: bold;
+    }
+    #testimonials li a {
+      color: #A35CFF;   // blue;
+    }
+    #testimonials li a:hover {
+      color: #6F76FF;
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+  <div class="col-lg-9 col-md-9 col-sm-9" id="customers">
+    <h1 class="title-big text-center section-title style2">
+      <span>Customers</span>
+    </h1>
+    <ul>
+      {% for cust in customers %}
+        <li>
+          <a href="{{ cust.link }}" title="{{ cust.title }}">
+            <img src="/{{ cust.image }}" alt="{{ cust.title }}">
+          </a>
+          <br>
+          <strong>{{ cust.caption }}</strong>
+          <br>
+          {{ cust.location }}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-3" id="testimonials">
+    <h2>Testimonials</h2>
+    <ul>
+      {% for testim in testimonials %}
+        <li>
+          <i>{{ testim.quote|safe }}</i>
+          <br>
+          <br>
+          {{ testim.attribution|safe }}
+          <hr>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endblock %}

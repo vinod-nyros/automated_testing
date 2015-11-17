@@ -1,0 +1,65 @@
+{% extends "admin/change_form.html" %}
+{# % load i18n admin_modify adminmedia % #}
+
+
+{% block after_field_sets %}
+
+
+<fieldset class="module aligned wide">
+    <h2>Product Options</h2>
+    <br>
+    <h3>
+      <a href="/admin/legacy/prodopt/?product__sku={{ original }}">
+        Edit Product Options and Default Choice for {{ original }}
+      </a>
+    </h3>
+    <br>
+
+{% comment %}
+        <div class="form-row category  ">
+
+               <div>
+
+                        <label for="id_category" class="required">Category:</label>
+
+                            <select name="category" id="id_category">
+<option value="">---------</option>
+<option value="5">Routers and Switches</option>
+<option value="1">Firewall Servers</option>
+<option value="44304">Studio</option>
+<option value="6" selected="selected">Racks and Hardware</option>
+<option value="41479">Netbooks</option>
+<option value="33513">Liquid Cooled</option>
+<option value="1227">Network Servers</option>
+<option value="7">Web Servers</option>
+<option value="3763">Custom Design</option>
+<option value="1022">Monitors</option>
+<option value="14821">Intel Systems</option>
+<option value="9529">Storage Servers - NAS</option>
+<option value="12480">Desktops</option>
+<option value="9531">AMD Systems</option>
+<option value="1226">Small Form Factor</option>
+<option value="16225">Xeon Systems</option>
+<option value="18787">Laptops</option>
+<option value="21720">Handhelds</option>
+<option value="23454">Opteron Systems</option>
+<option value="15984">Shallow Depth</option>
+<option value="22006">Overstock</option>
+<option value="30481">Memory</option>
+<option value="32556">Legacy</option>
+<option value="2">Quiet Systems</option>
+<option value="4">Virtualization Servers</option>
+<option value="3">General Purpose</option>
+<option value="42556">External Storage - DAS</option>
+</select>
+
+
+
+                </div>
+
+        </div>
+{% endcomment %}
+
+</fieldset>
+
+{% endblock %}

@@ -1,0 +1,211 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>home Package &mdash; eRacks Django website 10.0alpha documentation</title>
+    
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '10.0alpha',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="eRacks Django website 10.0alpha documentation" href="../index.html" />
+    <link rel="up" title="apps Package" href="django_eracks.apps.html" />
+    <link rel="next" title="migrations Package" href="django_eracks.apps.home.migrations.html" />
+    <link rel="prev" title="migrations Package" href="django_eracks.apps.customers.migrations.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="django_eracks.apps.home.migrations.html" title="migrations Package"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="django_eracks.apps.customers.migrations.html" title="migrations Package"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../index.html">eRacks Django website 10.0alpha documentation</a> &raquo;</li>
+          <li><a href="modules.html" >&lt;no title&gt;</a> &raquo;</li>
+          <li><a href="django_eracks.html" >django_eracks Package</a> &raquo;</li>
+          <li><a href="django_eracks.apps.html" accesskey="U">apps Package</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="home-package">
+<h1>home Package<a class="headerlink" href="#home-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-django_eracks.apps.home.context_processors">
+<span id="context-processors-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">context_processors</span></tt> Module<a class="headerlink" href="#module-django_eracks.apps.home.context_processors" title="Permalink to this headline">¶</a></h2>
+<p>Context processors for the Home app, which include login / registration via Userena.</p>
+<p>These return dictionaries to be merged into a
+template context. Each function takes the request object as its only parameter
+and returns a dictionary to add to the context.</p>
+<p>These are referenced from the setting TEMPLATE_CONTEXT_PROCESSORS and used by
+RequestContext.</p>
+<dl class="function">
+<dt id="django_eracks.apps.home.context_processors.registration_forms">
+<tt class="descclassname">django_eracks.apps.home.context_processors.</tt><tt class="descname">registration_forms</tt><big>(</big><em>request</em><big>)</big><a class="headerlink" href="#django_eracks.apps.home.context_processors.registration_forms" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="models-module">
+<h2><tt class="xref py py-mod docutils literal"><span class="pre">models</span></tt> Module<a class="headerlink" href="#models-module" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-django_eracks.apps.home.templets">
+<span id="templets-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">templets</span></tt> Module<a class="headerlink" href="#module-django_eracks.apps.home.templets" title="Permalink to this headline">¶</a></h2>
+<dl class="data">
+<dt id="django_eracks.apps.home.templets.orbit_featured_options">
+<tt class="descclassname">django_eracks.apps.home.templets.</tt><tt class="descname">orbit_featured_options</tt><em class="property"> = &quot;\n$('#featured').orbit({\n     animation: 'fade',             // fade, horizontal-slide, vertical-slide, horizontal-push\n     animationSpeed: 800,           // how fast animtions are\n     timer: true,                   // true or false to have the timer\n     advanceSpeed: 4000,            // if timer is enabled, time between transitions\n     pauseOnHover: false,           // if you hover pauses the slider\n     startClockOnMouseOut: false,    // if clock should start on MouseOut\n     startClockOnMouseOutAfter: 1000, // how long after MouseOut should the timer start again\n     directionalNav: true,          // manual advancing directional navs\n     captions: true,                // do you want captions?\n     captionAnimation: 'fade',      // fade, slideOpen, none\n     captionAnimationSpeed: 800,    // if so how quickly should they animate in\n     bullets: false,                // true or false to activate the bullet navigation\n     bulletThumbs: false,           // thumbnails for the bullets\n     bulletThumbLocation: '',       // location from this file where thumbs will be\n     afterSlideChange: function(){}, // empty function\n     fluid: true                    // or set a aspect ratio for content slides (ex: '4x3')\n});\n&quot;</em><a class="headerlink" href="#django_eracks.apps.home.templets.orbit_featured_options" title="Permalink to this definition">¶</a></dt>
+<dd><p>look for OOB syntax-highlighting text to insert here</p>
+<p>StylusTemplate (&#8216;&#8217;&#8216;&lt;style type=&#8221;text/css&#8221;&gt;
+test {</p>
+<blockquote>
+<div>background:</div></blockquote>
+<p>}
+&lt;/style&gt;
+&#8216;&#8217;&#8216;)</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-django_eracks.apps.home.tests">
+<span id="tests-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">tests</span></tt> Module<a class="headerlink" href="#module-django_eracks.apps.home.tests" title="Permalink to this headline">¶</a></h2>
+<p>This file demonstrates writing tests using the unittest module. These will pass
+when you run &#8220;manage.py test&#8221;.</p>
+<p>Replace this with more appropriate tests for your application.</p>
+<dl class="class">
+<dt id="django_eracks.apps.home.tests.SimpleTest">
+<em class="property">class </em><tt class="descclassname">django_eracks.apps.home.tests.</tt><tt class="descname">SimpleTest</tt><big>(</big><em>methodName='runTest'</em><big>)</big><a class="headerlink" href="#django_eracks.apps.home.tests.SimpleTest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">django.test.testcases.TestCase</span></tt></p>
+<dl class="method">
+<dt id="django_eracks.apps.home.tests.SimpleTest.test_basic_addition">
+<tt class="descname">test_basic_addition</tt><big>(</big><big>)</big><a class="headerlink" href="#django_eracks.apps.home.tests.SimpleTest.test_basic_addition" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tests that 1 + 1 always equals 2.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-django_eracks.apps.home.urls">
+<span id="urls-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">urls</span></tt> Module<a class="headerlink" href="#module-django_eracks.apps.home.urls" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-django_eracks.apps.home.views">
+<span id="views-module"></span><h2><tt class="xref py py-mod docutils literal"><span class="pre">views</span></tt> Module<a class="headerlink" href="#module-django_eracks.apps.home.views" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="django_eracks.apps.home.migrations.html">migrations Package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="django_eracks.apps.home.migrations.html#module-django_eracks.apps.home.migrations.0001_initial"><tt class="docutils literal"><span class="pre">0001_initial</span></tt> Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="django_eracks.apps.home.migrations.html#module-django_eracks.apps.home.migrations.0002_auto__chg_field_featuredimage_image__chg_field_featuredimage_link"><tt class="docutils literal"><span class="pre">0002_auto__chg_field_featuredimage_image__chg_field_featuredimage_link</span></tt> Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="django_eracks.apps.home.migrations.html#module-django_eracks.apps.home.migrations.0003_auto__chg_field_featuredimage_link"><tt class="docutils literal"><span class="pre">0003_auto__chg_field_featuredimage_link</span></tt> Module</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">home Package</a><ul>
+<li><a class="reference internal" href="#module-django_eracks.apps.home.context_processors"><tt class="docutils literal"><span class="pre">context_processors</span></tt> Module</a></li>
+<li><a class="reference internal" href="#models-module"><tt class="docutils literal"><span class="pre">models</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-django_eracks.apps.home.templets"><tt class="docutils literal"><span class="pre">templets</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-django_eracks.apps.home.tests"><tt class="docutils literal"><span class="pre">tests</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-django_eracks.apps.home.urls"><tt class="docutils literal"><span class="pre">urls</span></tt> Module</a></li>
+<li><a class="reference internal" href="#module-django_eracks.apps.home.views"><tt class="docutils literal"><span class="pre">views</span></tt> Module</a></li>
+<li><a class="reference internal" href="#subpackages">Subpackages</a><ul>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="django_eracks.apps.customers.migrations.html"
+                        title="previous chapter">migrations Package</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="django_eracks.apps.home.migrations.html"
+                        title="next chapter">migrations Package</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../_sources/apidoc/django_eracks.apps.home.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="django_eracks.apps.home.migrations.html" title="migrations Package"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="django_eracks.apps.customers.migrations.html" title="migrations Package"
+             >previous</a> |</li>
+        <li><a href="../index.html">eRacks Django website 10.0alpha documentation</a> &raquo;</li>
+          <li><a href="modules.html" >&lt;no title&gt;</a> &raquo;</li>
+          <li><a href="django_eracks.html" >django_eracks Package</a> &raquo;</li>
+          <li><a href="django_eracks.apps.html" >apps Package</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, JJW.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

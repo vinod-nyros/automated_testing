@@ -1,0 +1,46 @@
+product-detail:
+  #merge_styles: |
+  #merge_scripts: |
+  minaml: |
+    % block content
+      .row
+        .col-md-8
+          h1
+            =product.name
+        .col-md-4
+          % include "_product_config_summary.html"
+
+    dl.nice.tabs.edt-tabs#product_tabs
+        <dt></dt>
+        dd
+            a.active#overview-tab href="#overview" | Overview
+        dd
+            a#specs-tab href="#specs" | Specifications
+        dd
+            a#photos-tab href="#photos" | Photos
+        dd
+            a#config-tab href="#config" | Configure
+
+    ul.nice.tabs-content
+        li.active#overviewTab
+            ::comment
+                // %aloha product 'description'
+            =product.description|safe
+        li#specsTab
+            ::comment
+                // %aloha product 'features'
+            %firstof product.features "Product features / specs are in Overview tab"
+        li#photosTab
+            =photos
+        li#configTab
+            form.configform action="/cart/" method=POST
+                > input type=hidden name=sku id=sku value="{{ product.sku }}"
+                %include "_product_config_tab.html"
+                > input.nice.green.radius.button#add_to_cart type=submit name=add value="Add to Cart"
+                %if user.is_staff
+                    > input.nice.green.radius.button#get_quote type=submit name=quote value="Get a Quote" title="Get a quote on this configuration, or ask eRacks a question about it"
+                ::comment
+                    a.nice.green.radius.button href="/add-to-wishlist/"
+                        Add to Wishlist
+                    a.nice.green.radius.button href="/request-quote/"
+                        Get a Quote

@@ -1,0 +1,23 @@
+div.col-lg-3.col-md-3.col-sm-12
+    div#accordionNo.panel-group
+        div.panel-default.panel
+            div.panel-heading
+                h4.panel-title
+                    a.collapseWill href=category-product-hover.html#collapseCategory data-toggle=collapse
+                        span.pull-left
+                            i.fa.fa-caret-right ||
+                        eRacks Products
+            div#collapseCategory.panel-collapse.collapse.in
+                div.panel-body
+                    ul.nav.nav-pills.nav-stacked.tree
+                      %for cat in Categories_objects.published
+                        li.dropdown-tree{% if forloop.first %}.open-tree{% endif %}
+                            a.dropdown-tree-a.collapseWill href="{{ cat.url }}" title="{{ cat.title }}" data-toggle=collapse
+                                span.badge.pull-right | {{ cat.products.published.count|default:42 }}
+                                =cat.name
+                            ul.category-level-2.dropdown-menu-tree
+                              =cat.prods_as_lis
+                        li
+                            a href=category-product-hover.html#
+                                span.badge.pull-right | 42
+                                MEN COLLECTION

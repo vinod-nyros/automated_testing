@@ -1,0 +1,54 @@
+{% extends "base_twocolumns.html" %}
+
+{% block sidebar_one %}
+    {% include "_product_config_summary.html" %}
+    {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    {{ block.super }}
+
+    <div class="content">
+        <h1>
+            {{ product.name }}
+        </h1>
+
+        <dl class="nice tabs edt-tabs" id="product_tabs">
+            <dt></dt>
+            <dd>
+                <a href="#overview" class="active" id="overview-tab">Overview</a>
+            </dd>
+            <dd>
+                <a href="#specs" id="specs-tab">Specifications</a>
+            </dd>
+            <dd>
+                <a href="#photos" id="photos-tab">Photos</a>
+            </dd>
+            <dd>
+                <a href="#config" id="config-tab">Configure</a>
+            </dd>
+        </dl>
+
+        <ul class="nice tabs-content">
+            <li class="active" id="overviewTab">
+                {{ product.description|safe }}
+            </li>
+            <li id="specsTab">
+                {% firstof product.features "Product features / specs are in Overview tab" %}
+            </li>
+            <li id="photosTab">
+                {{ photos }}
+            </li>
+            <li id="configTab">
+                <form action="/cart/" method="POST" class="configform">
+                    <input type="hidden" name="sku" id="sku" value="{{ product.sku }}">
+                    {% include "_product_config_tab.html" %}
+                    <input type="submit" name="add" value="Add to Cart" class="nice green radius button" id="add_to_cart">
+                    {% if user.is_staff %}
+                        <input type="submit" name="quote" value="Get a Quote" title="Get a quote on this configuration, or ask eRacks a question about it" class="nice green radius button" id="get_quote">
+                    {% endif %}
+                </form>
+            </li>
+        </ul>
+    </div>
+{% endblock %}

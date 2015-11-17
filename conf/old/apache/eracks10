@@ -1,0 +1,57 @@
+<VirtualHost *:80>
+    ServerAdmin joe@eracks.com
+
+    ServerName eracks.com
+    ServerAlias www.eracks.com ng.eracks.com 10.eracks.com 216.172.133.15
+
+
+    # admin & site media aliases & dir
+
+    #Alias /images /home/django/eracks/media/images
+    #Alias /js     /home/django/eracks/media/js
+    #Alias /css    /home/django/eracks/media/css
+    #Alias /xinha  /home/django/eracks/media/xinha
+    #Alias /wymeditor /home/django/eracks/media/wymeditor
+    #Alias /filebrowser /home/django/eracks/media/filebrowser
+    #Alias /favicon.ico /home/django/eracks_proto/media/images/misc/favicon.ico
+
+    #<Directory /home/django/eracks_proto/media>
+    #    Order allow,deny
+    #    Allow from all
+    #</Directory>
+
+    Alias /js          /home/joe/eracks10/static/js
+    Alias /css         /home/joe/eracks10/static/css
+    Alias /static      /home/joe/eracks10/static
+    Alias /media       /home/joe/eracks10/media
+    Alias /favicon.ico /home/joe/eracks10/static/images/favicon.ico
+
+    # added 1/29/13 JJW
+    Alias /robots.txt /home/joe/eracks10/static/robots.txt
+    Alias /humans.txt /home/joe/eracks10/static/humans.txt
+
+    # Added 1/4/13 JJW
+    Alias /images      /home/joe/eracks10/static/images
+    Alias /stylesheets /home/joe/eracks10/static/stylesheets
+    Alias /javascripts /home/joe/eracks10/static/javascripts
+
+    <Directory /home/joe/eracks10/static>
+        Order allow,deny
+        Allow from all
+    </Directory>
+
+    <Directory /home/joe/eracks10/media>
+        Order allow,deny
+        Allow from all
+    </Directory>
+
+    <Directory /home/joe/eracks10/packages>
+        Order allow,deny
+        Allow from all
+    </Directory>
+
+
+    # main wsgi script alias
+
+    WSGIScriptAlias / /home/joe/eracks10/wsgi.py
+</VirtualHost>

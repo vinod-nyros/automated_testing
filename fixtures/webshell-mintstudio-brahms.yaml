@@ -1,0 +1,302 @@
+Couldn't import django, shpaml.convert_text() is available, django integrations are not
+- fields: {created: ! '2015-10-06 20:22:19.388782', modified: ! '2015-10-06 20:22:28.940640',
+    name: Publish/Unpublish referenced/unreferenced choices, notes: '', source: "from
+      products.models import Option, Choice, Prodoptchoice, Prodopt\r\nfrom pprint
+      import pprint\r\n\r\n# 0 \r\n#print Choice.objects.filter (prodopt__product__published=True).filter(options__isnull=True,
+      prodopt__isnull=True, prodoptchoice__isnull=True, prodopts__isnull=True).count()\r\n\r\n#
+      2\r\n#print Choice.objects.filter (prodopt__product__published=True).filter(options__isnull=True,
+      prodoptchoice__isnull=True, prodopts__isnull=True)\r\n\r\n#1342\r\n#print Choice.objects.filter
+      (prodopt__product__published=True).count() \r\n\r\n#202\r\n#print Choice.objects.filter
+      (prodopt__product__published=False).count() \r\n\r\n# 2836\r\n#print Choice.objects.filter
+      (prodopt__product__published=None).count() \r\n\r\n# 3188\r\n#print Choice.objects.count()
+      \r\n\r\n\r\n# the nulls name it extremely hard to duplicate the programmatic
+      result below with sql or the object model, so just do it programmatically:\r\n\r\nteeth
+      = 0\r\ntriple0_count = 0\r\npub_count = 0\r\n\r\nfor c in Choice.objects.all():\r\n
+      \   poc_cnt = Prodoptchoice.objects.filter (choice=c, productoption__product__published=True).count()\r\n
+      \   po_cnt  = Prodopt.objects.filter (choices=c, product__published=True).count()\r\n
+      \   def_cnt = Prodopt.objects.filter (defaultchoice=c, product__published=True).count()\r\n
+      \   opt_cnt = Option.objects.filter (choices=c).count() # , productoption__product__published=True).count()\r\n\r\n
+      \   if po_cnt != poc_cnt:\r\n        print '\\nMISMATCH!:', c\r\n\r\n    if
+      poc_cnt == 0 and po_cnt == 0 and opt_cnt == 0 and def_cnt == 0:\r\n        triple0_count
+      += 1\r\n        c.published = False\r\n    else:\r\n        pub_count += 1\r\n
+      \       c.published = True\r\n\r\n    if teeth:\r\n        c.save()\r\n        \r\nprint
+      pub_count, 'published.'\r\nprint triple0_count, 'unpublished.'\r\n\r\nprint
+      Choice.objects.filter (published=False).count()\r\nprint Choice.objects.filter
+      (published=True).count()\r\nprint Choice.objects.filter (published=None).count()\r\nprint
+      Choice.objects.count()\r\nprint 472+1148+1568  # 3188 - check!\r\n"}
+  model: webshell.script
+  pk: 1
+- fields: {created: ! '2015-10-06 20:22:19.388782', modified: ! '2015-10-06 20:22:28.940640',
+    name: 'Count unreferenced choices, different ways', notes: '', source: "from products.models
+      import Option, Choice, Prodoptchoice, Prodopt\r\nfrom pprint import pprint\r\n\r\nprint
+      Choice.objects.filter(options__isnull=True, prodopt__isnull=True, prodoptchoice__isnull=True,
+      prodopts__isnull=True).count()\r\ncset = Choice.objects.filter(options__isnull=True,
+      prodopt__isnull=True, prodoptchoice__isnull=True, prodopts__isnull=True).values_list
+      ('id', flat=True)\r\n\r\nprint Choice.objects.exclude(options__isnull=False,
+      prodopt__isnull=False, prodoptchoice__isnull=False,prodopts__isnull=False).count()\r\n\r\nprint\r\n\r\nprint
+      Choice.objects.filter(prodopt__isnull=True).count()\r\nprint Choice.objects.filter(prodopts__isnull=True).count()\r\nprint
+      Choice.objects.filter(prodoptchoice__isnull=True).count()\r\n\r\nprint \r\n\r\n#
+      pprint (set (Choice.objects.filter(prodopts__isnull=True)).intersection (Choice.objects.filter(prodoptchoice__isnull=True)))\r\n\r\ntriple0_count
+      = 0\r\n\r\nfor c in Choice.objects.all():\r\n    poc_cnt = Prodoptchoice.objects.filter
+      (choice=c, productoption__product__published=True).count()\r\n    po_cnt  =
+      Prodopt.objects.filter (choices=c, product__published=True).count()\r\n    def_cnt
+      = Prodopt.objects.filter (defaultchoice=c, product__published=True).count()\r\n
+      \   opt_cnt = Option.objects.filter (choices=c).count() # , productoption__product__published=True).count()\r\n\r\n
+      \   if po_cnt != poc_cnt:\r\n        print '\\nMISMATCH!:', c\r\n\r\n    if
+      poc_cnt == 0 and po_cnt == 0 and opt_cnt == 0 and def_cnt == 0:\r\n        triple0_count
+      += 1\r\n        if c.id not in cset:\r\n            print c.id, c, c.prodopts.count(),
+      c.prodoptchoice_set.count(), c.prodopt_set.count(), c.options.count()\r\n\r\nprint
+      triple0_count\r\nprint \r\n\r\ntriple0_count = 0\r\n\r\nfor c in Choice.objects.all():\r\n
+      \   poc_cnt = Prodoptchoice.objects.filter (choice=c).count()\r\n    po_cnt
+      \ = Prodopt.objects.filter (choices=c).count()\r\n    def_cnt = Prodopt.objects.filter
+      (defaultchoice=c).count()\r\n    opt_cnt = Option.objects.filter (choices=c).count()
+      \r\n\r\n    if po_cnt != poc_cnt:\r\n        print '\\nMISMATCH!:', c\r\n\r\n
+      \   if poc_cnt == 0 and po_cnt == 0 and opt_cnt == 0 and def_cnt == 0:\r\n        triple0_count
+      += 1\r\n        if c.id not in cset:\r\n            print c.id, c, c.prodopts.count(),
+      c.prodoptchoice_set.count(), c.prodopt_set.count(), c.options.count()\r\n\r\nprint
+      triple0_count\r\n\r\n    "}
+  model: webshell.script
+  pk: 2
+- fields: {created: ! '2015-10-06 20:22:19.388782', modified: ! '2015-10-06 20:22:28.940640',
+    name: Ensure non-null choiceCat.sohigh & low - should just delete the fields!,
+    notes: '', source: "from products.models import Option, Choice, ChoiceCategory,
+      Prodoptchoice, Prodopt\r\nfrom pprint import pprint\r\n\r\nteeth = 0\r\n\r\nprint
+      ChoiceCategory.objects.filter (sohigh=None).count()\r\nprint ChoiceCategory.objects.filter
+      (solow=None).count()\r\n\r\nprint ChoiceCategory.objects.filter (solow=None,
+      sohigh=None).count()\r\n\r\nif teeth:\r\n    print ChoiceCategory.objects.filter
+      (solow=None, sohigh=None).update (sohigh=0, solow=0)\r\n\r\n"}
+  model: webshell.script
+  pk: 3
+- fields: {created: ! '2015-10-06 20:22:19.388782', modified: ! '2015-10-06 20:22:28.940640',
+    name: Ensure non-null choice.sortorder, notes: '', source: "from products.models
+      import Option, Choice, ChoiceCategory, Prodoptchoice, Prodopt\r\nfrom pprint
+      import pprint\r\n\r\nteeth = 0\r\n\r\nprint Choice.objects.filter (sortorder=None).count()\r\n\r\nif
+      teeth:\r\n    print Choice.objects.filter (sortorder=None).update (sortorder=0)\r\n"}
+  model: webshell.script
+  pk: 4
+- fields: {created: ! '2015-10-06 20:22:19.388782', modified: ! '2015-10-06 20:22:28.940640',
+    name: Ensure non-null choice.cost, notes: '', source: "from products.models import
+      Option, Choice, ChoiceCategory, Prodoptchoice, Prodopt\r\nfrom pprint import
+      pprint\r\n\r\nteeth = 0\r\n\r\nprint Choice.objects.filter (cost=None)\r\n\r\nif
+      teeth:\r\n    print Choice.objects.filter (cost=None).update (cost=0)\r\n"}
+  model: webshell.script
+  pk: 5
+- fields: {created: ! '2015-10-06 20:22:19.388782', modified: ! '2015-10-06 20:22:28.940640',
+    name: Ensure non-null choice.name, notes: '', source: "from products.models import
+      Option, Choice, ChoiceCategory, Prodoptchoice, Prodopt\r\nfrom pprint import
+      pprint\r\n\r\nteeth = 0\r\n\r\nprint Choice.objects.filter (name__isnull=True).count()\r\nprint
+      Choice.objects.filter (name__isnull=True)[0].id\r\n\r\nif teeth:\r\n    print
+      Choice.objects.filter (name__isnull=True).delete()\r\n"}
+  model: webshell.script
+  pk: 6
+- fields: {created: ! '2015-10-06 20:22:19.388782', modified: ! '2015-10-06 20:22:28.940640',
+    name: Ensure non-null choice.multiplier - NOT USED as of 10/6/15, notes: '', source: "from
+      products.models import Option, Choice, ChoiceCategory, Prodoptchoice, Prodopt\r\nfrom
+      pprint import pprint\r\n\r\nteeth = 0\r\n\r\nprint Choice.objects.filter (multiplier=None).count()\r\nprint
+      Choice.objects.filter (multiplier__isnull=True).count()\r\nprint Choice.objects.filter
+      (multiplier__isnull=False).count()\r\n\r\nif teeth:\r\n    print Choice.objects.filter
+      (multiplier=None).update(multiplier=0)\r\n"}
+  model: webshell.script
+  pk: 7
+- fields: {created: ! '2015-10-06 20:22:19.388782', modified: ! '2015-10-06 20:22:28.940640',
+    name: Ensure non-null product.multiplier - REMOVED, notes: '', source: "from products.models
+      import Product, Option, Choice, ChoiceCategory, Prodoptchoice, Prodopt\r\nfrom
+      pprint import pprint\r\n\r\nteeth = 0\r\n\r\nprint Product.objects.filter (multiplier=None).count()\r\nprint
+      Product.objects.filter (multiplier__isnull=True).count()\r\nprint Product.objects.filter
+      (multiplier__isnull=False).count()\r\n\r\nif teeth:\r\n    print Product.objects.filter
+      (multiplier=None).update(multiplier=0)\r\n"}
+  model: webshell.script
+  pk: 8
+- fields: {created: ! '2015-10-06 20:22:19.388782', modified: ! '2015-10-06 20:22:28.940640',
+    name: Ensure non-null product.baseoptions, notes: '', source: "from products.models
+      import Product, Option, Choice, ChoiceCategory, Prodoptchoice, Prodopt\r\nfrom
+      pprint import pprint\r\n\r\nteeth = 0\r\n\r\nprint Product.objects.filter (baseoptions=None).count()\r\nprint
+      Product.objects.filter (baseoptions__isnull=True).count()\r\nprint Product.objects.filter
+      (baseoptions__isnull=False).count()\r\n\r\nif teeth:\r\n    print Product.objects.filter
+      (baseoptions=None).update(baseoptions='')\r\n"}
+  model: webshell.script
+  pk: 9
+- fields: {created: ! '2015-10-06 20:22:19.388782', modified: ! '2015-10-06 20:22:28.940640',
+    name: Ensure non-null product.blurb, notes: '', source: "from products.models
+      import Product, Option, Choice, ChoiceCategory, Prodoptchoice, Prodopt\r\nfrom
+      pprint import pprint\r\n\r\nteeth = 0\r\n\r\nprint Product.objects.filter (blurb=None).count()\r\nprint
+      Product.objects.filter (blurb__isnull=True).count()\r\nprint Product.objects.filter
+      (blurb__isnull=False).count()\r\n\r\nif teeth:\r\n    print Product.objects.filter
+      (blurb=None).update(blurb='')\r\n"}
+  model: webshell.script
+  pk: 10
+- fields: {created: ! '2015-10-06 20:22:19.388782', modified: ! '2015-10-06 20:22:28.940640',
+    name: Ensure non-null product.link, notes: '', source: "from products.models import
+      Product, Option, Choice, ChoiceCategory, Prodoptchoice, Prodopt\r\nfrom pprint
+      import pprint\r\n\r\nteeth = 0\r\n\r\nprint Product.objects.filter (link=None).count()\r\nprint
+      Product.objects.filter (link__isnull=True).count()\r\nprint Product.objects.filter
+      (link__isnull=False).count()\r\n\r\nif teeth:\r\n    print Product.objects.filter
+      (link=None).update(link='')\r\n"}
+  model: webshell.script
+  pk: 11
+- fields: {created: ! '2015-10-06 20:22:19.388782', modified: ! '2015-10-06 20:22:28.940640',
+    name: Ensure non-null product.image, notes: '', source: "from products.models
+      import Product, Option, Choice, ChoiceCategory, Prodoptchoice, Prodopt\r\nfrom
+      pprint import pprint\r\n\r\nteeth = 0\r\n\r\nprint Product.objects.filter (image=None).count()\r\nprint
+      Product.objects.filter (image__isnull=True).count()\r\nprint Product.objects.filter
+      (image__isnull=False).count()\r\n\r\nif teeth:\r\n    print Product.objects.filter
+      (image=None).update(image='')\r\n"}
+  model: webshell.script
+  pk: 12
+- fields: {created: ! '2015-10-08 09:24:35.162258', modified: ! '2015-10-08 09:24:35.162300',
+    name: Find Prodoptchoice 50267 - NOPE!, notes: '', source: "from products.models
+      import Product, Option, Choice, ChoiceCategory, Prodoptchoice, Prodopt\r\nfrom
+      pprint import pprint\r\n\r\nteeth = 0\r\n\r\nprint Prodoptchoice.objects.filter
+      (choice_id=15495)  # 50267) weird - not there, either way\r\n#print Product.objects.filter
+      (image__isnull=True).count()\r\n#print Product.objects.filter (image__isnull=False).count()\r\n\r\nif
+      teeth:\r\n    print Product.objects.filter (image=None).update(image='')\r\n"}
+  model: webshell.script
+  pk: 13
+- fields: {created: ! '2015-10-08 09:25:05.592078', modified: ! '2015-10-08 09:25:05.592116',
+    name: 'Check for errant defaultchoice, pointing outside of option list', notes: '',
+    source: "from products.models import Product, Option, Choice, ChoiceCategory,
+      Prodoptchoice, Prodopt\r\nfrom pprint import pprint\r\n\r\nteeth = 0\r\n\r\nfor
+      p in Product.objects.published():\r\n  #print 'Checking:', p, \r\n  for po in
+      p.prodopt_set.all():\r\n    pocs = po.choices.values_list ('id', flat=True)\r\n
+      \   ocs = po.option.choices.values_list ('id', flat=True)\r\n    if pocs:\r\n
+      \     if po.defaultchoice.id not in pocs:\r\n        print '%s %s defaultchoice
+      not in POCs: %s' % (p, po, po.defaultchoice)\r\n    elif ocs and po.defaultchoice.id
+      not in ocs and po.defaultchoice.id != 30:\r\n      print '%s %s defaultchoice
+      not in OCs: %s' % (p, po, po.defaultchoice), ocs\r\n        \r\nif teeth:\r\n
+      \   print Product.objects.filter (image=None).update(image='')\r\n"}
+  model: webshell.script
+  pk: 14
+- fields: {created: ! '2015-10-08 09:26:09.532728', modified: ! '2015-10-08 09:26:09.532767',
+    name: Photos WIP, notes: '', source: "## import_photos.py - imports photos by
+      product dir into database, making a guess at include vs exclude\r\n\r\nimport
+      sys, os\r\nimport argparse\r\nfrom myproject import settings\r\n\r\n#from home.helpers
+      import SessionHelper\r\n#from orders.models import Order\r\nfrom products.models
+      import Product, Image\r\n\r\ntrace = 0\r\n\r\nparser = argparse.ArgumentParser
+      (description = 'Check, List, and update Product photos and their directories')\r\n\r\n#print
+      Order.objects.count()\r\nprint 'Total products:', Product.objects.count()\r\nprint
+      'Published products:', Product.objects.filter(published=True).count()\r\n\r\n\r\n##
+      Move to utils.photos.py\r\n\r\ndef fsize (fname):\r\n    if os.path.isfile (fname):\r\n
+      \       return os.stat (fname).st_size\r\n\r\ndef is_autocreated (fname, flist):\r\n
+      \ '''\r\n    Filter out dup filenames that end in: \r\n      _admin_thumbnail\r\n
+      \     _big\r\n      _large\r\n      _medium\r\n      _small\r\n      _thumbnail\r\n
+      \     .[png,jpeg,jpg]\r\n  '''\r\n  f, ext = fname.rsplit ('.', 1)\r\n  toks
+      = f.split ('_')\r\n\r\n  if len (toks) < 2: \r\n    print toks\r\n    return
+      None\r\n\r\n  #print toks\r\n  if toks [-2] == 'admin' and toks [-1] == 'thumbnail':\r\n
+      \   if trace: print '_'.join (toks [:-2]) + '.' + ext\r\n    return ('_'.join
+      (toks [:-2]) + '.' + ext) in flist\r\n\r\n  if toks [-1] in ('big', 'large',
+      'medium', 'small', 'thumbnail'):  # and toks 0..-3 match...\r\n    if trace:
+      print '_'.join (toks [:-1]) + '.' + ext\r\n    return ('_'.join (toks [:-1])
+      + '.' + ext) in flist\r\n\r\n  return False\r\n\r\n\r\n## classes\r\n\r\nclass
+      ProdPhotos:\r\n  no_dir_count = 0\r\n  unpub_count = 0\r\n\r\n  def product_photos
+      (self, product):\r\n    folder = os.path.join (settings.STATIC_ROOT, 'images','products',
+      product.slug)\r\n    try:\r\n        return [(os.path.join ('images','products',
+      product.slug, f), fsize (os.path.join (folder, f)))\r\n                  for
+      f in os.listdir (folder)]\r\n    except Exception, e:\r\n        self.no_dir_count
+      += 1\r\n        print e\r\n        #assert product.published is False\r\n        return
+      []\r\n\r\n  def product_loop (self):\r\n    \"Generator, loops on product and
+      returns lists of files in static prod photo dir\"\r\n\r\n    for p in Product.objects.all():\r\n
+      \     r = self.product_photos (p)\r\n      if r:\r\n        if trace: print
+      r\r\n        yield p, r\r\n      else:\r\n        if p.published:\r\n          print
+      'No dir for published prod:', p\r\n\r\n\r\n\r\n## Main\r\n\r\npp = ProdPhotos()\r\n#pp.product_loop()\r\n#print
+      'Published prods with no dir:', pp.no_dir_count\r\n#print '\\n\\n\\nNow using
+      generator:'\r\n\r\nfor prod, photos in pp.product_loop():\r\n  #if prod.sku
+      == 'TWINGUARD.ENT':\r\n  if prod.sku == 'ZENBOOK':\r\n    #print prod, len(photos)
+      #, '\\n'.join (photos)\r\n    photo_list = [f for f,s in photos]\r\n    if trace:
+      print photo_list\r\n    for photo, siz in photos:\r\n      print photo, is_autocreated
+      (photo, photo_list)\r\n      continue\r\n\r\n      if prod.images.filter (image__iexact=photo):\r\n
+      \       print photo, 'DUP'\r\n      else:\r\n        print photo\r\n    #  print
+      photo, siz\r\n    #  i = Image (image=photo, published = (siz > 5000))\r\n    #
+      \ i.save()\r\n    #  prod.images.add (i)\r\n    #prod.save()\r\n\r\nprint 'Published
+      prods with no dir:', pp.no_dir_count\r\n\r\n\r\n\r\n\r\n# TODO: Count the dirs
+      with/without a prod, and prods with/without a dir, and which ones are published...\r\n\r\n#
+      then upd db tables with the actual imges\r\n# and add exclude field\r\n# and
+      pre-populate exclude with under 22K (Or whatever it was)\r\n"}
+  model: webshell.script
+  pk: 15
+- fields: {created: ! '2015-10-08 10:13:43.867516', modified: ! '2015-10-08 10:13:43.867555',
+    name: Show-order-cart.py NFG, notes: '', source: "# show-order-cart.py, reads
+      order table - originally from tests/test-order-cart.py 5/24/14 JJW\r\n\r\nimport
+      datetime\r\nimport sys, os\r\n\r\nfrom pprint import pprint\r\nfrom collections
+      import OrderedDict\r\n\r\n#sys.path.insert ('/home/joe/eracks11/apps')\r\nos.environ
+      ['DJANGO_SETTINGS'] = '/home/joe/eracks11/settings.py'\r\n\r\n# for 1.7: http://stackoverflow.com/questions/25537905/django-1-7-throws-django-core-exceptions-appregistrynotready-models-arent-load\r\nimport
+      django\r\ndjango.setup()\r\n\r\n#from home.helpers import SessionHelper\r\nfrom
+      orders.models import Order\r\n\r\n\r\n\r\nclass Prod (): # dict):\r\n    def
+      __init__ (self, prod):\r\n        self.__dict__.update (prod)\r\n        self.option_list
+      = [Opt (k,v) for k,v in self.opts.items()]\r\n        self.options_by_id = dict
+      ([(o.id, o) for o in self.option_list])\r\n\r\n    def options (self):\r\n        for
+      k,v in self.opts.items():\r\n            selectedchoiceid = v ['selectedchoiceid']\r\n
+      \           print '%s: %s' % (v ['name'], v ['choices'] [selectedchoiceid])\r\n\r\n
+      \   def all_choices (self):\r\n        for o in self.option_list:\r\n            selectedchoice
+      = o.choices_by_id [o.selectedchoiceid]\r\n            if o.choiceqty > 1:\r\n
+      \               print '%s: %sx %s' % (o.name, o.choiceqty, selectedchoice.name),
+      (\"add $%0.2F\" % o.price if o.price else '')\r\n            else:\r\n                print
+      '%s: %s' % (o.name, selectedchoice.name), (\"add $%0.2F\" % o.price if o.price
+      else '')\r\n\r\n\r\nclass Id_dict():\r\n    def __init__ (self, id, dct):\r\n
+      \       self.__dict__.update (dct)\r\n        assert self.id == int(id), (self.id,
+      id)\r\n\r\nclass Opt (Id_dict):\r\n    def __init__ (self, theid, dct):\r\n
+      \       theid = theid.split ('_') [0]\r\n        #super(Opt, self).__init__
+      (theid, dct)\r\n        Id_dict.__init__ (self, theid, dct)\r\n        self.choiceqty
+      = dct.get ('choiceqty', 1)\r\n\r\n        self.choice_list = [Choice (k,v) for
+      k,v in self.choices.items()]\r\n        self.choices_by_id = dict ([(c.id, c)
+      for c in self.choice_list])\r\n\r\nclass Choice (Id_dict):\r\n    pass\r\n\r\n\r\ndef
+      print_order (o):\r\n  print\r\n  print 'Order #', o.id\r\n  print 'eMail', o.customer.email\r\n
+      \ print 'eMail2', o.customer.email2\r\n  print 'User eMail', o.customer.user.email\r\n\r\n
+      \ a = o.ship_to_address\r\n  b = o.bill_to_address\r\n\r\n  print\r\n  print
+      'Ship to:'\r\n  print a.name\r\n  print a.address1\r\n  if a.address2: print
+      a.address2\r\n  print a.city, a.state\r\n  print a.zip, a.country\r\n  print\r\n
+      \ print 'Bill to:'\r\n  print b.name\r\n  print b.address1\r\n  if b.address2:
+      print b.address2\r\n  print b.city, b.state\r\n  print b.zip, b.country\r\n
+      \ print\r\n  print 'Requested shipping:', o.shipping_method\r\n  print 'Preferred
+      shipper:', o.preferred_shipper\r\n\r\n\r\ndef print_lines (line, prod):\r\n
+      \ p = Prod (prod)\r\n\r\n  #print p.__dict__.keys()\r\n  #print p.options()\r\n
+      \ #pprint (p.opts)\r\n\r\n  print\r\n  #print 'eRacks/%s' % p.name\r\n  print
+      'Line:', line, 'Sku:', p.sku\r\n  print\r\n  print 'choices:', p.all_choices()\r\n
+      \ print\r\n  print 'Order line Notes:', p.notes\r\n  print\r\n  print \"Weight:\",
+      p.weight, 'lbs'\r\n  print\r\n  print \"Base Price: $%0.2F\" % float(p.baseprice)\r\n
+      \ print \"Price as configured: $%0.2F\" % float(p.totprice)\r\n  #if 'cost'
+      in p:\r\n  if hasattr (p, 'cost'):\r\n    print \"Our estimated base cost: $%0.2F\"
+      % float(p.cost)\r\n\r\n\r\n### Main\r\n\r\n\r\n## Get order number\r\n\r\nif
+      len (sys.argv) > 1:\r\n  #print sys.argv [0], len (sys.argv)\r\n  o = Order.objects.get
+      (pk=sys.argv[1])   # 55397)\r\nelse:\r\n  orders = Order.objects.order_by ('-created')\r\n
+      \ print 'Last 5 orders (in reverse order), using last one:', '\\n'.join (['']
+      + [str(o) for o in orders [:5]])\r\n  #print 'Last 5 orders (in reverse order),
+      using last one:', '\\n'.join (orders [:5])\r\n  o = orders [0]\r\n\r\n\r\n#
+      sometimes need to tweak this line on a per-order basis - should delete or requote
+      / strip prod.desc BEFORE storing in cart :)\r\n#cart = o.cart.replace (\"':
+      <\", \"': '<\").replace ('\\\\n','').replace ('\\\\r','').replace (\">,\", \">',\").replace
+      (\">}\",\">'}\")\r\ncart = o.cart.replace (\"': <\", \"': '<\").replace ('\\\\n','').replace
+      ('\\\\r','').replace ('>, o', '> o').replace('</a>,','</a>').replace (\">,\",
+      \">',\").replace (\">}\",\">'}\")\r\ncart = eval (cart)\r\n\r\nprint_order (o)\r\n\r\nfor
+      inx, prod in enumerate (cart):  #  [0]\r\n  print_lines (inx+1, prod)  # ['sku'],
+      prod.keys()\r\n\r\n\r\n\r\n\r\n'''\r\nOO breakdown:\r\n\r\n- cart\r\n- order\r\n
+      \ - shipping\r\n  - line items\r\n    - prod\r\n      - options\r\n        -
+      default vs chosen\r\n    - qty\r\n    - num\r\n    - sumry / desc\r\n    - notes\r\n\r\nmethods:\r\nto_db\r\nfrom_db\r\n\r\nwork_order
+      - - full manifest\r\ninvoice\r\npacking list\r\nreceipt\r\n\r\n\r\n'''\r\n\r\n"}
+  model: webshell.script
+  pk: 16
+- fields: {created: ! '2015-10-30 16:11:02.938356', modified: ! '2015-10-30 16:34:53.679304',
+    name: add Product links to Featured Images, notes: '', source: "from products.models
+      import Categories, Product, Option, Choice, ChoiceCategory, Prodoptchoice, Prodopt\r\nfrom
+      home.models import FeaturedImage\r\nteeth = 0\r\n\r\nnas72=Product.objects.get(sku='NAS72')\r\nnas50=Product.objects.get(sku='NAS50')\r\nlite=Product.objects.get(sku='LITE')\r\ni7desk=Product.objects.get(sku='LITE')\r\ntwinguard=Product.objects.get(sku='LITE')\r\n\r\nfor
+      fi in FeaturedImage.objects.all():\r\n    #print fi, fi.image\r\n\r\n    if
+      'nas72' in fi.image.filename.lower():\r\n        fi.product=nas72\r\n    elif
+      'nas50' in fi.image.filename.lower():\r\n        fi.product=nas50\r\n    elif
+      'lite' in fi.image.filename.lower():\r\n        fi.product=lite\r\n    elif
+      'i7desk' in fi.image.filename.lower():\r\n        fi.product=i7desk\r\n    elif
+      'twinguard' in fi.image.filename.lower():\r\n        fi.product=twinguard\r\n\r\n
+      \   if teeth and fi.product:\r\n        fi.save()\r\n        print fi, 'saved.'\r\n
+      \   else:\r\n        print fi, 'not changed.'\r\n        \r\nok_results='''\r\neRacks/NAS72
+      images/slideshow/nas72_576_sep7_15_overlaytext_610.png\r\neRacks' biggest Cloud
+      server yet - 432TB! images/slideshow/NAS72_frontpage.jpg\r\nThe leading Cloud
+      server building-block - 300TB! images/slideshow/300tbnas50sep18.jpeg\r\nThe
+      leading Cloud server building-block - 400TB! images/slideshow/400tbnas50nov20_remake.png\r\n\r\nthese
+      next ones are categories:\r\nMobile Performance Laptops images/slideshow/laptops_newlogoandcolors.png\r\neRacks
+      leads in Quiet Rackmount Servers images/slideshow/front-quiet-3u.png\r\nThe
+      finest blade servers in existence! images/slideshow/front_blades.jpeg\r\nLInux-based
+      DAW, broadcast, audio/video studio systems images/slideshow/front_studio.jpeg\r\n\r\nSmall,
+      thin, and shallow-depth for short rack installations images/slideshow/liteblankno%22new%22sep18_newlogo.png\r\nIntel-based
+      Workstation-class Linux Desktop images/slideshow/front_i7desk.jpeg\r\nTwo firewalls
+      in a 1U rackmount images/slideshow/front_twinguard.jpeg\r\n\r\nOld:\r\nThe perfect
+      SMB storage server images/slideshow/front_NAS16X.jpeg\r\n'''"}
+  model: webshell.script
+  pk: 17

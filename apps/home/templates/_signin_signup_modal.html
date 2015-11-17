@@ -1,0 +1,66 @@
+
+<div id="signin_signup_modal" class="reveal-modal">
+  <img src="/images/logos/logo-update-green2-small.png" alt="eracks logo" height="50" style="height:50px"/>
+
+  <div class="panel">
+
+    <dl class="tabs contained edt-tabs">
+        <dt></dt>
+        <dd><a href="#signin" class="active"><h4>Sign In</h4></a></dd>
+        <dd><a href="#signup"><h4>...Or Sign Up</h4></a></dd>
+    </dl>
+
+    <ul class="tabs-content contained">
+    <li class="active" id="signinTab">
+        <form action="{% url "userena_signin" %}" method="post">
+        {% csrf_token %}
+        <fieldset>
+            <legend>Signin</legend>
+            {{ signin_form.non_field_errors }}
+            {% for field in signin_form %}
+            {{ field.errors }}
+            {#% comment %} Displaying checkboxes differently {% endcomment %#}
+            {% if field.name == 'remember_me' %}
+            <p class="checkbox">
+            <label for="id_{{ field.name }}">{{ field }} {{ field.label }}</label>
+            </p>
+            {% else %}
+            <p>
+            {{ field.label_tag }}
+            {{ field }}
+            </p>
+            {% endif %}
+            {% endfor %}
+        </fieldset>
+        <input type="submit" value="Signin" />
+        <span class="forgot-password"><a href="{% url "userena_password_reset" %}" title="Forgot your password?">Forgot your password?</a></span>
+        </form>
+    </li>
+
+    <li id="signupTab">
+        <form action="{% url "userena_signup" %}" method="post">
+        {% csrf_token %}
+        <fieldset>
+            <legend>Signup</legend>
+            {% for field in signup_form %}
+            {{ field.errors }}
+            {#% comment %} Displaying checkboxes differently {% endcomment %#}
+            {% if field.name == 'tos' %}
+            <p class="checkbox">
+            <label for="id_{{ field.name }}">{{ field }} {{ field.label }}</label>
+            </p>
+            {% else %}
+            <p>
+            {{ field.label_tag }}
+            {{ field }}
+            </p>
+            {% endif %}
+            {% endfor %}
+        </fieldset>
+        <input type="submit" value="Signup" />
+        </form>
+    </li>
+    </ul>
+  </div>
+  <a class="close-reveal-modal">&#215;</a>
+</div>

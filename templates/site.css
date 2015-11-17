@@ -1,0 +1,696 @@
+
+/*  WARNING: GENERATED FILE - EDITS WILL BE LOST  */
+/*  GENERATED FROM: theme-legacy.yaml at line 80 on 2015-06-14 at 19:33:13 PDT(GMT-0700)  */
+
+body {
+  background-color: #000;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000), color-stop(1, #fff)) no-repeat;
+  background: -webkit-linear-gradient(top, #000 0%, #fff 100%) no-repeat;
+  background: -moz-linear-gradient(top, #000 0%, #fff 100%) no-repeat;
+  background: -ms-linear-gradient(top, #000 0%, #fff 100%) no-repeat;
+  background: -o-linear-gradient(top, #000 0%, #fff 100%) no-repeat;
+  background: linear-gradient(top, #000 0%, #fff 100%) no-repeat;
+}
+.rounded {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+}
+.rounded_bottom {
+  -webkit-border-radius: 0 0 8px 8px;
+  -moz-border-radius: 0 0 8px 8px;
+  -khtml-border-radius: 0 0 8px 8px;
+  -ms-border-radius: 0 0 8px 8px;
+  -o-border-radius: 0 0 8px 8px;
+  -webkit-border-radius: 0 0 8px 8px;
+  -moz-border-radius: 0 0 8px 8px;
+  -khtml-border-radius: 0 0 8px 8px;
+  -ms-border-radius: 0 0 8px 8px;
+  -o-border-radius: 0 0 8px 8px;
+  border-radius: 0 0 8px 8px;
+}
+.rounded_top {
+  -webkit-border-radius: 8px 8px 0 0;
+  -moz-border-radius: 8px 8px 0 0;
+  -khtml-border-radius: 8px 8px 0 0;
+  -ms-border-radius: 8px 8px 0 0;
+  -o-border-radius: 8px 8px 0 0;
+  -webkit-border-radius: 8px 8px 0 0;
+  -moz-border-radius: 8px 8px 0 0;
+  -khtml-border-radius: 8px 8px 0 0;
+  -ms-border-radius: 8px 8px 0 0;
+  -o-border-radius: 8px 8px 0 0;
+  border-radius: 8px 8px 0 0;
+}
+.flush_top {
+  margin-top: 0;
+}
+.flush_bottom {
+  margin-bottom: 0;
+}
+.row {
+  max-width: 1200px;
+}
+.hidden {
+  display: none;
+}
+.bold,
+.highlighted {
+  font-weight: bold;
+}
+.row#header {
+  background: #fff;
+}
+.row#header ::comment {
+  background-color: #ccf;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ccf), color-stop(1, #fff)) no-repeat;
+  background: -webkit-linear-gradient(top, #ccf 0%, #fff 100%) no-repeat;
+  background: -moz-linear-gradient(top, #ccf 0%, #fff 100%) no-repeat;
+  background: -ms-linear-gradient(top, #ccf 0%, #fff 100%) no-repeat;
+  background: -o-linear-gradient(top, #ccf 0%, #fff 100%) no-repeat;
+  background: linear-gradient(top, #ccf 0%, #fff 100%) no-repeat;
+}
+#logo {
+  padding: 7px 15px;
+}
+#page_top {
+  text-shadow: 1px 1px 1px #666;
+}
+#nav_small,
+#nav_login {
+  color: #d3d3d3;
+}
+#nav_small a,
+#nav_login a {
+  color: #d3d3d3;
+}
+#nav_small a:hover,
+#nav_login a:hover {
+  color: #efe;
+}
+#nav_small img,
+#nav_login img {
+  vertical-align: middle;
+  padding-left: 5px;
+}
+#nav_small,
+#mailing_list,
+#nav_login {
+  padding: 10px 0;
+}
+#mailing_list input {
+  font-size: x-small;
+  display: inline;
+}
+#mailing_list input[type=button] {
+  padding: 0;
+}
+#mailing_list input[type=submit] {
+  padding: 2px;
+}
+#mailing_list form {
+  margin: 0;
+}
+#mailing_list i {
+  color: #a9c790;
+}
+#header_right a {
+  padding: 20px;
+}
+#header_right .skype img {
+  width: 100px;
+  vertical-align: middle;
+}
+#header_right #contactbox a {
+  padding: 0;
+}
+#header_right #contactbox table {
+  margin: 0;
+}
+#header_right #contactbox table td {
+  padding: 14px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+#header_right #contactbox table td img {
+  margin-top: -5px;
+}
+#nav_account {
+  background-color: #86b86b;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #86b86b), color-stop(1, #639548)) no-repeat;
+  background: -webkit-linear-gradient(top, #86b86b 0%, #639548 100%) no-repeat;
+  background: -moz-linear-gradient(top, #86b86b 0%, #639548 100%) no-repeat;
+  background: -ms-linear-gradient(top, #86b86b 0%, #639548 100%) no-repeat;
+  background: -o-linear-gradient(top, #86b86b 0%, #639548 100%) no-repeat;
+  background: linear-gradient(top, #86b86b 0%, #639548 100%) no-repeat;
+  -webkit-box-shadow: 0px 3px 10px #888;
+  -moz-box-shadow: 0px 3px 10px #888;
+  -khtml-box-shadow: 0px 3px 10px #888;
+  -ms-box-shadow: 0px 3px 10px #888;
+  -o-box-shadow: 0px 3px 10px #888;
+  box-shadow: 0px 3px 10px #888;
+  border: 0;
+  height: 30px;
+}
+#nav_account ::comment {
+  background-color: #407095;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #407095), color-stop(1, #345b79)) no-repeat;
+  background: -webkit-linear-gradient(top, #407095 0%, #345b79 100%) no-repeat;
+  background: -moz-linear-gradient(top, #407095 0%, #345b79 100%) no-repeat;
+  background: -ms-linear-gradient(top, #407095 0%, #345b79 100%) no-repeat;
+  background: -o-linear-gradient(top, #407095 0%, #345b79 100%) no-repeat;
+  background: linear-gradient(top, #407095 0%, #345b79 100%) no-repeat;
+  background-color: #ccf;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ccf), color-stop(1, #fff)) no-repeat;
+  background: -webkit-linear-gradient(top, #ccf 0%, #fff 100%) no-repeat;
+  background: -moz-linear-gradient(top, #ccf 0%, #fff 100%) no-repeat;
+  background: -ms-linear-gradient(top, #ccf 0%, #fff 100%) no-repeat;
+  background: -o-linear-gradient(top, #ccf 0%, #fff 100%) no-repeat;
+  background: linear-gradient(top, #ccf 0%, #fff 100%) no-repeat;
+  background-color: #a9c790;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #a9c790), color-stop(1, #fff)) no-repeat;
+  background: -webkit-linear-gradient(top, #a9c790 0%, #fff 100%) no-repeat;
+  background: -moz-linear-gradient(top, #a9c790 0%, #fff 100%) no-repeat;
+  background: -ms-linear-gradient(top, #a9c790 0%, #fff 100%) no-repeat;
+  background: -o-linear-gradient(top, #a9c790 0%, #fff 100%) no-repeat;
+  background: linear-gradient(top, #a9c790 0%, #fff 100%) no-repeat;
+}
+#nav_account li {
+  line-height: 30px;
+}
+#nav_account li a {
+  color: #fff;
+}
+/*
+* Main nav bar
+*/
+#nav_main {
+  margin-top: 0;
+  height: 30px;
+  line-height: 30px;
+}
+#nav_main .nav-bar {
+  margin-top: 0;
+  height: 30px;
+}
+#nav_main .nav-bar li {
+  line-height: 30px;
+}
+#nav_main ul {
+  background-color: #444;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #444), color-stop(1, #222)) no-repeat;
+  background: -webkit-linear-gradient(top, #444 0%, #222 100%) no-repeat;
+  background: -moz-linear-gradient(top, #444 0%, #222 100%) no-repeat;
+  background: -ms-linear-gradient(top, #444 0%, #222 100%) no-repeat;
+  background: -o-linear-gradient(top, #444 0%, #222 100%) no-repeat;
+  background: linear-gradient(top, #444 0%, #222 100%) no-repeat;
+}
+#nav_main a {
+  color: #ddd;
+  text-shadow: 1px 1px 1px #666;
+}
+#nav_main a:hover {
+  color: #efe;
+  text-shadow: 1px 1px 1px #666;
+}
+#nav_main form#search {
+  color: #ddd;
+  text-shadow: 1px 1px 1px #666;
+  padding: 0 5px;
+  margin: 0;
+  font-size: 1.5rem;
+}
+#nav_main form#search input {
+  height: 20px;
+  padding: 1px;
+  margin: 0;
+  font-size: small;
+  display: inline;
+}
+#nav_main li:last-child {
+  float: right;
+}
+/*
+* Home page featured items slider - Orbit
+*/
+#featured {
+  margin-top: 20px;
+  width: 610px;
+  height: 396px;
+  background: #808080 url("/media/home/images/slideshow/400tbnas50nov20.jpg") no-repeat center center;
+  overflow: hidden;
+}
+#featured img,
+#featured div {
+  display: none;
+}
+#featured.orbit {
+  background: none;
+}
+#featured.orbit img,
+#featured.orbit div {
+  display: block;
+}
+.orbit-wrapper .slider-nav span {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 400ms;
+  -moz-transition: opacity 400ms;
+  -o-transition: opacity 400ms;
+  -webkit-transition: opacity 400ms;
+  -moz-transition: opacity 400ms;
+  -khtml-transition: opacity 400ms;
+  -ms-transition: opacity 400ms;
+  -o-transition: opacity 400ms;
+  transition: opacity 400ms;
+}
+.orbit-wrapper:hover .slider-nav span {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+ul.orbit-bullets {
+  bottom: -10px;
+}
+/*
+* Checkout stuff - next, back buttons
+*/
+.errorlist {
+  color: #f00;
+}
+#cartform,
+#checkoutform {
+  margin-bottom: 0;
+}
+#cartform ul,
+#checkoutform ul,
+#cartform li,
+#checkoutform li,
+#cartform label,
+#checkoutform label {
+  margin-bottom: 0;
+}
+#cartform table,
+#checkoutform table {
+  width: 100%;
+}
+#cartform table td,
+#checkoutform table td {
+  padding: 2px 10px;
+}
+#cartform table th,
+#checkoutform table th {
+  text-align: center;
+  vertical-align: middle;
+}
+#cartform table tbody th,
+#checkoutform table tbody th {
+  width: 20%;
+  text-align: right;
+}
+#cartform table thead th,
+#checkoutform table thead th {
+  padding: 4px 10px;
+}
+#cartform table thead th input[type=button],
+#checkoutform table thead th input[type=button],
+#cartform table thead th button,
+#checkoutform table thead th button {
+  padding: 1px 10px;
+}
+#cartform table thead img,
+#checkoutform table thead img {
+  vertical-align: sub;
+}
+#cartform table select,
+#checkoutform table select {
+  width: 250px;
+}
+#cartform table textarea,
+#checkoutform table textarea {
+  height: 4em;
+  padding: 2px;
+}
+#cartform table input,
+#checkoutform table input,
+#cartform table textarea,
+#checkoutform table textarea,
+#cartform table select,
+#checkoutform table select {
+  margin: 0;
+}
+#cartform .expirydatefield select,
+#checkoutform .expirydatefield select {
+  width: 100px;
+  float: left;
+}
+#cartform #cart li {
+  list-style: circle inside;
+  text-align: left;
+  line-height: 12px;
+  margin-bottom: 5px;
+}
+#confirmform table td,
+#final_cart table td {
+  padding: 0 10px;
+}
+#confirmform table thead th,
+#final_cart table thead th {
+  text-align: center;
+  padding: 4px 10px;
+}
+#confirmform table ::comment,
+#final_cart table ::comment {
+  border-collapse: separate;
+  border: 1px solid #808080;
+}
+#title_row {
+  background: -moz-radial-gradient(#bdb, #eef);
+  background: -ms-radial-gradient(#bdb, #eef);
+  background: -o-radial-gradient(#bdb, #eef);
+  background: -webkit-radial-gradient(#bdb, #eef);
+  background: -khtml-radial-gradient(#bdb, #eef);
+  background: radial-gradient(#bdb, #eef);
+}
+#title_row h1 {
+  background: transparent;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+#back,
+#next {
+  padding: 20px;
+}
+#back a,
+#next a,
+#back input,
+#next input {
+  background: url("/images/orders/nav_back.png") no-repeat;
+  display: block;
+  color: #fff;
+  height: 30px;
+  width: 53px;
+  line-height: 12px;
+  padding: 2px 24px;
+}
+#back a:hover,
+#back input:hover {
+  background: url("/images/orders/nav_back_press.png") no-repeat;
+}
+#next a,
+#next input {
+  background: url("/images/orders/nav_next.png") no-repeat;
+}
+#next a:hover,
+#next input:hover {
+  background: url("/images/orders/nav_next_press.png") no-repeat;
+}
+#back {
+  float: left;
+}
+#next {
+  float: right;
+}
+#cart .evenrow {
+  background: #fff;
+}
+#cart .oddrow {
+  background: #d6f2bf;
+}
+#cart th {
+  font-weight: bold;
+  background: #add8e6;
+  border-bottom: 1px solid #d3d3d3;
+}
+/*
+* Login / Userena stuff
+*/
+#signin_signup_modal form {
+  border: 2px #f00;
+}
+#signin_signup_modal form label {
+  margin-bottom: 0;
+}
+.white-box {
+  background-color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #ccc)) no-repeat;
+  background: -webkit-linear-gradient(top, #fff 0%, #ccc 100%) no-repeat;
+  background: -moz-linear-gradient(top, #fff 0%, #ccc 100%) no-repeat;
+  background: -ms-linear-gradient(top, #fff 0%, #ccc 100%) no-repeat;
+  background: -o-linear-gradient(top, #fff 0%, #ccc 100%) no-repeat;
+  background: linear-gradient(top, #fff 0%, #ccc 100%) no-repeat;
+  padding: 10px;
+}
+.white-box #details {
+  font-size: larger;
+}
+#box-nav li {
+  display: inline;
+}
+#box-nav li a {
+  border: 1px solid #d3d3d3;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -khtml-border-radius: 3px 3px 3px 3px;
+  -ms-border-radius: 3px 3px 3px 3px;
+  -o-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+  padding: 5px;
+  margin: 5px;
+  background-color: #ffdca8;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffdca8), color-stop(1, #ffa858)) no-repeat;
+  background: -webkit-linear-gradient(top, #ffdca8 0%, #ffa858 100%) no-repeat;
+  background: -moz-linear-gradient(top, #ffdca8 0%, #ffa858 100%) no-repeat;
+  background: -ms-linear-gradient(top, #ffdca8 0%, #ffa858 100%) no-repeat;
+  background: -o-linear-gradient(top, #ffdca8 0%, #ffa858 100%) no-repeat;
+  background: linear-gradient(top, #ffdca8 0%, #ffa858 100%) no-repeat;
+}
+/*
+* Misc main content stuff
+*/
+#content_row,
+#breadcrumbs_row {
+  background: #fff;
+}
+#os_logos a {
+  padding: 0;
+}
+ul.breadcrumbs {
+  padding: 0 10px;
+  margin-bottom: 0;
+}
+ul.breadcrumbs li a,
+ul.breadcrumbs li span {
+  font-size: normal;
+  text-transform: none;
+}
+#breadcrumbs_row div.social_link {
+  padding: 0 10px;
+}
+h1,
+h2 {
+  padding-top: 10px;
+  margin-top: 10px;
+}
+h1 {
+  background-color: #fff;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #fff), color-stop(1, #8b9d54)) no-repeat;
+  background: -webkit-linear-gradient(left, #fff 0%, #8b9d54 100%) no-repeat;
+  background: -moz-linear-gradient(left, #fff 0%, #8b9d54 100%) no-repeat;
+  background: -ms-linear-gradient(left, #fff 0%, #8b9d54 100%) no-repeat;
+  background: -o-linear-gradient(left, #fff 0%, #8b9d54 100%) no-repeat;
+  background: linear-gradient(left, #fff 0%, #8b9d54 100%) no-repeat;
+  text-shadow: 2px 2px 2px #666;
+}
+/*
+* Box & Product List
+*/
+.box {
+  border: 1px solid #ddd;
+}
+.box h4 {
+  font-size: small;
+  background-color: #444;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #444), color-stop(1, #222)) no-repeat;
+  background: -webkit-linear-gradient(top, #444 0%, #222 100%) no-repeat;
+  background: -moz-linear-gradient(top, #444 0%, #222 100%) no-repeat;
+  background: -ms-linear-gradient(top, #444 0%, #222 100%) no-repeat;
+  background: -o-linear-gradient(top, #444 0%, #222 100%) no-repeat;
+  background: linear-gradient(top, #444 0%, #222 100%) no-repeat;
+  padding: 5px 20px;
+  color: #ddd;
+  text-shadow: 1px 1px 1px #666;
+  -webkit-box-shadow: 0px 10px 10px #888;
+  -moz-box-shadow: 0px 10px 10px #888;
+  -khtml-box-shadow: 0px 10px 10px #888;
+  -ms-box-shadow: 0px 10px 10px #888;
+  -o-box-shadow: 0px 10px 10px #888;
+  box-shadow: 0px 10px 10px #888;
+  border-bottom: solid #799e5b 3px;
+}
+.box ul.nav-bar {
+  border: 0;
+}
+.box ul.nav-bar li {
+  width: 100%;
+  border: 0;
+  line-height: 1em;
+}
+.box ul.nav-bar hr {
+  margin-top: 15px;
+}
+/*
+  * Product list
+  */
+#product_list ul.nav-bar {
+  margin-top: 10px;
+  background: transparent;
+}
+#product_list li {
+  background: rgba(210,210,210,0.3);
+}
+#product_list .flyout {
+  left: 100px;
+  top: 20px;
+  padding: 0;
+  background-color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #cccfcc)) no-repeat;
+  background: -webkit-linear-gradient(top, #fff 0%, #cccfcc 100%) no-repeat;
+  background: -moz-linear-gradient(top, #fff 0%, #cccfcc 100%) no-repeat;
+  background: -ms-linear-gradient(top, #fff 0%, #cccfcc 100%) no-repeat;
+  background: -o-linear-gradient(top, #fff 0%, #cccfcc 100%) no-repeat;
+  background: linear-gradient(top, #fff 0%, #cccfcc 100%) no-repeat;
+  -webkit-box-shadow: 0px 10px 10px #888;
+  -moz-box-shadow: 0px 10px 10px #888;
+  -khtml-box-shadow: 0px 10px 10px #888;
+  -ms-box-shadow: 0px 10px 10px #888;
+  -o-box-shadow: 0px 10px 10px #888;
+  box-shadow: 0px 10px 10px #888;
+}
+#product_list .flyout .hdr {
+  text-shadow: 1px 1px 1px #999;
+}
+#product_list .flyout hr {
+  margin: 0;
+}
+#product_list .flyout-toggle {
+  padding: 12px;
+}
+#product_list li a.main {
+  border-bottom: 3px groove #fff;
+  margin: auto;
+}
+#product_list li:last-child a.main {
+  border-bottom: 0;
+}
+#product_list a,
+#product_list div {
+  line-height: 25px;
+}
+#config_summary .baseprice,
+#config_summary .price {
+  font-size: larger;
+}
+#config_summary #current {
+  padding: 12px;
+  line-height: 24px;
+}
+#config_summary #current li {
+  font-size: smaller;
+  line-height: 15px;
+  margin-bottom: 5px;
+  list-style: circle inside;
+}
+#customers {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  -khtml-column-count: 4;
+  -ms-column-count: 4;
+  -o-column-count: 4;
+  column-count: 4;
+  -webkit-column-gap: 18px;
+  -moz-column-gap: 18px;
+  -khtml-column-gap: 18px;
+  -ms-column-gap: 18px;
+  -o-column-gap: 18px;
+  column-gap: 18px;
+}
+#customers li {
+  display: inline-block;
+  padding: 20px;
+}
+#customers li a img {
+  max-width: 180px;
+  width: 100%;
+}
+.three_columns {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  -khtml-column-count: 3;
+  -ms-column-count: 3;
+  -o-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
+  -khtml-column-gap: 10px;
+  -ms-column-gap: 10px;
+  -o-column-gap: 10px;
+  column-gap: 10px;
+}
+/*
+* Product config page
+*/
+.configgrid td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.configgrid td.dropdowns {
+  width: 300px;
+}
+.configgrid select {
+  display: inline;
+}
+.configgrid select.choiceqty {
+  width: 15%;
+}
+.configgrid select.choiceid {
+  width: 100%;
+}
+.configgrid select.choiceid.leaveroom {
+  width: 80%;
+}
+/*
+* Footer
+*/
+#footer {
+  background-color: #ddd;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ddd), color-stop(1, #bbb)) no-repeat;
+  background: -webkit-linear-gradient(top, #ddd 0%, #bbb 100%) no-repeat;
+  background: -moz-linear-gradient(top, #ddd 0%, #bbb 100%) no-repeat;
+  background: -ms-linear-gradient(top, #ddd 0%, #bbb 100%) no-repeat;
+  background: -o-linear-gradient(top, #ddd 0%, #bbb 100%) no-repeat;
+  background: linear-gradient(top, #ddd 0%, #bbb 100%) no-repeat;
+  border-collapse: separate;
+  border-spacing: 20px;
+  width: 100%;
+}
+#footer tr,
+#footer td {
+  padding: 0;
+}
+.right-dotted {
+  border-right: 2px dotted #008000;
+}
+.vertical li hr {
+  width: 75% !important;
+}
+.text_center {
+  text-align: center;
+}

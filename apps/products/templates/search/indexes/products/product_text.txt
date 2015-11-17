@@ -1,0 +1,14 @@
+{% comment %}
+ Title:{{ object.title }}
+ Sku:{{ object.sku }}
+ Price:{{ object.baseprice }}
+ Category:{{ object.category }}
+ Blurb:{{ object.blurb|striptags }}
+ Desc:{{ object.description|striptags }}
+ Features:{{ object.features|striptags }}
+{% endcomment %}
+{{ object.sku }}
+{{ object.title }}
+{{ object.blurb|striptags }}
+{{ object.description|striptags }}
+{{ object.features|striptags }}

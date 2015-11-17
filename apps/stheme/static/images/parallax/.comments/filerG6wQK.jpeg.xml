@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment version="3.0">
+  <caption>Rice University Data Center</caption>
+  <note>Rice University Data Center, Carlos Jimenez; room of servers</note>
+  <place>11000+ Main Street</place>
+  <categories>
+    <category value="Jimenez"/>
+    <category value="Rice"/>
+    <category value="Data Center"/>
+    <category value="Interiors"/>
+    <category value="Computers"/>
+    <category value="Servers"/>
+  </categories>
+</comment>

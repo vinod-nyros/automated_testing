@@ -1,0 +1,1928 @@
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_list.html
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_config_summary.html
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_config_tab.html
+compiling /home/joe/django_eracks/apps/products/templets.py to product.html
+compiling /home/joe/django_eracks/apps/products/templets.py to products.html
+compiling /home/joe/django_eracks/apps/products/templets.py to category.html
+compiling /home/joe/django_eracks/apps/bloglets/templets.py to _bloglet_list.html
+- fields:
+    blurb: ''
+    choices: [28823]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: eRacks Custom Quote
+    sortorder: 1
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 28819
+- fields:
+    blurb: ''
+    choices: [30, 33770, 44431, 33978, 32639, 17974, 12481, 39215, 31157, 17986, 16846,
+      24698, 13077, 15498, 12818, 32868, 35033, 35182, 12934, 36889, 36890, 35032,
+      32666, 33225, 31217, 24249, 40239, 40358, 34609, 34610, 31582, 40925, 40926,
+      41827, 41828, 26088, 41327, 23194, 23197, 41325, 23195, 23196, 26087, 41326,
+      48202, 36902, 6667, 43621, 48204, 34054, 48203, 33592, 43622, 43623, 43624,
+      11062, 21542, 27300, 5283, 15162, 18346, 28680, 12146, 26, 27, 5564, 12379,
+      6723, 31003, 5816, 9169, 4164, 11808, 7439, 7438, 8174, 34518, 33095, 29, 33366,
+      21372, 28, 9535, 7320, 30869, 7357, 17131, 21212, 7959, 9300, 13272, 4890, 14212,
+      7960, 4892, 31638, 25757, 11156, 9147, 27298, 9132, 8775, 22533, 8774, 6509,
+      7642, 6123, 28209, 11154, 28362, 11155, 20962, 34717, 20963, 17675, 33325, 29573,
+      29575, 29576, 29577, 29578, 37338, 40662, 35749, 40663, 35946, 36185, 42288,
+      36186, 20100, 42289, 46968, 7635, 49156, 46538, 42501, 42502, 49158, 46550,
+      42503, 43396, 43397, 46552, 46783, 47280]
+    comments: ''
+    created: 2001-01-10 16:15:55
+    description: ''
+    name: Chassis
+    sortorder: 10
+    updated: 2001-01-10 16:15:55
+    usage_notes: ''
+  model: products.option
+  pk: 9
+- fields:
+    blurb: ''
+    choices: [30, 33768, 33769, 38548, 38546, 38547, 38549, 38289, 41387, 38295, 38293,
+      38294, 38297, 41388, 38292, 38296, 41389, 43958, 36352, 36351, 36353, 21980,
+      49248, 47767, 42580, 42581, 42584, 42586, 42588, 35487]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Base System
+    sortorder: 10
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 18849
+- fields:
+    blurb: ''
+    choices: [38544, 47107, 22535, 22547]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Display
+    sortorder: 11
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 19257
+- fields:
+    blurb: ''
+    choices: [30, 18007, 40998, 16854]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Modifications
+    sortorder: 11
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 16853
+- fields:
+    blurb: ''
+    choices: [30, 38804, 38802, 38803, 40990, 40989, 21193, 21192]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Power Supply
+    sortorder: 11
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 21194
+- fields:
+    blurb: ''
+    choices: [30, 24261, 24262, 24260]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Additional SD Accessories
+    sortorder: 18
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 21985
+- fields:
+    blurb: ''
+    choices: [30, 21998, 21971, 22001]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: CompactFlash Accessories
+    sortorder: 19
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 21972
+- fields:
+    blurb: ''
+    choices: [30, 21998, 21971, 22001]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Additional CF Accessories
+    sortorder: 20
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 21984
+- fields:
+    blurb: ''
+    choices: [7440, 7753, 1, 31145, 32488, 22571, 16655, 15996, 14168, 14173, 16656,
+      14172, 4077, 4078, 4081, 9899, 5286, 5287, 12296, 17419, 17418, 22599, 6310,
+      6306, 6307, 6309, 6308, 6303, 6305, 1203, 2, 1202, 16020, 1204, 14737, 1201,
+      4030, 4033, 4032, 4028, 4031, 14756, 16022, 16021, 4027, 4029, 4024, 4023, 4021,
+      4025, 4022, 4020, 4026, 11912, 16023, 13428, 6269, 6271, 6273, 6268, 6270, 6272,
+      7636, 31143, 31002, 47724, 47725]
+    comments: ''
+    created: 2001-01-10 16:14:35
+    description: ''
+    name: Processor and Motherboard
+    sortorder: 21
+    updated: 2001-01-10 16:14:35
+    usage_notes: ''
+  model: products.option
+  pk: 1
+- fields:
+    blurb: ''
+    choices: [30, 40372, 33984, 35750, 35977, 46539, 46551, 46553, 49155, 47650, 31218,
+      16531, 26383, 16530, 17674, 17989, 16847, 14670, 8018, 21215, 12449, 12448,
+      9781, 11599, 22607, 15926, 7323, 6516, 7964, 23204, 12316, 31201, 31661, 7622,
+      28381, 12471, 6989, 11598, 35343, 11600, 41862, 9610, 28928, 6988, 28087, 6519,
+      31171, 7938, 28681, 33239, 14091, 43627, 34722, 8017, 6517, 7963, 11104, 26043,
+      6518, 31589, 6990, 8922, 6974, 31202, 14201, 31176, 36569, 37136, 32641, 33167,
+      37294, 36570, 36571, 33394, 34604, 33557, 37099, 41852, 41839, 41841, 35039,
+      35040, 36583, 36189, 36831, 40232, 42290, 44172, 44438, 48172, 43395, 42500,
+      46969, 40923, 40922, 41324, 41323, 47281]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Motherboard
+    sortorder: 30
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 6520
+- fields:
+    blurb: ''
+    choices: [30, 46422, 46423, 46425, 46541, 46544, 46546, 46540, 46542, 46545, 48733,
+      48734, 48735, 47646, 47647, 47648, 46547, 46548, 46549, 48736, 48737, 48738,
+      26530, 4077, 37100, 37101, 39108, 32643, 32902, 34805, 34810, 34806, 34807,
+      34808, 34809, 34820, 34818, 31586, 31587, 31584, 31583, 31588, 34750, 31585,
+      40365, 25839, 25838, 41855, 34728, 41854, 34726, 41853, 41906, 34723, 47576,
+      28962, 28961, 28960, 31628, 42499, 42493, 42492, 42494, 42498, 42497, 42496,
+      42495, 10479, 46403, 9616, 10480, 9613, 10478, 11054, 10448, 12287, 15993, 16657,
+      16658, 17407, 22565, 22564, 9868, 9867, 10456, 10457, 10458, 11329, 12289, 14768,
+      20135, 22576, 15994, 9527, 7618, 10459, 10460, 10461, 11326, 12288, 15995, 14769,
+      20136, 22577, 6570, 6571, 17415, 9115, 13467, 6569, 6568, 6574, 6573, 6572,
+      13301, 12609, 13303, 13430, 11620, 6862, 6861, 6860, 13383, 13384, 13385, 13429,
+      8919, 10572, 10570, 10574, 8926, 8920, 10568, 12474, 16019, 18001, 17953, 28685,
+      27692, 23813, 33247, 17957, 17951, 17952, 17956, 17958, 17960, 17959, 17961,
+      25446, 25447, 25445, 25449, 25448, 16380, 16381, 16383, 16384, 22119, 16385,
+      18354, 17676, 28560, 25223, 17681, 30849, 31173, 30850, 23192, 23191, 26545,
+      27435, 31295, 23914, 23193, 31452, 35408, 35409, 35404, 35407, 35403, 35406,
+      35400, 35405, 39070, 39071, 39072, 39073, 39200, 39202, 39204, 39206, 39208,
+      39210, 17413, 22594, 33237, 22595, 13468, 36030, 36031, 36032, 36033, 36034,
+      36035, 36036, 36037, 36038, 36039, 36040, 36041, 39201, 39211, 39203, 39205,
+      39207, 39209, 35755, 35756, 35757, 35758, 35759, 37145, 39150, 39151, 39152,
+      43391, 33390, 33389, 43392, 33391, 43628, 39113, 39114, 43163, 45136, 33393,
+      41332, 43393, 44032, 33392, 44033, 43394, 45044, 44034, 45045, 44035, 44036,
+      47106, 40367, 40366, 38561, 38562, 38563, 38564, 38565, 38567, 48227, 48228,
+      48229, 48230, 48232, 48233, 35435, 36389, 33158, 35436, 33159, 39145, 39042,
+      35438, 39048, 39043, 39044, 35204, 39046, 40238, 48185, 48186, 48187, 48189,
+      47278, 47283, 47284, 47286, 47287, 47289, 47290, 47288, 47285, 48819, 48821,
+      48823, 48824, 48825, 48826, 48827, 48828, 48830, 48831, 48832, 48833, 48834,
+      48835, 48837, 48838, 48840, 48842, 48844, 48845, 48847, 48849, 48850, 48851,
+      48852, 48853, 48854, 48855, 48856, 48857, 35490]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Processor
+    sortorder: 40
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 6564
+- fields:
+    blurb: ''
+    choices: [46541, 46544, 46540, 46542, 48733, 48734, 47646, 47647, 48736, 48737,
+      47682]
+    comments: ''
+    created: 2011-01-03 00:00:00
+    description: ''
+    name: Processor - AMD
+    sortorder: 41
+    updated: 2011-01-03 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 47678
+- fields:
+    blurb: ''
+    choices: [30, 41404, 41403, 41484, 41483, 46428, 46429, 46430, 7637, 16, 17, 18,
+      1027, 6740, 1028, 7337, 7332, 30839, 30840, 30841, 4874, 4875, 4876, 4877, 11921,
+      4878, 6867, 7333, 13424, 13423, 7018, 7017, 11946, 7016, 7338, 7331, 11947,
+      11948, 11950, 11951, 11952, 5290, 31240, 31241, 5291, 5292, 5293, 7449, 12332,
+      6264, 6265, 6266, 6267, 11622, 11624, 11630, 11625, 11626, 11627, 11628, 11629,
+      13435, 17848, 28793, 17771, 22143, 16536, 16537, 13641, 13642, 13643, 13644,
+      13645, 13646, 13647, 18845, 18846, 22540, 18847, 27337, 27339, 27336, 32382,
+      32383, 32390, 32392, 37260, 37261, 37262, 37263, 37265, 37266]
+    comments: ''
+    created: 2001-01-10 16:15:23
+    description: ''
+    name: Memory
+    sortorder: 41
+    updated: 2001-01-10 16:15:23
+    usage_notes: ''
+  model: products.option
+  pk: 5
+- fields:
+    blurb: ''
+    choices: [36032, 36033, 36034, 36035, 36036, 36037, 36038, 36039, 36040, 36041,
+      36018, 33328, 33329, 36019, 36021, 36022, 36024, 36025, 36027, 36028]
+    comments: ''
+    created: 2006-01-24 20:00:16
+    description: ''
+    name: Processor (node 1)
+    sortorder: 41
+    updated: 2006-01-24 20:00:16
+    usage_notes: ''
+  model: products.option
+  pk: 36042
+- fields:
+    blurb: ''
+    choices: [42497, 42496, 47630, 47629, 47631, 47632, 47633, 47634, 47635, 47636,
+      47637, 47638, 47681]
+    comments: ''
+    created: 2011-01-03 00:00:00
+    description: ''
+    name: Processor - Intel
+    sortorder: 42
+    updated: 2011-01-03 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 47679
+- fields:
+    blurb: ''
+    choices: [5291, 5292, 5293]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Memory (2)
+    sortorder: 42
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 31015
+- fields:
+    blurb: ''
+    choices: [36032, 36033, 36034, 36035, 36036, 36037, 36038, 36039, 36040, 36041,
+      36018, 33328, 33329, 36019, 36021, 36022, 36024, 36025, 36027, 36028]
+    comments: ''
+    created: 2006-01-24 20:00:16
+    description: ''
+    name: Processor (node 2)
+    sortorder: 42
+    updated: 2006-01-24 20:00:16
+    usage_notes: ''
+  model: products.option
+  pk: 36043
+- fields:
+    blurb: ''
+    choices: [41336, 41335, 41334]
+    comments: ''
+    created: 2008-12-01 12:17:45.756311
+    description: ''
+    name: CPU Cooler
+    sortorder: 43
+    updated: 2008-12-01 12:17:45.756311
+    usage_notes: ''
+  model: products.option
+  pk: 41333
+- fields:
+    blurb: ''
+    choices: [30, 5292, 5293, 7449, 12332, 39132, 38571, 38616, 38577, 32382, 32383,
+      32384, 32385, 32386, 32387, 32388, 32389, 32390, 32391, 32392, 36721, 32393,
+      32394, 32396, 32397, 32398, 38994, 33170, 33169, 33171, 33172, 36619, 36291,
+      33173, 33174, 33175, 36572, 36573, 33176, 36289, 43401, 35221, 35222, 43402,
+      43403, 35223, 36586, 35728, 35729, 35730, 35731, 35732, 37260, 37261, 37262,
+      37263, 37265, 37266]
+    comments: ''
+    created: 2006-01-24 20:00:16
+    description: ''
+    name: Memory DDR2
+    sortorder: 43
+    updated: 2006-01-24 20:00:16
+    usage_notes: ''
+  model: products.option
+  pk: 32399
+- fields:
+    blurb: ''
+    choices: [35727, 35728, 35729, 35730, 35731]
+    comments: ''
+    created: 2006-01-24 20:00:16
+    description: ''
+    name: Memory DDR2 (node 1)
+    sortorder: 44
+    updated: 2006-01-24 20:00:16
+    usage_notes: ''
+  model: products.option
+  pk: 36065
+- fields:
+    blurb: ''
+    choices: [35727, 35728, 35729, 35730, 35731]
+    comments: ''
+    created: 2006-01-24 20:00:16
+    description: ''
+    name: Memory DDR2 (node 2)
+    sortorder: 45
+    updated: 2006-01-24 20:00:16
+    usage_notes: ''
+  model: products.option
+  pk: 36066
+- fields:
+    blurb: ''
+    choices: [30, 41286, 41287, 41292, 41295, 41298, 47275, 41353, 41290, 41291, 41294,
+      41297, 41300, 41355, 43632, 43633, 43634, 43635, 43636, 47109, 47110, 47111,
+      43793, 43794, 43795, 43796, 43797, 43798, 46560, 46561, 46562, 46563]
+    comments: ''
+    created: 2008-11-30 14:37:37.631822
+    description: ''
+    name: Memory DDR3
+    sortorder: 46
+    updated: 2008-11-30 14:37:37.631822
+    usage_notes: ''
+  model: products.option
+  pk: 41285
+- fields:
+    blurb: ''
+    choices: [30, 4667, 39344, 39345, 47573, 40938, 40022, 40937, 47613, 46797, 46795,
+      7714, 20841, 9783, 43640, 8931, 43639, 35084, 40935, 35083, 26380, 39324, 36829,
+      43638, 9785, 26379, 43637, 11122, 40936, 12445, 41310, 21365, 21366]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Video card
+    sortorder: 50
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 7661
+- fields:
+    blurb: ''
+    choices: [30, 4667, 11136, 40235, 36830, 32874, 37093, 9886, 32879, 9887, 9885]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Audio
+    sortorder: 51
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 9892
+- fields:
+    blurb: ''
+    choices: [30, 38788, 40679, 38787, 40681, 41500, 40680, 41499]
+    comments: ''
+    created: 2008-11-21 06:43:07.541536
+    description: ''
+    name: External Audio
+    sortorder: 52
+    updated: 2008-11-21 06:43:07.541536
+    usage_notes: ''
+  model: products.option
+  pk: 40685
+- fields:
+    blurb: ''
+    choices: [30, 4283, 9, 5676, 1016, 35176, 36425, 36426, 10, 36427, 36428, 36429,
+      36430, 36431, 39315, 39316, 39317, 42847, 42848, 32407, 32411, 32414, 32415,
+      36230, 41970, 39338, 47365, 9906, 9905, 9907, 6725, 9904, 4, 5, 6, 6868, 11077,
+      16875, 15545, 23758, 31479, 16876, 9153, 3, 7, 8]
+    comments: ''
+    created: 2001-01-10 16:15:08
+    description: ''
+    name: 3.5 inch Bay
+    sortorder: 60
+    updated: 2001-01-10 16:15:08
+    usage_notes: ''
+  model: products.option
+  pk: 3
+- fields:
+    blurb: ''
+    choices: [30, 9, 5676]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Slim 3.5 inch Bay
+    sortorder: 61
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 18820
+- fields:
+    blurb: ''
+    choices: [30, 9, 1016, 35176, 10, 39315, 39316, 39317, 42847, 42848, 32414, 32415,
+      36230, 41970, 39338, 47365, 27251, 27254, 29829, 28749, 33019, 33409, 4, 5,
+      6, 6868, 11077, 16875, 15545, 31479, 16876, 9153, 27252, 3, 7, 8]
+    comments: ''
+    created: 2001-03-07 11:49:20
+    description: ''
+    name: 2nd 3.5 inch Bay - 2u
+    sortorder: 70
+    updated: 2001-03-07 11:49:20
+    usage_notes: ''
+  model: products.option
+  pk: 2763
+- fields:
+    blurb: ''
+    choices: [30, 9, 36425, 36426, 35176, 36427, 36428, 36429, 36430, 36431, 39315,
+      39316, 39317, 42847, 42848, 32411, 32414, 32415, 36230, 41970, 39338, 47365]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: 3.5 inch Bay 2
+    sortorder: 75
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 12964
+- fields:
+    blurb: ''
+    choices: [30, 40947, 40946, 40371, 4663, 37079, 37016, 37211, 43641, 32904, 19663,
+      13113, 32796, 32072, 10509, 16858, 7344, 15, 7345, 5818, 34217, 34218, 37201,
+      37202, 36540, 36541, 39315, 39316, 39317, 42847, 42848, 32414, 32415, 36230,
+      41970, 39338, 47365, 29829, 28749, 33019, 33409, 9906, 9905, 9907, 6725, 9904,
+      4, 5, 6, 6868, 11077, 16875, 15545, 31479, 16876, 9153, 27252, 3, 7, 8, 13114]
+    comments: ''
+    created: 2001-01-10 16:15:16
+    description: ''
+    name: 5.25 inch Bay
+    sortorder: 80
+    updated: 2001-01-10 16:15:16
+    usage_notes: ''
+  model: products.option
+  pk: 4
+- fields:
+    blurb: ''
+    choices: [30, 40947, 40946, 37016, 43641, 19663, 13113, 16859, 7344, 15, 7345,
+      5818, 34217, 34218, 36540, 36541, 39315, 39316, 39317, 42847, 42848, 32411,
+      32414, 32415, 36230, 41970, 39338, 47365, 13114]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: 5.25 inch Bay 2
+    sortorder: 81
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 9301
+- fields:
+    blurb: ''
+    choices: [30, 40946, 40947, 37016, 43641, 19663, 13113, 7344, 15, 7345, 5818,
+      34217, 34218, 36540, 36541, 39315, 39316, 39317, 42847, 42848, 32411, 32414,
+      32415, 36230, 41970, 39338, 47365]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: 5.25 inch Bay 3
+    sortorder: 82
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 9302
+- fields:
+    blurb: ''
+    choices: [30, 40947, 40946, 37016, 43641, 19663, 7344, 15, 7345, 5818, 34217,
+      34218]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: 5.25 inch Bay 4
+    sortorder: 83
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 9303
+- fields:
+    blurb: ''
+    choices: [30, 38767, 38765, 38771, 46418, 46420, 38746, 38747, 38752, 18821, 34733,
+      18822, 25842, 25843, 22537, 22536, 35812, 4663, 34644, 44729, 19247, 10509]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Slim CD Bay
+    sortorder: 90
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 4318
+- fields:
+    blurb: ''
+    choices: [30, 15805, 11584, 8874, 11960, 9284, 9285, 9286, 9281, 37122, 37119,
+      23551, 37118, 13894, 46996, 16576, 49249, 20815, 46983, 49250, 48376]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: HD Controller -RAID
+    sortorder: 98
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 8872
+- fields:
+    blurb: ''
+    choices: [30, 9279, 9280, 11961, 11962, 11963, 11964, 37132]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: RAID Configuration
+    sortorder: 99
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 11959
+- fields:
+    blurb: ''
+    choices: [30, 46436, 46437, 47112, 39315, 39316, 39317, 42847, 42848, 46371, 46372,
+      48784, 25363, 32407, 32411, 32412, 32413, 32414, 38320, 32415, 36230, 41970,
+      39338, 47365, 27251, 27250, 27253, 27254, 29829, 28749, 33019, 33409, 36580,
+      32936, 32937, 33021, 33491, 11586, 8929, 11795, 11563, 24256, 18851, 33077,
+      33075, 33074, 38703, 33073, 9906, 9905, 9907, 6725, 9904, 4, 5, 6, 6868, 11077,
+      16875, 15545, 23758, 31479, 16876, 9153, 4674, 4675, 4676, 4678, 4679, 33076,
+      27252, 35480, 35481, 1305, 3, 7, 8]
+    comments: ''
+    created: 2001-01-10 16:14:45
+    description: ''
+    name: Internal HD Bay
+    sortorder: 100
+    updated: 2001-01-10 16:14:45
+    usage_notes: ''
+  model: products.option
+  pk: 2
+- fields:
+    blurb: ''
+    choices: [30, 41407, 41408, 41409, 41410]
+    comments: ''
+    created: 2008-12-23 12:27:40.589354
+    description: ''
+    name: External USB Optical Drive
+    sortorder: 100
+    updated: 2008-12-23 12:27:40.589354
+    usage_notes: ''
+  model: products.option
+  pk: 41393
+- fields:
+    blurb: ''
+    choices: [36230, 39338, 27251, 27250, 27253, 27254, 29829, 28749, 15545]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Internal HD Bay 1
+    sortorder: 105
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 20071
+- fields:
+    blurb: ''
+    choices: [30, 39315, 39316, 39317, 42847, 42848, 46371, 46372, 48784, 32407, 32411,
+      32414, 32415, 36230, 41970, 39338, 47365, 27251, 27250, 27253, 27254, 29829,
+      28749, 33019, 33409, 9905, 9907, 9904, 4, 5, 6, 6868, 11077, 16875, 15545, 23758,
+      31479, 16876, 9153, 27252, 3, 7, 8]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Internal HD Bay 2
+    sortorder: 110
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 6730
+- fields:
+    blurb: ''
+    choices: [30, 39315, 39316, 39317, 42847, 42848, 46371, 46372, 48784, 32407, 32411,
+      32414, 32415, 36230, 41970, 39338, 47365, 27251, 27254, 29829, 28749, 33019,
+      33409, 9905, 9907, 9904, 6, 6868, 11077, 16875, 15545, 23758, 31479, 16876,
+      9153, 27252]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Internal HD Bay 3
+    sortorder: 111
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 9150
+- fields:
+    blurb: ''
+    choices: [30, 39315, 39316, 39317, 42847, 42848, 46371, 46372, 48784, 32407, 32411,
+      32414, 32415, 36230, 41970, 39338, 47365, 27251, 27254, 29829, 28749, 33019,
+      33409, 9906, 9907, 6, 6868, 11077, 16875, 15545, 23758, 31479, 16876, 9153,
+      27252]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Internal HD Bay 4
+    sortorder: 112
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 9151
+- fields:
+    blurb: ''
+    choices: [30, 43757, 43758, 43759]
+    comments: ''
+    created: 2009-07-14 08:33:38.827504
+    description: ''
+    name: External Storage
+    sortorder: 115
+    updated: 2009-07-14 08:33:38.827504
+    usage_notes: ''
+  model: products.option
+  pk: 43756
+- fields:
+    blurb: ''
+    choices: [30, 47131]
+    comments: ''
+    created: 2010-09-09 19:00:34.617188
+    description: ''
+    name: Bluetooth
+    sortorder: 118
+    updated: 2010-09-09 19:00:34.617188
+    usage_notes: ''
+  model: products.option
+  pk: 47132
+- fields:
+    blurb: ''
+    choices: [30, 47129]
+    comments: ''
+    created: 2010-09-09 18:54:36.843081
+    description: ''
+    name: Camera
+    sortorder: 119
+    updated: 2010-09-09 18:54:36.843081
+    usage_notes: ''
+  model: products.option
+  pk: 47126
+- fields:
+    blurb: ''
+    choices: [43970, 43968, 47117, 47119, 47121]
+    comments: ''
+    created: 2009-10-23 16:26:10.926955
+    description: ''
+    name: Battery
+    sortorder: 120
+    updated: 2009-10-23 16:26:10.926955
+    usage_notes: ''
+  model: products.option
+  pk: 43969
+- fields:
+    blurb: ''
+    choices: [30, 40524, 32411, 29833, 33022, 33502, 37185, 41972, 39340, 47530, 40504,
+      40507, 40508, 40509, 41976, 40510, 47531, 29854, 33024, 33503, 37323, 41973,
+      39341, 47532, 26681, 33023, 34896, 37324, 41974, 39342, 47533, 29807, 33025,
+      34898, 37325, 41975, 39343, 47534, 42299, 42297, 42296, 42295, 42293, 42294,
+      47535, 23438, 23437, 23440, 23759, 31481, 23441, 23439, 15538, 15535, 15496,
+      15497, 15936, 23760, 16964, 46971, 46972, 46970, 47070, 47071, 47072, 49308,
+      49309, 49314, 49310, 49312, 40511, 40512, 37222, 40520, 37221]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Removable Hard Drives
+    sortorder: 199
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 15495
+- fields:
+    blurb: ''
+    choices: [27251, 26684, 26682, 26681]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Removable SATA HD 1
+    sortorder: 199
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 26686
+- fields:
+    blurb: ''
+    choices: []
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Removable SATA HD 2
+    sortorder: 200
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 26685
+- fields:
+    blurb: ''
+    choices: [30, 26681, 33023, 34896, 37324, 41974, 39342, 47533, 29807, 33025, 34898,
+      37325, 41975, 39343, 47534, 42299, 42297, 42296, 42295, 42293, 42294, 47535,
+      23438, 23437, 23440, 23759, 46971, 46972, 46970, 47070, 47071, 47072, 49309,
+      49314, 49312]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Removable Hard Drives 2
+    sortorder: 200
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 27428
+- fields:
+    blurb: ''
+    choices: [30, 39315, 39316, 39317, 42847, 42848, 46371, 46372, 48784, 32407, 32411,
+      32414, 32415, 36230, 41970, 39338, 47365, 27251, 27250, 27253, 27254, 29829,
+      28749, 33019, 33409, 9905, 9907, 6725, 9904, 13402, 4, 5, 6, 6868, 11077, 16875,
+      15545, 31479, 16876, 9153, 4674, 4675, 4678, 4679, 4680, 4681, 4682, 4683, 4684,
+      12790, 12796, 12797, 30700, 30701, 27252, 3, 7, 8]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Removable HD Bay 1
+    sortorder: 200
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 4267
+- fields:
+    blurb: ''
+    choices: [30, 46971, 46972, 47070, 47071, 49307, 49308, 49309, 49314, 49310]
+    comments: ''
+    created: 2010-06-17 14:05:54.863431
+    description: ''
+    name: Removable Hard Drives 3
+    sortorder: 201
+    updated: 2010-06-17 14:05:54.863431
+    usage_notes: ''
+  model: products.option
+  pk: 46973
+- fields:
+    blurb: ''
+    choices: [30, 39315, 39316, 39317, 42847, 42848, 46371, 46372, 48784, 32407, 32411,
+      32414, 32415, 36230, 41970, 39338, 47365, 27251, 27250, 27253, 27254, 29829,
+      28749, 33019, 33409, 9905, 9907, 6725, 9904, 13402, 4, 5, 6, 6868, 11077, 16875,
+      15545, 31479, 16876, 9153, 4674, 4675, 4678, 4679, 4680, 4681, 4682, 4683, 4684,
+      12790, 12795, 12796, 12797, 30700, 30701, 27252, 3, 7, 8]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Removable HD Bay 2
+    sortorder: 210
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 4285
+- fields:
+    blurb: ''
+    choices: [30, 39315, 39316, 39317, 42847, 42848, 46371, 46372, 48784, 32407, 32411,
+      32414, 32415, 36230, 41970, 39338, 47365, 27251, 27250, 27253, 27254, 29829,
+      28749, 33019, 33409, 9905, 9907, 6725, 9904, 13402, 4, 5, 6, 6868, 11077, 16875,
+      15545, 31479, 16876, 9153, 4674, 4675, 4678, 4679, 4680, 4682, 4683, 4684, 12790,
+      12795, 12796, 12797, 30700, 30701, 27252, 3, 7, 8]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Removable HD Bay 3
+    sortorder: 220
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 6835
+- fields:
+    blurb: ''
+    choices: [30, 39315, 39316, 39317, 42847, 42848, 32407, 32411, 32414, 32415, 36230,
+      41970, 39338, 47365, 27251, 27250, 27253, 27254, 29829, 28749, 33019, 33409,
+      9905, 9907, 6725, 9904, 13402, 4, 6, 6868, 11077, 16875, 15545, 16876, 9153,
+      4674, 4675, 4678, 4679, 4682, 4683, 4684, 30700, 30701, 27252, 7, 8]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Removable HD Bay 4
+    sortorder: 230
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 7649
+- fields:
+    blurb: ''
+    choices: [30, 39315, 39316, 39317, 42847, 42848, 32407, 32411, 32414, 32415, 36230,
+      41970, 39338, 47365, 27251, 27250, 27253, 27254, 29829, 28749, 33019, 33409,
+      9905, 9907, 6725, 9904, 13402, 4, 5, 6, 6868, 11077, 16875, 15545, 16876, 9153,
+      4674, 4675, 4678, 4679, 4682, 4683, 4684, 30700, 30701, 27252, 7, 8]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Removable HD Bay 5
+    sortorder: 240
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 6836
+- fields:
+    blurb: ''
+    choices: [30, 39315, 39316, 39317, 42847, 42848, 32407, 32411, 32414, 32415, 36230,
+      41970, 39338, 47365, 27251, 27250, 27253, 27254, 29829, 28749, 33019, 33409,
+      9905, 9907, 6725, 9904, 13402, 4, 6, 6868, 11077, 16875, 15545, 23758, 16876,
+      9153, 4674, 4675, 4678, 4679, 4682, 4683, 4684, 30700, 30701, 27252, 7, 8]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Removable HD Bay 6
+    sortorder: 250
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 7650
+- fields:
+    blurb: ''
+    choices: [30, 7344, 7345, 32411, 32414, 32415, 36230, 41970, 39338, 47365, 27251,
+      27254, 29829, 28749, 33019, 33409, 13402, 6, 6868, 11077, 16875, 15545, 16876,
+      9153, 4684, 27252, 7, 8]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Removable HD Bay 7
+    sortorder: 260
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 7651
+- fields:
+    blurb: ''
+    choices: [30, 32411, 32414, 32415, 36230, 41970, 39338, 47365, 27251, 27254, 29829,
+      28749, 33019, 33409, 13402, 6, 6868, 11077, 16875, 15545, 16876, 9153, 4684,
+      27252, 7, 8]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Removable HD Bay 8
+    sortorder: 270
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 7652
+- fields:
+    blurb: ''
+    choices: [30, 39315, 39316, 39317, 42847, 42848, 32411, 32414, 32415, 36230, 41970,
+      39338, 4, 6, 6868, 11077, 16875, 15545, 23758, 16876, 9153, 4684, 7, 8]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Removable HD Bay 9
+    sortorder: 280
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 8864
+- fields:
+    blurb: ''
+    choices: [30, 37233, 39315, 39316, 39317, 42847, 42848, 32411, 32414, 32415, 36230,
+      41970, 39338, 47365, 42305, 42303, 42302, 42301, 41971, 39339, 47529]
+    comments: ''
+    created: 2006-01-24 20:00:16
+    description: ''
+    name: OS Drive
+    sortorder: 290
+    updated: 2006-01-24 20:00:16
+    usage_notes: ''
+  model: products.option
+  pk: 37335
+- fields:
+    blurb: ''
+    choices: [30, 4667, 4872, 9015]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: NIC1
+    sortorder: 300
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 4664
+- fields:
+    blurb: ''
+    choices: [30, 4667, 4872, 19, 21, 20, 22]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: NIC2
+    sortorder: 310
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 4665
+- fields:
+    blurb: ''
+    choices: [30, 4667]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: SCSI
+    sortorder: 500
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 4666
+- fields:
+    blurb: ''
+    choices: [30, 16862, 21988]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Cables
+    sortorder: 500
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 16863
+- fields:
+    blurb: ''
+    choices: [30, 4674, 4675, 4676, 4677, 4678, 4679, 21687, 4680, 4681, 4682, 4683,
+      4684, 4685, 12790, 12795, 12796, 12797]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: SCSI Drive 1
+    sortorder: 510
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 4686
+- fields:
+    blurb: ''
+    choices: [30, 4674, 4675, 4676, 4677, 4678, 21687, 4679, 4680, 4681, 4682, 4683,
+      4684, 4685, 12790, 12795, 12796, 12797]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: SCSI Drive 2
+    sortorder: 520
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 4687
+- fields:
+    blurb: ''
+    choices: [30, 4674, 4675, 4676, 4677, 4678, 21687, 4679, 4680, 4681, 4682, 4683,
+      4684, 4685, 12790, 12795, 12796, 12797]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: SCSI Drive 3
+    sortorder: 530
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 4688
+- fields:
+    blurb: ''
+    choices: [30, 4674, 4675, 4676, 4677, 4678, 4679, 21687, 4680, 4681, 4682, 4683,
+      4684, 4685, 12790, 12795, 12796, 12797]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: SCSI Drive 4
+    sortorder: 540
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 5097
+- fields:
+    blurb: ''
+    choices: [30, 4674, 4675, 4676, 4677, 4678, 4679, 21687, 4680, 4681, 4682, 4683,
+      4684, 4685]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: SCSI Drive 5
+    sortorder: 550
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 5098
+- fields:
+    blurb: ''
+    choices: [30, 4674, 4675, 4676, 4677, 4678, 21687, 4679, 4680, 4681, 4682, 4683,
+      4684, 4685]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: SCSI Drive 6
+    sortorder: 560
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 5099
+- fields:
+    blurb: ''
+    choices: [30, 21687, 4679, 4680, 4683, 4684]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: SCSI Drive 7
+    sortorder: 561
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 20773
+- fields:
+    blurb: ''
+    choices: [30, 4679, 21687, 4680, 4683, 4684]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: SCSI Drive 8
+    sortorder: 562
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 20774
+- fields:
+    blurb: ''
+    choices: [30, 36521, 19, 13341, 13368, 13655, 13884, 13369, 31497, 15527, 36914,
+      37085, 27104, 30488]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Low Profile PCI
+    sortorder: 570
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 13317
+- fields:
+    blurb: ''
+    choices: [30, 36521, 19, 36914, 37085]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Low Profile PCI 2
+    sortorder: 571
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 13318
+- fields:
+    blurb: ''
+    choices: []
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Low Profile PCI 3
+    sortorder: 572
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 13319
+- fields:
+    blurb: ''
+    choices: [30, 36108]
+    comments: ''
+    created: 2006-01-24 20:00:16
+    description: ''
+    name: Low Profile PCI Slot (node 1)
+    sortorder: 573
+    updated: 2006-01-24 20:00:16
+    usage_notes: ''
+  model: products.option
+  pk: 36100
+- fields:
+    blurb: ''
+    choices: [30, 36108]
+    comments: ''
+    created: 2006-01-24 20:00:16
+    description: ''
+    name: Low Profile PCI Slot (node 2)
+    sortorder: 574
+    updated: 2006-01-24 20:00:16
+    usage_notes: ''
+  model: products.option
+  pk: 36101
+- fields:
+    blurb: ''
+    choices: [30, 46799, 46798, 47580, 47581, 37086]
+    comments: ''
+    created: 2006-01-24 20:00:16
+    description: ''
+    name: Low Profile PCI-e
+    sortorder: 575
+    updated: 2006-01-24 20:00:16
+    usage_notes: ''
+  model: products.option
+  pk: 37090
+- fields:
+    blurb: ''
+    choices: [30, 38795, 22538, 27451, 21204, 21205]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Mini PCI Slot
+    sortorder: 601
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 21202
+- fields:
+    blurb: ''
+    choices: [30, 39315, 39316, 39317, 42847, 42848, 32407, 32411, 32414, 32415, 36230,
+      48240, 41970, 39338, 47365]
+    comments: ''
+    created: 2006-01-24 20:00:16
+    description: ''
+    name: SATA II HD 1
+    sortorder: 604
+    updated: 2006-01-24 20:00:16
+    usage_notes: ''
+  model: products.option
+  pk: 32416
+- fields:
+    blurb: ''
+    choices: [30, 39315, 39316, 39317, 42847, 42848, 32411, 32414, 32415, 36230, 41970,
+      39338, 47365, 9905, 9907, 6, 6868, 11077, 16875, 15545, 16876]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: SATA II HD 2 - Alt Chassis only
+    sortorder: 605
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 17130
+- fields:
+    blurb: ''
+    choices: [30, 39315, 39316, 39317, 42847, 42848, 32407, 32411, 32414, 32415, 36230,
+      41970, 39338, 47365]
+    comments: ''
+    created: 2006-01-24 20:00:16
+    description: ''
+    name: SATA II HD 2
+    sortorder: 605
+    updated: 2006-01-24 20:00:16
+    usage_notes: ''
+  model: products.option
+  pk: 32417
+- fields:
+    blurb: ''
+    choices: [30, 39315, 39316, 39317, 42847, 42848, 32407, 32411, 32414, 32415, 36230,
+      41970, 39338, 47365]
+    comments: ''
+    created: 2006-01-24 20:00:16
+    description: ''
+    name: SATA II HD 3
+    sortorder: 606
+    updated: 2006-01-24 20:00:16
+    usage_notes: ''
+  model: products.option
+  pk: 33097
+- fields:
+    blurb: ''
+    choices: [30, 39315, 39316, 39317, 42847, 42848, 32407, 32411, 32414, 32415, 36230,
+      41970, 39338, 47365]
+    comments: ''
+    created: 2006-01-24 20:00:16
+    description: ''
+    name: SATA II HD 4
+    sortorder: 607
+    updated: 2006-01-24 20:00:16
+    usage_notes: ''
+  model: products.option
+  pk: 33098
+- fields:
+    blurb: ''
+    choices: [30, 49262, 49263, 49264, 49265, 49266, 49267, 49268, 49269, 49270, 49271,
+      49272, 49273, 49274, 49275, 49276, 49277, 49278, 49279, 49281, 49282, 42305,
+      42303, 42302, 42301, 29804, 41971, 39339, 47529, 49251, 49252, 49253, 49254,
+      49255, 49256, 49257, 49258, 33076, 49259, 49260]
+    comments: ''
+    created: 2011-03-24 10:11:33.905176
+    description: ''
+    name: SATA Drives
+    sortorder: 607
+    updated: 2011-03-24 10:11:33.905176
+    usage_notes: ''
+  model: products.option
+  pk: 48263
+- fields:
+    blurb: ''
+    choices: [39315, 39316, 39317, 42847, 42848, 32411, 32414, 32415, 36230, 41970,
+      39338, 47365]
+    comments: ''
+    created: 2006-01-24 20:00:16
+    description: ''
+    name: 'Removable Drive 1 (node 1) '
+    sortorder: 608
+    updated: 2006-01-24 20:00:16
+    usage_notes: ''
+  model: products.option
+  pk: 36067
+- fields:
+    blurb: ''
+    choices: [30, 39315, 39316, 39317, 42847, 42848, 32411, 32414, 32415, 36230, 41970,
+      39338, 47365]
+    comments: ''
+    created: 2006-01-24 20:00:16
+    description: ''
+    name: Removable Drive 2 (node 1)
+    sortorder: 609
+    updated: 2006-01-24 20:00:16
+    usage_notes: ''
+  model: products.option
+  pk: 36068
+- fields:
+    blurb: ''
+    choices: [39315, 39316, 39317, 42847, 42848, 32411, 32414, 32415, 36230, 41970,
+      39338, 47365]
+    comments: ''
+    created: 2006-01-24 20:00:16
+    description: ''
+    name: Removable Drive 1 (node 2)
+    sortorder: 610
+    updated: 2006-01-24 20:00:16
+    usage_notes: ''
+  model: products.option
+  pk: 36069
+- fields:
+    blurb: ''
+    choices: [30, 39315, 39316, 39317, 42847, 42848, 32411, 32414, 32415, 36230, 41970,
+      39338, 47365]
+    comments: ''
+    created: 2006-01-24 20:00:16
+    description: ''
+    name: Removable Drive 2 (node 2)
+    sortorder: 611
+    updated: 2006-01-24 20:00:16
+    usage_notes: ''
+  model: products.option
+  pk: 36070
+- fields:
+    blurb: ''
+    choices: [30, 48182, 46371, 46372, 48784, 27251, 27250, 27253, 27254, 29829, 28749,
+      27252, 48173, 48175, 48245, 48244, 48243, 48174, 48242]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: SATA3 Drive 1
+    sortorder: 615
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 23199
+- fields:
+    blurb: ''
+    choices: [30, 48182, 46371, 46372, 48784, 27251, 27250, 27253, 27254, 29829, 28749,
+      27252, 48173, 48175, 48245, 48244, 48243, 48174, 48242]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: SATA3 Drive 2
+    sortorder: 616
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 23200
+- fields:
+    blurb: ''
+    choices: [30, 48182, 46371, 46372, 48784, 27251, 27250, 27253, 27254, 27252, 48173,
+      48175, 48245, 48244, 48243, 48174, 48242]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: SATA3 Drive 3
+    sortorder: 617
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 23201
+- fields:
+    blurb: ''
+    choices: [30, 48182, 46371, 46372, 48784, 48173, 48175, 48245, 48244, 48243, 48174,
+      48242]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: SATA3 Drive 4
+    sortorder: 618
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 23202
+- fields:
+    blurb: ''
+    choices: [30, 48175, 48275, 49198, 49199, 48244, 48243, 48174, 48242, 48806, 49187,
+      48270, 48271, 48272, 48273, 48274, 49195, 49185, 49188, 49190, 49193, 49196,
+      48276, 49189, 49191, 49194, 49197]
+    comments: ''
+    created: 2011-03-24 10:11:05.274992
+    description: ''
+    name: SATA3 Drives
+    sortorder: 619
+    updated: 2011-03-24 10:11:05.274992
+    usage_notes: ''
+  model: products.option
+  pk: 48262
+- fields:
+    blurb: ''
+    choices: []
+    comments: ''
+    created: 2012-02-08 00:00:00
+    description: ''
+    name: Drives
+    sortorder: 620
+    updated: 2012-02-08 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 51825
+- fields:
+    blurb: ''
+    choices: [30, 48236, 48237, 48238, 48234, 48235]
+    comments: ''
+    created: 2011-03-24 09:41:09.313905
+    description: ''
+    name: SAS Drive 1
+    sortorder: 621
+    updated: 2011-03-24 09:41:09.313905
+    usage_notes: ''
+  model: products.option
+  pk: 48260
+- fields:
+    blurb: ''
+    choices: [30, 48236, 48237, 48238, 48292, 49159, 48293, 49162, 48294, 49161, 49165,
+      49168, 49229, 49230, 49231, 49232, 49225, 49227, 49226, 49228, 49233, 49234,
+      49235, 49236, 48234, 48290, 46971, 46972, 48235, 48291, 47070, 47071]
+    comments: ''
+    created: 2011-03-24 09:42:10.328654
+    description: ''
+    name: SAS Drives
+    sortorder: 622
+    updated: 2011-03-24 09:42:10.328654
+    usage_notes: ''
+  model: products.option
+  pk: 48261
+- fields:
+    blurb: ''
+    choices: []
+    comments: ''
+    created: 2012-02-18 00:00:00
+    description: ''
+    name: Modules
+    sortorder: 630
+    updated: 2012-02-18 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 52234
+- fields:
+    blurb: ''
+    choices: []
+    comments: ''
+    created: 2012-05-26 00:00:00
+    description: ''
+    name: Network
+    sortorder: 630
+    updated: 2012-05-26 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 53859
+- fields:
+    blurb: ''
+    choices: [30, 36522, 21, 19, 36521, 48397, 48398, 48396, 20, 22, 34816, 11291,
+      21216, 21217, 13341, 13252, 6872, 6871, 6390, 11597, 6586, 6587, 31516, 15527,
+      15528, 36914, 25, 37215, 37214, 33700, 24403, 33903, 36829, 11122, 11136, 9887,
+      9885, 27104, 13893, 15805, 11584, 30846, 36108, 37123, 37122, 37119, 37118,
+      13894, 37116, 37226, 46995, 46996, 48379, 26083, 35107, 37225, 46983, 46994,
+      48301]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: PCI 1
+    sortorder: 632
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 5929
+- fields:
+    blurb: ''
+    choices: [30, 21, 36522, 19, 48396, 48397, 48398, 20, 34816, 22, 11291, 21217,
+      21216, 12149, 13341, 13655, 13656, 13252, 11597, 6586, 6587, 31497, 28683, 15527,
+      28088, 36914, 32564, 4178, 4177, 25, 32563, 33903, 33700, 24403, 36829, 11136,
+      9887, 21717, 15805, 27104, 30846, 36108, 37123, 37122, 13894, 46995, 16576,
+      47768, 47770, 47771, 47772, 35107, 37225, 48301, 42582, 42583, 42589, 42591]
+    comments: ''
+    created: 2001-01-10 16:15:40
+    description: ''
+    name: PCI
+    sortorder: 634
+    updated: 2001-01-10 16:15:40
+    usage_notes: ''
+  model: products.option
+  pk: 6
+- fields:
+    blurb: ''
+    choices: []
+    comments: ''
+    created: 2012-05-26 00:00:00
+    description: ''
+    name: Fiber
+    sortorder: 635
+    updated: 2012-05-26 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 53860
+- fields:
+    blurb: ''
+    choices: [30, 36521, 19, 21, 36522, 48396, 48398, 48397, 20, 22, 34816, 11291,
+      21217, 21216, 13655, 13656, 13252, 6871, 6390, 6383, 6387, 6389, 6388, 6386,
+      6872, 6385, 11597, 6586, 6587, 15527, 18347, 15528, 28088, 36914, 25, 37215,
+      37214, 33700, 33903, 24403, 11136, 9886, 9887, 9885, 32909, 32906, 15805, 30846,
+      35301, 36108, 37123, 37122, 37119, 37118, 13894, 37116, 46995, 46996, 48379,
+      46983, 46994]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: PCI 2
+    sortorder: 636
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 5930
+- fields:
+    blurb: ''
+    choices: [30, 21, 19, 36522, 48396, 48397, 48398, 20, 22, 34816, 11291, 13655,
+      13656, 13252, 13253, 6385, 6389, 6387, 6383, 6386, 6388, 11597, 6586, 6587,
+      36914, 25, 33700, 14360, 14362, 33903, 14361, 24403, 8931, 11136, 32882, 32879,
+      32878, 32880, 32874, 32881, 9885, 27104, 11960, 15805, 11584, 30846, 37122,
+      37119, 23551, 37118, 13894, 37116, 46995, 46996, 48379, 46983, 46994]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: PCI 3
+    sortorder: 638
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 5931
+- fields:
+    blurb: ''
+    choices: [30, 6386, 6385, 6387, 6383, 6388, 6389, 36914, 11584, 11960, 37118,
+      13894, 37116, 48379]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: PCI 4
+    sortorder: 640
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 6510
+- fields:
+    blurb: ''
+    choices: [30, 48397, 48398, 48396, 36523, 36914, 39344, 39345, 43640, 43639, 39324,
+      43638, 43637, 41310, 45091, 21365, 39058, 44503, 21366, 44504, 35301, 36108,
+      35821, 37123, 37120, 42536]
+    comments: ''
+    created: 2006-01-24 20:00:16
+    description: ''
+    name: PCI-e
+    sortorder: 641
+    updated: 2006-01-24 20:00:16
+    usage_notes: ''
+  model: products.option
+  pk: 36525
+- fields:
+    blurb: ''
+    choices: [30, 48396, 48397, 48398, 36523, 39344, 39345, 39324, 45091, 44504, 44503,
+      21365, 39058, 21366]
+    comments: ''
+    created: 2010-03-18 11:57:27.459290
+    description: ''
+    name: PCI-e 2
+    sortorder: 642
+    updated: 2010-03-18 11:57:27.459290
+    usage_notes: ''
+  model: products.option
+  pk: 45092
+- fields:
+    blurb: ''
+    choices: []
+    comments: ''
+    created: 2012-05-23 00:00:00
+    description: ''
+    name: Media Drive
+    sortorder: 645
+    updated: 2012-05-23 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 53776
+- fields:
+    blurb: ''
+    choices: []
+    comments: ''
+    created: 2012-05-23 00:00:00
+    description: ''
+    name: Speakers
+    sortorder: 650
+    updated: 2012-05-23 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 53777
+- fields:
+    blurb: ''
+    choices: [30, 18973, 18974, 19255]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: PCMCIA
+    sortorder: 650
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 18850
+- fields:
+    blurb: ''
+    choices: [30, 19255]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: PCMCIA 2
+    sortorder: 651
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 21957
+- fields:
+    blurb: ''
+    choices: [30, 25]
+    comments: ''
+    created: 2001-01-10 16:15:49
+    description: ''
+    name: Remote Management - 2U
+    sortorder: 710
+    updated: 2001-01-10 16:15:49
+    usage_notes: ''
+  model: products.option
+  pk: 8
+- fields:
+    blurb: ''
+    choices: [30, 12817, 16850, 31178, 4085, 4084, 4082, 4083, 37155]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Add-ons
+    sortorder: 800
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 4086
+- fields:
+    blurb: ''
+    choices: [30, 28474, 28440, 6679, 33881]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Rack
+    sortorder: 805
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 6691
+- fields:
+    blurb: ''
+    choices: [30, 6687, 6689, 6685, 6686, 33882]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Fixed shelf
+    sortorder: 810
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 6692
+- fields:
+    blurb: ''
+    choices: [30, 8098, 8102, 15761, 15762, 15763, 15764]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Rail kits
+    sortorder: 811
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 8097
+- fields:
+    blurb: ''
+    choices: [30, 15755, 15759, 28682, 15758, 15756, 15762, 15761, 15763, 15764]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Rails and Brackets
+    sortorder: 815
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 15765
+- fields:
+    blurb: ''
+    choices: [30, 6687, 6689, 6685, 6686]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Fixed shelf 2
+    sortorder: 820
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 6721
+- fields:
+    blurb: ''
+    choices: [30, 6690]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Keyboard shelf
+    sortorder: 830
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 6694
+- fields:
+    blurb: ''
+    choices: [30, 28484, 28482, 28485, 28483, 28441, 28444, 28442, 6684, 6683, 28443,
+      6681, 6680, 33883]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Power strip
+    sortorder: 845
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 6693
+- fields:
+    blurb: ''
+    choices: [30, 11312, 40994, 40995, 31, 1046, 1026, 19003]
+    comments: ''
+    created: 2001-01-10 16:16:02
+    description: ''
+    name: Keyboard and Mouse
+    sortorder: 850
+    updated: 2001-01-10 16:16:02
+    usage_notes: ''
+  model: products.option
+  pk: 10
+- fields:
+    blurb: ''
+    choices: [30, 11295]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Wheels
+    sortorder: 850
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 11296
+- fields:
+    blurb: ''
+    choices: [30, 38862, 38863, 19003, 1026]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Mouse
+    sortorder: 851
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 19002
+- fields:
+    blurb: ''
+    choices: [30, 32, 36491, 36490, 36489, 1024, 1023, 21723, 1025, 21722, 14790,
+      9106, 15933, 9148, 9105, 9107, 14789, 33065, 33066, 33067, 33053, 33052, 33056,
+      33057, 35488, 35489]
+    comments: ''
+    created: 2001-01-10 16:16:15
+    description: ''
+    name: Monitor
+    sortorder: 860
+    updated: 2001-01-10 16:16:15
+    usage_notes: ''
+  model: products.option
+  pk: 11
+- fields:
+    blurb: ''
+    choices: [30, 38298, 8260, 28505, 23, 38353, 38352, 24, 37075, 8261, 9190, 23919,
+      23966, 26557, 8259, 7947, 7946, 7645, 32446, 32432, 32940, 1075, 35522, 35523,
+      40044, 4469, 12385, 13494, 12386, 41887, 20970, 11322, 19275, 31730, 4058, 37587,
+      31725, 25377, 21757, 27340, 28768, 21758, 28430, 23926, 23203, 4470, 23545,
+      26565, 31147, 16595, 31809, 12160, 12161, 17841, 17840, 14512, 14513, 4400,
+      4399, 4401, 1304, 1074, 43965, 18857, 6263, 18858, 44002, 13079]
+    comments: ''
+    created: 2001-01-10 16:15:44
+    description: ''
+    name: Operating System
+    sortorder: 880
+    updated: 2001-01-10 16:15:44
+    usage_notes: ''
+  model: products.option
+  pk: 7
+- fields:
+    blurb: ''
+    choices: []
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: 2nd Operating System
+    sortorder: 881
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 13391
+- fields:
+    blurb: ''
+    choices: [12817, 14673, 13498, 9880, 9884, 13499]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Desktop Software
+    sortorder: 890
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 9876
+- fields:
+    blurb: ''
+    choices: [9279, 9280, 9284, 9285, 9286, 9281]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Software RAID
+    sortorder: 899
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 9282
+- fields:
+    blurb: ''
+    choices: [30, 38864, 38865]
+    comments: ''
+    created: 2006-01-24 20:00:16
+    description: ''
+    name: Routers
+    sortorder: 900
+    updated: 2006-01-24 20:00:16
+    usage_notes: ''
+  model: products.option
+  pk: 38867
+- fields:
+    blurb: ''
+    choices: [16585, 16588, 16586, 16584, 16587]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Mail Transfer Agent
+    sortorder: 902
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 16583
+- fields:
+    blurb: ''
+    choices: []
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Software Bundle
+    sortorder: 930
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 13877
+- fields:
+    blurb: ''
+    choices: [12817, 33508, 36897, 36896, 36898, 35450, 35451, 33218, 38327, 33217]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Software
+    sortorder: 940
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 18042
+- fields:
+    blurb: ''
+    choices: [20845]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Additional Chassis
+    sortorder: 1000
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 20846
+- fields:
+    blurb: ''
+    choices: [30, 38804, 38803, 38802, 38805, 47151, 38806, 47138, 38807, 38808, 18995,
+      18994, 22554, 22542, 22550, 24740, 22552, 22544, 21970, 21969, 21968, 31191,
+      31178, 37203, 37204, 27685, 27686, 28475, 28447, 28446, 28476, 28449, 28448,
+      28477, 28451, 28450]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Extras
+    sortorder: 1000
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 18991
+- fields:
+    blurb: ''
+    choices: [30, 38802, 38804, 38803, 38806, 47138, 38805, 47151, 38808, 38807, 22552,
+      18994, 22542, 22550, 18995, 22554, 22544, 27696, 28445]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: More Extras
+    sortorder: 1001
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 19011
+- fields:
+    blurb: ''
+    choices: [30, 38854, 38855, 38856, 38860, 38858, 38859, 38857, 19261, 22141, 19284,
+      19259, 19266, 19260]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Carrying Case
+    sortorder: 2000
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 19258
+- fields:
+    blurb: ''
+    choices: [35828, 36895, 31930, 28984, 31929, 34112, 29002]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Donation target
+    sortorder: 4000
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 28982
+- fields:
+    blurb: ''
+    choices: [29002, 28986, 28987, 28988, 28989, 28990, 28991]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Donation amount
+    sortorder: 4001
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 28983
+- fields:
+    blurb: ''
+    choices: [18049, 18051, 18052, 33811]
+    comments: ''
+    created: 2001-01-01 00:00:00
+    description: ''
+    name: Warranty
+    sortorder: 5000
+    updated: 2001-01-01 00:00:00
+    usage_notes: ''
+  model: products.option
+  pk: 18048
+- fields:
+    blurb: ''
+    choices: []
+    comments: ''
+    created: 2006-01-24 20:00:16
+    description: ''
+    name: Support Incidents
+    sortorder: 9000
+    updated: 2006-01-24 20:00:16
+    usage_notes: ''
+  model: products.option
+  pk: 35384
+- fields:
+    blurb: ''
+    choices: [30, 35393, 35394]
+    comments: ''
+    created: 2006-01-24 20:00:16
+    description: ''
+    name: Configuration
+    sortorder: 9001
+    updated: 2006-01-24 20:00:16
+    usage_notes: ''
+  model: products.option
+  pk: 35386

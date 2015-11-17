@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{# % load aloha_tags % #}
+
+
+{% block css %}
+
+    {{ block.super }}
+
+    {% include 'aloha/includes/css.html' %}
+
+    <style>
+        form.aloha, form.aloha div {
+            display: inline;
+        }
+    </style>
+
+    {{ css }}
+
+{% endblock css %}
+
+
+
+{% block js_bottom %}
+
+    {{ block.super }}
+
+    {% include 'aloha/includes/js.html' %}
+
+    {{ js_bottom }}
+
+{% endblock js_bottom %}
+

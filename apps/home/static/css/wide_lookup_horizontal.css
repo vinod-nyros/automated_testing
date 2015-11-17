@@ -1,0 +1,10 @@
+/* wide_lookup_horizontal.css */
+
+.selector {
+    width: 1150px !important;
+}
+
+.selector select, .selector-available, .selector-chosen {
+    width: 550px;
+}
+

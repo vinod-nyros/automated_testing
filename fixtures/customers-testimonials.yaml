@@ -1,0 +1,98 @@
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_list.html
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_config_summary.html
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_config_tab.html
+compiling /home/joe/django_eracks/apps/products/templets.py to product.html
+compiling /home/joe/django_eracks/apps/products/templets.py to products.html
+compiling /home/joe/django_eracks/apps/products/templets.py to category.html
+compiling /home/joe/django_eracks/apps/bloglets/templets.py to _bloglet_list.html
+- fields: {attribution: 'KW, <a href="http://ilm.com" target="new">Industrial Light
+      &amp; Magic</a>.', created: !!timestamp '2012-03-26 18:24:16.155765', published: true,
+    quote: "Everything arrived yesterday.  I just powered up the computer for the\
+      \ first time \r\nand WOW, I'm impressed, it makes almost no noise now.  nicely\
+      \ done!", sortorder: 110, updated: !!timestamp '2012-03-26 18:24:16.155828'}
+  model: customers.testimonial
+  pk: 53381
+- fields: {attribution: 'Ed, <a href="http://edsbits.com" target="new">Ed''s Bits</a>.',
+    created: !!timestamp '2013-03-29 11:55:55.142512', published: true, quote: I am
+      looking forward to the upgrade.  The eRacks system I'm currently using was purchased
+      on 1/31/2003!, sortorder: 111, updated: !!timestamp '2013-03-29 11:56:26.908172'}
+  model: customers.testimonial
+  pk: 54971
+- fields: {attribution: 'TP, from the UK.', created: !!timestamp '2012-03-26 18:27:30.312329',
+    published: true, quote: "Just a quick note to say that our new servers are up\
+      \ and running now.\r\nWe are very pleased with them - they are really very quiet!\
+      \ The noise\r\ndifference between them and the Dell Poweredge 750 servers we\
+      \ originally\r\nused is incredible!  Thanks for the great service,", sortorder: 140,
+    updated: !!timestamp '2012-03-26 18:27:30.312389'}
+  model: customers.testimonial
+  pk: 53384
+- fields: {attribution: '- LR, CO', created: !!timestamp '2012-03-26 18:26:08.065628',
+    published: true, quote: "Max -- Wow.  You and your fine company simply exceed\
+      \ my expectations at\r\nevery turn.  Thank you.", sortorder: 145, updated: !!timestamp '2012-03-26
+      18:35:11.996453'}
+  model: customers.testimonial
+  pk: 53382
+- fields: {attribution: "MS, <a href=\"http://www.speakeasy.net\" target=\"new\">Speakeasy</a>\r\
+      \n", created: !!timestamp '2012-03-26 18:28:20.913780', published: true, quote: "\r\n\
+      \ Thanks so much, you guys have been amazing. i have dealt with tons of pc\r\
+      \nrackmount vendors over the years, and i have to say i can believe how fast\r\
+      \nand gingerly you folks have handled me.\r\n<br>thanks for the awesome attention\
+      \ to detail and customer service (and for\r\nsuch a small order)!\r\n  ", sortorder: 150,
+    updated: !!timestamp '2012-10-27 22:34:02.037869'}
+  model: customers.testimonial
+  pk: 53385
+- fields: {attribution: '- LR, <a href="http://www.CastleRockRadio.com" target="new">Castle
+      Rock Radio</a>', created: !!timestamp '2012-03-26 17:57:17.390571', published: true,
+    quote: "I truly appreciate everything your company has done for me,\r\nespecially\
+      \ Max and James.  I'm a fully-converted Linux/Ubuntu\r\npromoter and \"prophet\"\
+      \ now, and I tell everyone who'll listen not\r\nonly about why they should consider\
+      \ a Linux/Ubuntu desktop as their\r\nown next PC, but I tell them everything\
+      \ I can about how fine a\r\ncompany eRacks is! ", sortorder: 155, updated: !!timestamp '2012-10-27
+      23:09:28.876773'}
+  model: customers.testimonial
+  pk: 53380
+- fields: {attribution: "GC, <a href=\"http://www.synectic-technology.com\" target=\"\
+      new\">Synectic Technology Inc.</a>\r\n", created: !!timestamp '2012-03-26 18:29:07.520937',
+    published: true, quote: "I would like to take this time to thank you for the quality\
+      \ \r\nproduct that I purchased via eracks! ", sortorder: 160, updated: !!timestamp '2012-03-26
+      18:29:07.520988'}
+  model: customers.testimonial
+  pk: 53386
+- fields: {attribution: "SH, <a href=\"http://binary-consulting.com\" target=\"new\"\
+      >Binary Consulting</a>\r\n", created: !!timestamp '2012-03-26 18:29:43.102331',
+    published: true, quote: "Thanks again for your patience, understanding and support.\
+      \  A special\r\nthanks goes to Matt as he jumped through many hoops to get our\
+      \ server\r\nback at 100% again.", sortorder: 170, updated: !!timestamp '2012-03-26
+      18:29:43.102402'}
+  model: customers.testimonial
+  pk: 53387
+- fields: {attribution: '- LR, CO', created: !!timestamp '2012-03-26 18:26:29.721891',
+    published: true, quote: "Both new desktops are up and running -- Absolutely painless!\r\
+      \nMany thanks for the fantastic build and prep!  You are amazing, and so\r\n\
+      are these PCs!", sortorder: 175, updated: !!timestamp '2012-03-26 18:35:12.378504'}
+  model: customers.testimonial
+  pk: 53383
+- fields: {attribution: "CW, <a href=\"http://nexband.com/\" target=\"new\">NexBand\
+      \ Communications, Inc.</a>\r\n", created: !!timestamp '2012-03-26 18:30:12.473361',
+    published: true, quote: "It was a pleasure doing business with you guys \r\nand\
+      \ i hope to be able to give you some more business in the future.\r\n", sortorder: 180,
+    updated: !!timestamp '2012-03-26 18:30:12.473417'}
+  model: customers.testimonial
+  pk: 53388
+- fields: {attribution: "GK.\r\n", created: !!timestamp '2012-03-26 18:31:10.321149',
+    published: true, quote: "I have just finished configuring and testing my new OpenBSD\
+      \ firewall and \r\nI wanted to take a minute to thank all of you for your help\
+      \ and patience with building \r\nthis machine. I am very happy with the results.\
+      \  \r\nI look forward to working with you again and I hope you all have a great\
+      \ weekend.", sortorder: 190, updated: !!timestamp '2012-03-26 18:31:10.321229'}
+  model: customers.testimonial
+  pk: 53389
+- fields: {attribution: "\r\n    \r\n    \r\n    \r\n    \r\n        \r\n    \r\n\
+      \    \r\n    \r\n    \r\n     - JW, Los Gatos<br style=\"\">\r\n  \r\n  \r\n\
+      \  \r\n  ", created: !!timestamp '2012-03-28 15:48:05.363786', published: true,
+    quote: "\r\n    \r\n    \r\n    \r\n    \r\n    \r\n    eRacks has the best rackmount\
+      \ servers - and since they're all preloaded with whatever FLOSS you want, they\
+      \ can't be beat!\r\n  \r\n  \r\n  \r\n  \r\n  \r\n  ", sortorder: 200, updated: !!timestamp '2012-10-28
+      10:48:20.921099'}
+  model: customers.testimonial
+  pk: 53519

@@ -1,0 +1,479 @@
+name,comment,cost,choicecategory,blurb,supplier,price,multiplier,published,sortorder
+Intel Xeon E5-2697 v2 @ 2.70GHz,CPU Passmark score 17800,2749.99,CPUs,Intel Xeon E5-2697 v2 @ 2.70GHz - CPU Passmark score 17800,,,,True,1300
+Intel Xeon E5-2690 v2 @ 3.00GHz,CPU Passmark score 17441,2149.99,CPUs,Intel Xeon E5-2690 v2 @ 3.00GHz - CPU Passmark score 17441,,,,True,1299
+Intel Xeon E5-2680 v2 @ 2.80GHz,CPU Passmark score 16799,1743,CPUs,Intel Xeon E5-2680 v2 @ 2.80GHz - CPU Passmark score 16799,,,,True,1298
+Intel Xeon E5-2687W v2 @ 3.40GHz,CPU Passmark score 16664,2199.99,CPUs,Intel Xeon E5-2687W v2 @ 3.40GHz - CPU Passmark score 16664,,,,True,1297
+Intel Xeon E5-2667 v2 @ 3.30GHz,CPU Passmark score 16167,0.0,CPUs,Intel Xeon E5-2667 v2 @ 3.30GHz - CPU Passmark score 16167,,,,False,1296
+Intel Xeon E5-2670 v2 @ 2.50GHz,CPU Passmark score 14638,1649.99,CPUs,Intel Xeon E5-2670 v2 @ 2.50GHz - CPU Passmark score 14638,,,,True,1295
+Intel Xeon E5-2687W @ 3.10GHz,CPU Passmark score 14557,1912.99,CPUs,Intel Xeon E5-2687W @ 3.10GHz - CPU Passmark score 14557,,,,True,1294
+Intel Xeon E5-2690 @ 2.90GHz,CPU Passmark score 14248,1899,CPUs,Intel Xeon E5-2690 @ 2.90GHz - CPU Passmark score 14248,,,,True,1293
+Intel Core i7-4960X @ 3.60GHz,CPU Passmark score 14157,1049.99,CPUs,Intel Core i7-4960X @ 3.60GHz - CPU Passmark score 14157,,,,True,1292
+Intel Xeon E5-2689 @ 2.60GHz,CPU Passmark score 13897,0.0,CPUs,Intel Xeon E5-2689 @ 2.60GHz - CPU Passmark score 13897,,,,False,1291
+Intel Xeon E5-2658 v2 @ 2.40GHz,CPU Passmark score 13678,0.0,CPUs,Intel Xeon E5-2658 v2 @ 2.40GHz - CPU Passmark score 13678,,,,False,1290
+Intel Xeon E5-1660 v2 @ 3.70GHz,CPU Passmark score 13432 - Price is last known price,1122.98,CPUs,Intel Xeon E5-1660 v2 @ 3.70GHz - CPU Passmark score 13432,,,,True,1289
+Intel Core i7-4930K @ 3.40GHz,CPU Passmark score 13281,579.99,CPUs,Intel Core i7-4930K @ 3.40GHz - CPU Passmark score 13281,,,,True,1288
+Intel Xeon E5-2680 @ 2.70GHz,CPU Passmark score 13230,1809.99,CPUs,Intel Xeon E5-2680 @ 2.70GHz - CPU Passmark score 13230,,,,True,1287
+Intel Xeon E5-2670 @ 2.60GHz,CPU Passmark score 12867,1652.39,CPUs,Intel Xeon E5-2670 @ 2.60GHz - CPU Passmark score 12867,,,,True,1286
+Intel Xeon E5-2650 v2 @ 2.60GHz,CPU Passmark score 12807,1299.99,CPUs,Intel Xeon E5-2650 v2 @ 2.60GHz - CPU Passmark score 12807,,,,True,1285
+Intel Core i7-3970X @ 3.50GHz,CPU Passmark score 12796,999,CPUs,Intel Core i7-3970X @ 3.50GHz - CPU Passmark score 12796,,,,True,1284
+Intel Core i7-3960X @ 3.30GHz,CPU Passmark score 12753,1017.5,CPUs,Intel Core i7-3960X @ 3.30GHz - CPU Passmark score 12753,,,,True,1283
+Intel Xeon E5-1650 v2 @ 3.50GHz,CPU Passmark score 12542,704.19,CPUs,Intel Xeon E5-1650 v2 @ 3.50GHz - CPU Passmark score 12542,,,,True,1282
+Intel Xeon E5-1660 @ 3.30GHz,CPU Passmark score 12474 - Price is last known price,1096.99,CPUs,Intel Xeon E5-1660 @ 3.30GHz - CPU Passmark score 12474,,,,True,1281
+Intel Xeon E5-2665 @ 2.40GHz,CPU Passmark score 12446,1507.99,CPUs,Intel Xeon E5-2665 @ 2.40GHz - CPU Passmark score 12446,,,,True,1280
+Intel Core i7-3930K @ 3.20GHz,CPU Passmark score 12154,569.99,CPUs,Intel Core i7-3930K @ 3.20GHz - CPU Passmark score 12154,,,,True,1279
+Intel Xeon E5-2660 @ 2.20GHz,CPU Passmark score 11961,1346.99,CPUs,Intel Xeon E5-2660 @ 2.20GHz - CPU Passmark score 11961,,,,True,1278
+Intel Xeon E5-4650 @ 2.70GHz,CPU Passmark score 11960 - Price is last known price,3899.99,CPUs,Intel Xeon E5-4650 @ 2.70GHz - CPU Passmark score 11960,,,,True,1277
+Intel Xeon E5-1650 @ 3.20GHz,CPU Passmark score 11616,603.99,CPUs,Intel Xeon E5-1650 @ 3.20GHz - CPU Passmark score 11616,,,,True,1276
+Intel Xeon E5-2470 @ 2.30GHz,CPU Passmark score 11149 - Price is last known price,1479.99,CPUs,Intel Xeon E5-2470 @ 2.30GHz - CPU Passmark score 11149,,,,True,1275
+Intel Xeon E5-2667 @ 2.90GHz,CPU Passmark score 10482 - Price is last known price,1552.0,CPUs,Intel Xeon E5-2667 @ 2.90GHz - CPU Passmark score 10482,,,,True,1274
+Intel Xeon E5-2650 @ 2.00GHz,CPU Passmark score 10460,1125.99,CPUs,Intel Xeon E5-2650 @ 2.00GHz - CPU Passmark score 10460,,,,True,1273
+Intel Xeon E5-2630 v2 @ 2.60GHz,CPU Passmark score 10447,641.99,CPUs,Intel Xeon E5-2630 v2 @ 2.60GHz - CPU Passmark score 10447,,,,True,1272
+Intel Xeon E3-1280 v3 @ 3.60GHz,CPU Passmark score 10420,0.0,CPUs,Intel Xeon E3-1280 v3 @ 3.60GHz - CPU Passmark score 10420,,,,False,1271
+Intel Core i7-4770R @ 3.20GHz,CPU Passmark score 10375,0.0,CPUs,Intel Core i7-4770R @ 3.20GHz - CPU Passmark score 10375,,,,False,1270
+AMD FX-9590 Eight-Core,CPU Passmark score 10358,329.99,CPUs,AMD FX-9590 Eight-Core - CPU Passmark score 10358,,,,True,1269
+Intel Core i7-4770K @ 3.50GHz,CPU Passmark score 10340,299.99,CPUs,Intel Core i7-4770K @ 3.50GHz - CPU Passmark score 10340,,,,True,1268
+Intel Xeon E3-1270 v3 @ 3.50GHz,CPU Passmark score 10175,349.99,CPUs,Intel Xeon E3-1270 v3 @ 3.50GHz - CPU Passmark score 10175,,,,True,1267
+Intel Core i7-4960HQ @ 2.60GHz,CPU Passmark score 10166,0.0,CPUs,Intel Core i7-4960HQ @ 2.60GHz - CPU Passmark score 10166,,,,False,1266
+Intel Core i7-4771 @ 3.50GHz,CPU Passmark score 10070,319.99,CPUs,Intel Core i7-4771 @ 3.50GHz - CPU Passmark score 10070,,,,True,1265
+Intel Core i7-4770 @ 3.40GHz,CPU Passmark score 9949,307.39,CPUs,Intel Core i7-4770 @ 3.40GHz - CPU Passmark score 9949,,,,True,1264
+Intel Core i7-4820K @ 3.70GHz,CPU Passmark score 9931,324.99,CPUs,Intel Core i7-4820K @ 3.70GHz - CPU Passmark score 9931,,,,True,1263
+Intel Xeon E3-1290 V2 @ 3.70GHz,CPU Passmark score 9930 - Price is last known price,885.0,CPUs,Intel Xeon E3-1290 V2 @ 3.70GHz - CPU Passmark score 9930,,,,True,1262
+Intel Xeon W3690 @ 3.47GHz,CPU Passmark score 9880 - Price is last known price,1110.99,CPUs,Intel Xeon W3690 @ 3.47GHz - CPU Passmark score 9880,,,,True,1261
+Intel Xeon E3-1280 V2 @ 3.60GHz,CPU Passmark score 9795,669.99,CPUs,Intel Xeon E3-1280 V2 @ 3.60GHz - CPU Passmark score 9795,,,,True,1260
+Intel Xeon E5-2640 @ 2.50GHz,CPU Passmark score 9761,899.99,CPUs,Intel Xeon E5-2640 @ 2.50GHz - CPU Passmark score 9761,,,,True,1259
+Intel Xeon E5-2643 v2 @ 3.50GHz,CPU Passmark score 9751,0.0,CPUs,Intel Xeon E5-2643 v2 @ 3.50GHz - CPU Passmark score 9751,,,,False,1258
+AMD FX-9370 Eight-Core,CPU Passmark score 9730,229.99,CPUs,AMD FX-9370 Eight-Core - CPU Passmark score 9730,,,,True,1257
+Intel Xeon E3-1245 v3 @ 3.40GHz,CPU Passmark score 9716,274.99,CPUs,Intel Xeon E3-1245 v3 @ 3.40GHz - CPU Passmark score 9716,,,,True,1256
+Intel Xeon E5-2658 @ 2.10GHz,CPU Passmark score 9667 - Price is last known price,899.95,CPUs,Intel Xeon E5-2658 @ 2.10GHz - CPU Passmark score 9667,,,,True,1255
+Intel Xeon E3-1240 v3 @ 3.40GHz,CPU Passmark score 9663,279.99,CPUs,Intel Xeon E3-1240 v3 @ 3.40GHz - CPU Passmark score 9663,,,,True,1254
+Intel Core i7-3770K @ 3.50GHz,CPU Passmark score 9652,316.99,CPUs,Intel Core i7-3770K @ 3.50GHz - CPU Passmark score 9652,,,,True,1253
+Intel Xeon E3-1270 V2 @ 3.50GHz,CPU Passmark score 9635,339.99,CPUs,Intel Xeon E3-1270 V2 @ 3.50GHz - CPU Passmark score 9635,,,,True,1252
+Intel Xeon E5-2440 @ 2.40GHz,CPU Passmark score 9628,0.0,CPUs,Intel Xeon E5-2440 @ 2.40GHz - CPU Passmark score 9628,,,,False,1251
+Intel Core i7-4770S @ 3.10GHz,CPU Passmark score 9590,306.89,CPUs,Intel Core i7-4770S @ 3.10GHz - CPU Passmark score 9590,,,,True,1250
+Intel Core i7-4940MX @ 3.10GHz,CPU Passmark score 9552,0.0,CPUs,Intel Core i7-4940MX @ 3.10GHz - CPU Passmark score 9552,,,,False,1249
+Intel Xeon E3-1230 v3 @ 3.30GHz,CPU Passmark score 9547,244.99,CPUs,Intel Xeon E3-1230 v3 @ 3.30GHz - CPU Passmark score 9547,,,,True,1248
+Intel Xeon E5-1620 v2 @ 3.70GHz,CPU Passmark score 9545 - Price is last known price,309.99,CPUs,Intel Xeon E5-1620 v2 @ 3.70GHz - CPU Passmark score 9545,,,,True,1247
+Intel Xeon E3-1275 v3 @ 3.50GHz,CPU Passmark score 9533,349.99,CPUs,Intel Xeon E3-1275 v3 @ 3.50GHz - CPU Passmark score 9533,,,,True,1246
+Intel Xeon E3-1275 V2 @ 3.50GHz,CPU Passmark score 9512,349.99,CPUs,Intel Xeon E3-1275 V2 @ 3.50GHz - CPU Passmark score 9512,,,,True,1245
+Intel Core i7-4930MX @ 3.00GHz,CPU Passmark score 9448,0.0,CPUs,Intel Core i7-4930MX @ 3.00GHz - CPU Passmark score 9448,,,,False,1244
+Intel Core i7 X 990 @ 3.47GHz,CPU Passmark score 9439 - Price is last known price,1443.95,CPUs,Intel Core i7 X 990 @ 3.47GHz - CPU Passmark score 9439,,,,True,1243
+Intel Core i7-3770 @ 3.40GHz,CPU Passmark score 9405,291.99,CPUs,Intel Core i7-3770 @ 3.40GHz - CPU Passmark score 9405,,,,True,1242
+Intel Xeon E3-1240 V2 @ 3.40GHz,CPU Passmark score 9336,247.99,CPUs,Intel Xeon E3-1240 V2 @ 3.40GHz - CPU Passmark score 9336,,,,True,1241
+Intel Core i7-4850HQ @ 2.30GHz,CPU Passmark score 9309,0.0,CPUs,Intel Core i7-4850HQ @ 2.30GHz - CPU Passmark score 9309,,,,False,1240
+Intel Xeon X5680 @ 3.33GHz,CPU Passmark score 9275 - Price is last known price,918.75,CPUs,Intel Xeon X5680 @ 3.33GHz - CPU Passmark score 9275,,,,True,1239
+Intel Xeon X5690 @ 3.47GHz,CPU Passmark score 9258 - Price is last known price,1776.35,CPUs,Intel Xeon X5690 @ 3.47GHz - CPU Passmark score 9258,,,,True,1238
+Intel Xeon E5-2637 v2 @ 3.50GHz,CPU Passmark score 9255,0.0,CPUs,Intel Xeon E5-2637 v2 @ 3.50GHz - CPU Passmark score 9255,,,,False,1237
+Intel Core i7-3940XM @ 3.00GHz,CPU Passmark score 9222 - Price is last known price,749.99,CPUs,Intel Core i7-3940XM @ 3.00GHz - CPU Passmark score 9222,,,,True,1236
+Intel Core i7-3920XM @ 2.90GHz,CPU Passmark score 9220 - Price is last known price,1096.0,CPUs,Intel Core i7-3920XM @ 2.90GHz - CPU Passmark score 9220,,,,True,1235
+Intel Xeon W3680 @ 3.33GHz,CPU Passmark score 9179 - Price is last known price,934.95,CPUs,Intel Xeon W3680 @ 3.33GHz - CPU Passmark score 9179,,,,True,1234
+Intel Xeon E5-1620 @ 3.60GHz,CPU Passmark score 9153 - Price is last known price,360.72,CPUs,Intel Xeon E5-1620 @ 3.60GHz - CPU Passmark score 9153,,,,True,1233
+AMD Opteron 6282 SE,CPU Passmark score 9116 - Price is last known price,1089.99,CPUs,AMD Opteron 6282 SE - CPU Passmark score 9116,,,,True,1232
+Intel Core i7-4900MQ @ 2.80GHz,CPU Passmark score 9087,589.99,CPUs,Intel Core i7-4900MQ @ 2.80GHz - CPU Passmark score 9087,,,,True,1231
+AMD FX-8350 Eight-Core,CPU Passmark score 9047,199.99,CPUs,AMD FX-8350 Eight-Core - CPU Passmark score 9047,,,,True,1230
+Intel Core i7-3840QM @ 2.80GHz,CPU Passmark score 9035 - Price is last known price,429.0,CPUs,Intel Core i7-3840QM @ 2.80GHz - CPU Passmark score 9035,,,,True,1229
+Intel Xeon E3-1245 V2 @ 3.40GHz,CPU Passmark score 9035,258.99,CPUs,Intel Xeon E3-1245 V2 @ 3.40GHz - CPU Passmark score 9035,,,,True,1228
+Intel Core i7-3820 @ 3.60GHz,CPU Passmark score 9022,318.99,CPUs,Intel Core i7-3820 @ 3.60GHz - CPU Passmark score 9022,,,,True,1227
+Intel Core i7-4770T @ 2.50GHz,CPU Passmark score 9011,0.0,CPUs,Intel Core i7-4770T @ 2.50GHz - CPU Passmark score 9011,,,,False,1226
+Intel Core i7-3770S @ 3.10GHz,CPU Passmark score 8975,288.99,CPUs,Intel Core i7-3770S @ 3.10GHz - CPU Passmark score 8975,,,,True,1225
+Intel Core i7-2700K @ 3.50GHz,CPU Passmark score 8933,349.99,CPUs,Intel Core i7-2700K @ 3.50GHz - CPU Passmark score 8933,,,,True,1224
+Intel Core i7 X 980 @ 3.33GHz,CPU Passmark score 8932,1049.99,CPUs,Intel Core i7 X 980 @ 3.33GHz - CPU Passmark score 8932,,,,True,1223
+Intel Xeon E5-2630 @ 2.30GHz,CPU Passmark score 8907,625.87,CPUs,Intel Xeon E5-2630 @ 2.30GHz - CPU Passmark score 8907,,,,True,1222
+Intel Xeon E3-1230 V2 @ 3.30GHz,CPU Passmark score 8867,229.99,CPUs,Intel Xeon E3-1230 V2 @ 3.30GHz - CPU Passmark score 8867,,,,True,1221
+Intel Xeon E3-1265L v3 @ 2.50GHz,CPU Passmark score 8859,0.0,CPUs,Intel Xeon E3-1265L v3 @ 2.50GHz - CPU Passmark score 8859,,,,False,1220
+Intel Core i7 980 @ 3.33GHz,CPU Passmark score 8823 - Price is last known price,798.95,CPUs,Intel Core i7 980 @ 3.33GHz - CPU Passmark score 8823,,,,True,1219
+Intel Xeon X5675 @ 3.07GHz,CPU Passmark score 8717,1417.99,CPUs,Intel Xeon X5675 @ 3.07GHz - CPU Passmark score 8717,,,,True,1218
+Intel Xeon E3-1290 @ 3.60GHz,CPU Passmark score 8704 - Price is last known price,885.0,CPUs,Intel Xeon E3-1290 @ 3.60GHz - CPU Passmark score 8704,,,,True,1217
+Intel Xeon W3670 @ 3.20GHz,CPU Passmark score 8650 - Price is last known price,597.99,CPUs,Intel Xeon W3670 @ 3.20GHz - CPU Passmark score 8650,,,,True,1216
+Intel Core i7-3820QM @ 2.70GHz,CPU Passmark score 8608 - Price is last known price,602.97,CPUs,Intel Core i7-3820QM @ 2.70GHz - CPU Passmark score 8608,,,,True,1215
+Intel Core i7-2600K @ 3.40GHz,CPU Passmark score 8604,339.99,CPUs,Intel Core i7-2600K @ 3.40GHz - CPU Passmark score 8604,,,,True,1214
+Intel Core i7-4800MQ @ 2.70GHz,CPU Passmark score 8592 - Price is last known price,379.99,CPUs,Intel Core i7-4800MQ @ 2.70GHz - CPU Passmark score 8592,,,,True,1213
+Intel Xeon E5-2620 v2 @ 2.10GHz,CPU Passmark score 8585,433.58,CPUs,Intel Xeon E5-2620 v2 @ 2.10GHz - CPU Passmark score 8585,,,,True,1212
+Intel Xeon E5-2643 @ 3.30GHz,CPU Passmark score 8508,0.0,CPUs,Intel Xeon E5-2643 @ 3.30GHz - CPU Passmark score 8508,,,,False,1211
+Intel Core i7-4810MQ @ 2.80GHz,CPU Passmark score 8493,0.0,CPUs,Intel Core i7-4810MQ @ 2.80GHz - CPU Passmark score 8493,,,,False,1210
+Intel Core i7 970 @ 3.20GHz,CPU Passmark score 8480 - Price is last known price,649.95,CPUs,Intel Core i7 970 @ 3.20GHz - CPU Passmark score 8480,,,,True,1209
+Intel Xeon E3-1280 @ 3.50GHz,CPU Passmark score 8472 - Price is last known price,649.99,CPUs,Intel Xeon E3-1280 @ 3.50GHz - CPU Passmark score 8472,,,,True,1208
+Intel Core i7-3740QM @ 2.70GHz,CPU Passmark score 8443 - Price is last known price,389.99,CPUs,Intel Core i7-3740QM @ 2.70GHz - CPU Passmark score 8443,,,,True,1207
+AMD Opteron 6376,CPU Passmark score 8442 - Price is last known price,926.22,CPUs,AMD Opteron 6376 - CPU Passmark score 8442,,,,True,1206
+Intel 0000 @ 2.80GHz,CPU Passmark score 8387,0.0,CPUs,Intel 0000 @ 2.80GHz - CPU Passmark score 8387,,,,False,1205
+Intel Core i7-3720QM @ 2.60GHz,CPU Passmark score 8322 - Price is last known price,401.89,CPUs,Intel Core i7-3720QM @ 2.60GHz - CPU Passmark score 8322,,,,True,1204
+Intel Core i7-2600 @ 3.40GHz,CPU Passmark score 8307,409.95,CPUs,Intel Core i7-2600 @ 3.40GHz - CPU Passmark score 8307,,,,True,1203
+Intel Xeon X5670 @ 2.93GHz,CPU Passmark score 8300 - Price is last known price,400.0,CPUs,Intel Xeon X5670 @ 2.93GHz - CPU Passmark score 8300,,,,True,1202
+Intel Core i7-3770T @ 2.50GHz,CPU Passmark score 8282 - Price is last known price,294.0,CPUs,Intel Core i7-3770T @ 2.50GHz - CPU Passmark score 8282,,,,True,1201
+Intel Xeon E3-1270 @ 3.40GHz,CPU Passmark score 8280 - Price is last known price,351.99,CPUs,Intel Xeon E3-1270 @ 3.40GHz - CPU Passmark score 8280,,,,True,1200
+Intel Xeon X5660 @ 2.80GHz,CPU Passmark score 8173 - Price is last known price,573.18,CPUs,Intel Xeon X5660 @ 2.80GHz - CPU Passmark score 8173,,,,True,1199
+Intel Xeon E3-1265L V2 @ 2.50GHz,CPU Passmark score 8141,319.19,CPUs,Intel Xeon E3-1265L V2 @ 2.50GHz - CPU Passmark score 8141,,,,True,1198
+AMD Opteron 6328,CPU Passmark score 8132,479.99,CPUs,AMD Opteron 6328 - CPU Passmark score 8132,,,,True,1197
+Intel Xeon E3-1240 @ 3.30GHz,CPU Passmark score 8104 - Price is last known price,264.99,CPUs,Intel Xeon E3-1240 @ 3.30GHz - CPU Passmark score 8104,,,,True,1196
+AMD FX-8320 Eight-Core,CPU Passmark score 8100,159.99,CPUs,AMD FX-8320 Eight-Core - CPU Passmark score 8100,,,,True,1195
+Intel Core i7-4700HQ @ 2.40GHz,CPU Passmark score 8036,0.0,CPUs,Intel Core i7-4700HQ @ 2.40GHz - CPU Passmark score 8036,,,,False,1194
+Intel Xeon E3-1230 @ 3.20GHz,CPU Passmark score 8032,239.99,CPUs,Intel Xeon E3-1230 @ 3.20GHz - CPU Passmark score 8032,,,,True,1193
+Intel Xeon E3-1245 @ 3.30GHz,CPU Passmark score 8020 - Price is last known price,255.0,CPUs,Intel Xeon E3-1245 @ 3.30GHz - CPU Passmark score 8020,,,,True,1192
+Intel Xeon E5-2620 @ 2.00GHz,CPU Passmark score 7957,409.99,CPUs,Intel Xeon E5-2620 @ 2.00GHz - CPU Passmark score 7957,,,,True,1191
+Intel Core i7-4700MQ @ 2.40GHz,CPU Passmark score 7940 - Price is last known price,399.99,CPUs,Intel Core i7-4700MQ @ 2.40GHz - CPU Passmark score 7940,,,,True,1190
+Intel Xeon E3-1275 @ 3.40GHz,CPU Passmark score 7919,356.99,CPUs,Intel Xeon E3-1275 @ 3.40GHz - CPU Passmark score 7919,,,,True,1189
+Intel Core i7-4750HQ @ 2.00GHz,CPU Passmark score 7914,0.0,CPUs,Intel Core i7-4750HQ @ 2.00GHz - CPU Passmark score 7914,,,,False,1188
+Intel Core i5-4670K @ 3.40GHz,CPU Passmark score 7793,209.99,CPUs,Intel Core i5-4670K @ 3.40GHz - CPU Passmark score 7793,,,,True,1187
+Intel Core i7-4702HQ @ 2.20GHz,CPU Passmark score 7788,0.0,CPUs,Intel Core i7-4702HQ @ 2.20GHz - CPU Passmark score 7788,,,,False,1186
+Intel Core i7-3630QM @ 2.40GHz,CPU Passmark score 7730 - Price is last known price,298.95,CPUs,Intel Core i7-3630QM @ 2.40GHz - CPU Passmark score 7730,,,,True,1185
+Intel Xeon X5650 @ 2.67GHz,CPU Passmark score 7707,178.5,CPUs,Intel Xeon X5650 @ 2.67GHz - CPU Passmark score 7707,,,,True,1184
+AMD FX-8150 Eight-Core,CPU Passmark score 7700,285.27,CPUs,AMD FX-8150 Eight-Core - CPU Passmark score 7700,,,,True,1183
+AMD Opteron 6366 HE,CPU Passmark score 7503,0.0,CPUs,AMD Opteron 6366 HE - CPU Passmark score 7503,,,,False,1182
+Intel Core i7-3610QM @ 2.30GHz,CPU Passmark score 7498 - Price is last known price,399.99,CPUs,Intel Core i7-3610QM @ 2.30GHz - CPU Passmark score 7498,,,,True,1181
+Intel Core i5-4670 @ 3.40GHz,CPU Passmark score 7485,219.99,CPUs,Intel Core i5-4670 @ 3.40GHz - CPU Passmark score 7485,,,,True,1180
+Intel Core i7-2960XM @ 2.70GHz,CPU Passmark score 7451 - Price is last known price,1096.0,CPUs,Intel Core i7-2960XM @ 2.70GHz - CPU Passmark score 7451,,,,True,1179
+Intel Core i7-4700EQ @ 2.40GHz,CPU Passmark score 7438,0.0,CPUs,Intel Core i7-4700EQ @ 2.40GHz - CPU Passmark score 7438,,,,False,1178
+Intel Xeon E5-2420 @ 1.90GHz,CPU Passmark score 7371 - Price is last known price,412.99,CPUs,Intel Xeon E5-2420 @ 1.90GHz - CPU Passmark score 7371,,,,True,1177
+Intel Core i7-4702MQ @ 2.20GHz,CPU Passmark score 7358,0.0,CPUs,Intel Core i7-4702MQ @ 2.20GHz - CPU Passmark score 7358,,,,False,1176
+Intel Xeon E3-1230L v3 @ 1.80GHz,CPU Passmark score 7344,0.0,CPUs,Intel Xeon E3-1230L v3 @ 1.80GHz - CPU Passmark score 7344,,,,False,1175
+Intel Xeon X5687 @ 3.60GHz,CPU Passmark score 7333,0.0,CPUs,Intel Xeon X5687 @ 3.60GHz - CPU Passmark score 7333,,,,False,1174
+Intel Core i7-4765T @ 2.00GHz,CPU Passmark score 7331,0.0,CPUs,Intel Core i7-4765T @ 2.00GHz - CPU Passmark score 7331,,,,False,1173
+Intel Xeon E5-1410 @ 2.80GHz,CPU Passmark score 7312,0.0,CPUs,Intel Xeon E5-1410 @ 2.80GHz - CPU Passmark score 7312,,,,False,1172
+Intel Xeon E3-1235 @ 3.20GHz,CPU Passmark score 7302 - Price is last known price,269.99,CPUs,Intel Xeon E3-1235 @ 3.20GHz - CPU Passmark score 7302,,,,True,1171
+Intel Xeon E5-2430 @ 2.20GHz,CPU Passmark score 7288 - Price is last known price,586.0,CPUs,Intel Xeon E5-2430 @ 2.20GHz - CPU Passmark score 7288,,,,True,1170
+Intel Core i7-3615QM @ 2.30GHz,CPU Passmark score 7286,0.0,CPUs,Intel Core i7-3615QM @ 2.30GHz - CPU Passmark score 7286,,,,False,1169
+Intel Core i7-2860QM @ 2.50GHz,CPU Passmark score 7206 - Price is last known price,599.99,CPUs,Intel Core i7-2860QM @ 2.50GHz - CPU Passmark score 7206,,,,True,1168
+Intel Core i5-3570K @ 3.40GHz,CPU Passmark score 7180,224,CPUs,Intel Core i5-3570K @ 3.40GHz - CPU Passmark score 7180,,,,True,1167
+Intel Xeon E5649 @ 2.53GHz,CPU Passmark score 7157 - Price is last known price,780.99,CPUs,Intel Xeon E5649 @ 2.53GHz - CPU Passmark score 7157,,,,True,1166
+Intel Core i7-2600S @ 2.80GHz,CPU Passmark score 7102 - Price is last known price,328.45,CPUs,Intel Core i7-2600S @ 2.80GHz - CPU Passmark score 7102,,,,True,1165
+AMD Opteron 6234,CPU Passmark score 7093 - Price is last known price,399.99,CPUs,AMD Opteron 6234 - CPU Passmark score 7093,,,,True,1164
+Intel Core i5-4570 @ 3.20GHz,CPU Passmark score 7079,189.99,CPUs,Intel Core i5-4570 @ 3.20GHz - CPU Passmark score 7079,,,,True,1163
+Intel Xeon E3-1225 v3 @ 3.20GHz,CPU Passmark score 7044,224.99,CPUs,Intel Xeon E3-1225 v3 @ 3.20GHz - CPU Passmark score 7044,,,,True,1162
+AMD FX-6350 Six-Core,CPU Passmark score 7039,139.99,CPUs,AMD FX-6350 Six-Core - CPU Passmark score 7039,,,,True,1161
+Intel Core i7-2920XM @ 2.50GHz,CPU Passmark score 7029 - Price is last known price,1096.0,CPUs,Intel Core i7-2920XM @ 2.50GHz - CPU Passmark score 7029,,,,True,1160
+Intel Xeon E3-1220 v3 @ 3.10GHz,CPU Passmark score 7022,204.99,CPUs,Intel Xeon E3-1220 v3 @ 3.10GHz - CPU Passmark score 7022,,,,True,1159
+Intel Core i7-3632QM @ 2.20GHz,CPU Passmark score 7014,0.0,CPUs,Intel Core i7-3632QM @ 2.20GHz - CPU Passmark score 7014,,,,False,1158
+Intel Core i5-3570 @ 3.40GHz,CPU Passmark score 7011,209.98,CPUs,Intel Core i5-3570 @ 3.40GHz - CPU Passmark score 7011,,,,True,1157
+Intel Xeon X5677 @ 3.47GHz,CPU Passmark score 6986 - Price is last known price,1663.0,CPUs,Intel Xeon X5677 @ 3.47GHz - CPU Passmark score 6986,,,,True,1156
+Intel Core i7-2760QM @ 2.40GHz,CPU Passmark score 6897 - Price is last known price,378.0,CPUs,Intel Core i7-2760QM @ 2.40GHz - CPU Passmark score 6897,,,,True,1155
+Intel Core i7-3612QM @ 2.10GHz,CPU Passmark score 6888,0.0,CPUs,Intel Core i7-3612QM @ 2.10GHz - CPU Passmark score 6888,,,,False,1154
+Intel Core i5-4570S @ 2.90GHz,CPU Passmark score 6875,197.99,CPUs,Intel Core i5-4570S @ 2.90GHz - CPU Passmark score 6875,,,,True,1153
+Intel Core i5-2550K @ 3.40GHz,CPU Passmark score 6873 - Price is last known price,247.5,CPUs,Intel Core i5-2550K @ 3.40GHz - CPU Passmark score 6873,,,,True,1152
+AMD FX-8140 Eight-Core,CPU Passmark score 6845,0.0,CPUs,AMD FX-8140 Eight-Core - CPU Passmark score 6845,,,,False,1151
+Intel Xeon E3-1225 V2 @ 3.20GHz,CPU Passmark score 6843,224.99,CPUs,Intel Xeon E3-1225 V2 @ 3.20GHz - CPU Passmark score 6843,,,,True,1150
+Intel Core i5-3550 @ 3.30GHz,CPU Passmark score 6824,224.99,CPUs,Intel Core i5-3550 @ 3.30GHz - CPU Passmark score 6824,,,,True,1149
+Intel Core i7-2840QM @ 2.40GHz,CPU Passmark score 6766,0.0,CPUs,Intel Core i7-2840QM @ 2.40GHz - CPU Passmark score 6766,,,,False,1148
+Intel Core i5-3570S @ 3.10GHz,CPU Passmark score 6736,0.0,CPUs,Intel Core i5-3570S @ 3.10GHz - CPU Passmark score 6736,,,,False,1147
+Intel Xeon E5645 @ 2.40GHz,CPU Passmark score 6730,545.95,CPUs,Intel Xeon E5645 @ 2.40GHz - CPU Passmark score 6730,,,,True,1146
+Intel Xeon W3580 @ 3.33GHz,CPU Passmark score 6701 - Price is last known price,1083.47,CPUs,Intel Xeon W3580 @ 3.33GHz - CPU Passmark score 6701,,,,True,1145
+Intel Core i7-3612QE @ 2.10GHz,CPU Passmark score 6665,0.0,CPUs,Intel Core i7-3612QE @ 2.10GHz - CPU Passmark score 6665,,,,False,1144
+Intel Core i7-2820QM @ 2.30GHz,CPU Passmark score 6659 - Price is last known price,498.95,CPUs,Intel Core i7-2820QM @ 2.30GHz - CPU Passmark score 6659,,,,True,1143
+Intel Core i5-4570R @ 2.70GHz,CPU Passmark score 6656,0.0,CPUs,Intel Core i5-4570R @ 2.70GHz - CPU Passmark score 6656,,,,False,1142
+Intel Core i5-3550S @ 3.00GHz,CPU Passmark score 6640,0.0,CPUs,Intel Core i5-3550S @ 3.00GHz - CPU Passmark score 6640,,,,False,1141
+Intel Core i7-3635QM @ 2.40GHz,CPU Passmark score 6598,0.0,CPUs,Intel Core i7-3635QM @ 2.40GHz - CPU Passmark score 6598,,,,False,1140
+AMD FX-8120 Eight-Core,CPU Passmark score 6594 - Price is last known price,249.95,CPUs,AMD FX-8120 Eight-Core - CPU Passmark score 6594,,,,True,1139
+Intel Core i5-3470 @ 3.20GHz,CPU Passmark score 6573,184.99,CPUs,Intel Core i5-3470 @ 3.20GHz - CPU Passmark score 6573,,,,True,1138
+AMD Opteron 3380,CPU Passmark score 6565,0.0,CPUs,AMD Opteron 3380 - CPU Passmark score 6565,,,,False,1137
+Intel Xeon W3570 @ 3.20GHz,CPU Passmark score 6552 - Price is last known price,1089.99,CPUs,Intel Xeon W3570 @ 3.20GHz - CPU Passmark score 6552,,,,True,1136
+Intel Xeon E3-1220 V2 @ 3.10GHz,CPU Passmark score 6525,199.99,CPUs,Intel Xeon E3-1220 V2 @ 3.10GHz - CPU Passmark score 6525,,,,True,1135
+Intel Core i5-2500K @ 3.30GHz,CPU Passmark score 6507,349.99,CPUs,Intel Core i5-2500K @ 3.30GHz - CPU Passmark score 6507,,,,True,1134
+Intel Core i5-4440 @ 3.10GHz,CPU Passmark score 6506,194.99,CPUs,Intel Core i5-4440 @ 3.10GHz - CPU Passmark score 6506,,,,True,1133
+Intel Core i5-3450 @ 3.10GHz,CPU Passmark score 6438,209.99,CPUs,Intel Core i5-3450 @ 3.10GHz - CPU Passmark score 6438,,,,True,1132
+AMD Opteron 4280,CPU Passmark score 6430,0.0,CPUs,AMD Opteron 4280 - CPU Passmark score 6430,,,,False,1131
+AMD FX-6300 Six-Core,CPU Passmark score 6384,118.49,CPUs,AMD FX-6300 Six-Core - CPU Passmark score 6384,,,,True,1130
+Intel Xeon W5590 @ 3.33GHz,CPU Passmark score 6373 - Price is last known price,1617.99,CPUs,Intel Xeon W5590 @ 3.33GHz - CPU Passmark score 6373,,,,True,1129
+Intel Core i5-4670T @ 2.30GHz,CPU Passmark score 6351,0.0,CPUs,Intel Core i5-4670T @ 2.30GHz - CPU Passmark score 6351,,,,False,1128
+Intel Core i5-4430 @ 3.00GHz,CPU Passmark score 6318,177.99,CPUs,Intel Core i5-4430 @ 3.00GHz - CPU Passmark score 6318,,,,True,1127
+Intel Xeon E3-1260L @ 2.40GHz,CPU Passmark score 6313 - Price is last known price,310.99,CPUs,Intel Xeon E3-1260L @ 2.40GHz - CPU Passmark score 6313,,,,True,1126
+Intel Core i7 975 @ 3.33GHz,CPU Passmark score 6282 - Price is last known price,499.0,CPUs,Intel Core i7 975 @ 3.33GHz - CPU Passmark score 6282,,,,True,1125
+Intel Core i7-2720QM @ 2.20GHz,CPU Passmark score 6231 - Price is last known price,399.99,CPUs,Intel Core i7-2720QM @ 2.20GHz - CPU Passmark score 6231,,,,True,1124
+Intel Xeon E3-1220 @ 3.10GHz,CPU Passmark score 6224,204.99,CPUs,Intel Xeon E3-1220 @ 3.10GHz - CPU Passmark score 6224,,,,True,1123
+Intel Core i5-2500 @ 3.30GHz,CPU Passmark score 6216 - Price is last known price,228.99,CPUs,Intel Core i5-2500 @ 3.30GHz - CPU Passmark score 6216,,,,True,1122
+Intel Core i7-3610QE @ 2.30GHz,CPU Passmark score 6198,0.0,CPUs,Intel Core i7-3610QE @ 2.30GHz - CPU Passmark score 6198,,,,False,1121
+Intel Core i5-3340 @ 3.10GHz,CPU Passmark score 6181,189.99,CPUs,Intel Core i5-3340 @ 3.10GHz - CPU Passmark score 6181,,,,True,1120
+Intel Core i5-3470S @ 2.90GHz,CPU Passmark score 6164,196.99,CPUs,Intel Core i5-3470S @ 2.90GHz - CPU Passmark score 6164,,,,True,1119
+Intel Core i5-4440S @ 2.80GHz,CPU Passmark score 6139,189.99,CPUs,Intel Core i5-4440S @ 2.80GHz - CPU Passmark score 6139,,,,True,1118
+Intel Core i5-3350P @ 3.10GHz,CPU Passmark score 6138 - Price is last known price,184.99,CPUs,Intel Core i5-3350P @ 3.10GHz - CPU Passmark score 6138,,,,True,1117
+AMD FX-6200 Six-Core,CPU Passmark score 6137,144.99,CPUs,AMD FX-6200 Six-Core - CPU Passmark score 6137,,,,True,1116
+AMD FX-8100 Eight-Core,CPU Passmark score 6110 - Price is last known price,142.0,CPUs,AMD FX-8100 Eight-Core - CPU Passmark score 6110,,,,True,1115
+AMD Opteron 6174,CPU Passmark score 6097,0.0,CPUs,AMD Opteron 6174 - CPU Passmark score 6097,,,,False,1114
+Intel Core i7-2635QM @ 2.00GHz,CPU Passmark score 6067,0.0,CPUs,Intel Core i7-2635QM @ 2.00GHz - CPU Passmark score 6067,,,,False,1113
+Intel Xeon L5638 @ 2.00GHz,CPU Passmark score 6057,0.0,CPUs,Intel Xeon L5638 @ 2.00GHz - CPU Passmark score 6057,,,,False,1112
+Intel Core i5-3450S @ 2.80GHz,CPU Passmark score 6046 - Price is last known price,206.51,CPUs,Intel Core i5-3450S @ 2.80GHz - CPU Passmark score 6046,,,,True,1111
+Intel Core i7-2670QM @ 2.20GHz,CPU Passmark score 6039,0.0,CPUs,Intel Core i7-2670QM @ 2.20GHz - CPU Passmark score 6039,,,,False,1110
+Intel Core i5-3475S @ 2.90GHz,CPU Passmark score 5991,0.0,CPUs,Intel Core i5-3475S @ 2.90GHz - CPU Passmark score 5991,,,,False,1109
+Intel Core i5-4430S @ 2.70GHz,CPU Passmark score 5963,0.0,CPUs,Intel Core i5-4430S @ 2.70GHz - CPU Passmark score 5963,,,,False,1108
+Intel Xeon E3-1225 @ 3.10GHz,CPU Passmark score 5950 - Price is last known price,216.99,CPUs,Intel Xeon E3-1225 @ 3.10GHz - CPU Passmark score 5950,,,,True,1107
+Intel Core i7 960 @ 3.20GHz,CPU Passmark score 5949,399,CPUs,Intel Core i7 960 @ 3.20GHz - CPU Passmark score 5949,,,,True,1106
+Intel Core i7 965 @ 3.20GHz,CPU Passmark score 5924 - Price is last known price,989.99,CPUs,Intel Core i7 965 @ 3.20GHz - CPU Passmark score 5924,,,,True,1105
+Intel Xeon X5647 @ 2.93GHz,CPU Passmark score 5919 - Price is last known price,1207.5,CPUs,Intel Xeon X5647 @ 2.93GHz - CPU Passmark score 5919,,,,True,1104
+AMD Phenom II X6 1100T,CPU Passmark score 5917 - Price is last known price,400.0,CPUs,AMD Phenom II X6 1100T - CPU Passmark score 5917,,,,True,1103
+Intel Core i5-2450P @ 3.20GHz,CPU Passmark score 5913 - Price is last known price,214.99,CPUs,Intel Core i5-2450P @ 3.20GHz - CPU Passmark score 5913,,,,True,1102
+Intel Core i5-3330 @ 3.00GHz,CPU Passmark score 5907,177.99,CPUs,Intel Core i5-3330 @ 3.00GHz - CPU Passmark score 5907,,,,True,1101
+Intel Xeon E5640 @ 2.67GHz,CPU Passmark score 5859 - Price is last known price,540.75,CPUs,Intel Xeon E5640 @ 2.67GHz - CPU Passmark score 5859,,,,True,1100
+Intel Core i5-3570T @ 2.30GHz,CPU Passmark score 5836,0.0,CPUs,Intel Core i5-3570T @ 2.30GHz - CPU Passmark score 5836,,,,False,1099
+Intel Core i5-2400 @ 3.10GHz,CPU Passmark score 5819,211.74,CPUs,Intel Core i5-2400 @ 3.10GHz - CPU Passmark score 5819,,,,True,1098
+AMD FX-6120 Six-Core,CPU Passmark score 5798,0.0,CPUs,AMD FX-6120 Six-Core - CPU Passmark score 5798,,,,False,1097
+AMD Opteron 6212,CPU Passmark score 5776 - Price is last known price,315.0,CPUs,AMD Opteron 6212 - CPU Passmark score 5776,,,,True,1096
+Intel Core i5-2380P @ 3.10GHz,CPU Passmark score 5768,211.91,CPUs,Intel Core i5-2380P @ 3.10GHz - CPU Passmark score 5768,,,,True,1095
+Intel Core i5-3335S @ 2.70GHz,CPU Passmark score 5761,0.0,CPUs,Intel Core i5-3335S @ 2.70GHz - CPU Passmark score 5761,,,,False,1094
+QEMU Virtual version 1.7.90,CPU Passmark score 5759,0.0,CPUs,QEMU Virtual version 1.7.90 - CPU Passmark score 5759,,,,False,1093
+AMD A10-7850K APU with Radeon R7 Graphics,CPU Passmark score 5745,0.0,CPUs,AMD A10-7850K APU with Radeon R7 Graphics - CPU Passmark score 5745,,,,False,1092
+Intel Xeon E5-1607 @ 3.00GHz,CPU Passmark score 5742,0.0,CPUs,Intel Xeon E5-1607 @ 3.00GHz - CPU Passmark score 5742,,,,False,1091
+Intel Core i7 880 @ 3.07GHz,CPU Passmark score 5703 - Price is last known price,583.0,CPUs,Intel Core i7 880 @ 3.07GHz - CPU Passmark score 5703,,,,True,1090
+AMD Phenom II X6 1090T,CPU Passmark score 5686,300,CPUs,AMD Phenom II X6 1090T - CPU Passmark score 5686,,,,True,1089
+Intel Core i5-3340S @ 2.80GHz,CPU Passmark score 5686,199.99,CPUs,Intel Core i5-3340S @ 2.80GHz - CPU Passmark score 5686,,,,True,1088
+Intel Core i5-2320 @ 3.00GHz,CPU Passmark score 5662 - Price is last known price,250.0,CPUs,Intel Core i5-2320 @ 3.00GHz - CPU Passmark score 5662,,,,True,1087
+Intel Core i5-3330S @ 2.70GHz,CPU Passmark score 5649,0.0,CPUs,Intel Core i5-3330S @ 2.70GHz - CPU Passmark score 5649,,,,False,1086
+Intel Core i7 950 @ 3.07GHz,CPU Passmark score 5644 - Price is last known price,309.67,CPUs,Intel Core i7 950 @ 3.07GHz - CPU Passmark score 5644,,,,True,1085
+Intel Core i7-2630QM @ 2.00GHz,CPU Passmark score 5583,0.0,CPUs,Intel Core i7-2630QM @ 2.00GHz - CPU Passmark score 5583,,,,False,1084
+"AMD A10-7700K Radeon R7, 10 Compute Cores 4C+6G",CPU Passmark score 5572,0.0,CPUs,"AMD A10-7700K Radeon R7, 10 Compute Cores 4C+6G - CPU Passmark score 5572",,,,False,1083
+Intel Xeon X5570 @ 2.93GHz,CPU Passmark score 5553 - Price is last known price,900.0,CPUs,Intel Xeon X5570 @ 2.93GHz - CPU Passmark score 5553,,,,True,1082
+Intel Xeon X5560 @ 2.80GHz,CPU Passmark score 5535 - Price is last known price,1251.99,CPUs,Intel Xeon X5560 @ 2.80GHz - CPU Passmark score 5535,,,,True,1081
+Intel Xeon X3470 @ 2.93GHz,CPU Passmark score 5523 - Price is last known price,349.99,CPUs,Intel Xeon X3470 @ 2.93GHz - CPU Passmark score 5523,,,,True,1080
+Intel Core i7-2675QM @ 2.20GHz,CPU Passmark score 5512,0.0,CPUs,Intel Core i7-2675QM @ 2.20GHz - CPU Passmark score 5512,,,,False,1079
+Intel Core i7-3615QE @ 2.30GHz,CPU Passmark score 5495,0.0,CPUs,Intel Core i7-3615QE @ 2.30GHz - CPU Passmark score 5495,,,,False,1078
+Intel Core i5-2310 @ 2.90GHz,CPU Passmark score 5494 - Price is last known price,169.99,CPUs,Intel Core i5-2310 @ 2.90GHz - CPU Passmark score 5494,,,,True,1077
+Intel Core i7 870 @ 2.93GHz,CPU Passmark score 5481,225,CPUs,Intel Core i7 870 @ 2.93GHz - CPU Passmark score 5481,,,,True,1076
+Intel Xeon E5-1603 @ 2.80GHz,CPU Passmark score 5469,219.99,CPUs,Intel Xeon E5-1603 @ 2.80GHz - CPU Passmark score 5469,,,,True,1075
+Intel Core i7 940 @ 2.93GHz,CPU Passmark score 5462 - Price is last known price,699.95,CPUs,Intel Core i7 940 @ 2.93GHz - CPU Passmark score 5462,,,,True,1074
+Intel Xeon W3540 @ 2.93GHz,CPU Passmark score 5453 - Price is last known price,698.95,CPUs,Intel Xeon W3540 @ 2.93GHz - CPU Passmark score 5453,,,,True,1073
+AMD A10-7700K APU with Radeon R7 Graphics,CPU Passmark score 5444,0.0,CPUs,AMD A10-7700K APU with Radeon R7 Graphics - CPU Passmark score 5444,,,,False,1072
+Intel Core i7 K 875 @ 2.93GHz,CPU Passmark score 5437,349.99,CPUs,Intel Core i7 K 875 @ 2.93GHz - CPU Passmark score 5437,,,,True,1071
+Intel Xeon X5550 @ 2.67GHz,CPU Passmark score 5433 - Price is last known price,99.75,CPUs,Intel Xeon X5550 @ 2.67GHz - CPU Passmark score 5433,,,,True,1070
+AMD FX-6100 Six-Core,CPU Passmark score 5425 - Price is last known price,156.78,CPUs,AMD FX-6100 Six-Core - CPU Passmark score 5425,,,,True,1069
+AMD Phenom II X6 1075T,CPU Passmark score 5394 - Price is last known price,180.0,CPUs,AMD Phenom II X6 1075T - CPU Passmark score 5394,,,,True,1068
+Intel Core 870 @ 2.93GHz,CPU Passmark score 5353 - Price is last known price,499.99,CPUs,Intel Core 870 @ 2.93GHz - CPU Passmark score 5353,,,,True,1067
+AMD Opteron 6164 HE,CPU Passmark score 5351,0.0,CPUs,AMD Opteron 6164 HE - CPU Passmark score 5351,,,,False,1066
+AMD A10-6800B APU,CPU Passmark score 5298,0.0,CPUs,AMD A10-6800B APU - CPU Passmark score 5298,,,,False,1065
+Intel Core i5-2300 @ 2.80GHz,CPU Passmark score 5255 - Price is last known price,189.98,CPUs,Intel Core i5-2300 @ 2.80GHz - CPU Passmark score 5255,,,,True,1064
+AMD FX-4350 Quad-Core,CPU Passmark score 5226,139.99,CPUs,AMD FX-4350 Quad-Core - CPU Passmark score 5226,,,,True,1063
+AMD Opteron 6128,CPU Passmark score 5210 - Price is last known price,457.5,CPUs,AMD Opteron 6128 - CPU Passmark score 5210,,,,True,1062
+Intel Core i7 930 @ 2.80GHz,CPU Passmark score 5209,299.99,CPUs,Intel Core i7 930 @ 2.80GHz - CPU Passmark score 5209,,,,True,1061
+Intel Core i3-4340 @ 3.60GHz,CPU Passmark score 5201,159.99,CPUs,Intel Core i3-4340 @ 3.60GHz - CPU Passmark score 5201,,,,True,1060
+Intel Core i7-2715QE @ 2.10GHz,CPU Passmark score 5199,0.0,CPUs,Intel Core i7-2715QE @ 2.10GHz - CPU Passmark score 5199,,,,False,1059
+Intel @ 0000 @ 2.67GHz,CPU Passmark score 5189,0.0,CPUs,Intel @ 0000 @ 2.67GHz - CPU Passmark score 5189,,,,False,1058
+Intel Xeon X3450 @ 2.67GHz,CPU Passmark score 5172 - Price is last known price,273.99,CPUs,Intel Xeon X3450 @ 2.67GHz - CPU Passmark score 5172,,,,True,1057
+AMD Phenom II X6 1065T,CPU Passmark score 5171,0.0,CPUs,AMD Phenom II X6 1065T - CPU Passmark score 5171,,,,False,1056
+Intel Xeon X5672 @ 3.20GHz,CPU Passmark score 5148,0.0,CPUs,Intel Xeon X5672 @ 3.20GHz - CPU Passmark score 5148,,,,False,1055
+Intel Core i7 860 @ 2.80GHz,CPU Passmark score 5109,398.95,CPUs,Intel Core i7 860 @ 2.80GHz - CPU Passmark score 5109,,,,True,1054
+AMD Opteron 6272,CPU Passmark score 5104 - Price is last known price,420.0,CPUs,AMD Opteron 6272 - CPU Passmark score 5104,,,,True,1053
+Intel Xeon E5630 @ 2.53GHz,CPU Passmark score 5103,576.99,CPUs,Intel Xeon E5630 @ 2.53GHz - CPU Passmark score 5103,,,,True,1052
+Intel Xeon X5470 @ 3.33GHz,CPU Passmark score 5102,0.0,CPUs,Intel Xeon X5470 @ 3.33GHz - CPU Passmark score 5102,,,,False,1051
+Intel Core i5-2500S @ 2.70GHz,CPU Passmark score 5101,0.0,CPUs,Intel Core i5-2500S @ 2.70GHz - CPU Passmark score 5101,,,,False,1050
+Intel Core i3-4330 @ 3.50GHz,CPU Passmark score 5092,129.99,CPUs,Intel Core i3-4330 @ 3.50GHz - CPU Passmark score 5092,,,,True,1049
+AMD Phenom II X6 1055T,CPU Passmark score 5054 - Price is last known price,196.69,CPUs,AMD Phenom II X6 1055T - CPU Passmark score 5054,,,,True,1048
+Intel Core i7 S 870 @ 2.67GHz,CPU Passmark score 5052,0.0,CPUs,Intel Core i7 S 870 @ 2.67GHz - CPU Passmark score 5052,,,,False,1047
+Intel Xeon W3520 @ 2.67GHz,CPU Passmark score 5036 - Price is last known price,359.99,CPUs,Intel Xeon W3520 @ 2.67GHz - CPU Passmark score 5036,,,,True,1046
+Intel Xeon E5-4603 @ 2.00GHz,CPU Passmark score 5014,0.0,CPUs,Intel Xeon E5-4603 @ 2.00GHz - CPU Passmark score 5014,,,,False,1045
+Intel Core i7 920 @ 2.67GHz,CPU Passmark score 5008,249.99,CPUs,Intel Core i7 920 @ 2.67GHz - CPU Passmark score 5008,,,,True,1044
+Intel Xeon X3460 @ 2.80GHz,CPU Passmark score 4986 - Price is last known price,346.99,CPUs,Intel Xeon X3460 @ 2.80GHz - CPU Passmark score 4986,,,,True,1043
+AMD A10-6800K APU,CPU Passmark score 4985,139.99,CPUs,AMD A10-6800K APU - CPU Passmark score 4985,,,,True,1042
+Intel Core i7-4600M @ 2.90GHz,CPU Passmark score 4945,0.0,CPUs,Intel Core i7-4600M @ 2.90GHz - CPU Passmark score 4945,,,,False,1041
+Intel Xeon E5620 @ 2.40GHz,CPU Passmark score 4945,210,CPUs,Intel Xeon E5620 @ 2.40GHz - CPU Passmark score 4945,,,,True,1040
+Intel Core i5-2405S @ 2.50GHz,CPU Passmark score 4930 - Price is last known price,330.02,CPUs,Intel Core i5-2405S @ 2.50GHz - CPU Passmark score 4930,,,,True,1039
+Intel Core i5-24050S @ 2.50GHz,CPU Passmark score 4928,0.0,CPUs,Intel Core i5-24050S @ 2.50GHz - CPU Passmark score 4928,,,,False,1038
+AMD FX-670K Quad-Core,CPU Passmark score 4921,0.0,CPUs,AMD FX-670K Quad-Core - CPU Passmark score 4921,,,,False,1037
+AMD Phenom II X6 1045T,CPU Passmark score 4920 - Price is last known price,199.0,CPUs,AMD Phenom II X6 1045T - CPU Passmark score 4920,,,,True,1036
+Intel Core2 Extreme X9750 @ 3.16GHz,CPU Passmark score 4915,0.0,CPUs,Intel Core2 Extreme X9750 @ 3.16GHz - CPU Passmark score 4915,,,,False,1035
+Intel Core i5-4570T @ 2.90GHz,CPU Passmark score 4901,0.0,CPUs,Intel Core i5-4570T @ 2.90GHz - CPU Passmark score 4901,,,,False,1034
+Intel Core i5-2400S @ 2.50GHz,CPU Passmark score 4896 - Price is last known price,299.0,CPUs,Intel Core i5-2400S @ 2.50GHz - CPU Passmark score 4896,,,,True,1033
+Intel Core i3-4570T @ 2.90GHz,CPU Passmark score 4867,0.0,CPUs,Intel Core i3-4570T @ 2.90GHz - CPU Passmark score 4867,,,,False,1032
+Intel Core i7 S 860 @ 2.53GHz,CPU Passmark score 4864 - Price is last known price,385.27,CPUs,Intel Core i7 S 860 @ 2.53GHz - CPU Passmark score 4864,,,,True,1031
+Intel Xeon L5639 @ 2.13GHz,CPU Passmark score 4858,0.0,CPUs,Intel Xeon L5639 @ 2.13GHz - CPU Passmark score 4858,,,,False,1030
+Intel Core i3-4130 @ 3.40GHz,CPU Passmark score 4853,118.97,CPUs,Intel Core i3-4130 @ 3.40GHz - CPU Passmark score 4853,,,,True,1029
+Intel Core i5-4200H @ 2.80GHz,CPU Passmark score 4848,0.0,CPUs,Intel Core i5-4200H @ 2.80GHz - CPU Passmark score 4848,,,,False,1028
+AMD Athlon II X4 559,CPU Passmark score 4829,0.0,CPUs,AMD Athlon II X4 559 - CPU Passmark score 4829,,,,False,1027
+Intel Xeon E5530 @ 2.40GHz,CPU Passmark score 4825 - Price is last known price,624.99,CPUs,Intel Xeon E5530 @ 2.40GHz - CPU Passmark score 4825,,,,True,1026
+Intel Core2 Extreme X9770 @ 3.20GHz,CPU Passmark score 4809 - Price is last known price,1400.0,CPUs,Intel Core2 Extreme X9770 @ 3.20GHz - CPU Passmark score 4809,,,,True,1025
+AMD A10-5800B APU,CPU Passmark score 4798,0.0,CPUs,AMD A10-5800B APU - CPU Passmark score 4798,,,,False,1024
+Intel Xeon W3565 @ 3.20GHz,CPU Passmark score 4788 - Price is last known price,322.99,CPUs,Intel Xeon W3565 @ 3.20GHz - CPU Passmark score 4788,,,,True,1023
+AMD FX-4170 Quad-Core,CPU Passmark score 4784 - Price is last known price,197.0,CPUs,AMD FX-4170 Quad-Core - CPU Passmark score 4784,,,,True,1022
+Intel Xeon X5482 @ 3.20GHz,CPU Passmark score 4777 - Price is last known price,1279.0,CPUs,Intel Xeon X5482 @ 3.20GHz - CPU Passmark score 4777,,,,True,1021
+Intel Xeon E5540 @ 2.53GHz,CPU Passmark score 4773 - Price is last known price,90.0,CPUs,Intel Xeon E5540 @ 2.53GHz - CPU Passmark score 4773,,,,True,1020
+AMD Phenom II X6 1035T,CPU Passmark score 4759 - Price is last known price,189.0,CPUs,AMD Phenom II X6 1035T - CPU Passmark score 4759,,,,True,1019
+AMD A10-6700 APU,CPU Passmark score 4755,149.99,CPUs,AMD A10-6700 APU - CPU Passmark score 4755,,,,True,1018
+Intel Core i7-2710QE @ 2.10GHz,CPU Passmark score 4751,0.0,CPUs,Intel Core i7-2710QE @ 2.10GHz - CPU Passmark score 4751,,,,False,1017
+Intel Core i5-4330M @ 2.80GHz,CPU Passmark score 4742 - Price is last known price,274.99,CPUs,Intel Core i5-4330M @ 2.80GHz - CPU Passmark score 4742,,,,True,1016
+Intel Core i7-3540M @ 3.00GHz,CPU Passmark score 4735,0.0,CPUs,Intel Core i7-3540M @ 3.00GHz - CPU Passmark score 4735,,,,False,1015
+AMD FX-4300 Quad-Core,CPU Passmark score 4730,99.99,CPUs,AMD FX-4300 Quad-Core - CPU Passmark score 4730,,,,True,1014
+Intel Xeon X3380 @ 3.16GHz,CPU Passmark score 4724,0.0,CPUs,Intel Xeon X3380 @ 3.16GHz - CPU Passmark score 4724,,,,False,1013
+AMD Phenom II X4 980,CPU Passmark score 4690 - Price is last known price,136.64,CPUs,AMD Phenom II X4 980 - CPU Passmark score 4690,,,,True,1012
+AMD A8-6600K APU,CPU Passmark score 4687,105.99,CPUs,AMD A8-6600K APU - CPU Passmark score 4687,,,,True,1011
+Intel Core i5-2500T @ 2.30GHz,CPU Passmark score 4682,0.0,CPUs,Intel Core i5-2500T @ 2.30GHz - CPU Passmark score 4682,,,,False,1010
+Intel Xeon W5580 @ 3.20GHz,CPU Passmark score 4680 - Price is last known price,1659.99,CPUs,Intel Xeon W5580 @ 3.20GHz - CPU Passmark score 4680,,,,True,1009
+Intel Xeon E5-1607 v2 @ 3.00GHz,CPU Passmark score 4676,0.0,CPUs,Intel Xeon E5-1607 v2 @ 3.00GHz - CPU Passmark score 4676,,,,False,1008
+AMD A10-5800K APU,CPU Passmark score 4669,109.98,CPUs,AMD A10-5800K APU - CPU Passmark score 4669,,,,True,1007
+AMD FX-4150 Quad-Core,CPU Passmark score 4643,0.0,CPUs,AMD FX-4150 Quad-Core - CPU Passmark score 4643,,,,False,1006
+Intel Xeon W3550 @ 3.07GHz,CPU Passmark score 4632 - Price is last known price,323.99,CPUs,Intel Xeon W3550 @ 3.07GHz - CPU Passmark score 4632,,,,True,1005
+AMD Phenom II X4 975,CPU Passmark score 4628 - Price is last known price,129.99,CPUs,AMD Phenom II X4 975 - CPU Passmark score 4628,,,,True,1004
+AMD A10-6790K APU,CPU Passmark score 4622,129.99,CPUs,AMD A10-6790K APU - CPU Passmark score 4622,,,,True,1003
+Intel Xeon X3370 @ 3.00GHz,CPU Passmark score 4608 - Price is last known price,365.5,CPUs,Intel Xeon X3370 @ 3.00GHz - CPU Passmark score 4608,,,,True,1002
+Intel Xeon E5-2609 @ 2.40GHz,CPU Passmark score 4602,299.99,CPUs,Intel Xeon E5-2609 @ 2.40GHz - CPU Passmark score 4602,,,,True,1001
+Intel Xeon E5520 @ 2.27GHz,CPU Passmark score 4587,94,CPUs,Intel Xeon E5520 @ 2.27GHz - CPU Passmark score 4587,,,,True,1000
+AMD Athlon X4 760K Quad Core,CPU Passmark score 4586,0.0,CPUs,AMD Athlon X4 760K Quad Core - CPU Passmark score 4586,,,,False,999
+Intel Core i5-4288U @ 2.60GHz,CPU Passmark score 4583,0.0,CPUs,Intel Core i5-4288U @ 2.60GHz - CPU Passmark score 4583,,,,False,998
+Intel Core i7-3520M @ 2.90GHz,CPU Passmark score 4561,0.0,CPUs,Intel Core i7-3520M @ 2.90GHz - CPU Passmark score 4561,,,,False,997
+AMD Phenom II X4 B65,CPU Passmark score 4558,0.0,CPUs,AMD Phenom II X4 B65 - CPU Passmark score 4558,,,,False,996
+Intel Core i5-3470T @ 2.90GHz,CPU Passmark score 4556 - Price is last known price,234.95,CPUs,Intel Core i5-3470T @ 2.90GHz - CPU Passmark score 4556,,,,True,995
+Intel Core i5-4300M @ 2.60GHz,CPU Passmark score 4551,0.0,CPUs,Intel Core i5-4300M @ 2.60GHz - CPU Passmark score 4551,,,,False,994
+Intel Core i3-4330T @ 3.00GHz,CPU Passmark score 4547,0.0,CPUs,Intel Core i3-4330T @ 3.00GHz - CPU Passmark score 4547,,,,False,993
+AMD A8-6500B APU,CPU Passmark score 4532,0.0,CPUs,AMD A8-6500B APU - CPU Passmark score 4532,,,,False,992
+AMD A8-6500 APU,CPU Passmark score 4528,104.99,CPUs,AMD A8-6500 APU - CPU Passmark score 4528,,,,True,991
+AMD Opteron 2431,CPU Passmark score 4516 - Price is last known price,814.81,CPUs,AMD Opteron 2431 - CPU Passmark score 4516,,,,True,990
+AMD Phenom II X4 970,CPU Passmark score 4514 - Price is last known price,124.99,CPUs,AMD Phenom II X4 970 - CPU Passmark score 4514,,,,True,989
+Intel Xeon X5460 @ 3.16GHz,CPU Passmark score 4500 - Price is last known price,999.99,CPUs,Intel Xeon X5460 @ 3.16GHz - CPU Passmark score 4500,,,,True,988
+Intel Core i3-3245 @ 3.40GHz,CPU Passmark score 4464,145.99,CPUs,Intel Core i3-3245 @ 3.40GHz - CPU Passmark score 4464,,,,True,987
+Intel Core i3-3250 @ 3.50GHz,CPU Passmark score 4407,149.99,CPUs,Intel Core i3-3250 @ 3.50GHz - CPU Passmark score 4407,,,,True,986
+Intel Core i3-3225 @ 3.30GHz,CPU Passmark score 4391,134.98,CPUs,Intel Core i3-3225 @ 3.30GHz - CPU Passmark score 4391,,,,True,985
+Intel Xeon X3440 @ 2.53GHz,CPU Passmark score 4377 - Price is last known price,249.99,CPUs,Intel Xeon X3440 @ 2.53GHz - CPU Passmark score 4377,,,,True,984
+Intel Core2 Extreme X9650 @ 3.00GHz,CPU Passmark score 4375 - Price is last known price,998.95,CPUs,Intel Core2 Extreme X9650 @ 3.00GHz - CPU Passmark score 4375,,,,True,983
+AMD A8-5600K APU,CPU Passmark score 4362,94.29,CPUs,AMD A8-5600K APU - CPU Passmark score 4362,,,,True,982
+Intel Core X 920 @ 2.00GHz,CPU Passmark score 4361,0.0,CPUs,Intel Core X 920 @ 2.00GHz - CPU Passmark score 4361,,,,False,981
+Intel Core i7-4650U @ 1.70GHz,CPU Passmark score 4357,0.0,CPUs,Intel Core i7-4650U @ 1.70GHz - CPU Passmark score 4357,,,,False,980
+AMD FX-4200 Quad-Core,CPU Passmark score 4352,79.58,CPUs,AMD FX-4200 Quad-Core - CPU Passmark score 4352,,,,True,979
+Intel Xeon L5530 @ 2.40GHz,CPU Passmark score 4351,0.0,CPUs,Intel Xeon L5530 @ 2.40GHz - CPU Passmark score 4351,,,,False,978
+Intel Xeon L5520 @ 2.27GHz,CPU Passmark score 4338 - Price is last known price,649.99,CPUs,Intel Xeon L5520 @ 2.27GHz - CPU Passmark score 4338,,,,True,977
+Intel Core i7-4600U @ 2.10GHz,CPU Passmark score 4332,0.0,CPUs,Intel Core i7-4600U @ 2.10GHz - CPU Passmark score 4332,,,,False,976
+Intel Core i3-3240 @ 3.40GHz,CPU Passmark score 4329,118.99,CPUs,Intel Core i3-3240 @ 3.40GHz - CPU Passmark score 4329,,,,True,975
+Intel Core i3-2140 @ 3.50GHz,CPU Passmark score 4325,0.0,CPUs,Intel Core i3-2140 @ 3.50GHz - CPU Passmark score 4325,,,,False,974
+AMD Athlon X4 750K Quad Core,CPU Passmark score 4316,79.99,CPUs,AMD Athlon X4 750K Quad Core - CPU Passmark score 4316,,,,True,973
+Intel Core i7-3687U @ 2.10GHz,CPU Passmark score 4310,0.0,CPUs,Intel Core i7-3687U @ 2.10GHz - CPU Passmark score 4310,,,,False,972
+Intel Core i5-3380M @ 2.90GHz,CPU Passmark score 4307,0.0,CPUs,Intel Core i5-3380M @ 2.90GHz - CPU Passmark score 4307,,,,False,971
+AMD Phenom II X4 40,CPU Passmark score 4298 - Price is last known price,120.05,CPUs,AMD Phenom II X4 40 - CPU Passmark score 4298,,,,True,970
+Intel Core i5-3360M @ 2.80GHz,CPU Passmark score 4285,0.0,CPUs,Intel Core i5-3360M @ 2.80GHz - CPU Passmark score 4285,,,,False,969
+AMD Phenom II X4 965,CPU Passmark score 4273 - Price is last known price,145.0,CPUs,AMD Phenom II X4 965 - CPU Passmark score 4273,,,,True,968
+Intel Xeon X5450 @ 3.00GHz,CPU Passmark score 4273 - Price is last known price,852.0,CPUs,Intel Xeon X5450 @ 3.00GHz - CPU Passmark score 4273,,,,True,967
+Intel Xeon X5698 @ 4.40GHz,CPU Passmark score 4272,0.0,CPUs,Intel Xeon X5698 @ 4.40GHz - CPU Passmark score 4272,,,,False,966
+Intel Xeon W3530 @ 2.80GHz,CPU Passmark score 4269 - Price is last known price,285.0,CPUs,Intel Xeon W3530 @ 2.80GHz - CPU Passmark score 4269,,,,True,965
+Intel Core i5-4400E @ 2.70GHz,CPU Passmark score 4257,0.0,CPUs,Intel Core i5-4400E @ 2.70GHz - CPU Passmark score 4257,,,,False,964
+Intel Core2 Quad Q9650 @ 3.00GHz,CPU Passmark score 4255,224.95,CPUs,Intel Core2 Quad Q9650 @ 3.00GHz - CPU Passmark score 4255,,,,True,963
+AMD A10-5700 APU,CPU Passmark score 4240,128.98,CPUs,AMD A10-5700 APU - CPU Passmark score 4240,,,,True,962
+Intel Xeon X3363 @ 2.83GHz,CPU Passmark score 4235,0.0,CPUs,Intel Xeon X3363 @ 2.83GHz - CPU Passmark score 4235,,,,False,961
+Intel Core i3-3220 @ 3.30GHz,CPU Passmark score 4227,120.99,CPUs,Intel Core i3-3220 @ 3.30GHz - CPU Passmark score 4227,,,,True,960
+Intel Core i5-3340M @ 2.70GHz,CPU Passmark score 4226,0.0,CPUs,Intel Core i5-3340M @ 2.70GHz - CPU Passmark score 4226,,,,False,959
+Intel Core i3-4130T @ 2.90GHz,CPU Passmark score 4224,134.99,CPUs,Intel Core i3-4130T @ 2.90GHz - CPU Passmark score 4224,,,,True,958
+Intel Xeon E5462 @ 2.80GHz,CPU Passmark score 4202 - Price is last known price,255.99,CPUs,Intel Xeon E5462 @ 2.80GHz - CPU Passmark score 4202,,,,True,957
+Intel Xeon E5450 @ 3.00GHz,CPU Passmark score 4198 - Price is last known price,1058.95,CPUs,Intel Xeon E5450 @ 3.00GHz - CPU Passmark score 4198,,,,True,956
+Intel Core i7 X 940 @ 2.13GHz,CPU Passmark score 4179,0.0,CPUs,Intel Core i7 X 940 @ 2.13GHz - CPU Passmark score 4179,,,,False,955
+Intel Core i7-4550U @ 1.50GHz,CPU Passmark score 4171,0.0,CPUs,Intel Core i7-4550U @ 1.50GHz - CPU Passmark score 4171,,,,False,954
+AMD FX-4130 Quad-Core,CPU Passmark score 4163,117.43,CPUs,AMD FX-4130 Quad-Core - CPU Passmark score 4163,,,,True,953
+AMD Phenom II X4 B99,CPU Passmark score 4154,0.0,CPUs,AMD Phenom II X4 B99 - CPU Passmark score 4154,,,,False,952
+Intel Core i5-4200M @ 2.50GHz,CPU Passmark score 4151,0.0,CPUs,Intel Core i5-4200M @ 2.50GHz - CPU Passmark score 4151,,,,False,951
+AMD Eng Sample Mobile 2185_A1,CPU Passmark score 4134,0.0,CPUs,AMD Eng Sample Mobile 2185_A1 - CPU Passmark score 4134,,,,False,950
+Intel Core i5-4258U @ 2.40GHz,CPU Passmark score 4126,0.0,CPUs,Intel Core i5-4258U @ 2.40GHz - CPU Passmark score 4126,,,,False,949
+AMD Phenom II X4 B60,CPU Passmark score 4123,0.0,CPUs,AMD Phenom II X4 B60 - CPU Passmark score 4123,,,,False,948
+Intel Xeon X3360 @ 2.83GHz,CPU Passmark score 4120 - Price is last known price,268.0,CPUs,Intel Xeon X3360 @ 2.83GHz - CPU Passmark score 4120,,,,True,947
+Intel Core i7-4558U @ 2.80GHz,CPU Passmark score 4116,0.0,CPUs,Intel Core i7-4558U @ 2.80GHz - CPU Passmark score 4116,,,,False,946
+Intel Xeon L5430 @ 2.66GHz,CPU Passmark score 4099,0.0,CPUs,Intel Xeon L5430 @ 2.66GHz - CPU Passmark score 4099,,,,False,945
+Intel Core i7-3555LE @ 2.50GHz,CPU Passmark score 4080,0.0,CPUs,Intel Core i7-3555LE @ 2.50GHz - CPU Passmark score 4080,,,,False,944
+Intel Core2 Quad Q9550 @ 2.83GHz,CPU Passmark score 4075,268,CPUs,Intel Core2 Quad Q9550 @ 2.83GHz - CPU Passmark score 4075,,,,True,943
+Intel Core i3-2125 @ 3.30GHz,CPU Passmark score 4056 - Price is last known price,149.99,CPUs,Intel Core i3-2125 @ 3.30GHz - CPU Passmark score 4056,,,,True,942
+Intel Core i5-3320M @ 2.60GHz,CPU Passmark score 4053 - Price is last known price,239.99,CPUs,Intel Core i5-3320M @ 2.60GHz - CPU Passmark score 4053,,,,True,941
+AMD A8-5500 APU,CPU Passmark score 4051,96.52,CPUs,AMD A8-5500 APU - CPU Passmark score 4051,,,,True,940
+AMD FX-4100 Quad-Core,CPU Passmark score 4048,303.49,CPUs,AMD FX-4100 Quad-Core - CPU Passmark score 4048,,,,True,939
+Intel Core i5-4310U @ 2.00GHz,CPU Passmark score 4043,0.0,CPUs,Intel Core i5-4310U @ 2.00GHz - CPU Passmark score 4043,,,,False,938
+Intel Core i3-2130 @ 3.40GHz,CPU Passmark score 4026 - Price is last known price,293.59,CPUs,Intel Core i3-2130 @ 3.40GHz - CPU Passmark score 4026,,,,True,937
+AMD Phenom II X4 20,CPU Passmark score 4025,0.0,CPUs,AMD Phenom II X4 20 - CPU Passmark score 4025,,,,False,936
+Intel Core i7-3667U @ 2.00GHz,CPU Passmark score 4018,0.0,CPUs,Intel Core i7-3667U @ 2.00GHz - CPU Passmark score 4018,,,,False,935
+Intel Xeon E5472 @ 3.00GHz,CPU Passmark score 4017 - Price is last known price,1098.95,CPUs,Intel Xeon E5472 @ 3.00GHz - CPU Passmark score 4017,,,,True,934
+AMD Phenom II X4 955,CPU Passmark score 4010 - Price is last known price,215.0,CPUs,AMD Phenom II X4 955 - CPU Passmark score 4010,,,,True,933
+AMD Opteron 3350 HE,CPU Passmark score 4009,0.0,CPUs,AMD Opteron 3350 HE - CPU Passmark score 4009,,,,False,932
+Intel Xeon E5440 @ 2.83GHz,CPU Passmark score 4005 - Price is last known price,379.42,CPUs,Intel Xeon E5440 @ 2.83GHz - CPU Passmark score 4005,,,,True,931
+Intel Core i5-3230M @ 2.60GHz,CPU Passmark score 3994,0.0,CPUs,Intel Core i5-3230M @ 2.60GHz - CPU Passmark score 3994,,,,False,930
+Intel Core i7-2640M @ 2.80GHz,CPU Passmark score 3990,0.0,CPUs,Intel Core i7-2640M @ 2.80GHz - CPU Passmark score 3990,,,,False,929
+AMD Athlon X4 740 Quad Core,CPU Passmark score 3973,74.99,CPUs,AMD Athlon X4 740 Quad Core - CPU Passmark score 3973,,,,True,928
+Intel Core i5-2390T @ 2.70GHz,CPU Passmark score 3966,0.0,CPUs,Intel Core i5-2390T @ 2.70GHz - CPU Passmark score 3966,,,,False,927
+Intel Xeon L3426 @ 1.87GHz,CPU Passmark score 3960 - Price is last known price,325.99,CPUs,Intel Xeon L3426 @ 1.87GHz - CPU Passmark score 3960,,,,True,926
+Intel Core2 Quad Q9705 @ 3.16GHz,CPU Passmark score 3947,0.0,CPUs,Intel Core2 Quad Q9705 @ 3.16GHz - CPU Passmark score 3947,,,,False,925
+AMD Phenom Ultra X4 24500,CPU Passmark score 3945,0.0,CPUs,AMD Phenom Ultra X4 24500 - CPU Passmark score 3945,,,,False,924
+Intel Xeon E5-2407 @ 2.20GHz,CPU Passmark score 3943,289.5,CPUs,Intel Xeon E5-2407 @ 2.20GHz - CPU Passmark score 3943,,,,True,923
+Intel Xeon E5430 @ 2.66GHz,CPU Passmark score 3936 - Price is last known price,215.99,CPUs,Intel Xeon E5430 @ 2.66GHz - CPU Passmark score 3936,,,,True,922
+Intel Core i5 760 @ 2.80GHz,CPU Passmark score 3923,219.99,CPUs,Intel Core i5 760 @ 2.80GHz - CPU Passmark score 3923,,,,True,921
+Intel Core i7-3537U @ 2.00GHz,CPU Passmark score 3911,0.0,CPUs,Intel Core i7-3537U @ 2.00GHz - CPU Passmark score 3911,,,,False,920
+Intel Core i3-3210 @ 3.20GHz,CPU Passmark score 3908,113.99,CPUs,Intel Core i3-3210 @ 3.20GHz - CPU Passmark score 3908,,,,True,919
+AMD Athlon II X4 553,CPU Passmark score 3906,0.0,CPUs,AMD Athlon II X4 553 - CPU Passmark score 3906,,,,False,918
+AMD Phenom II X4 B97,CPU Passmark score 3884,0.0,CPUs,AMD Phenom II X4 B97 - CPU Passmark score 3884,,,,False,917
+AMD Phenom II X4 973,CPU Passmark score 3884,0.0,CPUs,AMD Phenom II X4 973 - CPU Passmark score 3884,,,,False,916
+Intel Core i7-2620M @ 2.70GHz,CPU Passmark score 3883,0.0,CPUs,Intel Core i7-2620M @ 2.70GHz - CPU Passmark score 3883,,,,False,915
+Intel Core i7-4500U @ 1.80GHz,CPU Passmark score 3876,0.0,CPUs,Intel Core i7-4500U @ 1.80GHz - CPU Passmark score 3876,,,,False,914
+AMD Phenom II X4 960T,CPU Passmark score 3875 - Price is last known price,200.0,CPUs,AMD Phenom II X4 960T - CPU Passmark score 3875,,,,True,913
+Intel Core i3-2120 @ 3.30GHz,CPU Passmark score 3869,113,CPUs,Intel Core i3-2120 @ 3.30GHz - CPU Passmark score 3869,,,,True,912
+Intel Xeon X3350 @ 2.66GHz,CPU Passmark score 3867 - Price is last known price,268.0,CPUs,Intel Xeon X3350 @ 2.66GHz - CPU Passmark score 3867,,,,True,911
+Intel Core2 Quad Q9450 @ 2.66GHz,CPU Passmark score 3814,335.25,CPUs,Intel Core2 Quad Q9450 @ 2.66GHz - CPU Passmark score 3814,,,,True,910
+Intel Core i5-3210M @ 2.50GHz,CPU Passmark score 3805,0.0,CPUs,Intel Core i5-3210M @ 2.50GHz - CPU Passmark score 3805,,,,False,909
+AMD Athlon II X4 555,CPU Passmark score 3804,0.0,CPUs,AMD Athlon II X4 555 - CPU Passmark score 3804,,,,False,908
+AMD Phenom II X4 B50,CPU Passmark score 3801,0.0,CPUs,AMD Phenom II X4 B50 - CPU Passmark score 3801,,,,False,907
+Intel Core i3-2105 @ 3.10GHz,CPU Passmark score 3797,145.99,CPUs,Intel Core i3-2105 @ 3.10GHz - CPU Passmark score 3797,,,,True,906
+Intel Atom C2750 @ 2.40GHz,CPU Passmark score 3797,0.0,CPUs,Intel Atom C2750 @ 2.40GHz - CPU Passmark score 3797,,,,False,905
+Intel Core i5-4300U @ 1.90GHz,CPU Passmark score 3789,0.0,CPUs,Intel Core i5-4300U @ 1.90GHz - CPU Passmark score 3789,,,,False,904
+AMD A8-5500B APU,CPU Passmark score 3785,0.0,CPUs,AMD A8-5500B APU - CPU Passmark score 3785,,,,False,903
+Intel Xeon X5472 @ 3.00GHz,CPU Passmark score 3780 - Price is last known price,844.5,CPUs,Intel Xeon X5472 @ 3.00GHz - CPU Passmark score 3780,,,,True,902
+AMD Phenom II X4 B95,CPU Passmark score 3770 - Price is last known price,225.0,CPUs,AMD Phenom II X4 B95 - CPU Passmark score 3770,,,,True,901
+AMD Phenom II X4 977,CPU Passmark score 3750,0.0,CPUs,AMD Phenom II X4 977 - CPU Passmark score 3750,,,,False,900
+AMD Phenom II X4 945,CPU Passmark score 3748 - Price is last known price,170.0,CPUs,AMD Phenom II X4 945 - CPU Passmark score 3748,,,,True,899
+Intel Core i5 750 @ 2.67GHz,CPU Passmark score 3744 - Price is last known price,195.0,CPUs,Intel Core i5 750 @ 2.67GHz - CPU Passmark score 3744,,,,True,898
+Intel Core i3-3220T @ 2.80GHz,CPU Passmark score 3732,118.99,CPUs,Intel Core i3-3220T @ 2.80GHz - CPU Passmark score 3732,,,,True,897
+Intel Core2 Extreme Q6850 @ 3.00GHz,CPU Passmark score 3725 - Price is last known price,1495.95,CPUs,Intel Core2 Extreme Q6850 @ 3.00GHz - CPU Passmark score 3725,,,,True,896
+Intel Xeon X3330 @ 2.66GHz,CPU Passmark score 3716 - Price is last known price,223.79,CPUs,Intel Xeon X3330 @ 2.66GHz - CPU Passmark score 3716,,,,True,895
+Intel Xeon L5506 @ 2.13GHz,CPU Passmark score 3715,0.0,CPUs,Intel Xeon L5506 @ 2.13GHz - CPU Passmark score 3715,,,,False,894
+Intel Core i7-3517U @ 1.90GHz,CPU Passmark score 3701,0.0,CPUs,Intel Core i7-3517U @ 1.90GHz - CPU Passmark score 3701,,,,False,893
+Intel Xeon E3-1220L V2 @ 2.30GHz,CPU Passmark score 3701,0.0,CPUs,Intel Xeon E3-1220L V2 @ 2.30GHz - CPU Passmark score 3701,,,,False,892
+AMD Phenom II X4 B35,CPU Passmark score 3689,0.0,CPUs,AMD Phenom II X4 B35 - CPU Passmark score 3689,,,,False,891
+Intel Core i5-2540M @ 2.60GHz,CPU Passmark score 3688 - Price is last known price,278.99,CPUs,Intel Core i5-2540M @ 2.60GHz - CPU Passmark score 3688,,,,True,890
+Intel Core i7 920XM @ 2.00GHz,CPU Passmark score 3682 - Price is last known price,1144.69,CPUs,Intel Core i7 920XM @ 2.00GHz - CPU Passmark score 3682,,,,True,889
+AMD A10-5750M APU,CPU Passmark score 3679,0.0,CPUs,AMD A10-5750M APU - CPU Passmark score 3679,,,,False,888
+AMD A8-3870K APU,CPU Passmark score 3673 - Price is last known price,149.99,CPUs,AMD A8-3870K APU - CPU Passmark score 3673,,,,True,887
+Intel Core i3-3240T @ 2.90GHz,CPU Passmark score 3666,0.0,CPUs,Intel Core i3-3240T @ 2.90GHz - CPU Passmark score 3666,,,,False,886
+AMD Phenom II X4 940,CPU Passmark score 3665 - Price is last known price,104.99,CPUs,AMD Phenom II X4 940 - CPU Passmark score 3665,,,,True,885
+Intel Core2 Quad Q9500 @ 2.83GHz,CPU Passmark score 3664 - Price is last known price,183.0,CPUs,Intel Core2 Quad Q9500 @ 2.83GHz - CPU Passmark score 3664,,,,True,884
+AMD Athlon II X4 650,CPU Passmark score 3658,0.0,CPUs,AMD Athlon II X4 650 - CPU Passmark score 3658,,,,False,883
+AMD Athlon II X4 651 Quad-Core,CPU Passmark score 3648 - Price is last known price,99.87,CPUs,AMD Athlon II X4 651 Quad-Core - CPU Passmark score 3648,,,,True,882
+Intel Xeon L5420 @ 2.50GHz,CPU Passmark score 3646 - Price is last known price,386.0,CPUs,Intel Xeon L5420 @ 2.50GHz - CPU Passmark score 3646,,,,True,881
+AMD Phenom II X4 840T,CPU Passmark score 3635,0.0,CPUs,AMD Phenom II X4 840T - CPU Passmark score 3635,,,,False,880
+Intel Xeon X3230 @ 2.66GHz,CPU Passmark score 3634 - Price is last known price,310.51,CPUs,Intel Xeon X3230 @ 2.66GHz - CPU Passmark score 3634,,,,True,879
+Intel Core i5-2510E @ 2.50GHz,CPU Passmark score 3630,0.0,CPUs,Intel Core i5-2510E @ 2.50GHz - CPU Passmark score 3630,,,,False,878
+Intel Core2 Quad Q9505 @ 2.83GHz,CPU Passmark score 3620 - Price is last known price,247.23,CPUs,Intel Core2 Quad Q9505 @ 2.83GHz - CPU Passmark score 3620,,,,True,877
+AMD Phenom II X4 850,CPU Passmark score 3620 - Price is last known price,111.49,CPUs,AMD Phenom II X4 850 - CPU Passmark score 3620,,,,True,876
+AMD Phenom FX-7750 Quad-Core,CPU Passmark score 3616,0.0,CPUs,AMD Phenom FX-7750 Quad-Core - CPU Passmark score 3616,,,,False,875
+Intel Core i3-2100 @ 3.10GHz,CPU Passmark score 3616 - Price is last known price,1000.0,CPUs,Intel Core i3-2100 @ 3.10GHz - CPU Passmark score 3616,,,,True,874
+Intel Core i3-3130M @ 2.60GHz,CPU Passmark score 3615,0.0,CPUs,Intel Core i3-3130M @ 2.60GHz - CPU Passmark score 3615,,,,False,873
+Intel Core i5-3427U @ 1.80GHz,CPU Passmark score 3607,0.0,CPUs,Intel Core i5-3427U @ 1.80GHz - CPU Passmark score 3607,,,,False,872
+AMD Phenom II X4 10,CPU Passmark score 3605,0.0,CPUs,AMD Phenom II X4 10 - CPU Passmark score 3605,,,,False,871
+Intel Core i5-4350U @ 1.40GHz,CPU Passmark score 3604,0.0,CPUs,Intel Core i5-4350U @ 1.40GHz - CPU Passmark score 3604,,,,False,870
+Intel Xeon E5607 @ 2.27GHz,CPU Passmark score 3602 - Price is last known price,282.99,CPUs,Intel Xeon E5607 @ 2.27GHz - CPU Passmark score 3602,,,,True,869
+Intel Core2 Extreme Q9300 @ 2.53GHz,CPU Passmark score 3597,0.0,CPUs,Intel Core2 Extreme Q9300 @ 2.53GHz - CPU Passmark score 3597,,,,False,868
+AMD Athlon X4 645,CPU Passmark score 3595,0.0,CPUs,AMD Athlon X4 645 - CPU Passmark score 3595,,,,False,867
+AMD Phenom II X4 830,CPU Passmark score 3584 - Price is last known price,109.0,CPUs,AMD Phenom II X4 830 - CPU Passmark score 3584,,,,True,866
+Intel Core2 Extreme Q6800 @ 2.93GHz,CPU Passmark score 3577 - Price is last known price,1125.0,CPUs,Intel Core2 Extreme Q6800 @ 2.93GHz - CPU Passmark score 3577,,,,True,865
+AMD Phenom II X4 B25,CPU Passmark score 3569,0.0,CPUs,AMD Phenom II X4 B25 - CPU Passmark score 3569,,,,False,864
+Intel Core i5-3437U @ 1.90GHz,CPU Passmark score 3567,0.0,CPUs,Intel Core i5-3437U @ 1.90GHz - CPU Passmark score 3567,,,,False,863
+Intel Xeon E3-1220L @ 2.20GHz,CPU Passmark score 3563,0.0,CPUs,Intel Xeon E3-1220L @ 2.20GHz - CPU Passmark score 3563,,,,False,862
+AMD Phenom II X4 B45,CPU Passmark score 3561,0.0,CPUs,AMD Phenom II X4 B45 - CPU Passmark score 3561,,,,False,861
+Intel Core i5 680 @ 3.60GHz,CPU Passmark score 3555 - Price is last known price,326.35,CPUs,Intel Core i5 680 @ 3.60GHz - CPU Passmark score 3555,,,,True,860
+AMD Opteron 2384,CPU Passmark score 3538,0.0,CPUs,AMD Opteron 2384 - CPU Passmark score 3538,,,,False,859
+AMD Opteron 2386 SE,CPU Passmark score 3538,0.0,CPUs,AMD Opteron 2386 SE - CPU Passmark score 3538,,,,False,858
+Intel Core i5-2520M @ 2.50GHz,CPU Passmark score 3533 - Price is last known price,249.99,CPUs,Intel Core i5-2520M @ 2.50GHz - CPU Passmark score 3533,,,,True,857
+Intel Xeon X5365 @ 3.00GHz,CPU Passmark score 3532 - Price is last known price,141.68,CPUs,Intel Xeon X5365 @ 3.00GHz - CPU Passmark score 3532,,,,True,856
+AMD A8-3850 APU,CPU Passmark score 3531 - Price is last known price,184.8,CPUs,AMD A8-3850 APU - CPU Passmark score 3531,,,,True,855
+AMD Athlon II X4 645,CPU Passmark score 3525,149.89,CPUs,AMD Athlon II X4 645 - CPU Passmark score 3525,,,,True,854
+AMD A8-6500T APU,CPU Passmark score 3517,0.0,CPUs,AMD A8-6500T APU - CPU Passmark score 3517,,,,False,853
+Intel Core i7-4610Y @ 1.70GHz,CPU Passmark score 3514,0.0,CPUs,Intel Core i7-4610Y @ 1.70GHz - CPU Passmark score 3514,,,,False,852
+AMD Phenom II X4 925,CPU Passmark score 3508 - Price is last known price,170.0,CPUs,AMD Phenom II X4 925 - CPU Passmark score 3508,,,,True,851
+Intel Pentium G3430 @ 3.30GHz,CPU Passmark score 3502,99.99,CPUs,Intel Pentium G3430 @ 3.30GHz - CPU Passmark score 3502,,,,True,850
+Intel Xeon L5410 @ 2.33GHz,CPU Passmark score 3501 - Price is last known price,379.42,CPUs,Intel Xeon L5410 @ 2.33GHz - CPU Passmark score 3501,,,,True,849
+AMD Phenom II X4 B55,CPU Passmark score 3500,0.0,CPUs,AMD Phenom II X4 B55 - CPU Passmark score 3500,,,,False,848
+AMD Phenom II X4 920,CPU Passmark score 3499 - Price is last known price,140.0,CPUs,AMD Phenom II X4 920 - CPU Passmark score 3499,,,,True,847
+Intel Xeon E5-2603 @ 1.80GHz,CPU Passmark score 3492,214.99,CPUs,Intel Xeon E5-2603 @ 1.80GHz - CPU Passmark score 3492,,,,True,846
+AMD Phenom II 42 TWKR Black Edition,CPU Passmark score 3489,0.0,CPUs,AMD Phenom II 42 TWKR Black Edition - CPU Passmark score 3489,,,,False,845
+AMD Phenom II X4 820,CPU Passmark score 3489 - Price is last known price,89.99,CPUs,AMD Phenom II X4 820 - CPU Passmark score 3489,,,,True,844
+AMD Athlon II X4 641 Quad-Core,CPU Passmark score 3489 - Price is last known price,66.97,CPUs,AMD Athlon II X4 641 Quad-Core - CPU Passmark score 3489,,,,True,843
+Intel Xeon E5-2403 @ 1.80GHz,CPU Passmark score 3489 - Price is last known price,195.99,CPUs,Intel Xeon E5-2403 @ 1.80GHz - CPU Passmark score 3489,,,,True,842
+Intel Core i7-3689Y @ 1.50GHz,CPU Passmark score 3479,0.0,CPUs,Intel Core i7-3689Y @ 1.50GHz - CPU Passmark score 3479,,,,False,841
+Intel Core i5-4250U @ 1.30GHz,CPU Passmark score 3479,364.99,CPUs,Intel Core i5-4250U @ 1.30GHz - CPU Passmark score 3479,,,,True,840
+AMD Phenom II X4 B40,CPU Passmark score 3473,0.0,CPUs,AMD Phenom II X4 B40 - CPU Passmark score 3473,,,,False,839
+AMD Phenom II X4 B93,CPU Passmark score 3470,0.0,CPUs,AMD Phenom II X4 B93 - CPU Passmark score 3470,,,,False,838
+AMD Athlon X4 640,CPU Passmark score 3461,0.0,CPUs,AMD Athlon X4 640 - CPU Passmark score 3461,,,,False,837
+Intel Core i7-3517UE @ 1.70GHz,CPU Passmark score 3449,0.0,CPUs,Intel Core i7-3517UE @ 1.70GHz - CPU Passmark score 3449,,,,False,836
+AMD A10-4657M APU,CPU Passmark score 3449,0.0,CPUs,AMD A10-4657M APU - CPU Passmark score 3449,,,,False,835
+Intel Pentium G3420 @ 3.20GHz,CPU Passmark score 3447,68.83,CPUs,Intel Pentium G3420 @ 3.20GHz - CPU Passmark score 3447,,,,True,834
+Intel Core i7 Q 840 @ 1.87GHz,CPU Passmark score 3446,0.0,CPUs,Intel Core i7 Q 840 @ 1.87GHz - CPU Passmark score 3446,,,,False,833
+Intel Core i5-2450M @ 2.50GHz,CPU Passmark score 3443,0.0,CPUs,Intel Core i5-2450M @ 2.50GHz - CPU Passmark score 3443,,,,False,832
+Intel Core i3-4000M @ 2.40GHz,CPU Passmark score 3432,0.0,CPUs,Intel Core i3-4000M @ 2.40GHz - CPU Passmark score 3432,,,,False,831
+Intel Xeon E5420 @ 2.50GHz,CPU Passmark score 3420 - Price is last known price,443.05,CPUs,Intel Xeon E5420 @ 2.50GHz - CPU Passmark score 3420,,,,True,830
+Intel 000 @ 1.73GHz,CPU Passmark score 3419,0.0,CPUs,Intel 000 @ 1.73GHz - CPU Passmark score 3419,,,,False,829
+Intel Core2 Quad Q9400 @ 2.66GHz,CPU Passmark score 3417 - Price is last known price,174.99,CPUs,Intel Core2 Quad Q9400 @ 2.66GHz - CPU Passmark score 3417,,,,True,828
+Intel Xeon X3320 @ 2.50GHz,CPU Passmark score 3414 - Price is last known price,229.95,CPUs,Intel Xeon X3320 @ 2.50GHz - CPU Passmark score 3414,,,,True,827
+AMD Phenom II X4 910e,CPU Passmark score 3356 - Price is last known price,156.99,CPUs,AMD Phenom II X4 910e - CPU Passmark score 3356,,,,True,826
+Intel Xeon E5606 @ 2.13GHz,CPU Passmark score 3353 - Price is last known price,502.59,CPUs,Intel Xeon E5606 @ 2.13GHz - CPU Passmark score 3353,,,,True,825
+Intel Core2 Quad Q6700 @ 2.66GHz,CPU Passmark score 3352,230,CPUs,Intel Core2 Quad Q6700 @ 2.66GHz - CPU Passmark score 3352,,,,True,824
+AMD Athlon II X4 640,CPU Passmark score 3351,249.95,CPUs,AMD Athlon II X4 640 - CPU Passmark score 3351,,,,True,823

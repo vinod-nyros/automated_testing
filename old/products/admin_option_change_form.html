@@ -1,0 +1,51 @@
+{% extends "admin/change_form.html" %}
+{# % load i18n admin_modify adminmedia % #}
+
+
+{% block after_field_sets %}
+
+<fieldset class="module aligned wide collapse collapsed">
+  <h2>Link to Product Options by Option</h2>
+  <br>
+  <h3>
+    <a href="/admin/products/prodopt/?option__id__exact={{ original.id }}">
+      ProdOpts that reference <b>{{ original }}</b>
+    </a>
+  </h3>
+  <br>
+</fieldset>
+
+
+<fieldset class="module aligned wide collapse collapsed">
+  <h2>Link to Choices referenced by this Option</h2>
+  <br>
+  <h3>
+    <a href="/admin/products/choice/?options__id__exact={{ original.id }}">
+      Choices list that reference <b>{{ original }}</b>
+    </a>
+  </h3>
+  <br>
+</fieldset>
+
+
+
+
+{% comment %}
+
+DEPRECATED - POC's
+
+<fieldset class="module aligned wide">
+  <h2>Product Option Choices by Option</h2>
+  <br>
+  <h3>
+    <a href="/admin/products/prodoptchoice/?productoption__option__id__exact={{ original.id }}">
+      Go to Product Option Choice details for <b>{{ original }}</b>
+    </a>
+  </h3>
+  <br>
+</fieldset>
+
+{% endcomment %}
+
+
+{% endblock %}

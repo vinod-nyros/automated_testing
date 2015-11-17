@@ -1,0 +1,227 @@
+{% extends "pdf/index_base.html" %}
+
+{% block title %}
+  {{ company_short }} quote for {% firstof q.customer.name 'Customer' %}
+{% endblock %}
+
+
+{% block content %}
+{% load quote_tags %}
+<style>
+html, body, table, thead, tbody, tr, th, td, ul, li, a, span, p, h1, h2, h3, h4, h5, h6{padding: 0px;margin: 0px;}
+.tot_div{width: 100%;border: 1px solid #000;padding: 0px;margin: 0px;}
+.tot_div table{max-width: 100%;}
+.tot_div table thead tr th{background-color: #e6e6ff;padding: 10px 0px;}
+.tot_div table thead tr th, .tot_div table tbody tr td{padding: 5px;}
+</style>
+ <div class="tot_div">
+ <div style="border: 1px solid #000;">
+<table cellpadding="0" cellspacing="0">
+<thead>
+<tr>
+    <th colspan="2" style="background-color: #e6e6ff;text-align:left;"><span style="float:left;"><span style="font-size:16px;">eRacks</span><br/>Open Source System</span></th>
+    <th colspan="4" style="background-color: #e6e6ff;"><span>Quote for: </span>{{ q.customer.name }}{% if q.customer.email %}, {{ q.customer.email }} {% endif %}, UC Irvine</th>
+    <th colspan="3" style="background-color: #e6e6ff;">Quote #: {{ q.quote_number }} </th>
+  </tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="7">
+<p style="padding-top:10px;">&nbsp;</p>
+<span>eRacks Open Source System</span><br><br>
+<span>16861 Sheldon Rd</span><br>
+<span>Los Gatos, CA, 95030</span><br>
+<span>info@eracks.com</span><br>
+</td>
+<td colspan="2" style="text-align:left;">
+<span style="padding-top:10px;">Date:</span><br>
+<span>{{ q.created }}</span><br>
+<span>Valid for {{ q.valid_for }}days.</span><br>
+<span>Approved By : {{ q.approved_by }}</span>
+{# <span>without notice</span><br> #}
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="9">
+<table>
+<thead>
+<tr>
+<br>
+<th style="background:#ffffcc;text-align:left;padding-top:5px;padding-bottom:2px;padding-left:5px;">Bill TO</th>
+<th style="background:#ffffcc;text-align:left;padding-top:5px;padding-bottom:2px;">Ship TO</th>
+<th style="background:#ffffcc;text-align:left;padding-top:5px;padding-bottom:2px;">Purchase Order #</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;padding-left:5px;">
+<ul style="list-style:none;padding-top:10px;">
+{% if billing_addr %}
+<span>{{ billing_addr.name }}</span><br>
+<span>{{ billing_addr.address1 }}</span><br>
+<span>{{ billing_addr.city }}, {{ billing_addr.state }}</span><br>
+<span>{{ billing_addr.zip }}, {{ billing_addr.country }}</span><br>
+<span>{{ billing_addr.email }}</span><br>
+{% else %}
+<span> TBD </span><br>
+{% endif %}
+</ul>
+</td>
+
+
+<td style="text-align:left;">
+{% if shipping_addr %}
+<span style="padding-top:10px;">{{ shipping_addr.name }}</span><br>
+<span>{{ shipping_addr.address1 }}</span><br>
+<span>{{ shipping_addr.city }}, {{ shipping_addr.state }}</span><br>
+<span>{{ shipping_addr.zip }}, {{ shipping_addr.country }}</span><br>
+<span>{{ shipping_addr.email }}</span><br>
+{% else %}
+<span> TBD </span><br>
+{% endif %}
+</td>
+
+
+<td style="text-align:left;">
+<span style="padding-top:10px;">{{ q.purchase_order }}</span><br>
+</td>
+
+</tr>
+    </tbody>
+    </table>
+    </td>
+    </tr>
+    <tr>
+    <td colspan="9">
+<table>
+<thead>
+<tr>
+<br>
+<th style="background: #ffffcc;text-align:left;padding-top:5px;padding-bottom:2px;padding-left:5px;" colspan="2">Model</th>
+<th style="background: #ffffcc;text-align:left;padding-top:5px;padding-bottom:2px;" colspan="1">Qty</th>
+<th style="background: #ffffcc;text-align:left;padding-top:5px;padding-bottom:2px;" colspan="3">Description</th>
+<th style="background: #ffffcc;text-align:left;padding-top:5px;padding-bottom:2px;" colspan="2">Unit Us $</th>
+<th style="background: #ffffcc;text-align:left;padding-top:5px;padding-bottom:2px;" colspan="1">Total Us $</th>
+
+
+</tr>
+</thead>
+{% for line in q.quotelineitem_set.all %}
+<tbody>
+    <tr>
+
+
+<td style="text-align:center;width:100%;" colspan="2">
+<span><b>{{ line.model }}</b></span><br>
+<span><img src="/media/{{ line.image }}" width="50px" height="50px"></span><br>
+</td>
+
+<td style="text-align:center;width:100%;" colspan="1">
+
+{{ line.quantity }}
+</td>
+        <td style="width:100%;" colspan="3">
+
+<div style="margin-top:20px;">
+<p style="padding-top:10px;">{{ line.description }}</p>
+</div>
+
+</td>
+
+
+<td style="text-align:center;width:100%;" colspan="2">
+
+<b>{{ line.price }}</b>
+
+</td>
+
+<td style="text-align:center;width:100%;" colspan="1">
+
+<b>{% multiply line.quantity  line.price %}</b>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+{% endfor %}
+<tr>
+<td colspan="9">
+<table style="width:100%;">
+<thead></thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<br>
+<div>
+<span>All Computer systems include a 1 year full/3 year limited warranty</span><br>
+<span>are fully configured to customer's requests,</span><br>
+<span>and are bumed in for a minimum of 24 hours</span><br>
+<div>
+<br>
+<div>
+<address>
+Terms:Credit card, wire transfer<br/>
+Quote Approved by:<br/>
+Joseph Wolff.CTO<br/>
+Email:Joe@eracks.com
+</address>
+</div>
+</td>
+
+  <td>
+  <br>
+<table>
+<tr>
+<td style="background: #ffffcc;text-align:right;padding:5px;">Subtotal</td>
+<td style="background: #ffffcc;text-align:right;padding:5px;">{{q.totprice}}</td>
+</tr>
+<tr>
+<td style="background: #ffffcc;text-align:right;padding:5px;"><span>Shipping costs</span></td>
+<td style="background: #ffffcc;text-align:right;padding:5px;"><span><b>{{q.shipping}}</b></span></td>
+</tr>
+<tr>
+<td style="background: #ffffcc;text-align:right;padding:5px;">Total*</td>
+<td style="background: #ffffcc;text-align:right;padding:5px;">{{ q.totprice }}</td>
+</tr>
+<tr><td>&nbsp;</td></tr>
+<tr style="text-align:left;"><td style="text-align:center;"><span>Note: Shipping and Tax not included.</span><br></td></tr>
+</table>
+</td>
+
+</tr>
+</tbody>
+</table>
+ </td>
+ </tr>
+</ul>
+</td>
+
+<tr>
+<td colspan="9">
+    <p style="font-size:8px; background: #ffffcc;padding:5px 10px;border:none;">
+        <b style="font-size:10px;">Terms&Conditions:</b> This quotation is not an offer. It is a solicitation for an offer and is made
+only on the terms and conditions contained herein.Buyer's offer to purchase products must be on
+these terms and conditions. eRacks open Source Systems hereby specifically rejects and terms
+and conditions on Buyer's Offer in conflict with or in addition to these terms and conditions
+. Warranty and Other terms and conditions are detialsed here: <a style="text-decoration:none; font-size:10px;" href="#">http://eracks.com/policies/warranty-and -order/</a>
+    </p>
+    </td>
+</tr>
+
+<tr>
+<td colspan="9">
+    <p style="font-size:8px;background: #e6e6ff;padding:5px 10px;border:none;">
+        <b style="font-size:10px;">Confidentiality Statement:</b> This quote and all contents herein are exclusively for the *Customer* named above
+or Customer's Organizetion and is solely for the purposes of evaluationg for approval the products and/or services
+offerd by eRacks Open Source Systems. Any unauthorizedd use, transmission, or distribution of any and all parts
+of this quote to third parties without the express written permission of eRacks Open Source System is strictly prohibited.
+    </p>
+    </td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+{% endblock %}

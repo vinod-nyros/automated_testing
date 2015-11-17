@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+
+{% block extra-head %}  {# Satchmo calls it 'extra-head', other projects call it 'header_extras' - customize accordingly #}
+
+{{ css|safe }}
+{{ javascript|safe }}
+
+{% endblock extra-head %}
+
+
+{% block breadcrumbs %}
+  {% if breadcrumbs %}
+    <ul class="breadcrumbs">
+      <li><a href="/">Home</a></li>
+      {# <li class="unavailable"><a href="#">Gene Splicing</a></li> #}
+      <li class="current">
+        <a href="#" title="{{ title }}">{{ name|capfirst }}</a>
+      </li>
+    </ul>
+    {# old: / <span title="{{ title }}">{{ name|capfirst }}<span>  {# should be unslugify|capwords, but there aren't those filters #}
+  {% endif %}
+{% endblock %}
+
+
+{% block content %}
+
+{{ content|safe }}
+
+{% endblock content %}

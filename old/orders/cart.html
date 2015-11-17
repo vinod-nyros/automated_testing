@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block content_row %}
+    <form action="/cart/" method="POST" id="cartform">
+        <div class="row" id="title_row">
+            <div class="two columns">
+                <div id="back">
+                    <a href="/showroom/">Continue Shopping</a>
+                </div>
+            </div>
+            <div class="eight columns">
+                {% block content_title %}
+                    <h1>Your Cart</h1>
+                {% endblock %}
+            </div>
+            <div class="two columns">
+                <div id="next">
+                    <a href="/checkout/">Check<br>Out</a>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="content_row">
+            <div class="one columns">
+                &nbsp;
+            </div>
+            <div class="ten columns">
+                {% block content %}
+                    <br>
+                    {% if content %}
+                        {{ content|safe }}
+                        <input type="submit" name="update" value="Update Quantities" class="nice green radius button">
+                        <input type="submit" name="delete" value="Empty Cart" class="nice green radius button">
+                        <br>
+                        <br>
+                    {% endif %}
+                    {% if not content %}
+                        <h3>Your cart is empty!</h3>
+                        <h5>
+                            <a href="/">Return to shopping</a>
+                        </h5>
+                        <br>
+                        <br>
+                    {% endif %}
+                {% endblock %}
+            </div>
+            <div class="one columns">
+                &nbsp;
+            </div>
+        </div>
+    </form>
+{% endblock %}

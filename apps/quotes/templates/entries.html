@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+
+{% block extra_head %}
+
+<style>
+  .quotelist th { font-weight: bold;
+       padding:5px
+  }
+</style>
+
+{% endblock %}
+
+
+{% block content %}
+
+<h1> {{ title }} </h1>
+
+<table class="quotelist">
+ <tr><th>Quote number</th><th>Cust ref</th></tr>
+
+{% for entry in entries %}
+
+<tr>
+ <th>
+  <a href="/quotes/{{ entry.quote_number }}">{{ entry.quote_number }}</a>
+ </th>
+ <td>
+  {{ entry.customer_reference }}
+ </td>
+</tr>
+
+{% endfor %}
+
+</table>
+
+{% endblock %}
+
+
+{%block page_foot%}
+
+Sample page {{ block.super }}
+
+{%endblock%}
+

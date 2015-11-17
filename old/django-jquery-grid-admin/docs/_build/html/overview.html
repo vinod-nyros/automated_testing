@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>What is Django jQuery Grid Admin? &mdash; Django jQuery Grid Admin v0.1 documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '#',
+        VERSION:     '0.1',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Django jQuery Grid Admin v0.1 documentation" href="index.html" />
+    <link rel="next" title="Available options" href="options.html" />
+    <link rel="prev" title="Welcome to Django jQuery Grid Admin’s documentation!" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="options.html" title="Available options"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to Django jQuery Grid Admin’s documentation!"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Django jQuery Grid Admin v0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="what-is-django-jquery-grid-admin">
+<span id="overview"></span><h1>What is Django jQuery Grid Admin?<a class="headerlink" href="#what-is-django-jquery-grid-admin" title="Permalink to this headline">¶</a></h1>
+<p>First of all - it&#8217;s Django application.</p>
+<p>All django users know that this framework goes with perfect administration
+page included. It has some useful javascript widgets and pretty interface. But what if we try to speed up its performance
+using ajax technology and implove usability adding some popular javascript widgets such as TinyMCE, Chosen, Datepickers and
+Multiselects. It could be nice, couldn&#8217;t it?</p>
+<p>So, Django jQuery Grid Admin app is all about it. Built on the top of jQuery UI, it
+uses jQuery Grid plugin to display model&#8217;s data and jQuery UI Dialog widget to edit model&#8217;s instances.</p>
+</div>
+<div class="section" id="how-does-it-look-like">
+<h1>How does it look like?<a class="headerlink" href="#how-does-it-look-like" title="Permalink to this headline">¶</a></h1>
+<p>Oh, yes, the most interesting question!</p>
+<div class="section" id="just-take-a-look-at-some-screenshots">
+<h2>Just take a look at some screenshots:<a class="headerlink" href="#just-take-a-look-at-some-screenshots" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="http://postimage.org/image/7r904g8sh/">http://postimage.org/image/7r904g8sh/</a></li>
+<li><a class="reference external" href="http://postimage.org/image/a1tqmrwd1/">http://postimage.org/image/a1tqmrwd1/</a></li>
+<li><a class="reference external" href="http://postimage.org/image/4hh9c4xhx/">http://postimage.org/image/4hh9c4xhx/</a></li>
+</ul>
+</div>
+<div class="section" id="try-a-demonstration">
+<h2>Try a demonstration<a class="headerlink" href="#try-a-demonstration" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="http://wellspring.ru/jsadmin/">http://wellspring.ru/jsadmin/</a></li>
+</ul>
+</div>
+<div class="section" id="watch-this-video">
+<h2>Watch this video<a class="headerlink" href="#watch-this-video" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="section" id="let-s-get-it-started">
+<h1>Let&#8217;s Get It Started<a class="headerlink" href="#let-s-get-it-started" title="Permalink to this headline">¶</a></h1>
+<p>Current version of this app is not available on PyPi.</p>
+<div class="section" id="some-installation-steps">
+<h2>Some installation steps<a class="headerlink" href="#some-installation-steps" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">First, you need to clone this repository on Github: <a class="reference external" href="https://github.com/FZambia/Django-jQuery-Grid-Admin">https://github.com/FZambia/Django-jQuery-Grid-Admin</a></p>
+</li>
+<li><p class="first">Then place &#8216;djgrid&#8217; folder in your project root and add &#8216;djgrid&#8217; in <cite>INSTALLED_APPS</cite></p>
+</li>
+<li><p class="first">In your project you definetely have base template, i suggest &#8216;base.html&#8217;. Grid Admin inherits it in &#8216;<cite>templates/djgrid/djgrid_base.html</cite>&#8216; file. All you need to do is to define proper block tag names</p>
+</li>
+<li><p class="first">Copy &#8216;js&#8217; folder to your project&#8217;s media folder</p>
+</li>
+<li><p class="first">The last step. In your <cite>urls.py</cite> you need to write some classes that is a grid admin instances</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="kn">from</span> <span class="nn">djgrid.resources</span> <span class="kn">import</span> <span class="n">GridResource</span>
+<span class="k">class</span> <span class="nc">Resource</span><span class="p">(</span><span class="n">GridResource</span><span class="p">):</span>
+    <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
+        <span class="n">register</span> <span class="o">=</span> <span class="p">[[</span><span class="s">&#39;auth&#39;</span><span class="p">,</span><span class="s">&#39;user&#39;</span><span class="p">]]</span>
+<span class="n">resource</span> <span class="o">=</span> <span class="n">Resource</span><span class="p">()</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<p>In urlpatterns add th following line:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="p">(</span><span class="s">r&#39;^&#39;</span><span class="p">,</span><span class="n">include</span><span class="p">(</span><span class="n">resource</span><span class="o">.</span><span class="n">urls</span><span class="p">)),</span>
+</pre></div>
+</div>
+<p><strong>And finally</strong> go to <cite>http://yourproject.com/djgrid/</cite> and you will see django&#8217;s User model admin grid page</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="index.html">Table Of Contents</a></h3>
+            <ul>
+<li><a class="reference external" href="#">What is Django jQuery Grid Admin?</a></li>
+<li><a class="reference external" href="#how-does-it-look-like">How does it look like?</a><ul>
+<li><a class="reference external" href="#just-take-a-look-at-some-screenshots">Just take a look at some screenshots:</a></li>
+<li><a class="reference external" href="#try-a-demonstration">Try a demonstration</a></li>
+<li><a class="reference external" href="#watch-this-video">Watch this video</a></li>
+</ul>
+</li>
+<li><a class="reference external" href="#let-s-get-it-started">Let&#8217;s Get It Started</a><ul>
+<li><a class="reference external" href="#some-installation-steps">Some installation steps</a></li>
+</ul>
+</li>
+</ul>
+
+            <h4>Previous topic</h4>
+            <p class="topless"><a href="index.html"
+                                  title="previous chapter">Welcome to Django jQuery Grid Admin&#8217;s documentation!</a></p>
+            <h4>Next topic</h4>
+            <p class="topless"><a href="options.html"
+                                  title="next chapter">Available options</a></p>
+            <h3>This Page</h3>
+            <ul class="this-page-menu">
+              <li><a href="_sources/overview.txt"
+                     rel="nofollow">Show Source</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Quick search</h3>
+              <form class="search" action="search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Go" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Enter search terms or a module, class or function name.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="options.html" title="Available options"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to Django jQuery Grid Admin’s documentation!"
+             >previous</a> |</li>
+        <li><a href="index.html">Django jQuery Grid Admin v0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2012, Alexandr Emelin.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.4.
+    </div>
+  </body>
+</html>

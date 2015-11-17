@@ -1,0 +1,121 @@
+- fields:
+    author: 1
+    body: "<a href=\"/products/Netbooks\">eRacks/Netbooks</a>\r\n</b>\r\n<a href=\"\
+      /products/Netbooks\"><img src=\"/images/cumulus_colors_xsmall\" alt=\"\" title=\"\
+      eRacks/CUMULUS\" border=\"0\" height=\"69\" width=\"100\"></a>\r\n<br>\r\nLinux\
+      \ Netbooks!"
+    categories: [1]
+    created: 2009-01-05 15:19:23.782701
+    pub_date: 2009-01-05 15:19:23.782662
+    published: true
+    slug: eracks-netbooks
+    title: eRacks Netbooks!
+    updated: 2009-01-05 15:40:18.092787
+  model: bloglets.post
+  pk: 8
+- fields:
+    author: 1
+    body: "<a href=\"/products/Desktops/config?sku=i7DESK\">eRacks/i7DESK:</a>\r\n\
+      <br>\r\nIntel\xAE Core i7 Desktop<br>\r\n<a href=\"/products/Desktops/config?sku=i7DESK\"\
+      ><img src=\"/images/intelcorei7_60\" alt=\"\" title=\"\" border=\"0\" height=\"\
+      73\" width=\"60\">"
+    categories: [1]
+    created: 2009-01-05 15:18:51.071072
+    pub_date: 2009-01-05 15:18:51.071034
+    published: true
+    slug: eracks-i7-desk
+    title: eRacks i7 DESK
+    updated: 2009-01-05 16:05:15.684660
+  model: bloglets.post
+  pk: 7
+- fields:
+    author: 1
+    body: "<font color=\"red\">News</font>: Fedora 10 gets \r\n<a href=\"http://www.theregister.co.uk/2008/11/25/fedora_10_review/\"\
+      >great reviews</a>!\r\n<p>Significant price drops in Hard Drives!</p>\r\n"
+    categories: [1]
+    created: 2009-01-05 14:34:36.724564
+    pub_date: 2009-01-05 14:34:36.724526
+    published: true
+    slug: fedora-10-reviews
+    title: Fedora 10 reviews
+    updated: 2009-01-05 14:34:36.724584
+  model: bloglets.post
+  pk: 1
+- fields:
+    author: 1
+    body: "<b>\r\n <a href=\"http://eracks.com/products/Quiet%20Systems/config?sku=STUDIO\"\
+      >eRacks/STUDIO</a>\r\n</b>\r\n<a href=\"http://eracks.com/products/Quiet%20Systems/config?sku=STUDIO\"\
+      >\r\n<img src=\"/images/pedalup\" alt=\"\" title=\"eRacks/STUDIO\" border=\"\
+      0\" height=\"29\" width=\"30\">\r\n</a>\r\nOpen Source Digital Audio Workstation"
+    categories: [1]
+    created: 2009-01-05 14:42:42.865908
+    pub_date: 2009-01-05 05:00:00
+    published: true
+    slug: eracks-studio-osdaw
+    title: eRacks STUDIO OSDAW
+    updated: 2009-01-05 16:17:39.229996
+  model: bloglets.post
+  pk: 2
+- fields:
+    author: 1
+    body: "<b>Dedicated Hosting now Available!</b><br>\r\n<a href=\"http://eracks.com/press/071207\"\
+      ><img src=\"/images/erackshostinglogo_100\" alt=\"\" title=\"eRacksHosting.com\"\
+      \ border=\"0\" height=\"51\" width=\"100\"></a><br>\r\n<b><a href=\"http://erackshosting.com\"\
+      >eRacksHosting</a></b>\r\n"
+    categories: [1]
+    created: 2009-01-05 14:43:40.311783
+    pub_date: 2009-01-05 04:00:00
+    published: true
+    slug: dedicated-hosting-available
+    title: Dedicated Hosting Available
+    updated: 2009-01-05 16:17:18.104315
+  model: bloglets.post
+  pk: 3
+- fields:
+    author: 1
+    body: "<b>eRacks Canonical Partnership announced!</b><p>\r\n<a href=\"http://eracks.com/press/070216\"\
+      ><img src=\"/images/ubuntu_70\" alt=\"\" title=\"Do you Ubuntu?\" border=\"\
+      0\" height=\"70\" width=\"70\"></a>\r\n<br>\r\n<b><a href=\"http://eracks.com/products/Desktops/\"\
+      >Do you Ubuntu?</a></b>\r\n"
+    categories: [1]
+    created: 2009-01-05 15:14:23.162045
+    pub_date: 2009-01-05 03:00:00
+    published: true
+    slug: do-you-ubuntu
+    title: Do You Ubuntu?
+    updated: 2009-01-05 16:17:02.119060
+  model: bloglets.post
+  pk: 4
+- fields:
+    author: 1
+    body: "<b><a href=\"http://eracks.com/products/Firewall%20Servers/config?sku=TWINGUARD\"\
+      >eRacks/TWINGUARD</a></b><br>\r\nFailover fully-redundant firewall system in\
+      \ one 1U chassis.\r\n"
+    categories: [1]
+    created: 2009-01-05 15:15:12.717932
+    pub_date: 2009-01-05 02:00:00
+    published: true
+    slug: eracks-twinguard
+    title: eRacks TWINGUARD
+    updated: 2009-01-05 16:16:37.543010
+  model: bloglets.post
+  pk: 5
+- fields:
+    author: 1
+    body: "<p>\r\n<a href=\"http://eff.org\" target=\"new\"><img src=\"/images/logos/eff-logo-s\"\
+      \ border=\"0\"></a><br>\r\n eRacks \r\n<a href=\"http://eracks.com/press/050201\"\
+      >matches donations</a> to EFF!\r\n"
+    categories: [1]
+    created: 2009-01-05 15:15:58.531970
+    pub_date: 2009-01-05 01:00:00
+    published: true
+    slug: eff-donations
+    title: EFF Donations
+    updated: 2009-01-05 16:16:12.133360
+  model: bloglets.post
+  pk: 6
+- fields: {created: !!timestamp '2009-01-05 14:32:21.932779', published: true,
+    slug: eracks-news, title: eRacks News, updated: !!timestamp '2009-01-05 14:32:21.932821'}
+  model: bloglets.category
+  pk: 1
+

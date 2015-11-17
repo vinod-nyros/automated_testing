@@ -1,0 +1,12 @@
+name,comment,cost,choicecategory,blurb,supplier,price,multiplier,published,sortorder
+"Intel Xeon E3-1220L v2 (3M Cache, 2.30 GHz)","Scraped from ark, Launched: Q2'12","189.00","Xeon E3 v2 CPUs","2 cores, 17 W","","","","True","1300"
+"Intel Xeon E3-1220 v2 (8M Cache, 3.10 GHz)","Scraped from ark, Launched: Q2'12","189.00","Xeon E3 v2 CPUs","4 cores, 69 W","","","","True","1300"
+"Intel Xeon E3-1225 v2 (8M Cache, 3.20 GHz)","Scraped from ark, Launched: Q2'12","209.00","Xeon E3 v2 CPUs","4 cores, 77 W","","","","True","1300"
+"Intel Xeon E3-1230 v2 (8M Cache, 3.30 GHz)","Scraped from ark, Launched: Q2'12","215.00","Xeon E3 v2 CPUs","4 cores, 69 W","","","","True","1300"
+"Intel Xeon E3-1240 v2 (8M Cache, 3.40 GHz)","Scraped from ark, Launched: Q2'12","250.00","Xeon E3 v2 CPUs","4 cores, 69 W","","","","True","1300"
+"Intel Xeon E3-1245 v2 (8M Cache, 3.40 GHz)","Scraped from ark, Launched: Q2'12","266.00","Xeon E3 v2 CPUs","4 cores, 77 W","","","","True","1300"
+"Intel Xeon E3-1265L v2 (8M Cache, 2.50 GHz)","Scraped from ark, Launched: Q2'12","305.00","Xeon E3 v2 CPUs","4 cores, 45 W","","","","True","1300"
+"Intel Xeon E3-1270 v2 (8M Cache, 3.50 GHz)","Scraped from ark, Launched: Q2'12","328.00","Xeon E3 v2 CPUs","4 cores, 69 W","","","","True","1300"
+"Intel Xeon E3-1275 v2 (8M Cache, 3.50 GHz)","Scraped from ark, Launched: Q2'12","339.00","Xeon E3 v2 CPUs","4 cores, 77 W","","","","True","1300"
+"Intel Xeon E3-1280 v2 (8M Cache, 3.60 GHz)","Scraped from ark, Launched: Q2'12","612.00","Xeon E3 v2 CPUs","4 cores, 69 W","","","","True","1300"
+"Intel Xeon E3-1290 v2 (8M Cache, 3.70 GHz)","Scraped from ark, Launched: Q2'12","885.00","Xeon E3 v2 CPUs","4 cores, 87 W","","","","True","1300"

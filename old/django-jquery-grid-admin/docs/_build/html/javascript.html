@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Javascript &mdash; Django jQuery Grid Admin v0.1 documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '#',
+        VERSION:     '0.1',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Django jQuery Grid Admin v0.1 documentation" href="index.html" />
+    <link rel="prev" title="Available options" href="options.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="options.html" title="Available options"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Django jQuery Grid Admin v0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="javascript">
+<span id="id1"></span><h1>Javascript<a class="headerlink" href="#javascript" title="Permalink to this headline">¶</a></h1>
+<p>Django jQuery Grid Admin uses javascript plugins to display different
+model fields. By default, the all unused. You can turn on widget on fields you
+want or you can turn on all widgets for a model.</p>
+<div class="section" id="nesessary-parts">
+<h2>Nesessary parts<a class="headerlink" href="#nesessary-parts" title="Permalink to this headline">¶</a></h2>
+<p>There are 3 base javascript libraries Django jQuery Grid built on:</p>
+<ul class="simple">
+<li><strong>jQuery</strong> (<a class="reference external" href="http://jquery.com">http://jquery.com</a>)</li>
+<li><strong>jQuery UI</strong> (<a class="reference external" href="http://jqueryui.com/">http://jqueryui.com/</a>)</li>
+<li><strong>jQuery Grid Plugin</strong> (<a class="reference external" href="http://www.trirand.com/blog/">http://www.trirand.com/blog/</a>)</li>
+</ul>
+</div>
+<div class="section" id="plugin-list">
+<h2>Plugin list:<a class="headerlink" href="#plugin-list" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><strong>TinyMCE</strong> for textareas (<a class="reference external" href="http://www.tinymce.com/">http://www.tinymce.com/</a>)</li>
+<li><strong>Chosen</strong> for selects (<a class="reference external" href="http://harvesthq.github.com/chosen/">http://harvesthq.github.com/chosen/</a>)</li>
+<li><strong>jQuery UI datepicker widget</strong> for datefields (<a class="reference external" href="http://jqueryui.com/demos/datepicker/">http://jqueryui.com/demos/datepicker/</a>)</li>
+<li><strong>jQuery UI datetimepicker addon</strong> for datetime and time fields (<a class="reference external" href="http://trentrichardson.com/examples/timepicker/">http://trentrichardson.com/examples/timepicker/</a>)</li>
+<li><strong>jQuery UI MultiSelect Widget by Eric Hynds</strong> for multiple selects (<a class="reference external" href="http://erichynds.com/jquery/jquery-ui-multiselect-widget/">http://erichynds.com/jquery/jquery-ui-multiselect-widget/</a>)</li>
+</ul>
+</div>
+<div class="section" id="turn-on-plugin-for-field">
+<h2>Turn on plugin for field<a class="headerlink" href="#turn-on-plugin-for-field" title="Permalink to this headline">¶</a></h2>
+<p>There is 2 ways to turn on plugins:</p>
+<ul>
+<li><p class="first">list desired field list in <cite>description[model_name][&#8216;plugins&#8217;]</cite>, for example:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">class</span> <span class="nc">Resource</span><span class="p">(</span><span class="n">GridResource</span><span class="p">):</span>
+    <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
+        <span class="n">register</span> <span class="o">=</span> <span class="p">[[</span><span class="s">&#39;auth&#39;</span><span class="p">,</span><span class="s">&#39;user&#39;</span><span class="p">],]</span>
+        <span class="n">description</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s">&#39;user&#39;</span><span class="p">:{</span>
+                <span class="s">&#39;plugins&#39;</span><span class="p">:[</span><span class="s">&#39;date_joined&#39;</span><span class="p">,</span><span class="s">&#39;last_login&#39;</span><span class="p">],</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">write magic word &#8216;ALL&#8217; in plugin section - this will turn on plugin support for all model fields:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">class</span> <span class="nc">Resource</span><span class="p">(</span><span class="n">GridResource</span><span class="p">):</span>
+    <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
+        <span class="n">register</span> <span class="o">=</span> <span class="p">[[</span><span class="s">&#39;auth&#39;</span><span class="p">,</span><span class="s">&#39;user&#39;</span><span class="p">],]</span>
+        <span class="n">description</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s">&#39;user&#39;</span><span class="p">:{</span>
+                <span class="s">&#39;plugins&#39;</span><span class="p">:</span><span class="s">&#39;ALL&#39;</span><span class="p">,</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+</pre></div>
+</div>
+</li>
+</ul>
+<p>Notice</p>
+<div class="highlight-python"><pre>Unfortunately, second method does not work with many-to-many now, you need to use first method to turn on plugins for them</pre>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="index.html">Table Of Contents</a></h3>
+            <ul>
+<li><a class="reference external" href="#">Javascript</a><ul>
+<li><a class="reference external" href="#nesessary-parts">Nesessary parts</a></li>
+<li><a class="reference external" href="#plugin-list">Plugin list:</a></li>
+<li><a class="reference external" href="#turn-on-plugin-for-field">Turn on plugin for field</a></li>
+</ul>
+</li>
+</ul>
+
+            <h4>Previous topic</h4>
+            <p class="topless"><a href="options.html"
+                                  title="previous chapter">Available options</a></p>
+            <h3>This Page</h3>
+            <ul class="this-page-menu">
+              <li><a href="_sources/javascript.txt"
+                     rel="nofollow">Show Source</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Quick search</h3>
+              <form class="search" action="search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Go" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Enter search terms or a module, class or function name.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="options.html" title="Available options"
+             >previous</a> |</li>
+        <li><a href="index.html">Django jQuery Grid Admin v0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2012, Alexandr Emelin.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.4.
+    </div>
+  </body>
+</html>

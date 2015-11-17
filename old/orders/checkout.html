@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block head_bottom %}
+    <script>var aha;</script>
+{% endblock %}
+{% block content_row %}
+    <form action="/checkout/confirm/" method="POST" class="nice" id="checkoutform">
+        <div class="row" id="title_row">
+            <div class="two columns">
+                <div id="back">
+                    <a href="/cart/">Your Cart</a>
+                </div>
+            </div>
+            <div class="eight columns">
+                {% block content_title %}
+                    <h1>Checkout</h1>
+                {% endblock %}
+            </div>
+            <div class="two columns">
+                <div id="next">
+                    <a href="/checkout/">Confirm<br>Order</a>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="content_row">
+            <div class="two columns">
+                &nbsp;
+            </div>
+            <div class="eight columns">
+                {% block content %}
+                    <br>
+                    <h3>
+                        Your Order: {{ totqty }} item{{ totqty|pluralize }}, US${{ grandtot|floatformat:2 }} pretax/shipping
+                    </h3>
+                    <h5>
+                        Name:
+                        {{ user.first_name }}
+                        {{ user.last_name }}
+                        User:
+                        {{ user }}
+                        eMail:
+                        {{ user.email }}
+                    </h5>
+                    <br>
+                    {% for form in formlist %}
+                        <table>
+                            {{ form }}
+                        </table>
+                    {% endfor %}
+                    <input type="submit" name="update" value="Update" class="nice green radius button">
+                    <br>
+                    <br>
+                {% endblock %}
+            </div>
+            <div class="two columns">
+                &nbsp;
+            </div>
+        </div>
+    </form>
+{% endblock %}
+{% block js_bottom %}
+    {{ customer_form.media }}
+    <script type="text/javascript">
+        $('#next a').click (function(event) {
+            event.preventDefault();
+            $('#checkoutform').submit();
+        });
+    </script>
+{% endblock %}

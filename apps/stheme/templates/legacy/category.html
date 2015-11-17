@@ -1,0 +1,86 @@
+{% extends "base_twocolumns.html" %}
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: $apps_path/products/templets.yaml at line 291 on 2015-11-09 at 19:41:48 PST(GMT-0800)  #}
+
+
+{% load render_as_template %}
+
+{% block extra_head %}
+  <style>
+    .product-summary {
+      min-height: 200px;
+      border: 1px solid lightgray;
+      margin: 10px;
+      padding: 10px;
+      /* overflow: auto; */
+      position: relative;
+    }
+    .product-summary .primary-image img {
+      float:right;
+      width: 40%;
+      padding: 0 0 10px 10px;
+    }
+    .product-summary .product-blurb {
+      width: 75%;
+    }
+    /* .product
+    .primary-image img:after, .product-image:after {
+      content: "aha";
+      display: table;
+      clear: both;
+    }
+    nope:
+    .product-summary .product-price-line:before {
+      content: "x";
+      height: 18px;
+      display:block;
+      position: static;
+      background-color:blue;
+    }
+
+    Convert the following to bootstrap after merge:
+    */
+    .product-summary .product-price-line:hover {
+      background-color: azure;
+    }
+    .product-summary .product-price-line {
+      font-style: italic;
+      font-size: larger;
+      /* float: right; */
+      /* clear: both; */
+      border: 1px solid purple;
+      border-radius: 3px;
+      padding: 10px;
+      margin: 10px;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 18%;
+    }
+    .product-summary .product-price {
+      font-weight: bold;
+      color: purple;
+    }
+    .product-summary .addl-img {
+      margin-right: 10px;
+      height: auto!important;
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+    {{ block.super }}
+
+    <div class="content">
+        <h1>
+            {{ category.name }}
+        </h1>
+
+        {% render_as_template category.description %}
+
+        <p>
+          {{ category.prods_as_list_divs }}
+        </p>
+    </div>
+{% endblock %}

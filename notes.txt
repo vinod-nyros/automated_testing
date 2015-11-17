@@ -1,0 +1,4037 @@
+11/9
+.gitignore 3-4 css files
+rephrase taglines (1, 2, 3)
+
+
+11/7-8
+goals:
+ - image (or at least ckeditor)
+d - tag(ged)
+d - merge styles/scripts
+p - front page 3+4 or 2+3
+p - articles!
+d - publish
+- restate scripts
+- start on new models - Quiet2. 4xNAS
+- retire some more
+
+Idea: Flickr feed for Open Source photos, etc
+
+
+11/5
+TODO for later / assan:
+ - eliminate http://
+ - fonts.google
+ - bower everything, including fonts and glyphicons, font-awesome
+
+Check SSL blockages - in live server tests - google how
+
+
+11/4
+d our brands
+d eracks news
+category list js
+prods yamm - see eracksaccessories/accessories/templatetags/binpacking.py
+
+footer link for eRacks desktop wallpapers -
+
+4p Gorbachev's prez!
+
+css compress
+
+
+11/3
+making progress on list -
+prod db:
+- new home page widgets - maybe use partial-fixture installer dir?
+- scripts
+- category names
+- rewrite partners page for grid system - Warning: Embedded styles don't show in ckeditor!
+  https://www.drupal.org/node/1950498
+  config.allowedContent = true;
+
+Breadcrumbs disappear in TShop when menu wrap occurs, thickening header
+
+test toast message -> admin menu, test suite
+
+category sidebar needs work on both themes - simplify
+
+11/1
+todo:
+upload smaller threatconnect, burningman, halifax, eminent
+services phone #, other page edits
+feat img 'configure now' doesn't make sense for categories
+
+10/31 amadeus
+skipped 15 - pull?
+
+merge notes:
+- test admin images_dir - not sure which in admin_wysiwyg
+
+styles.css issues:
+ check legacy hr width in left prod list
+ check footer hr width
+
+10pm post mobile & chromebook testing:
+- code changes always go up (eg, local->dev->(staging)->prod, whereas
+- DB changes usually go down - prod -> dev or local
+-> -> ->
+<- <- <-
+plus the scripts follow testing, and the migrations follow the db -
+
+This is why it's so much easier to test in production..
+
+
+10/30/15 amadeus
+lower-right prod/cat list button:
+ - workaround: make description text ~70% width or so
+ - link whole thing, make it light up with purple on hover
+ - test on xs, sm, md
+
+push photos for apparel, container, Utah
+
+lock the house up!
+
+ensure google webbug works in no-js envo, put at bottom of foundation-base and new base
+
+
+10/30 brahms
+Three homne page boxes!
+
+
+PR!  Mon/Tues is OK -
+
+d Mongolia 2007 OpenBSD pkgs hier config - also omnifile!
+d p desqhost update - dn apache? dn BackupPC? hacked? stopped - libvirtd?
+d Salt-master? fewer copies - worker_threads: 5 => 2
+renew joker
+
+d IE Testing on 3393 -net nic,model=rtl8139 -net user
+
+save scripts before blasting with prod db pull
+
+db migrations: home, products
+db add product link to images - script!
+merge amadeus, check sortorder, images
+
+d &#8482; trademark
+
+CRR db
+root@uec1:/home/backups/heweb/home/britta/eracks/marketing#  >> DropBox marketing folder
+root@uec1:/home/backups/heweb/home/britta/eracks/marketing#  StanOaks  TempleHills >> DropBox RealEstate
+
+Interesting notes from me here:
+(env)joe@mintstudio-rafaela:~/Ubuntu One/Projects/golem > ls golem.txt
+ also found quicktext-jjw - former thunderbird plugin
+uec1 home/backups/heweb/home/rails/ - contains early Omni, CRR / Foreclosures
+
+found 2005/6 OmniFile, at least the beginnings, from I5 trip to Laguna mid-2005, some notes from 2007, AutoDB
+found treetest - fm just after Mongolia
+Still need ~2008-9 implem and prototype from WTP Fridge (here in studio!) and LR HTPC (Blue breezeway).
+
+found crr, jackpot:
+root@uec1:/home/backups/heweb/root/Projects# ls -l
+total 45880
+drwxr-xr-x  3 root root     4096 2005-12-17 12:08 autodb
+drwxr-xr-x 19 root root   176128 2011-08-30 06:25 crr
+-rw-r--r--  1 root root 37057937 2005-03-31 09:14 crr-033105.tgz
+-rw-r--r--  1 root root   448222 2005-06-05 17:31 crr-update.tgz
+drwxr-xr-x  2 root root     4096 2006-08-25 09:50 domains
+drwxr-xr-x  4 root root     4096 2005-11-26 10:47 genlogo
+drwxr-xr-x  3 root root     4096 2006-11-20 22:08 logdb
+drwxr-xr-x  4 root root     4096 2004-05-04 12:43 odp
+-rw-r--r--  1 root root  8255303 2008-01-27 21:03 osdf_photos.rcyl
+-rw-r--r--  1 root root   496652 2008-01-27 11:19 photos.rcyl
+-rw-r--r--  1 root root   239574 2007-01-01 15:46 projects-010107.tgz
+-rw-r--r--  1 root root   210453 2007-01-01 15:46 Projects-etc.bz2
+-rw-r--r--  1 root root     8837 2008-01-27 14:16 rcyl.py
+
+
+(pre)compile minaml to avoid the need to cache
+future arch:
+ prepare-theme>.taml
+ compile-<theme>.yaml
+
+Try QT?  Finish Productor?
+Check Angular?
+
+
+10/29/15 amadeus
+upd premium - 2,3,4HD chasses
+
+fix social icons
+
+10/27 amadeus
+d upd value options: d mobo, d cpu, d ram, d optical d HDs
+d upd serve options: d mobo, d cpu, d ram, d HD
+d upd / remove sata II, old SSD details
+d upd RealSSD prices, remove details
+
+finish CPU imports
+
+select2 interface for:
+ - default choice on prodopts list, detail
+ - customer choice on 'Kitchen Sink' or CUSTOM model
+
+Add CKEditor to iline admin for Blurbs
+
+remove / change / deprecate(=>Legacy): 2x 4x 8x 12x etc, SATA3
+
+GP 2U: eRacks/BASIC, eRacks/SERVER or WORKHORSE, eRacks/PREMIUM2, ALLAROUND, UTILITY, or VERSATILE - our most versatile utilitiy server -
+  accepts full-length Low-Profile PCIe cards (LPPCIe), accepts fullsize motherboards, full-sped CPUs, is fuilly expandable yet still only 2u / compact,
+  can have a wide array of chassis and hard drive configurations up to 6 or 8 3.5" removable drives, or up to 24x 2.5" SSD drives - we can eve do NVMe!
+
+
+IDEA: PermaCache - target legal market, meet requirements for legal evidence & proof of what was online at that moment -
+Way better than wayback machine :)
+
+
+10/29 brahms
+db random img for featured-imgs
+db Feat Img product FK
+
+login dialog, social logins
+
+footer 4 cols not 5
+
+** theme switcher / cache:
+ - ensure cache is distinct btw themes (at least btw legacy), then stop clearing cache
+   d bloglet_list_legacy, other legacy_theme refs
+   cached_function refs
+ - check & ensure cookie is holding theme - then stop notify on every stack theme switch (do it only on cookie theme sw)
+
+n parallax scrolling on iPad, Android
+other minor mobile issues
+ - smaller fonts (esp header) on sm, xs
+ - partners page
+ - p bloglets taking whole width - maybe float left? spread across bottom..
+
+
+10/26 brahms
+d p (remove row) constant horz zoom bar (?!)
+d now: fixup footer-bottom btw TShop & Assan
+
+footer article refs, 4cols
+  - components note fm this (10/30/15) AM to OK surplus guy
+
+d SKU Goes Here - add i.Product, blank=true, toggle either/or with i.caption
+
+styling on login box
+
+d p tagline => assan
+
+parallax?  Romania photo?!
+
+all-categories page (cat list). ref to 'legacy product showroom' - fix tabs?
+customers.html
+
+add jobs, corporate to About
+
+category sidebar for some pages:
+  - user profile
+  - my quotes
+  - all categories?
+  - Services
+  - contact
+  - Press? maybe not
+
+Rewrite or add to services page - hosting? VPNs? Django? Salt/Tor Hveem? OpenStack?
+Rewrite or add to corporate page - news(=>blog, twitter, FB), jobs, phone number, links to componenets, other pages
+
+
+10/25 brahms
+bootstrapify product menu mouseover 5-columns, add 'all categories' (later: tags or m2m cats)
+for Southern Utah edition: also do higher-opacity footer bkgnd, maybe even content bkgnd - try it
+
+tshop colors
+
+t dev mail quote
+t dev email input form
+
+d title
+d line-height: calc(10/7);
+n customer.views.save_email vs: 3 other places (!) - Mani! refactor!
+d noscript images: oflo auto, height 600px? plus link to imgs?
+
+.parallax-content h1, .parallax-content h5:
+￼  display: inline-block;
+￼  background-color: rgba(128,128,128,0.3);
+￼  padding: 0 1em; (15px is existing h1)
+￼  border-radius: 10px;  (12px is existing h1)
+..bump up font-weight & opacity on h5
+
+t after import/merge amadeus:
+  legacy theme missing image - import/merge amadeus template
+  sortorder / prod img not right
+
+sigh: legacy theme noscript issues:
+  proper id links for tabs
+  prod img missing
+  configure now, add-to-cart buttons
+  Maybe redirect to new theme on noscript?!
+
+refactor to use bootstrap media objects: http://getbootstrap.com/components/#media
+  - start with product blurb list!
+
+  use bootstrap responsive embed for videos: http://getbootstrap.com/components/#responsive-embed
+
+p tagline or slogan_well- eRacks Open Source Systems - embracing Open Source since 1999
+    promoting? evangelizing? focusing on? hawking? "bows" as at NAMM, and seen once or twice elsewhere? (No sign of it online).
+
+  refactor home urls (eg, testresults, etc - WTF?)
+
+write article: the year of the Linux (or OS) desktop..
+
+
+10/24 amadeus
+finish category list page, both here and brahms
+warranty tiers
+ddr2, sata2
+Find / write components statement
+
+
+10/24 brahms
+social logins
+social buttons
+d p magnific bugs
+n magnific zoom? could try img.mfp-img width & max-width 200%, but padding issues..
+assan topmenu not showing in mobile
+about us dropdown offset in tshop
+p contact.html - done, but looks like crap - softify? contact_snippet_1 & 2?
+t top r mnu texts hidden in xs (and sm?)
+Utah!
+
+css slider / img gallery?  Yes! Nice! Installed with Bower! maybe later..
+css accordions?
+
+noscript in header - OK in html5
+#behaviour - id tag?  yes, only id, in html5
+
+boxify services, about, etc?
+
+p prod page layout, mobile
+d pull db
+
+
+10/23 amadeus
+..remember, ~4 hours to go through all ~90 prods.. 1hr mon night, ~3hrs tues AM.
+
+B Stock category
+
+p Contrib restate
+Warranty restate
+
+<2000 270 - 13.5%
+<3000 405
+
+use 13.5% overall - create new warranties every 1000-2000
+
+
+10/23 brahms
+parallax bottom
+brand carousel
+prod page layout
+tabbed login - social logins
+d fix prod img dots, overlap
+
+remove old SSL prots!
+
+contact page
+tg
+
+no-js: noscript tags:
+ - for trustwave btn
+ - for google bug
+ - random server choice of parallax images and featured image
+ - how to remove owl-... for noscript?
+
+
+10/22 brahms
+for no-js:
+ - add button for 'Update config" only visible with no-js
+ - which submits the form
+ - if not XHR, refresh whole page (redir as necessary)
+
+d cart, theme, glyphicons, upper-right menu
+d removed, manana: TShop hover dropdown cart list with photos
+  d - maybe replace with search box on right - or just put whole menu on right like assan
+d static search box - ./findit _search_menu_entry
+
+'Open source systems' anywhere? logo title? bottom right of logo?
+
+d working search indices - d plus add to salt! (p master & d eracks requirements.sls)
+
+move top-left bar to generic decs - glyphicon glyphicon-envelope, glyphicon glyphicon-phone-alt
+  - remv fa from assan?
+
+For CI - either remove/.gitigore or get used to saving fixtures a lot -
+- generate fixtures for all live-page-based db tables before every ./manage.py test -
+  products, quickpages (incl snippets), poss bloglets
+
+
+10/20 amadeus
+OK lets go with mostly new prod line:
+- quiet (incl 3)
+- NAS (NAS:more RAM, CPU; Cloud:skyblue, more NW; media:brushed metal,archive drives; surveillance:purple, NLS:archive drives)
+- Studio (mostly same as quiet, might do this one as a project-based category)
+- GP
+- Scientific
+AMD vs Intel?
+
+with new options -
+Storage - desktop, NAS, surveillance, HD, SSD, SATAe / NVMe
+RAM - only two, non-ecc up to 32G, ECC up to 1.5T
+
+recommended_default on option?
+m2m Option<->ChoiceCategory
+
+
+10/19 amadeus
+sans digital - nice 1u/4bay brushed-aluminum chassis, but all larger ones are brushed black
+ci designs - 8-bay, but busy
+nas62, nas74 (72w/2x2.5") - http://cidesign.com/products/series/NSR/NSR-850-874/
+21" iStar MUSIC
+
+element at bottom-right: one possibility: vertical-align:bottom, float:right, height:18px;display:table-cell(parent display:table)
+..but clears the text completely then.. making the box taller
+
+idea: move passmark scrape to products/imports, modulize, do evrything fm Python, and create_or_update
+
+
+10/11 amadeus
+lose Aloha, check out Summernote (and maybe Froala, and what mezz uses) -
+
+
+10/10 amadeus
+OK, in looking at the model & pageassisted-manual migration task:
+ - prehpas a lightweight python desc.format() is in order - with {image}, {features}, {blurb}, and {price} being some obvious ones..
+ - sooner, focus on the DDR2 and SATA2 references :)
+ - pare down, streamline, and GBB-ify the product line - use GDocs spsht.
+
+
+10/10 brahms
+bower - looks useful, like pip for js packages, has salt module
+django-bower - just adds mgmt commands, aidan lister says gets in the way of bower.json
+
+Put .bowerrc and node_modules into conf/ dir
+
+TODO: add middleware to redirect to *existing* ones if only case-different - add *after* contrib.redirects
+  - enh: and for existing URLs
+  - blog: a Django best-practice
+
+
+10/9
+idea: JIT 404 handler to check if uncollected static files (!)
+todo today:
+ d- run test suite on dev
+ d- check in
+ d- pull
+ d- migrate
+ d- collect static -l
+ d- import_photos
+ d- restart
+ d- run test suite
+ - sql migrations
+
+merge w/Brahms, cat & prod lists!
+
+d CONFLICT (content): Merge conflict in notes.txt
+d CONFLICT (content): Merge conflict in eracks/urls.py
+d CONFLICT (content): Merge conflict in conf/requirements.txt
+d CONFLICT (content): Merge conflict in conf/local_settings_eracks.py
+d CONFLICT (content): Merge conflict in apps/products/views.py
+** But needs work and testing for no more div around photos -
+d CONFLICT (content): Merge conflict in apps/products/models.py
+d CONFLICT (content): Merge conflict in apps/products/admin.py
+d CONFLICT (content): Merge conflict in apps/home/views.py
+d CONFLICT (content): Merge conflict in apps/customers/views.py
+
+TODO: enhance import_photos to delete db refs to missing photos
+
+Maybe ./manage.py test should generate new fixtures automatically prior to running the tests?
+  ./manage.py dumpdata --format yaml products >apps/products/fixtures/products_all.yaml
+  ./manage.py generate_fixtures products.models.Product 2 >apps/products/fixtures/products.yaml
+
+staging. up on LH
+
+salt-gui => master on desqhost, them move to vm
+
+
+10/8
+d sql migrations:
+d drop table legacy_image;
+ (drop table legacy_image cascade;)
+d drop table admin_tools_dashboard_preferences;
+d drop table admin_tools_menu_bookmark;
+
+
+10/6
+d check for vacuum - dangling references? yes, but vacuum doesn't address
+ok Why is published refs bigger than all refs?  Nulls?
+Nulls are one issue -
+ d - fixtures for sqls and scripts to prod
+ d - also pip, migrate, collectstatic, load fixtures, clear cache, test
+ d - delete null POCs w/sql
+ d - run script
+ d - tighten up published on dev, push/pull
+
+d Choice NullBooleanField => BooleanField
+d form w/qs for published: ch, op, where else? everytwhere but images, where you want the unpubbed ones
+
+social logins, respond to Mani
+upd test issues
+
+pull db fm prod (rename 1st)
+
+to issues:
+ - move dashboard (=> cleanup settings issue)
+ - uniquify choices - internal name + source?  Just internal name? Use tags instead of source?
+ - remove pricedelta field
+ - remove legacy, lastmodule
+ - appify quickpages
+ - remove obdjects
+
+
+10/5
+nn check 000 choices with aggregates too
+d m2m sliders show only published options / choices
+
+10/4 TODO:
+d choices of 0/0/0 => unpublished
+  match it in SQL - 1011 (see hist below)
+  d move to dashboard or django-extensions
+finish iDESQ5 & 7 option cleanup -= Desktop SW vs SW -
+install & conf migrations:
+  n select2
+  ? django-extensions
+  ? Werkzeug
+  t django-webshell
+  t django-easy-select2
+
+In [30]: %hist
+from products.models import Option
+o = Option.objects.all()[6]
+o
+o.published
+from products.models import Option, Choice
+Choice.objects.filter(prodopt_set__isnull=True)
+Choice.objects.filter(prodopt__isnull=True)
+Choice.objects.filter(prodopt__isnull=True, prodoptchoice__isnull=True)
+Choice.objects.filter(prodopt__isnull=True, prodoptchoice__isnull=True).count()
+Choice.objects.count()
+Choice.objects.filter(prodopt__isnull=True, prodoptchoice__isnull=True,).count()
+Choice.objects.filter(prodopt__isnull=True).count()
+Choice.objects.filter(prodopts__isnull=True).count()
+Choice.objects.filter(prodopt__isnull=True, prodoptchoice__isnull=True,prodopts__isnull=True).count()
+Choice.objects.filter(options__isnull==True,prodopt__isnull=True, prodoptchoice__isnull=True,prodopts__isnull=True).count()
+Choice.objects.filter(options__isnull=True,prodopt__isnull=True, prodoptchoice__isnull=True,prodopts__isnull=True).count()
+Choice.objects.filter(options__isnull=True,prodopt__isnull=True, prodoptchoice__isnull=True,prodopts__isnull=True)
+Choice.objects.exclude(options__isnull=True,prodopt__isnull=True, prodoptchoice__isnull=True,prodopts__isnull=True)
+Choice.objects.exclude(options__isnull=True,prodopt__isnull=True, prodoptchoice__isnull=True,prodopts__isnull=True).count()
+Choice.objects.exclude(options__isnull=True,prodopt__isnull=True, prodoptchoice__isnull=True,prodopts__isnotnull=True).count()
+Choice.objects.exclude(options__isnull=False,prodopt__isnull=False, prodoptchoice__isnull=False,prodopts__isnull=False).count()
+Choice.objects.exclude(options__isnull=False,prodopt__isnull=False).count()
+Choice.objects.exclude(options__isnull=False,prodopt__isnull=False).count()
+Choice.objects.filter(options__isnull=True)
+Choice.objects.filter(options__isnull=True).count()
+Choice.objects.filter(options__isblank=True).count()
+Choice.objects.filter(options__isnull=True,prodopt__isnull=True, prodoptchoice__isnull=True,prodopts__isnull=True).count()
+Choice.objects.filter(options__isnull=True,prodopt__isnull=True, prodoptchoice__isnull=True,).count()
+Choice.objects.filter(options__isnull=True,prodopt__isnull=True, prodoptchoice__isnull=True,)
+%hist
+
+
+10/3 TODO:
+
+d Gnome Flashback
+flesh out other software add-ons - DeCSS
+blog post about it / them
+
+http://www.oneplaydirect.com/
+
+pick up photos import
+cat/prod list templet w/img - both b&a - fold back in prod.minaml
+
+test videolan salt install on rafaela
+
+colored SM levers
+
+nice MEDIA servers w/Sans Dig chasses - adv in Stereophile?   * Your own lib w/Autorip! [ or MetaRip ]
+
+
+
+10/2
+
+Check for errant defaultchoice:
+
+from products.models import Product
+trace=0
+for p in Product.objects.published():
+  print 'Checking:', p
+  for po in p.prodopt_set.all():
+    if trace: print 'POCs:', po.choices.count(), po.defaultchoice.id in po.choices.values_list ('id', flat=True)
+    if trace: print 'OCs:', po.option.choices.count(), po.defaultchoice.id in po.option.choices.values_list ('id', flat=True)
+    #assert po.defaultchoice.id in po.choices.values_list ('id', flat=True), 'defaultchoice not in POCs'
+    #assert po.defaultchoice.id in po.option.choices.values_list ('id', flat=True), 'defaultchoice not in OCs'
+    if po.defaultchoice.id not in po.choices.values_list ('id', flat=True):
+      print '%s %s defaultchoice not in POCs: %s' % (p, po, po.defaultchoice)
+    if po.defaultchoice.id not in po.option.choices.values_list ('id', flat=True):
+      print '%s %s defaultchoice not in OCs: %s' % (p, po, po.defaultchoice)
+
+Try 2:
+
+from products.models import Product
+for p in Product.objects.published():
+  print 'Checking:', p,
+  for po in p.prodopt_set.all():
+    pocs = po.choices.values_list ('id', flat=True)
+    ocs = po.option.choices.values_list ('id', flat=True)
+    if pocs:
+      if po.defaultchoice.id not in pocs:
+        print '%s %s defaultchoice not in POCs: %s' % (p, po, po.defaultchoice)
+    elif ocs and po.defaultchoice.id not in ocs and po.defaultchoice.id != 30:
+      print '%s %s defaultchoice not in OCs: %s' % (p, po, po.defaultchoice), ocs
+
+
+Check to pub/unpub choices:
+
+
+
+
+10/1
+add Gnome Flashback to desktops list!
+be sure there's an 'other' too
+
+Choices:
+ - clean up choices - published t/f no nulls
+ - add 'display_name' or 'internal name' to choices
+ d - add POCs link, fix broken choices link
+ d - filter by option
+ - fix 'supplier' - either remove, or make FK to actual suppliers table
+ - add 'source' or 'info source' - eg, passmark, Ark, google search scrape, etc
+
+ - could use passmark score, or generic benchmark score - or dedicated component types, like CPU, HD, etc - desc fm ABC
+
+ - at least to comments / blurb: TDP, in watts? # of cores? Socket? 'test date', socket, category
+ - release date, and/or EOL?
+
+..could cross-index with Ark for EOL info..  or just use passmark asterisk for NLA -
+
+
+9/30 QUIET category:
+
+from products.models import Categories
+from django.utils.html import strip_entities, strip_tags, remove_tags
+for c in Categories.objects.filter(id=2):
+  s = c.description
+  print 'BEFORE:', s
+  s = remove_tags (s, 'table thead tfoot tbody td tr th font TABLE THEAD TFOOT TBODY TD TR TH FONT') p br div
+  s = s.strip('\r\n\t')
+  print 'AFTER:', s
+
+
+9/29
+d Show how many choices each ChoiceCategory has, provide links
+Spin out choice links on prodopts below prod
+Try the admin_inline classes again
+
+retire old choices - cc 43924! (Misc Hard Drives) - 2GB HD?!
+
+lose the sort order hi-lo?
+
+~rename categories -> Category
+
+
+9/21/15
+Why is the Google Anal widget in "home_page_text_1"?
+
+TODO:
+* Revive DAS88! (& 45? 95?)
+* use Intel category as pilot for auto-category (blurb) page
+* up to 1.5TB, fix SERVE vs ESERVE
+- upd slugs, page categories:
+  - storage-servers-nas - lose the -nas
+  - cloud - should be cloud-solutions
+* auto-generate sitemap, ror, .xml
+* product tags (then yamm)
+* import / maintain photos/images
+
+* possibly meta tag db table, bny URL?  solves Contact problem..
+(contact & home now have hard-coded meta tags)
+
+
+So far, so good, as a test - can't replace this one, it needs tables :) :
+(Next step would be to collapse mult blank lines to 1)
+
+from products.models import Categories
+from django.utils.html import strip_entities, strip_tags, remove_tags
+for c in Categories.objects.filter(id=1):
+  s = c.description
+  print 'BEFORE:', s
+  s = remove_tags (s, 'table thead tfoot tbody td tr th font TABLE THEAD TFOOT TBODY TD TR TH FONT')
+  s = s.strip('\r\n\t')
+  print 'AFTER:', s
+  #c.description = s
+  #c.save()
+  #print 'saved.'
+
+
+
+Clean up quickpages templates, in two places -
+  - also, qp one_column and two_column could be perhaps combined with base one_column and two_column, they are so close
+  - or perhaps just inherit from qp/base, which already has the breadcrumbs
+
+d Now: Clean up tags in meta description in qp - striptags, & remove html editor
+
+from quickpages.models import QuickPage
+from django.utils.html import strip_entities, strip_tags
+for p in QuickPage.objects.all():
+  s = p.description
+  print 'BEFORE:', s
+  s = strip_tags (s)
+  s = strip_entities (s)
+  s = s.strip('\r\n\t')
+  print 'AFTER:', s
+  p.description = s
+  p.save()
+  print 'saved.'
+
+
+(fm Brahms:)
+
+9/21
+for Brahms/new themes:
+ Remember:
+  quickpages/one_column.html
+   Partners, Product Showroom
+  quickpages/two_column.html
+   Corporate
+  quickpages/press.html
+   all PRs!
+
+9/14
+d A&T
+
+Add NoJS testing to test suite -
+
+Magnific -
+Deployment?
+Bower? (One other?)
+
+So UT edition: Master magnific slideshow?
+
+
+9/12
+A&T payment
+
+articles: IAAS, PAAS
+
+d funny header/footer stheme behavior
+Assan flip arrows & category accordion
+enable css & js compression, test - also check IE shim!
+
+prods menu, 5x columns, but responsive (YAMM3?)
+
+Finish Zenbook updates
+NAS update
+break out eRacks/FLASH or eRacks/SSD, eRacks/CLOUD (eRacks/STOR?)
+
+
+9/3-9/4
+finish VALUE & SERVE updates -
+ - Desktop or small-server memory - 32G max DDR3/4 - check mobo
+ - HD internal bays
+ - PCI slot generic options for all models
+ features
+
+photo slideshow on new prod page, with lightbox, etc - magnific popup?
+
+upgr ckeditor to new 4.x version w/better sanitizer, remove table tags
+
+p Djide bugs - 'doc has changed', can't save - in prod
+fixed (group permissions) - need to update & imporve error msg
+
+
+9/2
+p footer tweaks - need soft tag for tech articles
+last checkout page
+product pages / retire templets
+H1 fonts
+
+p VALUE & SERVE updates - generic mobo, GBB CPUs (maybe 4 or 5)
+Upd PCI cards list, for sitewide options
+script to check & update
+
+white line in between header for TShop
+products mouseover - prod showroom, tags for 'by u, by ff', etc
+
+Southern UT photos
+
+after run:
+p - preload lines into ./mqanage.py shell? https://github.com/django-extensions/django-extensions
+- scripts to find legacy POCs
+d - Django filter for choices per poc__po_id
+
+
+We have setup a couple of ways you can donate towards Django Extensions using the buttons below:
+Bountysource
+Gratipay (formerly Gittip)
+Flattr
+PayPal
+Patreon here
+BountySource Flattr this PayPal Donations Gifts received
+
+
+
+9/1
+p Reproductor git@github.com:jowolf/eracks-Productor.git
+d use it!
+d issues for Balasz
+
+import CPUs by category
+Multiple categories for options?
+
+p finish cart
+d Allow user info editing at top of checkout -
+d either:
+ d - pass user form
+ d - add f&l names to top of customer form, prefill
+n Check Mani's work in this area
+
+STILL NEEDS BETTER MOBILE responsive / adaptation
+
+- Put T-Shirts & Apparel in right column under summary!
+
+
+stheme:
+shared dir for ico
+precompile action
+copy action? For direcories, too? (or salt integration?)
+-> dev, test, merge
+
+8/31
+TODO: Either:
+ - fixup all 5 favicon links, such as link[href$="favicon.ico"]:  link-favicon
+ - implement a 'copy' action, or
+ - implement a 'salt' action, to graft a salt state :)
+
+Observation: Some actions are run-once (once everythem update, perhaps), and some are every time -
+Could also check file timestanps for makefile-like behavior -
+
+Implement precomile action, takes a minaml (or stylus, or other) subtree, and compiles in place, with context
+ - could import & do django.setup() & then use context_processors directly, as context!
+
+Better stheme engine architecture:
+ - prepare_theme_<name>.yaml - extracts, canonicalizes, exposes/exports 10-12 key grafting points
+ - <???> - grafts dynamic bits onto graft points
+ - generic - defines dynamic bits, exports/exposes namespace items used in final output
+notes: (1) should probably import namespace items created in (3)
+
+cart w/dropdown image
+breadcrumb is wrong on 'signin' page when going to checkout fm cart when not logged in
+
+OS logos
+
+photos? do we care, except to exclude?
+ - at least normalize the three exceptions fm chromebook / RB
+ - idea for semantics:
+ 1) get the dir of photots
+ 2) go through db list:
+   a) remove unpublished ones
+   b) add others iff not already in list (allows for photos to be included outside the tree, eg NAS24, 36, 72 elbow, etc
+
+Assan themes:
+ Southern UT edition
+ Henry Coe edition
+ Santa Cruz edition?
+
+import CPUs from
+try drag n drop js sideloader
+
+Try Angular.js for AutoAdmin
+
+
+8/30 after run:
+salt objects / brewpub idems -
+- define like top file
+- combine sls & pillar data
+- can have disparate effects on various systems, like DNS info to both servers, for example
+- base, files, packages, repos, lines, augeas, etc
+- shell out to my SecArch AAAAS Authentication and Authorization As A Service :)
+
+But then can I also use .idem for standalone sls files?
+
+p SEO decision
+d Quote
+d PRLog
+d PRLeap
+PRBuzz? eReleases?
+
+
+8/1 Sat
+from products.models import Product
+p = Product.objects.get(sku='ADELIE')
+for po in p.product_options():
+  print po, ',', po.defaultchoice, ',', po.choices.count(), po.defaultchoice in po.choices.all(), po.option.choices.count(), po.defaultchoice in po.option.choices.all()
+
+I fixed it last night at BJ's Valencia, but don't remember exactly what I did.  As usual, one of the defaultchoices was pointing outside one of the lists of choices.
+
+7/26 Sun:
+test: cart not emptied?
+merge amadeus
+p cart
+
+pix in cart lines
+
+hover-over cart
+
+
+7/25 todo:
+cart/checkout:
+- step 1: stheme-ify apps/orders/templets.py - mostly into legacy, some into generic, then:
+- do new cart /checkout order pages, same for all three new themes:
+  - top row: with glyphicons, 9/3 columns
+  - 4 fake tabs / numbers: your cart / your info / your order / receipt
+  - all three themes use fa icons - font-awesome
+  - tshop has nice glyphicons for shopcart
+  - 9 columns for h1 / 4 tabs / grid
+  - 3 cols for 'Proceed to <step>' / summary
+
+
+7/22
+top menu:
+  search
+  cart - assan needs little icons nxt to top-right mnus: login, acct, admin, cart, wishlist
+brand carousel (generic)
+js flipdown
+xtra pages - cart, checkout, etc - title & logo?
+contact.html missing
+org templates into generated/ignored and permanent
+Mission stmt - about us
+
+personal letter to editors of all lnx mags, login, unix, etc
+
+
+7/20
+TODO:
+toast message when sent to login screen from cart=>checkout transition due to not logged in
+integrate checking for destination file already newer
+
+cart:
+TShop looks good, but unify looks like a better fit -
+1. Your Cart / Review & Edit your products
+2. Your Info / Address and payment inforamtion
+3. Confirm / Final Confirmation
+(4. Your Order)
+But it's tabs, need to implem as pages..
+
+7/17
+TODO:
+d white theme menu
+integrate cached_page
+theme-unify.yaml
+expandable categories & js arrows
+category page / blurbs loop / vintage eracks
+
+columnar menus on all 3 new themes - 1 or 2 columns for tags - "By...", then 3-4 columns for regular cats
+tagging
+attempt to compile the menus / db signals?
+
+
+7/12
+repo-ify stheme - import to new project - new LH hosting!  Private on github?  New git server?
+
+- separate out stheme from eracks, get ready for LH -
+
+Nice day today at Nisene Marks - see notes.
+
+Also make decision about repo-ifying authinator, eVirt.  What should we OS?
+
+
+7/7
+d _bloglet_list - move generated file out of <app>/templates  (in theme-legacy.yaml at line 19)
+d customers.html - ditto, line 37
+
+p toast message for cache cleared, theme switched - maybe popup spinner too
+- base_content decl - with messages row - in several templates
+
+
+get rid of lastmodule - see why we need to re-register Customer.py
+
+*big deal: orders app - cart, checkout!
+* product app -
+  - category page w/Product blurb list - see tshop
+* quickpages
+* quotes - also PDF creation per old quote spsht verbiage -> github
+
+
+p drs M&M
+p Org svc
+
+https://docs.readthedocs.org/en/latest/faq.html#does-read-the-docs-work-well-with-legible-docstrings
+
+Use a code checker:
+pylint
+pyflakes
+pep8.py
+flake8
+vim-flake8 plugin for automatically checking syntax and style with flake8
+
+7/6/15
+p README.md for stheme - dictated much of this already
+
+upd github, assign mani tasks for now
+cleanup tasks - see below
+
+d cached_page POC
+mgmt cmd option for download / refresh?
+
+mgmt cmd for orders - mopst recent, or by name
+  - combine shipto/billto if same - mani?
+
+fix spelling errors / awk phrasing -
+
+
+7/5/15
+d management command for compile
+todo: trace option - mani
+
+git ignore rules?
+  - only ignore stheme/templates/*.html, leave others for cleanup
+
+loop thru apps, or easier: specify app paths sepecifically
+
+
+6/21 Gmas, after UT trip
+where did my prods page go?
+js flipopen
+Theme menu on legacy pages
+cats pages - with Blurbs!
+Finish Legacy migration
+prods page
+blues
+product tagging
+amadeus merge
+5-col menu in Assan
+Parallax splitout
+Brands splitout
+Double-stacked footer menus, componenets page, NLS page, SAS vs SATA, iSCSI, SSD vs RAID / striping, etc
+
+reorg requireements.sls and requirements.sh
+
+Image blacklist for prods, rather than whitelist everything
+
+re-place ad for Django web guy (where is Vlad?)
+
+Assan - ee (Escalante Edition) and/or Unify - Southern Utah editon
+
+NetZela NAS72!
+Ask MA Labs re: 10TB drives
+Back up to Gma's WD drive
+Gma back up to my drive
+
+
+6/14
+cleanup:
+ q where are templets.py compiled, now, if DEBUG is turned off?
+ dashboard.py?
+
+5/18 3-way merge -
+create Github issues:
+- clean up SSL, remove cruft & complexity - extra nodes at local_settings circa line 87
+- split out settings
+- tagstream / minitags versions cleanup
+
+
+4/25 use tagging in quicksnippets - for home-page-texts, for example
+
+4/23/15
+Tech column, in footer, and entries blogged in 'eRacks Tech Series':
+NVMe
+Sata vs Scsi, speeds, patents
+SSD vs RAID reality
+below articles too, from 2/18:
+
+
+(fm amadeus:)
+
+4/14/15
+
+j: try:
+- tax update
+- w3c test
+
+j: upd social logins
+
+
+W3C-compliant updated pages, per Pavan / Mani:
+
+Bloglets:
+Home > Bloglets > Posts > ZenBook13 & 15
+Home > Bloglets > Posts > EFF Donations
+
+Snippets:
+Home > Quickpages > Quick snippets > home_page_text_3 (Home Page text 3)
+Home > Quickpages > Quick snippets > bbb_horizontal (Better Business Bureau image)
+
+Quickpages:
+Home > Quickpages > Quick pages > Product Showroom > Content > source
+
+Products:
+Home > Products > Products > PREMIUM >Description and Features
+
+Please note: As we mentioned in GIthub comments, if production db and dev db have
+differences then if we integrate entire DEV db fixtures into production then
+production db will get replace with DEV db.
+
+
+More pages:
+
+private cloud page
+hybrid clouod page
+- bullet points, why, one pic
+
+Open Stack config page, recommendations, commitments
+
+- why our eVirt is better for small deployments
+- devstack hosting
+- securing it (Authinator)
+
+
+4/11/15 JJW
+
+- tag amadeus prod 041115
+- make a note of the CA taxes
+- backup db (offsite)
+- upd amadeus -> prod
+
+
+2/22/15 obdjects notes
+
+class decorators, pyquery, etc -
+
+Idea: import pyquery exp in 2 places, one to precompile the templates -
+
+pyquery requires a web page as a template - so:
+
+- theme page(s)
+- pyquery
+  - content
+  - main menu
+  - breadcrumbs
+  - footer
+    - columns
+  - slider
+  - logo, tagline
+  - login / signup
+  - bloglets?
+  - four-boxes underneath the slider on the home page
+  - menu bar - mega menus?
+  - copyright
+  - widgets for twitter, G+, FB, Instagram, etc
+  - search box
+  - right mennu, left menu, right bar, left bar, etc
+- the above precompiled to {{ <sectionname> }} in new templates
+- class-based views?
+- urls, ajax drilldowns too
+- elimminate Django spaghetti code effect, looking in 3-4 places to find anything
+- pass in / return a dict, wrapper layer deals w ajax vs req/resp, get vs post vs apicall, etc
+- no need to integrate piston, etc, just add 'published' parm
+
+
+2/18/15
+Pages, in footer, and linked elsewhere:
+
+Drives we use, and why
+Components we use, and why - (use my 'clean pull' speech)
+COTS
+Distros we install
+
+
+2/16/15
+Choice datetime fixes:
+
+from products.models import Choice
+import datetime
+c = Choice.objects.filter(id=49672)[0]
+print c
+c.created=datetime.datetime(2011, 7, 21, 13, 30)
+c.updated=datetime.datetime(2011, 7, 21, 13, 30)
+c.save()
+c
+print c
+
+cs = Choice.objects.filter(created__year=3008)
+cs.update (created=datetime.datetime(2008, 5, 30, 1, 0))
+cs = Choice.objects.filter(updated__year=3008)
+cs.update (updated=datetime.datetime(2008, 5, 30, 1, 0))
+
+
+
+2/15/15
+from products.models import Product, Prodopt, Prodoptchoice, Option, Choice, ChoiceCategory
+#Image, Categories, Prodopt, Product, Prodoptchoice, Option, Choice, ChoiceCategory, get_misc_choice_category #, Optchoices
+
+Choice.objects.filter(published=None).count()
+# Out[6]: 1571
+
+Choice.objects.filter(published=True).count()
+# Out[7]: 1109
+
+Choice.objects.filter(published=False).count()
+# Out[8]: 458
+
+Choice.objects.count()
+# Out[9]: 3138
+
+poc_cnt = 0
+
+for c in Choice.objects.all():
+    pocs = Prodoptchoice.objects.filter (choice=c, productoption__product__published=True)
+    cnt = pocs.count()
+    if cnt >0:
+        poc_cnt += 1
+
+print poc_cnt, 'choices being used as Prodoptchoice'
+
+# 1200
+
+
+po_cnt = 0
+
+for c in Choice.objects.all():
+    pos = Prodopt.objects.filter (choices=c, product__published=True)
+    cnt = pos.count()
+    if cnt >0:
+        po_cnt += 1
+
+print poc_cnt, 'choices being used in Prodopt'
+
+# Same - 1200
+
+
+def_cnt = 0
+
+for c in Choice.objects.all():
+    defs = Prodopt.objects.filter (defaultchoice=c, product__published=True)
+    cnt = defs.count()
+    if cnt > 0:
+        def_cnt += 1
+
+print def_cnt, 'choices being used as defaultchoice'
+
+
+
+2/13/15 drive updates and manual addins:
+
+From Michelle at MA Labs re: 8T HGST Helium drives, Jan 2015:
+As so far we can only offer 8T HGST@41780|HD-0F23668(MFR-PART#: HGST HUH728080ALE604)  $515/pcs for 10pcs+, special order 1-2 days lead time.
+
+Fm Michelle, 11/2014 WD Red:
+6TB   47935|HD-W60EFRX    $268/PCS    http://www.malabs.com/product/HD-W60EFRX%20
+4TB   47932|HD-W40EFRX   $163/PCS    http://www.malabs.com/product/HD-W40EFRX%20
+3TB   47930|HD-W30EFRX   $115/PCS   http://www.malabs.com/product/HD-W30EFRX%20
+
+
+2/6/15 CPU import scripts
+d mem runaway on laptop
+got all ark xeon server CPUs done on dev/laptop
+
+
+2/2/15
+update requirements.sls, implement pythonvirtualdisplay
+d - chmod g+w
+d - chown dev:www-data (or prod, or staging?)
+d sudo apt-get install xvfb firefox
+p modify test suite for PyVirtualDisplay
+
+Mani:
+d2/5 test test suite - debug ffox issue, refactor - added to FB issue, reassigned
+
+d ChoiceCat parent, migration
+d amadeus deploy / switch to temporarily in prod
+
+
+1/11/15
+
+Works:
+
+http://www.lasolution.be/blog/related-manytomanyfield-django-admin-site.html
+
+
+1/10/15
+handy history:
+
+Git:
+
+git help config
+
+git config --global
+
+git config --global user.name "Joseph Wolff"
+git config --global user.email joe@eracks.com
+
+git config --global http.sslkey ~/.ssh/id_rsa
+git config --global http.sslCertPasswordProtected
+git config --global http.sslCert ~/.ssh/id_rsa
+
+git config --global credential.username jowolf
+git config --global http.sslCert
+git config --global --unset http.sslCert
+
+git config --global credential.helper 'cache --timeout=3600'
+
+Change author:
+git commit --amend --reset-author
+
+
+Salt:
+
+Nope:
+salt-call state.sls requirements.sls
+salt-call --local -c . state.sls requirements.sls
+
+Docs not in here:
+man salt-call
+
+Nope:
+salt-call --local state.sls requirements.sls
+salt-call --local state.sls eracks-ng requirements.sls
+salt-call --local state.sls \* requirements.sls
+salt-call --local \* state.sls requirements.sls
+salt-call --local salt.doc
+
+Here's the docs:
+salt-call --local sys.doc
+salt-call --local sys.doc |less
+
+Nope:
+salt-call --local state.single include requirements.sls
+salt-call --local state.single include requirements.sls -v
+salt-call --local -l debug state.single include requirements.sls
+salt-call --local -l debug state.single 'include requirements.sls'
+
+So, after browsing docs again, this works:
+salt-call --local -l debug state.template requirements.sls
+
+
+1/8/15
+
+root@eracks-ng:~/eracks11# ./findit.sh NFG
+apps/bloglets/admin.py:17:    # NFG - pub_date doesn't show.
+apps/orders/admin.py:109:120813_NFG_still_need_more_deep_dive_into_formset_factories
+apps/orders/admin.py:160:# NFG 7/2/13 JJW :-(
+
+
+1/5/15
+
+Works:
+
+https://code.djangoproject.com/ticket/13369#comment:2
+class Group(Model):
+    members = ManyToManyField('Member', related_name='+')
+
+class Member(Model):
+    groups = ManyToManyField(Group, through=Group.members.through, related_name='+')
+
+
+Didn't work:
+
+http://chase-seibert.github.io/blog/2010/05/14/reuse-djangos-filter_horizontal-admin-widget.html
+
+#What about, simply (in forms.py)
+from django.contrib.admin.widgets import FilteredSelectMultiple
+field = forms.ModelMultipleChoiceField (
+        queryset=Thing.objects.all(),
+        widget=FilteredSelectMultiple("Verbose name", is_stacked=False)
+    )
+
+
+12/25/14
+d add DEV setting & dev check:
+hnn = socket.getfqdn().lower().split('.')
+DEV = 'dev' in hnn or not 'eracks' in hnn
+..then send emails, mark subjects based on DEV (and add hostname itself)
+
+...Also USEVIRTUALDISPLAY for firefox present (& selenium, etc)
+- use shell library found a few months ago
+
+Clean up test_settings, use modular settings method(s) & subdir
+- sub-settings modules need already-imported settings. though, sometimes - 'settings_already_imported'?
+
+
+10/20/14
+add:
+credential.username=jowolf
+credential.helper=cache
+to git config
+
+10/19/14
+t locale
+d symlink conf.d
+d fix ./manage.py path
+t wsgi.py path
+d test dbshell
+pg load
+perms?
+reload all
+zope -> old
+
+TODO:
+ edit sshd.conf - no user, dir
+ do I need ssh-keygen -A?
+ remove nginx user fm suprv cfg
+ fix gunicorn.conf
+ pg load
+
+SAAS - Services as a service - sassy! CoreOS, Docker, separation
+
+for prod:
+ pg backups with rotation and/or archiving
+ whoosh reindex update
+ session cleanup update
+ perms, serts, nginx conf
+ local_settings update / cleanup
+
+10/18/14
+d nginx ppa
+n other ppas
+t supervisord
+ memcache
+ nginx
+ gunicorn
+ postgres
+build phases
+
+...
+
+mini-projects:
+ - finish & commit django-stylus (or fina another one).
+ - lose / cleanup shpaml
+ - comment / '''-block removal
+ - clean up packages dir - use git submodules
+ - quote improvements, incremental - comments, weight*qty, quote button, email, etc
+
+
+10/12/14 django 1.7 migration, docker, salt
+d - upd all urls imports
+d - upd my fork of djide
+- comment out aloha editor for now?
+d - fork csvimport
+d - commment out 'validate' issue for now
+- migrate to grappelli, remove admin-tools
+d - stylus
+d - upd pisa to xhtml2pdf
+- test quotes pdf
+
+todo:
+codemirror cdn
+aloha cdn or git pull
+migrate to: https://github.com/ntucker/django-aloha-edit
+
+
+7/12
+now running on git - eracks11
+d add email to last-order script
+
+
+7/5
+django_eracks is still referenced, as is eracks10
+ settings, local_settings, conf/upstart, conf/nginx, urls
+
+src/ is still referenced - had to symlink, need to clean up requirements, etc for dev
+
+
+7/4 LG :)
+d pg 9.3
+d migrate to github
+eracks dev
+
+fix social logins
+NAS72
+order of NAS servers
+consulting page, Cloud, OStack, etc
+
+add new customers - LANL, UCI, UCLA, who else? WHOI?
+
+quote enhancements / table additions
+
+CPU upgrades, drive upgrades, ram upgrades
+model cleanup
+legacy models
+thick client
+
+upgr cinnamon / pysshmenu
+unless / onlyif salt
+
+
+6/25 BD :)
+notes split in checkout still shows <tags> - summary OK
+taxes update
+expiry date update - July 2014
+don't check expiry date for POs
+carry forward PO / reference number into checkout from quote
+
+need pySSHMenu for github migration
+github migration
+
+
+5/5 BD
+done:
+  fixed "ubu server adv", repriced
+  upd all ubu to 14.04, consolidated options
+  updated blogs, deb 7.5, ubu 14.04
+
+5/3, BD
+NAS72 image in front list
+FB login not working
+
+4/30, HK! nas72 progress:
+- choice prices showing up, even w/one choice / default choice
+- choice blurb not showing up in mouseovers
+- need tooltips that pop up on mouseover or with click, both (for mobile)
+add verbiage to text:
+- Config is a typical midrange config, others available on request
+- 1866 available
+- 1TB available, inquire at info
+specific HDs available
+
+
+4/27
+working import script, requires:
+- manual select/copy/paste fm passmark page
+    http://www.cpubenchmark.net/high_end_cpus.html
+- save to csv with header
+- run import script
+- import cpus-out.csv file in cvsimport admin
+
+[deleted] fm test: 55498,7,6
+
+
+4/24/14
+choice fields for csvimport:
+name
+sortorder
+choicecategory
+cost
+
+comment
+blurb
+supplier
+price
+multiplier
+published
+
+
+
+4/15/14
+after run mkt st:
+nested component categories, instead of or in addition to OL in PO-OL
+CPUs -> Intel CPUs -> 6core Xeons
+
+mapping fm choices to components - remove the detail, "4TB HD" could be many components
+
+Quote system:
+- Create user for new quote
+- weight, etc
+- deal w/qty better
+- create pdf
+
+p convert to Github or my Git
+Jack, (Others) : are you on Github?
+
+
+3/20
+
+option.choices.orderby apparently not working, see zenbook internal stg -
+products.models line 415
+
+
+3/18
+media library:
+https://github.com/shaunsephton/django-ckeditor
+
+Also, Bouke "no grappelli" filebrowser is dead - (2yrs old, 1.3, n/c Django 1.5)
+need to migrate; either to Grappelli, or to another media library
+
+
+3/13
+d quote request to robert from order link -
+cart link?
+On orders admin, or?
+a: script retrieves latest order, for now - cut&paste!
+
+tclink charge page
+orders admin work
+
+from orders.models import Order
+o = Order.objects.order_by ('-created') [0]
+o.ship_to_address
+
+Dustan re: drives
+
+Vocus keywords, but no:
+rackmount "Open Source" Linux RedHat "Red Hat" Fedora "Arch Linux" Ubuntu FreeBSD "Free BSD" OpenBSD "Open BSD" NetBSD "Net BSD"
+
+finished press list page:
+
+from utils.context_processors import models
+
+class c(object):
+  pass
+o=c()
+o.path=''
+models(o)
+
+voila - QuickPage_pr_objects :)
+
+
+3/12
+quote button!
+d pr page - build fm list
+legacy systems & page
+
+from quickpages.models import QuickPage
+QuickPage.objects.filter(template__endswith="press.html").count()
+#53
+QuickPage.objects.filter().count()
+#70
+prs = QuickPage.objects.filter(template__endswith="press.html").order_by('updated')
+for pr in prs:
+  print pr.title
+
+...need to re-set dates to release date..
+
+#import datetime
+#from django.utils.dateparse import parse_date
+#from email.utils import parsedate
+#from rfc822 import parsedate
+from datetime import datetime
+
+prs = QuickPage.objects.filter(template__endswith="press.html")
+for pr in prs:
+  dt = pr.title.split (' - ') [0]
+  if not dt.startswith ('eRacks'):
+    dt = dt.replace ('Sept ','Sep ')
+    #print parsedate (dt)
+    try:
+      print datetime.strptime (dt, '%b %d, %Y'), pr.created
+    except:
+      print datetime.strptime (dt, '%B %d, %Y'), pr.created
+
+prs = QuickPage.objects.filter(template__endswith="press.html")
+for pr in prs:
+  dt = pr.title.split (' - ') [0]
+  if not dt.startswith ('eRacks'):
+    dt = dt.replace ('Sept ','Sep ')
+    #print parsedate (dt)
+    try:
+      pr.created = datetime.strptime (dt, '%B %d, %Y')
+      pr.save()
+    except:
+      pr.created = datetime.strptime (dt, '%b %d, %Y')
+      pr.save()
+
+
+
+    try:
+      print pr.created.replace (datetime.strptime (dt, '%B %d, %Y'))
+    except:
+      print pr.created.replace (datetime.strptime (dt, '%b %d, %Y'))
+
+
+earlier this am:
+
+from django.contrib.sessions import models
+models.Session.objects.count()
+
+for x,s in enumerate (models.Session.objects.all() [3111:]):
+  d = s.get_decoded()
+  uid = d.get ('_auth_user_id')
+  if uid:
+    print x, uid
+
+
+1 168 kockahonza
+3112 172 dvirgil
+
+[3111:]
+
+1224 2 me :)
+1626 172
+1701 172
+1884 2
+2134 171 lcharris
+2174 2
+2798 173 pekarske
+5083 2
+
+2978 + 3112 + 1 = 6091
+
+s = models.Session.objects.all() [5909]
+d = s.get_decoded()
+uid = d.get ('_auth_user_id')
+print uid
+
+print d
+
+6088-6091 not there - recently added sessions?
+8691, 9 added since 8682 at last start -?!
+
+for x,s in enumerate (models.Session.objects.all() [6000:6500]):
+  d = s.get_decoded()
+  uid = d.get ('_auth_user_id')
+  if uid:
+    print x, uid
+
+nope
+
+for x,s in enumerate (models.Session.objects.all() [4111:]):
+  d = s.get_decoded()
+  uid = d.get ('_auth_user_id')
+  if uid:
+    print x, uid
+
+for x,s in enumerate (models.Session.objects.all() [5909:5915]):
+  d = s.get_decoded()
+  uid = d.get ('_auth_user_id')
+  if uid:
+    print x, uid
+
+
+
+
+3/11/14
+quote button!
+pr page - build fm list
+
+laptop stg option list, name
+2nd stg
+External SSD as accessory?
+Upd Humboldt, King
+Emperor?
+Find Clevo resellers..
+
+admin:
+show options link on bottom of PO admin
+show choices for given choice category
+restrict options choices list selection to CC
+
+
+from django.contrib.sessions import models
+
+for x,s in enumerate (models.Session.objects.all() [3447:]):
+  print x
+  d = s.get_decoded()
+  if d.get('customer','') == 'pekarske':
+    print d
+
+for x,s in enumerate (models.Session.objects.all() [3400:]):
+  d = s.get_decoded()
+  if d.get('prod',{}).get('sku','') == 'NAS6':
+    print x, '_auth_user_id' in d.keys(), d.get ('_auth_user_id', '')
+
+models.Session.objects.count()
+
+for x,s in enumerate (models.Session.objects.all() [3400:]):
+  d = s.get_decoded()
+  if d.get('prod',{}).get('sku','') == 'NAS6':
+    print x, d.keys()
+
+for x,s in enumerate (models.Session.objects.all() [:5000]):
+  d = s.get_decoded()
+  if d.get('prod',{}).get('sku','') == 'YBLADE':
+    print x, d.keys()
+
+
+3/7/14
+upgrade config grid to no dropdown for single choice
+
+
+2/26/14
+
+finish below warranty script
+
+script to lintify the defaultchcoies, avoid phantom none/30's without a none choice
+
+maybe put these in a dir, not just cut/paste from here
+
+
+elance:
+- wizard
+- TDD
+- icecat
+
+quote app? PR app?
+
+
+2/25/14
+
+from products.models import Product
+#from django.contrib.auth.models import User
+
+for p in Product.objects.published():
+    if p.cost > 1000:
+        print p, p.cost, p.prodopt_set.filter (option__name="Warranty") [0].choices.all()
+
+
+
+2/20/14
+warranty amounts by percentage
+reword the choices costs based on qty multipliers or not
+
+quote button
+quote comments, etc - other migrations
+
+t sql-clear-sessions.sh cron
+debug search engine update cron
+
+
+1/30/14, out of space, freed, but need to automate:
+
+select count(*) from django_session where expire_date <now();
+(70,000+)
+
+select pg_size_pretty(pg_total_relation_size('django_session'));
+(1800+MB)
+
+delete from django_session where expire_date <now();
+(70K deleted)
+
+VACUUM FULL django_session;
+[long wait - ~60-120 minutes?]
+
+select pg_size_pretty(pg_total_relation_size('django_session'));
+158 MB (1 row)
+
+select count(*) from django_session where expire_date <now();
+74
+
+
+ 11/29/13 Fri @ Ventura
+great ideas:
+- D&B report is 121.99 (Qty 1, 1024 for 10) - charge customer $150 for credit app for terms - add to cart!
+- support ticket
+- 5-hour consulting retainer
+- Nas51 or 52, w/SSD OS drives?  at least try out new configurator options
+- WD red & black drives in options, blog about them, add page with them
+- "Projects" page -for Zimbra, Snort, OwnCloud, etc - maybe add a dropdown, with "Contact me for details" in the description
+- how to handle two/multiple? (eg, MooseFS, Ceph with another proj)? - perhaps resurrect indent-based nesting config, ala "smart"
+
+- Ingram Micro-recommended product info provider - Do they provide compatibility info?!
+  - Looks like Max was lying (what a surprisse) - summer 2011, two prices, $199 and $75/mo no name.
+
+- IceCat - there's an "Open" version! Check if it has fits/uses commpatibility info!
+
+
+ASI feed?
+MA Labs feed?
+MaxGroup?
+
+
+11/16/13 Sat
+d - finish user scrape, page
+- consolidate user.email, delete customer.email1 - migration
+
+quote migration, too?
+
+for c in Customer.objects.all():
+    if c.email or c.email2:
+        if c.email != c.user.email and c.email2 != c.user.email:
+            print c, c.email, '2:', c.email2, 'U:', c.user.email
+
+for c in Customer.objects.all():
+    if c.email or c.email2:
+        if c.email != c.user.email or c.email2:
+            print c, c.email, '2:', c.email2, 'U:', c.user.email
+
+for c in Customer.objects.all():
+    if c.email and c.email != c.user.email and not User.objects.filter(email=c.email):
+        print c, c.user.first_name, c.user.last_name, c.email, '2:', c.email2, 'U:', c.user.email
+    if c.email2 and c.email2 != c.user.email and not User.objects.filter(email=c.email2):
+        print c, c.user.first_name, c.user.last_name, c.email, '2:', c.email2, 'U:', c.user.email
+
+
+
+11/15/13 Fri
+
+from customers.models import Customer, Address
+
+for c in Customer.objects.all():
+    if c.email or c.email2:
+        print c, c.email, '2:', c.email2, 'U:', c.user.email
+
+print
+
+for a in Address.objects.all():
+    if a.email:
+        print a
+
+from django.contrib.auth.models import User
+
+for u in User.objects.all():
+    if u.email:
+        print u.email
+
+11/11/13 Gma's -
+
+See bug found in home.helpers.py - people can switch pages during cfg..
+
+
+10/27 Sun
+Migrate nginx conf to use mezzanine-style combined SSL conf
+
+d fork djide
+ - fix perms, readonly
+
+
+10/26 Sat
+Quote: migrations:
+ - comments on quote
+ - TFTP - Timeframe to purchase
+ - competitors? Customer in text / "Customer reference " => RFQ?
+ - terms => choices
+ - fix discount / shipping 500 error
+    IntegrityError: null value in column "discount" violates not-null constraint
+ - weight / shipping on indiv items
+ - Image! on items
+ - uploaded pdf
+
+
+10/25 Fri
+cart.as_text to add to secure email
+and/or order manifest
+
+left-justify cart td's?
+
+
+10/23 wed
+/static/ for djide
+quote system - 500 error
+
+checck to ma labs
+zenbook
+
+
+10/22 Tue
+Zenbook15 up (lots of work).
+
+TODO:  Add shipping value for Insurance - $2 per $100 of value (UPS).
+At least up the default to $30 or $35.
+
+
+10/20 Sun
+** fix eracks prod email!  I'm not getting fault notices!
+
+** massage mailing list(s) -
+ - dedup, strip emails:
+    max, simplethoughts, britta, james, jeamesk
+    search: simple, thoughts, risen, rizen, king, james, tonny, greg, an
+    add emails: info, joe, robert
+
+note to Alaguu/Krish, Adam re chad, Ryan russel, DanB/Dennis
+
+migration: remove 'new_grid' - integrated algorithmically for gradual transition
+
+d Desktop environnment - Gnome3, Mate / Gnome 2.x, Unity, KDE,
+    Xfce (Ubuntustudio default), LXDE
+? Boot environment - rEFINd, (rEFIt?), Grub2, eLilo, Dual-boot, triple boot (contact us or put in notes).
+
+? Partitioning strategy - default for distro, One big, separate home, etc? (would require detail page)
+
+Flesh out further cross-links in products admin -
+ - also add details in the "Link to..." collapsible sections - counts, lists
+
+Idea:
+Really should rigorize the OL part of the PO-OL into the "Choice Categories" idea -
+ - move away from using a "master option", and streamline the sort orders
+
+
+10/19 Sat
+to tweet, blog:
+d - Zenbook 11 updated to FullHD 1920x1080
+d Ubu 13.10 upd,
+(Todo) arch linux upd,
+ d zenbook 13,
+ 15
+d Finish Zenbook13 blog
+PR for NAS50
+OpenFiler, FreeNAS, NAS4Free, etc
+Support SKU
+quote SKU
+Desktop - PR!  offer Cinnamon, Mate, etc
+
+show Option usage, like Choice usage on admin list page
+
+
+10/18/13 Fri
+d Big check in: Production release Oct 2013 - Update Apache cfg, but then use nginx, implement SSL, GeoTrust siteseal, updates: browserID, Django 1.5, Haystacck, admin/changeforms/POOL, update search indexes, fix missing icon for FileBrowser dialog, update requirements - JJW
+
+ZENBOOK13, 15
+option list workflow..
+ - how to get all choices vs option list choices?
+Base 13.3" Zenbook
+ lineitem reset to default doesn't zero price addon
+ Donation amount - changing amt fm 5 to 10 makes addon go fm 0 to 10
+
+TODO: Fix 'allowed quantities' bugs - diplay both in same line, multiply time cost in 'add'
+
+
+10/14 Mon
+- clean up category admin - collapsible sections
+- m2m for product categories
+
+KLUGE alert: symlink . to admin in /static/admin/img/ - also in django.contrib.admin
+
+..now need to upgr filebrowser to Django 1.5. Grr..
+Maybe switch to Grapelli and away from Bouke & AdminTools..
+
+
+10/13/13 Sun, after run
+d Combine PO admins
+delete extra price field in POC
+delete POCs, extra refs fm bottom of other pages
+change option display names:
+ - suffix w/(internal comment - usage notes) [already done! - JW]
+choice display names:
+ - prefix w/choice cat
+ - suffix w/(internal comment)
+links to relevant POs, and Options, at bottom of Product
+
+show option counts!
+choices adminnable from list page only
+POs adminnable fm list page (except for legacy choices)
+
+Images?  remove or use grapelli / filebrowser
+ - 10/14 - inline under product!
+
+10/6/13 Sun
+SSL expired cert, plus its GeoTrust (not trustwave).
+delete sessions, cleanup, dbdump, transfer, up on prod
+
+joe@django-11-x86:~/django_eracks$ ./manage.py cleanup -v2
+...
+Killed
+
+
+eracksdb=> select count(*) from django_session where expire_date <now();
+ 10723 (1 row)
+
+eracksdb=> delete from django_session where expire_date <now();
+ DELETE 10723
+
+eracksdb=> select pg_size_pretty(pg_total_relation_size('django_session'));
+ 409 MB (1 row)
+
+eracksdb=> VACUUM FULL django_session;
+VACUUM
+[about 30 minutes]
+
+eracksdb=> select pg_size_pretty(pg_total_relation_size('django_session'));
+ 135 MB (1 row)
+
+..endless shenanigans with ssh & salt to xxfer file, dump, reload..
+- salt corrupts the file on cp.push :-/
+- had to drop & recreate db - & edit the top of the dump file. sigh.  use -C next time.
+- Remember ownership on sysdamin/.gnupg - www-data! plus adduser joe to www-data (or mmaybe vice-versa)
+
+TODO:
+- too many addresses problem in orders.views.py
+- clear cart after order!
+
+
+9/29/13 Sun
+d p SSL
+email - test
+orders - test
+
+fix key errors
+
+mailout! NAS50 + OpenFiler
+
+toaster
+1 34  7
+tasr
+blender
+benr
+
+
+9/28/13 Sat
+seshelp - SessionHelper
+
+orders.views
+  cart details, totals, summary
+  (also seshelp into template :( but does not appear to be used)
+
+home.context-proc
+  cart_totals (totqty, grandtot)
+
+products.views
+  fill, update :-(
+
+
+openssl req -new -newkey rsa:2048 -nodes -keyout eracks.key -out eracks.csr
+
+
+9/24/13 Tues
+t db backups
+cron emails, logs
+check cert
+sessions - memcache + db
+session flush db daily or weekly
+
+django memcache inspector modules
+ d django-memcache-status
+ mine fm accessories
+
+djide
+
+remove netbooks - replace w/ultrabooks? chromebooks?
+
+change to grapelli, w/mobile
+
+cart module
+ssl
+guest checkout
+
+
+9/21/13 Sat
+dev:
+d fix broken django_browserid for 0.9, disable autologin "feature"
+
+9/20/13
+see below, plus
+prod:
+d - dead links - jobs, contact, contact.html, links.html - redirects too
+
+jobs page -
+  d web dev
+  d sales / marketing - PT
+
+- session utils => cart utils
+- automate whoosh_index
+- certificate(s)
+- new instance:
+    d browserID
+    tweet snippet
+- FAQ?
+- *TDD harness!
+
+revamp "open source links", lots more - network, services, rackmount server basics, etc
+
+manana: megamenu instead of left bar?
+
+other sites - mostly yuk!
+
+sandy Bridge => Ivy bridge, other old refs - PR! Tweet! Blog!
+
+
+9/10/13
+- BrowserID upgraded fm 0.5 to 0.9 - many changes
+- Cart utils
+- need a test harness or basic TDD
+
+- new L&F? Blue? Logo?
+- Wizard for products?
+- CPU/Chassis/Components?
+
+
+7/1/13
+eracks todo list:
+- ivy bridge
+- ubu 13.04, fedora 18 tweets / news / blogs
+
+- PRs - NAS88? 72? 50 update?  "Now available with OpenFiler preinstalled"?
+
+unite news/tweets - Just use tweets on right margin?  Twitpic?
+
+- email issue
+- lose the laptops
+- or chromebooks
+
+- AVS for accessories
+
+outsource sales / followup?
+mailings? mailchimp?
+PR firm?
+
+At least mail / fup with pipeline!
+
+- At least put the twitter feed on the site!! (with pics?)
+
+- fix or take down accessories..
+
+- accessories-style megamenu with 'products' mouseover
+
+
+
+
+4/10/13 6p
+eracksdb=> delete from django_session where expire_date < date '2013-4-11';
+DELETE 16606
+
+
+13/5/15 10:45p
+
+eracksdb=> delete from django_session where expire_date < now();
+DELETE 21105
+
+:-)
+
+because:
+
+
+joe@django-11-x86:~/django_eracks$ ./manage.py cleanup -v2
+[...]
+compiling /home/joe/django_eracks/apps/bloglets/templets.py to _bloglet_list.html
+Killed
+
+:-/
+
+too much memory - it took 1.5G then died...
+
+
+Before:
+
+eracksdb=> select pg_size_pretty(pg_total_relation_size('django_session'));
+ pg_size_pretty
+----------------
+ 664 MB
+(1 row)
+
+
+so... after the delete of the 21K records, then ./manage.py cleanup, then vacuum (several minutes)...
+
+
+After:
+
+eracksdb=> select pg_size_pretty(pg_total_relation_size('django_session'));
+ pg_size_pretty
+----------------
+ 168 MB
+(1 row)
+
+
+..still 6800 entries...
+
+
+
+3/4/13
+Memcached sessions (Memcache is set!)
+check & clear sessions table
+
+upd PREMIUM for E3 Xeon
+
+upd OSes
+
+upd Twitter btn (also in footer?)
+
+
+1/18/13
+n tooltip position:
+http://foundation.zurb.com/docs/f2/ui.php
+yuk, too fast, distracting
+
+d move title to hdr of flyout
+
+Uploadable featured images fo james
+
+customer names, addresses all in one place, not 3
+
+
+1/13/13
+d SQL LINT: duplicate choices, missing default choices -
+
+78 rows:
+
+eracksdb=> select * from prodopts po, prodoptchoices poc1, prodoptchoices poc2
+where poc1.choiceid = poc2.choiceid and poc1.id != poc2.id and poc1.productoptionid = poc2.productoptionid
+  and po.id = poc1.productoptionid;
+
+eracksdb=> select greatest(poc1.id, poc2.id) from prodopts po, prodoptchoices poc1, prodoptchoices poc2
+where poc1.choiceid = poc2.choiceid and poc1.id != poc2.id and poc1.productoptionid = poc2.productoptionid
+  and po.id = poc1.productoptionid ;
+
+Check - 39 rows, half of 78:
+
+eracksdb=> select distinct greatest(poc1.id, poc2.id) from prodopts po, prodoptchoices poc1, prodoptchoices poc2
+where poc1.choiceid = poc2.choiceid and poc1.id != poc2.id and poc1.productoptionid = poc2.productoptionid
+  and po.id = poc1.productoptionid ;
+
+select * from prodopts po, prodoptchoices poc where po.id = poc.productoptionid and poc.id in (select greatest(poc1.id, poc2.id) from prodopts po, prodoptchoices poc1, prodoptchoices poc2
+where poc1.choiceid = poc2.choiceid and poc1.id != poc2.id and poc1.productoptionid = poc2.productoptionid
+  and po.id = poc1.productoptionid);
+
+so delete one from this half -
+
+delete from prodoptchoices where id in (select distinct greatest(poc1.id, poc2.id) from prodopts po, prodoptchoices poc1, prodoptchoices poc2
+where poc1.choiceid = poc2.choiceid and poc1.id != poc2.id and poc1.productoptionid = poc2.productoptionid
+  and po.id = poc1.productoptionid);
+
+DONE:  0 rows!
+
+
+So, now for the dangling defaultchoices:
+
+select * from prodopts po2 where po2.defaultchoiceid not in
+(select poc.choiceid from prodopts po, prodoptchoices poc where po.id = poc.productoptionid and po.id=po2.id);
+
+simpler:
+
+eracksdb=> select * from prodopts po where po.defaultchoiceid not in
+(select poc.choiceid from prodoptchoices poc where po.id = poc.productoptionid);
+
+16 rows, inluding WEB - fixed.
+
+- included some new_grid entries, single flag, etc - let's find these:
+
+select * from products p, prodopts po where not p.new_grid and po.productid = p.id and po.defaultchoiceid not in
+(select poc.choiceid from prodoptchoices poc where po.id = poc.productoptionid);
+
+Hmm... still 15 rows - CONTAINER, 1Test, OPT4, OPT6, and TWINBLADE - new_grid must not be set:
+
+select * from products p where p.new_grid;
+
+0 rows! (!).
+
+
+So which prods have no POCs?  (And are therefore supposed to be new_grid?)
+
+select * from products p, prodopts po where po.productid = p.id and not exists (select poc.choiceid cid from prodoptchoices poc where po.id = poc.productoptionid);
+
+12 rows - only CONTAINER and 1Test - so let's set new_grid on those, and fix the other three
+
+
+select * from products p, prodopts po where not p.new_grid and po.productid = p.id and po.defaultchoiceid not in
+(select poc.choiceid from prodoptchoices poc where po.id = poc.productoptionid);
+
+OK fixed, 0 rows now -
+- OPT4, OPT6, TWINBLADE - unpublished, fixed
+- CONTAINER, 1Test - new_grid
+- 1Test - unbpublished, too
+
+
+1/5/2 sat
+p ty page,
+email
+p payment method table:
+  order #
+  PO #
+  Date
+  PayMeth
+  PayTerms
+  Special Instr
+
+TODO: make order # and date conditional, horz across top
+
+
+p shipping calcs & display, w/tax&ship
+final cart, html mail
+
+** refresh / click on breadcrumb redoes order -
+
+product showroom!  first one as example for James
+
+order line
+
+facebook like, G+, twitter on breadcrumbs line
+
+d published prods in sidebar only
+d incorrect default choices in a few prods
+d search, permissions, etc
+d iowa drives
+
+rearr dashboard
+
+kill some dbg writes
+
+bloglets, featured => james
+
+from yesterday's after_run.txt:
+OO eRacks OrderLineItems & Order.from_cart
+email ack, thanks page, admin tweaks for prod edits, order grid; dashboard tweaks
+
+warnings, like Ryan did in SPG/BM
+
+
+1/3/12
+nice 'thank you for your order' page, not blank, email sent to: ...
+
+
+12/31/12 home:
+d permissions issues
+d fix empty email
+
+** Don't forget to zero out cart after order!
+
+..Cart fm below is still there, for $48K!
+
+
+
+12/29/12 Avila Beach
+
+[29/Dec/2012 23:09:24] "GET /images/products/nas50/nas50_front_565.jpeg HTTP/1.1" 200 223040
+[29/Dec/2012 23:09:50] "POST /products/update_grid/ HTTP/1.1" 200 255
+[29/Dec/2012 23:09:57] "POST /products/update_grid/ HTTP/1.1" 200 443
+[29/Dec/2012 23:10:01] "POST /cart/ HTTP/1.1" 200 17706
+[29/Dec/2012 23:10:01] "GET /images/orders/nav_back.png HTTP/1.1" 200 799
+[29/Dec/2012 23:10:01] "GET /images/orders/nav_next.png HTTP/1.1" 200 861
+[29/Dec/2012 23:10:13] "GET /images/orders/nav_next_press.png HTTP/1.1" 200 3562
+CUSTOMER 2 2 2
+WARNING: Too Many shipping addresses returned
+WARNING: Too Many billing addresses returned
+WARNING: Too Many shipping addresses returned
+WARNING: Too Many billing addresses returned
+[29/Dec/2012 23:10:16] "GET /checkout/ HTTP/1.1" 200 64700
+[29/Dec/2012 23:10:16] "GET /images/orders/ccards4.gif HTTP/1.1" 200 1482
+POST Acme corp 3560 E Gas Rd Tucson, AZ, 85714 US 3560 E Gas Rd Tucson, AZ, 85714 US
+POST CUSTOMER 2 2 2
+[29/Dec/2012 23:11:01] "POST /checkout/confirm/ HTTP/1.1" 200 19735
+ORDER BEFORE: None 2 2
+ORDER AFTER COMMIT: 54787 2 2
+Sending secure email w/order data
+
+Order # 54787
+Name Pat ernst
+Addresses 3560 E Gas Rd Tucson, AZ, 85714 US / 3560 E Gas Rd Tucson, AZ, 85714 US
+Ccard #
+Expiry 1212
+CVV #
+
+[29/Dec/2012 23:11:07] "GET /checkout/order/ HTTP/1.1" 302 0
+[29/Dec/2012 23:11:08] "GET /checkout/ordered/ HTTP/1.1" 200 40626
+[29/Dec/2012 23:11:08] "GET /images/bloglets/intele5_chip_s.png HTTP/1.1" 200 6666
+[29/Dec/2012 23:11:08] "GET /checkout/ordered/images/bloglets/i7chip_70.png HTTP/1.1" 301 0
+
+
+(Also 54785 in apache err logs)
+
+
+
+
+12/24/12 Bear Valley!
+admin: add cust & address to user
+d t add zip to addr str
+add phone to cust str?
+debug checkout emails
+james' issue w/login req
+
+
+11/7
+eRacks/LAPTOP?
+
+laptops/laptop, that is?
+
+
+11/3-4
+d still need to fix links - lower/upper is the biggest decision
+d htmlns, links in categories
+  d link: http://eracks.com/products/Custom%20Design/userquotes?session=31003113439216163
+  d Monitors: link: /contact.html?session=31003113439216163
+  d racks-and-hardware: link: /contact.html?session=31003113439216163
+
+  Laptops:
+    link: /press/070216?session=31003113439216163
+  Netbooks:
+    link: http://eracks.com/products/External%20Storage%20-%20DAS
+  Desktops:
+    2 links: /products/External%20Storage%20-%20DAS?session=31003113439216163
+    link: /products/Desktops?session=31003113439216163
+    link: /press/070216?session=31003113439216163
+    link: /press/070216?session=31003113439216163
+
+  Studio: link: http://eracks.com/press/flyers/studio_NAMM2011
+  Blade servers: link: /press/120315?session=31003113439216163
+  Quiet systems: link: /products/Quiet Systems?session=31003113439216163
+  Firewall servers: link: /eRacks/products/Custom%20Design?session=31003113439216163
+    link: /services?session=31003113439216163
+
+  Network servers: link: eRacks/products/Custom%20Design?session=31003113439216163
+  Shallow depth:
+    3 links: /products/Quiet%20Systems?session=31003113439216163
+
+htmlns, links in products
+
+spinups - new eracks prod, w/memcache, brattymodel
+
+custom design - need model, or finish quotes system
+  link: http://eracks.com/products/Custom%20Design/userquotes?session=31003113439216163
+
+legacy - need qpages or models for the legacy systems w $call
+
+product links
+
+
+10/31
+search!
+d finish press - almost done
+d services pages - d home, plus 2 - d network, d OpenMirror
+redirects
+  http://eracks.com/images/small/NAST2small
+prods page - static!
+
+rackmount server basics
+
+checkout confirm
+
+links
+  legacy systems page - links
+
+~ NSERVE, other legacy systems, i7DESK, QUADOPT,
+~ http://new.eracks.com:8000/press/brochures/index_html
+
+
+10/30
+d quickpages/one_column.html
+
+from quickpages import QuickPage
+pages = QuickPage.objects.filter(slug__startswith="press")
+for p in pages:
+  p
+
+for p in pages:
+  p.heading = False
+  p.template = "quickpages/press.html"
+  p.save()
+
+
+d ..manually go thru all PRs and fix shit..
+
+**HEY: NAS72 and DAS88 PR (Jan 2010) has NO pic, and there are NO NAS72 nor DAS88 models.
+
+
+10/28
+home page blurbage
+
+/products/ page
+scrape featured images and bloglets
+
+skype widget in UR
+d t extra line in green login/cart menu
+redirect press
+press template
+order confirm page
+d finish config summary, 'configure now'
+
+show session, clear session in Admin
+make Admin a link, remove top link
+edit quickpages in place
+link quickpages to admin
+remove 'Edit in Place' for non-aloha-capable pages?
+edit bloglets in place
+
+
+10/27
+d aloha upgr
+d aloha testimonials working w/clear cache
+p aloha product editing
+aloha category editing
+links
+d configurator
+
+redirect logger - send email to me w link
+
+d utils.clear cache
+
+
+10/25
+aloha for specs, image captions
+finish press template
+prod eracks space!
+
+
+10/23
+configurator in margin
+short/quick one that starts with a p - product/config redirect!
+404 page w/search box
+
+do NOT need order line item or admin grid until after launch
+
+
+10/22
+order confirm page
+order line items
+
+finish products page w/category blurbs & images
+
+press release images?  Quickpage images?
+
+
+10/21
+rescrape products
+ d fix 'more photos',  <model>_photos
+ t fix links
+
+d rescrape pages
+ d manualy fix
+
+d privacy & legal - link in
+d warranty - scrape
+
+rescrape categories
+ fix h1
+ fix :
+ fix links
+
+need central link fixer in scrape_utils
+
+press releases:
+ fix h1s => h5 or so, or don't duplicate
+ slug of date number, or long one? long one is preferable,
+ - then need redirects!
+ press custom template - h1 should be date, title
+
+need redirect view for /products/<cat>/config?sku=
+also /products/<CAP_PRODUCT>
+
+need slugified redirects for /products/General Purpose => /products/general-purpose
+
+d dump => fixtures
+
+configurator widget on left
+cluster widget on left
+
+providesupport.com link?  at least a 'callme' link
+
+order line items
+admin_grid, workflow - or use old admin site?
+
+press page/app
+
+FAQ page / app  :-/
+
+Custom Design / Quote app
+
+
+10/3
+b's tagged products ideas - what should they be, across the top?
+customer recs - clean up user profile
+
+tux/call-me
+
+sprite technique for OSes
+
+partners record?
+
+product screen summmary in sidebar, configure link
+
+
+10/1
+d make featured loading pic same as 1st pic anyway - use NAS 50
+d user profile - combine w/cust
+
+finish shopcart
+
+order line item
+
+fix social logins to autologout first?
+
+admin user statechange screens
+
+load orders
+
+clean up dashboard
+
+xml backend? google prods?
+
+Amazon API?
+
+
+
+9/22-23
+OK forms is going a little better..
+after 6.11 mi run:
+
+n Combined fields:
+- expiry/expiration date
+- referral type & source
+city & state?  Zip & country?
+
+TODO: agree_to_terms
+ccar date dropdowns
+upd whoosh indices
+migrate orders phase 2
+mini orders admin
+ca tax
+
+catch-22 instantiation probs
+
+
+9/21 brattymodel notes -
+what Django version? python version?
+what mysql version? How many? 1? 2? 3?
+change email support admin to you/me -
+ - set up support/info email, or use me/you
+ - set up github
+ - set up dev envo - db?
+ - upgrade Django/python
+DB Dump?
+DB handling is nonstandard, and may have performance implications or create issues later
+Fields handling somewhat nonstandard, ditto - US States is way more commlicated than it needs to be
+Multiple User profiles / links / hierarchy may need attention / refactoring
+ccard numbers are stored unencrypted in DB - this is a no-no
+
+
+9/16
+Sun - Elks lodge, livermore
+put (duplicate) shipping address in the OrderShipment rec - that's the final-final!
+Same w/Billing address in the OrderPayment rec?
+
+
+9/15
+foundation 3 - No IE7.. ??!
+config summary in sidebar, 'config now'
+add customer info to user profile, allow editing
+featured image links & overlay
+flesh out featured imges, bloglets fm old site
+tweak old page import for links
+checkout - 'I agree' checkbox, link to legal
+OrderPayments, OrderShipments, etc -
+admin grid
+state-change admin pages
+
+PDFs - quotes, invoices, packing lists
+quotes, wishlists, save_for_later (same as wishlists)
+
+update aloha
+usable editing solution for employees
+
+tests.py
+
+cluster wizard like PSSC
+
+
+9/13
+redo User admin -
+ - add userena profile (and/or readonly user)
+ - add Phone #, email2, organization - address?
+ - or, just add customer stuff at bottom!
+
+
+9/12
+Wizard, like this, for clusters:
+http://www.pssclabs.com/hpc-workstation/double-cpu
+
+d t django_email_extras
+NOTE 9/13/12: requires ALWAYS_TRUST setting to be True
+
+
+check out djblets, datagrids
+implem idea fm this am and ystrdy am 4 libre cms / obdjects
+
+from email_extras.utils import send_mail_template
+send_mail_template("Test eamil", template, addr_from, addr_to, fail_silently=False, attachments=None, context=None)
+
+from email_extras.utils import send_mail
+send_mail ("Test gpg email from website", "You should have had to decrypt the message to see this - let me know - j", 'new_website@eracks.com', 'joe@eracks.com')
+send_mail ("Test gpg email from website", "You should have had to decrypt the message to see this - let me know - j", 'new_website@eracks.com', 'max@eracks.com')
+  #, fail_silently=False, attachments=None, context=None)
+
+
+9/11/12
+flickr box!
+flickr uploads!
+
+
+9/8/12
+import mailing lists to users, set groups
+set group for incoming website 'Add me' emails
+admin orders, implement new_grid + admin templates
+James' shopping cart mockups
+
+
+8/17/12
+clickable links for frontpage slideshow
+more photos in frontpage slideshow
+p finish email save to custs
+phase 2 orders/customer import
+
+
+
+8/1
+d codemirror - git trunk repo
+working! on QuickSnippets -
+Now, how to refactor Obdjects, etc -
+ js, css, coffee, etc
+
+
+7/28
+d - need to scrape order details
+- need to write phase 2 => customers, users, addresses too
+
+wfls:
+ emails
+ payments
+ partsorder
+ ship
+ return
+
+order status changes table w/initials, payments, headers
+
+
+
+7/26 thu @ stanford
+- made mods to djgrid
+- made mods to foundation_base - js_foundation
+- added fluent_dashboard stuff for testing - more work needed here
+r - testing transaction disablement  DISABLE_TRANSACTION_MANAGEMENT
+r - added transaction middleware to settings - needed?
+soln: add autocommit to db options
+
+
+7/19 Thu
+
+
+7/17
+tables to clean up:
+filer_*
+emails items itemcomponenets (legacy stuff)
+product_images, not legacy_images (how does django find these?)
+plata stuff, if any
+
+
+7/16
+greens - uder box header, email italics
+
+tables: order status, history, payment
+  mv addresses fm legacy to customers
+  copy text from cachedtable, mostly, for cataxes, referredby, status
+
+need workflow / apps at some point for internal intranet / ops - erp-like..  django admin isn't enough.
+
+
+7/14-15
+new.eracks.com
+  d dns
+  d apache
+  social logins -
+      t move domains - fb gh
+    browser id works (tighten up when deploying prod)
+    tw works
+    in works, but 500's on click when already logged in
+    google works too, but same 'already in use' error
+    ditto for dropbox - looks like a dj-social-auth err -
+    should land on a 'logout first to relogin' page
+email 2 team 2 test - social, cart, no checkout
+
+gen forms progress - but why? needs models, too..
+
+Fundamental Django design flaw: should be able to specify dbtable.field in form/field decls
+
+port classes as form cleaners?
+Maybe.
+
+
+7/9
+images / tmplt
+  note to james
+bills
+new.eracks.com
+  ssl
+  change social login domains
+email capture view in custs
+django admin grid for imported orders
+orders.cart, normalize addresses
+wishlist app - fk to prod, but full session cart (?)
+checkout form, logic fm eracks
+
+
+7/8
+found django-social-auth usage examples in github docs (not in rtfd docs)
+- linkedin sucks, no email :-(
+(github, twitter too)
+
+FB:
+eRacks Login
+App ID:     151775531612916
+App Secret:     b3e8d3c5d8ca159a63b06eb5a1bbf691
+
+DropBox:https://www.dropbox.com/developers/app_info/82284
+App key     feokr5j5kctsmvw
+App secret  4lzeucdbluzqxs2
+
+Github: https://github.com/settings/applications/17206
+Client ID
+    9e21e195c19e04c51e75
+Client Secret
+    50b02ed8b3b0aaecd4b0801259eea5793cb77e17
+
+7/7
+django-social-auth
+ - maybe not - no usage examples of templatetags.
+    http://django-social-auth.readthedocs.org/en/latest/index.html
+ - if not, delete these three:
+Creating table social_auth_usersocialauth
+Creating table social_auth_nonce
+Creating table social_auth_association
+
+So let's try:
+django-socialregistration
+
+LinkedIn:  https://www.linkedin.com/secure/developer
+Application Details
+    Company:    eRacks Open Source Systems
+    Application Name: None
+    API Key:     20qhsfqxi4t3
+    Secret Key:    pYLru1MTqxAnQvmi
+
+Application Name: eRacks Login
+API Key: zy6tydz4ot9r
+Secret Key: NkNycVC9phkoG8ST
+
+
+7/6
+donation amount discrepancy
+
+
+7/5/12
+refactor form-handler for cart (aka ajax choiceid handler) into standalone separate fn
+then call from cart
+possibly also handle in cart & redirect?
+
+
+greens:
+
+james' pick: #5b8737
+top half of button (Lighter, the shine): #799E5B, 799D5B
+my gradient (darkest): 8B9D54 - very close to the lighter color, above
+
+
+7/4/12 wed
+idea:
+ - yaml-kept obdjects
+ - with sectiosn for html, css, js
+ - plus precompilers for coffee/stylus/sass/haml/shpaml/etc
+ - could also support python at some point, or ?
+ - lends well to db / codemirror / js highlighting, too
+
+other idea fm last night: pure python tag lib - hybrid of tagstream and minitags -
+
+with Tags() as widget:
+    table (
+        tr (
+            th ('my','table','header)
+        ),
+        tr (_class=evenodd, line=iterableobj, content=
+            td ('{line[qty]}', '{line[summary]}','{line[totprice]}')
+        )
+    )
+
+or..
+
+with Tags() as widget:
+    table (
+        tr (th ('my','table','header)),
+        [tr (td (line.qty, line.summary,line.totprice), _class=evenodd) for line in iterableobj]
+    )
+
+..or
+
+with Tags():
+    rows = [tr (td (line.qty, line.summary,line.totprice), _class=evenodd) for line in iterableobj]
+
+    widget = table (tr (th ('my','table','header)) + rows)
+
+
+..then return / use widget...  could try returning directly in ex. 3
+
+with Tags():
+    return table (
+        tr (th ('my','table','header)),
+        [tr (td (line.qty, line.summary,line.totprice), _class=evenodd) for line in iterableobj]
+    )
+
+
+fm JK:  too many different greens, choose one, I prefer the buttons green, #5b8737.
+
+- lose the #5B8737  (fm kcolorchooser)
+
+
+SSL:
+ - chg domain to new.eracks.com
+ - set up cert & cart
+
+fill up slideshow, plus make it clickable / overlayable
+
+
+7/3/12 Tue
+cart page / tmplt
+checkout pg / tmplt
+
+sep proj: minaml, dj-stylus
+then dj-templets
+
+brewmeister!
+..with git-submodules
+
+- fix greens per jk's email
+
+
+Thu 6/14/12 @eracks:
+
+What things do you use in the admin?
+What things would you like added?
+With the accessories site, what things would you like imported into the new eRacks site?
+
+Fm Max: I use:
+Old admin:
+1 Ship
+2. Status
+3. Work Order
+4. Invoice
+5. Orig
+6. email
+
+I don't use:
+raw
+
+Accessories:
+Not a fan of the layout. But the click on the link for the dropdown menus is good.
+
+
+fm JK:
+eRacks/admin
+I use what Max mentioned, but I would like to see the tracking number on the front page if possible.
+I also use Order lineitem/edit quite a bit for custom orders, so keep that ability.
+I would also like to see a better invoice, possibly pdf invoices with an updated logo as I currently type out all my invoices.
+Color coding the text so it will be easier to identify current orders over completed orders.
+
+eRacks/accessories
+Featured images for sure and just the ability to edit the home screen products.
+I like how the accessories page scales depending on window size.
+I am not a fan of how many steps I need to take to get necessary information with accessories,
+    so a page to view all information about an order would be nice.
+
+
+fm Judy:
+I really like the pdf invoice idea that James had.
+
+On the admin i use:
+Status
+Work Order
+Invoice
+Ship
+Terms
+
+I don't use:
+Raw
+Packing List
+emails
+approve
+charge
+
+Accessories website:
+I like the places on the left and right sides that are for "accessories news" and "from the eRacks blog"
+
+
+6/10/12
+n vasona duck run!
+d move prods => prods
+  d legacy admin
+  d haystack legacy search
+  d test other haystack search stuff
+
+blackbird guitars email
+~ iPad!
+n Crystal rock
+Robb
+
+d # moved to quickpages:
+from obdjects.models import Snippet, SnippetAdmin
+admin.site.unregister (Snippet)
+Snippet._meta='quickpages'
+admin.site.register (Snippet, SnippetAdmin)
+
+STILL TODO:
+
+n cart_widget
+d merge cart widget into nav header tmlpt
+d move session.py to apps.helpers or home
+
+cart_contents
+
+cart tmplt
+checkout tmplt
+
+two-columns
+search results
+
+
+6/9/12
+in prod:
+- lose the right column
+- 'Current Config' squarish box on left
+- other squarish boxes beneath it - solicit team!  twitter, flicker, etc
+
+- flicker photostream!
+
+django-loginator
+django-admin-tools dashboard
+
+
+6/8/12
+
+after nice run tait loop 1:30p:
+- session.py in prods dir
+- separate render from prod
+- render from ses obj
+- fill, upd, render, etc
+add to prod mgr or fn to return proper dict? (without blurb, comments, etc)
+
+bills
+
+
+5/28
+lots of cleanup done - corporate, partners, about, etc -
+still todo:
+ - product showroom (include tab for 'by application'
+ - services
+ - press! scrape!
+
+
+** 11p idea!
+- tags.h1 or whatever tag - should return tagstream item to chain!
+- xml.what.ever covered!
+
+
+
+5/27 Sheldon
+filebrowser image/media paths
+django-grid, admin, dashboard
+
+scrape press releases
+d two-column template for some quickpages
+combine admin for qp & obdj
+ - css (sass? stylus?), jsbottom
+
+migrate qp to ckeditor / django-wysiwyg
+ - or codemirror
+
+
+5/26 colo
+d fix symlinks for librehost
+dt chg er mailinglist to 4 cols
+dt fix browserID line
+fb in tw logins
+dn add filebrowser img model class for bloglets
+add rest of bloglets
+fix partners page
+faq
+
+add-to-cart btn, fm er2009!
+checkout! (Plata?)
+
+
+5/18-19
+d/p breadcrumbs
+d tabs
+
+customers
+quickpages breadcrumbs
+
+links & overlay on ft page
+
+d l-r green gradient for H1
+now need smth at right
+now need add-to-cart
+
+p scrape 'more photos' correctly - then rescrape prods - no H1, photos
+now need to rescrape categories
+  - prod links to include /products/
+  - header to be h1
+
+d Tabs -
+ Description, Specs, Photos, configure
+ d or Overview, Specs, Photos, Configure
+
+"[Sign In> with BrowserID!" o Login with FB o In o Twitter
+
+aloha edit link in footer!
+
+cart, checkout pages
+
+
+
+5/15
+d! Dan!
+ecommerce
+search tweaks
+
+
+5/5
+rearrange qp & obdj into /packages
+move legacy => products
+check in
+test set up in studio!
+
+category search index - fill & test
+quickpage " " "
+search results L&F
+
+scrape 'more photos' right
+  rescrape prods
+prods tabs - Description, Specs, Photos
+
+d rescrape categories - redo fonts
+
+clean up eRacks news formatting
+
+twitter feed
+
+dynamic social login
+
+
+
+5/4
+d search box
+d breadcrumbs row
+
+TODO:
+docs app
+breadcrumbs implem
+search!
+pg backend..
+
+Obdjects idea / coming together:
+- snippet: css/stylus + js/coffeescript + minaml/tagstream = obdject
+ - render to customize python
+ - querysets list to plug into context
+ - css= for css, stylus= for stylus compile - or can use template=Template (...)
+- page: list of snippets / replacements
+ - plus js/css/tags..
+- fs objs (in a dir?), templet objs (like now), db objs (in admin w/codemirror)
+
+
+5/3
+d auth_user_profile
+
+
+5/2
+d actually log in w/browserid - scrape data?
+d 3 columns?!
+search box
+1/2 bars - 7 logos, osi, what else?
+
+libre group 4-boxes, rounded corners, foundation panels -
+jq mobile?
+
+from https://developer.mozilla.org/en/BrowserID/Quick_Setup
+
+<img alt="A red sign in button" src="https://browserid.org/i/sign_in_red.png">
+<img alt="A blue sign in button" src="https://browserid.org/i/sign_in_blue.png">
+<img alt="A orange sign in button" src="https://browserid.org/i/sign_in_orange.png">
+<img alt="A green sign in button" src="https://browserid.org/i/sign_in_green.png">
+<img alt="A grey sign in button" src="https://browserid.org/i/sign_in_grey.png">
+
+
+5/1
+d django-taggit & templatetags
+django-haystack - research pgindex backend
+t django-browserid
+
+rescrape cats, prods, remove extra stuff, tables, re-tag headers
+
+ * Login & Account stuff - with Userena + my popup with foundation
+
+templets:
+122    //vertical-gradient #8D8DE9, #A29EE9
+57 (body)
+   //vertical-gradient(white, black)
+    //vertical-gradient(white, #88f)
+    //vertical-gradient(white, #003)
+    //vertical-gradient #003, white
+    //vertical-gradient #010, white
+141, 137
+        //wheat
+182
+//        background #dfd
+//    a
+//        padding 20px
+//        color black
+//vertical-gradient #69A0EB, #8CB9E9
+245
+//    li, td
+//        padding 20px
+// #footer:after
+//    clear both
+
+
+4/30 Mon
+
+Desqhost upgrades:
+
+If you continue, an additional ssh daemon will be started at port
+'1022'.
+
+To make recovery in case of failure easier, an additional sshd will
+be started on port '1022'. If anything goes wrong with the running
+ssh you can still connect to the additional one.
+If you run a firewall, you may need to temporarily open this port. As
+this is potentially dangerous it's not done automatically. You can
+open the port with e.g.:
+'iptables -I INPUT -p tcp --dport 1022 -j ACCEPT'
+
+Natty: DONE
+Precise: INPROGRESS
+
+
+Obdjects: scrape regex and insert into namespace -
+
+goal / example: insert current category sku into Obdject namespace -
+- scrape from url regex
+- inject into namespace of obdject (pop?), so it can be extracted at call time vi kw.pop
+
+requirements.txt:
+django-tagging? taggit?
+d pip install django-taggit
+d pip install django-taggit-templatetags
+django-haystack, solr
+django-sociallogin
+django-faq
+
+idea: have repos be self-configuring or self-installing - cuts down on the brewpub / chef provisioning requirements
+
+
+
+4/28 Sat
+idea:
+- save all Minaml templates to cache, with the queryset (and optional view fn?)
+- retrieve, then call/render
+- use redis / mongo for nested dict cache?  eg, can add whole db tables in via k/v store
+
+
+4/27
+p fat footer
+? prods rescrape
+d gen cats menu
+
+sociallogin
+enigmail
+
+reorg prods
+
+
+4/26
+scrape cats w/images, prods
+
+urls discussion w/britta:
+/products : showroom
+/<ff>/<product> - top-level unique, unambiguous form factor / chassis type - racckmount, desktop, etc
+/categories : complete cat list
+/<cat> - toplevel cat
+/<cat>/<subcat> - do we need this? clicked-on subcat?
+
+for now:
+/<cat>/<prod>
+or
+/products/<prod>
+
+
+4/23
+requirements.txt
+
+featured images links:
+
+ fadeimgs [0]=["http://eracks.com/featured/front_hosting", "http://erackshosting.com", ""]   // image src, link, target
+ fadeimgs [1]=["http://eracks.com/featured/front_qfx", "/products/Desktops/config?sku=QFX", ""]   // image src, link, target
+ fadeimgs [2]=["http://eracks.com/featured/front_lite", "/products/config?sku=LITE", ""]   // image src, link, target
+ fadeimgs [3]=["http://eracks.com/featured/front_twinguard", "/products/Firewall%20Servers/", ""]   // image src, link, target
+ fadeimgs [4]=["http://eracks.com/featured/front_quiet", "/products/Quiet%20Systems/", ""]   // image src, link, target
+ fadeimgs [5]=["http://eracks.com/featured/front_studio", "/products/Studio", ""]   // image src, link, target
+ fadeimgs [6]=["http://eracks.com/featured/front_flagship", "/products/Desktops/config?sku=FLAGSHIP", ""]   // image src, link, target
+ fadeimgs [7]=["http://eracks.com/featured/front_i7desk", "/products/Desktops/config?sku=i7DESK", ""]   // image src, link, target
+ fadeimgs [8]=["http://eracks.com/featured/front_netbooks", "/products/Netbooks", ""]   // image src, link, target
+ fadeimgs [9]=["http://eracks.com/featured/front_stratus", "/products/Netbooks/config?sku=STRATUS", ""]   // image src, link, target
+ fadeimgs [10]=["http://eracks.com/featured/front_sixpack", "/products/AMD%20Systems/config?sku=SIXPACK", ""]   // image src, link, target
+ fadeimgs [11]=["http://eracks.com/featured/front_nas50", "/products/Storage%20Servers%20-%20NAS/config?sku=NAS50", ""]   // image src, link, target
+ fadeimgs [12]=["http://eracks.com/featured/front_amdesk", "/products/Desktops/config?sku=AMDESK", ""]   // image src, link, target
+ fadeimgs [13]=["http://eracks.com/featured/front_opt4100", "/products/OPT4100", ""]   // image src, link, target
+ fadeimgs [14]=["http://eracks.com/featured/front_NAS16X", "/products/Storage%20Servers%20-%20NAS/config?sku=NAS16X", ""]   // image src, link, target
+ fadeimgs [15]=["http://eracks.com/featured/front_aseries", "/products/Desktops/config?sku=ASERIES", ""]   // image src, link, target
+ fadeimgs [16]=["http://eracks.com/featured/front_blades", "/products/Blade%20Servers/", ""]   // image src, link, target
+
+
+os logos:
+
+  <a href="http://www.ubuntu.com" target="new"><img src="/images/logos/ubuntu" height="46" width="40" alt="Ubuntu" border="0"></a>&nbsp;
+  <!-- <a href="http://www.gentoo.org" target="new"><img src="http://eracks.com/images/logos/gentoo" alt="" title="" height="46" width="45" border="0"></a>&nbsp; -->
+  <a href="http://www.debian.org" target="new"><img src="/images/logos/debian" height="46" width="50" alt="Debian Linux" border="0"></a>&nbsp;
+  <a href="http://www.centos.org" target="new"><img src="/images/logos/centos" height="46" width="48" alt="CentOS Linux" border="0"></a>&nbsp;
+  <a href="http://www.netbsd.org" target="new"><img src="/images/logos/netbsd_small" height="46" width="46" alt="NetBSD" border="0"></a>&nbsp;
+  <a href="http://www.freebsd.org" target="new"><img src="/images/logos/freebsd_small" height="46" width="45" alt="FreeBSD" border="0"></a>&nbsp;
+  <a href="http://www.linux.org" target="new"><img src="/images/logos/linux_small" height="46" width="45" alt="Linux" border="0"></a>&nbsp;
+  <a href="http://www.openbsd.org" target="new"><img src="/images/logos/openbsd_small" height="46" width="55" alt="OpenBSD" border="0"></a>&nbsp;
+
+
+4/22 Sun
+user profile set up, then backed off:
+    - don't have to use email
+    - creation flow are different, at different times & w different needs
+    - consider a) redundant data in cust rec, prefill fm user at checkout
+    - combined form at checkout, flesh out user info & cust info both at once (like)
+    - either way, need profile page to edit / save
+
+looked at 2 social auth plaforms, require siging up w/providers as 'app' with individual keys
+don't need django-reg, don't need validation step
+could save email for mailing list in cookie, then prefill signup
+
+d don't see handy popup reg form anywhere, so I guess I have to write one
+
+browser-ID looks like a good one too, only supported by one of the social-auth plugins
+d see mozilla django-browserid
+
+ubu one is NOT syncing
+
+OK let's try this one:
+d pip install django-userena
+
+Nice!
+
+After run / walk up hill 7:45p:
+- We're gaining on the water!
+p - Let's do the templet-to-disk thing for the rest of the site -
+
+checked in everything, got around FUBAR errors
+
+
+4/21 Sat
+libjpeg8-dev (or 62) for Pillow jpeg support
+drop django-filer - no browsing of existing directories!
+pip install -e git+git://github.com/Bouke/django-filebrowser-no-grappelli.git#egg=django-filebrowser
+slideshow working, bloglet installed..
+
+
+4/20 @home
+diddling w/filer
+
+
+4/19 best western valencia
+pip install -v -e git+https://github.com/stefanfoulis/django-filer.git#egg=django-filer
+link fm pypath /filer/static/filer => static
+NO! link fm filer.__file__/static!  (better)
+
+django-orbit
+look at eracks accessories
+d startapp products
+
+filer settings & perms for uploads - yuk!
+
+...all morning DIDDLING WITH FILES.
+
+no success, 1:46pm, quitting.
+
+
+4/9
+d base => base_foundation, base_aloha=> base
+add stylus, other basic stuff at bottom, but don't clutter up real base (that's switchable, too)
+
+you really need the mockup text factored in to the snippets idea somewhere..
+no one has done this yet. both a default, and a display-when-mocking-up-and-no-db-is-avail
+
+do it.
+
+Obdjects in the code itself w/no templates avoids extra compile / parse / clean steps, and is cleaner
+
+removed 4/14 or so: sudo pip install django_bfm
+
+
+4/8 sat
+ckeditor looks good
+
+d sudo pip install shpaml
+d test ajax hang autorefresher
+pn Django-Minaml!
+
+
+4/5 thu
+d cpu slowdown :)
+
+d Order
+OrderLineItem
+Zope fields
+admin
+OrderPayment
+Customer - User, 2 Addresses
+Payment - terms, type, cvv, last4, agree_to_terms, etc
+Address
+Yahoo editor trial
+
+
+4/4 wed
+d pip install django-wysiwyg
+
+t cart - grid, qty upd, in-session
+
+p checkout - forms, models - step 1 - enter info, step 2 - review order, step 3 - go!
+
+add slug to qpages
+scrape pages!
+
+scrape products - see previous work
+finish stylus
+new grid
+test foundation tooltips - html?
+fat footer! more nav lists
+home page w/orbit, 3-4 boxes
+email box, skype, twitter, fb, g+, GeoTrust
+
+
+4/3
+b quickpages or obdjects?
+
+p
+  o
+    s s-css s-js
+
+- go w/qp for now
+- scrape pages
+- go w/internal stylusing, for now
+
+
+4/2
+pip install django-coffeescript
+
+d * context proc for model! done!
+
+do ttag for stylus like coffeescript!
+
+
+4/1
+d Happy BDay Dad!
+
+p homepage / base app
+
+librehost: fix aloha, foundation, (dbtemplates)
+
+scrape pages (=> QuickPages?)
+
+cart, checkout, forms
+
+menu(s)
+OSS logos + OSI
+footer
+grid
+flyover
+orbit
+
+try:
+d pip install -U cartridge
+(mezzanine, merengue already done)
+
+
+3/31
+d finish scrape products
+
+29:
+Cloud
+Blade Servers
+Studio
+External Storage - DAS
+Netbooks
+ Liquid Cooled
+Legacy
+ Memory
+ Opteron Systems
+ Overstock
+ Handhelds
+Laptops
+ Xeon Systems
+Shallow Depth
+Intel Systems
+Desktops
+AMD Systems
+Storage Servers - NAS
+Custom Design
+Network Servers
+ Small Form Factor
+Monitors
+ Web Servers
+Racks and Hardware
+ Routers and Switches
+Enterprise Servers
+General Purpose
+Quiet Systems
+Firewall Servers
+
+20:
+· General Purpose
+· Enterprise Servers
+· Shallow Depth
+· AMD Systems
+· Intel Systems
+· External Storage - DAS
+· Storage Servers - NAS
+· Network Servers
+· Firewall Servers
+· Quiet Systems
+· Blade Servers
+· Cloud
+· Studio
+· Desktops
+· Netbooks
+· Laptops
+· Racks and Hardware
+· Monitors
+· Custom Design
+- legacy
+
+- 9 unpubbed - done.
+
+
+3/28 wed
+TODO:
+admin actions for publish / unpublish
+
+d installed: django-debug-toolbar
+d django-aloha
+
+admin helpers? width of columns?
+Dashboard?
+..finish scraping..
+
+
+3/27 tue
+customers page done last night, I still don't like it.
+- every page is a full page - this is wrong.
+- the page areas should call out to the items, not the other way around
+- if you have to have templates, they should be snippets, not whole pages
+
+maybe nested fns that render customers and testimonials,
+then pass to base template with {{customer}} and {{right_sidebar}}?
+
+..and base templates should have
+
+d {% block content %} {{ content }} {% endblock content %}
+d {% block sidebar_one %} {{ sidebar_one }} {% endblock sidebar_one %}
+
+
+to scrape:
+
+http://eracks.com/showroom  ('td#content').html() - 2nd table in, starting with "Product Showroom"
+http://eracks.com/services  ('td#content').html()
+http://eracks.com/partners  ('td#content').html() - nice!  (later: with breakdown)
+
+.. so take all links from within td#navbar
+
+
+..try aloha editor
+..try codemirror - side-by-side or vert?
+
+- try mezzanine & merengue in sandbox
+
+- validate link on editor page, or on regular pages w/Edit link turned on (admin and is_staff)
+
+pip install django-filebrowser
+
+
+
+3/26 mon
+d sudo pip install django-ide
+- Pretty cool! Really!
+
+d hg clone https://bitbucket.org/offline/django-annoying
+=> move to packages, along with foundation
+
+pip install django-dbtemplates
+
+
+filebrowser?
+mediagen
+dbtemplates?
+dashboard
+p django_codemirror
+
+drag-n-drop admin order
+
+
+3/25
+customers app
+  d - CustomerImages w/caption & published flag
+  - Testimonials with quote & attribution
+2 editors aloha & codeMirror
+
+
+3/24/12
+sudo pip install hamlpy
+sudo pip install pisa
+
+3/17/12
+Aloha_Editor -
+- always use -g flag with npm, to enrure global /usr/local/lib/src
+- dependencies are tricky
+- requires node or npm 6.5 IIRC
+- requires r.js 26.0
+  (27.1 gives ReferenceError: document is not defined - fileName:/usr/local/src/Aloha-Editor/target/tmp/aloha/lib/css.js)
+
+aha: no build required, just include in pages, like tinymce..
+
+pip install django-aloha
+
+
+2/11/12 sat
+new_grid flag added
+NOCONA2 copied for testing
+tweaks to admin
+
+need:
+  updater.py:
+    eval_duple in update ln 280
+    handle opt qty _1 _2 in getpoc
+
+    if new_grid in update: update_session around line
+
+  update_session:
+    massage for zope
+
+  renderer.py:
+    configgrid
+
+2/4/12 OK pick it back up - Max & Britta need updates
+
+- tree updated for hybrid zope / django
+- apache reconfigured to allow static file serving on eracks prod
+- conf files added & checked in to repo
+- rest of 2 repos reconciled, more work to evolve commbined legacy & prod Zope repo
+- wide_css Richard Dawson (family-feud) box for britta checked in
+- dual-config-box revived
+- scripts/start_postgres.sh
+
+Todo:
+eracks.com/admin?  move the 'legacy' editing?
+90% width, 100% header
+lower page static info => mouseover?
+left column menu
+
+django urls:
+customers
+press
+right-column news
+testimonials
+
+
+7/17
+configure apache for 'static' => django, upl images to static/images, etc
+
+
+7/16
+flickr images box!
+facebook widget?  Diaspora? Twitter? Identica?!
+
+
+
+7/15 Fri, after Britta talk:
+d? clonesku
+better admin
+d either-or prodopts choices
+
+ajax
+updater update
+
+
+7/14/11 thu
+n use DjDT technique to inject jQuery in config_django (or just taggit in the tagstream)
+d put in /js dir, and in the config_django
+n default to on for the site :)
+
+json output: 3/4 items: price, summary, choice info -or- configgrid
+
+d blow out qties, allowed_qties, suffix instance on prodoptid
+
+
+7/10/11 Sun
+ok basic configgrid
+- tuple for opt/chopice in select
+- hamlpy and util structured nicely
+- view for new configgrid
+- Zope harness, somehow? /dev/configgrid?
+- dynamically load jQuery w/script tag ala DjDT
+- Proto page!
+
+
+7/17-18/10 nice wkend @ Mom's after drop B&A off at LGB airport
+
+`pwgen -B 10 1`
+
+6/26/10 Sat
+gridlock, but want to upd jQuery & do grid, slideshow, html5.
+Need to do quote system for Max -
+
+
+6/21/10 Mon
+OK problem was double-encode in the blocks.apps.aggregator.feedupdator module
+workaround patch applied..
+
+6/20/10
+gridlock.
+
+Some dj blocks investigations done.
+Mark Pilgrim's "excellent" feedparser still barfs all over the included example with Unicode errors. Sheesh.
+45 minutes later no solution.
+
+RDFSummary still works like a champ - no updates since 2004, still zope-specific.
+
+
+6/18/10
+pick quote system back up
+upd js!
+better slideshow w/btns
+css grid!
+
+try local app 4 rss => adsense
+
+libre - new look? DesignDisease?
+satch 0.91!
+
+blocks demo?
+
+** check out obdjects into new studio://osdf project..
+
+migrate svn!
+New KForge!
+replace maverick, opp
+migrate wp sites
+migrate zope sites
+migrate / combine eracks - new db, anyway..
+
+Melissa letter - "I thought we put this to bed"? or wait until new bill?
+
+
+joe@STUDIO:~/Projects$ svn list svn+ssh://root@osdf.com/var/svn/test
+Password: ...
+AutoAdmin/
+GenTree/
+MLTemplates/
+Omni/
+ReconcylNG/
+ZSQLDocument/
+ZSQLFramework/
+django_eracks/
+eracksnew.sh
+evirt/
+hosting/
+installscripts/
+libre/
+librehosting/
+notes.txt
+pgwork/
+satchmo/
+vm_scripts/
+wp_libreblog/
+zorder/
+
+
+10/25/09 sun
+quote system:
+customer name - link to user? link customer to user?
+company name - hard-code, settings, or table/user?
+
+10/24 sat
+delete from customers;
+DELETE 3
+
+Zope uses dt? NO
+Zope uses current? NO
+
+installed pisa xhtml2pdf
+ - inspired by, but not found from, http://bitbucket.org/chris1610/satchmo/wiki/PdfCreation
+ - instead, found here:
+    - http://docs.djangoproject.com/en/dev/howto/outputting-pdf/
+    - http://pypi.python.org/pypi/pisa/
+
+installed requirements, although slightly older than required:
+    - html5lib, python-pypdf, python-reportlab
+
+nogo.
+
+jaunty update, w/blog comment, DONE.
+pdf works now.
+
+
+10/17 sat
+eracksdb=# ALTER TABLE sqls_sql add notes text;
+ALTER TABLE
+eracksdb=# UPDATE sqls_sql set notes='';
+UPDATE 22
+eracksdb=# ALTER TABLE sqls_sql alter notes set not null;
+ALTER TABLE
+eracksdb=#
+
+
+10/14 @Harris ranch -
+find/install sqls app
+pick up rcylNG, AutoAdmin, Omni
+fnma.org, 4p2p => gAdSense w/better search
+
+4 eracks/8/9: zope "connector" to django - call Dj directly fm external method -
+  - install/upgr dj on he web!
+- could also be done with Apache ProxyPass, on a per-directory basis
+- migrate one zope categ folder/dir at a time..
+
+- quote system - Django! PDFs!
+- Satchmo - look at db structure, does my cart sys fit?
+
+** - finish my cart sys simplify/migrate to Dj!
+
+-- Blogs, users, photos, membership - pinx + satch for eR9?
+
+- standardize on tinyMCE for edit apps
+
+- SQL app: sql syntax highlight, sql help link for mysql, pg, sqlite
+he web:
+  autodb_test, magazinedb2: 28 rows,
+  eracksdevdb, magazinedb, eracks5_development, eracks_new: 84 rows
+
+- AuditTrail app: reapply / undo/redo!
+
+
+10/13 @ Harris Ranch!
+Django-tinymce-flickr, django-photologue
+ideas in car:
+- filter-graph producer-consumer db design (revisit lost Wuksachi design :)
+  - component table, with accepts/fits links (reverse fks)
+  - to relationship table, with fk to ComponentType or category
+
+10/13 @ katella till 4p
+
+nope, south migration to add fk nfg - nulls catch-22.
+
+need to write SQL -
+1) add fk w/nulls allowed
+2) set up table, set FKs
+3) set no nulls
+
+So:
+
+ALTER TABLE choices ADD choicecategory_id integer REFERENCES "choicecategories" ("id");
+-- OK
+select c.id,c.name,cc.solow,c.sortorder,cc.sohigh,cc.id from choices c, choicecategories cc where cc.solow <= c.sortorder and c.sortorder <= sohigh ;
+-- works
+update choices
+   set choicecategory_id= ccid
+  from (select c.id as cid, cc.id as ccid from choices c, choicecategories cc where cc.solow <= c.sortorder and c.sortorder <= sohigh) as foo
+ where cid = choices.id;
+-- UPDATE 1567!
+
+SELECT * from choices where choicecategory_id is null;
+-- still a few, drop them on misc
+
+UPDATE choices set choicecategory_id=43882 where choicecategory_id is null;
+-- update 5 to 43882, the "Misc" setting with sortorder 0
+
+ALTER TABLE choices ALTER choicecategory_id SET NOT NULL;
+-- OK!
+
+
+TODO:
+- set up gloabl seq like in eracks8, w/pre-save signal
+- fix rackmount chasses choicecat
+
+
+10/12 @ katella
+eRacks todo:
+- list of in-place db tranformations - from former pgwork scripts
+- usable admin interface
+- sqls app
+- south?
+- incremental strategy for website update?
+scrape one page at a time?
+
+pgsql extravaganza, utf8 prob:
+- need %% in cursor.execute for %
+- see: http://www.postgresql.org/docs/8.0/static/functions-string.html
+SELECT replace(name, '\256', '&trade;') from choices where name ilike '%red hat%'; -- works!
+SELECT to_ascii(name, 'latin1') from choices where name ilike '%red hat%'; -- works, gives cap R
+SELECT SUBSTRING(name, 'Red Hat(.)') from choices where name ilike '%red hat%';  -- regex, shows the ? w/circle
+SELECT decode(name, 'escape') from choices where name ilike '%red hat%';  -- works, returns ::bytea \256
+
+Works!:
+UPDATE choices set name=replace(name, '\256', '&trade;')::varchar(50) where name ilike '%red hat%';
+UPDATE choices set name=replace(name, '&trade;', '&reg;')::varchar(50) where name ilike '%red hat%';
+
+from http://south.aeracode.org/wiki/Download :
+hg clone http://bitbucket.org/andrewgodwin/south/
+hg update -C stableish
+
+evolve.py progress,
+
+select id, sku from products where sku ilike 'leaf';
+select id,optionid, defaultchoiceid from prodopts where productid=40243;
+select name from options where id=7;   -- OS
+select poc.id,pricedelta,choiceid,c.name,c.sortorder from choices c, prodoptchoices poc where productoptionid=40250 and choiceid=c.id;
+
+select max(c.sortorder),min(c.sortorder) from choices c, prodoptchoices poc where productoptionid=40250 and choiceid=c.id;
+900-985
+
+After walk dn to 57 on santa ana trail:
+d 1) csv dump of sort orders => choice categories
+p 2) evolve by *option* - get prods, poc's
+
+TODO:
+- ProdOptChoices admin - to show/upd Pricedelta -
+- Photo uploads, management
+- access should be legacy.eracks.librehost.com/admin - fix url's
+- 'Published' manager - based on Current flag - duplicate? migrate? check the Zope code!
+- finish csv sortorders;
+- add migration for the ChoiceCategories model
+- widen the ProdOpts chooser
+? Add a "+" to add a ProdOpt?  Then where do the prod & opt come from?
+- SQLs app
+
+
+10/11/9 @ mom's:
+- m2m-'through' not well supported.
+
+django admin styff sucks - I like mine better. more open-ended, not so brittle.
+
+- Need to do form for limit-choices-to, see eracks(8)
+
+- Might also be able to use a class: http://code.google.com/p/django-tagging/issues/detail?id=178
+
+and don't forget to install this:
+
+http://south.aeracode.org/
+
+
+^ Above 2009 & newer, in reverse chrono order ^
+===================================================================
+V Below, Mani's testing & fixture notes, from 2015, in chrono order:
+
+
+See also https://github.com/jowolf/eracks11/issues/105
+
+
+"APR 08 2015"-mani
+
+To load fixtures into db
+
+python manage.py loaddata apps/bloglets/fixtures_fixed/bloglets_fixed.yaml
+
+python manage.py loaddata apps/quickpages/fixtures_fixed/quickpages_fixed.yaml
+
+python manage.py loaddata apps/obdjects/fixtures_fixed/obdjects_fixed.yaml
+
+python manage.py loaddata apps/products/fixtures_fixed/products_fixed.yaml
+
+
+TODO: -mani 'sep 30 2015'
+1) . We need to install google-chrome in DEV and production servers for this we can have PPA like this
+
+sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+
+sudo apt-get update
+
+sudo apt-get install google-chrome-stable
+
+source found from: http://sourcedigit.com/16229-install-google-chrome-43-0-via-ppa-on-ubuntu-or-linux-mint/
+
+if we have already google chrome installed then need to check we are having latest version or not, which needs to be compatible with chromedriver version.
+
+2) . we need to install chromedriver in both dev and production server, we can have PPA like this
+
+npm install chromedriver
+
+source: https://www.npmjs.com/package/chromedriver
+
+then it will store the chromedriver in ' /node_modules/chromedriver/lib/chromedriver/chromedriver ' in our project directory.

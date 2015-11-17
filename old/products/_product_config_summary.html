@@ -1,0 +1,26 @@
+<div class="box" id="config_summary">
+    <h4>Current Configuration</h4>
+    <div id="current">
+        <div class="baseprice">
+            Base Price:
+            <b>
+                $
+                {{ product.baseprice|floatformat:2 }}
+            </b>
+        </div>
+        <div class="price">
+            As Configured:
+            <b>
+                $
+                {{ product.baseprice|floatformat:2 }}
+            </b>
+        </div>
+        <div class="summary"><b>Configuration Summary:</b><br>Default Configuration</div>
+        <a onclick='$("#config-tab").click();' href="#config" class="nice small green radius button">Configure Now</a>
+        <a onclick='$("#add_to_cart").click();' href="#add" class="nice small green radius button">Add to Cart</a>
+        {% comment %}
+            {{ product.as_config_tab }}
+        {% endcomment %}
+        <div style="clear:both" class="clear">&nbsp;</div>
+    </div>
+</div>

@@ -1,0 +1,327 @@
+{% extends "base.html" %}
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: src/product.minaml on 2015-11-09 at 19:41:46 PST(GMT-0800)  #}
+
+
+
+{% block css %}
+  <noscript>
+    <style>
+      .owl-product-photos#productPhotos, .jsonly {
+        /* overflow: hidden; */
+        display: none;
+      }
+      .photo-wrapper noscript img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </noscript>
+  <style>
+    /* .owl-product-photos#productPhotos { */
+    .photo-wrapper {
+      width:40%;
+      float: left;
+      margin: 0 10px 10px 0;
+    }
+    .owl-product-photos#productPhotos .owl-item { /* .product_photo { */
+      /* margin: 3px; */
+      /* height: 300px; */
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+    .owl-product-photos#productPhotos img { /* for noscript */
+      float: left;
+    }
+    .owl-product-photos#productPhotos .owl-item img { /* .product_photo img { */
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    /*
+    h4.panel-title a {
+      padding-left: 7px;
+    }
+    width3in, w3in {
+      width: 3in;
+    }
+    .panel-body #current-config-summary {
+      padding:20px;
+    }
+    */
+    i.fa.fa-caret-right {
+      padding-right: 7px;
+      background-color: #66de97;
+      padding: 0px 6px;
+      border-radius: 8px;
+    }
+    .eracks-product #description img {
+      max-width: 200px;
+      height: auto;
+      margin: 5px 10px 0 0;
+    }
+    .eracks-product #description  {
+      font-size: larger;
+    }
+    /* .eracks-product h1, .eracks-product h2, */
+    .eracks-product h3, .eracks-product h4 {
+      font-weight: bold;
+    }
+    #config_summary .price, #config_summary .baseprice {
+      font-size: initial;
+      font-weight: initial;
+      padding-right: 15px;
+    }
+    #config select, #config textarea {     /* #config input, */
+      width: 100%;
+      display: inline;
+    }
+    #config td {
+      padding: 2px 5px;
+    }
+
+    #config select.choiceqty {
+      width: 18%;
+    }
+    /*
+    #config select.choiceid {
+      width: 100%;
+    }
+    */
+    #config select.choiceid.leaveroom {
+      width: 80%;
+    }
+    #config input {
+      margin-right: 2%;
+    }
+    #photos img { /* photos at bottom */
+      max-width: 100%;
+      height: auto;
+    }
+    /*
+    .panel-body #current-config-summary ul {
+      list-style-type: circle;
+      margin-left: 15px;
+    }
+    .sidebar {
+      font-family: inherit;
+    }
+    .dropdown-tree-a {
+      font-weight: normal !important;
+    }
+    .dropdown-tree:hover .dropdown-menu-tree {
+      display: block;
+    }
+    */
+  </style>
+{% endblock %}
+
+{% block js %}
+  <script>
+    // Config grid ajax update script
+    function update_config (e) {
+      console.log ($('.configform').serialize());
+      if (e) {
+        console.log ('ITEM CHANGED:');
+        console.log (e.currentTarget);
+        console.log ($(e.target).find ('option:selected'));
+      }
+
+      $.post ("/products/update_grid/", $('.configform').serialize(), function(json) {
+        console.log (json);
+        $('#config_summary #current .price b').html ('$' + json.price);
+        $('#config_summary #current .summary').html ('<b>Configuration Summary:</b><br>' + json.summary);
+
+        $.each(json.optchoices, function(key, val) {  // it's an array, so keys are 0
+          console.log (key, val);
+          console.log ('#' + val.optid + ' .choiceinfo');
+          if (val.choicename)
+            $('#' + val.optid + ' .choiceinfo').html (val.choicename);
+          if (val.choiceblurb)
+            $('#' + val.optid + ' .choiceinfo').attr ('title', val.choiceblurb);
+          //if (val.optprice)
+          $('#' + val.optid + ' .optprice').html ('$' + val.optprice);
+        });
+      }).error (function(err) {
+        console.log ('post error:' + err);
+        window.location.reload();   // likely the back button, prod is no longer there, so reload
+      });
+    }
+
+    // attach grid change events to fire ajax update
+    $(document).ready(function() {
+        $('.configgrid select[name="choiceid"]').change (update_config);
+        $('.configgrid select[name="choiceqty"]').change (update_config);
+    });
+
+    // Small owl carousel for product photos
+    $(document).ready(function() {
+      $(".owl-product-photos#productPhotos").owlCarousel({
+          autoPlay: 4000, //Set AutoPlay to 4 seconds
+          singleItem: true,
+          // navigation: true,
+          // rewindNav: false,  // nope, just sits there at the end :)
+          // itemsScaleUp: false,  // still scales up the smaller "portait" items & then makes it too tall
+          // autoHeight: true,  // no, then bottom bobs up & down
+          // items : 1,
+          // itemsDesktop : [1199,3],
+          // itemsDesktopSmall : [979,3]
+      });
+
+      // Magnific popup / lightbox - need to add gallery mode, get images working - HERE
+      $('.owl-product-photos#productPhotos .owl-wrapper').magnificPopup({
+        items: $('.owl-product-photos#productPhotos img').map (function() { return { src: $(this).attr ('src') } }).get(),
+        type: 'image',
+        gallery: {
+          enabled: true,
+          navigateByImgClick: true,
+          arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>', // markup of an arrow button
+          tPrev: 'Previous (Left arrow key)', // title for left button
+          tNext: 'Next (Right arrow key)', // title for right button
+          tCounter: '<span class="mfp-counter" style="min-width:100px">%curr% of %total%</span>', // markup of counter
+        },
+      });
+    });
+  </script>
+{% endblock %}
+
+{% block content %}
+  <div class="content row eracks-product col-lg-12 col-md-12 col-sm-12" id="content_row">
+    <div class="photo-wrapper">
+      <noscript style="min-height: 300px;display:inline-block">
+        {{ product.image|safe }}
+        <div class="product-name">
+          {{ product.name }}
+          <a href="#photos">
+            More Photos
+          </a>
+        </div>
+
+      </noscript>
+
+      <div class="owl-product-photos" id="productPhotos">
+        {{ photos }}
+      </div>
+      <div class="product-name jsonly">
+        {{ product.name }}
+        <a href="#photos">
+          More Photos
+        </a>
+      </div>
+    </div>
+
+    <i>
+      <a href="#config" style="float:right;clear:right" title='Jump to Configurator'>
+        &bull;&nbsp; Configure
+      </a>
+      {% if product.features %}
+        <a href="#features" style="float:right;clear:right" title='Jump to Features & Specs'>
+          &bull;&nbsp; Features & Specs
+        </a>
+      {% endif %}
+      <a href="#photos" style="float:right;clear:right" title='Jump to Photos'>
+        &bull;&nbsp; Photos
+      </a>
+    </i>
+
+    <h1>{{ product.name }}</h1>
+
+    <div id="description">
+      {{ product.description|safe }}
+    </div>
+
+    {% if product.features %}
+      <hr>
+      <div id="features">
+        <h3>
+          Features & Specifications
+        </h3>
+        <p>
+          {{ product.features|safe }}
+        </p>
+      </div>
+    {% endif %}
+
+    <hr class="clearfix col-md-12">
+
+    <div class="pull-left" id="config">
+      <div class="col-md-6">
+        <h3>
+          Configure {{ product.name }}
+        </h3>
+        <p class="jsonly">
+          Choose the desired options and click "Add to Cart". You may also request a quote, please add additional requests and information in the "Notes" field.
+          Your quote request will be sent to your profile's eMail if you are logged in, otherwise enter the email address below (required only if not logged in).
+        </p>
+      </div>
+
+      <div class="col-md-6 jsonly">
+        {% include "_product_config_summary.html" %}
+      </div>
+
+      <noscript class="col-md-12">
+        <div class="alert alert-info">
+          <h4>
+            <strong>
+              Javascript is disabled.
+            </strong>
+            Our configurator is non-interactive without javascript.
+          </h4>
+          <p>
+            You may choose the options you want, click "Request a Quote", and your desired selections
+            will be added to your cart, and a quote request will be sent to us (and a copy to you).
+            We will get back to you shortly with a private online for your requested configuration,
+            as well as our recommendations.
+          </p>
+        </div>
+      </noscript>
+
+      <form action="/cart/" method="POST" class="configform">
+        <input type="hidden" name="sku" id="sku" value="{{ product.sku }}">
+        <table class="configgrid table table-hover col-md-12">
+          <thead>
+            <tr>
+              <th title='Hover over option to see more info'>Option</th>
+              <th>Choices</th>
+              <th title='Hover over choice to see more info'>More Info</th>
+              <th title='Additions / subtactions from base price'>Add/Subtract</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ product.prodopts_as_table|safe }}
+            <tr>
+              <td>Notes</td>
+              <td><textarea id=notes name=notes placeholder="Enter notes here"></textarea></td>
+              <td>Enter notes or custom instructions for this item here</td>
+              <td>&nbsp;</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="col-md-6">
+          <input type="submit" name="add" value="Add to Cart" class="btn btn-lg btn-primary" id="add_to_cart">
+          <input type="submit" name="quote" value="Get a Quote" title='Get a quote on this configuration. Choose the options you want, click "Request a Quote", and your desired selections will be added to your cart, and a quote request will be sent to us (and a copy to you). We will get back to you shortly with a private online for your requested configuration, as well as our recommendations.' class="btn btn-lg btn-primary" id="get_quote">
+          <input type="email" name="email" placeholder="eMail address for quote" style="width:12em">
+        </div>
+
+        <p class="col-md-6">
+          Choose the desired options and click "Add to Cart". You may also request a quote, please add additional requests and information in the "Notes" field.
+          Your quote request will be sent to your profile's eMail if you are logged in, otherwise enter the email address below (required only if not logged in).
+        </p>
+      </form>
+    </div>
+
+    <div class="col-md-12" id="photos">
+      <hr>
+      <h3>
+        More {{ product.name }} Photos
+      </h3>
+      {{ photos }}
+    </div>
+  </div>
+
+
+
+
+{% endblock %}

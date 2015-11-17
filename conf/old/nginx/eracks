@@ -1,0 +1,130 @@
+# Gunicorn wsgi server for Django
+
+upstream django {
+  server         127.0.0.1:8080;
+}
+
+
+# Redirect all requests on the www subdomain to the root domain
+
+server {
+  listen      80;
+  server_name www.eracks.com eracks.co eracks.org www.eracks.org www.eracks.co 216.172.133.15;
+  rewrite ^/(.*) http://eracks.com/$1 permanent;
+}
+
+
+# Serve static files and redirect any other request to Gunicorn
+
+server {
+  listen       80;
+
+  server_name   eracks.com *.eracks.com;
+  root          /home/joe/eracks10/static/;
+  access_log    /var/log/nginx/eracks.com.access.log;
+  error_log     /var/log/nginx/eracks.com.error.log;
+
+  #autoindex     on;    # doesn't work for some reason, even though its in context
+
+  #location      / {    # causes to show foundation (!) even though no root respecified
+  #  autoindex   on;
+  #}
+
+  # nope, $server_name nfg:
+  #access_log   /var/log/nginx/$server_name.access.log;
+  #error_log    /var/log/nginx/$server_name.error.log;
+
+  # for djide, etc, others that still use static prefix - could fix & remove - 10/24/13 JJW
+  location      /static/ {
+    root        /home/joe/eracks10/;
+    autoindex   on;
+  }
+
+  location      /media/ {
+    root        /home/joe/eracks10/;
+    autoindex   on;
+    #try_files $uri $uri/;
+  }
+
+  # nope, can't list them:
+  #location      /js/ /css/ /images/ /stylesheets/ /javascripts/ {
+  #  root        /home/joe/eracks10/static/;
+  #  autoindex   on;
+  #}
+
+
+  # NOTE: Turning these on without a try_files that ends in @django,
+  # disables the JIT behavior, django redirects, etc
+
+  #location      /js/ { autoindex on; }
+  #location      /css/ { autoindex on; }
+  #location      /images/ { autoindex on; }
+  #location      /stylesheets/ { autoindex on; }
+  #location      /javascripts/ { autoindex on; }
+
+  location      = /favicon.ico {
+    root        /home/joe/eracks10/static/images/;
+  }
+
+  #location      / {     # deosnt' work without 'location' - server context seems to override all
+  # Check if a file exists at /.../static/ for the incoming request.
+  # If it doesn't proxy to Gunicorn/Django. **THIS WOULD BE PERFECT FOR JIT_MEDIA!
+  try_files   $uri @django;
+  #autoindex   on;
+  #}
+
+  # Setup named location for Django requests and handle proxy details
+
+  location @django {
+    proxy_pass         http://django;
+    proxy_redirect     off;
+    proxy_set_header   Host             $host;
+    proxy_set_header   X-Real-IP        $remote_addr;
+    proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+  }
+}
+
+
+# same, for SSL
+
+server {
+  listen       216.172.133.15:443;
+
+  server_name eracks.com *.eracks.com;
+  root        /home/joe/eracks10/static/;
+  access_log  /var/log/nginx/eracks.com.access.log;
+  error_log   /var/log/nginx/eracks.com.error.log;
+
+  ssl on;
+  ssl_certificate /etc/ssl/eracks/eracks.crt;
+  ssl_certificate_key /etc/ssl/eracks/eracks.key;
+  ssl_prefer_server_ciphers       on;
+
+  # Note: these disable django-redirects, see note above
+
+  location      /media/ {
+    root        /home/joe/eracks10/;
+  }
+
+  location      /static/ {
+    root        /home/joe/eracks10/;
+  }
+
+  location      = /favicon.ico {
+    root        /home/joe/eracks10/static/images/;
+  }
+
+  # Check if a file exists at $document_root for the incoming request.
+  # If it doesn't proxy to Gunicorn/Django.
+  try_files $uri @django;
+
+  # Setup named location for Django requests and handle proxy details
+  location @django {
+    proxy_pass         http://django;
+    proxy_redirect     off;
+    proxy_set_header   Host             $host;
+    proxy_set_header   X-Real-IP        $remote_addr;
+    proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+    proxy_set_header   X-Forwarded-Protocol ssl;
+  }
+}

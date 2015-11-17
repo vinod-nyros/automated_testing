@@ -1,0 +1,190 @@
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_list.html
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_config_summary.html
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_config_tab.html
+compiling /home/joe/django_eracks/apps/products/templets.py to product.html
+compiling /home/joe/django_eracks/apps/products/templets.py to products.html
+compiling /home/joe/django_eracks/apps/products/templets.py to category.html
+compiling /home/joe/django_eracks/apps/bloglets/templets.py to _bloglet_list.html
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Misc, sohigh: 9,
+    solow: 0, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43882
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Overstock systems,
+    sohigh: 19, solow: 10, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43883
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Coolers, sohigh: 29,
+    solow: 20, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43884
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: 'Laptop misc,
+      accessories, optical drives', sohigh: 59, solow: 50, updated: !!timestamp '2006-01-24
+      20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43886
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Netbooks & accessories,
+    sohigh: 69, solow: 60, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43887
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: LCDs and Notebooks,
+    sohigh: 79, solow: 70, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43888
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Notebook & Handheld
+      accessories, sohigh: 88, solow: 80, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43889
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Desktop & SFF
+      Chasses & Accessories, sohigh: 96, solow: 89, updated: !!timestamp '2006-01-24
+      20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43890
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Power Supplies,
+    sohigh: 199, solow: 181, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43892
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Memory, sohigh: 369,
+    solow: 200, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43893
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Slim Optical Drives
+      and Laptop MiniPCI Accsries, sohigh: 400, solow: 370, updated: !!timestamp '2006-01-24
+      20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43894
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: 'Memory(DDR3),Optical/Tape
+      Drvs, 5.25 Accsries', sohigh: 530, solow: 400, updated: !!timestamp '2006-01-24
+      20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43895
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: 'NIC options,
+      Network and Storage PCI cards', sohigh: 799, solow: 550, updated: !!timestamp '2006-01-24
+      20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43896
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: PCI Cards, sohigh: 899,
+    solow: 800, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43897
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Operating System,
+    sohigh: 999, solow: 900, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43898
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Keyboard & Mouse,
+    sohigh: 1004, solow: 1000, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43899
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: 'Flatpanel Monitors
+      (LCD, TFT, OLED, etc)', sohigh: 1009, solow: 1005, updated: !!timestamp '2006-01-24
+      20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43900
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: 'Rackmount Monitors,
+      KVMs, Cables, and Accessories', sohigh: 1099, solow: 1010, updated: !!timestamp '2006-01-24
+      20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43901
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Rack Cabinets
+      and Accessories, sohigh: 1199, solow: 1100, updated: !!timestamp '2006-01-24
+      20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43902
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: 'Motherboards,
+      CPUs, Combos', sohigh: 1899, solow: 1200, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43903
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: 'Video and Other
+      Add-in cards (AGP, TV, HD, etc)', sohigh: 1910, solow: 1900, updated: !!timestamp '2006-01-24
+      20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43904
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: 'Sound cards,
+      ProAudio, USB & Firewire Periphs', sohigh: 1999, solow: 1920, updated: !!timestamp '2006-01-24
+      20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43905
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: 3Ware Raid Cards,
+    sohigh: 2500, solow: 2000, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43906
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Laptop Modems,
+    sohigh: 2600, solow: 2600, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43907
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Firewire addons,
+    sohigh: 2649, solow: 2601, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43908
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: IPMI Cards & Accessories,
+    sohigh: 2699, solow: 2650, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43909
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: RAID Options,
+    sohigh: 3050, solow: 3000, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43910
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: More Raid Cards,
+    sohigh: 3999, solow: 3051, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43911
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Studio Operating
+      Systems, sohigh: 4049, solow: 4000, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43912
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Virtualization
+      Options, sohigh: 4099, solow: 4050, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43913
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Software Options,
+    sohigh: 4199, solow: 4100, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43914
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Mail Software
+      Options, sohigh: 4299, solow: 4200, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43915
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Database Software
+      Options, sohigh: 4599, solow: 4500, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43916
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: SSD Flash Media,
+    sohigh: 4999, solow: 4900, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43917
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Hard Drives, sohigh: 6999,
+    solow: 5000, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43918
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Warranties, sohigh: 9099,
+    solow: 9000, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43919
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Donation Targets,
+    sohigh: 20999, solow: 20000, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43920
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Donation Amounts,
+    sohigh: 21999, solow: 21000, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43921
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Support options,
+    sohigh: 50999, solow: 50000, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43922
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Tablet Computers
+      and Options, sohigh: 605099, solow: 605000, updated: !!timestamp '2006-01-24
+      20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43923
+- fields: {created: !!timestamp '2006-01-24 20:00:18.395618', name: Misc Hard Drives,
+    sohigh: 995600, solow: 995000, updated: !!timestamp '2006-01-24 20:00:18.395618'}
+  model: products.choicecategory
+  pk: 43924
+- fields: {created: !!timestamp '2009-10-13 15:18:07.991571', name: Tape Drive, sohigh: 24,
+    solow: 24, updated: !!timestamp '2009-10-13 15:18:07.991571'}
+  model: products.choicecategory
+  pk: 43885
+- fields: {created: !!timestamp '2009-10-13 16:12:05.701885', name: Rackmount and
+      i7 chasses, sohigh: 180, solow: 97, updated: !!timestamp '2009-10-13 16:12:05.701885'}
+  model: products.choicecategory
+  pk: 43891

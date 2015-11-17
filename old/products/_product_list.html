@@ -1,0 +1,31 @@
+{% load cache %}
+{% cache 36000 product_list %}
+    <div class="box" id="product_list">
+        <h4>
+            eRacks Products
+        </h4>
+
+        <ul class="nav-bar vertical">
+            {% for cat in Categories_objects.published %}
+                <li class="has-flyout">
+                    <a class="main" href="{{ cat.url }}">
+                        {{ cat.name }}
+                    </a>
+                    <a class="flyout-toggle" href="#">
+                        <span></span>
+                    </a>
+                    <div class="flyout small">
+                        <div class="text_center">
+                            <strong title="{{ cat.title }}" class="hdr">
+                                {{ cat.name }}
+                            </strong>
+                        </div>
+                        <hr>
+                        {{ cat.prods_as_divs }}
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+        <div style="clear:both"></div>
+    </div>
+{% endcache %}

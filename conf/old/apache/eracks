@@ -1,0 +1,37 @@
+#NameVirtualHost *:80
+<VirtualHost *:80>
+	ServerAdmin joe@eracks.com
+	ServerName eracks.com
+	ServerAlias www.eracks.com eracks.org www.eracks.org
+	#   *.eracks.com 
+	
+	<Location />
+	    Order Deny,Allow
+	    Allow from all
+	</Location>
+
+    # JJW 2/3/12
+    ProxyPass /static !
+	ProxyPass / http://127.0.0.1:7080/VirtualHostBase/http/eracks.com:80/eRacks/VirtualHostRoot/
+	ProxyPassReverse / http://127.0.0.1:7080/VirtualHostBase/http/eracks.com:80/eRacks/VirtualHostRoot/
+	ProxyPass /misc_ http://127.0.0.1:7080/misc_
+	ProxyPass /p_ http://127.0.0.1:7080/p_
+	ProxyVia on	
+
+    # JJW 2/3/12
+    Alias /static /var/www/static
+    <Directory /var/www/static>
+	Options Indexes FollowSymLinks MultiViews
+	AllowOverride None
+	Order allow,deny
+	allow from all
+    </Directory>
+
+	ErrorLog /var/log/apache2/error-eracks.log
+	LogLevel warn
+        # comment out BOTH of these when implementing logdb2 - the only reason the 2nd is needed is because of the 1st
+        CustomLog /var/log/apache2/access-eracks.log vhost_combined
+        #CustomLog /var/log/apache2/access.logdb logdb
+
+	ServerSignature On
+</VirtualHost>

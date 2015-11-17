@@ -1,0 +1,626 @@
+# OK let's try one of these organized vertically instead -
+#
+# We'll put the orders-app-related templates in here -
+# Legacy-theme templates start with legacy/, Generic ones don't
+
+
+## Theme-agnostic
+
+admin_grid.html:
+  minaml: |
+    %extends "admin/base_site.html"
+    %block content_title
+      h1 | Legacy Orders Grid (Admin)
+    %block content
+      table
+        tr
+          th | Order ID
+          th | eMail
+          th | Status
+          th | Name
+          th | Organization
+          th | Pmt By
+          th | COGS
+          th | Notes
+          th | Ordered
+          th | Shipped
+        %for order in orders
+          tr
+            th
+              =order.id
+            td
+              % firstof email title billemail
+            td
+              =order.orderstatus
+            td width="10%"
+              =order.name
+            td width="10%"
+              =order.org
+            ::comment
+              td
+                =order.total
+            td
+              =order.paymeth
+            td title="{{ order.internalnotes }}"
+              =order.costofgoods
+            td
+              =order.internalnotes
+            td
+              =order.orderdate|date:"D m/d/y H:i"
+            td
+              =order.shipdate|date:"D m/d/y"
+
+
+cart.html:
+  minaml: |
+    %extends "base.html"
+    ::comment
+      #this doesn't work; no way to inject verbatim stuff without tag
+      %block head_styles
+        VERBATIM
+          table {
+            padding:15px;
+          }
+    %block head_bottom
+      style VERBATIM
+        /* cart styles */
+        #cartform td, #cartform th {
+          padding:15px;
+        }
+    %block content
+      .col-lg-9.col-md-9.col-sm-7
+        h1.section-title-inner
+          span
+            i.glyphicon.glyphicon-shopping-cart ||
+            Your Cart
+        .row.userInfo
+          .col-xs-12.col-sm-12
+            .cartContent.w100
+              %if content
+                form#cartform action="/cart/" method=POST
+                  =content|safe
+                  .cartFooter w100
+                    .box-footer
+                      .pull-left
+                        a.btn.btn-default href="/"
+                          i.fa.fa-arrow-left ||
+                          &nbsp; Continue shopping
+                      .pull-right
+                        button.btn.btn-info type=submit name=update value=UpdateQuantities title="Update Quantities"
+                          i.fa.fa-undo ||
+                          &nbsp; Update Quantities
+                      &nbsp;
+                      .pull-right
+                        button.btn.btn-default type=submit name=delete style="margin-right:20px" value=EmptyCart title="Empty Cart"
+                          i.fa.fa-trash-o ||
+                          &nbsp; Empty Cart
+                > br
+                %else
+                h3 | Your cart is empty!
+                h5
+                  a href=/ | Return to shopping
+                > br
+      .col-lg-3.col-md-3.col-sm-5.rightSidebar
+        .contentBox
+          .w100.costDetails
+            .table-block#order-detail-content
+              a.btn.btn-primary.btn-lg.btn-block title=checkout href=/checkout/ style="margin-bottom:20px"
+                Proceed to checkout &nbsp; <i class="fa fa-arrow-right"></i>
+              .w100.cartMiniTable
+                table.std.table#cart-summary
+                  =summary|safe
+
+
+legacy/cart.html:
+  minaml: |
+    %extends "base.html"
+    %block content_row
+      form#cartform action="/cart/" method=POST
+        .row#title_row
+          .two.columns
+            #back
+              a href=/showroom/ | Continue Shopping
+          .eight.columns
+            %block content_title
+              h1 | Your Cart
+          .two.columns
+            #next
+              a href=/checkout/ | Check<br>Out
+        .row#content_row
+          .one.columns
+            &nbsp;
+          .ten.columns
+            %block content
+              > br
+              %if content
+                =content|safe
+                > input.nice.green.radius.button type=submit name=update value="Update Quantities"
+                > input.nice.green.radius.button type=submit name=delete value="Empty Cart"
+                > br
+                > br
+              %if not content
+                h3 | Your cart is empty!
+                h5
+                  a href=/ | Return to shopping
+                > br
+                > br
+          .one.columns
+              &nbsp;
+
+
+## Generic:
+
+_checkout_form.html:
+  minaml: |
+    thead
+      tr
+        th colspan=3
+          =form.header|safe
+    tr
+      td colspan=3
+        =form.non_field_errors
+    %for field in form
+      tr
+        th
+          =field.label
+        td
+          =field.errors
+          =field
+        td title="{{ field.help_text|striptags }}"
+          =field.help_text|safe
+
+
+legacy/checkout.html:
+  minaml: |
+    %extends "base.html"
+    ::comment
+      %block head_bottom
+        <script>var aha;</script>
+    %block content_row
+      form.nice#checkoutform action="/checkout/confirm/" method=POST
+        .row#title_row
+          .two.columns
+            #back
+              a href=/cart/ | Your Cart
+          .eight.columns
+            %block content_title
+              h1 | Checkout
+          .two.columns
+            #next
+              a href=/checkout/ | Confirm<br>Order
+        .row#content_row
+          .two.columns
+            &nbsp;
+          .eight.columns
+            %block content
+              > br
+              h3
+                Your Order: {{ totqty }} item{{ totqty|pluralize }}, US${{ grandtot|floatformat:2 }} pretax/shipping
+              h5
+                Name:
+                =user.first_name
+                =user.last_name
+                User:
+                =user
+                eMail:
+                =user.email
+              > br
+              %for form in formlist
+                table id="{{form.myname}}"
+                  =form
+              > input.nice.green.radius.button type=submit name=update value="Update"
+              > br
+              > br
+          .two.columns
+            &nbsp;
+    %block js_bottom
+      =customer_form.media
+      script type=text/javascript VERBATIM
+        $('#next a').click (function(event) {
+            event.preventDefault();
+            $('#checkoutform').submit();
+        });
+
+
+# Generic:
+
+checkout.html:
+  minaml: |
+    %extends "base.html"
+    %block head_bottom
+      style VERBATIM
+        /* checkout styles */
+        #checkoutform table, table#cart-summary {
+          background-color: whitesmoke;
+        }
+        #checkoutform table {
+          width: 95%;
+          margin-top: 10px;
+        }
+        #checkoutform th {
+          /* padding: 5px 10px; */
+        }
+        #checkoutform td {
+          padding: 2px 10px;
+          font-size: small;
+        }
+        #checkoutform tbody th {
+          text-align: right;
+          width: 160px;
+        }
+        #checkoutform thead th {
+          padding: 5px 10px;
+          background-color: #ccf;  /* #ddf; */
+        }
+        #checkoutform thead {
+          border-bottom: 1px solid lightgray;
+          font-size: large;
+        }
+        #checkoutform input[type=text], #checkoutform input[type=email], #checkoutform select, #checkoutform textarea, .expirydatefield {
+          width: 250px;
+          color: darkslategrey;
+          padding-left: 5px;
+          margin-bottom: 0;
+          height: initial;
+        }
+        #checkoutform table textarea {
+          height: 4em;
+        }
+        #checkoutform input[type=radio], #checkoutform ul {
+          padding-left: 0;
+          margin-bottom: 0;
+        }
+        #checkoutform label {
+          font-size: small;
+          display: initial;
+        }
+        #checkoutform li {
+          list-style-type: none;
+        }
+        #checkoutform table th img {
+          float: right;
+        }
+        #checkoutform ul.errorlist {
+          color: red;
+        }
+    %block content
+      .col-lg-9.col-md-9.col-sm-7
+        h1.section-title-inner
+          span
+            i.glyphicon.glyphicon-shopping-cart ||
+            Checkout - Your Info
+        .row.userInfo
+          form#checkoutform action="/checkout/confirm/" method=POST
+            .row#content_row
+              %for form in formlist
+                table id="{{form.myname}}"
+                  =form
+              a.btn.btn-primary.btn-lg.btn-block.review_order title=checkout href=/checkout/confirm/ style="margin-top:20px"
+                Review and Confirm Order &nbsp; <i class="fa fa-arrow-right"></i>
+      .col-lg-3.col-md-3.col-sm-5.rightSidebar
+        .contentBox
+          .w100.costDetails
+            .table-block#order-detail-content
+              a.btn.btn-primary.btn-lg.btn-block.review_order title=checkout href=/checkout/confirm/ style="margin-bottom:20px"
+                Review Order &nbsp; <i class="fa fa-arrow-right"></i>
+              .w100.cartMiniTable
+                table.std.table#cart-summary
+                  =summary|safe
+    %block js_bottom
+      =customer_form.media
+      script type=text/javascript VERBATIM
+        $('a.review_order').click (function(event) {
+            event.preventDefault();
+            $('#checkoutform').submit();
+        });
+
+
+## Generic
+
+_addr.html:
+  minaml: |
+    tr
+      td
+        %firstof addr.name '&nbsp;'
+    tr
+      td
+        =addr.address1
+    %if addr.address2
+      tr
+        td
+          =addr.address2
+    tr > td | {{ addr.city }}, {{ addr.state }}
+    tr
+      td
+        =addr.zip
+        =addr.country
+    tr
+      td
+        =addr.customer.email
+
+
+
+_final_cart.html:
+  minaml: |
+    %load expr
+    #final_cart
+      %if order.id
+        table#order_info border=0 cellpading=5 cellspacing=0
+          tr
+            th align=left | Order Number
+            td |= order.id
+          tr
+            th align=left | Order Date
+            td |= order.created
+      table#outer_address width=100% border=1 style="border:0; margin:0; padding:0;"
+        tr
+          td style="padding:0"
+            table width=100%
+              thead > tr > th | Ship To
+              tbody
+                %with addr=ses.shipping_address
+                  %include "_addr.html"
+          td style="padding:0"
+            table width=100%
+              thead > tr > th | Bill To
+              tbody
+                %with addr=ses.billing_address
+                  %include "_addr.html"
+            ::comment
+                =seshelp.cart_details|safe
+      table width=100% border=0
+        thead
+          tr
+            th | Reference / PO Number
+            th | Payment Meth
+            th | Payment Terms
+            th | Special Instructions
+        tr
+          td style="text-align:center" |= order.reference_number
+          td style="text-align:center" |= payment.get_payment_method_display
+          td style="text-align:center"
+            %firstof payment.get_payment_terms_display 'TBD'
+            = payment.last_4
+          td style="text-align:center" |= order.special_instructions
+      table border=0
+        thead
+          tr
+            th | Line
+            th | Sku
+            th | Summary
+            th | Notes
+            th | Qty
+            th | Price
+            th | Ext
+        %for line in ses.cart
+          tr
+            td |= forloop.counter
+            td |= line.sku
+            td |= line.summary|safe
+            td |= line.notes
+            td |= line.qty
+            td | ${{ line.totprice|floatformat:2 }}
+            td | {% expr line['totprice']*line['qty'] as extprice %}${{ extprice|floatformat:2 }}
+            ::comment
+                {{ line.qty*line.totprice }}
+        tr
+          ::comment
+              %with smry=seshelp.cart_summary
+          td colspan=6 > strong | Subtotal for {{ totqty }} item{{ totqty|pluralize }}:
+          td > strong | ${{ grandtot|floatformat:2 }}
+        %if ses.order.california_tax
+          tr
+            td colspan=6 | Sales Tax ({{ ses.order.california_tax }}, {{ ses.order.california_tax.tax }})
+            ::comment
+                td | {% expr float(ses['order'].california_tax.tax)*seshelp.cart_summary() ['grandtot']/100.0 as tax %}${{ tax|floatformat:2 }}
+            td | ${{ tax|floatformat:2 }}
+        %if ses.order.shipping_payment == "included"
+          tr
+            td colspan=6 | Shipping & Handling ({{ ses.order.shipping_method }}, {{ ses.order.preferred_shipper }})
+            td | ${{ ses.order.shipping|floatformat:2 }}
+        tr
+          ::comment
+              %with smry=seshelp.cart_summary
+          td colspan=6 > strong | Grand Total for {{ totqty }} item{{ totqty|pluralize }} with tax & shipping:
+          ::comment
+              td > strong | {% expr smry['grandtot']+tax as gtts %}${{ gtts|floatformat:2 }}
+              td > strong | {% expr grandtot+tax+float(shipping) as gtts %}${{ gtts|floatformat:2 }}
+          td > strong | ${{ gtts|floatformat:2 }}
+
+
+legacy/confirm.html:
+  minaml: |
+    %extends "base.html"
+    %block content_row
+      form.nice#confirmform action="/checkout/order/" method=POST
+        .row#title_row
+          .two.columns
+            #back
+              a href=/checkout/ | Edit<br>Info
+          .eight.columns
+            %block content_title
+              h1 | Confirm Your Order
+          .two.columns
+            #next
+              a href=/checkout/order/ | Place<br>Order
+        .row#content_row
+          .two.columns
+            &nbsp;
+          .eight.columns
+            %block content
+              .panel
+                %include "_final_cart.html"
+                p.clearfix
+                    &nbsp;
+              > br
+              h3
+                Your Order: {{ totqty }} item{{ totqty|pluralize }}, US${{ gtts|floatformat:2 }} with tax & shipping
+              h5
+                Name:
+                =user.first_name
+                =user.last_name
+                User:
+                =user
+                eMail:
+                =user.email
+              > br
+              > input.nice.green.radius.button type=submit name=order value="Place Order"
+              > br
+              > br
+          .two.columns
+              &nbsp;
+    %block js_bottom
+      <!-- begin js_bottom -->
+      =customer_form.media
+      <!-- end js_bottom -->
+
+confirm.html:
+  minaml: |
+    %extends "base.html"
+    %block head_bottom
+      style VERBATIM
+        #final_cart {
+          background-color: whitesmoke;
+          margin_bottom: 20px;
+          padding_bottom: 1px;
+        }
+        #confirmform table, table#cart-summary {
+          background-color: whitesmoke;
+        }
+        table#outer_address {
+          /* margin: 0; */
+          width: 97.5% !important;
+          margin-bottom: -20px !important;
+        }
+        #confirmform table {
+          width: 95%;
+          margin: 20px;
+          border: 1px solid black;
+        }
+        #confirmform td, #confirmform th {
+          padding: 5px 15px;
+        }
+        #confirmform th {
+          text-align: center;
+          background-color: #ddf;
+          font-size: medium;
+        }
+        #confirmform thead {
+          border-bottom: 1px solid lightgray;
+          font-size: large;
+        }
+    %block content
+      .col-lg-9.col-md-9.col-sm-7
+        h1.section-title-inner
+          span
+            i.glyphicon.glyphicon-shopping-cart ||
+            Checkout - Review/Confirm Your Order
+        .row.userInfo
+          form.nice#confirmform action="/checkout/order/" method=POST
+            %include "_final_cart.html"
+            a.btn.btn-primary.btn-lg.btn-block.place_order title=checkout href=/checkout/confirm/ style="margin-bottom:20px"
+              Place Your Order &nbsp; <i class="fa fa-arrow-right"></i>
+      .col-lg-3.col-md-3.col-sm-5.rightSidebar
+        .contentBox
+          .w100.costDetails
+            .table-block#order-detail-content
+              a.btn.btn-primary.btn-lg.btn-block.place_order title=checkout href=/checkout/confirm/ style="margin-bottom:20px"
+                Place Your Order &nbsp; <i class="fa fa-arrow-right"></i>
+              .w100.cartMiniTable
+                table.std.table#cart-summary
+                  =summary|safe
+    %block js_bottom
+      =customer_form.media
+      script type=text/javascript VERBATIM
+        $('a.place_order').click (function(event) {
+            event.preventDefault();
+            $('#confirmform').submit();
+        });
+
+email_order.html:
+  minaml:
+    html
+      body
+        h1
+          Your eRacks Order
+        %include "_final_cart.html"
+
+
+legacy/ordered.html:
+  minaml: |
+    %extends "base.html"
+    %block content_row
+      .row#content_row
+        .two.columns
+          &nbsp;
+        .eight.columns
+          %block content
+            h1
+              Thank you for your order!
+            .panel
+              %include "_final_cart.html"
+              p.clearfix
+                &nbsp;
+            > br
+            h4
+              Please print this page for your records.
+            p
+              An email confirmation has also been sent to
+              %firstof order.customer.email order.customer.user.email
+        .two.columns
+          &nbsp;
+
+
+ordered.html:
+  minaml: |
+    %extends "base.html"
+    %block head_bottom
+      style VERBATIM
+        #final_cart {
+          background-color: whitesmoke;
+          margin_bottom: 20px;
+          padding_bottom: 1px;
+        }
+        table#order_info {
+          width: initial !important;
+        }
+        table#outer_address {
+          /* margin: 0; */
+          width: 97.5% !important;
+          margin-bottom: -20px !important;
+        }
+        #final_cart table {
+          width: 95%;
+          margin: 20px;
+          border: 1px solid black;
+        }
+        #final_cart td, #final_cart th {
+          padding: 5px 15px;
+        }
+        #final_cart th {
+          text-align: center;
+          background-color: #ddf;
+          font-size: medium;
+        }
+        #final_cart thead {
+          border-bottom: 1px solid lightgray;
+          font-size: large;
+        }
+    %block content
+      .row#content
+        h1.section-title-inner
+          span
+            i.glyphicon.glyphicon-shopping-cart ||
+            Checkout - Your Order Confirmation
+        .panel
+          %include "_final_cart.html"
+        > br
+        h3
+          Thank you for your order!
+        h4
+          Please print this page for your records.
+        p
+          An email confirmation has also been sent to
+          %firstof order.customer.email order.customer.user.email
+
+

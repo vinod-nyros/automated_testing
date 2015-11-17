@@ -1,0 +1,77 @@
+
+{#  WARNING: GENERATED FILE - EDITS WILL BE LOST  #}
+{#  GENERATED FROM: theme-legacy.yaml at line 727 on 2015-11-09 at 19:41:48 PST(GMT-0800)  #}
+
+<div id="header_right">
+    <div class="row">
+        <div class="eight columns offset-by-three">
+            <ul class="rounded_bottom nav-bar flush_top" id="nav_account">
+                {% if user.is_authenticated %}
+                    <li>
+                        <a href="{% url "userena_profile_detail" user.username %}">{{ user.username }}'s Account</a>
+                    </li>
+                    <li>
+                        <a href="{% url "userena_signout" %}">Logout</a>
+                    </li>
+                {% endif %}
+                {% if not user.is_authenticated %}
+                    <li>
+                        <a href="#" data-reveal-id="signin_signup_modal">Login / Register</a>
+                    </li>
+                {% endif %}
+                <li>
+                    <a href='/cart/' title='Your Cart'>
+                        <img src='/images/orders/cart.gif' alt='Cart' title="Your Cart">
+                        {% if cart_totqty %}
+                            {{ cart_totqty }}
+                            items, $
+                            {{ cart_grandtot|floatformat:2 }}
+                        {% endif %}
+                        {% if not cart_totqty %}
+                            (Empty)
+                        {% endif %}
+                    </a>
+                </li>
+                <li class="has-flyout">
+                  <a href="#">Theme</a>
+                  <a href="#" class="flyout-toggle"><span></span></a>
+                  <div style="margin-top:-14px;padding:0" class="flyout small" id="themes">
+                    <style>
+                      #themes a { color: black; padding: 7px; }
+                      #themes a:hover { background-color: whitesmoke; }
+                    </style>
+                    <div>
+                      <a href="?theme=legacy" style="color:black">Legacy eRacks theme (Default)</a>
+                    </div>
+                    <div>
+                      <a href="?theme=assan" style="color:black;:hover{color:blue}">Assan theme - BETA</a>
+                    </div>
+                    <div>
+                      <a href="?theme=tshop" style="color:black">Tshop theme - BETA</a>
+                    </div>
+                  </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="seven columns">
+            {{ os_logos }}
+        </div>
+        <div class="four columns" id="contactbox">
+            <table>
+                <tr>
+                    <td>
+                        eMail:
+                    </td>
+                    <td>
+                        <a href="mailto:info@eracks.com">info@eracks.com</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="one column">
+            &nbsp;
+        </div>
+    </div>
+</div>

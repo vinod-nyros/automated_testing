@@ -1,0 +1,11 @@
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_list.html
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_config_summary.html
+compiling /home/joe/django_eracks/apps/products/templets.py to _product_config_tab.html
+compiling /home/joe/django_eracks/apps/products/templets.py to product.html
+compiling /home/joe/django_eracks/apps/products/templets.py to products.html
+compiling /home/joe/django_eracks/apps/products/templets.py to category.html
+compiling /home/joe/django_eracks/apps/bloglets/templets.py to _bloglet_list.html
+- fields: {created: !!timestamp '2009-01-05 14:32:21.932779', published: true, slug: eracks-news,
+    title: eRacks News, updated: !!timestamp '2009-01-05 14:32:21.932821'}
+  model: bloglets.category
+  pk: 1
