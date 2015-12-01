@@ -6,13 +6,4 @@ dev:
         code: python manage.py runserver
         reload: true
 
-box: python:2.7
-  services:
-    - wercker/postgresql
-  build:
-    steps:
-      - script:
-          name: test
-          code: |
-            python manage.py test 
 
