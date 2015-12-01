@@ -1,9 +1,31 @@
-box: python:2.7-slim
-dev:
+# box: python:2.7-slim
+# dev:
+#   steps:
+#     - pip-install
+#     - internal/watch:
+#         code: python manage.py runserver
+#         reload: true
+
+
+
+box: wercker/python
+services:
+    - wercker/postgresql # Don't forget to add your databases as a service
+
+# Build definition
+build:
+
+  # The steps that will be executed on build
   steps:
-    - pip-install
-    - internal/watch:
-        code: python manage.py runserver
-        reload: true
+    - virtualenv:
+        name: setup virtual environment
 
+    - pip-install:
+        requirements_file: "requirements.txt" # Optional argument.
 
+    # A custom script step, name value is used in the UI
+    # and the code value contains the command that get executed
+    - script:
+        name: test
+        code: |
+          python manage.py test
